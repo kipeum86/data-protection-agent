@@ -244,6 +244,56 @@ RECITAL_AS_BINDING_RE = re.compile(
     flags=re.I,
 )
 
+# EDPB binding-language verbs. Used in conjunction with EDPB doc citations
+# to detect treating non-binding docs (Guidelines/Statement/Opinion/etc.)
+# as operative rules. EDPB Binding Decisions (Art. 65 GDPR) are exempt.
+EDPB_BINDING_VERBS_RE = re.compile(
+    r"\b(?:requires|mandates|obligates|prohibits|imposes|"
+    r"compels|must\s+follow|are\s+binding|is\s+binding)\b",
+    flags=re.I,
+)
+
+
+def check_edpb_doc_as_binding(
+    text: str,
+    edpb_hits: list[tuple[str, str | None]],
+) -> list[Finding]:
+    """Warn when a non-binding EDPB doc (Guidelines/Statement/Opinion/etc.)
+    is cited with binding language.
+
+    EDPB Binding Decisions (Art. 65 GDPR consistency mechanism) ARE binding
+    on supervisory authorities. All other EDPB doc types are interpretive
+    guidance and must not be cited as operative rule.
+
+    Detection rule: doc_id startswith 'a-binding-' is the only binding type.
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for citation, doc_id in edpb_hits:
+        if doc_id is None or citation in seen:
+            continue
+        if doc_id.startswith("a-binding-"):
+            continue
+        seen.add(citation)
+        for match in re.finditer(re.escape(citation), text, flags=re.I):
+            window_start = max(0, match.start() - 80)
+            window_end = min(len(text), match.end() + 120)
+            window = text[window_start:window_end]
+            if EDPB_BINDING_VERBS_RE.search(window):
+                findings.append(Finding(
+                    severity="warn",
+                    citation=citation,
+                    message="EDPB non-binding document cited as binding rule.",
+                    suggested_fix=(
+                        "EDPB Guidelines/Statements/Opinions/Recommendations are "
+                        "interpretive guidance, not operative rules. Only EDPB "
+                        "Binding Decisions (Art. 65 GDPR) are binding. Cite the "
+                        "underlying GDPR Article for binding obligations."
+                    ),
+                ))
+                break
+    return findings
+
 
 def check_recital_as_binding(text: str) -> list[Finding]:
     """Warn when a Recital is cited as a binding rule.
@@ -341,6 +391,7 @@ def audit(text: str) -> dict[str, Any]:
         ))
 
     findings.extend(check_recital_as_binding(text))
+    findings.extend(check_edpb_doc_as_binding(text, edpb_hits))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

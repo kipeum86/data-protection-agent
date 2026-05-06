@@ -125,3 +125,46 @@ def test_missing_edpb_document_fails():
         "EDPB document citation does not exist" in f["message"]
         for f in result["findings"]
     )
+
+
+def test_edpb_guidelines_as_binding_warns():
+    from citation_auditor.europe_citation import load_edpb_lookup
+    lookup = load_edpb_lookup()
+    guideline_doc = next((k for k in lookup if "Guidelines" in k), None)
+    if not guideline_doc:
+        return
+    result = audit(f"EDPB {guideline_doc} requires controllers to encrypt all data.")
+    assert result["status"] == "warn"
+    assert any(
+        "EDPB non-binding document cited as binding" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_edpb_binding_decision_as_binding_passes():
+    from citation_auditor.europe_citation import load_edpb_lookup
+    lookup = load_edpb_lookup()
+    binding_doc = next((k for k in lookup if "Binding Decision" in k), None)
+    if not binding_doc:
+        return
+    result = audit(f"EDPB {binding_doc} requires the controller to act.")
+    assert not any(
+        "EDPB non-binding document cited as binding" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_edpb_guidelines_as_interpretive_passes():
+    from citation_auditor.europe_citation import load_edpb_lookup
+    lookup = load_edpb_lookup()
+    guideline_doc = next((k for k in lookup if "Guidelines" in k), None)
+    if not guideline_doc:
+        return
+    result = audit(
+        f"EDPB {guideline_doc} provides helpful interpretation of GDPR Article 6."
+    )
+    binding_findings = [
+        f for f in result["findings"]
+        if "EDPB non-binding document cited as binding" in f["message"]
+    ]
+    assert not binding_findings
