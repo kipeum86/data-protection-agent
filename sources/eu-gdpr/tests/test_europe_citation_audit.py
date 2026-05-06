@@ -59,3 +59,69 @@ def test_recital_as_interpretive_aid_passes():
     )
     binding_findings = [f for f in result["findings"] if "Recital cited as binding" in f["message"]]
     assert not binding_findings
+
+
+def test_existing_cjeu_case_number_passes():
+    from citation_auditor.europe_citation import load_case_lookup
+    lookup = load_case_lookup()
+    if not lookup:
+        return
+    case_num = next(iter(lookup))
+    result = audit(f"Per {case_num}, the CJEU held that controllers must act.")
+    assert not any(
+        "CJEU/GC case citation does not exist" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_missing_cjeu_case_number_fails():
+    result = audit("Per Case C-9999/99, the court held controllers must act.")
+    assert result["status"] == "fail"
+    assert any(
+        "CJEU/GC case citation does not exist" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_existing_ecli_passes():
+    from citation_auditor.europe_citation import load_ecli_lookup
+    lookup = load_ecli_lookup()
+    if not lookup:
+        return
+    ecli = next(iter(lookup))
+    result = audit(f"See {ecli} for the holding.")
+    assert not any(
+        "ECLI does not resolve" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_missing_ecli_fails():
+    result = audit("See ECLI:EU:C:9999:1 for the holding.")
+    assert result["status"] == "fail"
+    assert any(
+        "ECLI does not resolve" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_existing_edpb_document_passes():
+    from citation_auditor.europe_citation import load_edpb_lookup
+    lookup = load_edpb_lookup()
+    if not lookup:
+        return
+    doc_num = next(iter(lookup))
+    result = audit(f"EDPB {doc_num} provides interpretation of GDPR Article 6.")
+    assert not any(
+        "EDPB document citation does not exist" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_missing_edpb_document_fails():
+    result = audit("EDPB Guidelines 99/9999 provides interpretation of GDPR Article 6.")
+    assert result["status"] == "fail"
+    assert any(
+        "EDPB document citation does not exist" in f["message"]
+        for f in result["findings"]
+    )

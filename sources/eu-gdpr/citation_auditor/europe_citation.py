@@ -58,6 +58,45 @@ def load_valid_ids() -> dict[str, set[str]]:
     }
 
 
+def load_case_lookup() -> dict[str, str]:
+    """Returns {case_number: case_id} for human-readable case citations.
+
+    Example: {'C-131/12': 'a-precedent-c-131-12-google-spain'}.
+    """
+    cases = load_json("case-index.json").get("cases", [])
+    return {
+        c["case_number"]: c["id"]
+        for c in cases
+        if c.get("case_number") and c.get("id")
+    }
+
+
+def load_ecli_lookup() -> dict[str, str]:
+    """Returns {ecli: case_id}. ECLI is European Case Law Identifier.
+
+    Example: {'ECLI:EU:C:2014:317': 'a-precedent-c-131-12-google-spain'}.
+    """
+    cases = load_json("case-index.json").get("cases", [])
+    return {
+        c["ecli"]: c["id"]
+        for c in cases
+        if c.get("ecli") and c.get("id")
+    }
+
+
+def load_edpb_lookup() -> dict[str, str]:
+    """Returns {document_number: edpb_doc_id} for human-readable EDPB doc citations.
+
+    Example: {'Guidelines 01/2020': 'a-guideline-guidelines-01-2020'}.
+    """
+    docs = load_json("edpb-document-index.json").get("documents", [])
+    return {
+        d["document_number"]: d["id"]
+        for d in docs
+        if d.get("document_number") and d.get("id")
+    }
+
+
 # Article patterns. Longer / more specific patterns first so they win the match.
 ARTICLE_PATTERNS: tuple[tuple[str, str], ...] = (
     # Data Governance Act (longer than Data Act, must come first)
@@ -79,6 +118,26 @@ RECITAL_PATTERNS: tuple[tuple[str, str], ...] = (
     (r"Recital\s+(\d+)\s+(?:of\s+the\s+)?GDPR", "gdpr-recitals-recital{}"),
 )
 
+# CJEU/General Court case number: 'Case C-131/12' or just 'C-131/12'.
+# T- prefix is the General Court.
+CASE_NUMBER_RE = re.compile(r"\b(?:Case\s+)?([CT]-\d+/\d+)\b")
+
+# ECLI (European Case Law Identifier): 'ECLI:EU:C:2014:317'.
+ECLI_RE = re.compile(r"\bECLI:EU:[CT]:\d{4}:\d+\b")
+
+# EDPB document references. Common forms:
+#   "Guidelines 01/2020" / "EDPB Guidelines 01/2020"
+#   "Opinion 5/2019"
+#   "Statement 02/2019"
+#   "Recommendation 01/2020"
+#   "Binding Decision 1/2021"
+EDPB_DOC_RE = re.compile(
+    r"\b(?:EDPB\s+)?"
+    r"(Guidelines?|Opinion|Statement|Recommendation|Endorsement|Binding\s+Decision)"
+    r"\s+(\d{1,2}/\d{4})\b",
+    flags=re.I,
+)
+
 
 def article_citations(text: str) -> list[tuple[str, str]]:
     results: list[tuple[str, str]] = []
@@ -94,6 +153,62 @@ def recital_citations(text: str) -> list[tuple[str, str]]:
         for match in re.finditer(pattern, text, flags=re.I):
             results.append((match.group(0), template.format(match.group(1))))
     return _dedupe(results)
+
+
+def case_number_citations(
+    text: str, case_lookup: dict[str, str]
+) -> list[tuple[str, str | None]]:
+    """Returns [(citation_text, case_id_or_None_for_missing)].
+
+    None means the case_number was found in text but not in case-index.json.
+    """
+    results: list[tuple[str, str | None]] = []
+    seen: set[str] = set()
+    for match in CASE_NUMBER_RE.finditer(text):
+        case_num = match.group(1)
+        if case_num in seen:
+            continue
+        seen.add(case_num)
+        results.append((match.group(0), case_lookup.get(case_num)))
+    return results
+
+
+def ecli_citations(
+    text: str, ecli_lookup: dict[str, str]
+) -> list[tuple[str, str | None]]:
+    results: list[tuple[str, str | None]] = []
+    seen: set[str] = set()
+    for match in ECLI_RE.finditer(text):
+        ecli = match.group(0)
+        if ecli in seen:
+            continue
+        seen.add(ecli)
+        results.append((ecli, ecli_lookup.get(ecli)))
+    return results
+
+
+def edpb_citations(
+    text: str, edpb_lookup: dict[str, str]
+) -> list[tuple[str, str | None]]:
+    """Match EDPB document references; reconstruct canonical document_number."""
+    results: list[tuple[str, str | None]] = []
+    seen: set[str] = set()
+    for match in EDPB_DOC_RE.finditer(text):
+        doc_type = match.group(1).strip()
+        # Normalize: index uses plural 'Guidelines'. Other types: first letter
+        # upper, rest as-is to preserve 'Binding Decision' (compound).
+        if doc_type.lower().rstrip("s") == "guideline":
+            doc_type = "Guidelines"
+        else:
+            # Preserve compound types ('Binding Decision') by lowercasing all
+            # then upper-casing each word's first letter.
+            doc_type = " ".join(w[:1].upper() + w[1:].lower() for w in doc_type.split())
+        canonical = f"{doc_type} {match.group(2)}"
+        if canonical in seen:
+            continue
+        seen.add(canonical)
+        results.append((match.group(0), edpb_lookup.get(canonical)))
+    return results
 
 
 def local_id_citations(text: str) -> list[str]:
@@ -152,10 +267,16 @@ def check_recital_as_binding(text: str) -> list[Finding]:
 
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
+    case_lookup = load_case_lookup()
+    ecli_lookup = load_ecli_lookup()
+    edpb_lookup = load_edpb_lookup()
     findings: list[Finding] = []
 
     article_hits = article_citations(text)
     recital_hits = recital_citations(text)
+    case_hits = case_number_citations(text, case_lookup)
+    ecli_hits = ecli_citations(text, ecli_lookup)
+    edpb_hits = edpb_citations(text, edpb_lookup)
     local_ids = local_id_citations(text)
 
     for citation, source_id in article_hits:
@@ -174,6 +295,33 @@ def audit(text: str) -> dict[str, Any]:
                 citation=citation,
                 message=f"Recital citation does not exist in recital-index.json: {source_id}",
                 suggested_fix="Check the recital number or refresh the EU recital index.",
+            ))
+
+    for citation, case_id in case_hits:
+        if case_id is None:
+            findings.append(Finding(
+                severity="error",
+                citation=citation,
+                message=f"CJEU/GC case citation does not exist in case-index.json: {citation}",
+                suggested_fix="Check the case number or refresh the EU case index.",
+            ))
+
+    for citation, ecli_id in ecli_hits:
+        if ecli_id is None:
+            findings.append(Finding(
+                severity="error",
+                citation=citation,
+                message=f"ECLI does not resolve to any case in case-index.json: {citation}",
+                suggested_fix="Check the ECLI or refresh the EU case index.",
+            ))
+
+    for citation, doc_id in edpb_hits:
+        if doc_id is None:
+            findings.append(Finding(
+                severity="error",
+                citation=citation,
+                message=f"EDPB document citation does not exist in edpb-document-index.json: {citation}",
+                suggested_fix="Check the document number or refresh the EU EDPB index.",
             ))
 
     all_valid = ids["articles"] | ids["recitals"] | ids["cases"] | ids["edpb"] | ids["enforcement"]
@@ -201,6 +349,9 @@ def audit(text: str) -> dict[str, Any]:
         "coverage": {
             "article_citations_checked": len(article_hits),
             "recital_citations_checked": len(recital_hits),
+            "case_citations_checked": len(case_hits),
+            "ecli_citations_checked": len(ecli_hits),
+            "edpb_citations_checked": len(edpb_hits),
             "local_ids_checked": len(local_ids),
         },
     }
