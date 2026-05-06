@@ -37,7 +37,7 @@ This includes:
 ## Rule 3 — Sanitize role-marker tokens before LLM context entry.
 
 If a sanitizer utility is present in the relevant sub-KB
-(e.g., `sources/us-ca/scripts/sanitize.py` if added later), use it before
+(e.g., `sources/us-ca/scripts/sanitize.py`), use it before
 untrusted text enters the LLM context window. If not present, the agent must
 manually neutralize obvious injection vectors:
 
