@@ -4,26 +4,65 @@
       "id": "notice_at_collection",
       "title": "Notice at Collection and Privacy Disclosures",
       "summary": "When and how a business must disclose categories, purposes, sale/share status, retention, and rights at or before collection.",
-      "search_terms": ["notice at collection", "privacy policy", "categories collected", "retention", "CalOPPA"],
-      "primary_authority_ids": ["ca-civ-1798.100", "ca-11-ccr-7012"],
-      "supporting_authority_ids": ["ca-11-ccr-7003", "ca-11-ccr-7011", "ca-bpc-22575"],
-      "guidance_ids": ["ca-oag-ccpa", "ca-cppa-laws-regulations"],
-      "enforcement_ids": ["ca-oag-doordash-2024-settlement-press"],
+      "search_terms": [
+        "notice at collection",
+        "privacy policy",
+        "categories collected",
+        "retention",
+        "CalOPPA"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.100",
+        "ca-11-ccr-7012"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7003",
+        "ca-11-ccr-7011",
+        "ca-bpc-22575"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa",
+        "ca-cppa-laws-regulations"
+      ],
+      "enforcement_ids": [
+        "ca-oag-doordash-2024-settlement-press"
+      ],
       "case_ids": [],
       "answer_cautions": [
         "Do not substitute an OAG FAQ for the statute or CPPA regulations.",
         "Separate CCPA notice-at-collection duties from CalOPPA privacy-policy posting duties."
       ],
-      "comparative_hooks": ["GDPR Arts. 13-14", "PIPA privacy policy and collection notice rules"]
+      "comparative_hooks": [
+        "GDPR Arts. 13-14",
+        "PIPA privacy policy and collection notice rules"
+      ]
     },
     {
       "id": "opt_out_sale_share_gpc",
       "title": "Opt Out of Sale/Share and GPC",
       "summary": "Consumer opt-out rights for sale/share, opt-out links, opt-out preference signals, and frictionless processing.",
-      "search_terms": ["opt-out", "sale", "share", "GPC", "global privacy control", "preference signal"],
-      "primary_authority_ids": ["ca-civ-1798.120", "ca-civ-1798.135", "ca-11-ccr-7025"],
-      "supporting_authority_ids": ["ca-11-ccr-7013", "ca-11-ccr-7026", "ca-11-ccr-7004"],
-      "guidance_ids": ["ca-oag-ccpa", "ca-oag-ccpa-enforcement-examples"],
+      "search_terms": [
+        "opt-out",
+        "sale",
+        "share",
+        "GPC",
+        "global privacy control",
+        "preference signal"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-11-ccr-7025"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7026",
+        "ca-11-ccr-7004"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa",
+        "ca-oag-ccpa-enforcement-examples"
+      ],
       "enforcement_ids": [
         "ca-oag-sephora-2022-settlement-press",
         "ca-cppa-honda-2025-stipulated-final-order",
@@ -36,17 +75,36 @@
         "Do not call enforcement settlements judicial precedent.",
         "Check whether the issue is sale, share, or both."
       ],
-      "comparative_hooks": ["GDPR objection/direct marketing", "PIPA third-party provision consent"]
+      "comparative_hooks": [
+        "GDPR objection/direct marketing",
+        "PIPA third-party provision consent"
+      ]
     },
     {
       "id": "sensitive_personal_information",
       "title": "Sensitive Personal Information and Limit Use",
       "summary": "Definition and limit-use framework for sensitive personal information, including notice and risk-assessment overlap.",
-      "search_terms": ["sensitive personal information", "limit use", "precise geolocation", "health data"],
-      "primary_authority_ids": ["ca-civ-1798.121", "ca-civ-1798.140", "ca-11-ccr-7014"],
-      "supporting_authority_ids": ["ca-11-ccr-7027", "ca-11-ccr-7150"],
-      "guidance_ids": ["ca-oag-ccpa"],
-      "enforcement_ids": ["ca-oag-healthline-2025-settlement-press"],
+      "search_terms": [
+        "sensitive personal information",
+        "limit use",
+        "precise geolocation",
+        "health data"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.140",
+        "ca-11-ccr-7014"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7027",
+        "ca-11-ccr-7150"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa"
+      ],
+      "enforcement_ids": [
+        "ca-oag-healthline-2025-settlement-press"
+      ],
       "case_ids": [
         "ca-supreme-brown-v-mortensen-2011",
         "ca-supreme-raines-v-us-healthworks-2023",
@@ -59,16 +117,32 @@
         "Medical or health-related data may also require CMIA analysis.",
         "Private-right-of-action analysis is narrower than general CCPA compliance analysis."
       ],
-      "comparative_hooks": ["GDPR special categories", "PIPA sensitive information"]
+      "comparative_hooks": [
+        "GDPR special categories",
+        "PIPA sensitive information"
+      ]
     },
     {
       "id": "data_minimization_purpose_limitation",
       "title": "Data Minimization and Purpose Limitation",
       "summary": "Reasonable, necessary, and proportionate collection/use/retention under the CCPA and CPPA regulations.",
-      "search_terms": ["data minimization", "purpose limitation", "necessary and proportionate", "retention"],
-      "primary_authority_ids": ["ca-civ-1798.100", "ca-11-ccr-7002"],
-      "supporting_authority_ids": ["ca-civ-1798.185", "ca-11-ccr-7012"],
-      "guidance_ids": ["ca-cppa-laws-regulations"],
+      "search_terms": [
+        "data minimization",
+        "purpose limitation",
+        "necessary and proportionate",
+        "retention"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.100",
+        "ca-11-ccr-7002"
+      ],
+      "supporting_authority_ids": [
+        "ca-civ-1798.185",
+        "ca-11-ccr-7012"
+      ],
+      "guidance_ids": [
+        "ca-cppa-laws-regulations"
+      ],
       "enforcement_ids": [
         "ca-oag-healthline-2025-settlement-press",
         "ca-oag-surveillance-pricing-2026-sweep"
@@ -78,86 +152,182 @@
         "Tie the answer to disclosed purposes and consumer reasonable expectations.",
         "Avoid saying California uses GDPR terminology unless comparing frameworks."
       ],
-      "comparative_hooks": ["GDPR Arts. 5(1)(b)-(c)", "PIPA purpose limitation and minimum collection"]
+      "comparative_hooks": [
+        "GDPR Arts. 5(1)(b)-(c)",
+        "PIPA purpose limitation and minimum collection"
+      ]
     },
     {
       "id": "service_provider_contracts",
       "title": "Service Provider, Contractor, and Third Party Contracts",
       "summary": "Contract requirements, restrictions, and downstream processing duties for service providers and contractors.",
-      "search_terms": ["service provider", "contractor", "third party", "contract", "written agreement"],
-      "primary_authority_ids": ["ca-civ-1798.140", "ca-11-ccr-7050"],
-      "supporting_authority_ids": ["ca-11-ccr-7051", "ca-11-ccr-7052", "ca-11-ccr-7022"],
-      "guidance_ids": ["ca-oag-ccpa"],
-      "enforcement_ids": ["ca-oag-sephora-2022-settlement-press", "ca-oag-doordash-2024-settlement-press"],
+      "search_terms": [
+        "service provider",
+        "contractor",
+        "third party",
+        "contract",
+        "written agreement"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.140",
+        "ca-11-ccr-7050"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7051",
+        "ca-11-ccr-7052",
+        "ca-11-ccr-7022"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa"
+      ],
+      "enforcement_ids": [
+        "ca-oag-sephora-2022-settlement-press",
+        "ca-oag-doordash-2024-settlement-press"
+      ],
       "case_ids": [],
       "answer_cautions": [
         "Do not assume a vendor is a service provider without the required contractual restrictions.",
         "Marketing cooperative disclosures may implicate sale analysis."
       ],
-      "comparative_hooks": ["GDPR processor contracts", "PIPA outsourcing"]
+      "comparative_hooks": [
+        "GDPR processor contracts",
+        "PIPA outsourcing"
+      ]
     },
     {
       "id": "data_breach_private_right",
       "title": "Data Breach and CCPA Private Right of Action",
       "summary": "Reasonable security, California breach-notice statutes, and the limited CCPA private right of action.",
-      "search_terms": ["data breach", "private right of action", "reasonable security", "1798.150", "breach notice"],
-      "primary_authority_ids": ["ca-civ-1798.150", "ca-civ-1798.81.5", "ca-civ-1798.82"],
-      "supporting_authority_ids": ["ca-civ-1798.80", "ca-civ-1798.84"],
-      "guidance_ids": ["ca-oag-ccpa"],
+      "search_terms": [
+        "data breach",
+        "private right of action",
+        "reasonable security",
+        "1798.150",
+        "breach notice"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.150",
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.82"
+      ],
+      "supporting_authority_ids": [
+        "ca-civ-1798.80",
+        "ca-civ-1798.84"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa"
+      ],
       "enforcement_ids": [],
       "case_ids": [
         "us-9th-in-re-california-pizza-kitchen-2025",
         "us-fed-randles-v-nationstar-transfer-2024",
         "us-fed-little-seeds-v-citibank-2025-mtd",
         "us-fed-maag-v-us-bank-2021-discovery",
-        "us-fed-in-re-consumer-vehicle-driving-data-2026-mtd"
+        "us-fed-in-re-consumer-vehicle-driving-data-2026-mtd",
+        "ca-supreme-brown-v-mortensen-2011"
       ],
       "answer_cautions": [
         "The CCPA private right of action is narrower than general CCPA violations.",
         "Federal district court decisions are persuasive, not California appellate precedent."
       ],
-      "comparative_hooks": ["GDPR breach notification and damages", "PIPA breach notification"]
+      "comparative_hooks": [
+        "GDPR breach notification and damages",
+        "PIPA breach notification"
+      ]
     },
     {
       "id": "risk_assessments",
       "title": "Risk Assessments",
       "summary": "When a business must conduct risk assessments and what the assessment must include under 2026 CPPA regulations.",
-      "search_terms": ["risk assessment", "significant risk", "ADMT", "sensitive personal information"],
-      "primary_authority_ids": ["ca-civ-1798.185", "ca-11-ccr-7150"],
-      "supporting_authority_ids": ["ca-11-ccr-7151", "ca-11-ccr-7152", "ca-11-ccr-7153"],
-      "guidance_ids": ["ca-cppa-ccpa-updates-2025"],
+      "search_terms": [
+        "risk assessment",
+        "significant risk",
+        "ADMT",
+        "sensitive personal information"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.185",
+        "ca-11-ccr-7150"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7151",
+        "ca-11-ccr-7152",
+        "ca-11-ccr-7153"
+      ],
+      "guidance_ids": [
+        "ca-cppa-ccpa-updates-2025"
+      ],
       "enforcement_ids": [],
       "case_ids": [],
       "answer_cautions": [
         "Use the 2026 effective regulation text and retrieved date.",
         "Do not overstate older CCPA materials as containing the 2026 risk-assessment details."
       ],
-      "comparative_hooks": ["GDPR DPIA", "PIPA privacy impact assessment"]
+      "comparative_hooks": [
+        "GDPR DPIA",
+        "PIPA privacy impact assessment"
+      ]
     },
     {
       "id": "admt",
       "title": "Automated Decisionmaking Technology",
       "summary": "ADMT notices, opt-out/access rights, appeals, and exceptions under the 2026 CPPA regulations.",
-      "search_terms": ["ADMT", "automated decisionmaking", "significant decision", "access ADMT", "appeal"],
-      "primary_authority_ids": ["ca-civ-1798.185", "ca-11-ccr-7200", "ca-11-ccr-7221"],
-      "supporting_authority_ids": ["ca-11-ccr-7010", "ca-11-ccr-7011", "ca-11-ccr-7220"],
-      "guidance_ids": ["ca-cppa-ccpa-updates-2025"],
+      "search_terms": [
+        "ADMT",
+        "automated decisionmaking",
+        "significant decision",
+        "access ADMT",
+        "appeal"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.185",
+        "ca-11-ccr-7200",
+        "ca-11-ccr-7221"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7010",
+        "ca-11-ccr-7011",
+        "ca-11-ccr-7220"
+      ],
+      "guidance_ids": [
+        "ca-cppa-ccpa-updates-2025"
+      ],
       "enforcement_ids": [],
       "case_ids": [],
       "answer_cautions": [
         "The ADMT rules are part of the 2026 regulation package.",
         "Check exceptions before saying opt-out is always required."
       ],
-      "comparative_hooks": ["GDPR Art. 22", "PIPA automated decision response rights"]
+      "comparative_hooks": [
+        "GDPR Art. 22",
+        "PIPA automated decision response rights"
+      ]
     },
     {
       "id": "minors_children",
       "title": "Minors and Children",
       "summary": "CCPA opt-in rules for minors, child-directed enforcement, SOPIPA, and Age-Appropriate Design Code issues.",
-      "search_terms": ["minor", "child", "under 16", "under 13", "SOPIPA", "Age-Appropriate Design Code"],
-      "primary_authority_ids": ["ca-civ-1798.120", "ca-bpc-22584", "ca-civ-1798.99.28"],
-      "supporting_authority_ids": ["ca-bpc-22585", "ca-civ-1798.99.31", "ca-civ-1798.99.32"],
-      "guidance_ids": ["ca-oag-ccpa"],
+      "search_terms": [
+        "minor",
+        "child",
+        "under 16",
+        "under 13",
+        "SOPIPA",
+        "Age-Appropriate Design Code"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.120",
+        "ca-bpc-22584",
+        "ca-civ-1798.99.28"
+      ],
+      "supporting_authority_ids": [
+        "ca-bpc-22585",
+        "ca-civ-1798.99.31",
+        "ca-civ-1798.99.32"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa"
+      ],
       "enforcement_ids": [
         "ca-cppa-playon-2026-order-of-decision",
         "ca-oag-tilting-point-2024-settlement-press",
@@ -169,15 +339,33 @@
         "Age-Appropriate Design Code obligations require current litigation/injunction status checks.",
         "COPPA may also apply but is not part of this California KB."
       ],
-      "comparative_hooks": ["GDPR child consent", "PIPA children privacy safeguards"]
+      "comparative_hooks": [
+        "GDPR child consent",
+        "PIPA children privacy safeguards"
+      ]
     },
     {
       "id": "cipa_website_tracking",
       "title": "CIPA Website Tracking, Chat, and Session Replay",
       "summary": "California Invasion of Privacy Act issues around wiretapping, eavesdropping, call recording, chat widgets, pixels, and session replay.",
-      "search_terms": ["CIPA", "session replay", "chat widget", "wiretap", "Penal Code 631", "Penal Code 632.7"],
-      "primary_authority_ids": ["ca-pen-631", "ca-pen-632.7", "ca-pen-637.2"],
-      "supporting_authority_ids": ["ca-pen-630", "ca-pen-632", "ca-pen-638.55"],
+      "search_terms": [
+        "CIPA",
+        "session replay",
+        "chat widget",
+        "wiretap",
+        "Penal Code 631",
+        "Penal Code 632.7"
+      ],
+      "primary_authority_ids": [
+        "ca-pen-631",
+        "ca-pen-632.7",
+        "ca-pen-637.2"
+      ],
+      "supporting_authority_ids": [
+        "ca-pen-630",
+        "ca-pen-632",
+        "ca-pen-638.55"
+      ],
       "guidance_ids": [],
       "enforcement_ids": [],
       "case_ids": [
@@ -193,21 +381,41 @@
         "us-fed-in-re-facebook-internet-tracking-2017-mtd",
         "us-fed-zarif-v-healthwarehouse-2025-mtd",
         "us-fed-rc-v-sussex-2025-mtd",
-        "us-fed-swarts-v-home-depot-2023-mtd"
+        "us-fed-swarts-v-home-depot-2023-mtd",
+        "ca-supreme-facebook-v-superior-court-2018"
       ],
       "answer_cautions": [
         "CIPA is adjacent California privacy law, not CCPA.",
         "Publication and authority level vary sharply between California Supreme Court, Ninth Circuit memorandum, and district court orders."
       ],
-      "comparative_hooks": ["GDPR ePrivacy/cookies", "PIPA behavioral tracking and consent"]
+      "comparative_hooks": [
+        "GDPR ePrivacy/cookies",
+        "PIPA behavioral tracking and consent"
+      ]
     },
     {
       "id": "cipa_pen_register_pixels",
       "title": "CIPA Pen Register, Pixels, Cookies, and IP Address Tracking",
       "summary": "California CIPA pen-register/trap-and-trace theories involving pixels, cookies, IP addresses, tracking scripts, and ad-tech routing data.",
-      "search_terms": ["CIPA pen register", "trap and trace", "pixel", "cookie", "IP address", "ad tech", "638.50", "638.51"],
-      "primary_authority_ids": ["ca-pen-638.50", "ca-pen-638.51", "ca-pen-637.2"],
-      "supporting_authority_ids": ["ca-pen-630", "ca-pen-631"],
+      "search_terms": [
+        "CIPA pen register",
+        "trap and trace",
+        "pixel",
+        "cookie",
+        "IP address",
+        "ad tech",
+        "638.50",
+        "638.51"
+      ],
+      "primary_authority_ids": [
+        "ca-pen-638.50",
+        "ca-pen-638.51",
+        "ca-pen-637.2"
+      ],
+      "supporting_authority_ids": [
+        "ca-pen-630",
+        "ca-pen-631"
+      ],
       "guidance_ids": [],
       "enforcement_ids": [],
       "case_ids": [
@@ -215,38 +423,81 @@
         "us-fed-gabrielli-v-motorola-2025-mtd",
         "us-fed-garon-v-keleops-2025-mtd",
         "us-fed-swarts-v-home-depot-2023-mtd",
-        "us-9th-javier-v-assurance-iq-2022"
+        "us-9th-javier-v-assurance-iq-2022",
+        "ca-supreme-kearney-v-salomon-smith-barney-2006"
       ],
       "answer_cautions": [
         "CIPA pen-register cases are fast-moving and often federal district court persuasive authority.",
         "Separate section 631 wiretap/eavesdropping theories from sections 638.50 and 638.51 pen-register theories."
       ],
-      "comparative_hooks": ["GDPR/ePrivacy cookies and tracking", "PIPA behavioral advertising and tracking consent"]
+      "comparative_hooks": [
+        "GDPR/ePrivacy cookies and tracking",
+        "PIPA behavioral advertising and tracking consent"
+      ]
     },
     {
       "id": "data_brokers_delete_act",
       "title": "Data Brokers and Delete Act",
       "summary": "California data broker registration and deletion mechanism provisions collected from LegInfo.",
-      "search_terms": ["data broker", "Delete Act", "DROP", "registration", "accessible deletion mechanism"],
-      "primary_authority_ids": ["ca-civ-1798.99.80", "ca-civ-1798.99.81", "ca-civ-1798.99.82"],
-      "supporting_authority_ids": ["ca-civ-1798.99.84", "ca-civ-1798.99.85", "ca-civ-1798.99.86", "ca-civ-1798.99.89"],
-      "guidance_ids": ["ca-cppa-laws-regulations"],
+      "search_terms": [
+        "data broker",
+        "Delete Act",
+        "DROP",
+        "registration",
+        "accessible deletion mechanism"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.99.80",
+        "ca-civ-1798.99.81",
+        "ca-civ-1798.99.82"
+      ],
+      "supporting_authority_ids": [
+        "ca-civ-1798.99.84",
+        "ca-civ-1798.99.85",
+        "ca-civ-1798.99.86",
+        "ca-civ-1798.99.89"
+      ],
+      "guidance_ids": [
+        "ca-cppa-laws-regulations"
+      ],
       "enforcement_ids": [],
       "case_ids": [],
       "answer_cautions": [
         "Do not collapse data broker duties into ordinary CCPA business duties.",
         "Check current CPPA rulemaking and implementation status for operational details."
       ],
-      "comparative_hooks": ["GDPR data broker transparency", "PIPA personal information file registration/comparable governance"]
+      "comparative_hooks": [
+        "GDPR data broker transparency",
+        "PIPA personal information file registration/comparable governance"
+      ]
     },
     {
       "id": "enforcement_authority",
       "title": "OAG/CPPA Enforcement Authority and Administrative Materials",
       "summary": "Civil and administrative enforcement powers, investigation rules, and how to use enforcement materials as nonprecedential authority.",
-      "search_terms": ["enforcement", "administrative order", "civil penalty", "CPPA", "OAG", "settlement"],
-      "primary_authority_ids": ["ca-civ-1798.155", "ca-civ-1798.199.35", "ca-civ-1798.199.90"],
-      "supporting_authority_ids": ["ca-11-ccr-7300", "ca-11-ccr-7301", "ca-11-ccr-7302", "ca-11-ccr-7303", "ca-11-ccr-7304"],
-      "guidance_ids": ["ca-oag-ccpa-enforcement-examples"],
+      "search_terms": [
+        "enforcement",
+        "administrative order",
+        "civil penalty",
+        "CPPA",
+        "OAG",
+        "settlement"
+      ],
+      "primary_authority_ids": [
+        "ca-civ-1798.155",
+        "ca-civ-1798.199.35",
+        "ca-civ-1798.199.90"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7300",
+        "ca-11-ccr-7301",
+        "ca-11-ccr-7302",
+        "ca-11-ccr-7303",
+        "ca-11-ccr-7304"
+      ],
+      "guidance_ids": [
+        "ca-oag-ccpa-enforcement-examples"
+      ],
       "enforcement_ids": [
         "ca-cppa-honda-2025-stipulated-final-order",
         "ca-cppa-ford-2026-order-of-decision",
@@ -262,7 +513,10 @@
         "Administrative/enforcement material is not judicial precedent.",
         "Distinguish press releases from complaints, stipulated judgments, and final agency orders."
       ],
-      "comparative_hooks": ["GDPR supervisory authority enforcement", "PIPA regulator corrective orders and penalties"]
+      "comparative_hooks": [
+        "GDPR supervisory authority enforcement",
+        "PIPA regulator corrective orders and penalties"
+      ]
     }
   ],
   "golden_questions": [
@@ -270,105 +524,221 @@
       "id": "ca-gq-notice-at-collection",
       "topic_id": "notice_at_collection",
       "question": "A California website collects email addresses and location data before account signup. What local KB authorities should an answer cite for notice-at-collection duties?",
-      "expected_authority_ids": ["ca-civ-1798.100", "ca-11-ccr-7012"],
-      "supporting_authority_ids": ["ca-11-ccr-7003", "ca-bpc-22575"],
-      "must_not": ["Treat CalOPPA as the only source of CCPA notice duties."]
+      "expected_authority_ids": [
+        "ca-civ-1798.100",
+        "ca-11-ccr-7012"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7003",
+        "ca-bpc-22575"
+      ],
+      "must_not": [
+        "Treat CalOPPA as the only source of CCPA notice duties."
+      ]
     },
     {
       "id": "ca-gq-gpc",
       "topic_id": "opt_out_sale_share_gpc",
       "question": "Does a business that sells or shares personal information need to process Global Privacy Control or a similar opt-out preference signal?",
-      "expected_authority_ids": ["ca-civ-1798.120", "ca-civ-1798.135", "ca-11-ccr-7025"],
-      "supporting_authority_ids": ["ca-oag-sephora-2022-settlement-press", "ca-cppa-honda-2025-stipulated-final-order"],
-      "must_not": ["Call Sephora or Honda binding judicial precedent."]
+      "expected_authority_ids": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-11-ccr-7025"
+      ],
+      "supporting_authority_ids": [
+        "ca-oag-sephora-2022-settlement-press",
+        "ca-cppa-honda-2025-stipulated-final-order"
+      ],
+      "must_not": [
+        "Call Sephora or Honda binding judicial precedent."
+      ]
     },
     {
       "id": "ca-gq-sensitive-health-tracking",
       "topic_id": "sensitive_personal_information",
       "question": "A health content site shares browsing activity with ad-tech vendors. Which authorities support sensitive personal information and limit-use analysis?",
-      "expected_authority_ids": ["ca-civ-1798.121", "ca-civ-1798.140", "ca-11-ccr-7014"],
-      "supporting_authority_ids": ["ca-oag-healthline-2025-settlement-press", "ca-civ-56.10"],
-      "must_not": ["Ignore CMIA when the facts involve medical information."]
+      "expected_authority_ids": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.140",
+        "ca-11-ccr-7014"
+      ],
+      "supporting_authority_ids": [
+        "ca-oag-healthline-2025-settlement-press",
+        "ca-civ-56.10",
+        "ca-supreme-raines-v-us-healthworks-2023"
+      ],
+      "must_not": [
+        "Ignore CMIA when the facts involve medical information."
+      ]
     },
     {
       "id": "ca-gq-data-minimization",
       "topic_id": "data_minimization_purpose_limitation",
       "question": "What authorities govern whether collecting precise geolocation is reasonably necessary and proportionate?",
-      "expected_authority_ids": ["ca-civ-1798.100", "ca-11-ccr-7002"],
-      "supporting_authority_ids": ["ca-civ-1798.185"],
-      "must_not": ["Describe the rule only as GDPR data minimization without California citations."]
+      "expected_authority_ids": [
+        "ca-civ-1798.100",
+        "ca-11-ccr-7002"
+      ],
+      "supporting_authority_ids": [
+        "ca-civ-1798.185"
+      ],
+      "must_not": [
+        "Describe the rule only as GDPR data minimization without California citations."
+      ]
     },
     {
       "id": "ca-gq-service-provider-contract",
       "topic_id": "service_provider_contracts",
       "question": "How should an answer analyze whether a vendor is a service provider rather than a third party?",
-      "expected_authority_ids": ["ca-civ-1798.140", "ca-11-ccr-7050"],
-      "supporting_authority_ids": ["ca-11-ccr-7051", "ca-oag-sephora-2022-settlement-press"],
-      "must_not": ["Assume service-provider status without contract restrictions."]
+      "expected_authority_ids": [
+        "ca-civ-1798.140",
+        "ca-11-ccr-7050"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7051",
+        "ca-oag-sephora-2022-settlement-press"
+      ],
+      "must_not": [
+        "Assume service-provider status without contract restrictions."
+      ]
     },
     {
       "id": "ca-gq-data-breach-private-right",
       "topic_id": "data_breach_private_right",
       "question": "Can a consumer sue under the CCPA for any privacy violation, or only certain data-breach violations?",
-      "expected_authority_ids": ["ca-civ-1798.150", "ca-civ-1798.81.5"],
-      "supporting_authority_ids": ["us-9th-in-re-california-pizza-kitchen-2025", "us-fed-randles-v-nationstar-transfer-2024"],
-      "must_not": ["State that all CCPA violations create a private right of action."]
+      "expected_authority_ids": [
+        "ca-civ-1798.150",
+        "ca-civ-1798.81.5"
+      ],
+      "supporting_authority_ids": [
+        "us-9th-in-re-california-pizza-kitchen-2025",
+        "us-fed-randles-v-nationstar-transfer-2024",
+        "ca-supreme-brown-v-mortensen-2011"
+      ],
+      "must_not": [
+        "State that all CCPA violations create a private right of action."
+      ]
     },
     {
       "id": "ca-gq-risk-assessment",
       "topic_id": "risk_assessments",
       "question": "When must a business conduct a California CCPA risk assessment under the 2026 rules?",
-      "expected_authority_ids": ["ca-civ-1798.185", "ca-11-ccr-7150"],
-      "supporting_authority_ids": ["ca-11-ccr-7151", "ca-cppa-ccpa-updates-2025"],
-      "must_not": ["Use pre-2026 materials as the only authority for detailed risk-assessment duties."]
+      "expected_authority_ids": [
+        "ca-civ-1798.185",
+        "ca-11-ccr-7150"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7151",
+        "ca-cppa-ccpa-updates-2025"
+      ],
+      "must_not": [
+        "Use pre-2026 materials as the only authority for detailed risk-assessment duties."
+      ]
     },
     {
       "id": "ca-gq-admt",
       "topic_id": "admt",
       "question": "What should the KB cite for ADMT notice, opt-out, access, and appeal questions?",
-      "expected_authority_ids": ["ca-civ-1798.185", "ca-11-ccr-7200", "ca-11-ccr-7221"],
-      "supporting_authority_ids": ["ca-11-ccr-7010", "ca-11-ccr-7220"],
-      "must_not": ["Treat ADMT as only a general AI governance issue without CCPA regulation citations."]
+      "expected_authority_ids": [
+        "ca-civ-1798.185",
+        "ca-11-ccr-7200",
+        "ca-11-ccr-7221"
+      ],
+      "supporting_authority_ids": [
+        "ca-11-ccr-7010",
+        "ca-11-ccr-7220"
+      ],
+      "must_not": [
+        "Treat ADMT as only a general AI governance issue without CCPA regulation citations."
+      ]
     },
     {
       "id": "ca-gq-minors",
       "topic_id": "minors_children",
       "question": "How should an answer handle sale/share of minors' personal information and child-directed services?",
-      "expected_authority_ids": ["ca-civ-1798.120", "ca-bpc-22584"],
-      "supporting_authority_ids": ["ca-cppa-playon-2026-order-of-decision", "ca-oag-jam-city-2025-settlement-press"],
-      "must_not": ["State Age-Appropriate Design Code obligations without litigation-status caution."]
+      "expected_authority_ids": [
+        "ca-civ-1798.120",
+        "ca-bpc-22584"
+      ],
+      "supporting_authority_ids": [
+        "ca-cppa-playon-2026-order-of-decision",
+        "ca-oag-jam-city-2025-settlement-press"
+      ],
+      "must_not": [
+        "State Age-Appropriate Design Code obligations without litigation-status caution."
+      ]
     },
     {
       "id": "ca-gq-cipa-session-replay",
       "topic_id": "cipa_website_tracking",
       "question": "A site uses a chat widget or session replay vendor. Which California authorities support CIPA analysis?",
-      "expected_authority_ids": ["ca-pen-631", "ca-pen-637.2"],
-      "supporting_authority_ids": ["us-9th-javier-v-assurance-iq-2022", "us-fed-garcia-v-build-2024-mtd", "us-fed-swarts-v-home-depot-2023-mtd"],
-      "must_not": ["Present CIPA as CCPA or ignore authority-level differences among cases."]
+      "expected_authority_ids": [
+        "ca-pen-631",
+        "ca-pen-637.2"
+      ],
+      "supporting_authority_ids": [
+        "us-9th-javier-v-assurance-iq-2022",
+        "us-fed-garcia-v-build-2024-mtd",
+        "us-fed-swarts-v-home-depot-2023-mtd",
+        "ca-supreme-facebook-v-superior-court-2018",
+        "ca-supreme-flanagan-v-flanagan-2002"
+      ],
+      "must_not": [
+        "Present CIPA as CCPA or ignore authority-level differences among cases."
+      ]
     },
     {
       "id": "ca-gq-cipa-pen-register",
       "topic_id": "cipa_pen_register_pixels",
       "question": "A website uses pixels or cookies that transmit IP addresses and routing data to ad-tech vendors. Which California authorities support CIPA pen-register analysis?",
-      "expected_authority_ids": ["ca-pen-638.50", "ca-pen-638.51", "ca-pen-637.2"],
-      "supporting_authority_ids": ["us-fed-mirmalek-v-la-times-2024-remand", "us-fed-gabrielli-v-motorola-2025-mtd", "us-fed-garon-v-keleops-2025-mtd"],
-      "must_not": ["Conflate CIPA pen-register claims with CCPA sale/share opt-out claims."]
+      "expected_authority_ids": [
+        "ca-pen-638.50",
+        "ca-pen-638.51",
+        "ca-pen-637.2"
+      ],
+      "supporting_authority_ids": [
+        "us-fed-mirmalek-v-la-times-2024-remand",
+        "us-fed-gabrielli-v-motorola-2025-mtd",
+        "us-fed-garon-v-keleops-2025-mtd",
+        "ca-supreme-kearney-v-salomon-smith-barney-2006"
+      ],
+      "must_not": [
+        "Conflate CIPA pen-register claims with CCPA sale/share opt-out claims."
+      ]
     },
     {
       "id": "ca-gq-data-broker",
       "topic_id": "data_brokers_delete_act",
       "question": "What local sources should an answer cite for California data broker registration and deletion mechanism duties?",
-      "expected_authority_ids": ["ca-civ-1798.99.80", "ca-civ-1798.99.81", "ca-civ-1798.99.82"],
-      "supporting_authority_ids": ["ca-civ-1798.99.84", "ca-cppa-laws-regulations"],
-      "must_not": ["Collapse data broker duties into ordinary CCPA consumer request duties."]
+      "expected_authority_ids": [
+        "ca-civ-1798.99.80",
+        "ca-civ-1798.99.81",
+        "ca-civ-1798.99.82"
+      ],
+      "supporting_authority_ids": [
+        "ca-civ-1798.99.84",
+        "ca-cppa-laws-regulations"
+      ],
+      "must_not": [
+        "Collapse data broker duties into ordinary CCPA consumer request duties."
+      ]
     },
     {
       "id": "ca-gq-enforcement-materials",
       "topic_id": "enforcement_authority",
       "question": "How should the agent use OAG settlements and CPPA administrative orders in a legal answer?",
-      "expected_authority_ids": ["ca-civ-1798.155", "ca-civ-1798.199.90", "ca-11-ccr-7300"],
-      "supporting_authority_ids": ["ca-cppa-honda-2025-stipulated-final-order", "ca-oag-sephora-2022-settlement-press"],
-      "must_not": ["Treat administrative materials or press releases as binding judicial precedent."]
+      "expected_authority_ids": [
+        "ca-civ-1798.155",
+        "ca-civ-1798.199.90",
+        "ca-11-ccr-7300"
+      ],
+      "supporting_authority_ids": [
+        "ca-cppa-honda-2025-stipulated-final-order",
+        "ca-oag-sephora-2022-settlement-press"
+      ],
+      "must_not": [
+        "Treat administrative materials or press releases as binding judicial precedent."
+      ]
     }
   ]
 }

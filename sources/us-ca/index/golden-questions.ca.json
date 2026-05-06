@@ -1,7 +1,7 @@
 {
   "type": "ca_golden_questions",
   "count": 13,
-  "generated_at": "2026-05-06T08:49:24+00:00",
+  "generated_at": "2026-05-06T13:16:34+00:00",
   "questions": [
     {
       "id": "ca-gq-notice-at-collection",
@@ -178,6 +178,16 @@
           "source_grade": "",
           "authority_level": "binding",
           "precedential_status": ""
+        },
+        {
+          "id": "ca-supreme-raines-v-us-healthworks-2023",
+          "authority_group": "case",
+          "label": "Raines v. U.S. Healthworks Medical Group",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/raines-v-us-healthworks-2023.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "missing_authority_ids": [],
@@ -330,6 +340,16 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "ca-supreme-brown-v-mortensen-2011",
+          "authority_group": "case",
+          "label": "Brown v. Mortensen",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/brown-v-mortensen-2011.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "missing_authority_ids": [],
@@ -566,6 +586,26 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "ca-supreme-facebook-v-superior-court-2018",
+          "authority_group": "case",
+          "label": "Facebook, Inc. v. Superior Court",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/facebook-v-superior-court-2018.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "ca-supreme-flanagan-v-flanagan-2002",
+          "authority_group": "case",
+          "label": "Flanagan v. Flanagan",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/flanagan-v-flanagan-2002.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "missing_authority_ids": [],
@@ -640,6 +680,16 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "ca-supreme-kearney-v-salomon-smith-barney-2006",
+          "authority_group": "case",
+          "label": "Kearney v. Salomon Smith Barney, Inc.",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/kearney-v-salomon-smith-barney-2006.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "missing_authority_ids": [],

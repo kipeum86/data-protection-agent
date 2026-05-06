@@ -65,3 +65,35 @@ def test_state_published_case_coverage_includes_mirror_warning():
     assert all(case["source_url"].startswith("https://scocal.stanford.edu/") for case in mirror_cases)
     assert all(case["official_url"].startswith("https://www.courts.ca.gov/") for case in mirror_cases)
     assert all(case["source_mirror_warning"] for case in mirror_cases)
+
+
+def test_golden_questions_reference_mirror_cases():
+    """Phase 3 mirror cases must be expected by at least one golden question
+    so retrieval drift (case dropped from index) is caught by the test suite.
+    """
+    text = json.dumps(load_json("golden-questions.ca.json"))
+    for case_id in [
+        "ca-supreme-kearney-v-salomon-smith-barney-2006",
+        "ca-supreme-raines-v-us-healthworks-2023",
+    ]:
+        assert case_id in text, (
+            f"mirror case {case_id} not referenced by any golden question; "
+            f"add to supporting_authority_ids of the appropriate golden question "
+            f"in config/california-topic-seeds.json"
+        )
+
+
+def test_topic_index_includes_mirror_cases():
+    """Phase 3 mirror cases must appear in the topic index so retrieval
+    can surface them under the matching ccpa_topics.
+    """
+    text = json.dumps(load_json("ca-topic-index.json"))
+    for case_id in [
+        "ca-supreme-kearney-v-salomon-smith-barney-2006",
+        "ca-supreme-facebook-v-superior-court-2018",
+    ]:
+        assert case_id in text, (
+            f"mirror case {case_id} not in topic index; "
+            f"add to case_ids of the relevant topic in "
+            f"config/california-topic-seeds.json"
+        )
