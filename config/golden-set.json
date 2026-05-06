@@ -1,0 +1,114 @@
+{
+  "version": "2026-05-06",
+  "description": "Golden-set smoke evaluation for the local data-protection-agent runner. These checks verify routing, output-contract metadata, and retrieval of core local authorities; they do not judge final legal prose.",
+  "default_top_k": 14,
+  "cases": [
+    {
+      "id": "kr-pipa-pseudonymized-art28-2",
+      "question": "Under Korean PIPA Article 28-2, what authorities govern pseudonymized information?",
+      "expected_mode": "pipa",
+      "expected_jurisdictions": ["KR"],
+      "must_include": ["kr-pipa:pipa-art28-2"],
+      "min_sources": 5
+    },
+    {
+      "id": "kr-pipa-overseas-transfer",
+      "question": "Under Korean PIPA, what authorities govern overseas transfer of personal information?",
+      "expected_mode": "pipa",
+      "expected_jurisdictions": ["KR"],
+      "must_include": ["kr-pipa:pipa-art28-8", "kr-pipa:pipa-enforcement-decree-art29-10"],
+      "min_sources": 5
+    },
+    {
+      "id": "eu-gdpr-processor-dpa",
+      "question": "Under GDPR Article 28, what must a processor data processing agreement include?",
+      "expected_mode": "gdpr",
+      "expected_jurisdictions": ["EU"],
+      "must_include": ["eu-gdpr:gdpr-art28"],
+      "min_sources": 5
+    },
+    {
+      "id": "eu-gdpr-international-transfer-scc",
+      "question": "Under GDPR, what authorities govern international transfers and SCC safeguards?",
+      "expected_mode": "gdpr",
+      "expected_jurisdictions": ["EU"],
+      "must_include": ["eu-gdpr:gdpr-art44", "eu-gdpr:gdpr-art46"],
+      "min_sources": 5
+    },
+    {
+      "id": "us-ca-ccpa-applicability-threshold",
+      "question": "Under California CCPA, what authorities govern applicability thresholds and business definition?",
+      "expected_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "must_include": ["us-ca:ca-civ-1798.140", "us-ca:ca-cppa-cpi-adjustment"],
+      "forbidden_authority_ids": ["us-ca:ca-pen-631"],
+      "min_sources": 5
+    },
+    {
+      "id": "us-ca-sale-share-gpc",
+      "question": "Under California CCPA, what authorities govern sale/share opt-out and Global Privacy Control?",
+      "expected_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "must_include": ["us-ca:ca-civ-1798.120", "us-ca:ca-11-ccr-7025"],
+      "min_sources": 5
+    },
+    {
+      "id": "us-ca-sensitive-limit-use",
+      "question": "Under California CCPA, what authorities govern sensitive personal information and limit-use rights?",
+      "expected_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "must_include": ["us-ca:ca-civ-1798.121", "us-ca:ca-11-ccr-7014", "us-ca:ca-11-ccr-7027"],
+      "min_sources": 5
+    },
+    {
+      "id": "us-ca-admt-2026",
+      "question": "Under California CCPA 2026 regulations, what authorities govern ADMT opt-out, access, and appeal rights?",
+      "expected_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "must_include": ["us-ca:ca-civ-1798.185", "us-ca:ca-11-ccr-7200", "us-ca:ca-11-ccr-7221"],
+      "min_sources": 5
+    },
+    {
+      "id": "kr-eu-overseas-transfer-comparison",
+      "question": "Compare Korean PIPA and GDPR overseas transfer requirements.",
+      "expected_mode": "comparative",
+      "expected_jurisdictions": ["EU", "KR"],
+      "must_include": ["kr-pipa:pipa-art28-8", "eu-gdpr:gdpr-art44", "eu-gdpr:gdpr-art46"],
+      "min_sources": 8
+    },
+    {
+      "id": "kr-usca-notice-vendor-comparison",
+      "question": "Compare Korean PIPA and California CCPA privacy notice and vendor contract requirements.",
+      "expected_mode": "comparative",
+      "expected_jurisdictions": ["KR", "US-CA"],
+      "must_include": ["kr-pipa:pipa-art30", "kr-pipa:pipa-art26", "us-ca:ca-11-ccr-7012", "us-ca:ca-11-ccr-7051"],
+      "min_sources": 8
+    },
+    {
+      "id": "eu-usca-automated-decisionmaking-comparison",
+      "question": "Compare GDPR and California CCPA automated decisionmaking obligations.",
+      "expected_mode": "comparative",
+      "expected_jurisdictions": ["EU", "US-CA"],
+      "must_include": ["eu-gdpr:gdpr-art22", "us-ca:ca-11-ccr-7200", "us-ca:ca-11-ccr-7221"],
+      "min_sources": 8
+    },
+    {
+      "id": "kr-eu-usca-children-comparison",
+      "question": "Compare Korean PIPA, GDPR, and California CCPA rules for children's data.",
+      "expected_mode": "comparative",
+      "expected_jurisdictions": ["EU", "KR", "US-CA"],
+      "must_include": ["kr-pipa:pipa-art22-2", "eu-gdpr:gdpr-art8", "us-ca:ca-civ-1798.120"],
+      "must_include_any": [["us-ca:ca-11-ccr-7070", "us-ca:ca-11-ccr-7071", "us-ca:ca-bpc-22584"]],
+      "min_sources": 9
+    },
+    {
+      "id": "game-privacy-composite-california",
+      "question": "For a California online game with child users, which data protection authorities should be checked for CCPA minors opt-in and privacy notices?",
+      "expected_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "must_include": ["us-ca:ca-civ-1798.120", "us-ca:ca-11-ccr-7070"],
+      "must_include_any": [["us-ca:ca-bpc-22584", "us-ca:ca-11-ccr-7071"]],
+      "min_sources": 5
+    }
+  ]
+}

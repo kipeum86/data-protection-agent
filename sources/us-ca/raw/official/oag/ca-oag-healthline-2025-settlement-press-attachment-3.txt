@@ -1,0 +1,460 @@
+ 1 ROB BONTA
+   Attorney General of California
+ 2 NICKLAS A. AKERS
+   Senior Assistant Attorney General
+ 3 STACEY D. SCHESSER
+   Supervising Deputy Attorney General
+ 4 MICAH C.E. OSGOOD (SBN 255239)
+   Deputy Attorney General
+ 5 455 Golden Gate Avenue, Suite 11000
+    San Francisco, CA 94102-7004
+ 6 Telephone:   (415) 510-4400
+    Fax: (415) 703-5480
+    Email: mike.osgood@doj.ca.gov
+ 7                                                     [EXEMPT FROM FILING FEES
+   Attorneys for The People of the State of California GOVERNMENT CODE § 6103]
+ 8
+                         SUPERIOR COURT OF THE STATE OF CALIFORNIA
+ 9
+                               FOR THE COUNTY OF SAN FRANCISCO
+10
+                                     UNLIMITED JURISDICTION
+11
+
+12
+
+13    THE PEOPLE OF THE STATE OF                        Case No. CGC-25-626794
+      CALIFORNIA,
+14
+                                           Plaintiff,
+15                                                      [PROPOSED] FINAL JUDGMENT AND
+                   v.                                   PERMANENT INJUNCTION
+16
+
+17    HEALTHLINE MEDIA, LLC,
+18                                       Defendant.
+19
+
+20
+
+21          Plaintiff, the People of the State of California (the “PEOPLE”), appearing through its
+22 attorney, Rob Bonta, Attorney General of the State of California, by Micah Osgood, Deputy
+
+23 Attorney General, and Defendant Healthline Media, LLC (“HEALTHLINE”) appearing through its
+
+24 attorneys, ZwillGen Law LLP, having stipulated to the entry of this Final Judgment and Permanent
+
+25 Injunction (“Judgment”) by the Court without the taking of proof and without trial or adjudication
+
+26 of any fact or law, without this Judgment constituting evidence of or an admission by
+
+27 HEALTHLINE regarding any issue or law or fact alleged in the Complaint on file, and without
+
+28
+
+
+                                                    -1-                        Final Judgm. and Perm. Inj.
+ 1 HEALTHLINE admitting any liability, and with all parties having waived their right to appeal, and
+
+ 2 the Court having considered the matter and good cause appearing:
+
+ 3 IT IS HEREBY ORDERED, ADJUDGED, AND DECREED THAT:
+
+ 4 I.       PARTIES AND JURISDICTION
+
+ 5          1.      This Court has jurisdiction over the allegations and subject matter of the PEOPLE’s
+
+ 6 Complaint filed in this action, and the parties to this action; venue is proper in this County; and this
+
+ 7 Court has jurisdiction to enter this Judgment. This Judgment is entered pursuant to and subject to
+
+ 8 California Consumer Privacy Act of 2018, Civil Code section 1798.100 et seq.(the “CCPA”).
+
+ 9 II.      DEFINITIONS
+
+10          The following terms in this Judgment shall have these meanings:
+
+11          2.      CONSUMER has the same meaning as provided in Civil Code section 1798.140,
+
+12 subdivision (i).
+
+13          3.      EFFECTIVE DATE is the date that DEFENDANT is served with notice that the
+
+14 Judgment has been entered.
+
+15          4.      ONLINE TRACKING TECHNOLOGY means technologies that track
+
+16 CONSUMERS’ online activities (such as pixels, web beacons, software developer kits, third party
+
+17 libraries, cookies, and other technologies), that collect, disclose, or make available PERSONAL
+
+18 INFORMATION to THIRD PARTIES or SERVICE PROVIDERS.
+
+19          5.      OPT-OUT PREFERENCE SIGNAL has the same meaning as provided in Code of
+
+20 Regulations, title 11, section 7001, subdivision (u).
+
+21          6.      DIAGNOSED MEDICAL CONDITION ARTICLE means an article with a title or
+
+22 URL that indicates the CONSUMER visiting the article has already been diagnosed with a medical
+
+23 condition. This includes the following HEALTHLINE articles and any similar or analogous articles:
+
+24 The Ultimate Guide to MS for the Newly Diagnosed; How to talk to others about your MS
+
+25 Diagnosis; Newly Diagnosed with Ulcerative Colitis? Here’s What to Know; Newly Diagnosed
+
+26 with HIV? Important Things to Know; Guide to Newly Diagnosed Diabetes: How to Make a Plan;
+
+27 Dating with Hepatitis C: Newly Diagnosed, During Treatment, and More; Newly Diagnosed with
+
+28 Breast Cancer; Newly Diagnosed – Learn the Basics about [Rheumatoid Arthritis]; COPD Newly
+
+
+                                                     -2-                         Final Judgm. and Perm. Inj.
+ 1 Diagnosed – Navigating your next steps after diagnosis; Chronic Kidney Disease – Your guide to
+
+ 2 navigating early-stage kidney disease; and Navigating Life with Bipolar Disorder. By contrast, and
+
+ 3 for avoidance of doubt, it does not include general interest health or medical articles whose titles do
+
+ 4 not suggest the reader already has a medical diagnosis, including those that may be of interest to
+
+ 5 consumers who may or may not have been diagnosed with a particular condition.
+
+ 6          7.      PERSONAL INFORMATION has the same meaning as provided in Civil Code
+
+ 7 section 1798.140, subdivision (v), which includes the definition of “unique personal identifier” as
+
+ 8 set forth in Civil Code section 1798.140, subdivision (aj).
+
+ 9          8.      SALE or SELL have the same meaning as provided in Civil Code section 1798.140,
+
+10 subdivision (ad).
+
+11          9.      SENSITIVE PERSONAL INFORMATION has the same meaning as provided in
+
+12 Civil Code, section 1798.140, subdivision (ae).
+
+13          10.     SHARE and SHARING have the same meaning as provided in Civil Code, section
+
+14 1798.140, subdivision (ah).
+
+15          11.     SERVICE PROVIDER has the same meaning as provided in Civil Code section
+
+16 1798.140, subdivision (ag).
+
+17          12.     THIRD PARTIES has the same meaning as provided in Civil Code, section
+
+18 1708.140, subdivision (ai).
+
+19 III.     INJUNCTIVE PROVISIONS
+
+20          13.     Nothing in this Judgment alters the requirements of state or federal law to the extent
+
+21 they offer greater protection to CONSUMERS.
+
+22          14.     The injunctive provisions of this Judgment, sections IV, V, and VI, shall apply to: (a)
+
+23 HEALTHLINE, (b) its directors, officers, employees, and agents; (c) its subsidiaries; and (d) its
+
+24 successors and the assigns of all or substantially all of the assets of their businesses.
+
+25 IV.      COMPLIANCE WITH LAW
+
+26          15.     HEALTHLINE shall comply with Civil Code sections 1798.100, 1798.120,
+
+27 1798.121, and 1798.135, and Code of Regulations, title 11, sections 7002, 7003, 7012-15, 7025-28,
+
+28 7051, and 7053.
+
+
+                                                     -3-                          Final Judgm. and Perm. Inj.
+ 1          16.     To the extent HEALTHLINE SELLS or SHARES the PERSONAL
+
+ 2 INFORMATION of CONSUMERS, including via ONLINE TRACKING TECHNOLOGY,
+
+ 3 HEALTHLINE shall provide notice to CONSUMERS as required by Civil Code section 1798.100,
+
+ 4 subdivision (a), and Code of Regulations, title 11, section 7013, that clearly states that it SELLS and
+
+ 5 SHARES their PERSONAL INFORMATION, and that CONSUMERS have the right to opt-out of
+
+ 6 all SALES or SHARING.
+
+ 7          17.     HEALTHLINE shall process CONSUMER requests to opt out of SALES or
+
+ 8 SHARING, signaled via an OPT-OUT PREFERENCE SIGNAL, including the Global Privacy
+
+ 9 Control or the “GPC.”
+
+10 V.       ADVERTISING ON DIAGNOSED MEDICAL CONDITION ARTICLES
+
+11          18.     HEALTHLINE shall not SELL or SHARE PERSONAL INFORMATION combined
+
+12 with information that allows the recipient to determine that the CONSUMER is viewing a specific
+
+13 DIAGNOSED MEDICAL CONDITION ARTICLE, such as by including the title or URL of the
+
+14 article in the disclosure of the PERSONAL INFORMATION, except where the SALES or
+
+15 SHARING would fall under any exemption in the CCPA, such as §§ 1798.145 or 1798.146.
+
+16 VI.      DISCLOSURE OF SENSITIVE PERSONAL INFORMATION FOR ADVERTISING
+            PURPOSES
+17
+            19.     Should HEALTHLINE, now or in the future, disclose CONSUMERS’ SENSITIVE
+18
+     PERSONAL INFORMATION for advertising purposes, HEALTHLINE shall provide notice to
+19
+     CONSUMERS as required by Civil Code section 1798.100, subdivision (a), and Code of
+20
+     Regulations, title 11, section 7014, that clearly states that it uses and discloses their SENSITIVE
+21
+     PERSONAL INFORMATION for advertising purposes, and that CONSUMERS have the right to
+22
+     limit the use of their SENSITIVE PERSONAL INFORMATION.
+23
+            20.     HEALTHLINE shall also not use or disclose any SENSITIVE PERSONAL
+24
+     INFORMATION that HEALTHLINE collected prior to the date on which HEALTHLINE first
+25
+     posted a Notice of Right to Limit required by Code of Regulations, title 11, section 7014, except as
+26
+     authorized by section 7027, subsection (m) or the CCPA. HEALTHLINE shall also clearly and
+27
+     conspicuously identify in its Notice of Right to Limit the purposes for which it uses or discloses
+28
+
+
+                                                     -4-                         Final Judgm. and Perm. Inj.
+ 1 SENSITIVE PERSONAL INFORMATION. HEALTHLINE shall also offer, to the extent required
+
+ 2 by the CCPA, the links or link required by Civil Code, section 1798.135, subdivision (a).
+
+ 3 VII.    CCPA COMPLIANCE PROGRAM; ASSESSMENT AND REPORTING
+
+ 4         21.     Within 180 days of the EFFECTIVE DATE, and for a period of three (3) years
+
+ 5 thereafter, HEALTHLINE shall implement and maintain a program to assess and monitor whether it
+
+ 6 is effectively processing CONSUMERS’ requests to opt-out of the SALE and SHARING of their
+
+ 7 PERSONAL INFORMATION, including requests submitted via OPT-OUT PREFERENCE
+
+ 8 SIGNALS. This program shall also assess and monitor whether HEALTHLINE is effectively
+
+ 9 processing CONSUMERS’ requests to limit the use of their SENSITIVE PERSONAL
+
+10 INFORMATION, to the extent applicable. HEALTHLINE shall share its assessment with the
+
+11 PEOPLE in an annual report, that includes the following:
+
+12         a.      A detailed explanation of the testing HEALTHLINE has done to assess and monitor
+
+13         its processing of CONSUMERS’ requests.
+
+14         b.      An analysis of any errors or technical problems encountered by HEALTHLINE in
+
+15         processing CONSUMERS’ requests, if any, and steps taken by HEALTHLINE to fix or
+
+16         remediate those errors or problems.
+
+17         22.     Within 180 days of the EFFECTIVE DATE, and for a period of three (3) years
+
+18 thereafter, HEALTHLINE shall conduct an annual regular review of its website and any mobile
+
+19 applications to determine the THIRD PARTIES and SERVICE PROVIDERS with whom it makes
+
+20 available PERSONAL INFORMATION collected through ONLINE TRACKING
+
+21 TECHNOLOGIES. For three (3) years from the EFFECTIVE DATE, HEALTHLINE shall
+
+22 document and share the results of this review with the PEOPLE in an annual report, to include the
+
+23 following:
+
+24         a.      For entities that are SERVICE PROVIDERS, HEALTHLINE will enter into
+
+25         contracts that meet the requirement of the CCPA and its implementing regulations and shall
+
+26         maintain audit records confirming each contract contains the requirements set forth in
+
+27         section 7051(a) of the CCPA regulations.
+
+28
+
+
+                                                  -5-                        Final Judgm. and Perm. Inj.
+ 1         b.        For entities that are THIRD PARTIES, HEALTHLINE will enter into contracts that
+
+ 2         meet the requirements of the CCPA and its implementing regulations, shall maintain audit
+
+ 3         records confirming each contract contains the requirements set forth in section 7053(a) of
+
+ 4         the CCPA regulations, and verify and document that HEALTHLINE does not SELL or
+
+ 5         SHARE the PERSONAL INFORMATION of opted-out CONSUMERS to or with these
+
+ 6         THIRD PARTIES.
+
+ 7         c.        For entities with which HEALTHLINE has a contract providing that the entity will
+
+ 8         act as a SERVICE PROVIDER when processing PERSONAL INFORMATION upon the
+
+ 9         receipt of a signal, HEALTHLINE shall confirm in writing or download documentation
+
+10         from the THIRD PARTY that clearly reflects what the signal is that tells the THIRD
+
+11         PARTY to process that PERSONAL INFORMATION as a SERVICE PROVIDER.
+
+12         HEALTHLINE shall document what that signal is in its report.
+
+13         d.        To the extent that HEALTHLINE relies upon an industry contractual framework to
+
+14         comply with the CCPA’s contractual requirements, HEALTHLINE shall annually review
+
+15         any applicable signatory list or partner certification to verify that any THIRD PARTIES or
+
+16         SERVICE PROVIDERS using that contractual framework continue to be part of that
+
+17         framework. HEALTHLINE shall note that it conducted this annual diligence in its annual
+
+18         report.
+
+19         e.        HEALTHLINE shall describe any SENSITIVE PERSONAL INFORMATION
+
+20         collected through its websites or mobile apps and describe all purposes for which that
+
+21         information is used and disclosed, and describe the categories of recipients of that
+
+22         information, if any.
+
+23         f.        Identification, by position, the person(s) responsible for reviewing the contracts to
+
+24         ensure their compliance.
+
+25         23.       To the extent permitted by the laws of the State of California, all reports, reviews,
+
+26 and sharing of information pursuant to this Judgment are deemed confidential and as exempt from
+
+27 disclosure under the relevant public records laws.
+
+28
+
+
+                                                      -6-                         Final Judgm. and Perm. Inj.
+ 1 VIII. MONETARY PROVISIONS
+
+ 2          24.      HEALTHLINE shall pay the Attorney General the amount of $1,550,000 dollars.
+
+ 3 Payment shall be made by wire transfer to the “California Attorney General’s Office” pursuant to
+
+ 4 instructions provided by the California Attorney General’s Office, no later than thirty (30) days
+
+ 5 after the Effective Date.
+
+ 6          25.      The PEOPLE shall deposit said payment into the Consumer Privacy Fund as
+
+ 7 provided by Civil Code section 1798.155, subdivision (b), to offset costs incurred in connection
+
+ 8 with this action.
+
+ 9          26.      Except as otherwise expressly provided herein, each party shall bear its own
+
+10 attorney’s fees and costs.
+
+11 IX.      ADDITIONAL GENERAL PROVISIONS
+
+12          27.      Upon entry of the Judgment and following full payment of the amount due as
+
+13 specified in the Judgment, the People shall release and discharge Healthline and its affiliates,
+
+14
+     subsidiaries, divisions, successors, directors, officers, employees, agents, and representatives from
+15
+     and against any and all civil privacy and consumer protection law claims relating to the collection,
+16
+     use, sharing, selling, or otherwise disclosing of consumers’ personal information relating to or
+17
+
+18 arising out of a consumer’s interaction with Healthline’s websites or mobile applications, including
+
+19 for online advertising or analytics purposes, and from all causes of action alleged in the Complaint
+
+20 in this matter.
+
+21          28.      This Court retains jurisdiction of this matter for purposes of construction,
+22 modification, and enforcement of this Judgment.
+
+23          29.      Nothing in this Judgment shall be construed as relieving HEALTHLINE of their
+24 obligations to comply with all state and federal laws, regulations, or rules, or as granting permission
+
+25 to engage in any acts or practices prohibited by such law, regulation, or rule.
+
+26          30.      HEALTHLINE shall use reasonable efforts to notify their officers, directors,
+27 employees, and agents responsible for carrying out and effecting the terms of this Judgment of this
+
+28 Judgment and the requirements therein.
+
+
+                                                      -7-                         Final Judgm. and Perm. Inj.
+ 1         31.    Notices and reports under this Judgment shall be served by email and regular mail as
+
+ 2 follows:
+
+ 3         To the PEOPLE’s counsel:
+
+ 4         Deputy A.G. Mike Osgood
+           C/o Supervising Deputy Attorney General
+ 5
+           Consumer Protection Section—Privacy Unit
+ 6         California Attorney General’s Office
+           455 Golden Gate Ave., Suite 11000
+ 7         San Francisco, California 94102-7004
+           Email: mike.osgood@doj.ca.gov
+ 8
+           25.    This Judgment shall take effect immediately upon entry thereof.
+ 9
+           26.    The clerk is directed to enter this Judgment forthwith.
+10
+     ORDERED AND ADJUDGED at San Francisco, California, this ____ day of June, 2025.
+11
+
+12
+
+13
+                                                                     ____________________________
+14
+                                                                       Judge of the Superior Court
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                  -8-                       Final Judgm. and Perm. Inj.
+

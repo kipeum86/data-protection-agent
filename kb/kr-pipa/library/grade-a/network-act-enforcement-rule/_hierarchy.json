@@ -1,0 +1,61 @@
+{
+  "law": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행규칙",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정보보호 최고책임자 지정 신고 등",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "정보보호 관리체계 인증심사 일부의 생략",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "정보통신망연결기기등 정보보호인증의 절차 등",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "정보보호인증의 유효기간 등",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "정보통신망연결기기등 인증시험대행기관의 지정",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "인증시험대행기관의 사후관리",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "",
+      "is_article": true
+    }
+  ]
+}

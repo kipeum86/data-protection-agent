@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/leginfo/ca-sopipa.html",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.2.&division=8.&lawCode=BPC",
+  "final_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.2.&division=8.&lawCode=BPC",
+  "content_type": "text/html; charset=UTF-8",
+  "status": "fetched",
+  "checksum": "sha256:3d9cfd2a10a12dcab8d476c9b75c54d7c2f283724e69755ec1da7d8ceafe6d4e",
+  "bytes": 146715
+}

@@ -1,0 +1,469 @@
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 1 of 12
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8                          UNITED STATES DISTRICT COURT
+ 9                        SOUTHERN DISTRICT OF CALIFORNIA
+10
+11   SILVIA GARCIA, individually and on                 Case No.: 22-cv-1985-DMS-KSC
+12   behalf of all others similarly situated,
+                                                        ORDER GRANTING DEFENDANT’S
+13                                     Plaintiff,       MOTION TO DISMISS
+14   v.
+     BUILD.COM, INC., and DOES 1–10,
+15
+     inclusive,
+16                                   Defendants.
+17
+18          Pending before the Court is Defendant’s motion to dismiss.            Based on her
+19   interactions with the chat feature on Build.com’s website, Plaintiff Silvia Garcia
+20   (“Plaintiff” or “Garcia”) alleges on behalf of herself and all others similarly situated that
+21   Defendant Build.com, Inc. (“Defendant”) violated Cal. Penal Code § 631(a), Clause Four.
+22   For the reasons explained below, the Court grants Defendant’s motion to dismiss.
+23                                      I.   BACKGROUND
+24        A. Factual Allegations
+25          Defendant Build.com is “an online home improvement retailer” that operates an e-
+26   commerce website, www.build.com (“Website”). (Def.’s Mot. to Dismiss (“Def.’s Mem.”)
+27   at 7, ECF No. 26.) The website includes a chat feature which allows customers to ask
+28   questions about Build.com’s products and services. (Id.) At some point between July–
+
+                                                    1
+                                                                                22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 2 of 12
+
+
+
+ 1   November 2022, she visited the Build.com website on her smartphone. (See First Am.
+ 2   Compl. (“FAC”) ¶ 2, ECF No. 20; Compl. ¶ 18, ECF No. 1, Ex. A.) When she visited the
+ 3   website, she initiated a chat conversation with Defendant in which she disclosed personally
+ 4   identifiable information. (FAC ¶¶ 2, 10.) Plaintiff alleges she “was not advised that the
+ 5   chat was monitored, intercepted, or recorded” and did not “consent thereto.” (Id. ¶ 2.)
+ 6           Plaintiff alleges that Defendant “has allowed a third party, Salesforce, to embed its
+ 7   chat technology code into the chat feature” on the Build.com website. (Id. ¶ 9.) Plaintiff
+ 8   explains that Salesforce’s “Live Agent” product “acquires . . . chat communications by first
+ 9   having its software . . . route them to Salesforce’s own computer servers that it owns,
+10   controls, and maintains.” (Id. ¶ 10.) Accordingly, Salesforce has the capability to “secretly
+11   intercept in real time, eavesdrop upon, and store transcripts of consumers’ chat
+12   communications.” (Id.) Plaintiff further alleges that Defendant “has synched its chat
+13   feature with Facebook.” (Id. ¶ 16.) “The integration allows various software sub-systems
+14   to share data to operate as a unified system” and “is all part of Meta’s secret ‘plan to profit
+15   from private chats.’” (Id., quoting Kurt Wagner, Meta Closes $1 Billion Kustomer Deal
+16   After     Regulatory      Review,     Bloomberg       (Feb.     15,    2022,      1:30      PM),
+17   https://www.bloomberg.com/news/articles/2022-02-15/meta-closes-1-billion-kustomer-
+18   deal-after-regulatory-review.) Plaintiff explains:
+19           First, Meta identifies “user interests” by monitoring a collection of “offsite”
+             user activity such as website visits and interactions (including private chat
+20
+             communications between Defendant and visitors) by “integrating” its
+21           software with Salesforce Live Agent. Second, Meta generates revenue by
+             selling advertising space through its subsidiaries’ ability to identify those
+22
+             offsite user interests. Third and finally, after the chat transcripts intercepted
+23           by Salesforce are provided to Meta through “integration,” Meta brands like
+             Facebook and WhatsApp bombard the unsuspecting Website visitors with
+24
+             targeted advertising based upon the user’s Website visits and interactions.
+25
+26   (FAC ¶ 17.) According to Plaintiff, “[a]s such, Salesforce does more than merely provide
+27   a storage function for Website users’ chat communications with Defendant,” but also uses
+28   the chat transcript data it collects “for data analytics and marketing/advertising to
+
+                                                     2
+                                                                                    22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 3 of 12
+
+
+
+ 1   consumers.” (Id. ¶ 19.) “Salesforce’s exploitation, monetization, use of, and interaction
+ 2   with the data it gathers through the chat feature on Defendant’s Website in real time,”
+ 3   therefore, “makes it a third-party interceptor and eavesdropper known to and enabled by
+ 4   Defendant.” (Id. ¶ 20.) Salesforce is not a party to this suit.
+ 5         Plaintiff further alleges that Defendant did not inform Class members that Defendant
+ 6   “secretly allow[ed], aid[ed], and abet[ed]” Salesforce to intercept and eavesdrop on their
+ 7   conversations, or that Salesforce “provided data from such transcripts to Meta and similar
+ 8   entities through ‘integration’ of their softwares.” (Id. ¶ 22.) “Given the nature of
+ 9   Defendant’s business, visitors often share personal and/or confidential data, in addition to
+10   personally identifying information, with Defendant via the Website chat feature.” (Id. ¶
+11   21.) Defendant did not obtain Plaintiff’s or the Class members’ consent for such intrusions,
+12   and Plaintiff and Class members did not know at the time they engaged in chat
+13   communications on the Website. (Id. ¶ 23.)
+14      B. Procedural History
+15         Plaintiff filed the original complaint in this action on November 17, 2022, which
+16   Defendant removed to this federal court on December 14, 2022, and raised two claims
+17   based on violations of two provisions of the California Invasion of Privacy Act (CIPA),
+18   Cal. Penal Code §§ 631(a), 632.7. (See generally Compl.; Notice of Removal, ECF No.
+19   1.) Specifically, in Count One, Plaintiff alleged that Defendant violated all four clauses of
+20   CIPA § 631(a), Cal. Penal Code § 631(a), and in Count Two, Plaintiff alleged that
+21   Defendant violated CIPA § 632.7, Cal. Penal Code § 632.7. (See generally Compl.) On
+22   July 13, 2023, this Court dismissed the original complaint in its entirety. (Order dated July
+23   13, 2023 (“Order”), at 12.) The Court found that Plaintiffs failed to allege an aiding-
+24   abetting claim under CIPA § 631(a), Clause Four, because Plaintiffs had not “plausibly
+25   allege[d] the existence of a third-party eavesdropper,” or alternatively, because Plaintiffs
+26   had not alleged that the third-party eavesdropper had “intercepted and used the data” for
+27   its own purposes and that Defendant aided and abetted such conduct. (Id. at 9–10.) The
+28   Court dismissed the Clause Four claim with leave to amend because it concluded that
+
+                                                   3
+                                                                                22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 4 of 12
+
+
+
+ 1   amendment would not be futile. The Court dismissed all other claims and theories with
+ 2   prejudice. (Id. at 10, 12.)
+ 3          Plaintiff filed the operative FAC on July 17, 2023. Defendant filed its motion to
+ 4   dismiss on August 30, 2023. (Def.’s Mot., ECF No. 26.) Plaintiff filed a response in
+ 5   opposition on September 29, 2023. 1 (Pl.’s Opp’n, ECF No. 28.) On October 6, 2023,
+ 6   Defendant replied in support of its motion to dismiss, (Def.’s Reply, ECF No. 29), and the
+ 7   Court took this matter under submission without oral argument, see S.D. Cal. Civ. L.R.
+ 8   7.1(d)(1). Plaintiff filed two notices of supplemental authority on October 17, 2023, (ECF
+ 9   No. 31), and November 6, 2023, (ECF No. 32). On November 7, 2023, Defendant
+10   responded to the notices. (ECF No. 33.)
+11                                        II.    LEGAL STANDARD
+12          Under Federal Rule of Civil Procedure 12(b)(6), a party may file a motion to dismiss
+13   on the grounds that a complaint “fail[s] to state a claim upon which relief can be granted.”
+14   Fed. R. Civ. P. 12(b)(6). A motion to dismiss under Rule 12(b)(6) “tests the legal
+15   sufficiency of a claim.” Navarro v. Block, 250 F.3d 729, 732 (9th Cir. 2001). To survive
+16   a motion to dismiss, “a complaint must contain sufficient factual matter, accepted as true,
+17   to ‘state a claim to relief that is plausible on its face.’” Ashcroft v. Iqbal, 556 U.S. 662,
+18   678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570 (2007)). “A claim has
+19   facial plausibility when the plaintiff pleads factual content that allows the court to draw the
+20   reasonable inference that the defendant is liable for the misconduct alleged.”                            Id.
+21   “Determining whether a complaint states a plausible claim for relief will . . . be a context-
+22   specific task that requires the reviewing court to draw on its judicial experience and
+23   common sense.” Id. at 679. “Factual allegations must be enough to raise a right to relief
+24   above the speculative level.” Twombly, 550 U.S. at 555. If Plaintiff “ha[s] not nudged”
+25
+26
+     1
+       The Court grants Plaintiff’s concurrently filed request for the Court to take judicial notice of state court
+27   orders, (ECF No. 28-1), which are public records. See Fed. R. Evid. 201(b) (“The court may judicially
+     notice a fact that is not subject to reasonable dispute” if “it . . . can be accurately and readily determined
+28   from sources whose accuracy cannot reasonably be questioned.”).
+
+                                                           4
+                                                                                              22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 5 of 12
+
+
+
+ 1   her “claims across the line from conceivable to plausible,” the complaint “must be
+ 2   dismissed.” Id. at 570.
+ 3         In reviewing the plausibility of a complaint on a motion to dismiss, a court must
+ 4   “accept factual allegations in the complaint as true and construe the pleadings in the light
+ 5   most favorable to the nonmoving party.” Manzarek v. St. Paul Fire & Marine Ins. Co.,
+ 6   519 F.3d 1025, 1031 (9th Cir. 2008). But courts are not “required to accept as true
+ 7   allegations that are merely conclusory, unwarranted deductions of fact, or unreasonable
+ 8   inferences.” In re Gilead Scis. Secs. Litig., 536 F.3d 1049, 1055 (9th Cir. 2008) (quoting
+ 9   Sprewell v. Golden State Warriors, 266 F.3d 979, 988 (9th Cir. 2001)).
+10         When a court grants a motion to dismiss a complaint, it must then decide whether to
+11   grant leave to amend. Leave to amend should be “freely given” where there is no (1)
+12   “undue delay,” (2) “bad faith or dilatory motive,” (3) “undue prejudice to the opposing
+13   party” if amendment were allowed, or (4) “futility” in allowing amendment. Foman v.
+14   Davis, 371 U.S. 178, 182 (1962). Dismissal without leave to amend is proper only if it is
+15   clear that “the complaint could not be saved by any amendment.” Intri-Plex Techs. v. Crest
+16   Group, Inc., 499 F.3d 1048, 1056 (9th Cir. 2007). “Leave need not be granted where the
+17   amendment of the complaint . . . constitutes an exercise in futility . . . .” Ascon Props., Inc.
+18   v. Mobil Oil Co., 866 F.2d 1149, 1160 (9th Cir. 1989).
+19                                       III.   DISCUSSION
+20         Plaintiff again fails to state a claim because she fails to plausibly allege the existence
+21   of a third-party eavesdropper or that Plaintiff aided and abetted any such eavesdropper.
+22   Section 631(a) makes actionable “three distinct and mutually independent patterns of
+23   conduct: intentional wiretapping, willfully attempting to learn the contents or meaning of
+24   a communication in transit over a wire, and attempting to use or communicate information
+25   obtained as a result of engaging in either of the previous two activities.” Tavernetti v.
+26   Super. Ct. of San Diego Cnty., 22 Cal. 3d 187, 192 (1978). Section 631 also imposes
+27   liability upon “anyone ‘who aids, agrees with, employs, or conspires with any person or
+28   persons to unlawfully do, or permit, or cause to be done any of the’ . . . three bases for
+
+                                                    5
+                                                                                   22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 6 of 12
+
+
+
+ 1   liability.” Mastel v. Miniclip SA, 549 F. Supp. 3d 1129, 1134 (E.D. Cal. 2021) (quoting
+ 2   Cal. Penal Code § 631(a)). Specifically, Section 631(a) makes liable any person
+ 3         [1] who, by means of any machine, instrument, or contrivance, or in any other
+           manner, intentionally taps, or makes any unauthorized connection, whether
+ 4
+           physically, electrically, acoustically, inductively, or otherwise, with any
+ 5         telegraph or telephone wire, line, cable, or instrument, including the wire, line,
+           cable, or instrument of any internal telephonic communication system, or
+ 6
+           [2] who willfully and without the consent of all parties to the communication,
+ 7         or in any unauthorized manner, reads, or attempts to read, or to learn the
+           contents or meaning of any message, report, or communication while the same
+ 8
+           is in transit or passing over any wire, line, or cable, or is being sent from, or
+ 9         received at any place within this state; or
+           [3] who uses, or attempts to use, in any manner, or for any purpose, or to
+10
+           communicate in any way, any information so obtained, or
+11         [4] who aids, agrees with, employs, or conspires with any person or persons
+           to unlawfully do, or permit, or cause to be done any of the acts or things
+12
+           mentioned above in this section . . . .
+13
+14   Cal. Penal Code § 631(a).
+15         Plaintiff’s sole surviving claim in the operative FAC is an aiding and abetting claim
+16   under Clause Four. “To state a claim under [Clause Four], Plaintiff must allege [the third-
+17   party service] has violated one of the first three clauses of section 631(a), and that
+18   Defendant aided, agreed with, employed, or conspired with that person or entity to commit
+19   those unlawful acts.” Esparza v. UAG Escondido A1 Inc., No. 23-cv-102 DMS, 2024 WL
+20   559241, at *2 (S.D. Cal. Feb. 12, 2024). Defendant argues that Plaintiff’s attempt to
+21   replead a Clause Four claim fails for two reasons: (1) the FAC fails to plausibly allege the
+22   existence of a third-party eavesdropper because it only added more speculative and
+23   conclusory allegations; and (2) even if the FAC alleged a third-party “eavesdropper,” it
+24   failed to plausibly allege a predicate violation that Defendant could have aided and abetted.
+25   (Def.’s Mot. at 10–11, 15.) Plaintiff responds that it has plausibly alleged the existence of
+26   a third-party eavesdropper as well as a predicate violation. (Pl.’s Opp’n at 2.) The Court
+27   addresses these arguments below.
+28   ///
+
+                                                   6
+                                                                                  22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 7 of 12
+
+
+
+ 1      A. Existence of Third-Party Eavesdropper
+ 2         In its order dismissing the original Complaint, the Court explained:
+ 3         Plaintiff alleges “Defendant allow[ed] at least one independent third-party
+           vendor . . . to use a software device or contrivance to secretly intercept . . .,
+ 4
+           eavesdrop upon, and store transcripts of Defendant’s chat communications
+ 5         with unsuspecting website visitors.” (Compl. ¶ 12.) This claim fails because
+           the Complaint does not plausibly allege the existence of a third-party
+ 6
+           eavesdropper. Plaintiff speculates that the eavesdropper may be WhosOn or
+ 7         SalesForce, (see id.), but such a speculative, “‘naked assertion,’ devoid of
+           ‘further factual enhancement’” cannot plausibly allege the existence of a
+ 8
+           third-party eavesdropper. Iqbal, 556 U.S. at 678 (quoting Twombly, 550 U.S.
+ 9         at 557).
+10   (Order at 9.) In the FAC, Plaintiff now alleges:
+11         Defendant has allowed a third party, Salesforce, to embed its chat technology
+           code into the chat feature offered on Defendant’s Website. Indeed, whenever
+12
+           a consumer chats via Defendant’s Website, the chat is routed through
+13         Salesforce’s servers so they may simultaneously collect a transcript of that
+           chat, along with other user data, in real time and save it for later access.
+14
+15   (FAC ¶ 9.) All that has changed is Plaintiff now definitively names Salesforce as the third-
+16   party eavesdropper. But the amended allegation suffers from the same deficiency the Court
+17   originally identified—it is still a conclusory, “naked assertion” lacking any factual
+18   enhancement and fails to plausibly allege the existence of a third-party eavesdropper.
+19   Twombly, 550 U.S. at 557. Plaintiff does not explain the basis for her belief that Defendant
+20   employs a third-party vendor to capture and store chat transcripts for its own use or how
+21   she identified Salesforce specifically as that third-party vendor.
+22         Moreover, Defendant correctly notes that the newly added paragraphs in the FAC
+23   do not state any facts about Build.com or the chat function. The new allegations suggest
+24   that Meta offers technologies that integrate Meta products into customer relationship
+25   management software and allow businesses to better manage the leads generated from ad
+26   campaigns. (FAC ¶ 15–16.) But Plaintiff offers no facts suggesting that Build.com itself
+27   has such an integration with Meta. Plaintiff’s allegations—that Defendant has allowed
+28   Salesforce “to embed its chat technology” within Defendant’s chat feature in order to
+
+                                                   7
+                                                                                 22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 8 of 12
+
+
+
+ 1   eavesdrop on chat conversation, and that Defendant shares chat data with Meta—are not
+ 2   “entitled to the presumption of truth.” Starr v. Baca, 652 F.3d 1202, 1216 (9th Cir. 2011);
+ 3   see Iqbal, 556 U.S. at 680–81 (“bare assertion[]” that defendants “knew of, condoned, and
+ 4   willfully and maliciously agreed to subject” plaintiff to “harsh conditions of confinement
+ 5   ‘as a matter of policy, solely on account of [his] religion, race, and/or national origin’” was
+ 6   “conclusory and not entitled to be assumed true”). Accordingly, Plaintiff has failed to
+ 7   plausibly allege a third-party eavesdropper that Defendant aided and abetted.
+ 8      B. Predicate Violations of Third-Party Eavesdropper
+ 9         Alternatively, even if the FAC alleges the existence of a third-party “eavesdropper,”
+10   Plaintiff fails to plausibly allege that the third-party committed any predicate violation
+11   which Defendant aided and abetted.
+12         1. Section 631(a), Clause One
+13         As noted, Plaintiff alleges the underlying third-party wrongdoer in this case is
+14   Salesforce. To show that Salesforce violated Section 631(a), Clause One, Plaintiff must
+15   allege Salesforce intentionally tapped or made an unauthorized connection “with any
+16   telegraph or telephone wire, line, cable, or instrument, including the wire, line, cable, or
+17   instrument of any internal telephonic communication system[.]” Cal. Penal Code § 631(a).
+18   Defendant argues the use of a chat feature on a website does not meet the “telegraph or
+19   telephone” element of this claim, and therefore, Plaintiff cannot show a violation of Clause
+20   One. (Def.’s Mot. at 16.) Plaintiff disagrees and asserts that Clause One applies to
+21   communications via smartphone. (Pl.’s Opp’n at 16–18.)
+22         In Valenzuela v. Keurig Green Mountain, Inc., --- F. Supp. 3d ----, No. 22-CV-9042-
+23   JSC, 2023 WL 3707181, at *2 (N.D. Cal. May 24, 2023), a case based on similar facts and
+24   filed by Plaintiff’s counsel in this case, the court addressed the same arguments raised here,
+25   and concluded, based on the plain language of the statute, that the statute did not apply “to
+26   technologies other than telegraphs and telephones.” This Court has followed Valenzuela’s
+27   reasoning in earlier cases and does so again here. See UAG Escondido, 2024 WL 559241,
+28   at *2 (finding Valenzuela’s reasoning persuasive and adopting its reasoning). The Court
+
+                                                    8
+                                                                                  22-cv-1985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 9 of 12
+
+
+
+ 1   therefore concludes that Clause One does not apply to internet communications at issue
+ 2   here. Accordingly, Plaintiff has failed to plausibly allege a predicate Clause One violation.
+ 3         2. Section 631(a), Clause Two
+ 4         To show that Salesforce violated Clause Two, Plaintiff must allege facts
+ 5   demonstrating that Salesforce
+ 6         willfully and without the consent of all parties to the communication, or in
+           any unauthorized manner, read[], or attempt[ed] to read, or to learn the
+ 7
+           contents or meaning of any message, report, or communication while the same
+ 8         [was] in transit or passing over any wire, line, or cable, or [was] being sent
+           from, or received at any place within this state . . . .
+ 9
+10   Cal. Penal Code § 631(a). Defendant argues Plaintiff cannot state a claim under Clause
+11   Two because (a) Plaintiff consented to the recording of her chat messages with Defendant,
+12   (b) any alleged use of a recording software fell within the “party exception” and was not
+13   actionable, and (c) Plaintiff has failed to allege facts to support the “in transit” requirement
+14   of Clause Two. (Def.’s Mot. at 16–24.) Plaintiff responds that (a) she did not consent to
+15   Salesforce recording her conversation with Defendant, (b) the alleged use of third-party
+16   recording software falls outside of the party exception, and (c) she alleged sufficient facts
+17   to support the “in transit” requirement, and that she alleged her communications were sent
+18   from California, which also satisfies this element.
+19         CIPA contains “an exemption from liability for a person who is a ‘party’ to the
+20   communication” because such parties cannot eavesdrop on their own conversation. In re
+21   Facebook, Inc. Internet Tracking Litig., 956 F.3d 589, 607 (9th Cir. 2020); see Rogers v.
+22   Ulrich, 52 Cal. App. 3d 894, 899 (1975) (“It is never a secret to one party to a conversation
+23   that the other party is listening . . . .”). Courts in California “are split on whether this
+24   exemption extends to third parties, particularly, third party software providers.” UAG
+25   Escondido, 2024 WL 559241, at *4. “The first set of cases holds that software providers .
+26   . . are third parties within the meaning of Section 631 and Ribas.” Javier v. Assurance IQ,
+27   LLC, 649 F. Supp. 3d 891, 899 (N.D. Cal. 2023) (citing Ribas v. Clark, 38 Cal. 3d 355,
+28   358, 360–61 (1985) (wife’s friend listening in on wife’s conversation with her former
+
+                                                    9
+                                                                                   22-cv-1985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 10 of
+                                       12
+
+
+ 1   husband (Ribas) at wife’s invitation was eavesdropper under CIPA § 631)). “The second
+ 2   set of cases, led by . . . Graham v. Noom, holds that software vendors . . . are ‘extension[s]’
+ 3   of the websites that employ them, and thus not third parties within the meaning of the
+ 4   statute.” Id. (citing Graham v. Noom, 533 F. Supp. 3d 823, 832 (N.D. Cal. 2021)). The
+ 5   Graham court reasoned that the software vendor, FullStory, “provide[d] a tool—like [a]
+ 6   tape recorder … —that allow[ed] Noom to record and analyze its own data in aid of
+ 7   Noom’s business,” and thus was “not a third-party eavesdropper” under the statute.
+ 8   Graham, 533 F. Supp. 3d at 832–33.
+ 9         The Javier court aligned itself with the first set of cases and identified “two
+10   problems” with the reading of section 631(a) in the Graham line of cases. Javier, 533 F.
+11   Supp. 3d at 900.
+12         The first [reason] is that it interprets the second prong of the statute—
+           “willfully and without the consent of all parties to the communication, or in
+13
+           any unauthorized manner, reads, or attempts to read, or to learn the contents
+14         or meaning of any message, report, or communication while the same is in
+           transit”—based on the intentions and usage of the prospective third party.
+15
+16   Id. This interpretation would subsume Clause Three, which itself “penalizes ‘use’—
+17   ‘us[ing], or attempt[ing] to use, in any manner, or for any purpose, or to communicate in
+18   any way, any information so obtained.’” Id. (quoting Cal. Penal Code § 631(a)). In other
+19   words, “reading a use requirement into the second prong would add requirements that are
+20   not present (and swallow the third prong in the process).” Id. The Javier court continued:
+21         The second problem with this view is that it was not the California Supreme
+           Court’s stated rationale in Ribas: The Ribas Court did not consider the wife’s
+22
+           friend’s intention or the use to which they put the information they obtained.
+23         Instead, it emphasized the privacy concerns at issue with having an
+           “unannounced second auditor” listening in on the call, when Section 631
+24
+           concerns “the right to control the nature and extent of the firsthand
+25         dissemination of [their] statements.”
+26   Id. (quoting Ribas, 38 Cal. 3d at 360–61). This Court has followed Javier’s reasoning in
+27   earlier cases and does so again here. See UAG Escondido, 2024 WL 559241, at *5 (“This
+28   Court finds the reasoning of . . . Javier persuasive, and is inclined to find that the party
+
+                                                   10
+                                                                                  22-cv-1985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 11 of
+                                       12
+
+
+ 1   exemption does not extend to third parties.”).
+ 2          The Javier court determined it could conclude that the third party was not an
+ 3   “unannounced second auditor” if the third party “does not have the capability to use its
+ 4   record of the interaction for any other purpose (just as a tape recorder has no independent
+ 5   capability to divulge the recording for any other purpose but that of its owner).” Javier,
+ 6   533 F. Supp. 3d at 900. “Thus, applying Javier, the question now is whether Plaintiff has
+ 7   adequately alleged that” Salesforce “has the ‘capability’ to use the chat data for its own
+ 8   purposes or benefit.” Rodriguez v. Ford Motor Co., No. 3:23-CV-00598-RBM, 2024 WL
+ 9   1223485, at *13 (S.D. Cal. Mar. 21, 2024). For the reasons explained above, the Court
+10   concludes she has not. Here, Plaintiff has alleged:
+11          Defendant has allowed a third party, Salesforce, to embed its chat technology
+            code into the chat feature offered on Defendant’s Website. Indeed, whenever
+12
+            a consumer chats via Defendant’s Website, the chat is routed through
+13          Salesforce’s servers so they may simultaneously collect a transcript of that
+            chat, along with other user data, in real time and save it for later access.
+14
+15   (FAC ¶ 9.) Plaintiff continues, “Defendant has synched its chat feature with Facebook.
+16   The integration allows various software sub-systems to share data to operate as a unified
+17   system.” (FAC ¶ 16.) The allegation that “the chat is routed through Salesforce’s servers
+18   so they may simultaneously collect a transcript of that chat,” (FAC ¶ 9), “only supports the
+19   inference that” Salesforce “receives and stores these communications for the benefit of its
+20   client,” Build.com, Ford Motor, 2024 WL 1223485, at *13. And Plaintiff’s allegation that
+21   Defendant “has synched its chat feature with Facebook,” (FAC ¶ 16), “is conclusory,
+22   unsupported, and insufficient,” Ford Motor, 2024 WL 1223485, at *13. Accordingly,
+23   Plaintiff has failed to plausibly allege a predicate Clause Two violation.2 The Court need
+24
+25   2
+       The Court recognizes that this conclusion is in tension with the reasoning in UAG Escondido, where this
+26   same Court found that similar allegations did plausibly allege a predicate violation of Clause Two. 2024
+     WL 559241, at *5–6. However, with the benefit of the Parties’ briefing on the issue, the Court is now
+27   persuaded to reach a different conclusion here. The Court also notes that its conclusion on the Clause
+     Two party exemption issue in UAG Escondido was not necessary to its ultimate disposition of dismissing
+28   the case for failure to allege Defendant’s intent to aid and abet. Id. at *6–7.
+
+                                                        11
+                                                                                          22-cv-1985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 37 Filed 03/29/24 PageID.<pageID> Page 12 of
+                                       12
+
+
+ 1   not consider Defendant’s remaining arguments on consent and the “in transit” requirement.
+ 2         3. Section 631(a), Clause Three
+ 3         To show that Salesforce violated Clause Three, Plaintiff must allege facts
+ 4   demonstrating that Salesforce “use[d], or attempt[ed] to use, in any manner, or for any
+ 5   purpose, or to communicate in any way, any information” obtained as the result of a
+ 6   violation of the preceding clauses. Cal. Penal Code § 631. A violation of Clause Three is
+ 7   contingent upon a violation of Clauses One or Two. See In re Google Assistant Privacy
+ 8   Litig., 457 F. Supp. 3d 797, 827 (N.D. Cal. 2020) (“Plaintiffs must establish that the
+ 9   information at issue . . . was obtained through a violation of the first or second clauses [of
+10   § 631(a)]. Because Plaintiffs have not done so, they have also failed to plead a violation
+11   of the third clause.”) Here, Plaintiff has failed to allege a predicate violation of Clauses
+12   One or Two, so she necessarily fails to allege a predicate violation of Clause Three.
+13   Accordingly, because Plaintiff has failed to allege a predicate violation under Clauses One,
+14   Two, or Three, Plaintiff has failed to plausibly allege an aiding-abetting claim against
+15   Defendant under Clause Four.
+16                                     IV.    CONCLUSION
+17         For the foregoing reasons, the Court GRANTS Defendant’s motion to dismiss.
+18   Because it is not clear that amendment would be futile, the complaint is dismissed with
+19   leave to amend. Within fourteen (14) days of the date of this Order, Plaintiff may file a
+20   second amended complaint which cures the pleading deficiencies identified in this Order.
+21   Plaintiff is cautioned that if the second amended complaint fails to cure the identified
+22   deficiencies, the Court will dismiss the complaint without further leave to amend.
+23         IT IS SO ORDERED.
+24    Dated: March 29, 2024
+25                                                      _________________________________
+                                                        Hon. Dana M. Sabraw, Chief Judge
+26                                                      United States District Court
+27
+28
+
+                                                   12
+                                                                                 22-cv-1985-DMS-KSC
+

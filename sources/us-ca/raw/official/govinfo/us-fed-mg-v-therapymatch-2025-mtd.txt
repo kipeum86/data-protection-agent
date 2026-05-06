@@ -1,0 +1,398 @@
+                                        Case 3:23-cv-04422-AMO            Document 62        Filed 05/19/25      Page 1 of 6
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                   UNITED STATES DISTRICT COURT
+
+                                   5                                  NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7        M.G.,                                            Case No. 23-cv-04422-AMO
+                                                         Plaintiff,
+                                   8
+                                                                                             ORDER DENYING MOTION TO
+                                                    v.                                       DISMISS
+                                   9
+
+                                  10        THERAPYMATCH, INC.,                              Re: Dkt. No. 57
+                                                         Defendant.
+                                  11
+
+                                  12
+
+
+ United States District Court
+                                  13            This is a data privacy lawsuit alleging unauthorized interception and collection of
+
+                                  14   information provided via an online platform for individuals to search for and connect with mental
+
+                                  15   health providers. Before the Court is Defendant’s motion to dismiss Plaintiff’s third amended
+
+
+
+Northern District of California
+                                  16   complaint (“TAC”). ECF 57. The motion is fully briefed, and because it is suitable for decision
+
+                                  17   without oral argument, the hearing set for May 22, 2025 is hereby VACATED. See Civ. L.R. 7-6.
+
+                                  18   This Order assumes familiarity with the facts and procedural history of this case. Having read the
+
+                                  19   papers filed by the parties and carefully considered the arguments therein, as well as the relevant
+
+                                  20   legal authority, the Court hereby DENIES the motion for the following reasons.
+
+                                  21   I.       DISCUSSION
+
+                                  22            On November 6, 2024, Plaintiff M.G. filed the operative TAC. ECF 54. On December 6,
+
+                                  23   2024, Defendant Therapymatch, Inc. d/b/a Headway (“Headway”) moved to dismiss the TAC for
+
+                                  24   failure to state a claim. ECF 57. Under Rule 12(b)(6) of the Federal Rules of Civil Procedure, a
+
+                                  25   complaint may be dismissed for failure to state a claim for which relief may be granted. Fed. R.
+
+                                  26   Civ. P. 12(b)(6). Rule 12(b)(6) requires dismissal when a complaint lacks either a “cognizable
+
+                                  27   legal theory” or “sufficient facts alleged” under such a theory. Godecke v. Kinetic Concepts, Inc.,
+
+                                  28   937 F.3d 1201, 1208 (9th Cir. 2019) (citation omitted). Whether a complaint contains sufficient
+                                           Case 3:23-cv-04422-AMO         Document 62        Filed 05/19/25      Page 2 of 6
+
+
+
+
+                                   1   factual allegations depends on whether it pleads enough facts to “state a claim to relief that is
+
+                                   2   plausible on its face.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v.
+
+                                   3   Twombly, 550 U.S. 544, 570 (2007)). A claim is plausible “when the plaintiff pleads factual
+
+                                   4   content that allows the court to draw the reasonable inference that the defendant is liable for the
+
+                                   5   misconduct alleged.” Id. at 678.
+
+                                   6           When evaluating a motion to dismiss, the court “accept[s] factual allegations in the
+
+                                   7   complaint as true and construe[s] the pleadings in the light most favorable to the nonmoving
+
+                                   8   party.” Manzarek, 519 F.3d 1025, 1031 (9th Cir. 2008). However, “allegations in a complaint . . .
+
+                                   9   may not simply recite the elements of a cause of action [and] must contain sufficient allegations of
+
+                                  10   underlying facts to give fair notice and to enable the opposing party to defend itself effectively.”
+
+                                  11   Levitt v. Yelp! Inc., 765 F.3d 1123, 1135 (9th Cir. 2014) (citations omitted). The Court may
+
+                                  12   dismiss a claim “where there is either a lack of a cognizable legal theory or the absence of
+
+
+ United States District Court
+                                  13   sufficient facts alleged under a cognizable legal claim.” Hinds Invs., L.P. v. Angioli, 654 F.3d
+
+                                  14   846, 850 (9th Cir. 2011).
+
+                                  15           Headway moves to dismiss M.G.’s claims alleging violations of the Confidentiality of
+
+
+
+Northern District of California
+                                  16   Medical Information Act (“CMIA”) and the California Consumer Privacy Act (“CCPA”).1 Each
+
+                                  17   is discussed below.
+
+                                  18           A. Confidentiality of Medical Information Act
+
+                                  19           M.G. alleges that Headway violated California Civil Code §§ 56.10, 56.06, and 56.101.
+
+                                  20   Section 56.101 states that “[a]ny provider of health care . . . who negligently creates, maintains,
+
+                                  21   preserves, stores, abandons, destroys, or disposes of medical information shall be subject to the
+
+                                  22   remedies and penalties” provided under Section 56.36(b)-(c). Cal. Civ. Code § 56.101. Section
+
+                                  23   56.10 prohibits “provider[s] of health care” from “disclos[ing] medical information regarding a
+
+                                  24   patient of the provider of health care or an enrollee or subscriber of a health care service plan
+
+                                  25   without first obtaining an authorization.” Section 56.06 defines “provider of health care,” while
+
+                                  26
+                                  27   1
+                                        The Court granted Headway’s motion to dismiss M.G.’s CMIA claims in the first amended
+                                  28   complaint (“FAC”) and denied its motion to dismiss all other claims. See ECF 44 (“Order”).
+
+                                                                                         2
+                                           Case 3:23-cv-04422-AMO         Document 62        Filed 05/19/25       Page 3 of 6
+
+
+
+
+                                   1   Section 56.10 dictates, in pertinent part, that a provider of health care “shall not disclose medical
+
+                                   2   information regarding a patient . . . without first obtaining an authorization . . . .” Section 56.36
+
+                                   3   provides statutory damages of up to $1,000 for violations of the CMIA. Cal. Civ. Code §
+
+                                   4   56.36(b)(1). Headway argues the TAC fails to allege any medical information or records were
+
+                                   5   transmitted to Google or that anyone viewed any medical information. Mot. at 12-17.
+
+                                   6           The CMIA defines “medical information” as “individually identifiable information . . .
+
+                                   7   regarding a patient’s medical history, mental health application information, mental or physical
+
+                                   8   condition, or treatment.” Cal. Civ. Code § 56.05(i); see Eisenhower Med. Ctr. v. Superior Ct., 226
+
+                                   9   Cal. App. 4th 430, 434 (2014) (“ ‘[M]edical information’ as defined under the CMIA is
+
+                                  10   substantive information regarding a patient’s medical condition or history that is combined with
+
+                                  11   individually identifiable information.”). “Mental health application information” means
+
+                                  12   information “related to a consumer’s inferred or diagnosed mental health or substance abuse
+
+
+ United States District Court
+                                  13   disorder . . . .” Cal. Civ. Code § 56.05(j). “This definition does not encompass demographic or
+
+                                  14   numeric information that does not reveal medical history, diagnosis, or care,” and “the mere fact
+
+                                  15   that a person may have been a patient at the hospital at some time is not sufficient” without
+
+
+
+Northern District of California
+                                  16   “substantive information regarding that person’s medical condition, history, or treatment.”
+
+                                  17   Eisenhower, 226 Cal. App. 4th at 435. The use of a patient portal to “schedule appointments,
+
+                                  18   refill prescriptions, and to view [] test results and appointment notes,” however, constitutes
+
+                                  19   “medical history, diagnosis, or care.” B.K. et al, v. Desert Care Network, Desert Regional
+
+                                  20   Medical Center, Inc. et al, No. 223-CV-05021-SPGPDX, 2024 WL 1343305, at *5 (C.D. Cal.
+
+                                  21   Feb. 1, 2024); see also Tamraz v. Bakotic Pathology Assocs., LLC, No. 22-CV-0725-BASWVG,
+
+                                  22   2022 WL 16985001, at *5 (S.D. Cal. Nov. 16, 2022).
+
+                                  23           The Court previously dismissed M.G.’s CMIA claim because the FAC failed to allege
+
+                                  24   “substantive information” regarding M.G.’s “medical condition, history, or treatment.” Order at 5.
+
+                                  25   M.G. has cured that deficiency in the TAC.2 Therein, M.G. alleges he provided Headway with
+
+                                  26
+                                       2
+                                  27     M.G. filed a second amended complaint on October 16, 2024, asserting new factual allegations.
+                                       ECF 49. On October 29, 2024, the parties filed a stipulation requesting that M.G. be allowed to
+                                  28   file a third amended complaint, ECF 51, which the Court granted, ECF 52. The TAC, which M.G.
+                                       filed on November 6, 2024, omitted reference to the statutes forming the basis of M.G.’s claims
+                                                                                       3
+                                        Case 3:23-cv-04422-AMO            Document 62        Filed 05/19/25      Page 4 of 6
+
+
+
+
+                                   1   information about the symptoms he was experiencing, the mental health issues for which he
+
+                                   2   sought treatment, the type of therapy he sought, his preferred type of therapy, and his preferred
+
+                                   3   qualities for a therapist. TAC ¶¶ 11-12. He avers that when prompted, he disclosed that “he was
+
+                                   4   suffering from stress, trauma, and past abuse,” and “described his symptoms and indicated he was
+
+                                   5   experiencing depression, anxiety, stress, and lack of sleep.” TAC ¶ 11. M.G. further disclosed
+
+                                   6   that “his reasons for seeking mental health services and treatment were related to his stress at work
+
+                                   7   and marital issues with his spouse.” Id. He also selected options indicating his preference for
+
+                                   8   general therapy with a female therapist of color located in his area who offered online therapy
+
+                                   9   sessions. TAC ¶ 12. These allegations constitute “substantive information” regarding M.G.’s
+
+                                  10   “medical history, diagnosis, or care” as the CMIA requires. See R.C. v. Sussex Publishers, LLC,
+
+                                  11   No. 24-CV-02609-JSC, 2025 WL 948060, at *5 (N.D. Cal. Mar. 28, 2025) (finding information
+
+                                  12   constituted “medical history, diagnosis, or care” where plaintiffs searched for therapists on website
+
+
+ United States District Court
+                                  13   by selecting filters that reflected their symptoms, the type of therapy they sought, and their
+
+                                  14   preferred gender, race, and faith for their therapist). And because M.G. alleges he concurrently
+
+                                  15   inputted individually identifiable information, including his name, address, cell phone number,
+
+
+
+Northern District of California
+                                  16   age, marital status, ethnicity, religion, occupation, employer, income range, and insurance
+
+                                  17   information, TAC ¶¶ 9-10, he has sufficiently alleged that he provided “medical information” as
+
+                                  18   defined by the CMIA. See St. Aubin v. Carbon Health Techs., Inc., No. 24-CV-00667-JST, 2024
+
+                                  19   WL 4369675, at *9 (N.D. Cal. Oct. 1, 2024) (finding disclosure of the reason patients booked a
+
+                                  20   medical appointment and their identifiable information constituted disclosure of “medical
+
+                                  21   information” under the CMIA).
+
+                                  22          M.G. has also sufficiently alleged that his medical information was improperly viewed.
+
+                                  23   Under the CMIA, a plaintiff must allege “the information was ‘improperly viewed or otherwise
+
+                                  24   accessed.’ ” Stasi v. Inmediata Health Group Corp., 501 F. Supp. 3d 898, 922 (S.D. Cal. 2020)
+
+                                  25   (citing Regents of University of California v. Superior Court, 220 Cal. App. 4th 549, 553-54
+
+                                  26   (2013)). That is, a plaintiff must “show[] that an unauthorized party viewed the confidential
+
+                                  27
+
+                                  28
+                                       that the Court dismissed with prejudice, but added no new facts. See ECF 54.
+                                                                                        4
+                                        Case 3:23-cv-04422-AMO           Document 62         Filed 05/19/25     Page 5 of 6
+
+
+
+
+                                   1   information.” Vigil v. Muir Med. Grp. IPA, Inc., 84 Cal. App. 5th 197, 231 (2022). The TAC
+
+                                   2   alleges that Google accessed M.G.’s information and that of the putative class members, then
+
+                                   3   “used [it] for its own purposes, including improving Google’s advertising and analytics services
+
+                                   4   offerings and revenue,” TAC ¶ 123, by “measur[ing] the effectiveness of advertising and
+
+                                   5   personaliz[ing] content and ads that one sees on Google’s and its partners’ sites and applications,”
+
+                                   6   TAC ¶ 31; see also TAC ¶¶ 15, 42. Accepting M.G.’s allegations as true and viewing them in the
+
+                                   7   light most favorable to him, the Court finds M.G. has alleged that Google “viewed or otherwise
+
+                                   8   accessed” his information in violation of CMIA. Stasi, 501 F. Supp. 3d at 922; see also R.C.,
+
+                                   9   2025 WL 948060, at *5 (finding plaintiffs sufficiently alleged unlawful viewing where they
+
+                                  10   alleged Google collected information and used it for its marketing and analytics services); Cousin
+
+                                  11   v. Sharp Healthcare, 702 F. Supp. 3d 967, 975 (S.D. Cal. 2023) (denying motion to dismiss CMIA
+
+                                  12   claim and finding it was “sufficiently plausible” that plaintiffs’ information was “viewed or
+
+
+ United States District Court
+                                  13   otherwise accessed” as defined by the CMIA where plaintiffs alleged upon information and belief
+
+                                  14   that “Meta regularly viewed” the information and that Meta’s business model involves using the
+
+                                  15   information for targeted advertising).
+
+
+
+Northern District of California
+                                  16          Because the TAC plausibly alleges that Google viewed or accessed M.G.’s medical
+
+                                  17   information, Headway’s motion to dismiss M.G.’s CMIA claim is DENIED.
+
+                                  18          B. California Consumer Privacy Act
+
+                                  19          Headway also moves to dismiss M.G.’s second cause of action for violation of the CCPA.
+
+                                  20   Mot. at 17. However, the Court already denied a motion by Headway to dismiss this claim, see
+
+                                  21   Order at 14, and Headway cannot now raise an objection that was available to it previously, Fed.
+
+                                  22   R. Civ. P. 12(g)(2) (“Except as provided in Rule 12(h)(2) or (3), a party that makes a motion or
+
+                                  23   objection under this rule must not make another motion under this rule raising a defense or
+
+                                  24   objection that was available to the party but omitted from its earlier motion.”); see also Niantic,
+
+                                  25   Inc. v. Global++, No. 19-CV-03425-JST, 2020 WL 8620002, at *3 (N.D. Cal. Sept. 2, 2020)
+
+                                  26   (noting a defendant “cannot bring a second motion to dismiss challenging a claim that is ‘based on
+
+                                  27   substantially the same allegations in the amended complaint and the original complaint’ ”) (citing
+
+                                  28   Appel v. Boston Nat’l Title Agency, LLC, No. 18-cv-873-BAS-MDD, 2019 WL 3858888, at *3
+                                                                                         5
+                                           Case 3:23-cv-04422-AMO        Document 62       Filed 05/19/25      Page 6 of 6
+
+
+
+
+                                   1   (S.D. Cal. Aug. 15, 2019)).3 Although some courts have exercised their discretion to consider
+
+                                   2   motions barred by Rule 12(g)(2) on the merits where it would serve the interests of judicial
+
+                                   3   economy, see LLE One, LLC v. Facebook Inc., No. 16-CV-06232-JSW, 2019 WL 13201973, at *4
+
+                                   4   (N.D. Cal. Apr. 25, 2019), Headway has not shown why such an exercise of discretion is
+
+                                   5   warranted here. Thus, Headway may not again challenge M.G.’s CCPA claim and its motion to
+
+                                   6   dismiss that cause of action from the TAC is DENIED.
+
+                                   7   II.     CONCLUSION
+
+                                   8           For the foregoing reasons, Headway’s motion to dismiss is DENIED. As Headway’s
+
+                                   9   request for judicial notice corresponds to its motion to dismiss M.G.’s CCPA claim, it is thus
+
+                                  10   DENIED as moot. The Court SETS an initial case management conference for July 10, 2025.
+
+                                  11   The parties SHALL file a case management statement by noon on July 2, 2025.
+
+                                  12
+
+
+ United States District Court
+                                  13           IT IS SO ORDERED.
+
+                                  14   Dated: May 19, 2025
+
+                                  15
+                                                                                                   ARACELI MARTÍNEZ-OLGUÍN
+
+
+Northern District of California
+                                  16                                                               United States District Judge
+                                  17
+
+                                  18
+                                  19
+
+                                  20
+
+                                  21
+
+                                  22
+
+                                  23
+
+                                  24
+
+                                  25   3
+                                        Although M.G. did not list § 1798.150 in the heading of the cause of action in the FAC, he did
+                                  26   discuss it in the body of the FAC, which was enough to put both Headway and the Court on notice
+                                       of his claim under that section. See Mot. to Dismiss the FAC (ECF 20) at 13 (noting “Plaintiff
+                                  27   asserts . . . violations of §1798.150(a) of the CCPA . . .”); Order at 14 (“Although M.G. lists only
+                                       CCPA subsections 1798.100(e) and 1798.81.5(b) in the heading of the cause of action, he includes
+                                  28   section 1798.150 in the body of the FAC. . . . Thus, the Court addresses whether M.G. has stated a
+                                       Section 1798.150 claim.”).
+                                                                                          6
+

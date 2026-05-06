@@ -1,0 +1,123 @@
+{
+  "type": "ca_guidance_index",
+  "count": 5,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "items": [
+    {
+      "id": "ca-cppa-ccpa-updates-2025",
+      "title": "CCPA Updates, Cybersecurity Audits, Risk Assessments, ADMT, and Insurance Regulations",
+      "publisher": "California Privacy Protection Agency",
+      "path": "library/grade-a/ca-cppa-guidance/cppa-ccpa-updates-2025.md",
+      "source_family": "ca-cppa-rulemaking",
+      "authority_level": "nonbinding_guidance",
+      "official_url": "https://cppa.ca.gov/regulations/ccpa_updates.html",
+      "keywords": [
+        "notice",
+        "access",
+        "children",
+        "risk assessment",
+        "ADMT",
+        "cybersecurity audit",
+        "automated decisionmaking",
+        "administrative",
+        "updates",
+        "cybersecurity",
+        "audits",
+        "assessments",
+        "insurance",
+        "regulations"
+      ]
+    },
+    {
+      "id": "ca-cppa-cpi-adjustment",
+      "title": "CPPA CCPA Monetary Thresholds CPI Adjustment",
+      "publisher": "California Privacy Protection Agency",
+      "path": "library/grade-a/ca-cppa-guidance/cppa-cpi-adjustment.md",
+      "source_family": "ca-cppa-guidance",
+      "authority_level": "nonbinding_guidance",
+      "official_url": "https://cppa.ca.gov/regulations/cpi_adjustment.html",
+      "keywords": [
+        "administrative",
+        "penalty",
+        "monetary",
+        "thresholds",
+        "adjustment"
+      ]
+    },
+    {
+      "id": "ca-cppa-laws-regulations",
+      "title": "CPPA Laws & Regulations",
+      "publisher": "California Privacy Protection Agency",
+      "path": "library/grade-a/ca-cppa-guidance/cppa-laws-regulations.md",
+      "source_family": "ca-cppa-guidance",
+      "authority_level": "nonbinding_guidance",
+      "official_url": "https://cppa.ca.gov/regulations/",
+      "keywords": [
+        "notice",
+        "deletion",
+        "access",
+        "risk assessment",
+        "ADMT",
+        "cybersecurity audit",
+        "automated decisionmaking",
+        "administrative",
+        "regulations"
+      ]
+    },
+    {
+      "id": "ca-oag-ccpa-enforcement-examples",
+      "title": "California OAG CCPA Enforcement Case Examples",
+      "publisher": "California Office of the Attorney General",
+      "path": "library/grade-a/ca-oag-guidance/oag-ccpa-enforcement-examples.md",
+      "source_family": "ca-oag-guidance",
+      "authority_level": "nonbinding_guidance",
+      "official_url": "https://oag.ca.gov/privacy/ccpa/enforcement",
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "GPC",
+        "minor",
+        "children",
+        "service provider",
+        "third party",
+        "enforcement",
+        "privacy policy",
+        "california",
+        "examples"
+      ]
+    },
+    {
+      "id": "ca-oag-ccpa",
+      "title": "California OAG CCPA Page",
+      "publisher": "California Office of the Attorney General",
+      "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+      "source_family": "ca-oag-guidance",
+      "authority_level": "nonbinding_guidance",
+      "official_url": "https://www.oag.ca.gov/privacy/ccpa",
+      "keywords": [
+        "notice",
+        "collection",
+        "deletion",
+        "correction",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "global privacy control",
+        "GPC",
+        "children",
+        "service provider",
+        "data breach",
+        "enforcement",
+        "privacy policy",
+        "california"
+      ]
+    }
+  ]
+}

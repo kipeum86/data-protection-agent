@@ -1,0 +1,561 @@
+{
+  "law": "전자정부법",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정의",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "행정기관등 및 공무원 등의 책무",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "전자정부의 원칙",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "전자정부기본계획의 수립",
+      "is_article": true
+    },
+    {
+      "number": "5의2",
+      "title": "기관별 계획의 수립 및 점검",
+      "is_article": true
+    },
+    {
+      "number": "5의3",
+      "title": "전자정부의 날",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "다른 법률과의 관계",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "7",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "7",
+      "title": "전자정부서비스의 신청 등",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9의2",
+      "title": "전자정부 포털을 통한 생활정보의 제공",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "전자정부서비스를 제공받는 자에 대한 본인 확인",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "전자적 고지ㆍ통지",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "행정정보의 전자적 제공",
+      "is_article": true
+    },
+    {
+      "number": "12의2",
+      "title": "공공서비스 지정 및 목록 통보 등",
+      "is_article": true
+    },
+    {
+      "number": "12의3",
+      "title": "등록시스템의 구축ㆍ운영 등",
+      "is_article": true
+    },
+    {
+      "number": "12의4",
+      "title": "공공서비스 목록의 제공 등",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "행정정보의 전자적 제공에 따른 비용 부담",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "세금 등의 전자적 납부",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "전자적 급부제공",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "16",
+      "title": "전자정부서비스 이용촉진을 위한 행정기관등의 책무",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "이용자의 참여 확대",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "유비쿼터스 기반의 전자정부서비스 도입ㆍ활용",
+      "is_article": true
+    },
+    {
+      "number": "18의2",
+      "title": "지능형 전자정부서비스의 제공 등",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "전자정부서비스의 보편적 활용을 위한 대책",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "전자정부 포털의 운영",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "전자정부서비스의 민간 참여 및 활용",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "전자정부서비스의 이용실태 조사ㆍ분석",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "전자정부서비스의 효율적 관리",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "전자적 대민서비스 보안대책",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "25",
+      "title": "전자문서의 작성 등",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "전자문서 등의 성립 및 효력 등",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "전자문서의 송신ㆍ수신",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "전자문서의 발송시기 및 도달시기",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "행정전자서명의 인증",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "행정지식의 전자적 관리",
+      "is_article": true
+    },
+    {
+      "number": "30의2",
+      "title": "전자적 시스템의 상호연계 및 통합",
+      "is_article": true
+    },
+    {
+      "number": "30의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "30의4",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "정보통신망을 통한 의견수렴",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "전자적 업무수행 등",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "종이문서의 감축",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "업무담당자의 신원 및 접근권한",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "금지행위",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "36",
+      "title": "행정정보의 효율적 관리 및 이용",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "행정정보 공동이용센터",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "공동이용 행정정보",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "행정정보 공동이용의 신청ㆍ승인",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "심사ㆍ승인ㆍ협의의 의제",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "행정정보 공동이용 승인의 철회 및 정지",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "정보주체의 사전동의",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "정보주체의 열람청구권",
+      "is_article": true
+    },
+    {
+      "number": "43의2",
+      "title": "정보주체 본인에 관한 행정정보의 제공요구권",
+      "is_article": true
+    },
+    {
+      "number": "44",
+      "title": "행정정보 공동이용에 따른 비용 청구",
+      "is_article": true
+    },
+    {
+      "number": "44의2",
+      "title": "국가기준데이터의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "44의3",
+      "title": "국가기준데이터의 관리 등",
+      "is_article": true
+    },
+    {
+      "number": "45",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "45",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "45",
+      "title": "정보기술아키텍처 기본계획의 수립 등",
+      "is_article": true
+    },
+    {
+      "number": "46",
+      "title": "기관별 정보기술아키텍처 도입ㆍ운영",
+      "is_article": true
+    },
+    {
+      "number": "47",
+      "title": "정보기술아키텍처의 도입ㆍ운영 촉진",
+      "is_article": true
+    },
+    {
+      "number": "48",
+      "title": "정보통신기술에 적합한 업무 재설계",
+      "is_article": true
+    },
+    {
+      "number": "49",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "49",
+      "title": "상호운용성 확보 등을 위한 기술평가",
+      "is_article": true
+    },
+    {
+      "number": "50",
+      "title": "표준화",
+      "is_article": true
+    },
+    {
+      "number": "51",
+      "title": "공유서비스의 지정 및 활용",
+      "is_article": true
+    },
+    {
+      "number": "52",
+      "title": "정보통신망의 구축",
+      "is_article": true
+    },
+    {
+      "number": "53",
+      "title": "정보화인력 개발계획의 수립 등",
+      "is_article": true
+    },
+    {
+      "number": "54",
+      "title": "정보자원 통합관리",
+      "is_article": true
+    },
+    {
+      "number": "54의2",
+      "title": "클라우드컴퓨팅서비스의 이용",
+      "is_article": true
+    },
+    {
+      "number": "55",
+      "title": "지역정보통합센터 설립ㆍ운영",
+      "is_article": true
+    },
+    {
+      "number": "56",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "56",
+      "title": "정보통신망 등의 보안대책 수립ㆍ시행",
+      "is_article": true
+    },
+    {
+      "number": "56의2",
+      "title": "정보시스템 장애 예방ㆍ대응 및 복구 등",
+      "is_article": true
+    },
+    {
+      "number": "56의3",
+      "title": "정보시스템의 등급 관리",
+      "is_article": true
+    },
+    {
+      "number": "56의4",
+      "title": "정보시스템 현황조사 및 점검",
+      "is_article": true
+    },
+    {
+      "number": "56의5",
+      "title": "정보시스템 장애상황 및 사후관리",
+      "is_article": true
+    },
+    {
+      "number": "56의6",
+      "title": "정보통신망의 사용 제한",
+      "is_article": true
+    },
+    {
+      "number": "57",
+      "title": "행정기관등의 정보시스템 감리",
+      "is_article": true
+    },
+    {
+      "number": "58",
+      "title": "감리법인의 등록",
+      "is_article": true
+    },
+    {
+      "number": "59",
+      "title": "감리법인의 준수사항",
+      "is_article": true
+    },
+    {
+      "number": "60",
+      "title": "감리원",
+      "is_article": true
+    },
+    {
+      "number": "61",
+      "title": "감리법인 등의 결격사유",
+      "is_article": true
+    },
+    {
+      "number": "62",
+      "title": "감리법인의 등록취소 등",
+      "is_article": true
+    },
+    {
+      "number": "63",
+      "title": "등록취소처분 등을 받은 감리법인의 업무계속 등",
+      "is_article": true
+    },
+    {
+      "number": "64",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "64",
+      "title": "전자정부사업의 추진 및 지원",
+      "is_article": true
+    },
+    {
+      "number": "64의2",
+      "title": "전자정부사업관리의 위탁",
+      "is_article": true
+    },
+    {
+      "number": "64의3",
+      "title": "전자정부사업관리자의 책무 등",
+      "is_article": true
+    },
+    {
+      "number": "65",
+      "title": "지역정보화사업의 추진 및 지원",
+      "is_article": true
+    },
+    {
+      "number": "66",
+      "title": "시범사업의 추진",
+      "is_article": true
+    },
+    {
+      "number": "67",
+      "title": "사전협의",
+      "is_article": true
+    },
+    {
+      "number": "68",
+      "title": "성과 분석 및 진단",
+      "is_article": true
+    },
+    {
+      "number": "69",
+      "title": "자료제출 등 협조",
+      "is_article": true
+    },
+    {
+      "number": "70",
+      "title": "전자정부의 국제협력",
+      "is_article": true
+    },
+    {
+      "number": "71",
+      "title": "전문기관의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "72",
+      "title": "한국지역정보개발원의 설립 등",
+      "is_article": true
+    },
+    {
+      "number": "73",
+      "title": "권한 등의 위임ㆍ위탁",
+      "is_article": true
+    },
+    {
+      "number": "74",
+      "title": "비밀누설 등의 금지",
+      "is_article": true
+    },
+    {
+      "number": "75",
+      "title": "벌칙 적용 시의 공무원 의제",
+      "is_article": true
+    },
+    {
+      "number": "76",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "76",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "77",
+      "title": "양벌규정",
+      "is_article": true
+    },
+    {
+      "number": "78",
+      "title": "과태료",
+      "is_article": true
+    }
+  ]
+}

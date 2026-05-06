@@ -1,0 +1,208 @@
+[
+  {
+    "chapter": "I",
+    "chapter_title": "Subject matter and scope",
+    "articles": [
+      {
+        "article": 1,
+        "title": "Subject matter and scope"
+      },
+      {
+        "article": 2,
+        "title": "Definitions"
+      }
+    ]
+  },
+  {
+    "chapter": "II",
+    "chapter_title": "Categories of data",
+    "articles": [
+      {
+        "article": 3,
+        "title": "Categories of data"
+      },
+      {
+        "article": 4,
+        "title": "Prohibition of exclusive arrangements"
+      },
+      {
+        "article": 5,
+        "title": "Conditions for re-use"
+      },
+      {
+        "article": 6,
+        "title": "Fees"
+      },
+      {
+        "article": 7,
+        "title": "Competent bodies"
+      },
+      {
+        "article": 8,
+        "title": "Single information points"
+      },
+      {
+        "article": 9,
+        "title": "Procedure for requests for re-use"
+      }
+    ]
+  },
+  {
+    "chapter": "III",
+    "chapter_title": "Data intermediation services",
+    "articles": [
+      {
+        "article": 10,
+        "title": "Data intermediation services"
+      },
+      {
+        "article": 11,
+        "title": "Notification by data intermediation services providers"
+      },
+      {
+        "article": 12,
+        "title": "Conditions for providing data intermediation services"
+      },
+      {
+        "article": 13,
+        "title": "Competent authorities for data intermediation services"
+      },
+      {
+        "article": 14,
+        "title": "Monitoring of compliance"
+      },
+      {
+        "article": 15,
+        "title": "Exceptions"
+      }
+    ]
+  },
+  {
+    "chapter": "IV",
+    "chapter_title": "National arrangements for data altruism",
+    "articles": [
+      {
+        "article": 16,
+        "title": "National arrangements for data altruism"
+      },
+      {
+        "article": 17,
+        "title": "Public registers of recognised data altruism organisations"
+      },
+      {
+        "article": 18,
+        "title": "General requirements for registration"
+      },
+      {
+        "article": 19,
+        "title": "Registration of recognised data altruism organisations"
+      },
+      {
+        "article": 20,
+        "title": "Transparency requirements"
+      },
+      {
+        "article": 21,
+        "title": "Specific requirements to safeguard rights and interests of data subjects and data holders with regard to their data"
+      },
+      {
+        "article": 22,
+        "title": "Rulebook"
+      },
+      {
+        "article": 23,
+        "title": "Competent authorities for the registration of data altruism organisations"
+      },
+      {
+        "article": 24,
+        "title": "Monitoring of compliance"
+      },
+      {
+        "article": 25,
+        "title": "European data altruism consent form"
+      }
+    ]
+  },
+  {
+    "chapter": "V",
+    "chapter_title": "Requirements relating to competent authorities",
+    "articles": [
+      {
+        "article": 26,
+        "title": "Requirements relating to competent authorities"
+      },
+      {
+        "article": 27,
+        "title": "Right to lodge a complaint"
+      },
+      {
+        "article": 28,
+        "title": "Right to an effective judicial remedy"
+      }
+    ]
+  },
+  {
+    "chapter": "VI",
+    "chapter_title": "European Data Innovation Board",
+    "articles": [
+      {
+        "article": 29,
+        "title": "European Data Innovation Board"
+      },
+      {
+        "article": 30,
+        "title": "Tasks of the European Data Innovation Board"
+      }
+    ]
+  },
+  {
+    "chapter": "VII",
+    "chapter_title": "International access and transfer",
+    "articles": [
+      {
+        "article": 31,
+        "title": "International access and transfer"
+      }
+    ]
+  },
+  {
+    "chapter": "VIII",
+    "chapter_title": "Exercise of the delegation",
+    "articles": [
+      {
+        "article": 32,
+        "title": "Exercise of the delegation"
+      },
+      {
+        "article": 33,
+        "title": "Committee procedure"
+      }
+    ]
+  },
+  {
+    "chapter": "IX",
+    "chapter_title": "Penalties",
+    "articles": [
+      {
+        "article": 34,
+        "title": "Penalties"
+      },
+      {
+        "article": 35,
+        "title": "Evaluation and review"
+      },
+      {
+        "article": 36,
+        "title": "Amendment to Regulation (EU) 2018/1724"
+      },
+      {
+        "article": 37,
+        "title": "Transitional arrangements"
+      },
+      {
+        "article": 38,
+        "title": "Entry into force and application"
+      }
+    ]
+  }
+]

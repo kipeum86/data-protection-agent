@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-rodriguez-v-google-2021-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-04688/pdf/USCOURTS-cand-3_20-cv-04688-2.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-04688/pdf/USCOURTS-cand-3_20-cv-04688-2.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:908a4ccb8b8445c4ec09286b979250e6fbaf285472234c7233bdd3487f0b195e",
+  "bytes": 870868
+}

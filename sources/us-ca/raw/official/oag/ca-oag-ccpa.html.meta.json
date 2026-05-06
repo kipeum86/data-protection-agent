@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/oag/ca-oag-ccpa.html",
+  "url": "https://www.oag.ca.gov/privacy/ccpa",
+  "final_url": "https://www.oag.ca.gov/privacy/ccpa",
+  "content_type": "text/html; charset=utf-8",
+  "status": "fetched",
+  "checksum": "sha256:e178aba1e1a9a39fac011727aa1004bcdd470e3e1246e617c1b28506c236a581",
+  "bytes": 124579
+}

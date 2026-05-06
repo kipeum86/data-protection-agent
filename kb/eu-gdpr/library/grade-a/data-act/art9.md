@@ -1,0 +1,55 @@
+---
+# === Identification ===
+law: "Data Act"
+law_id: "32023R2854"
+article: 9
+article_sub: 0
+article_title: "Compensation for making data available"
+chapter: "III"
+chapter_title: "Conditions under which data holders make data available to data recipients"
+
+# === Source ===
+source_grade: "A"
+source_url: "https://eur-lex.europa.eu/eli/reg/2023/2854/art_9/oj/eng"
+effective_date: "20240111"
+last_amended: null
+retrieved_at: "2026-03-26"
+
+# === Relationships ===
+cross_references:
+  - "Art. 42"
+
+# === Search Metadata ===
+keywords:
+  - "compensation"
+  - "making"
+  - "data"
+  - "available"
+  - "data recipient"
+  - "data holder"
+  - "account"
+---
+
+## Article 9 — Compensation for making data available
+
+1. Any compensation agreed upon between a data holder and a data recipient for making data available in business-to-business relations shall be non- discriminatory and reasonable and may include a margin.
+
+2. When agreeing on any compensation, the data holder and the data recipient shall take into account in particular:
+
+(a)
+
+costs incurred in making the data available, including, in particular, the costs necessary for the formatting of data, dissemination via electronic means and storage;
+
+(b)
+
+investments in the collection and production of data, where applicable, taking into account whether other parties contributed to obtaining, generating or collecting the data in question.
+
+3. The compensation referred to in paragraph 1 may also depend on the volume, format and nature of the data.
+
+4. Where the data recipient is an SME or a not-for-profit research organisation and where such a data recipient does not have partner enterprises or linked enterprises that do not qualify as SMEs, any compensation agreed shall not exceed the costs referred to in paragraph 2, point (a).
+
+5. The Commission shall adopt guidelines on the calculation of reasonable compensation, taking into account the advice of the European Data Innovation Board (EDIB) referred to in Article 42.
+
+6. This Article shall not preclude other Union law or national legislation adopted in accordance with Union law from excluding compensation for making data available or providing for lower compensation.
+
+7. The data holder shall provide the data recipient with information setting out the basis for the calculation of the compensation in sufficient detail so that the data recipient can assess whether the requirements of paragraphs 1 to 4 are met.

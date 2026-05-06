@@ -1,0 +1,27 @@
+{
+  "project": "GDPR Agent-Native RAG",
+  "version": "0.1.0",
+  "phase": 1,
+  "search": {
+    "phase_1": {
+      "method": "keyword_index_plus_grep",
+      "index_files": [
+        "index/article-index.json",
+        "index/recital-index.json",
+        "index/edpb-document-index.json",
+        "index/case-index.json",
+        "index/enforcement-index.json"
+      ],
+      "fallback": "grep_full_text",
+      "max_results": 5
+    },
+    "phase_2": {
+      "method": "vector_semantic",
+      "embedding_model": "TBD",
+      "vector_db": "chromadb",
+      "fallback": "phase_1"
+    }
+  },
+  "source_grades_config": "config/source-grades.json",
+  "languages": ["en"]
+}

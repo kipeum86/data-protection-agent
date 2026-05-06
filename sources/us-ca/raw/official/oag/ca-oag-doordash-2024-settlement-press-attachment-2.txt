@@ -1,0 +1,451 @@
+ 1 ROB BONTA
+   Attorney General of California
+ 2 NICKLAS A. AKERS
+   Senior Assistant Attorney General
+ 3 STACEY D. SCHESSER
+   Supervising Deputy Attorney General
+ 4 JESSICA WANG (SBN 278300)
+   AMOS HARTSTON (SBN 186471)
+ 5 MANEESH SHARMA (SBN 280084)
+   ROSAILDA PEREZ (SBN 284646)
+ 6 Deputy Attorneys General
+     455 Golden Gate Avenue, Suite 11000
+ 7   San Francisco, CA 94102-7004
+     Telephone: (415) 510-4400
+ 8   Fax: (415) 703-5480
+     Email: Jessica.Wang@doj.ca.gov
+ 9
+   Attorneys for The People of the State of California
+10
+
+11                        SUPERIOR COURT OF THE STATE OF CALIFORNIA
+
+12                               FOR THE COUNTY OF SAN FRANCISCO
+
+13
+   THE PEOPLE OF THE STATE OF                           Case No.
+14 CALIFORNIA,
+                                                       [PROPOSED] FINAL JUDGMENT AND
+15                                          Plaintiff, PERMANENT INJUNCTION
+
+                   v.
+16
+
+17 DOORDASH, INC.,
+
+18                                        Defendant.
+
+19
+
+20          Plaintiff, the People of the State of California (“the People”), appearing through its attorney,
+
+21 Rob Bonta, Attorney General of the State of California, by Deputy Attorneys General Jessica Wang,
+
+22 Amos Hartston, Maneesh Sharma, Rosailda Perez and Supervising Deputy Attorney General Stacey
+
+23 D. Schesser, and Defendant DoorDash, Inc. (“Defendant”), appearing through its attorneys, Ashlie
+
+24 Beringer and Cassandra Gaedt-Sheckter, of Gibson, Dunn & Crutcher LLP, having stipulated to the
+
+25                                                     1
+ 1 entry of this Final Judgment and Permanent Injunction (“Judgment”) by the Court without the
+
+ 2 taking of proof and without trial or adjudication of any fact or law, without this Judgment
+
+ 3 constituting evidence of or an admission by Defendant regarding any issue or law or fact alleged in
+
+ 4 the Complaint on file, and without Defendant admitting any liability, and with all parties having
+
+ 5 waived their right to appeal, and the Court having considered the matter and good cause appearing:
+
+ 6 IT IS HEREBY ORDERED, ADJUDGED, AND DECREED THAT:
+
+ 7 I.        PARTIES AND JURISDICTION
+
+ 8           1.      This Court has jurisdiction over the allegations and subject matter of the People’s
+
+ 9 Complaint filed in this action, and the parties to this action; venue is proper in this County; and this
+
+10 Court has jurisdiction to enter this Judgment. This Judgment is entered pursuant to and subject to
+
+11 the California Consumer Privacy Act of 2018, Civil Code section 1798.100 et seq., and any
+
+12 subsequent amendments (“CCPA”).
+
+13 II.       DEFINITIONS
+
+14           The following terms in this Judgment shall have these meanings:
+
+15           2.      CLEARLY AND CONSPICUOUSLY means that a required disclosure is easily
+
+16 noticeable and easily understandable by ordinary people.
+
+17           3.      CONSUMER has the same meaning as provided in Civil Code section 1798.140,
+
+18 subdivision (i).
+
+19           4.      CONTRACTOR has the same meaning as provided in Civil Code section 1798.140,
+
+20 subdivision (j).
+
+21           5.      EFFECTIVE DATE means the date this Judgment is entered.
+
+22           6.      MARKETING AND RELATED SERVICES refers to services related to
+
+23 “advertising and marketing” as defined in Civil Code section 1798.140, subdivision (a), and
+
+24
+
+25                                                        2
+     [Proposed] Final Judgment and Permanent Injunction                            People v. DoorDash, Inc.
+ 1 includes, without limitation, cross-context behavioral advertising and participation in a
+
+ 2 MARKETING CO-OPERATIVE.
+
+ 3           7.      MARKETING CO-OPERATIVE refers to where at least two unrelated business
+
+ 4 entities contribute the PERSONAL INFORMATION of CONSUMERS for the purpose of
+
+ 5 advertising their own products to CONSUMERS using PERSONAL INFORMATION contributed
+
+ 6 by other participating business entities.
+
+ 7           8.      NOTICE AT COLLECTION means the notice given to a CONSUMER at or before
+
+ 8 the point at which a business collects PERSONAL INFORMATION from the CONSUMER as
+
+ 9 required by Civil Code section 1798.100, subdivision (a), which may be included in a privacy
+
+10 policy, where applicable, as permitted by implementing regulations.
+
+11           9.      PERSONAL INFORMATION has the same meaning as provided in Civil Code
+
+12 section 1798.140, subdivision (v), which includes the definition of “unique identifier” or “unique
+
+13 personal identifier” as set forth in Civil Code section 1798.140, subdivision (aj).
+
+14           10.     SALE or SELL has the same meaning as provided in Civil Code section 1798.140,
+
+15 subdivision (ad).
+
+16           11.     SERVICE PROVIDER has the same meaning as provided in Civil Code section
+
+17 1798.140, subdivision (ag).
+
+18           12.     SHARE has the same meaning as provided in Civil Code section 1798.140,
+
+19 subdivision (ah).
+
+20           13.     THIRD PARTY has the same meaning as provided in Civil Code section 1798.140,
+
+21 subdivision (ai).
+
+22 III.      INJUNCTIVE PROVISIONS
+
+23           14.     Nothing in this Judgment alters the requirements of state or federal law to the extent
+
+24 they offer greater protection to CONSUMERS.
+
+25                                                        3
+     [Proposed] Final Judgment and Permanent Injunction                            People v. DoorDash, Inc.
+ 1           15.     This judgment and the injunctive provisions of this Judgment shall apply to conduct
+
+ 2 within the United States and any collection or use of the PERSONAL INFORMATION of
+
+ 3 California residents by: (a) Defendant, (b) its directors, officers, and employees; (c) its subsidiaries
+
+ 4 and affiliated entities; and (d) its successors and the assigns of all or substantially all of the assets of
+
+ 5 its businesses.
+
+ 6                                         COMPLIANCE WITH LAW
+
+ 7           16.     Defendant shall comply with the following provisions of the CCPA and its
+
+ 8 implementing regulations: Civil Code sections 1798.100, 1798.115, 1798.120, 1798.130, and
+
+ 9 1798.135, and California Code Regulations title 11, sections 7010, 7011, 7012, 7013, 7024-7026,
+
+10 and 7050-7053. Defendant shall also comply with updates and modifications to the CCPA
+
+11 regulations related to these laws and implementing regulations.
+
+12           17.     Defendant shall comply with the California Online Privacy Protection Act
+
+13 (“CalOPPA”), Business and Professions Code section 22575 et seq., in connection with privacy
+
+14 policy disclosures.
+
+15           18.     To the extent Defendant SELLS and/or SHARES PERSONAL INFORMATION,
+
+16 including, without limitation, through participation in a MARKETING CO-OPERATIVE,
+
+17 Defendant shall provide notice of such SELLING and/or SHARING to CONSUMERS in its
+
+18 privacy policy as required by Civil Code section 1798.130, subdivision (a)(5) and by Business and
+
+19 Professions Code section 22575, and in its NOTICE AT COLLECTION. Defendant shall:
+
+20                   a.       Include in its privacy policy and NOTICE AT COLLECTION a list of the
+
+21 categories of PERSONAL INFORMATION that Defendant has collected about CONSUMERS and
+
+22 SOLD and/or SHARED in the preceding 12 months; and
+
+23
+
+24
+
+25                                                        4
+     [Proposed] Final Judgment and Permanent Injunction                              People v. DoorDash, Inc.
+ 1                   b.       Explain in its privacy policy and NOTICE AT COLLECTION that
+
+ 2 CONSUMERS have the right to opt-out of the SALE and/or SHARING of their PERSONAL
+
+ 3 INFORMATION.
+
+ 4           19.     To the extent Defendant SELLS and/or SHARES PERSONAL INFORMATION,
+
+ 5 including, without limitation, through participation in a MARKETING CO-OPERATIVE,
+
+ 6 Defendant shall provide the required methods to opt-out of the SALE and/or SHARING of
+
+ 7 PERSONAL INFORMATION or shall otherwise comply with Civil Code section 1798.135.
+
+ 8           20.     To the extent Defendant participates in a MARKETING CO-OPERATIVE,
+
+ 9 Defendant shall CLEARLY AND CONSPICUOUSLY state in its privacy policy and NOTICE AT
+
+10 COLLECTION that Defendant SELLS and/or SHARES PERSONAL INFORMATION by
+
+11 participating in a MARKETING CO-OPERATIVE in which other businesses may advertise their
+
+12 own products to the CONSUMER using PERSONAL INFORMATION collected and either
+
+13 SHARED and/or SOLD by Defendant.
+
+14                                         COMPLIANCE PROGRAM
+
+15           21.     Within 180 days of the EFFECTIVE DATE, and for a period of three (3) years
+
+16 thereafter, Defendant shall implement and maintain a compliance program to: (1) assess and
+
+17 monitor whether it is SELLING and/or SHARING the PERSONAL INFORMATION of
+
+18 CONSUMERS, including without limitation for MARKETING AND RELATED SERVICES or to
+
+19 providers of analytics or measurement services, utilizing technical and operational controls, and, (2)
+
+20 if so, evaluate whether it is effectively providing CONSUMERS with the required notices,
+
+21 including in its privacy policy and NOTICE AT COLLECTION, and the right to opt-out.
+
+22           22.     Defendant shall document its compliance program in writing, including its policies
+
+23 and procedures and the technical and operational controls implemented and utilized for assessing
+
+24
+
+25                                                        5
+     [Proposed] Final Judgment and Permanent Injunction                          People v. DoorDash, Inc.
+ 1 and monitoring whether it is SELLING and/or SHARING the PERSONAL INFORMATION of
+
+ 2 CONSUMERS, which shall at minimum include:
+
+ 3                   a.       A detailed description of its review and evaluation of contracts with
+
+ 4 SERVICE PROVIDERS and CONTRACTORS who provide MARKETING AND RELATED
+
+ 5 SERVICES or who provide analytics or measurements services to ensure compliance with CCPA
+
+ 6 requirements, including Civil Code section 1798.100, subdivision (d), Civil Code section 1798.140,
+
+ 7 subdivisions (j) or (ag), and any implementing regulations;
+
+ 8                   b.       A detailed description of the technical and operational controls implemented
+
+ 9 related to assessing CCPA compliance for SERVICE PROVIDERS and CONTRACTORS who
+
+10 provide MARKETING AND RELATED SERVICES or who provide analytics or measurements
+
+11 services, including, without limitation, a description of any diligence undertaken or completed by
+
+12 Defendant;
+
+13                   c.       The name and description of any MARKETING CO-OPERATIVE(S)
+
+14 Defendant participates in after the EFFECTIVE DATE and what PERSONAL INFORMATION
+
+15 Defendant SHARES or SELLS in connection with such MARKETING CO-OPERATIVE(S),
+
+16 together with a copy of any contracts related to such MARKETING CO-OPERATIVE(S); and
+
+17                   d.       To the extent Defendant SELLS and/or SHARES the PERSONAL
+
+18 INFORMATION of CONSUMERS in connection with MARKETING AND RELATED
+
+19 SERVICES or who provide analytics or measurements services, a description of:
+
+20                          i.        How its existing privacy policy and NOTICE AT COLLECTION
+
+21 sufficiently disclose to CONSUMERS its SALE and SHARING practices, including any
+
+22 modification(s) from its previous effective policy to disclose any changes to the categories of
+
+23 PERSONAL INFORMATION it SELLS and/or SHARES or categories of THIRD PARTIES to
+
+24 whom it SELLS and/or SHARES the PERSONAL INFORMATION of CONSUMERS; and
+
+25                                                        6
+     [Proposed] Final Judgment and Permanent Injunction                             People v. DoorDash, Inc.
+ 1                         ii.        The methods Defendant provides or otherwise uses for consumers to
+
+ 2 opt-out of any such SALE and/or SHARING of PERSONAL INFORMATION, including how its
+
+ 3 methods sufficiently disclose and enable the right to opt-out with respect to any such SALE and/or
+
+ 4 SHARING of PERSONAL INFORMATION, and describing any modification(s) from its previous
+
+ 5 methods of disclosing and enabling consumers to opt-out.
+
+ 6              CERTIFICATION OF COMPLIANCE TO THE ATTORNEY GENERAL
+
+ 7           23.     Within 180 days of the EFFECTIVE DATE, and annually for a period of three (3)
+
+ 8 years thereafter, Defendant shall provide a certification to the California Attorney General’s Office
+
+ 9 (i) affirming that Defendant is in compliance with this Judgment and has implemented and is
+
+10 maintaining a compliance program consistent with the requirements set forth in Paragraphs 21 and
+
+11 22; (ii) summarizing Defendant’s compliance program; and (iii) confirming whether or not
+
+12 Defendant has participated in a MARKETING CO-OPERATIVE since the EFFECTIVE DATE.
+
+13           24.     Within forty-five (45) days of receipt of a written request from the California
+
+14 Attorney General’s Office, Defendant shall submit additional information concerning its
+
+15 compliance with this Judgment, its compliance program set forth in Paragraphs 21 and 22, and/or
+
+16 any participation in any MARKETING CO-OPERATIVE. These provisions shall not in any way
+
+17 limit the Attorney General’s rights with respect to investigation and enforcement of potential
+
+18 violations of this Judgment or controlling law.
+
+19           25.     To the full extent permitted by the laws of the State of California, the California
+
+20 Attorney General’s Office shall treat all certifications, reviews, and sharing of information pursuant
+
+21 to this Judgment confidentially and as exempt from disclosure under the relevant public records
+
+22 laws.
+
+23
+
+24
+
+25                                                        7
+     [Proposed] Final Judgment and Permanent Injunction                             People v. DoorDash, Inc.
+ 1 IV.       MONETARY PROVISIONS
+
+ 2           26.     No later than thirty (30) days after the EFFECTIVE DATE, Defendant shall pay the
+
+ 3 Attorney General the amount of $375,000 pursuant to Section 1798.199.90 of the Civil Code.
+
+ 4 Payment shall be made by wire transfer pursuant to instructions provided by the California Attorney
+
+ 5 General’s Office.
+
+ 6           27.     Except as otherwise expressly provided herein, each party shall bear its own
+
+ 7 attorneys’ fees and costs.
+
+ 8 V.        RELEASE
+
+ 9           28.     By entry of this Judgment and following full payment of the amount due as set forth
+
+10 in Paragraph 26, Defendant and its directors, officers, employees, subsidiaries, affiliated entities,
+
+11 and successors are released and discharged only from and against any and all claims by the People
+
+12 arising under the CCPA and CalOPPA in connection with the conduct set forth in the notices of
+
+13 alleged CCPA non-compliance and from all causes of action alleged in the Complaint in this matter.
+
+14 VI.       ADDITIONAL GENERAL PROVISIONS
+
+15           29.     This Court retains jurisdiction of this matter for purposes of construction,
+
+16 modification, and enforcement of this Judgment.
+
+17           30.     Nothing in this Judgment shall be construed as relieving Defendant of its obligations
+
+18 to comply with all state and federal laws, regulations, or rules, or as granting permission to engage
+
+19 in any acts or practices prohibited by such law, regulation, or rule.
+
+20           31.     Defendant shall use reasonable efforts to notify its officers, directors, employees,
+
+21 agents, and contractors responsible for carrying out and effecting the terms of this Judgment of this
+
+22 Judgment and the requirements therein.
+
+23           32.     Notices and reports under this Judgment shall be served by email and regular mail as
+
+24 follows:
+
+25                                                        8
+     [Proposed] Final Judgment and Permanent Injunction                             People v. DoorDash, Inc.
+ 1           To the People or People’s counsel:
+
+ 2           Jessica Wang
+             Consumer Law Section—Privacy Unit
+ 3           California Attorney General’s Office
+             455 Golden Gate Ave., Suite 11000
+ 4           San Francisco, California 94102-7004
+             Email: Jessica.Wang@doj.ca.gov
+ 5
+             To Defendant or Defendant’s counsel:
+ 6
+             Ashlie Beringer
+ 7           Cassandra Gaedt-Sheckter
+             Gibson, Dunn & Crutcher LLP
+ 8           1881 Page Mill Road
+             Palo Alto, CA 94304-1211
+ 9           Email: ABeringer@gibsondunn.com
+                    CGaedtSheckter@gisbondunn.com
+10
+
+11           33.      This Judgment shall take effect immediately upon entry thereof.
+
+12           34.      The clerk is directed to enter this Judgment forthwith.
+
+13
+
+14 ORDERED AND ADJUDGED at San Francisco, California, this ____ day of February, 2024.
+
+15
+
+16
+                                                                     Judge of the Superior Court
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25                                                        9
+     [Proposed] Final Judgment and Permanent Injunction                           People v. DoorDash, Inc.
+

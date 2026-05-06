@@ -1,0 +1,514 @@
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 1 of 14 Page ID #:1
+
+
+
+ 1    ROB BONTA
+      Attorney General of California
+ 2    NICKLAS A. AKERS
+      Senior Assistant Attorney General
+ 3    STACEY D. SCHESSER
+      Supervising Deputy Attorney General
+ 4    AMOS E. HARTSTON (SBN 186471)
+      Deputy Attorney General
+ 5    300 South Spring Street, Suite 1702
+      Los Angeles, CA 90013
+ 6    Telephone: (213) 296-6046
+      Fax: (213) 897-4951
+ 7    Email: Amos.Hartston@doj.ca.gov
+ 8    HYDEE FELDSTEIN SOTO
+      Los Angeles City Attorney
+ 9    MICHAEL BOSTROM (SBN 211778)
+      Chief Assistant City Attorney
+10    WILLIAM PLETCHER (SBN 212664)
+      Supervising Deputy City Attorney
+11    ALEXANDRA AURISCH (SBN 296525)
+      Deputy City Attorney
+12    201 N. Figueroa Street, Suite 1300
+      Los Angeles, CA 90012
+13    Telephone: (213) 978-8100
+      Fax: (213) 482-9549
+14    Email: Alexandra.Aurisch@lacity.org
+15   Attorneys for Plaintiff the People of the State
+     of California
+16
+
+17                      IN THE UNITED STATES DISTRICT COURT
+18                     FOR THE CENTRAL DISTRICT OF CALIFORNIA
+19
+
+20
+
+21    THE PEOPLE OF THE STATE OF                      Case No.
+      CALIFORNIA,
+22                                                COMPLAINT FOR INJUNCTION,
+                                       Plaintiff, CIVIL PENALTIES, AND OTHER
+23                                                EQUITABLE RELIEF
+                  v.
+24
+
+25    TILTING POINT MEDIA LLC,
+26
+                                     Defendant.
+27
+
+28
+                                                  1
+                                                         COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 2 of 14 Page ID #:2
+
+
+
+ 1         The People of the State of California (“the People”), by and through Rob
+ 2    Bonta, Attorney General of the State of California, and Hydee Feldstein Soto, Los
+ 3    Angeles City Attorney, bring this action against Defendant Tilting Point Media
+ 4    LLC (“Tilting Point”) for violations of the Children’s Online Privacy Protection
+ 5    Act, 15 U.S.C. section 6501 et seq. (“COPPA”), the California Consumer Privacy
+ 6    Act, California Civil Code section 1798.100 et seq. (“CCPA”), and the Unfair
+ 7    Competition Law, California Business and Professions Code section 17200 et seq.
+ 8    (“UCL”) based on Tilting Point’s collection, disclosure, sale, and/or sharing of
+ 9    children’s personal information without the required parental or opt-in consent and
+10    based on age-inappropriate advertising to children in connection with Tilting
+11    Point’s mobile free-to-play games.
+12         The People allege the following facts based on investigation, information, or
+13    belief:
+14                                           PARTIES
+15              1.   Plaintiff is the People of the State of California. The People bring this
+16    action by and through Rob Bonta, Attorney General of the State of California, and
+17    Hydee Feldstein Soto, Los Angeles City Attorney.
+18              2.   Defendant Tilting Point Media LLC is a Delaware corporation
+19    headquartered in New York with offices in Los Angeles, San Diego, and globally.
+20                               JURISDICTION AND VENUE
+21              3.   This action arises under the Children’s Online Privacy Protection Act,
+22    15 U.S.C. § 6501 et seq (“COPPA”). This Court has subject-matter jurisdiction
+23    over this action because it is a case arising under federal law. 28 U.S.C. § 1331.
+24    This Court has supplemental jurisdiction over the state law claims because they
+25    form part of the same case or controversy as the federal claim. 28 U.S.C. § 1367.
+26              4.   Pursuant to 15 U.S.C. § 6504, the California Attorney General may
+27    bring a civil action in district court to address alleged noncompliance with COPPA.
+28
+                                                  2
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 3 of 14 Page ID #:3
+
+
+
+ 1    The California Attorney General provided the Federal Trade Commission with
+ 2    written notice of the action and a copy of the complaint.
+ 3          5.     Venue is proper in this judicial district under 28 U.S.C. § 1391(b)(2)
+ 4    because a substantial part of the events or omissions giving rise to the claims
+ 5    occurred in Los Angeles, California. Tilting Point has conducted and continues to
+ 6    conduct business within the State of California, including the City and County of
+ 7    Los Angeles, at all times relevant to this complaint. The violations of law described
+ 8    herein were committed or occurred in the City and County of Los Angeles and
+ 9    elsewhere in the State of California.
+10                                FACTUAL ALLEGATIONS
+11          6.     Tilting Point is a video game developer and publisher. As part of its
+12    business, Tilting Point collects, discloses, sells, and/or shares the personal
+13    information of its customers. Tilting Point generates revenue through advertising
+14    and in-app purchases in its free-to-play mobile application games.
+15          7.     As relevant here, Tilting Point’s apps include games directed to
+16    children and targeting mixed audiences. Tilting Point did not have sufficient
+17    safeguards in place to obtain parental consent before collecting, disclosing, selling,
+18    or sharing personal information of consumers under the age of 13. Tilting Point also
+19    did not have sufficient safeguards in place to obtain affirmative “opt-in”
+20    authorization before collecting, disclosing, selling, or sharing personal information
+21    of consumers at least 13 years of age and under 16 years of age. This violated state
+22    and federal consumer privacy laws. Tilting Point’s privacy policy and advertising
+23    practices related to minors also did not comply with legal requirements.
+24          8.     Specifically, Tilting Point’s mobile game “SpongeBob: Krusty Cook-
+25    Off” (hereinafter, the “SpongeBob app”), launched in 2020, is a popular free-to-
+26    play game that features characters from the animated television series SpongeBob
+27    SquarePants. The app invites players to “[j]oin SpongeBob SquarePants on a
+28    hilarious culinary adventure through the restaurants and kitchens of Bikini
+                                                 3
+                                                       COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 4 of 14 Page ID #:4
+
+
+
+ 1    Bottom!” Gameplay consists of managing a virtual kitchen while attempting to fill
+ 2    customers’ orders within a limited amount of time. The app includes both
+ 3    personalized advertising and in-app purchases, and is rated “4+” in Apple’s App
+ 4    Store and “E” (for everyone) in the Google Play store. The visual content, use of
+ 5    animated characters and fun background music, as well as the simplistic nature of
+ 6    gameplay make the game simple and basic for consumers under the age of 13.
+ 7    Tilting Point also targets older teens and adults with the SpongeBob app.
+ 8          9.     Although Tilting Point’s terms of service and privacy policy stated that
+ 9    consumers were not authorized to use Tilting Point’s services if under 13 years of
+10    age, Tilting Point was aware that children under 13 were using the SpongeBob app,
+11    and the SpongeBob app is directed to children.
+12          10.    In September 2022, the Children’s Advertising Review Unit
+13    (“CARU”) of BBB National Programs issued findings that Tilting Point was
+14    violating COPPA and CARU’s Self-Regulatory Guidelines for Advertising and for
+15    Children’s Online Privacy Protection in connection with the SpongeBob app.
+16    CARU determined that Tilting Point failed to provide a neutral and effective age
+17    screen (the purpose of which is to limit the collection, use, or disclosure of personal
+18    information of users under the age of 13), or to obtain verifiable parental consent
+19    before the collection, use, or disclosure of any personal information from children.
+20    CARU also found that Tilting Point displayed ads that used deceptive tactics such
+21    as having unclear methods to exit the ads, blurred lines between advertising and
+22    gameplay, and caused the download of unnecessary apps; and displayed some ads
+23    that were age-inappropriate for children, such as for a gambling app and a game
+24    about growing marijuana. Tilting Point agreed to implement changes to address
+25    CARU’s concerns regarding its privacy and advertising practices.
+26          11.    Following CARU’s investigation, the People investigated Tilting
+27    Point’s compliance with laws related to minor’s privacy and advertising to minors.
+28
+                                                 4
+                                                       COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 5 of 14 Page ID #:5
+
+
+
+ 1    The People found that, even following CARU’s investigation and report, Tilting
+ 2    Point did not come into compliance with the CCPA, COPPA, and the UCL.
+ 3          12.    The People allege that, during the period since the 2020 launch of the
+ 4    SpongeBob app, Tilting Point:
+ 5                 (a)       Used age screens that did not ask age in a neutral manner. For
+ 6    example, starting in 2020, when the SpongeBob app was first downloaded, an
+ 7    initial screen asked users to select their birthday defaulting to the year 1953. Users
+ 8    under the age of 13 would need to scroll through more than 50 years to select an
+ 9    accurate birth year.
+10                 (b)       Allowed children under age 13 to consent to the processing of
+11    their data for the purpose of receiving “personalized” advertising, without parental
+12    consent.
+13                 (c)       Collected, disclosed, sold, or shared personal information from
+14    consumers who self-identified as under 13 years of age without obtaining parental
+15    consent, and collected, disclosed, sold, or shared personal information from
+16    consumers who self-identified as at least 13 and less than 16 years of age without
+17    obtaining the consumer’s affirmative consent. In other words, regardless of the
+18    age consumers entered via Tilting Point’s age screen, the SpongeBob app
+19    collected and disclosed children’s personal information without the required
+20    parental or opt-in consent, including disclosure to third parties for advertising
+21    purposes.
+22          13.    The People’s investigation also found that Tilting Point incorrectly
+23    configured software development kits (SDKs) provided by third-parties in the
+24    SpongeBob app resulting in the collection and disclosure of children’s personal
+25    information without required parental or opt-in consent. Further, Tilting Point did
+26    not sufficiently review or audit its configuration and use of SDKs to ensure
+27    compliance with CCPA and COPPA legal requirements related to children’s data.
+28
+                                                   5
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 6 of 14 Page ID #:6
+
+
+
+ 1          14.    The People’s investigation also found that Tilting Point’s privacy
+ 2    policy was ambiguous and incomplete regarding the use of personal information
+ 3    for targeted and behavioral advertising. The investigation further found that
+ 4    Tilting Point’s advertising to minors in the SpongeBob app previously used
+ 5    deceptive tactics, such as advertisements that were not clearly labeled as
+ 6    advertising and did not provide clear exit methods, and displayed ads that were
+ 7    age-inappropriate for children.
+ 8    I. Tilting Point Violated the CCPA Because It Sold or Shared Children’s
+ 9       Personal Information Without Obtaining Parental or “Opt-In” Consent.
+10          15.    California’s landmark privacy law, the CCPA, went into effect on
+11    January 1, 2020. The CCPA vests California residents with control over their
+12    personal information. The law requires businesses that sell or share personal
+13    information to make specific disclosures and give consumers the right to opt out of
+14    the sale or sharing of their personal information. (Civ. Code, § 1798.135.) The
+15    CCPA defines “sale” to include disclosing consumer personal information to third
+16    parties in exchange for a benefit. (Civ. Code, § 1798.140, subd. (ad).) The CCPA
+17    defines “share” to include sharing, disclosing, or otherwise making available
+18    consumer personal information to third parties for cross-context behavioral
+19    advertising. (Civ. Code, § 1798.140, subd. (ah).)
+20          16.    While the CCPA requires businesses to allow adult consumers to “opt-
+21    out” of the sale or sharing of their personal information, for children under 16 years
+22    of age, the CCPA is an “opt-in” statute. Businesses are prohibited from selling or
+23    sharing the personal information of consumers when it has actual knowledge they
+24    are less than 13 years of age without parent or guardian affirmative authorization,
+25    and in the case of consumers at least 13 years of age and less than 16 years of age,
+26    without that consumer’s affirmative authorization. A business that willfully
+27    disregards the consumer’s age is deemed to have actual knowledge of the
+28
+                                                6
+                                                      COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 7 of 14 Page ID #:7
+
+
+
+ 1    consumer’s age. (Civ. Code, § 1798.120, subd. (c); Cal. Code Regs., tit. 11, §§
+ 2    7070-7072.)
+ 3          17.     Because Tilting Point sells or shares consumer personal information as
+ 4    part of the SpongeBob app, including in connection with advertising, the CCPA
+ 5    requires that it both disclose in its privacy policy that it sells or shares personal
+ 6    information in connection with targeted or behavioral advertising, and that it not
+ 7    sell or share the personal information of consumers under the age of 16 without
+ 8    obtaining parental consent or affirmative “opt-in” authorization, depending on the
+ 9    age of the consumer. Tilting Point did not comply with these requirements
+10    regarding children’s data.
+11          18.     Tilting Point’s use of a non-neutral age screen failed to encourage
+12    users to enter their age accurately and defaulted to older ages. As a result,
+13    consumers under the age of 16 likely were directed to the adult version of the game.
+14          19.     In addition, Tilting Point incorrectly configured or installed SDKs in
+15    the SpongeBob app in such a way that did not limit collection, disclosure, and use
+16    of personal information based on consumer’s age or obtaining parental or opt-in
+17    consent. Consequently, even where consumers self-identified as under 16 years old
+18    and were directed to the child-specific version of the SpongeBob game, because of
+19    the misconfiguration of the SDKs, the SpongeBob app collected, disclosed, sold, or
+20    shared the personal information of these consumers, including in connection with
+21    targeted or behavioral advertising, without parental consent or affirmative “opt-in”
+22    authorization. Tilting Point’s misconfiguration of SDKs, and lack of diligence in
+23    reviewing its use and configuration of SDKs in its mobile app, resulted in its
+24    violation of CCPA requirements regarding children’s data.
+25          20.     Tilting Point did not identify or resolve its misconfiguration of SDKs,
+26    even after receiving CARU’s report, until discovered in connection with the
+27    People’s investigation. As part of the investigation, Tilting Point found that in some
+28    instances, third-party documentation and default settings complicated installation
+                                                  7
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 8 of 14 Page ID #:8
+
+
+
+ 1    and configuration of SDKs to comply with children’s data privacy laws.
+ 2    Regardless, the proper configuration of third-party SDKs is ultimately Tilting
+ 3    Point’s legal obligation.
+ 4             21.   Tilting Point’s privacy policy also insufficiently disclosed the
+ 5    collection, sale, or sharing of consumer’s personal information, particularly
+ 6    children’s data, or the use and purpose of SDKs, sufficient to allow consumers or
+ 7    parents of consumers to understand and exercise their CCPA rights. Tilting Point
+ 8    did not seek or obtain parental consent for consumers less than 13 years of age, or
+ 9    affirmative “opt-in” authorization of consumers at least 13 years of age and less
+10    than 16 years of age, prior to selling or sharing the personal information of
+11    consumers who self-identified in these age groups.
+12    II. Tilting Point Violated COPPA Because It Collected and Disclosed
+13
+          Children’s Personal Information Without Obtaining Parental Consent.
+
+14             22.   COPPA is a federal statue designed to protect the safety and privacy of
+15    children online by prohibiting the unauthorized or unnecessary collection of
+16    children’s personal information. COPPA applies to any operator of a commercial
+17    website or online service directed to children or with actual knowledge that it
+18    collects, uses, or discloses personal information from children. COPPA requires
+19    operators to meet specific requirements prior to collecting online, using, or
+20    disclosing personal information from children, defined as individuals under the age
+21    of 13.
+22             23.   COPPA applies to Tilting Point because the SpongeBob app is
+23    directed to children, and because Tilting Point had actual knowledge that it
+24    collected personal information from children under the age of 13.
+25             24.   The determination of whether an online service is directed to children
+26    for purposes of COPPA depends on various factors, including its subject matter,
+27    visual content, music or other audio content, the presence of child celebrities or
+28
+                                                  8
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 9 of 14 Page ID #:9
+
+
+
+ 1    celebrities or characters that appeal to children, and evidence regarding audience
+ 2    composition and intended audience. A list of these factors is included in the
+ 3    definition of “Web site or online service directed to children” in 16 C.F.R section
+ 4    312.2. A review of these factors demonstrates the SpongeBob app is directed to
+ 5    children, even though Tilting Point also targets older teens and adults.
+ 6          25.    Tilting Point also had actual knowledge it was collecting personal
+ 7    information from children. Tilting Point used an age screen in the SpongeBob app.
+ 8    As noted, during certain periods of time, Tilting Point’s age screen did not ask for
+ 9    age in a neutral manner, which, while theoretically intended to direct users under 13
+10    years of age to a child-version of the game, the non-neutral age gate likely biased
+11    consumers under age 13 to identify as adults. Nevertheless, numerous users self-
+12    identified as under the age of 13.
+13          26.    Because Tilting Point is an operator of a website or online service
+14    directed to children, and had actual knowledge it collected personal information
+15    from children, Tilting Point is subject to COPPA.
+16          27.    Tilting Point collected, used, and disclosed personal information from
+17    children under the age of 13 through its SpongeBob app, including in connection
+18    with targeted or behavioral advertising, in violation of COPPA by:
+19                 (a)   Failing to obtain consent from parents before collection or use
+20    of personal information from children under the age of 13, in violation of 16 C.F.R.
+21    § 312.5(a)(1);
+22                 (b)   Failing to provide notice on its website or online service of the
+23    information it collects online from children under the age of 13, how it uses such
+24    information, and its disclosure practices, among other required content, in violation
+25    of 16 C.F.R. § 312.4(d); and
+26                 (c)   Failing to provide direct notice to parents of the information it
+27    collects online from children under the age of 13, how it uses such information, and
+28
+                                                9
+                                                      COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 10 of 14 Page ID #:10
+
+
+
+ 1     its disclosure practices for such information, among other required content, in
+ 2     violation of 16 C.F.R. § 312.4(b).
+ 3     III.   Tilting Point’s Advertising Practices
+ 4            28.     With respect to advertising to minors, the People allege that following
+ 5     the 2020 launch of the SpongeBob app, Tilting Point: (a) displayed advertisements
+ 6     that were not obviously labeled as advertising and included full-screen videos that
+ 7     did not provide clear exit methods; (b) displayed advertisements that could not be
+ 8     stopped or dismissed until the player engaged with the advertisement or
+ 9     downloaded unnecessary apps; (c) used unfair, deceptive, or other manipulative
+10     tactics to encourage excessive ad viewing by children, as well as causing children
+11     to inadvertently or unknowingly engage with advertisements or download
+12     additional apps, and (d) displayed advertisements that were age-inappropriate for
+13     children, such as for a gambling app and a game about growing marijuana.
+14            29.     Following the CARU report, Tilting Point addressed these issues in the
+15     child-specific version of the SpongeBob app.
+16                                            CLAIM 1
+17                  VIOLATIONS OF THE CHILDREN’S ONLINE PRIVACY
+18                   PROTECTION ACT, 15 U.S.C. SECTION 6501 ET SEQ.
+19                   (By the People through the California Attorney General)
+20            30.     The People reallege and incorporate by reference each of the
+21     paragraphs above as though fully set forth herein.
+22            31.     Titling Point’s SpongeBob app is directed to children under the age of
+23     13 within the meaning of “Web site or online service directed to children” in 16
+24     C.F.R section 312.2. In addition, Tilting Point has actual knowledge children under
+25     the age of 13 use the SpongeBob app.
+26            32.     Tilting Point collected, used, and disclosed personal information from
+27     children under the age of 13 through its SpongeBob app, including in connection
+28
+                                                  10
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 11 of 14 Page ID #:11
+
+
+
+ 1     with targeted or behavioral advertising, in violation of COPPA including, without
+ 2     limitation, violation of 16 C.F.R. § 312.5(a)(1).
+ 3           33.    Tilting Point failed to provide notice on its website or online service of
+ 4     the information it collects online from children under the age of 13, how it uses
+ 5     such information, and its disclosure practices, among other required content, in
+ 6     violation of 16 C.F.R. § 312.4(d).
+ 7           34.    Tilting Point failed to provide direct notice to parents of the
+ 8     information it collects online from children under the age of 13, how it uses such
+ 9     information, and its disclosure practices for such information, among other required
+10     content, in violation of 16 C.F.R. § 312.4(b).
+11           35.    The California Attorney General is authorized by 15 U.S.C. section
+12     6504 to bring this civil action to enforce COPPA.
+13                                            CLAIM 2
+14         VIOLATIONS OF THE CALIFORNIA CONSUMER PRIVACY ACT,
+15                     CAL. CIVIL CODE SECTION 1798.100 ET SEQ.
+16                 (By the People through the California Attorney General)
+17           36.    The People reallege and incorporate by reference each of the
+18     paragraphs above as though fully set forth herein.
+19           37.    Titling Point’s SpongeBob app is directed to children, and Tilting
+20     Point has actual knowledge children under the age of 13, and consumers at least 13
+21     and under 16, use the SpongeBob app. Tilting Point, though its SpongeBob app,
+22     sells or shares consumer personal information, including in connection with
+23     targeted or behavioral advertising.
+24           38.    Tilting Point did not sufficiently disclose in its privacy policy that it
+25     sells or shares personal information in connection with targeted or behavioral
+26     advertising, particularly its data practices related to children.
+27           39.    Tilting Point did not seek or obtain parental consent for consumers less
+28     than 13 years of age, or affirmative “opt-in” authorization of consumers at least 13
+                                                   11
+                                                         COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 12 of 14 Page ID #:12
+
+
+
+ 1     years of age and less than 16 years of age, prior to selling or sharing the personal
+ 2     information of consumers in these age groups.
+ 3           40.    Accordingly, each time Tilting Point sold or shared personal
+ 4     information when it had actual knowledge the consumer was less than 13 years of
+ 5     age, or willfully disregarded the consumer’s age, without parent or guardian
+ 6     affirmative authorization, Tilting Point violated the CCPA, including, without
+ 7     limitation, Civil Code section 1798.120, subdivision (c), and California Code of
+ 8     Regulations, title 11, sections 7070 and 7072.
+ 9           41.    Each time Tilting Point sold or shared personal information when it
+10     had actual knowledge the consumer was at least 13 years of age and less than 16
+11     years of age, or willfully disregarded the consumer’s age, without the consumer’s
+12     affirmative authorization, Tilting Point violated the CCPA, including, without
+13     limitation, Civil Code section 1798.120, subdivision (c) and California Code of
+14     Regulations, title 11, sections 7071 and 7072.
+15           42.    The California Attorney General is authorized by Civil Code section
+16     1798.199.90 to bring this civil action to enforce the CCPA.
+17                                           CLAIM 3
+18                 VIOLATIONS OF THE UNFAIR COMPETITION LAW,
+19       CAL. BUSINESS AND PROFESSIONS CODE SECTION 17200 ET SEQ.
+20      (By the People through the California Attorney General and the Los Angeles
+21                                        City Attorney)
+22           43.    The People reallege and incorporate by reference each of the
+23     paragraphs above as though fully set forth herein.
+24           44.    Tilting Point has engaged in unlawful, deceptive, and unfair business
+25     acts or practices that constitute unfair competition as defined in the Unfair
+26     Competition Law, Business and Professions Code section 17200 et seq. These acts
+27     or practices include, but are not limited to, the following:
+28
+                                                  12
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 13 of 14 Page ID #:13
+
+
+
+ 1                  (a)    Violating the CCPA, including Civil Code section 1798.120,
+ 2     subdivision (c), and California Code of Regulations, title 11, sections 7070, 7071,
+ 3     and 7072.
+ 4                  (b)    Violating COPPA, including violations of 16 C.F.R. §§
+ 5     312.4(b); 312.4(d); and 312.5(a)(1).
+ 6                  (c)    Violating state law related to advertising to minors, including
+ 7     Business and Professions Code section 22580, as well as unfair and fraudulent
+ 8     business acts or practices with respect to advertising to minors.
+ 9           45.    The California Attorney General and the Los Angeles City Attorney
+10     are authorized by Business and Professions Code section 17204 to bring this civil
+11     action to enforce the Unfair Competition Law.
+12                                   PRAYER FOR RELIEF
+13          WHEREFORE, Plaintiff prays for judgment as follows:
+14           1.     Pursuant to 15 U.S.C. section 6504, that the Court enter an injunction
+15     to prevent future violations of COPPA and award damages, restitution, or other
+16     compensation on behalf of residents of California;
+17           2.     Pursuant to Civil Code section 1798.199.90, that the Court enter an
+18     injunction and all orders necessary to prevent Tilting Point, as well as its
+19     successors, agents, representatives, and employees, from engaging in any act or
+20     practice that violates the CCPA, including, but not limited to, as alleged in this
+21     Complaint;
+22           3.     Pursuant to Civil Code section 1798.199.90, that the Court assess civil
+23     penalties of Two Thousand Five Hundred Dollars ($2,500) for each violation or
+24     Seven Thousand Five Hundred Dollars ($7,500) for each intentional violation of the
+25     CCPA, as proven at trial;
+26           4.     Pursuant to Business and Professions Code section 17203, that the
+27     Court enter an injunction and all orders necessary to prevent Tilting Point, as well
+28     as its successors, agents, representatives, and employees, from violating Business
+                                                 13
+                                                        COMPLAINT (People v. Tilting Point Media LLC)
+     Case 2:24-cv-05140 Document 1 Filed 06/18/24 Page 14 of 14 Page ID #:14
+
+
+
+ 1     and Professions Code section 17200 et seq., including, but not limited to, as alleged
+ 2     in this Complaint;
+ 3              5.   Pursuant to Business and Professions Code section 17206, that the
+ 4     Court assess civil penalties of Two Thousand Five Hundred Dollars ($2,500) for
+ 5     each violation of Business and Professions Code section 17200 et seq., as proven at
+ 6     trial;
+ 7              6.   Pursuant to Government Code section 12527.6, that the Court award
+ 8     disgorgement in an amount as proven at trial;
+ 9              7.   That Plaintiff recovers its cost of suit;
+10              8.   For such other and further relief as the Court deems just and proper.
+11     Dated: June 18, 2024                             Respectfully submitted,
+12                                                      ROB BONTA
+                                                        Attorney General of California
+13
+
+14
+
+15                                                          /s/ Amos E. Hartston
+                                                         AMOS E. HARTSTON
+16                                                       Deputy Attorney General
+                                                         Attorneys for The People of the State
+17                                                       of California
+18
+       Dated: June 18, 2024                             HYDEE FELDSTEIN SOTO
+19                                                      Los Angeles City Attorney
+20
+
+21
+                                                            /s/ Alexandra Aurish
+22                                                       ALEXANDRA AURISCH
+                                                         Deputy City Attorney
+23                                                       Attorneys for The People of the State
+                                                         of California
+24
+
+25
+
+26
+      * In compliance with Local Civil Rule 5-4.3.4(a)(2)(i), the filer of this document
+27 attests that all other signatories listed, and on whose behalf the filing is submitted,
+28 concur in the content and have authorized the filing.
+                                                   14
+                                                         COMPLAINT (People v. Tilting Point Media LLC)
+

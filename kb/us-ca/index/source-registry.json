@@ -1,0 +1,134 @@
+{
+  "type": "source_registry",
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "total_files": 237,
+  "sources": {
+    "grade-a": {
+      "ca-ccpa-statute": {
+        "status": "complete",
+        "count": 46,
+        "target": 46,
+        "publisher": "California Privacy Protection Agency",
+        "source_url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf",
+        "retrieved_at": "2026-05-06"
+      },
+      "ca-ccpa-regulations": {
+        "status": "complete",
+        "count": 61,
+        "target": null,
+        "publisher": "California Privacy Protection Agency",
+        "source_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+        "retrieved_at": "2026-05-06"
+      },
+      "ca-cppa-guidance": {
+        "status": "complete",
+        "count": 2,
+        "target": null
+      },
+      "ca-cppa-rulemaking": {
+        "status": "complete",
+        "count": 1,
+        "target": null
+      },
+      "ca-oag-guidance": {
+        "status": "complete",
+        "count": 2,
+        "target": null
+      },
+      "ca-courts-published-opinions": {
+        "status": "complete",
+        "count": 1,
+        "target": 1,
+        "note": "Only CCPA/California privacy opinions verified against official court or GovInfo source."
+      },
+      "us-federal-ccpa-opinions": {
+        "status": "complete",
+        "count": 22,
+        "target": 22,
+        "note": "Only CCPA/California privacy opinions verified against official court or GovInfo source."
+      },
+      "ca-caloppa": {
+        "status": "complete",
+        "count": 5,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.&division=8.&lawCode=BPC",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-customer-records": {
+        "status": "complete",
+        "count": 7,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-cmia": {
+        "status": "complete",
+        "count": 18,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=2.&division=1.&lawCode=CIV&part=2.6.&title=",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-sopipa": {
+        "status": "complete",
+        "count": 2,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.2.&division=8.&lawCode=BPC",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-age-appropriate-design-code": {
+        "status": "complete",
+        "count": 8,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&lawCode=CIV&part=4.&title=1.81.47.",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-data-broker-delete-act": {
+        "status": "complete",
+        "count": 9,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.48.",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      },
+      "ca-cipa": {
+        "status": "complete",
+        "count": 35,
+        "target": null,
+        "publisher": "California Legislative Information",
+        "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=1.5.&division=&lawCode=PEN&part=1.&title=15.",
+        "retrieved_at": "2026-05-06",
+        "note": "Adjacent California privacy statute collected from official LegInfo group page."
+      }
+    },
+    "grade-b": {
+      "ca-courts-published-opinion-mirrors": {
+        "status": "complete",
+        "count": 6,
+        "target": 6,
+        "note": "Published California Supreme Court opinions fetched from a public mirror when the official California Courts archive URL is not locally raw-fetchable."
+      },
+      "ca-enforcement-actions": {
+        "status": "partial",
+        "count": 9,
+        "target": 9
+      },
+      "ca-administrative-orders": {
+        "status": "partial",
+        "count": 3,
+        "target": 3
+      }
+    },
+    "grade-c": {}
+  }
+}

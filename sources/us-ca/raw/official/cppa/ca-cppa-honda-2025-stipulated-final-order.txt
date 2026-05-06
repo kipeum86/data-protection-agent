@@ -1,0 +1,729 @@
+               BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+
+ In the Matter of:                                        Case No. ENF23-V-HO-2
+
+ AMERICAN HONDA MOTOR CO., INC.
+
+                                Respondent.
+
+
+
+                                     ORDER OF DECISION
+
+       The Board of the California Privacy Protection Agency hereby adopts the Stipulated Final
+
+Order, attached hereto, as its decision in the above-entitled matter.
+
+       This Decision shall become effective immediately.
+
+       IT IS SO ORDERED this 7th day of                      March            , 2025.
+
+                                                      BY THE BOARD:
+
+
+
+
+                                                      JENNIFER M. URBAN
+                                                      Chairperson
+                                                      California Privacy Protection Agency
+MICHAEL S. MACKO
+Deputy Director of Enforcement
+LARA KEHOE HOFFMAN
+Assistant Chief Counsel
+LISA B. KIM (State Bar No. 229369)
+DENISE SMITH (State Bar No. 309225)
+Attorneys
+   Enforcement Division
+   California Privacy Protection Agency
+   400 R Street, Suite 350
+   Sacramento, CA 95811
+   Telephone: (916) 244-6626
+   Email: Lisa.Kim@cppa.ca.gov
+Attorneys for Complainant
+
+                    BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+    In the Matter of:                                                  Case No. ENF23-V-HO-2
+
+    AMERICAN HONDA MOTOR CO., INC.
+
+                                        Respondent.
+
+
+
+
+                                         STIPULATED FINAL ORDER
+
+
+        IT IS HEREBY stipulated AND AGREED by and between the parties to the above-
+entitled matter:
+
+                                                     I.     PARTIES
+
+       1.     Complainant is the Enforcement Division of the California Privacy Protection
+Agency, which enforces the California Consumer Privacy Act of 2018 (CCPA), Civ. Code
+§§ 1798.100 – 1798.199.100, as amended.1
+
+       2.      Respondent is American Honda Motor Co., Inc., a California corporation with its
+principal place of business at 1919 Torrance Blvd., Torrance, California 90501. Honda has
+conducted business within the State of California at all times relevant to this Stipulated Final
+Order.
+
+
+
+1
+    All statutory references are to California law unless otherwise indicated.
+
+
+Case No. ENF23-V-HO-2                                       1                    STIPULATED FINAL ORDER
+                                     II.    JURISDICTION
+
+       3.     Pursuant to Civil Code §§ 1798.199.40(a), and 1798.199.55, the Agency may
+enforce the CCPA through administrative actions.
+
+        4.      Pursuant to Government Code § 11415.60(a), the Agency may formulate and
+issue a decision by settlement, pursuant to an agreement of the parties, without conducting an
+adjudicative proceeding.
+
+                                     III.   DEFINITIONS
+
+       The following terms in this Stipulated Final Order shall have these meanings:
+
+       5.      “Agency” means Complainant, the Enforcement Division of the California
+Privacy Protection Agency.
+
+       6.      “Authorized Agent” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(d).
+
+       7.      “Collect” has the same meaning as provided in Civil Code § 1798.140(f).
+
+       8.      “Consumer” has the same meaning as provided in Civil Code § 1798.140(i).
+
+       9.     “CCPA” means the California Consumer Privacy Act of 2018, Civ. Code
+§§ 1798.100 – 1798.199.100, as amended.
+
+        10.    “CCPA Requests” means Consumer requests submitted pursuant to the CCPA,
+specifically Civil Code §§ 1798.105, 1798.106, 1798.110, 1798.115, 1798.120, and 1798.121.
+CCPA Requests include Requests to Correct, Requests to Delete, Requests to Know, Requests to
+Limit, and Requests to Opt-out of Sale/Sharing as those terms are defined in Cal. Code Regs. tit.
+11, § 7001(x), (y), (z), (aa), (bb), and (cc).
+
+       11.    “Cross-context Behavioral Advertising” has the same meaning as provided in
+Civil Code § 1798.140(k).
+
+       12.     “Honda” means Respondent American Honda Motor Co., Inc.
+
+        13.     “Personal Information” has the same meaning as provided in Civil Code
+§ 1798.140(v), which includes the definition of “unique identifier” or “unique personal
+identifier” as set forth in Civil Code § 1798.140(aj).
+
+       14.     “Request to Correct” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(x).
+
+       15.     “Request to Delete” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(y).
+
+
+
+
+Case No. ENF23-V-HO-2                           2                 STIPULATED FINAL ORDER
+       16.     “Request to Know” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(z).
+
+       17.     “Request to Limit” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(aa).
+
+      18.      “Request to Opt-Out of Sale/Sharing” has the same meaning as provided in Cal
+Code Regs. tit. 11, § 7001(cc).
+
+       19.     “Sale” or “Sell” has the same meaning as provided in Civil Code § 1798.140(ad).
+
+       20.     “Share” has the same meaning as provided in Civil Code § 1798.140(ah).
+
+       21.    “Verifiable Consumer Request” has the same meaning as provided in Civil Code
+§ 1798.140(ak).
+
+       22.  “Verify” has the same meaning as provided in Cal. Code Regs. tit. 11,
+§ 7001(mm).
+
+                                 IV.     FACTUAL FINDINGS
+
+       23.     Honda is the North American subsidiary of Honda Motor Co., Ltd., a company
+incorporated in Japan. Honda distributes, markets, and sells Honda and Acura brand automobiles,
+motorcycles, and scooters, among other things.
+
+       24.    Honda has had a long-standing presence in California going back to its founding
+in Los Angeles in 1959. Now headquartered in Torrance, California, Honda employs thousands
+of workers and supplies 126 Honda and 39 Acura automobile dealerships in California.
+
+        25.    Honda has been selling vehicles in the United States market for more than 60
+years. More specifically, since 2020, Honda has sold hundreds of thousands of Honda vehicles,
+motorcycles, and other products in California. Honda and Acura vehicles are often listed in the
+top 10 cars sold in California.
+
+        26.     Honda is subject to the CCPA, the first comprehensive privacy law in the United
+States that gives Californians important rights over how covered businesses Collect, use, Sell,
+and Share their Personal Information. Honda is subject to this law as a for-profit corporation that
+Collects Consumers’ Personal Information and determines the purposes and means of the
+processing of Consumers’ Personal Information.
+
+        27.    Honda had an annual gross revenue in excess of twenty-five million dollars
+during the 2023 and 2024 calendar years. Honda also annually Sells or Shares, in combination,
+the Personal Information of 100,000 or more Consumers or households.
+
+       28.     The Agency commenced an investigation of Honda’s CCPA compliance practices
+on July 31, 2023. Honda produced documents, answered the Agency’s questions, and made
+available a corporate representative to meet with the Agency.
+
+
+
+Case No. ENF23-V-HO-2                           3                  STIPULATED FINAL ORDER
+       29.     The relevant time period is January 1, 2023 through November 20, 2024, unless
+otherwise indicated.
+
+       A.     Honda’s Method for Submitting Requests to Opt-Out of Sale/Sharing and
+              Requests to Limit through its Online Privacy Center
+
+      30.     Consumers have asserted their privacy rights with Honda by submitting CCPA
+Requests.
+
+       31.    Honda receives CCPA Requests from Consumers through a toll-free phone
+number and a website form. Consumers can access the website form through Honda’s online
+“Privacy Center” website located at https://www.honda.com/privacy/your-privacy-choices.
+Honda also has a “Your Privacy Choices” link on its Honda and Acura homepages that takes
+Consumers to its online Privacy Center website.
+
+       32.     Honda’s online Privacy Center includes a listing of privacy choices and links to
+various requests forms. As shown below, the Privacy Center provides an option for submitting a
+privacy request, a request to correct, and a request to appeal a denial:
+
+
+
+
+       33.     Honda’s “Submit a Privacy Request” link takes Consumers to a webform titled
+“Consumer Privacy Rights Request Form” that requires the same information for five different
+requests: (1) Do Not Sell of Share My Personal Information, (2) Limit Use of My Sensitive
+Personal Information, (3) Opt-Out of Automated Decision Making and Profiling, (4) Personal
+
+
+Case No. ENF23-V-HO-2                          4                 STIPULATED FINAL ORDER
+Information Disclosure, and (5) Delete My Personal Information. As shown in the webform
+below, Honda requires Consumers to provide their first name, last name, address, city, state, zip
+code, preferred method to receive updates, email, and phone number to submit the request.
+Honda also gives Consumers the option to provide the brand of the product they own and the
+VIN or serial number of their product.
+
+
+
+
+        34.     By requiring all of this information, Honda’s webform unlawfully requires
+Consumers to provide more information than necessary to exercise their CCPA rights to opt-out
+of sale/sharing of their personal information and to limit the use and disclosure of their sensitive
+personal information. Honda essentially applies a verification standard to these rights.
+
+        35.     The CCPA distinguishes between Consumer requests that require the business to
+Verify that the Consumer making the request is the Consumer about whom the business has
+collected information, and those requests that do not require verification. Specifically, Requests
+to Delete, Requests to Correct, and Requests to Know are Verifiable Consumer Requests, while
+Requests to Opt-Out of Sale/Sharing and Requests to Limit are not.
+
+       36.    The CCPA regulations governing the submission of Requests to Opt-Out of
+Sale/Sharing and Requests to Limit are meant to ensure that Consumers can exercise their
+choices without undue burden. Civ. Code § 1798.185(a)(4). These requests are not verifiable
+because the potential harm to Consumers resulting from an imposter accessing, deleting, or
+changing personal information maintained by the business is minimal or nonexistent for
+Requests to Opt-Out of Sale/Sharing and Requests to Limit.
+
+       37.    Accordingly, the CCPA prohibits businesses from requiring Consumers to Verify
+themselves before processing Requests to Opt-Out of Sale/Sharing and Requests to Limit. Cal.
+
+
+Case No. ENF23-V-HO-2                            5                  STIPULATED FINAL ORDER
+Code Regs. tit. 11, §§ 7026(d), 7027(e), 7060(b). At most, businesses may ask Consumers for
+information necessary to complete the request, such as information necessary to identify the
+Consumer within their systems, but they may not ask Consumers for more information than
+necessary to process their requests. Civ. Code § 1798.135(c)(1); Cal. Code Regs. tit. 11,
+§§ 7026(d), 7027(e). To the extent that businesses can comply without additional information,
+they are required to do so. Id. at §§ 7026(c), 7027(d).
+
+       38.      Requiring verification for the processing of a Request to Opt-Out of Sale/Sharing
+or Request to Limit impairs or interferes with the Consumer’s ability to exercise those rights.
+The CCPA prohibits businesses from designing methods for submitting CCPA Requests that
+substantially subverts or impairs the Consumer’s autonomy, decisionmaking, or choice. Id.
+§ 7004; see also Civ. Code § 1798.140(h), (l).
+
+       39.      Honda’s process for submitting Requests to Opt-Out of Sale/Sharing and Requests
+to Limit was the same for Verifiable Consumer Requests. Honda’s process for submitting CCPA
+requests failed to distinguish requests that required verification and those that did not. Honda
+used the same webform for both types of requests with no differences in the information required
+to process them.
+
+       40.     In addition, although Honda generally needs only two data points from the
+Consumer to identify the Consumer within its database, Honda’s verification process for
+Verifiable Consumer Requests requires the matching of more than two data points. Thus, Honda
+requires more information than necessary.
+
+       41.     Honda’s webform requires Consumers to provide at least eight data fields to
+submit their request regardless of whether the Consumer is submitting a Verifiable Consumer
+Request or a request that does not require verification, i.e., a Request to Opt-Out of Sale/Sharing
+or Request to Limit. Those mandatory data fields include name, full address, email, and phone
+number. Consumers cannot submit their request unless they provide all eight data fields.
+
+       42.    Honda requires the matching of more than two data points provided by the
+Consumer to information within its database before processing the Consumer’s Requests to Opt-
+Out of Sale/Sharing and Requests to Limit. Honda essentially requires Consumers to Verify
+themselves before processing these requests.
+
+      43.    Honda also requires Consumers to provide more information than necessary to
+complete Requests to Opt-Out of Sale/Sharing and Requests to Limit.
+
+       44.    From July 1, 2023 through September 23, 2023, Honda required at least 119
+Consumers to provide more information than necessary in order to submit their Request to Opt-
+Out of Sale/Sharing and Request to Limit, and Honda denied at least 20 Consumer requests by
+unlawfully requiring the Consumer to Verify themselves before processing the request.
+
+
+
+
+Case No. ENF23-V-HO-2                           6                  STIPULATED FINAL ORDER
+       B.      Processing Requests to Opt-Out of Sale/Sharing and Requests to Limit
+               Submitted by Consumers’ Authorized Agents
+
+        45.      Consumers can authorize other natural persons or business entities, known as
+Authorized Agents, to act on their behalf in asserting their rights under the CCPA. See Cal. Code
+Regs. tit. 11, § 7063.
+
+        46.   Honda’s webform for submitting a privacy request contains a checkbox for
+Authorized Agents who are submitting the request on behalf of a Consumer. Upon checking this
+box, Honda sends correspondence with instructions to the preferred communication method
+selected.
+
+
+
+
+       47.     The preferred communication method offers two choices—email and U.S. Mail.
+Both choices reflect the email address or U.S. Mail address for the Consumer about which the
+request is submitted.
+
+
+
+
+      48.     The CCPA gives Consumers the right to authorize another person to submit a
+Request to Opt-out of Sale/Sharing and a Request to Limit on the Consumer’s behalf. See Civ.
+Code §§ 1798.135(e); Cal. Code Regs. tit. 11, §§ 7026(j), 7027(i).
+
+        49.    The CCPA’s prohibition on requiring verification for Requests to Opt-Out of
+Sale/Sharing and Requests to Limit applies equally to requests submitted by the Consumer’s
+Authorized Agent. Businesses may ask the Consumer’s Authorized Agent to provide the
+Consumer’s signed permission demonstrating that they have been authorized to act on the
+Consumer’s behalf. Cal. Code Regs. tit. 11, §§ 7026(j), 7027(i). However, businesses may not
+require the Consumer to directly confirm that they have provided the Authorized Agent
+permission to submit the request. Businesses may contact Consumers directly in that manner
+only for Verifiable Consumer Requests. Id. at § 7063(a).
+
+
+
+Case No. ENF23-V-HO-2                          7                  STIPULATED FINAL ORDER
+       50.    Honda’s process for submitting and processing Requests to Delete and Requests
+to Know made by the Consumer’s Authorized Agent is the same as its process for non-verifiable
+Requests to Opt-Out of Sale/Sharing and Requests to Limit made by the Consumer’s Authorized
+Agent.
+
+       51.    Honda unlawfully requires Consumers to directly confirm with Honda that they
+had given permission to the Authorized Agent to submit a Request to Opt-Out of Sale/Sharing
+and Request to Limit.
+
+       52.     From July 1, 2023 through September 23, 2023, Honda required at least 14
+Consumers to directly confirm with Honda that they had given their Authorized Agents
+permission to submit the Request to Opt-Out of Sale/Sharing or Request to Limit on their behalf.
+
+       C.      Honda’s Method for Submitting Requests to Opt-Out of Sale/Sharing
+               through its Cookie Management Tool
+
+        53.    Honda contracts with OneTrust, a third-party compliance vendor, to provide a
+cookie management tool for its Honda and Acura websites. Through the cookie management
+tool, Consumers can opt-out of advertising and other technology that tracks their activity across
+different websites for Cross-context Behavioral Advertising purposes.
+
+        54.     As demonstrated by the screenshots below, the different types of cookies
+identified in the cookie management tool (i.e., performance cookies, functional cookies, and
+advertising cookies) are “allowed” or “active” by default.
+
+
+
+
+       55.      Honda tells Consumers that Advertising Cookies “may be used to build a profile
+of your interests and show you advertisements on other sites that we or these third parties believe
+would be relevant to you.”
+
+
+
+
+Case No. ENF23-V-HO-2                           8                  STIPULATED FINAL ORDER
+       56.      To turn “off” or “disallow” the Advertising Cookies, Consumers must go through
+two steps. First, they must click on the toggle button to the right of Advertising Cookies, and
+second, they must click on the “Confirm My Choices” button.
+
+       57.    If Consumers return to the cookie management tool after turning “off” the
+Advertising Cookies, an “Allow All” choice appears.
+
+
+
+
+        58.    To opt back into Advertising Cookies, Consumers only need to take one step. By
+clicking on the “Allow All” button, the cookie management tool will accept the Consumer’s
+choice and the form will disappear.
+
+        59.     Businesses must design and implement methods for submitting CCPA requests
+that are easy to understand, provide symmetry in choice, avoid language or interactive elements
+that are confusing to the Consumer, avoid choice architecture that impairs or interferes with the
+Consumer’s ability to make a choice, and are easy to execute. Cal. Code Regs. tit. 11, § 7004.
+
+       60.     Symmetry in choice means that the path for a Consumer to exercise a more
+privacy-protection option cannot be longer or more difficult or time-consuming than the path to
+
+
+
+Case No. ENF23-V-HO-2                           9                 STIPULATED FINAL ORDER
+exercise a less privacy-protective option because that would impair or interfere with the
+Consumer’s ability to make a choice. Id. at § 7004(a)(2).
+
+       61.    More specifically, a choice is not symmetrical when a business’s process for
+submitting a Request to Opt-out of Sale/Sharing requires more steps than that business’s process
+for a Consumer to opt-in to the sale of Personal Information after having opted out. Id. at
+§ 7004(a)(2)(A).
+
+       62.     A website banner that provides only two options when seeking Consumers’
+consent to use their Personal Information—such as “Accept All” and “More Information,” or
+“Accept All” and “Preferences”—is not equal or symmetrical. Such a method is not equal or
+symmetrical because it allows Consumers to “Accept All” in one step, but requires Consumers to
+take additional steps to exercise their rights over their Personal Information. An equal or
+symmetrical choice, by contrast, could be between “Accept All” and “Decline All.” Id. at
+§ 7004(a)(2)(C).
+
+        63.     Honda’s use of the Advertising Cookies described in its cookie management tool
+constitutes the Sharing of Personal Information under the CCPA. Honda makes available
+Consumers’ Personal Information to third parties for Cross-Context Behavioral Advertising for
+which Consumers have the right to opt-out. Accordingly, Honda’s cookie management tool is a
+method through which Consumers can submit their Request to Opt-Out of Sale/Sharing.
+
+       64.     Honda’s cookie management tool is also a method by which Honda obtains
+consent for the use of Consumer’s Personal Information for other purposes, i.e., performance
+cookies and functional cookies.
+
+       65.     Honda’s cookie management tool fails to provide symmetrical choice when it
+comes to Consumers’ ability to submit Requests to Opt-Out of Sale/Sharing and for obtaining
+Consumers’ consent to use their Personal Information for the purposes stated in the cookie
+management tool. While Consumers can “Accept All” cookies with one click, opting out of the
+cookies requires at least two clicks.
+
+       D.      Contracts with Advertising Technology Vendors
+
+       66.     Honda Collects Personal Information about Consumers on its websites. Honda
+then Sells, Shares, or discloses that Personal Information to advertising technology companies.
+
+      67.    These advertising companies, in turn, use this Personal Information to track
+Consumers across different websites for advertising and marketing purposes.
+
+        68.     The CCPA requires businesses that Collect and disclose Personal Information to a
+third party, service provider, or a contractor, to enter into an agreement with that third party,
+service provider, or contractor that meets certain requirements. See Civ. Code § 1798.100(d);
+Cal. Code Regs. tit. 11, §§ 7051, 7053. Those agreements must contain explicit provisions that
+protect Consumers. For example, the agreements must identify the limited and specified
+purposes for which the Personal Information can be used and must limit the recipient’s use of the
+Personal Information for only those purposes. Id. The agreements must also require the recipient
+
+
+
+Case No. ENF23-V-HO-2                           10                STIPULATED FINAL ORDER
+to comply with the CCPA and provide the same level of privacy protection as required of
+businesses by the CCPA, among other things. Id.
+
+        69.    Despite Collecting, Selling, Sharing, and disclosing Personal Information with
+these advertising technology companies, Honda could not produce contracts with these
+advertising technology companies.
+
+      70.    Honda’s failure to implement these safeguards has unnecessarily placed
+Consumers’ Personal Information at risk.
+
+                                     V.    CONTINGENCY
+
+         71.    This Stipulated Final Order shall be contingent upon approval by the Board of the
+California Privacy Protection Agency (Board). Honda understands and agrees that counsel for
+Complainant and the staff of the Agency may communicate directly with the Board and the staff
+of the Agency regarding this Stipulated Final Order, without notice to or participation by Honda
+or its counsel. By signing the Stipulated Final Order, Honda understands and agrees that it may
+not withdraw its agreement or seek to rescind the Stipulated Final Order before the time the
+Board considers and acts upon it. If the Board fails to adopt this stipulation as its Order of
+Decision, the Stipulated Final Order shall be of no force or effect except for this paragraph, it
+shall be inadmissible in any legal action between the parties, and the Agency shall not be
+disqualified from further action by having considered this matter.
+
+                                   VI.    OTHER MATTERS
+
+        72.     The parties understand and agree that Portable Document Format (PDF) and
+facsimile copies of this Stipulated Final Order, including PDF and facsimile signatures thereto,
+shall have the same force and effect as the originals. The parties may execute this Stipulated
+Final Order in counterparts.
+
+        73.     This Stipulated Final Order is intended by the parties to be an integrated writing
+representing the complete, final, and exclusive embodiment of their agreement. It supersedes any
+and all prior or contemporaneous agreements, understandings, discussions, negotiations, and
+commitments (written or oral). This Stipulated Final Order may not be altered, amended,
+modified, supplemented, or otherwise changed except by a writing executed by an authorized
+representative of each of the parties.
+
+       74.    In consideration of the foregoing stipulations, the parties agree that the Board
+may, without further notice or formal proceeding, issue and enter the following Order of
+Decision:
+
+
+
+
+Case No. ENF23-V-HO-2                           11                STIPULATED FINAL ORDER
+                                        VII.     ORDER
+
+       IT IS HEREBY ORDERED that:
+
+       A.      Monetary Provision
+
+         75.   In accordance with Civil Code § 1798.199.55, Honda shall pay an administrative
+fine in the amount of six hundred and thirty-two thousand and five hundred dollars
+($632,500.00), of which $382,500 accounts for Honda’s conduct toward 119 Consumers who
+were required to provide more information than necessary to submit their Requests to Opt-out of
+Sale/Sharing and Requests to Limit, 20 Consumers who had their Requests to Opt-out of
+Sale/Sharing and Requests to Limit denied because Honda required the Consumer to Verify
+themselves before processing the request, and 14 Consumers who were required to confirm with
+Honda directly that they had given their Authorized Agents permission to submit their Request to
+Opt-out of Sale/Sharing and Request to Limit on their behalf. This payment shall be made to the
+California Privacy Protection Agency no later than thirty (30) days after the effective date of the
+Board’s decision approving the Stipulated Final Order pursuant to written instructions to be
+provided by the Enforcement Division.
+
+       B.      Compliance with Law
+
+       76.     Honda shall comply with the following provisions of the CCPA and its
+implementing regulations: Civil Code sections 1798.100, 1798.120, 1798.121, and 1798.135,
+and California Code Regulations title 11, sections 7003, 7004, 7026, 7027, 7050-7053, and 7060-
+7063.
+
+       77.     Honda shall modify its methods for submitting CCPA Requests in the following
+ways. These modifications shall apply to all of Honda’s methods for submitting CCPA Requests,
+such as requests submitted by phone or online, unless otherwise specified.
+
+               a.      Honda shall only require Consumers making a Request to Opt-Out of
+                       Sale/Sharing and Request to Limit to provide information that is necessary
+                       to process the request.
+
+               b.      Honda shall not require Consumers to directly confirm with Honda that
+                       they have given their Authorized Agent permission to submit a Request to
+                       Opt-Out of Sale/Sharing or Request to Limit on their behalf.
+
+               c.      Honda shall change its method for submitting Requests to Opt-Out of
+                       Sale/Sharing and Requests to Limit by:
+
+                       1.     For its Privacy Center and online methods for submitting CCPA
+                              Requests, separating the methods for submitting Requests to Opt-
+                              Out of Sale/Sharing and Requests to Limit from the methods for
+                              submitting Verifiable Consumer Requests.
+
+
+
+
+Case No. ENF23-V-HO-2                           12                 STIPULATED FINAL ORDER
+                       2.     Changing the process for Authorized Agents submitting CCPA
+                              Requests so that the Authorized Agents provide their contact
+                              information in addition to the Consumer’s contact information.
+
+                       3.     Including the link to manage cookie preferences within its Privacy
+                              Center, Privacy Policy, and in the footer of its privacy policy
+                              webpages.
+
+                       4.     Within its cookie management platform, including a “Reject All”
+                              button to provide symmetry in choice with Honda’s “Allow All”
+                              button in compliance with Cal. Code Regs. tit. 11, § 7004(a)(2).
+
+                       5.     Applying the Global Privacy Control to also apply to known
+                              Consumers in compliance with Cal. Code Regs., tit. 11, § 7025.
+
+        78.     Honda shall complete implementation of any process and system changes to
+effectuate the modifications required by paragraph 77(a)-(c)(2) within 90 days of the effective
+date of this Stipulated Final Order and paragraphs 77(c)(3)-(5) within 180 days of the effective
+date of this Stipulated Final Order.
+
+        79.     Honda shall consult a user experience (UX) designer, who may be an independent
+consultant or Honda employee, to evaluate its methods for submitting CCPA Requests and to
+make recommendations on how to ensure that methods for submitting CCPA Requests are easy
+to use and avoid language and interactive elements that are confusing to a reasonable Consumer.
+The UX designer shall evaluate these methods, including identifying target user groups and
+performing testing activities, such as A/B testing, to assess user behavior. Within 180 days of the
+effective date of the Stipulated Final Order, Honda shall certify to the California Privacy
+Protection Agency’s Enforcement Division (“Enforcement Division”) that it received
+recommendations from the UX designer and shall inform the Enforcement Division of the timing
+within which Honda will make any changes based upon such recommendations.
+
+       80.    Honda shall ensure that all personnel handling CCPA Requests are informed of all
+requirements under the CCPA and its implementing regulations relevant to their job functions in
+connection with CCPA Requests. Within 90 days of the effective date of the Stipulated Final
+Order, Honda shall confirm in writing to the Enforcement Division that it has provided updated
+CCPA training to all personnel handling CCPA Requests.
+
+        81.     Honda shall modify its contract management and tracking process to ensure that
+all required contractual terms are in place with all external recipients of Personal Information.
+Within 180 days of the effective date of the Stipulated Final Order, Honda shall confirm in
+writing to the Enforcement Division that all required contractual terms are in place with all
+external recipients of Personal Information.
+
+       82.     For a period of five (5) years, and as required by the CCPA thereafter, Honda shall
+annually post the metrics described in Cal. Code Regs. tit. 11, § 7102 on its website.
+
+       83.     Each party shall bear its own attorneys’ fees and costs.
+
+
+
+Case No. ENF23-V-HO-2                           13                 STIPULATED FINAL ORDER
+                     VIII.    ADDITIONAL GENERAL PROVISIONS
+
+        84.     By entry of this Stipulated Final Order and following Honda’s compliance with all
+the terms set forth in paragraphs 75-83, the Agency releases Honda from and against all claims
+the Agency has under the CCPA arising from the conduct set forth in the factual findings of this
+Stipulated Final Order.
+
+        85.     Nothing in this Stipulated Final Order shall be construed as relieving Honda of its
+obligations to comply with all state and federal laws, regulations, or rules, or as granting
+permission to engage in any acts or practices prohibited by such law, regulation, or rule.
+
+        86.    Honda shall use reasonable efforts to notify its officers, directors, employees,
+agents, and contractors responsible for carrying out and effecting the terms of this Stipulated
+Final Order and the requirements therein.
+
+        87.     Honda agrees that the terms of this Stipulated Final Order are in the public
+interest and fair, adequate, and reasonable under all the circumstances.
+
+        88.     Honda admits the truth of the factual findings in paragraphs 23-28 of this
+Stipulated Final Order, but otherwise neither admits nor denies the remaining factual findings in
+this Stipulated Final Order. Honda does not admit liability for any violation of the CCPA, actual
+or alleged. Honda agrees to be bound by the terms of this Stipulated Final Order.
+
+        89.    Honda hereby waives the right to any hearings, and to any reconsideration,
+appeal, or other right to review which may be afforded pursuant to the California Administrative
+Procedures Act, the California Code of Civil Procedure, or any other provision of law. By
+waiving such rights, Honda effectively consents to this Stipulated Final Order becoming final.
+
+       90.     This Stipulated Final Order shall bind Honda’s subsidiaries, heirs, administrators,
+executors, successors, and transferees.
+
+       91.     Notwithstanding paragraph 83, in the event the Agency prevails in seeking to
+enforce any term of this Stipulated Final Order, the Agency shall be entitled to an award of
+attorney fees and costs in its favor and against Honda for the time spent and costs incurred in
+prosecuting such action.
+
+       92.     Failure to complete the payment or comply with any terms of this Stipulated Final
+Order shall result in enforcement of the Order in the Superior Court.
+
+        93.    Any notices and reports under this Stipulated Final Order shall be served by email
+as follows:
+
+
+
+
+Case No. ENF23-V-HO-2                           14                 STIPULATED FINAL ORDER
+       To the Complainant:
+
+       Deputy Director, Enforcement Division
+       California Privacy Protection Agency
+       400 R Street, Suite 350
+       Sacramento, CA 95811
+       ENF-processing@cppa.ca.gov
+
+       To the Respondent:
+
+       American Honda Motor Co., Inc.
+       Attn: Privacy Counsel
+       1919 Torrance Blvd.
+       Torrance, CA 90501-2746
+       Mail Stop: 300-2-1D
+
+       cc: AHM_ConsumerPrivacyDepartment@na.honda.com
+
+        94.     Each person who signs this Stipulated Final Order in a representative capacity
+warrants that he or she is duly authorized to do so. Further, each party itself (a) acknowledges
+that such party has been advised by competent legal counsel in connection with the execution of
+this Stipulated Final Order, has read each and every paragraph of this Stipulated Final Order, and
+understands the respective rights and obligations set forth herein, and (b) represents that the
+commitments, acknowledgment, representations, and promises set forth herein are freely and
+willingly undertaken and given.
+
+       95.    Honda represents that this Stipulated Final Order is freely and voluntarily entered
+without any degree of duress or compulsion whatsoever.
+
+///
+///
+///
+///
+///
+///
+///
+///
+///
+///
+///
+///
+
+
+Case No. ENF23-V-HO-2                           15                STIPULATED FINAL ORDER
+                           IX.   SIGNATURES
+
+RESPONDENT
+AMERICAN HONDA MOTOR CO., INC.
+DATED: February 12, 2025
+
+
+                                   Alice Lee
+                                   Vice President
+                                   Product Regulatory Office
+                                   AMERICAN HONDA MOTOR CO., INC.
+
+         AS TO FORM AND CONTENT:
+
+
+
+
+                                   Mac Murray & Shuster LLP
+                                   Allorneysfor Respondent
+
+
+
+
+Case No. ENF23-V-HO-2              16             STIPULATED FINAL ORDER
+COMPLAINANT
+THE CALIFORNIA PRIVACY PROTECTION AGENCY
+ENFORCEMENT DIVISION
+DATED: February 13, 2025
+                           BY:
+
+
+                                 MICHAEL S. MACKO
+                                 Deputy Director of Enforcement
+
+
+
+
+                                 LARA KEHOE HOFFMAN
+                                 Assistant Chief Counsel
+
+
+
+
+                                 LISA B. KIM
+                                 Attorney, Enforcement Division
+                                 Attorneys for Complainant
+
+
+
+
+Case No. ENF23-V-HO-2            17               STIPULATED FINAL ORDER
+

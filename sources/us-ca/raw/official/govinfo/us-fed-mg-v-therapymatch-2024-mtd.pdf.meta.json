@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-mg-v-therapymatch-2024-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:0e026cd780ad9205e1c4b2576b76fafe67518ec468f4ea6a1d5b2e4d1606b608",
+  "bytes": 324992
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "chapter": "I",
+    "chapter_title": "Scope and definitions",
+    "articles": [
+      {
+        "article": 1,
+        "title": "Scope and aim"
+      },
+      {
+        "article": 2,
+        "title": "Definitions"
+      },
+      {
+        "article": 3,
+        "title": "Services concerned"
+      }
+    ]
+  },
+  {
+    "chapter": "II",
+    "chapter_title": "Confidentiality",
+    "articles": [
+      {
+        "article": 4,
+        "title": "Security of processing"
+      },
+      {
+        "article": 5,
+        "title": "Confidentiality of the communications"
+      },
+      {
+        "article": 6,
+        "title": "Traffic data"
+      },
+      {
+        "article": 7,
+        "title": "Itemised billing"
+      },
+      {
+        "article": 8,
+        "title": "Presentation and restriction of calling and connected line identification"
+      },
+      {
+        "article": 9,
+        "title": "Location data other than traffic data"
+      },
+      {
+        "article": 10,
+        "title": "Exceptions"
+      },
+      {
+        "article": 11,
+        "title": "Automatic call forwarding"
+      },
+      {
+        "article": 12,
+        "title": "Directories of subscribers"
+      },
+      {
+        "article": 13,
+        "title": "Unsolicited communications"
+      }
+    ]
+  },
+  {
+    "chapter": "III",
+    "chapter_title": "Remedies",
+    "articles": [
+      {
+        "article": 14,
+        "title": "Technical features and standardisation"
+      },
+      {
+        "article": 15,
+        "title": "Application of certain provisions of Directive 95/46/EC"
+      }
+    ]
+  },
+  {
+    "chapter": "IV",
+    "chapter_title": "Final provisions",
+    "articles": [
+      {
+        "article": 16,
+        "title": "Transitional arrangements"
+      },
+      {
+        "article": 17,
+        "title": "Transposition"
+      },
+      {
+        "article": 18,
+        "title": "Review"
+      },
+      {
+        "article": 19,
+        "title": "Repeal"
+      },
+      {
+        "article": 20,
+        "title": "Entry into force"
+      },
+      {
+        "article": 21,
+        "title": "Addressees"
+      }
+    ]
+  }
+]

@@ -1,0 +1,787 @@
+              BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+
+ In the Matter of:                                        Case No. ENF24-S-PL-24
+
+ 2080 MEDIA, INC. D/B/A PLAYON
+
+ SPORTS
+
+                                Respondent.
+
+
+
+                                     ORDER OF DECISION
+
+       The Board of the California Privacy Protection Agency hereby adopts the Stipulated Final
+
+Order, attached hereto, as its decision in the above-entitled matter.
+
+       This Decision shall become effective immediately.
+
+                             27th day of _________________________,
+       IT IS SO ORDERED this ____             February              2026.
+
+                                                      BY THE BOARD:
+
+
+
+
+                                                      JENNIFER M. URBAN
+                                                      Chair
+                                                      California Privacy Protection Agency
+                
+
+
+
+
+            MICHAEL S. MACKO (SBN 335866)
+            Deputy Director of Enforcement
+            LARA KEHOE HOFFMAN (SBN 180466)
+            Assistant Chief Counsel
+            LISA B. KIM (SBN 229369)
+            ALEX D. BERGER (SBN 353829)
+            Attorneys
+              Enforcement Division
+              California Privacy Protection Agency
+              400 R Street, Suite 350
+              Sacramento, CA 95811
+              Telephone: (916) 572-2900
+              E-mail: Lisa.Kim@cppa.ca.gov
+             Attorneys for Complainant
+
+                                 BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+
+                  In the Matter of:                                                         Case No. ENF24-S-PL-24
+
+                  2080 Media, Inc., d/b/a PlayOn Sports,
+
+                                                      Respondent.
+
+
+
+                                                       STIPULATED FINAL ORDER
+
+                      IT IS HEREBY STIPULATED AND AGREED by and between the parties to the above-
+              entitled matter:
+
+                                                                     I. PARTIES
+
+                     1.    Complainant is the Enforcement Division of the California Privacy Protection
+              Agency (“Agency”), which enforces the California Consumer Privacy Act of 2018, Civ. Code
+              §§ 1798.100–1798.199.100, as amended, and its implementing regulations (collectively, the
+              “CCPA”).1
+
+                     2.      Respondent is 2080 Media, Inc., d/b/a PlayOn Sports (“PlayOn”), a Delaware
+              corporation with its principal place of business at 2990 Brandywine Road, Suite 300, Atlanta,
+              GA 30341.
+
+
+
+
+              1
+                  All statutory references are to California law unless otherwise stated.
+
+              CASE NO. ENF24-S-PL-24                                       1                   STIPULATED FINAL ORDER
+                
+
+
+
+
+                                                           II. JURISDICTION
+
+                     3.     Pursuant to Civil Code sections 1798.199.40(a) and 1798.199.55, the Agency may
+              enforce the CCPA through administrative actions.
+
+                      4.     Pursuant to Government Code section 11415.60(a), the Agency may formulate
+              and issue a decision by settlement, pursuant to an agreement of the parties, without conducting
+              an adjudicative proceeding.
+
+                     5.       PlayOn is a for-profit corporation that Collects Consumers’ Personal Information
+              and determines the purposes and means of the processing of Consumers’ Personal Information.
+              The company has an annual gross revenue in excess of $26.625 million, and the company
+              annually Sells or Shares, in combination, the Personal Information of 100,000 or more
+              Consumers or households. PlayOn conducted business within the State of California at all times
+              relevant to this Stipulated Final Order. Thus, the CCPA applies to PlayOn.
+
+                                                           III. DEFINITIONS
+
+                          The following terms in this Stipulated Final Order shall have these meanings:
+
+                          6.      “Agency” means the California Privacy Protection Agency.
+
+                     7.    “CCPA” means the California Consumer Privacy Act of 2018, Civ. Code
+              §§ 1798.100–1798.199.100, as amended, and its implementing regulations.
+
+                          8.      “Collect” has the meaning provided in Civil Code section 1798.140(f).
+
+                          9.      “Consumer” has the meaning provided in Civil Code section 1798.140(i).
+
+                      10.   “Cross-Context Behavioral Advertising” has the meaning provided in Civil Code
+              section 1798.140(k).
+
+                     11.    “Digital Properties” mean all public-facing websites and mobile applications
+              owned or operated by PlayOn that are accessible by consumers, including without limitation,
+              www.playonsports.com, www.gofan.co, www.nfhsnetwork.com, and their respective mobile
+              applications.
+
+                     12.     “Enforcement Division” means Complainant, the Enforcement Division of the
+              California Privacy Protection Agency.
+
+                     13.     “Opt-out of Sale/Sharing” or “Opting-Out of Sale/Sharing” means any action
+              taken by a Consumer to direct PlayOn not to Sell or Share their Personal Information, including
+              by enabling an Opt-out Preference Signal.
+
+                       14.     “Opt-out Preference Signal” has the meaning provided in Code of Regulations,
+              title 11, section 7001(aa).
+
+
+
+
+              CASE NO. ENF24-S-PL-24                              2                STIPULATED FINAL ORDER
+                 
+
+
+
+
+                     15.   “Personal Information” has the meaning provided in Civil Code section
+              1798.140(v).
+
+                    16.   “PlayOn” means Respondent, 2080 Media, Inc., d/b/a PlayOn Sports, including
+              GoFan, MaxPreps, and the NFHS Network.
+
+                     17.      “Request to Opt-out of Sale/Sharing” has the meaning provided in Code of
+              Regulations, title 11, section 7001(rr).
+
+                          18.      “Sale” or “Sell” has the meaning provided in Civil Code section 1798.140(ad).
+
+                     19.    “Service Provider” has the meaning provided in Civil Code section
+              1798.140(ag)(1).
+
+                          20.      “Share” has the meaning provided in Civil Code section 1798.140(ah).
+
+                          21.      “Third Party” has the meaning provided in Civil Code section 1798.140(ai).
+
+                     22.    “Tracking Technologies” mean any scripts, cookies, pixel tags, web beacons,
+              software development kits, or other tracking devices or mechanisms that are used to collect and
+              analyze information about a Consumer’s activity on a website or application.
+
+                                                        IV. FACTUAL FINDINGS
+
+                      23.     Californians enjoy an inalienable right to privacy in Article I, Section 1 of the
+              California Constitution. In 2018, the Legislature took action to protect Californians’ privacy in
+              the digital age by enacting the California Consumer Privacy Act. The CCPA gives Consumers
+              certain rights with regard to their Personal Information, such as the right to know what Personal
+              Information businesses Collect from them, the right to stop businesses from Selling their
+              Personal Information, and the right to have it deleted.
+
+                     24.     In November 2020, California voters approved Proposition 24 (“Prop. 24”) with
+              the aim of giving Consumers more control over how businesses Collect, use, share, and profit
+              from their Personal Information. Prop. 24 strengthened the CCPA and established the Agency as
+              an “independent watchdog” to “vigorously enforce the law,” recognizing that the unauthorized
+              use and Sharing of Personal Information creates a “heightened risk of harm” for Consumers.
+              Prop. 24, § 3(L) (2020).
+
+                      25.     In 2024, the Enforcement Division opened an investigation into PlayOn’s privacy
+              practices, during which it later received a complaint from a consumer alleging PlayOn did not
+              allow Consumers to opt-out of the Selling and Sharing of Personal Information through Tracking
+              Technologies.
+
+                      26.     In December 2024, before hearing from the Enforcement Division, PlayOn
+              significantly changed its website, privacy policy, and notice banners. For example, PlayOn
+              updated its website to recognize and process a Consumer’s Opt-out Preference Signal. PlayOn
+              also revised its notice banner to provide Consumers with two choices of “accept” and “reject”
+
+
+              CASE NO. ENF24-S-PL-24                               3                STIPULATED FINAL ORDER
+                
+
+
+
+
+              regarding the use of Tracking Technologies. In addition, PlayOn substantially revised its privacy
+              policy to reflect the company’s obligations under the CCPA.
+
+                     27.     During the course of the investigation, PlayOn cooperated with the Enforcement
+              Division and produced documents, answered questions, and engaged with the Enforcement
+              Division in candid discussions about PlayOn’s privacy practices.
+
+                      28.    The relevant time period is January 1, 2023 through December 31, 2024, unless
+              stated otherwise. Paragraphs 29 through 60 pertain solely to the Digital Properties owned by
+              PlayOn during this relevant time period, and through which it processed Personal Information as
+              a Business.
+
+                          A.      PlayOn Provides Digital Ticketing Platforms to High Schools throughout
+                                  California
+
+                      29.     PlayOn is a for-profit corporation that describes itself as the leading media and
+              technology company in high school sports and other events. As a parent company of GoFan,
+              MaxPreps, and the NFHS Network, PlayOn offers schools and other youth sports organizations
+              an all-in-one platform for ticketing, streaming, fundraising, concessions, merchandise sales, and
+              website management.
+
+                       30.     PlayOn’s GoFan ticketing platform specifically provides schools and other
+              organizations the ability to sell tickets to their events digitally. Attendees can purchase tickets
+              with a credit or debit card, Apple Pay, or Google Pay, and then use their mobile phone as their
+              ticket into the event. Sometimes, this is the only way in which tickets are sold for the event.
+                                             Figure 1: PlayOn’s Description of the GoFan Ticking Platform
+
+
+
+
+                      31.     PlayOn operates in all 50 states and is the official ticketing partner for 80% of all
+              state associations. It has sold over 30 million tickets to high school events nationwide. These
+              events include sporting events, dances, student performances, and camps. For example, high
+
+              CASE NO. ENF24-S-PL-24                                      4                     STIPULATED FINAL ORDER
+               
+
+
+
+
+              schools will use PlayOn’s GoFan ticketing platform to sell and redeem tickets for high school
+              football games, Homecoming and Prom dances, and high school musicals and other theater
+              performances.
+
+                       32.     The GoFan ticketing platform can be configured to sell tickets for different
+              categories and rates. For example, as demonstrated by the screenshot below, a high school can
+              sell different tickets for general admission, children, senior citizens, and high school students.
+              PlayOn’s customers determine the names and rates of the different ticket categories, and they
+              vary depending on the event.
+                                                 Figure 2: Ticket Purchase Page on Mobile Device
+
+
+
+
+                     33.     PlayOn has an especially significant presence in California. Approximately 1,400
+              schools in California, both public and private, have contracted with PlayOn to use its ticketing,
+              fundraising, and other services.
+
+                      34.    PlayOn has contracted with schools in nearly every county in California, from
+              larger ones such as Los Angeles, San Diego, and Orange Counties, to the smaller ones such as
+              Modoc, Mono, and Sierra Counties.
+
+                      35.    GoFan is also the official ticketing platform for the California Interscholastic
+              Federation (CIF), the governing body for high school sports in the state of California that holds
+              state and regional championships.
+
+                   36.     Accordingly, thousands of students, family members, faculty, and other
+              community supporters have used PlayOn’s services.
+
+
+
+
+              CASE NO. ENF24-S-PL-24                                   5                     STIPULATED FINAL ORDER
+                
+
+
+
+
+                          B.      PlayOn’s Handling of Consumer Requests to Opt-out of Sale/Sharing
+
+                     37.    Pursuant to the CCPA, Consumers have the right to direct businesses not to Sell or
+              Share the Consumer’s Personal Information. See Civ. Code § 1798.120(a).
+
+                      38.     A business that Sells or Shares the Personal Information of Consumers must
+              provide two or more methods through which a Consumer can submit Requests to Opt-out of
+              Sale/Sharing. See Civ. Code § 1798.135; Code Regs. tit. 11, § 7026(a). A business that Collects
+              Personal Information online must, at a minimum, allow Consumers to submit Requests to Opt-
+              out of Sale/Sharing through an Opt-out Preference Signal and at least one of the following
+              methods: an interactive form accessible via the “Do Not Sell or Share My Personal Information”
+              link, the Alternative Opt-out Link, or the business’s privacy policy if the business processes an
+              Opt-out Preference Signal in a frictionless manner. Id.
+
+                      39.    An opt-out Preference Signal allows Consumers to broadcast a “do not sell or
+              share” signal across every website they visit, without having to click each time on an opt-out
+              link.
+
+                      40.    A business that receives a Consumer’s Request to Opt-out of Sale/Sharing is
+              prohibited from continuing any further Sales or Shares of that Consumer’s Personal Information,
+              unless the Consumer subsequently consents. See Civ. Code § 1798.120(d).
+
+                                  1.      PlayOn Failed to Offer an Effective Method for Submitting a Request
+                                          to Opt-out of Sale/Sharing
+
+                      41.    During the relevant time period, PlayOn’s Digital Properties Collected Personal
+              Information using first- and third-party cookies, persistent trackers, and similar Tracking
+              Technologies (e.g., MetaPixel) for the purpose of providing advertisements, among other things.
+              PlayOn subsequently Sold and Shared the Personal Information it Collected with advertising,
+              social media, and analytics partners.
+
+                      42.     As demonstrated by the following screenshots, PlayOn’s GoFan webpages
+              disclosed this Collection and use of Personal Information through notice banners:
+                                                        Figure 3: Desktop Notice Banner
+
+
+
+
+              CASE NO. ENF24-S-PL-24                                  6                   STIPULATED FINAL ORDER
+                
+
+
+
+
+                                                         Figure 4: Mobile Notice Banner
+
+
+
+
+                          [The banners in Figure and Figure 4 both state the following: “This website collects
+                          personal information using first and third-party cookies, persistent trackers, and
+                          similar technologies (e.g., MetaPixel) to help us operate this website, provide you
+                          with a more personalized user experience, and provide advertisements. The
+                          information we collect is shared with our advertising, social media, and analytics
+                          partners. Further use of our website or by clicking “Agree” will indicate your
+                          agreement to our use of technologies, the Privacy Policy, and the Terms of Use,
+                          which includes a binding arbitration clause and jury waiver.”]
+
+                     43.    These notice banners required Consumers to click “Agree” to the use of these
+              Tracking Technologies and provided no other way to close the notice banner without clicking on
+              “Agree.”
+
+                      44.     When using PlayOn’s GoFan ticketing platform on a phone or mobile device, the
+              notice banner covered the portion of the screen that allowed the Consumer to “use” or redeem
+              the ticket. Thus, Consumers were forced to first click “Agree” on the notice banner in order to
+              use their ticket:
+
+
+
+
+              CASE NO. ENF24-S-PL-24                                   7                  STIPULATED FINAL ORDER
+               
+
+
+
+
+                                              Figure 5: GoFan Ticket Redemption on a Mobile Device
+
+
+
+
+                      45.     PlayOn ran only one targeted advertising campaign on its ticketing platform
+              during the relevant time period. Nevertheless, PlayOn’s use of certain Tracking Technologies on
+              its Digital Properties constituted the Sale and Sharing of Personal Information under the CCPA.
+              See Civ. Code §§ 1798.140(ad), (ah). Accordingly, PlayOn was required to offer Consumers the
+              right to opt-out of the Selling and Sharing of their Personal Information.
+
+                     46.     During the relevant period, PlayOn’s only methods for submitting Requests to
+              Opt-out of Sale/Sharing were through a toll-free phone number and email address. But these
+              methods did not sufficiently address PlayOn’s Selling and Sharing of Consumers’ Personal
+              Information through Tracking Technologies on its Digital Properties, leaving Consumers who
+              submitted a Request to Opt-out of Sale/Sharing through these methods with insufficient means to
+              Opt-out of the Selling and Sharing of their Personal Information.
+
+                     47.     PlayOn failed in its responsibility to provide a method for opting out of the
+              Sale/Sharing of Personal Information by certain Tracking Technologies and instead stated in its
+              privacy policy that Consumers should opt-out directly with third parties via the Network
+              Advertising Initiative (NAI) and the Digital Advertising Alliance (DAA).
+
+                     48.     As a result, PlayOn violated section 1798.135(a)(1) of the Civil Code each time it
+              Collected and subsequently Sold or Shared Consumers’ Personal Information through these
+
+              CASE NO. ENF24-S-PL-24                                   8                    STIPULATED FINAL ORDER
+                
+
+
+
+
+              Tracking Technologies without providing Consumers with an effective way to opt-out of such
+              Selling and Sharing.
+
+                      49.     PlayOn also violated section 1798.120(d) of the Civil Code each time it
+              subsequently Sold or Shared a Consumer’s Personal Information through Tracking Technologies
+              after receiving direction from the Consumer to stop Selling and Sharing the Consumer’s Personal
+              Information when the Consumer submitted a Request to Opt-out of Sale/Share using the toll-free
+              phone number or email address offered by PlayOn.
+
+                                  2.      PlayOn Failed to Recognize and Honor Opt-Out Preference Signals
+
+                      50.     Consumers can also submit a Request to Opt-out of Sale/Sharing by configuring
+              their web browsers to transmit an Opt-out Preference Signal. See Civ. Code § 1798.185(a)(18)–
+              (19); see also Code Regs. tit. 11, § 7025.
+
+                      51.    During the relevant time period, PlayOn failed to configure its Digital Properties
+              to recognize and honor Consumers’ Requests to opt-out of Sale/Sharing using an Opt-out
+              Preference Signal.
+
+                     52.     Accordingly, PlayOn violated sections 1798.120(a) and 1798.135(a) of the Civil
+              Code, and section 7026 of title 11 of the California Code of Regulations, each time PlayOn failed
+              to honor a Consumer’s Request to Opt-out of Sale/Sharing submitted using an Opt-out
+              Preference Signal.
+
+                          C.      PlayOn’s Deficient Notices to Consumers
+
+                      53.     The CCPA requires businesses to provide Consumers with a comprehensive
+              description of the business’ online and offline information practices, to inform Consumers “about
+              the rights they have regarding their personal information,” and give Consumers “information
+              necessary for them to exercise those rights.” Code Regs. tit. 11, § 7011(a). Businesses are
+              required to provide this information through a privacy policy that is updated at least once every
+              twelve months and posted online and accessible through a conspicuous link. Civ. Code
+              § 1798.130(a)(5); Code Regs., tit. 11, § 7011(d), (e)(2).
+
+                       54.    Privacy policies must inform Consumers of their statutorily provided privacy
+              rights, including the right to opt-out of the Sale and Sharing of Personal Information, and how to
+              exercise those rights. See Code Regs. tit. 11, § 7011(e). Businesses operating online must also
+              explain how an Opt-out Preference Signal will be processed and how Consumers can use an Opt-
+              out Preference Signal. See id. § 7011(e)(3)(F).
+
+                      55.     A business that Sells or Shares Personal Information must also provide Notice of
+              Right to Opt-out of Sale/Sharing by either posting a “Do Not Sell or Share My Personal
+              Information” or “Your Privacy Choices” link. The link must either take the Consumer to a
+              webpage that provides all the required information or immediately effectuate the Consumer’s
+              right to opt-out. If linked to the privacy policy, it must take the Consumer to the specific section
+              of the privacy policy that provides the required information. See id. § 7013.
+
+
+
+              CASE NO. ENF24-S-PL-24                            9                 STIPULATED FINAL ORDER
+               
+
+
+
+
+                     56.     A business shall not Sell or Share the Personal Information it Collected during the
+              time the business did not have a Notice of Right to Opt-out of Sale/Sharing posted unless it
+              obtains the consent of the Consumer. Id. § 7013(h).
+
+                      57.     Before revising its privacy policy in February 2024, PlayOn’s privacy policy had
+              not been updated since July 2022. See Civ. Code § 1798.130(a)(5). That privacy policy also
+              failed to inform Consumers of their right to opt-out of the Sharing of their Personal Information
+              and claimed that PlayOn did not Sell Consumers’ Personal Information. PlayOn also failed to
+              inform Consumers how to exercise their right to opt-out of Sale/Sharing, including through the
+              use of an Opt-out Preference Signal.
+
+                     58.     Similarly, PlayOn’s “Your Privacy Choices” link failed to include all the
+              information required in a Notice of Right to Opt-out of Sale/Sharing and directed Consumers to
+              PlayOn’s deficient methods for submitting a Request to Opt-out of Sale/Sharing discussed above.
+
+                      59.     Accordingly, PlayOn violated Code of Regulations, title 11, section 7011(e)(3)(C)
+              by failing to provide an adequate Notice of Right to Opt-out of Sale/Sharing and violated section
+              7011(e)(3)(F) by failing to explain how PlayOn would process an Opt-out Preference Signal and
+              how Consumers could use an Opt-out Preference Signal.
+
+                     60.    PlayOn also violated Code of Regulations, title 11, section 7013(h) each time it
+              Sold or Shared Personal Information that PlayOn Collected during the period PlayOn did not
+              have an adequate Notice of Right to Opt-out Of Sale/Share.
+
+                                                          V. CONTINGENCY
+
+                       61.    This Stipulated Final Order shall be contingent upon approval by the Board of the
+              California Privacy Protection Agency (Board). PlayOn understands and agrees that counsel for
+              Complainant and the staff of the Agency may communicate directly with the Board and the staff
+              of the Agency regarding this Stipulated Final Order, without notice to or participation by PlayOn
+              or its counsel. By signing the Stipulated Final Order, PlayOn understands and agrees that it may
+              not withdraw its agreement or seek to rescind the Stipulated Final Order before the time the
+              Board considers and acts upon it. If the Board fails to adopt this stipulation as its Order of
+              Decision, the Stipulated Final Order shall be of no force or effect except for this paragraph, it
+              shall be inadmissible in any legal action between the parties, and the Agency shall not be
+              disqualified from further action by having considered this matter.
+
+                                                       VI. OTHER MATTERS
+
+                      62.     The parties understand and agree that Portable Document Format (PDF) and
+              facsimile copies of this Stipulated Final Order, including PDF and facsimile signatures thereto,
+              shall have the same force and effect as the originals. The parties may execute this Stipulated
+              Final Order in counterparts.
+
+                      63.     This Stipulated Final Order is intended by the parties to be an integrated writing
+              representing the complete, final, and exclusive embodiment of their agreement. It supersedes any
+              and all prior or contemporaneous agreements, understandings, discussions, negotiations, and
+              commitments (written or oral). This Stipulated Final Order may not be altered, amended,
+
+              CASE NO. ENF24-S-PL-24                           10               STIPULATED FINAL ORDER
+                
+
+
+
+
+              modified, supplemented, or otherwise changed except by a writing executed by an authorized
+              representative of each of the parties.
+
+                     64.    In consideration of the foregoing stipulations, the parties agree that the Board
+              may, without further notice or formal proceeding, issue and enter the following Order of
+              Decision:
+
+                                                                VII. ORDER
+
+                          A.      Administrative Fine
+
+                       65.    In accordance with Civil Code § 1798.199.55, PlayOn shall pay an administrative
+              fine in the amount of one million one hundred thousand dollars ($1,100,000). This payment shall
+              be made to the California Privacy Protection Agency no later than thirty (30) days after the
+              effective date of the Board’s decision approving the Stipulated Final Order pursuant to written
+              instructions to be provided by the Enforcement Division.
+
+                          B.      Compliance with Law
+
+                     66.      The Agency recognizes and credits PlayOn’s remediation efforts. PlayOn has
+              substantially revised its practices and has committed substantial financial and other resources to
+              remediating the shortcomings identified in this Stipulated Final Order, even before PlayOn
+              learned about the Agency’s investigation.
+
+                     67.     To the extent not already done so, PlayOn shall do the following with respect to
+              any Digital Properties through which it processes Personal Information as a Business:
+
+                                  a.      Comply with the CCPA and its implementing regulations, including, to the
+                                          extent applicable, Civil Code sections 1798.100, 1798.120, 1798.121,
+                                          1798.130, and 1798.135, and Code of Regulations, title 11, sections 7002,
+                                          7003, 7004, 7010–7014, 7025–7028 and 7050–7053.
+
+                                  b.      Scan its Digital Properties, at least quarterly, to maintain a full and current
+                                          inventory of Tracking Technologies.
+
+                                  c.      Maintain contracts that comply with Code of Regulations, title 11, section
+                                          7053(a)(1)–(6), with all Third Parties that receive or have access to
+                                          Personal Information through the Tracking Technologies on PlayOn’s
+                                          Digital Properties.
+
+                                  d.      For any Tracking Technologies that PlayOn uses to Share Personal
+                                          Information, PlayOn shall properly configure the Digital Property to
+                                          recognize and give full effect to Consumer requests to opt out of such
+                                          sharing submitted through: (i) an Opt-out Preference Signal, as required
+                                          by Code of Regulations, title 11, section 7025(c), and (ii) PlayOn’s other
+                                          methods for submitting Requests to Opt-out of Sale/Sharing, as required
+                                          by Code of Regulations, title 11, section 7026.
+
+
+              CASE NO. ENF24-S-PL-24                                11                 STIPULATED FINAL ORDER
+               
+
+
+
+
+                                 e.      If PlayOn Sells or Shares Consumers’ Personal Information, PlayOn shall
+                                         maintain a “Do Not Sell or Share My Personal Information” or “Your
+                                         Privacy Choices” link on its Digital Properties that allows Consumers to
+                                         exercise their choice regarding the Sale and Sharing of their Personal
+                                         Information.
+
+                                 f.      Within 90 days of the effective date of the Stipulated Final Order, and to
+                                         the extent it has not already done so, PlayOn shall review its practices—
+                                         including its privacy policy, notices, consent management platform, and
+                                         privacy rights request mechanisms—for compliance with the CCPA.
+
+                     68.    Risk Assessments. Beginning on January 1, 2026, the Selling or Sharing of
+              Personal Information, among other things, will require a business to conduct a risk assessment.
+              See Code Regs., tit. 11, § 7150(b). Accordingly, with respect to PlayOn’s GoFan and NFHS
+              Network services:
+
+                                 a.      For PlayOn’s current processing of users’ Personal Information that meet
+                                         the thresholds in section 7150(b), to the extent it has not already done so,
+                                         PlayOn shall conduct a risk assessment that meets the requirements of
+                                         Code of Regulations, title 11, sections 7150–7157 within one year of the
+                                         effective date of the Board’s decision approving this Stipulated Final
+                                         Order.
+
+                                 b.      For a period of three (3) years following the completion of PlayOn’s risk
+                                         assessment under paragraph 68(a), and as required by the CCPA thereafter,
+                                         PlayOn shall update their risk assessments in accordance with the
+                                         requirements of Code of Regulations, title 11, sections 7150–7157, before
+                                         any material change in the processing of users’ Personal Information. A
+                                         change relating to the processing of users’ Personal Information is material
+                                         if it creates new negative impacts, increases the magnitude or likelihood of
+                                         previously identified negative impacts, or diminishes the effectiveness of
+                                         safeguards. See Code Regs., tit. 11, § 7155(a)(3).
+
+                                 c.      In identifying negative impacts to Consumers’ privacy associated with the
+                                         processing of their Personal Information, PlayOn’s risk assessments shall
+                                         consider whether it is coercing or compelling Consumers into allowing the
+                                         processing of their Personal Information. For example, PlayOn shall
+                                         consider whether users are required to consent to the Selling or Sharing of
+                                         their Personal Information with one or more parties in order to participate
+                                         in certain events. See Code Regs., tit. 11, § 7152(a)(5).
+
+                                 d.      PlayOn’s risk assessments regarding the processing of users’ Personal
+                                         Information shall be reviewed by PlayOn’s Board of Directors. In its risk
+                                         assessment, PlayOn shall identify and document the date the assessment
+                                         was reviewed by the Board of Directors, and the names of the individuals
+                                         who reviewed the assessment. See Code Regs., tit. 11, § 7152(a)(9) (eff.
+                                         Jan. 1, 2026).
+
+              CASE NO. ENF24-S-PL-24                              12                 STIPULATED FINAL ORDER
+                 
+
+
+
+
+                                   e.      Based on its risk assessments, PlayOn shall not process Personal
+                                           Information in a manner in which PlayOn determines that the risks to the
+                                           privacy of the Consumer outweigh the benefits resulting from the
+                                           processing to the Consumer, the business, other stakeholders, and the
+                                           public. See Code Regs., tit. 11, § 7154 (eff. Jan. 1, 2026).
+
+                      69.     Notices and Disclosures. PlayOn shall evaluate the notices and disclosures made
+              on its Digital Properties, including in its notice banner and consent management platform, to
+              ensure that the language used is easy to read and understandable to Consumers who use its
+              services, taking into consideration the age of the intended audience of such services. For
+              example, notices and disclosures made on services selling tickets to high school events must be
+              easy to read and understandable to attendees of those events. To the extent necessary, PlayOn
+              shall make changes to the language used in its notices and disclosures within 90 days of the
+              effective date of the Stipulated Final Order. See Code Regs., tit. 11, §§ 7003, 7004
+
+                      70.   Metrics. For a period of three (3) years, and as required by the CCPA thereafter,
+              PlayOn shall annually post on its website the metrics described in Code of Regulations, title 11,
+              section 7102.
+
+                     71.    Unless otherwise specified, PlayOn shall complete implementation of any process
+              and system changes to effectuate the modifications required by this Stipulated Final Order within
+              one hundred eighty (180) days after the effective date of the Board’s decision approving it.
+
+                          72.      Each party shall bear its own attorneys’ fees and costs.
+
+                                           VIII. ADDITIONAL GENERAL PROVISIONS
+
+                       73.    By entry of this Stipulated Final Order and following PlayOn’s compliance with
+              all the terms set forth in paragraphs 65-72, the Agency releases PlayOn from and against all
+              claims the Agency has under the CCPA arising from the conduct set forth in the factual findings
+              of this Stipulated Final Order.
+
+                      74.     PlayOn admits the truth of the factual findings in paragraphs 29–36 of this
+              Stipulated Order. PlayOn otherwise neither admits nor denies the remaining factual findings in
+              this Stipulated Order. PlayOn does not admit liability for any violation of the CCPA, actual or
+              alleged. PlayOn agrees to be bound by the terms of this Stipulated Final Order.
+
+                      75.     Nothing in this Stipulated Final Order shall be construed as relieving PlayOn of
+              its obligations to comply with all applicable state and federal laws, regulations, or rules, or as
+              granting permission to engage in any acts or practices prohibited by such law, regulation, or rule.
+
+                      76.    PlayOn shall use reasonable efforts to notify its officers, directors, employees,
+              agents, and contractors responsible for carrying out and effecting the terms of this Stipulated
+              Final Order and the requirements therein.
+
+                      77.     PlayOn agrees that the terms of this Stipulated Final Order are in the public
+              interest and fair, adequate, and reasonable under all the circumstances.
+
+
+              CASE NO. ENF24-S-PL-24                                13                 STIPULATED FINAL ORDER
+               
+
+
+
+
+                      78.     PlayOn waives the right to any hearings, and to any reconsideration, appeal, or
+              other right to review which may be afforded pursuant to the California Administrative
+              Procedures Act, the California Code of Civil Procedure, or any other provision of law. By
+              waiving such rights, PlayOn consents to this Stipulated Final Order becoming final.
+
+                     79.     This Stipulated Final Order shall bind PlayOn’s subsidiaries, heirs, administrators,
+              executors, successors, and transferees.
+
+                     80.     Notwithstanding paragraph 72, in the event the Agency prevails in seeking to
+              enforce any term of this Stipulated Final Order, the Agency shall be entitled to an award of
+              attorney fees and costs in its favor and against PlayOn for the time spent and costs incurred in
+              prosecuting such action.
+
+                     81.     Failure to complete the payment or comply with any terms of this Stipulated Final
+              Order shall result in enforcement of the Order in the Superior Court of California.
+
+                      82.        Any notices and reports under this Stipulated Final Order shall be served by email
+              as follows:
+
+                                 To the Complainant:
+
+                                 Deputy Director, Enforcement Division
+                                 California Privacy Protection Agency
+                                 400 R Street, Suite 350
+                                 Sacramento, CA 95811
+                                 ENF-processing@cppa.ca.gov
+
+                                 To the Respondent:
+
+                                 2080 Media, Inc. d/b/a PlayOn Sports
+                                 Attn: Chief Legal Officer
+                                 2990 Brandywine Road, Suite 300
+                                 Atlanta, GA 30341
+                                 legal@playonsports.com; anna@zwillgen.com
+
+                      83.     Each person who signs this Stipulated Final Order in a representative capacity
+              warrants that he or she is duly authorized to do so. Further, each party itself (a) acknowledges
+              that such party has been advised by competent legal counsel in connection with the execution of
+              this Stipulated Final Order, has read each and every paragraph of this Stipulated Final Order, and
+              understands the respective rights and obligations set forth herein, and (b) represents that the
+              commitments, acknowledgment, representations, and promises set forth herein are freely and
+              willingly undertaken and given.
+
+                     84.    PlayOn represents that this Stipulated Final Order is freely and voluntarily entered
+              without any degree of duress or compulsion whatsoever.
+
+
+
+
+              CASE NO. ENF24-S-PL-24                             14                STIPULATED FINAL ORDER
+               
+
+
+
+
+                                                          IX. SIGNATURES
+
+
+
+
+               RESPONDENT
+               2080 MEDIA, INC., D/B/A PLAYON SPORTS
+               DATED:  
+                      _______________
+
+                                                               BY:
+                                                                     Lesley Wainwright
+                                                                     Chief Legal Officer
+                                                                     2080 Media, Inc., d/b/a PlayOn Sports
+
+
+                              AS TO FORM AND CONTENT:
+
+
+
+                                                                     Anna Hsia
+                                                                     ZwillGen Law LLP
+
+                                                                     Stacey Brandenburg
+                                                                     Marci Rozen
+                                                                     ZwillGen PLLC
+
+                                                                     Attorneys for Respondent
+
+
+
+
+              CASE NO. ENF24-S-PL-24                                 15              STIPULATED FINAL ORDER
+COMPLAINANT
+THE CALIFORNIA PRIVACY PROTECTION AGENCY
+ENFORCEMENT DIVISION
+DATED: January
+       _______________
+               16, 2026
+                           BY:
+                                 MICHAEL S. MACKO
+                                 Deputy Director of Enforcement
+
+
+
+
+                                 LARA KEHOE HOFFMAN
+                                 Assistant Chief Counsel
+
+
+
+
+                                 LISA B. KIM
+                                 Senior Privacy Counsel & Advisor
+
+
+
+
+                                 ALEX D. BERGER
+                                 Attorney, Enforcement Division
+
+                                 Attorneys for Complainant
+
+
+
+
+CASE NO. ENF24-S-PL-24           16              STIPULATED FINAL ORDER
+

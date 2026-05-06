@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/leginfo/ca-cmia.html",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=2.&division=1.&lawCode=CIV&part=2.6.&title=",
+  "final_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=2.&division=1.&lawCode=CIV&part=2.6.&title=",
+  "content_type": "text/html; charset=UTF-8",
+  "status": "fetched",
+  "checksum": "sha256:abb5ad2e6970ff9421a60e2253d841ca778e50ef0dfe5cc3cccb2300c080db7a",
+  "bytes": 218323
+}

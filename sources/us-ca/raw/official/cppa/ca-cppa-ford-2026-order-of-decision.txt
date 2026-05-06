@@ -1,0 +1,637 @@
+              BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+
+ In the Matter of:                                       Case No. ENF23-V-FO-3
+
+ FORD MOTOR COMPANY
+
+                               Respondent.
+
+
+
+                                    ORDER OF DECISION
+
+       The Board of the California Privacy Protection Agency hereby adopts the Stipulated Final
+
+Order, attached hereto, as its decision in the above-captioned matter.
+
+       This Decision shall become effective immediately.
+
+       IT IS SO ORDERED this _____
+                              27th day of _________________________, 2026.
+                                              February
+
+                                                     BY THE BOARD:
+
+
+
+
+                                                     JENNIFER M. URBAN
+                                                     Chair
+                                                     California Privacy Protection Agency
+MICHAELS. MACKO
+Deputy Director of Enforcement
+LARA KEHOE HOFFMAN
+Assistant Chief Counsel
+ALEX D. BERGER (State Bar No. 353829)
+MICHAEL J. MEYER (State Bar No. 242706)
+Attorneys
+   Enforcement Division
+   California Privacy Protection Agency
+   400 R Street, Suite 350
+   Sacramento, CA 95811
+   Telephone: (916) 244-6626
+   Email: michael.meyer@cppa.ca.gov
+Attorneys for Complainant
+
+                 BEFORE THE CALIFORNIA PRIVACY PROTECTION AGENCY
+
+
+ In the Matter of:                                                     Case No. ENF23-V-FO-3
+
+ FORD MOTOR CO.
+
+                                        Respondent.
+
+
+
+
+                                         STIPULATED FINAL ORDER
+
+       IT IS HEREBY STIPULATED AND AGREED by and between the parties to the above-
+captioned matter:
+
+                                                     I.     PARTIES
+
+       1.     Complainant is the Enforcement Division of the California Privacy Protection
+Agency ("Agency"), which enforces the California Consumer Privacy Act of 2018, Civ. Code
+§§ 1798.100--1798.199 .100, as amended ("CCPA"). 1
+
+        2.      Respondent is Ford Motor Company ("Ford"), a Delaware corporation with its
+principal place of business at 1 American Road, Dearborn, Michigan 48126.
+
+                                               II.     JURISDICTION
+
+       3.     Pursuant to Civil Code sections 1798.199 .40(a) and 1798.199. 55, the Agency may
+enforce the CCPA through administrative actions.
+
+
+1 All statutory references   are to California law unless otherwise indicated.
+
+
+CASE NO. ENF23-V-FO-3                                        1                   STIPULATED FINAL ORDER
+       4.      Pursuant to Government Code section 11415.60(a), the Agency may formulate
+and issue a decision by settlement, pursuant to an agreement of the parties, without conducting
+an adjudicative proceeding.
+
+         5.     Ford is a for-profit corporation that collects consumers' personal information and
+determines the purposes and means of the processing of consumers' personal information. The
+company has an annual gross revenue in excess of $26.625 million, and the company annually
+sells or shares, in combination, the personal information of 100,000 or more consumers or
+households. Ford conducted business within the State of California at all times relevant to this
+Stipulated Final Order.
+
+                                     III.    DEFINITIONS
+
+       The following terms in this Stipulated Final Order shall have these meanings:
+
+       6.      "Agency" means the California Privacy Protection Agency.
+
+       7.      "Collect" has the same meaning as provided in Civil Code section 1798.140(±).
+
+       8.      "Consumer" has the same meaning as provided in Civil Code section 1798.140(i).
+
+      9.     "CCPA" means the California Consumer Privacy Act of 2018, Civ. Code
+§§ 1798.100-1798.199.100, as amended, and its implementing regulations.
+
+       10.     "Digital properties" means all public-facing websites and mobile applications
+owned or operated by Ford that are accessible by consumers and subject to the CCPA, including
+without limitation, https://www.ford.com/ and the Ford mobile application.
+
+       11.     "Enforcement Division" means Complainant, the Enforcement Division of the
+California Privacy Protection Agency.
+
+       12.     "Ford" means Respondent, Ford Motor Company.
+
+        13.   "Personal information" has the same meaning as provided in Civil Code
+section 1798.140(v).
+
+       14.     "Regulations" mean Title 11 of the California Code of Regulations.
+
+       15.    "Request to opt-out of sale/sharing" has the same meaning as provided in
+California Code of Regulations, title 11, section 7001(rr).
+
+        16.   "Sale" or "sell" has the same meaning as provided in Civil Code
+section 1798.140(ad).
+
+        17.   "Share" and "sharing" has the same meaning as provided in Civil Code
+section 1798.140(ah).
+
+        18.   "Verifiable consumer request" has the same meaning as provided in Civil Code
+section 1798.140(ak).
+
+
+CASE NO. ENF23-V-FO-3                            2                 STIPULATED FINAL ORDER
+                                  IV.    FACTUAL FINDINGS
+
+       19.    For over a century, Ford has manufactured and sold vehicles in the United States.
+Given Ford's history, Ford vehicles are visible on roadways throughout California. Hundreds of
+thousands of Californians have purchased Ford vehicles.
+
+        20.     The Enforcement Division opened an investigation into Ford's privacy practices
+and its compliance with the CCPA as part of a general inquiry into vehicle manufacturers'
+privacy practices by the Enforcement Division. During the investigation, Ford cooperated with
+the Enforcement Division, produced documents, answered questions, and engaged in candid
+discussions about Ford's privacy practices. Ford also updated certain components of its process
+to respond to requests to opt-out of sale or sharing during the course of the investigation.
+
+        21.    The relevant time period is July 1, 2023, to March 1, 2024, unless otherwise
+indicated.
+
+       A.      Ford Required a Verifiable Consumer Request Before Processing a Request
+               to Opt-Out of the Sale/Sharing of Personal Information.
+
+       22.     Consumers have the right, at any time, to opt out of the sale or sharing of their
+personal information. Civ. Code§ 1798.120(a)(l).
+
+        23.     A business that sells or shares personal information must provide a notice of right
+to opt-out of sale/sharing to consumers. Code Regs., tit. 11, § 7013(e). lfa business provides
+such notice online, it must include an interactive form by which a consumer can submit a request
+to opt-out of sale/sharing online. Jd § 7013(f)(2).
+
+        24.     A business may not require consumers to submit verifiable consumer requests to
+opt out of the sale/sharing of their personal information. Id § 7026(d).
+
+       25.     A "verifiable consumer request" is a request that is made by a consumer (or on
+behalf of a consumer) that the business can verify, using commercially reasonable methods, to be
+the consumer about whom the business has collected personal information. See Civ. Code
+§ 1798.140(ak).
+
+        26.     Although a business may require consumers to submit a verifiable consumer
+request to exercise their right to delete, right to know, and right to correct, a business may not
+require a verifiable consumer request for the right to opt-out. See Code Regs., tit. 11, §§ 7022(a),
+7023(a), 7024(a)-(b), and 7026(d).
+
+       27.     Instead, for requests to opt-out of sale/sharing:
+
+                       A business may ask the consumer for information
+                       necessary to identify the consumer whose information
+                       shall cease to be sold or shared by the business. However,
+                       to the extent that the business can comply with a request
+
+
+
+
+CASE NO. ENF23-V-FO-3                             3                 STIPULATED FINAL ORDER
+                      to opt-out of sale/sharing without additional information,
+                      it shall do so.
+
+Id. § 7026(d) ( emphasis added).
+        28.    During the relevant period, Ford provided notice of the right to opt-out online and
+provided the following interactive form for consumers to submit requests to opt-out of
+sale/sharing:
+                                   Figure 1: Ford~ ConsumerPrivacy Rights Form
+
+
+
+
+                              Wtkome to tht Ford • Llrcoln consumer privacy rlfllts form. This form
+                              allows rtsldtnts ol certain st.Otts to ••rclse lhtlr prwacy
+                                                                                        rigtn. If you
+                              ware to opt-out ol sales, sharing. or targtoed adwrtlsl" tlvoufll
+                              cooldts or other onlnt traddng technologies, please stt tht 'Optl" out
+                              of Coddts'sectionof our YPYC      Pr!Y::KY (bolCM
+                              lbtte·«{ord
+                                       ,omlhrlP'P!b@SYfC(Pf)
+                                                        page.
+
+
+
+                           •Who•••     you submitting   this n,quut   on b•h•    of?
+
+                                                        SOmeane
+                                                              forwhom 1
+                                     Mystf               am act111gas an
+                                                         aulhorittd agenc
+
+
+                           • Do you h•W an auiw Ford or Lincoln a«ount?
+
+
+
+
+                           • First N•m•
+
+
+
+                           •last N1me
+                                                                                                        J
+                           • Addr•ss
+
+
+
+                           • City
+
+
+
+                           • Shit•
+
+                                                                                                    X
+                           • lip
+
+
+
+
+                                             (Figure I continueson nc,ctpage]
+
+
+
+
+CASE NO. ENF23-V-F0-3                                            4                               STIPULATED FINAL ORDER
+                             • Phone Number
+                                                     --ir-------------
+                              United Slates (+ 1)
+
+                             • What is your relationship with Ford?
+
+                                                            Fonnervehl<le
+                                                                                   SerVl<:e
+                                                                                         CustomerOnly
+                                                              Cu51omer
+
+                                MarketingRe<lplent
+                                      only
+
+
+
+
+                                  Right10 Kn0w •            Righi 10 Kn0w •
+                                                                                      RightlOCorre<t
+                                    Catogofies              Spectfic Pieces
+
+
+                                                              Ol)lOUlof
+                                   RightcoDelete                                   Appeal a Mor RequeSI
+                                                            Sa-nng
+
+
+
+
+                                                           D     I'm not a robot
+
+
+
+                                                                                               Submit
+
+
+
+        29.      Consumers used this interactive form to exercise various consumer rights,
+including the right to opt-out, related to personal information collected by Ford, including
+through its digital properties and connected vehicle services. To exercise these rights, consumers
+filled out the required fields, completed the reCAPTCHA, and clicked "submit."
+
+        30.    After consumers submitted requests to opt-out of sale/sharing through Ford's
+consumer privacy rights form, Ford could have processed those requests without requiring
+additional information.
+
+       31.    Instead, after consumers submitted the interactive form, Ford displayed the
+following message on their screens:
+                  Figure 2: Page Displayed after Submitting a Request to Opt-Out of Sale/Sharing
+
+
+
+
+                                                       One More Step!
+                                                    Please confirm your
+                                                          Request!
+
+                                            Please check your email for confinnauon,
+                                               click confirm and we will start your
+                                                             request.
+
+
+
+
+CASE NO. ENF23-V-FO-3                                             5                               STIPULATED FINAL ORDER
+         32.    Rather than processing consumers' requests to opt-out---and stopping the selling
+and sharing of consumers' personal information as soon as feasibly possible-Ford directed
+consumers to check their "email for confirmation" and to "click confirm." Only then would Ford
+start to process their requests.
+
+       33.    For those consumers who did check their email, Ford presented them with the
+following message:
+        Figure 3: Email to ConsumersRequiring VerificationBefore ProcessingRequest to Opt-Out of Sale/Sharing
+
+
+
+
+                        Dco
+                       We have receivedyour reQuestlistedbelow For us to completethis request.you
+                       must confirmyouremail and identityby dicking on the buttonbelow Oncewe have
+                       confirmedyour1<Jent1ty
+                                           we will respondto your requestwithinthe legallyrequireo
+                       11mepenod
+                       Your Request 10 ,s                , please keep this for your records
+                        Request ID:
+                        Date Submitttd:
+                       What is your relabonsh1pwrtfl Ford?: CurrenlVehicleCustomer
+                       What type of request are you submitting?: Opt Out of 5ales/Shamg
+                        First Name: XXXX
+                        Last Name: XXXXXXone
+                       Email Address: XXXXXXXXXXXXXXcom
+                       Who are you submitting this request on behalf of?: Myself
+                        Do you have an acbve Ford or Lincoln account?: I don1 havean active account
+                       Address: XXXXXXXXXXX      o,
+                       City: XXXeer
+                        state: Galtfomia
+                       Zip: XX446
+                        Phone Number: XXXXXXXXXX406
+
+                                                       Confirm Emad
+
+
+                       If you have any quest10ns, please contact a member or the p<ovacyteam
+
+
+
+       34.    In this message, Ford informed consumers that it had received the request, but
+before Ford would complete it, "you must confirm your email and identity by clicking the button
+below." Ford further explained that, "[o]nce we have confirmed your identity," Ford would
+"respond to your request within the legally required time period."
+
+        35.    During the relevant period, Ford deemed as "expired" all requests to opt-out of
+sale/sharing submitted by consumers who did not click "Confirm Email" in this message. This
+resulted in Ford not processing dozens of requests to opt-out within the period required by the
+CCPA. Ford subsequently processed these requests in response to the Enforcement Division's
+investigation.
+
+
+
+
+CASE NO. ENF23-V-FO-3                                           6                              STIPULATED FINAL ORDER
+        36.     Ford did not intend to require consumers to submit a verifiable consumer request
+to exercise their right to opt-out of the sale/sharing of personal information. Nor did Ford intend
+to include the language asking consumers to confirm their identities in the email sent to
+consumers in response to their requests to opt-out.
+
+         37.    Nevertheless, Ford's practice ofrequiring consumers to confirm their access and
+control over their email address before processing a request to opt-out of sale/sharing
+impermissibly required consumers to submit a verifiable consumer request. This practice created
+unnecessary friction for consumers to exercise their opt-out rights. Consistent with section
+7026(d) of the regulations, Ford should have processed consumers' requests to opt-out with the
+information consumers provided through Ford's consumer privacy rights form, shown in Figure
+1, to the extent it was able to do so within the period required by the CCPA.
+
+        38.    Accordingly, each time Ford required a consumer to submit a verifiable consumer
+request to exercise the right to opt-out, Ford violated section 7026(d) of the regulations.
+
+       B.      Ford Sold/Shared Personal Information After Consumers Requested to Opt-
+               Out.
+
+       39.     A business that has received direction from a consumer not to sell or share the
+consumer's personal information is prohibited from continuing to sell or share that consumer's
+personal information. Civ. Code§§ 1798.120(d), 1798.135(c).
+
+         40.     As shown above, Ford provided consumers with an interactive privacy request
+form by which consumers could exercise various consumer rights, including the right to opt-out,
+by filling out the required fields, completing the reCAPTCHA, and clicking "submit."
+
+        41.    Each consumer who submitted Ford's interactive form to exercise the right to opt-
+out thereby directed Ford to stop the sale and sharing of personal information. To the extent Ford
+could comply with those requests to opt-out, it should have done so.
+
+        42.    Instead, as described in section A, above, Ford did not process dozens ofrequests
+to opt-out within the period required by the CCPA. As a result, Ford continued to sell/share these
+consumers' personal information, despite those consumers' direction to Ford to stop.
+
+        43.    Accordingly, Ford violated Civil Code section 1798.120(d) each time Ford
+subsequently sold or shared the personal information of a consumer who previously submitted a
+request to opt-out through Ford's consumer privacy rights request form.
+
+                                      V.     CONTINGENCY
+
+        44.    This Stipulated Final Order shall be contingent upon approval by the Board of the
+California Privacy Protection Agency ("Board"). Ford understands and agrees that counsel for
+Complainant and the staff of the Agency may communicate directly with the Board and the staff
+of the Agency regarding this Stipulated Final Order, without notice to or participation by Ford or
+its counsel. By signing the Stipulated Final Order, Ford understands and agrees that it may not
+withdraw its agreement or seek to rescind the Stipulated Final Order before the time the Board
+considers and acts upon it. If the Board fails to adopt this stipulation as its Order of Decision, the
+
+
+CASE NO. ENF23-V-FO-3                             7                  STIPULATED FINAL ORDER
+Stipulated Final Order shall be of no force or effect except for this paragraph, it shall be
+inadmissible in any legal action between the parties, and the Agency shall not be disqualified
+from further action by having considered this matter.
+
+                                   VI.     OTHER MATTERS
+
+        45.     The parties understand and agree that Portable Document Format (PDF) and
+facsimile copies of this Stipulated Final Order, including PDF and facsimile signatures thereto,
+shall have the same force and effect as the originals. The parties may execute this Stipulated
+Final Order in counterparts.
+
+        46.     This Stipulated Final Order is intended by the parties to be an integrated writing
+representing the complete, final, and exclusive embodiment of their agreement. It supersedes any
+and all prior or contemporaneous agreements, understandings, discussions, negotiations, and
+commitments (written or oral). This Stipulated Final Order may not be altered, amended,
+modified, supplemented, or otherwise changed except by a writing executed by an authorized
+representative of each of the parties.
+
+       47.    In consideration of the foregoing stipulations, the parties agree that the Board
+may, without further notice or formal proceeding, issue and enter the following Order of
+Decision:
+
+                                         VII.    ORDER
+
+       IT IS HEREBY ORDERED that:
+
+       A.      Monetary Provision
+
+         48.     In accordance with Civil Code section 1798.199.55, Ford shall pay an
+administrative fine in the amount of three hundred seventy-five thousand seven hundred three
+dollars ($375,703). This payment shall be made to the California Privacy Protection Agency no
+later than thirty (30) days after the effective date of the Board's decision approving the Stipulated
+Final Order pursuant to written instructions to be provided by the Enforcement Division.
+
+       B.      Compliance with Law
+
+       49.     As required by the CCPA, Ford shall comply with the following provisions of the
+CCPA and its implementing regulations: Civil Code sections 1798.100, 1798.120, and 1798.135,
+and California Code of Regulations, title 11, sections 7004, 7013, and 7022-7026.
+
+        50.    To the extent it has not already done so, Ford shall modify its methods for
+submitting and responding to requests to opt-out of sale/sharing in the following ways as
+required by the CCPA:
+
+            a. Ford shall provide consumers with methods to exercise their right to opt-out of
+               sale/sharing that are easy and require minimal steps;
+
+
+
+
+CASE NO. ENF23-V-FO-3                             8                 STIPULATED FINAL ORDER
+              b. Ford shall not require verifiable consumer requests for consumers to exercise their
+                 right to opt out of sale/sharing; and
+
+              c. When a consumer submits a request to opt-out of sale/sharing, Ford shall honor
+                 that request to the extent that it is able to do so within the time period required by
+                 the CCPA.
+
+       51.     Ford shall conduct an audit of the tracking technologies, such as cookies, web
+beacons, and pixels, on its website, Ford.com, to ensure that each such tracking technology is
+properly configured to honor consumers' use of opt-out preference signals, such as the Global
+Privacy Control, where required by Code of Regulations, title 11, section 7025.
+
+        52.     Ford shall complete the actions required by paragraphs 50--51 and confirm in
+writing to the Enforcement Division that is has completed these actions within 90 days of the
+effective date of this Stipulated Final Order.
+
+        53.      Each party shall bear its own attorneys' fees and costs.
+
+                       VIII.     ADDITIONAL GENERAL PROVISIONS
+
+         54.     By entry of this Stipulated Final Order and following Ford's compliance with all
+terms set forth in paragraphs 48-52, the Agency releases Ford (including its subsidiaries,
+affiliates, officers, directors, heirs, administrators, executors, successors, and transferees) from
+and against all claims the Agency has under the CCPA arising from the conduct set forth in the
+factual findings of this Stipulated Final Order.
+
+        55.     Nothing in this Stipulated Final Order shall be construed as relieving Ford of its
+obligations to comply with all state and federal laws, regulations, or rules, or as granting
+permission to engage in any acts or practices prohibited by such law, regulation, or rule.
+
+        56.    Ford shall use reasonable efforts to notify its officers, directors, employees,
+agents, and contractors responsible for carrying out and effecting the terms of this Stipulated
+Final Order and the requirements therein.
+
+        57.    Ford agrees that the terms of this Stipulated Final Order are in the public interest
+and fair, adequate, and reasonable under all the circumstances.
+
+        58.    Ford neither admits nor denies the truth of the factual findings in this Stipulated
+Final Order. Ford does not admit liability for any violation of CCPA, actual or alleged. Ford
+agrees to be bound by the terms of this Stipulated Final Order.
+
+        59.     Ford hereby waives the right to any hearings, and to any reconsideration, appeal,
+or other right to review which may be afforded pursuant to the California Administrative
+Procedures Act, the California Code of Civil Procedure, or any other provision of law. By
+waiving such rights, Ford effectively consents to this Stipulated Final Order becoming final.
+
+       60.     This Stipulated Final Order shall bind Ford's subsidiaries, heirs, administrators,
+executors, successors, and transferees.
+
+
+CASE NO. ENF23-V-FO-3                               9                 STIPULATED FINAL ORDER
+        61.    Notwithstanding paragraph 53, in the event the Agency prevails in seeking to
+enforce any term of this Stipulated Final Order, the Agency shall be entitled to an award of
+attorney fees and costs in its favor and against Ford for the time spent and costs incurred in
+prosecuting such action.
+
+       62.     Failure to complete the payment or comply with any terms of this Stipulated Final
+Order shall result in enforcement of the Order in the Superior Court.
+
+        63.    Any notices and reports under this Stipulated Final Order shall be served by email
+as follows:
+
+       To the Complainant:
+
+       Deputy Director, Enforcement Division
+       California Privacy Protection Agency
+       400 R Street, Suite 350
+       Sacramento, CA 95811
+       ENF-processing@cppa.ca.gov
+
+       To the Respondent:
+
+       Jane Regan, Esq.
+       Ford Motor Company
+       Office of the General Counsel
+       World Headquarters
+       One American Road
+       Dearborn, MI 48126
+       jreganl 8@ford.com
+
+        64.     Each person who signs this Stipulated Final Order in a representative capacity
+warrants that he or she is duly authorized to do so. Further, each party itself (a) acknowledges
+that such party has been advised by competent legal counsel in connection with the execution of
+this Stipulated Final Order, has read each and every paragraph of this Stipulated Final Order, and
+understands the respective rights and obligations set forth herein, and (b) represents that the
+commitments, acknowledgment, representations, and promises set forth herein are freely and
+willingly undertaken and given.
+
+       65.    Ford represents that this Stipulated Final Order is freely and voluntarily entered
+without any degree of duress or compulsion whatsoever.
+
+Ill
+Ill
+Ill
+Ill
+Ill
+
+
+
+CASE NO. ENF23-V-FO-3                                              STIPULATED FINAL ORDER
+                              IX.    SIGNATURES
+
+RESPONDENT
+FORD MOTOR COMPNAY
+DATED:2/17/2026 I 10: 19 AM EST
+
+                                    BY:
+
+                                               ~~~~;-
+                                          Associate General Counsel
+                                          FORD MOTOR COMPANY
+
+
+         AS TO FORMAND CONTENT:
+                                               ocuSlgned by:
+
+
+                                            ~-T~
+                                            dt~K1a~&nis, Esq.
+                                          Taylor Bloom, Esq.
+                                          Baker & Hostetler, LLP
+                                          Attorneys for Respondent
+
+
+
+
+CASE NO. ENF23-V-FO-3                     11                   STIPULATEDFINAL ORDER
+COMPLAINANT
+THE CALIFORNIA PRIVACY PROTECTION AGENCY
+ENFORCEMENT DIVISION
+       February 17, 2026
+DATED: ------
+
+                           BY:
+
+
+                                 MICHAELS. MACKO
+                                 Deputy Director of Enforcement
+
+
+
+
+                                 LARA KEHOE HOFFMAN
+                                 Assistant Chief Counsel
+
+
+
+
+                                 Attorney, Enforcement Division
+                                 Attorney for Complainant
+
+
+
+                                 ~
+                                 MIC~_E_YE_R          _____       _
+                                 Attorney, Enforcement Division
+                                 Attorney for Complainant
+
+
+
+
+CASE NO. ENF23-V-FO-3            12               STIPULATED FINAL ORDER
+

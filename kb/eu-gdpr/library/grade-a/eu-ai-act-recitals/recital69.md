@@ -1,0 +1,14 @@
+---
+law: Artificial Intelligence Act
+law_id: 32024R1689
+recital: 69
+document_type: recital
+source_grade: A
+effective_date: '20240801'
+retrieved_at: '2026-03-26'
+related_articles: []
+---
+
+## Recital 69
+
+The right to privacy and to protection of personal data must be guaranteed throughout the entire lifecycle of the AI system. In this regard, the principles of data minimisation and data protection by design and by default, as set out in Union data protection law, are applicable when personal data are processed. Measures taken by providers to ensure compliance with those principles may include not only anonymisation and encryption, but also the use of technology that permits algorithms to be brought to the data and allows training of AI systems without the transmission between parties or copying of the raw or structured data themselves, without prejudice to the requirements on data governance provided for in this Regulation.

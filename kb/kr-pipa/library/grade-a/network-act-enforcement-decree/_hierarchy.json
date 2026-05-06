@@ -1,0 +1,706 @@
+{
+  "law": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "윤리강령",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "4",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "정보의 공동 활용체제 구축 시책 등",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "정보통신망의 이용촉진 등에 관한 사업의 실시",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "8",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "9의2",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "9의2",
+      "title": "접근권한의 범위 등",
+      "is_article": true
+    },
+    {
+      "number": "9의3",
+      "title": "심사사항별 세부 심사기준",
+      "is_article": true
+    },
+    {
+      "number": "9의4",
+      "title": "본인확인기관의 지정절차",
+      "is_article": true
+    },
+    {
+      "number": "9의5",
+      "title": "본인확인기관의 주민등록전산정보자료 확인 요청",
+      "is_article": true
+    },
+    {
+      "number": "9의6",
+      "title": "본인확인업무의 휴지ㆍ폐지",
+      "is_article": true
+    },
+    {
+      "number": "9의7",
+      "title": "본인확인업무의 정지 및 지정취소",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "연계정보 생성ㆍ처리가 불가피한 정보통신서비스",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "연계정보 생성ㆍ처리 승인 절차",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "승인 심사사항별 세부심사기준",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "본인확인기관의 물리적ㆍ기술적ㆍ관리적 조치 등",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "운영ㆍ관리 실태점검의 대상",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "실태점검의 절차",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "실태점검 전문기관",
+      "is_article": true
+    },
+    {
+      "number": "16의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "17의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "18의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "국내대리인 지정 대상자의 범위",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "23",
+      "title": "청소년보호시책",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "청소년유해매체물의 표시방법",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "청소년보호책임자 지정의무자의 범위",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "청소년보호책임자의 업무",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "청소년보호책임자의 지정기한",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "영상 또는 음향정보의 보관 등",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "청구할 수 있는 이용자 정보의 범위",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "정보제공청구의 절차",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "정보제공의 절차",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "불법정보의 처리제한명령 등의 요청",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "의견제출의 예외사유",
+      "is_article": true
+    },
+    {
+      "number": "35의2",
+      "title": "불법정보의 유통 방지를 위한 기술적ㆍ관리적 조치 등",
+      "is_article": true
+    },
+    {
+      "number": "35의3",
+      "title": "불법촬영물등 유통방지 책임자",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "명예훼손분쟁조정부의 설치ㆍ운영 및 분쟁조정 등",
+      "is_article": true
+    },
+    {
+      "number": "36의2",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "36의2",
+      "title": "정보통신망연결기기 등의 범위",
+      "is_article": true
+    },
+    {
+      "number": "36의3",
+      "title": "정보보호 사전점검기준",
+      "is_article": true
+    },
+    {
+      "number": "36의4",
+      "title": "정보보호 사전점검 권고 대상",
+      "is_article": true
+    },
+    {
+      "number": "36의5",
+      "title": "정보보호 사전점검의 방법 및 절차 등",
+      "is_article": true
+    },
+    {
+      "number": "36의6",
+      "title": "정보보호 사전점검 수수료",
+      "is_article": true
+    },
+    {
+      "number": "36의7",
+      "title": "정보보호 최고책임자의 지정 및 겸직금지 등",
+      "is_article": true
+    },
+    {
+      "number": "36의8",
+      "title": "정보보호 최고책임자의 신고 방법 및 절차",
+      "is_article": true
+    },
+    {
+      "number": "36의9",
+      "title": "정보보호 최고책임자 협의회의 사업 범위",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "집적정보통신시설 사업자등의 보호조치",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "보험가입",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "보호조치의 이행점검 주기 및 방법",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "집적정보통신시설 사업자등의 서비스 중단 보고 방법",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "집적된 정보통신시설 임차사업자의 조치의무",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "보호조치 및 기술지원 전문기관",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "44",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "45",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "46",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "47",
+      "title": "정보보호 관리체계 인증의 방법ㆍ절차ㆍ범위 등",
+      "is_article": true
+    },
+    {
+      "number": "48",
+      "title": "정보보호 관리체계 인증의 수수료",
+      "is_article": true
+    },
+    {
+      "number": "49",
+      "title": "정보보호 관리체계 인증 대상자의 범위",
+      "is_article": true
+    },
+    {
+      "number": "49의2",
+      "title": "정보보호 관리체계 인증의 특례 대상자의 범위",
+      "is_article": true
+    },
+    {
+      "number": "50",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "51",
+      "title": "인증의 사후관리",
+      "is_article": true
+    },
+    {
+      "number": "52",
+      "title": "인증표시 및 홍보",
+      "is_article": true
+    },
+    {
+      "number": "53",
+      "title": "정보보호 관리체계 인증기관 및 정보보호 관리체계 심사기관의 지정기준",
+      "is_article": true
+    },
+    {
+      "number": "53의2",
+      "title": "정보보호 관리체계 인증기관 및 정보보호 관리체계 심사기관의 지정절차 등",
+      "is_article": true
+    },
+    {
+      "number": "53의3",
+      "title": "정보보호 관리체계 인증기관 및 정보보호 관리체계 심사기관 지정의 유효기간",
+      "is_article": true
+    },
+    {
+      "number": "53의4",
+      "title": "정보보호 관리체계 인증기관 및 정보보호 관리체계 심사기관의 사후관리",
+      "is_article": true
+    },
+    {
+      "number": "54",
+      "title": "지정취소 등의 기준",
+      "is_article": true
+    },
+    {
+      "number": "54의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "54의3",
+      "title": "침해사고의 예방 및 확산 방지를 위한 조치 업무의 위탁",
+      "is_article": true
+    },
+    {
+      "number": "55",
+      "title": "이용자 보호조치의 요청에 관한 약관사항",
+      "is_article": true
+    },
+    {
+      "number": "55의2",
+      "title": "정보보호 관리등급 부여의 심사기준",
+      "is_article": true
+    },
+    {
+      "number": "55의3",
+      "title": "정보보호 관리등급 부여의 방법 및 절차",
+      "is_article": true
+    },
+    {
+      "number": "55의4",
+      "title": "정보보호 관리등급 부여의 수수료 등",
+      "is_article": true
+    },
+    {
+      "number": "55의5",
+      "title": "정보보호 관리등급의 유효기간",
+      "is_article": true
+    },
+    {
+      "number": "55의6",
+      "title": "정보보호 취약점 신고자에 대한 포상",
+      "is_article": true
+    },
+    {
+      "number": "56",
+      "title": "침해사고 대응조치",
+      "is_article": true
+    },
+    {
+      "number": "57",
+      "title": "침해사고 관련정보 제공자",
+      "is_article": true
+    },
+    {
+      "number": "58",
+      "title": "침해사고 관련정보의 제공방법",
+      "is_article": true
+    },
+    {
+      "number": "58의2",
+      "title": "침해사고 신고의 시기, 방법 및 절차",
+      "is_article": true
+    },
+    {
+      "number": "58의3",
+      "title": "침해사고 조치의 이행점검 절차",
+      "is_article": true
+    },
+    {
+      "number": "59",
+      "title": "민ㆍ관합동조사단의 구성ㆍ운영",
+      "is_article": true
+    },
+    {
+      "number": "60",
+      "title": "침해사고 관련 자료의 보호 및 조사의 방법ㆍ절차",
+      "is_article": true
+    },
+    {
+      "number": "60의2",
+      "title": "정보통신망연결기기 등 관련 침해사고 대응 관련 전문기관",
+      "is_article": true
+    },
+    {
+      "number": "60의3",
+      "title": "정보보호인증의 절차 등",
+      "is_article": true
+    },
+    {
+      "number": "60의4",
+      "title": "정보보호인증의 유효기간 등",
+      "is_article": true
+    },
+    {
+      "number": "60의5",
+      "title": "정보보호인증의 수수료",
+      "is_article": true
+    },
+    {
+      "number": "60의6",
+      "title": "정보보호인증의 사후관리",
+      "is_article": true
+    },
+    {
+      "number": "60의7",
+      "title": "인증시험대행기관의 지정기준 등",
+      "is_article": true
+    },
+    {
+      "number": "60의8",
+      "title": "인증시험대행기관의 사후관리 및 지정취소",
+      "is_article": true
+    },
+    {
+      "number": "60의9",
+      "title": "정보보호인증에 관한 업무 등의 위탁",
+      "is_article": true
+    },
+    {
+      "number": "60의10",
+      "title": "피해 예방 등의 조치에 관한 약관사항",
+      "is_article": true
+    },
+    {
+      "number": "60의11",
+      "title": "속이는 행위에 사용된 전화번호의 전기통신역무 제공의 중지 등",
+      "is_article": true
+    },
+    {
+      "number": "61",
+      "title": "영리목적의 광고성 정보 전송기준",
+      "is_article": true
+    },
+    {
+      "number": "62",
+      "title": "수신거부 또는 수신동의 철회용 무료전화서비스 등의 제공",
+      "is_article": true
+    },
+    {
+      "number": "62의2",
+      "title": "수신동의 등 처리 결과의 통지",
+      "is_article": true
+    },
+    {
+      "number": "62의3",
+      "title": "수신동의 여부의 확인",
+      "is_article": true
+    },
+    {
+      "number": "63",
+      "title": "영리목적의 광고성 프로그램 등의 설치 제한 장치",
+      "is_article": true
+    },
+    {
+      "number": "64",
+      "title": "영리목적의 광고성 정보전송차단 소프트웨어 등 개발 지원",
+      "is_article": true
+    },
+    {
+      "number": "65",
+      "title": "인터넷진흥원의 운영 등",
+      "is_article": true
+    },
+    {
+      "number": "66",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "66의2",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "66의2",
+      "title": "등록요건",
+      "is_article": true
+    },
+    {
+      "number": "66의3",
+      "title": "등록절차",
+      "is_article": true
+    },
+    {
+      "number": "66의4",
+      "title": "등록의 결격사유",
+      "is_article": true
+    },
+    {
+      "number": "66의5",
+      "title": "행정처분",
+      "is_article": true
+    },
+    {
+      "number": "66의6",
+      "title": "통신과금서비스의 안정성ㆍ신뢰성 확보를 위한 필요 조치",
+      "is_article": true
+    },
+    {
+      "number": "66의7",
+      "title": "거래기록의 보존기간 및 약관 변경 방법",
+      "is_article": true
+    },
+    {
+      "number": "66의8",
+      "title": "구매자정보 제공 요청의 내용 및 절차 등",
+      "is_article": true
+    },
+    {
+      "number": "66의9",
+      "title": "이의신청 및 권리구제를 위한 절차",
+      "is_article": true
+    },
+    {
+      "number": "67",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "67",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "68",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "68",
+      "title": "자료제출 등",
+      "is_article": true
+    },
+    {
+      "number": "68의2",
+      "title": "시정조치의 명령의 공표방법 등",
+      "is_article": true
+    },
+    {
+      "number": "69",
+      "title": "시정명령의 공개",
+      "is_article": true
+    },
+    {
+      "number": "69의2",
+      "title": "투명성 보고서 제출의무자의 범위",
+      "is_article": true
+    },
+    {
+      "number": "69의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "69의4",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "70",
+      "title": "권한의 위임 및 업무의 위탁",
+      "is_article": true
+    },
+    {
+      "number": "70의2",
+      "title": "고유식별정보의 처리",
+      "is_article": true
+    },
+    {
+      "number": "71",
+      "title": "규제의 재검토",
+      "is_article": true
+    },
+    {
+      "number": "72",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "73",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "74",
+      "title": "과태료의 부과기준",
+      "is_article": true
+    }
+  ]
+}

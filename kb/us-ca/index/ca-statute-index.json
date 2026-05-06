@@ -1,0 +1,721 @@
+{
+  "type": "ca_statute_index",
+  "count": 46,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "items": [
+    {
+      "id": "ca-civ-1798.100",
+      "citation": "Cal. Civ. Code § 1798.100",
+      "title": "General Duties of Businesses that Collect Personal Information",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.100.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "share",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "third party",
+        "general",
+        "duties",
+        "businesses",
+        "collect",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.105",
+      "citation": "Cal. Civ. Code § 1798.105",
+      "title": "Consumers’ Right to Delete Personal Information",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.105.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "deletion",
+        "access",
+        "share",
+        "service provider",
+        "contractor",
+        "consumers",
+        "right",
+        "delete",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.106",
+      "citation": "Cal. Civ. Code § 1798.106",
+      "title": "Consumers’ Right to Correct Inaccurate Personal Information",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.106.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "correction",
+        "consumers",
+        "right",
+        "correct",
+        "inaccurate",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.110",
+      "citation": "Cal. Civ. Code § 1798.110",
+      "title": "Consumers’ Right to Know What Personal Information is Being Collected. Right to",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.110.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "access",
+        "consumers",
+        "right",
+        "personal",
+        "information",
+        "being",
+        "collected"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.115",
+      "citation": "Cal. Civ. Code § 1798.115",
+      "title": "Consumers’ Right to Know What Personal Information is Sold or Shared and to",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.115.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "share",
+        "opt-out",
+        "third party",
+        "consumers",
+        "right",
+        "personal",
+        "information",
+        "shared"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.120",
+      "citation": "Cal. Civ. Code § 1798.120",
+      "title": "Consumers’ Right to Opt Out of Sale or Sharing of Personal Information",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.120.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "minor",
+        "consumers",
+        "right",
+        "sharing",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.121",
+      "citation": "Cal. Civ. Code § 1798.121",
+      "title": "Consumers’ Right to Limit Use and Disclosure of Sensitive Personal Information",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.121.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "consumers",
+        "right",
+        "limit",
+        "disclosure",
+        "sensitive",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.125",
+      "citation": "Cal. Civ. Code § 1798.125",
+      "title": "Consumers’ Right of No Retaliation Following Opt Out or Exercise of Other Rights",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.125.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "collection",
+        "sale",
+        "contractor",
+        "consumers",
+        "right",
+        "retaliation",
+        "following",
+        "exercise",
+        "other",
+        "rights"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.130",
+      "citation": "Cal. Civ. Code § 1798.130",
+      "title": "Notice, Disclosure, Correction, and Deletion Requirements",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.130.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "deletion",
+        "correction",
+        "access",
+        "share",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "privacy policy",
+        "disclosure",
+        "requirements"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.135",
+      "citation": "Cal. Civ. Code § 1798.135",
+      "title": "Methods of Limiting Sale, Sharing, and Use of Personal Information and Use of",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.135.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "privacy policy",
+        "methods",
+        "limiting",
+        "sharing",
+        "personal",
+        "information"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.136",
+      "citation": "Cal. Civ. Code § 1798.136",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.136.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "access",
+        "sale",
+        "opt-out"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.140",
+      "citation": "Cal. Civ. Code § 1798.140",
+      "title": "Definitions",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.140.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "minor",
+        "children",
+        "service provider",
+        "contractor",
+        "third party",
+        "privacy policy",
+        "definitions"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.145",
+      "citation": "Cal. Civ. Code § 1798.145",
+      "title": "Exemptions",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.145.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "collection",
+        "deletion",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "minor",
+        "service provider",
+        "contractor",
+        "third party",
+        "enforcement",
+        "administrative",
+        "exemptions"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.146",
+      "citation": "Cal. Civ. Code § 1798.146",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.146.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.148",
+      "citation": "Cal. Civ. Code § 1798.148",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.148.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "sale",
+        "third party"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.150",
+      "citation": "Cal. Civ. Code § 1798.150",
+      "title": "Personal Information Security Breaches",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.150.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "access",
+        "private right of action",
+        "personal",
+        "information",
+        "security",
+        "breaches"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.155",
+      "citation": "Cal. Civ. Code § 1798.155",
+      "title": "Administrative Enforcement",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.155.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "service provider",
+        "contractor",
+        "enforcement",
+        "administrative",
+        "settlement"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.160",
+      "citation": "Cal. Civ. Code § 1798.160",
+      "title": "Consumer Privacy Fund",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.160.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "children",
+        "data breach",
+        "enforcement",
+        "administrative",
+        "penalty",
+        "consumer",
+        "privacy"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.175",
+      "citation": "Cal. Civ. Code § 1798.175",
+      "title": "Conflicting Provisions",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.175.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "collection",
+        "sale",
+        "conflicting",
+        "provisions"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.180",
+      "citation": "Cal. Civ. Code § 1798.180",
+      "title": "Preemption",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.180.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "collection",
+        "sale",
+        "preemption"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.185",
+      "citation": "Cal. Civ. Code § 1798.185",
+      "title": "Regulations",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.185.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "collection",
+        "correction",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "cybersecurity audit",
+        "automated decisionmaking",
+        "enforcement",
+        "administrative",
+        "regulations"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.190",
+      "citation": "Cal. Civ. Code § 1798.190",
+      "title": "Anti-Avoidance",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.190.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "share",
+        "third party",
+        "anti-avoidance"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.192",
+      "citation": "Cal. Civ. Code § 1798.192",
+      "title": "Waiver",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.192.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "sale",
+        "share",
+        "enforcement",
+        "waiver"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.194",
+      "citation": "Cal. Civ. Code § 1798.194",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.194.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.196",
+      "citation": "Cal. Civ. Code § 1798.196",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.196.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.198",
+      "citation": "Cal. Civ. Code § 1798.198",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.198.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.10",
+      "citation": "Cal. Civ. Code § 1798.199.10",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.10.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.100",
+      "citation": "Cal. Civ. Code § 1798.199.100",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.100.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "service provider",
+        "contractor",
+        "administrative",
+        "penalty"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.15",
+      "citation": "Cal. Civ. Code § 1798.199.15",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.15.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "access",
+        "enforcement"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.20",
+      "citation": "Cal. Civ. Code § 1798.199.20",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.20.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.25",
+      "citation": "Cal. Civ. Code § 1798.199.25",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.25.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.30",
+      "citation": "Cal. Civ. Code § 1798.199.30",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.30.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.35",
+      "citation": "Cal. Civ. Code § 1798.199.35",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.35.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "enforcement"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.40",
+      "citation": "Cal. Civ. Code § 1798.199.40",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.40.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "minor",
+        "risk assessment",
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.45",
+      "citation": "Cal. Civ. Code § 1798.199.45",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.45.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "service provider",
+        "contractor",
+        "enforcement"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.50",
+      "citation": "Cal. Civ. Code § 1798.199.50",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.50.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "service provider",
+        "contractor"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.55",
+      "citation": "Cal. Civ. Code § 1798.199.55",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.55.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "minor",
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.60",
+      "citation": "Cal. Civ. Code § 1798.199.60",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.60.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.65",
+      "citation": "Cal. Civ. Code § 1798.199.65",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.65.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.70",
+      "citation": "Cal. Civ. Code § 1798.199.70",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.70.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.75",
+      "citation": "Cal. Civ. Code § 1798.199.75",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.75.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "notice",
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.80",
+      "citation": "Cal. Civ. Code § 1798.199.80",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.80.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.85",
+      "citation": "Cal. Civ. Code § 1798.199.85",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.85.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.90",
+      "citation": "Cal. Civ. Code § 1798.199.90",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.90.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "minor",
+        "service provider",
+        "contractor",
+        "private right of action",
+        "enforcement",
+        "administrative",
+        "penalty",
+        "settlement"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199.95",
+      "citation": "Cal. Civ. Code § 1798.199.95",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.95.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [
+        "administrative"
+      ],
+      "related_regulations": []
+    },
+    {
+      "id": "ca-civ-1798.199",
+      "citation": "Cal. Civ. Code § 1798.199",
+      "title": "",
+      "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.md",
+      "effective_date": "2026-01-01",
+      "source_grade": "A",
+      "keywords": [],
+      "related_regulations": []
+    }
+  ]
+}

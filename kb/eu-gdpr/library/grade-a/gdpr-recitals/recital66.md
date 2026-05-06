@@ -1,0 +1,21 @@
+---
+# === Identification ===
+law: "General Data Protection Regulation"
+law_id: "32016R0679"
+recital: 66
+document_type: "recital"
+
+# === Source ===
+source_grade: "A"
+effective_date: "20180525"
+retrieved_at: "2026-03-25"
+
+# === Relationships ===
+related_articles:
+  - "Art. 17"
+  - "Art. 19"
+---
+
+## Recital 66
+
+To strengthen the right to be forgotten in the online environment, the right to erasure should also be extended in such a way that a controller who has made the personal data public should be obliged to inform the controllers which are processing such personal data to erase any links to, or copies or replications of those personal data. In doing so, that controller should take reasonable steps, taking into account available technology and the means available to the controller, including technical measures, to inform the controllers which are processing the personal data of the data subject's request.

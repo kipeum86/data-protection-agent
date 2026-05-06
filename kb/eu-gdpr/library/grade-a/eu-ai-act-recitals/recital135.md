@@ -1,0 +1,14 @@
+---
+law: Artificial Intelligence Act
+law_id: 32024R1689
+recital: 135
+document_type: recital
+source_grade: A
+effective_date: '20240801'
+retrieved_at: '2026-03-26'
+related_articles: []
+---
+
+## Recital 135
+
+Without prejudice to the mandatory nature and full applicability of the transparency obligations, the Commission may also encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection and labelling of artificially generated or manipulated content, including to support practical arrangements for making, as appropriate, the detection mechanisms accessible and facilitating cooperation with other actors along the value chain, disseminating content or checking its authenticity and provenance to enable the public to effectively distinguish AI-generated content.

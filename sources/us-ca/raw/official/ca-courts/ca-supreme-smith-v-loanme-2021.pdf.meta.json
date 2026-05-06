@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/ca-courts/ca-supreme-smith-v-loanme-2021.pdf",
+  "url": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/2022-08/S260391.pdf",
+  "final_url": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/2022-08/S260391.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:2b110d9e6318153b07a563c9eaf92d194f436ea3ffefe8d3ffdce4cb927cf9e2",
+  "bytes": 426776
+}

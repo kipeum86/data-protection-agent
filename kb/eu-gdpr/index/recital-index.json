@@ -1,0 +1,4818 @@
+{
+  "type": "recital_index",
+  "count": 535,
+  "generated_at": "2026-03-26T19:22:26.639403+00:00",
+  "recitals": [
+    {
+      "id": "gdpr-recitals-recital1",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "1",
+      "path": "library/grade-a/gdpr-recitals/recital1.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital10",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "10",
+      "path": "library/grade-a/gdpr-recitals/recital10.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital100",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "100",
+      "path": "library/grade-a/gdpr-recitals/recital100.md",
+      "related_articles": [
+        "Art. 42"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital101",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "101",
+      "path": "library/grade-a/gdpr-recitals/recital101.md",
+      "related_articles": [
+        "Art. 44"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital102",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "102",
+      "path": "library/grade-a/gdpr-recitals/recital102.md",
+      "related_articles": [
+        "Art. 44"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital103",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "103",
+      "path": "library/grade-a/gdpr-recitals/recital103.md",
+      "related_articles": [
+        "Art. 45"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital104",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "104",
+      "path": "library/grade-a/gdpr-recitals/recital104.md",
+      "related_articles": [
+        "Art. 45"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital105",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "105",
+      "path": "library/grade-a/gdpr-recitals/recital105.md",
+      "related_articles": [
+        "Art. 45"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital106",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "106",
+      "path": "library/grade-a/gdpr-recitals/recital106.md",
+      "related_articles": [
+        "Art. 45"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital107",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "107",
+      "path": "library/grade-a/gdpr-recitals/recital107.md",
+      "related_articles": [
+        "Art. 45"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital108",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "108",
+      "path": "library/grade-a/gdpr-recitals/recital108.md",
+      "related_articles": [
+        "Art. 46"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital109",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "109",
+      "path": "library/grade-a/gdpr-recitals/recital109.md",
+      "related_articles": [
+        "Art. 46"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital11",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "11",
+      "path": "library/grade-a/gdpr-recitals/recital11.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital110",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "110",
+      "path": "library/grade-a/gdpr-recitals/recital110.md",
+      "related_articles": [
+        "Art. 47"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital111",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "111",
+      "path": "library/grade-a/gdpr-recitals/recital111.md",
+      "related_articles": [
+        "Art. 49"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital112",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "112",
+      "path": "library/grade-a/gdpr-recitals/recital112.md",
+      "related_articles": [
+        "Art. 49"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital113",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "113",
+      "path": "library/grade-a/gdpr-recitals/recital113.md",
+      "related_articles": [
+        "Art. 49"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital114",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "114",
+      "path": "library/grade-a/gdpr-recitals/recital114.md",
+      "related_articles": [
+        "Art. 49"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital115",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "115",
+      "path": "library/grade-a/gdpr-recitals/recital115.md",
+      "related_articles": [
+        "Art. 48",
+        "Art. 49"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital116",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "116",
+      "path": "library/grade-a/gdpr-recitals/recital116.md",
+      "related_articles": [
+        "Art. 50"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital117",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "117",
+      "path": "library/grade-a/gdpr-recitals/recital117.md",
+      "related_articles": [
+        "Art. 51",
+        "Art. 52",
+        "Art. 54"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital118",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "118",
+      "path": "library/grade-a/gdpr-recitals/recital118.md",
+      "related_articles": [
+        "Art. 51",
+        "Art. 52"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital119",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "119",
+      "path": "library/grade-a/gdpr-recitals/recital119.md",
+      "related_articles": [
+        "Art. 51"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital12",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "12",
+      "path": "library/grade-a/gdpr-recitals/recital12.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital120",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "120",
+      "path": "library/grade-a/gdpr-recitals/recital120.md",
+      "related_articles": [
+        "Art. 51",
+        "Art. 52"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital121",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "121",
+      "path": "library/grade-a/gdpr-recitals/recital121.md",
+      "related_articles": [
+        "Art. 52",
+        "Art. 53",
+        "Art. 54"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital122",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "122",
+      "path": "library/grade-a/gdpr-recitals/recital122.md",
+      "related_articles": [
+        "Art. 55",
+        "Art. 57",
+        "Art. 58"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital123",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "123",
+      "path": "library/grade-a/gdpr-recitals/recital123.md",
+      "related_articles": [
+        "Art. 57",
+        "Art. 61"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital124",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "124",
+      "path": "library/grade-a/gdpr-recitals/recital124.md",
+      "related_articles": [
+        "Art. 56",
+        "Art. 60"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital125",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "125",
+      "path": "library/grade-a/gdpr-recitals/recital125.md",
+      "related_articles": [
+        "Art. 60"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital126",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "126",
+      "path": "library/grade-a/gdpr-recitals/recital126.md",
+      "related_articles": [
+        "Art. 62"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital127",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "127",
+      "path": "library/grade-a/gdpr-recitals/recital127.md",
+      "related_articles": [
+        "Art. 56"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital128",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "128",
+      "path": "library/grade-a/gdpr-recitals/recital128.md",
+      "related_articles": [
+        "Art. 56"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital129",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "129",
+      "path": "library/grade-a/gdpr-recitals/recital129.md",
+      "related_articles": [
+        "Art. 58"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital13",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "13",
+      "path": "library/grade-a/gdpr-recitals/recital13.md",
+      "related_articles": [
+        "Art. 2",
+        "Art. 30"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital130",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "130",
+      "path": "library/grade-a/gdpr-recitals/recital130.md",
+      "related_articles": [
+        "Art. 60"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital131",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "131",
+      "path": "library/grade-a/gdpr-recitals/recital131.md",
+      "related_articles": [
+        "Art. 58"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital132",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "132",
+      "path": "library/grade-a/gdpr-recitals/recital132.md",
+      "related_articles": [
+        "Art. 57",
+        "Art. 61"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital133",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "133",
+      "path": "library/grade-a/gdpr-recitals/recital133.md",
+      "related_articles": [
+        "Art. 57",
+        "Art. 61"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital134",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "134",
+      "path": "library/grade-a/gdpr-recitals/recital134.md",
+      "related_articles": [
+        "Art. 62"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital135",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "135",
+      "path": "library/grade-a/gdpr-recitals/recital135.md",
+      "related_articles": [
+        "Art. 63"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital136",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "136",
+      "path": "library/grade-a/gdpr-recitals/recital136.md",
+      "related_articles": [
+        "Art. 64",
+        "Art. 65",
+        "Art. 70"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital137",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "137",
+      "path": "library/grade-a/gdpr-recitals/recital137.md",
+      "related_articles": [
+        "Art. 57",
+        "Art. 66"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital138",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "138",
+      "path": "library/grade-a/gdpr-recitals/recital138.md",
+      "related_articles": [
+        "Art. 66"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital139",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "139",
+      "path": "library/grade-a/gdpr-recitals/recital139.md",
+      "related_articles": [
+        "Art. 68",
+        "Art. 69",
+        "Art. 70"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital14",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "14",
+      "path": "library/grade-a/gdpr-recitals/recital14.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital140",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "140",
+      "path": "library/grade-a/gdpr-recitals/recital140.md",
+      "related_articles": [
+        "Art. 75"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital141",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "141",
+      "path": "library/grade-a/gdpr-recitals/recital141.md",
+      "related_articles": [
+        "Art. 77",
+        "Art. 78",
+        "Art. 79"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital142",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "142",
+      "path": "library/grade-a/gdpr-recitals/recital142.md",
+      "related_articles": [
+        "Art. 80"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital143",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "143",
+      "path": "library/grade-a/gdpr-recitals/recital143.md",
+      "related_articles": [
+        "Art. 78"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital144",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "144",
+      "path": "library/grade-a/gdpr-recitals/recital144.md",
+      "related_articles": [
+        "Art. 81"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital145",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "145",
+      "path": "library/grade-a/gdpr-recitals/recital145.md",
+      "related_articles": [
+        "Art. 79"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital146",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "146",
+      "path": "library/grade-a/gdpr-recitals/recital146.md",
+      "related_articles": [
+        "Art. 82"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital147",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "147",
+      "path": "library/grade-a/gdpr-recitals/recital147.md",
+      "related_articles": [
+        "Art. 82"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital148",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "148",
+      "path": "library/grade-a/gdpr-recitals/recital148.md",
+      "related_articles": [
+        "Art. 83"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital149",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "149",
+      "path": "library/grade-a/gdpr-recitals/recital149.md",
+      "related_articles": [
+        "Art. 83",
+        "Art. 84"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital15",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "15",
+      "path": "library/grade-a/gdpr-recitals/recital15.md",
+      "related_articles": [
+        "Art. 2",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital150",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "150",
+      "path": "library/grade-a/gdpr-recitals/recital150.md",
+      "related_articles": [
+        "Art. 83",
+        "Art. 84"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital151",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "151",
+      "path": "library/grade-a/gdpr-recitals/recital151.md",
+      "related_articles": [
+        "Art. 83",
+        "Art. 84"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital152",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "152",
+      "path": "library/grade-a/gdpr-recitals/recital152.md",
+      "related_articles": [
+        "Art. 83",
+        "Art. 84"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital153",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "153",
+      "path": "library/grade-a/gdpr-recitals/recital153.md",
+      "related_articles": [
+        "Art. 85"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital154",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "154",
+      "path": "library/grade-a/gdpr-recitals/recital154.md",
+      "related_articles": [
+        "Art. 86"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital155",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "155",
+      "path": "library/grade-a/gdpr-recitals/recital155.md",
+      "related_articles": [
+        "Art. 88"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital156",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "156",
+      "path": "library/grade-a/gdpr-recitals/recital156.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital157",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "157",
+      "path": "library/grade-a/gdpr-recitals/recital157.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital158",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "158",
+      "path": "library/grade-a/gdpr-recitals/recital158.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital159",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "159",
+      "path": "library/grade-a/gdpr-recitals/recital159.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital16",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "16",
+      "path": "library/grade-a/gdpr-recitals/recital16.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital160",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "160",
+      "path": "library/grade-a/gdpr-recitals/recital160.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital161",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "161",
+      "path": "library/grade-a/gdpr-recitals/recital161.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital162",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "162",
+      "path": "library/grade-a/gdpr-recitals/recital162.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital163",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "163",
+      "path": "library/grade-a/gdpr-recitals/recital163.md",
+      "related_articles": [
+        "Art. 89"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital164",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "164",
+      "path": "library/grade-a/gdpr-recitals/recital164.md",
+      "related_articles": [
+        "Art. 90"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital165",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "165",
+      "path": "library/grade-a/gdpr-recitals/recital165.md",
+      "related_articles": [
+        "Art. 91"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital166",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "166",
+      "path": "library/grade-a/gdpr-recitals/recital166.md",
+      "related_articles": [
+        "Art. 92"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital167",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "167",
+      "path": "library/grade-a/gdpr-recitals/recital167.md",
+      "related_articles": [
+        "Art. 92"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital168",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "168",
+      "path": "library/grade-a/gdpr-recitals/recital168.md",
+      "related_articles": [
+        "Art. 92"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital169",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "169",
+      "path": "library/grade-a/gdpr-recitals/recital169.md",
+      "related_articles": [
+        "Art. 92"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital17",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "17",
+      "path": "library/grade-a/gdpr-recitals/recital17.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital170",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "170",
+      "path": "library/grade-a/gdpr-recitals/recital170.md",
+      "related_articles": [
+        "Art. 92"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital171",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "171",
+      "path": "library/grade-a/gdpr-recitals/recital171.md",
+      "related_articles": [
+        "Art. 6",
+        "Art. 94"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital172",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "172",
+      "path": "library/grade-a/gdpr-recitals/recital172.md",
+      "related_articles": []
+    },
+    {
+      "id": "gdpr-recitals-recital173",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "173",
+      "path": "library/grade-a/gdpr-recitals/recital173.md",
+      "related_articles": [
+        "Art. 95"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital18",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "18",
+      "path": "library/grade-a/gdpr-recitals/recital18.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital19",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "19",
+      "path": "library/grade-a/gdpr-recitals/recital19.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital2",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "2",
+      "path": "library/grade-a/gdpr-recitals/recital2.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital20",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "20",
+      "path": "library/grade-a/gdpr-recitals/recital20.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital21",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "21",
+      "path": "library/grade-a/gdpr-recitals/recital21.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital22",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "22",
+      "path": "library/grade-a/gdpr-recitals/recital22.md",
+      "related_articles": [
+        "Art. 3"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital23",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "23",
+      "path": "library/grade-a/gdpr-recitals/recital23.md",
+      "related_articles": [
+        "Art. 3"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital24",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "24",
+      "path": "library/grade-a/gdpr-recitals/recital24.md",
+      "related_articles": [
+        "Art. 3",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital25",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "25",
+      "path": "library/grade-a/gdpr-recitals/recital25.md",
+      "related_articles": [
+        "Art. 3"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital26",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "26",
+      "path": "library/grade-a/gdpr-recitals/recital26.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital27",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "27",
+      "path": "library/grade-a/gdpr-recitals/recital27.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital28",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "28",
+      "path": "library/grade-a/gdpr-recitals/recital28.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital29",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "29",
+      "path": "library/grade-a/gdpr-recitals/recital29.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital3",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "3",
+      "path": "library/grade-a/gdpr-recitals/recital3.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital30",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "30",
+      "path": "library/grade-a/gdpr-recitals/recital30.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital31",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "31",
+      "path": "library/grade-a/gdpr-recitals/recital31.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital32",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "32",
+      "path": "library/grade-a/gdpr-recitals/recital32.md",
+      "related_articles": [
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital33",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "33",
+      "path": "library/grade-a/gdpr-recitals/recital33.md",
+      "related_articles": [
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital34",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "34",
+      "path": "library/grade-a/gdpr-recitals/recital34.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital35",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "35",
+      "path": "library/grade-a/gdpr-recitals/recital35.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital36",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "36",
+      "path": "library/grade-a/gdpr-recitals/recital36.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital37",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "37",
+      "path": "library/grade-a/gdpr-recitals/recital37.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital38",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "38",
+      "path": "library/grade-a/gdpr-recitals/recital38.md",
+      "related_articles": [
+        "Art. 8",
+        "Art. 12"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital39",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "39",
+      "path": "library/grade-a/gdpr-recitals/recital39.md",
+      "related_articles": [
+        "Art. 5",
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital4",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "4",
+      "path": "library/grade-a/gdpr-recitals/recital4.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital40",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "40",
+      "path": "library/grade-a/gdpr-recitals/recital40.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital41",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "41",
+      "path": "library/grade-a/gdpr-recitals/recital41.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital42",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "42",
+      "path": "library/grade-a/gdpr-recitals/recital42.md",
+      "related_articles": [
+        "Art. 6",
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital43",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "43",
+      "path": "library/grade-a/gdpr-recitals/recital43.md",
+      "related_articles": [
+        "Art. 6",
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital44",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "44",
+      "path": "library/grade-a/gdpr-recitals/recital44.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital45",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "45",
+      "path": "library/grade-a/gdpr-recitals/recital45.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital46",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "46",
+      "path": "library/grade-a/gdpr-recitals/recital46.md",
+      "related_articles": [
+        "Art. 6",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital47",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "47",
+      "path": "library/grade-a/gdpr-recitals/recital47.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital48",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "48",
+      "path": "library/grade-a/gdpr-recitals/recital48.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital49",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "49",
+      "path": "library/grade-a/gdpr-recitals/recital49.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital5",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "5",
+      "path": "library/grade-a/gdpr-recitals/recital5.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital50",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "50",
+      "path": "library/grade-a/gdpr-recitals/recital50.md",
+      "related_articles": [
+        "Art. 6",
+        "Art. 10"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital51",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "51",
+      "path": "library/grade-a/gdpr-recitals/recital51.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital52",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "52",
+      "path": "library/grade-a/gdpr-recitals/recital52.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital53",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "53",
+      "path": "library/grade-a/gdpr-recitals/recital53.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital54",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "54",
+      "path": "library/grade-a/gdpr-recitals/recital54.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital55",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "55",
+      "path": "library/grade-a/gdpr-recitals/recital55.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital56",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "56",
+      "path": "library/grade-a/gdpr-recitals/recital56.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital57",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "57",
+      "path": "library/grade-a/gdpr-recitals/recital57.md",
+      "related_articles": [
+        "Art. 11"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital58",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "58",
+      "path": "library/grade-a/gdpr-recitals/recital58.md",
+      "related_articles": [
+        "Art. 12",
+        "Art. 26"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital59",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "59",
+      "path": "library/grade-a/gdpr-recitals/recital59.md",
+      "related_articles": [
+        "Art. 12"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital6",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "6",
+      "path": "library/grade-a/gdpr-recitals/recital6.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital60",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "60",
+      "path": "library/grade-a/gdpr-recitals/recital60.md",
+      "related_articles": [
+        "Art. 12",
+        "Art. 13",
+        "Art. 14"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital61",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "61",
+      "path": "library/grade-a/gdpr-recitals/recital61.md",
+      "related_articles": [
+        "Art. 13",
+        "Art. 14"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital62",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "62",
+      "path": "library/grade-a/gdpr-recitals/recital62.md",
+      "related_articles": [
+        "Art. 13",
+        "Art. 14"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital63",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "63",
+      "path": "library/grade-a/gdpr-recitals/recital63.md",
+      "related_articles": [
+        "Art. 15"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital64",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "64",
+      "path": "library/grade-a/gdpr-recitals/recital64.md",
+      "related_articles": [
+        "Art. 15"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital65",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "65",
+      "path": "library/grade-a/gdpr-recitals/recital65.md",
+      "related_articles": [
+        "Art. 16",
+        "Art. 17"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital66",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "66",
+      "path": "library/grade-a/gdpr-recitals/recital66.md",
+      "related_articles": [
+        "Art. 17",
+        "Art. 19"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital67",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "67",
+      "path": "library/grade-a/gdpr-recitals/recital67.md",
+      "related_articles": [
+        "Art. 18"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital68",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "68",
+      "path": "library/grade-a/gdpr-recitals/recital68.md",
+      "related_articles": [
+        "Art. 20"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital69",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "69",
+      "path": "library/grade-a/gdpr-recitals/recital69.md",
+      "related_articles": [
+        "Art. 21"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital7",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "7",
+      "path": "library/grade-a/gdpr-recitals/recital7.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital70",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "70",
+      "path": "library/grade-a/gdpr-recitals/recital70.md",
+      "related_articles": [
+        "Art. 21"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital71",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "71",
+      "path": "library/grade-a/gdpr-recitals/recital71.md",
+      "related_articles": [
+        "Art. 22"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital72",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "72",
+      "path": "library/grade-a/gdpr-recitals/recital72.md",
+      "related_articles": [
+        "Art. 22"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital73",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "73",
+      "path": "library/grade-a/gdpr-recitals/recital73.md",
+      "related_articles": [
+        "Art. 12",
+        "Art. 23"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital74",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "74",
+      "path": "library/grade-a/gdpr-recitals/recital74.md",
+      "related_articles": [
+        "Art. 5",
+        "Art. 24"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital75",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "75",
+      "path": "library/grade-a/gdpr-recitals/recital75.md",
+      "related_articles": [
+        "Art. 24",
+        "Art. 32",
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital76",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "76",
+      "path": "library/grade-a/gdpr-recitals/recital76.md",
+      "related_articles": [
+        "Art. 24",
+        "Art. 32"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital77",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "77",
+      "path": "library/grade-a/gdpr-recitals/recital77.md",
+      "related_articles": [
+        "Art. 24",
+        "Art. 32"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital78",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "78",
+      "path": "library/grade-a/gdpr-recitals/recital78.md",
+      "related_articles": [
+        "Art. 25",
+        "Art. 32"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital79",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "79",
+      "path": "library/grade-a/gdpr-recitals/recital79.md",
+      "related_articles": [
+        "Art. 26",
+        "Art. 32"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital8",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "8",
+      "path": "library/grade-a/gdpr-recitals/recital8.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital80",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "80",
+      "path": "library/grade-a/gdpr-recitals/recital80.md",
+      "related_articles": [
+        "Art. 27"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital81",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "81",
+      "path": "library/grade-a/gdpr-recitals/recital81.md",
+      "related_articles": [
+        "Art. 28"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital82",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "82",
+      "path": "library/grade-a/gdpr-recitals/recital82.md",
+      "related_articles": [
+        "Art. 30",
+        "Art. 31"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital83",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "83",
+      "path": "library/grade-a/gdpr-recitals/recital83.md",
+      "related_articles": [
+        "Art. 32"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital84",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "84",
+      "path": "library/grade-a/gdpr-recitals/recital84.md",
+      "related_articles": [
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital85",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "85",
+      "path": "library/grade-a/gdpr-recitals/recital85.md",
+      "related_articles": [
+        "Art. 33"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital86",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "86",
+      "path": "library/grade-a/gdpr-recitals/recital86.md",
+      "related_articles": [
+        "Art. 34"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital87",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "87",
+      "path": "library/grade-a/gdpr-recitals/recital87.md",
+      "related_articles": [
+        "Art. 33",
+        "Art. 34"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital88",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "88",
+      "path": "library/grade-a/gdpr-recitals/recital88.md",
+      "related_articles": [
+        "Art. 33",
+        "Art. 34"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital89",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "89",
+      "path": "library/grade-a/gdpr-recitals/recital89.md",
+      "related_articles": [
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital9",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "9",
+      "path": "library/grade-a/gdpr-recitals/recital9.md",
+      "related_articles": [
+        "Art. 1"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital90",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "90",
+      "path": "library/grade-a/gdpr-recitals/recital90.md",
+      "related_articles": [
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital91",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "91",
+      "path": "library/grade-a/gdpr-recitals/recital91.md",
+      "related_articles": [
+        "Art. 22",
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital92",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "92",
+      "path": "library/grade-a/gdpr-recitals/recital92.md",
+      "related_articles": [
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital93",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "93",
+      "path": "library/grade-a/gdpr-recitals/recital93.md",
+      "related_articles": [
+        "Art. 35"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital94",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "94",
+      "path": "library/grade-a/gdpr-recitals/recital94.md",
+      "related_articles": [
+        "Art. 36"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital95",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "95",
+      "path": "library/grade-a/gdpr-recitals/recital95.md",
+      "related_articles": [
+        "Art. 36"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital96",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "96",
+      "path": "library/grade-a/gdpr-recitals/recital96.md",
+      "related_articles": [
+        "Art. 36"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital97",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "97",
+      "path": "library/grade-a/gdpr-recitals/recital97.md",
+      "related_articles": [
+        "Art. 37",
+        "Art. 38",
+        "Art. 39"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital98",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "98",
+      "path": "library/grade-a/gdpr-recitals/recital98.md",
+      "related_articles": [
+        "Art. 40"
+      ]
+    },
+    {
+      "id": "gdpr-recitals-recital99",
+      "law": "General Data Protection Regulation",
+      "law_id": "32016R0679",
+      "recital": "99",
+      "path": "library/grade-a/gdpr-recitals/recital99.md",
+      "related_articles": [
+        "Art. 40"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital1",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "1",
+      "path": "library/grade-a/eu-ai-act-recitals/recital1.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital10",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "10",
+      "path": "library/grade-a/eu-ai-act-recitals/recital10.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital100",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "100",
+      "path": "library/grade-a/eu-ai-act-recitals/recital100.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital101",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "101",
+      "path": "library/grade-a/eu-ai-act-recitals/recital101.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital102",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "102",
+      "path": "library/grade-a/eu-ai-act-recitals/recital102.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital103",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "103",
+      "path": "library/grade-a/eu-ai-act-recitals/recital103.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital104",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "104",
+      "path": "library/grade-a/eu-ai-act-recitals/recital104.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital105",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "105",
+      "path": "library/grade-a/eu-ai-act-recitals/recital105.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital106",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "106",
+      "path": "library/grade-a/eu-ai-act-recitals/recital106.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital107",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "107",
+      "path": "library/grade-a/eu-ai-act-recitals/recital107.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital108",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "108",
+      "path": "library/grade-a/eu-ai-act-recitals/recital108.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital109",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "109",
+      "path": "library/grade-a/eu-ai-act-recitals/recital109.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital11",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "11",
+      "path": "library/grade-a/eu-ai-act-recitals/recital11.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital110",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "110",
+      "path": "library/grade-a/eu-ai-act-recitals/recital110.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital111",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "111",
+      "path": "library/grade-a/eu-ai-act-recitals/recital111.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital112",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "112",
+      "path": "library/grade-a/eu-ai-act-recitals/recital112.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital113",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "113",
+      "path": "library/grade-a/eu-ai-act-recitals/recital113.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital114",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "114",
+      "path": "library/grade-a/eu-ai-act-recitals/recital114.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital115",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "115",
+      "path": "library/grade-a/eu-ai-act-recitals/recital115.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital116",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "116",
+      "path": "library/grade-a/eu-ai-act-recitals/recital116.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital117",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "117",
+      "path": "library/grade-a/eu-ai-act-recitals/recital117.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital118",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "118",
+      "path": "library/grade-a/eu-ai-act-recitals/recital118.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital119",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "119",
+      "path": "library/grade-a/eu-ai-act-recitals/recital119.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital12",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "12",
+      "path": "library/grade-a/eu-ai-act-recitals/recital12.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital120",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "120",
+      "path": "library/grade-a/eu-ai-act-recitals/recital120.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital121",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "121",
+      "path": "library/grade-a/eu-ai-act-recitals/recital121.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital122",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "122",
+      "path": "library/grade-a/eu-ai-act-recitals/recital122.md",
+      "related_articles": [
+        "Art. 54"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital123",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "123",
+      "path": "library/grade-a/eu-ai-act-recitals/recital123.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital124",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "124",
+      "path": "library/grade-a/eu-ai-act-recitals/recital124.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital125",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "125",
+      "path": "library/grade-a/eu-ai-act-recitals/recital125.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital126",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "126",
+      "path": "library/grade-a/eu-ai-act-recitals/recital126.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital127",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "127",
+      "path": "library/grade-a/eu-ai-act-recitals/recital127.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital128",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "128",
+      "path": "library/grade-a/eu-ai-act-recitals/recital128.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital129",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "129",
+      "path": "library/grade-a/eu-ai-act-recitals/recital129.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital13",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "13",
+      "path": "library/grade-a/eu-ai-act-recitals/recital13.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital130",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "130",
+      "path": "library/grade-a/eu-ai-act-recitals/recital130.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital131",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "131",
+      "path": "library/grade-a/eu-ai-act-recitals/recital131.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital132",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "132",
+      "path": "library/grade-a/eu-ai-act-recitals/recital132.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital133",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "133",
+      "path": "library/grade-a/eu-ai-act-recitals/recital133.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital134",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "134",
+      "path": "library/grade-a/eu-ai-act-recitals/recital134.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital135",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "135",
+      "path": "library/grade-a/eu-ai-act-recitals/recital135.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital136",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "136",
+      "path": "library/grade-a/eu-ai-act-recitals/recital136.md",
+      "related_articles": [
+        "Art. 16"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital137",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "137",
+      "path": "library/grade-a/eu-ai-act-recitals/recital137.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital138",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "138",
+      "path": "library/grade-a/eu-ai-act-recitals/recital138.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital139",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "139",
+      "path": "library/grade-a/eu-ai-act-recitals/recital139.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital14",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "14",
+      "path": "library/grade-a/eu-ai-act-recitals/recital14.md",
+      "related_articles": [
+        "Art. 3",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital140",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "140",
+      "path": "library/grade-a/eu-ai-act-recitals/recital140.md",
+      "related_articles": [
+        "Art. 10",
+        "Art. 22",
+        "Art. 24",
+        "Art. 4",
+        "Art. 6",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital141",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "141",
+      "path": "library/grade-a/eu-ai-act-recitals/recital141.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital142",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "142",
+      "path": "library/grade-a/eu-ai-act-recitals/recital142.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital143",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "143",
+      "path": "library/grade-a/eu-ai-act-recitals/recital143.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital144",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "144",
+      "path": "library/grade-a/eu-ai-act-recitals/recital144.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital145",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "145",
+      "path": "library/grade-a/eu-ai-act-recitals/recital145.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital146",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "146",
+      "path": "library/grade-a/eu-ai-act-recitals/recital146.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital147",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "147",
+      "path": "library/grade-a/eu-ai-act-recitals/recital147.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital148",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "148",
+      "path": "library/grade-a/eu-ai-act-recitals/recital148.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital149",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "149",
+      "path": "library/grade-a/eu-ai-act-recitals/recital149.md",
+      "related_articles": [
+        "Art. 30",
+        "Art. 33"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital15",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "15",
+      "path": "library/grade-a/eu-ai-act-recitals/recital15.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital150",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "150",
+      "path": "library/grade-a/eu-ai-act-recitals/recital150.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital151",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "151",
+      "path": "library/grade-a/eu-ai-act-recitals/recital151.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital152",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "152",
+      "path": "library/grade-a/eu-ai-act-recitals/recital152.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital153",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "153",
+      "path": "library/grade-a/eu-ai-act-recitals/recital153.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital154",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "154",
+      "path": "library/grade-a/eu-ai-act-recitals/recital154.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital155",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "155",
+      "path": "library/grade-a/eu-ai-act-recitals/recital155.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital156",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "156",
+      "path": "library/grade-a/eu-ai-act-recitals/recital156.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital157",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "157",
+      "path": "library/grade-a/eu-ai-act-recitals/recital157.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital158",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "158",
+      "path": "library/grade-a/eu-ai-act-recitals/recital158.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital159",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "159",
+      "path": "library/grade-a/eu-ai-act-recitals/recital159.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital16",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "16",
+      "path": "library/grade-a/eu-ai-act-recitals/recital16.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital160",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "160",
+      "path": "library/grade-a/eu-ai-act-recitals/recital160.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital161",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "161",
+      "path": "library/grade-a/eu-ai-act-recitals/recital161.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital162",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "162",
+      "path": "library/grade-a/eu-ai-act-recitals/recital162.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital163",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "163",
+      "path": "library/grade-a/eu-ai-act-recitals/recital163.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital164",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "164",
+      "path": "library/grade-a/eu-ai-act-recitals/recital164.md",
+      "related_articles": [
+        "Art. 18"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital165",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "165",
+      "path": "library/grade-a/eu-ai-act-recitals/recital165.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital166",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "166",
+      "path": "library/grade-a/eu-ai-act-recitals/recital166.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital167",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "167",
+      "path": "library/grade-a/eu-ai-act-recitals/recital167.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital168",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "168",
+      "path": "library/grade-a/eu-ai-act-recitals/recital168.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital169",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "169",
+      "path": "library/grade-a/eu-ai-act-recitals/recital169.md",
+      "related_articles": [
+        "Art. 261"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital17",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "17",
+      "path": "library/grade-a/eu-ai-act-recitals/recital17.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital170",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "170",
+      "path": "library/grade-a/eu-ai-act-recitals/recital170.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital171",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "171",
+      "path": "library/grade-a/eu-ai-act-recitals/recital171.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital172",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "172",
+      "path": "library/grade-a/eu-ai-act-recitals/recital172.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital173",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "173",
+      "path": "library/grade-a/eu-ai-act-recitals/recital173.md",
+      "related_articles": [
+        "Art. 290"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital174",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "174",
+      "path": "library/grade-a/eu-ai-act-recitals/recital174.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital175",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "175",
+      "path": "library/grade-a/eu-ai-act-recitals/recital175.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital176",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "176",
+      "path": "library/grade-a/eu-ai-act-recitals/recital176.md",
+      "related_articles": [
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital177",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "177",
+      "path": "library/grade-a/eu-ai-act-recitals/recital177.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital178",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "178",
+      "path": "library/grade-a/eu-ai-act-recitals/recital178.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital179",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "179",
+      "path": "library/grade-a/eu-ai-act-recitals/recital179.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital18",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "18",
+      "path": "library/grade-a/eu-ai-act-recitals/recital18.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital180",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "180",
+      "path": "library/grade-a/eu-ai-act-recitals/recital180.md",
+      "related_articles": [
+        "Art. 42"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital19",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "19",
+      "path": "library/grade-a/eu-ai-act-recitals/recital19.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital2",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "2",
+      "path": "library/grade-a/eu-ai-act-recitals/recital2.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital20",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "20",
+      "path": "library/grade-a/eu-ai-act-recitals/recital20.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital21",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "21",
+      "path": "library/grade-a/eu-ai-act-recitals/recital21.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital22",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "22",
+      "path": "library/grade-a/eu-ai-act-recitals/recital22.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital23",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "23",
+      "path": "library/grade-a/eu-ai-act-recitals/recital23.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital24",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "24",
+      "path": "library/grade-a/eu-ai-act-recitals/recital24.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital25",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "25",
+      "path": "library/grade-a/eu-ai-act-recitals/recital25.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital26",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "26",
+      "path": "library/grade-a/eu-ai-act-recitals/recital26.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital27",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "27",
+      "path": "library/grade-a/eu-ai-act-recitals/recital27.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital28",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "28",
+      "path": "library/grade-a/eu-ai-act-recitals/recital28.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital29",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "29",
+      "path": "library/grade-a/eu-ai-act-recitals/recital29.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital3",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "3",
+      "path": "library/grade-a/eu-ai-act-recitals/recital3.md",
+      "related_articles": [
+        "Art. 114",
+        "Art. 16"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital30",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "30",
+      "path": "library/grade-a/eu-ai-act-recitals/recital30.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital31",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "31",
+      "path": "library/grade-a/eu-ai-act-recitals/recital31.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital32",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "32",
+      "path": "library/grade-a/eu-ai-act-recitals/recital32.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital33",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "33",
+      "path": "library/grade-a/eu-ai-act-recitals/recital33.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital34",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "34",
+      "path": "library/grade-a/eu-ai-act-recitals/recital34.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital35",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "35",
+      "path": "library/grade-a/eu-ai-act-recitals/recital35.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital36",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "36",
+      "path": "library/grade-a/eu-ai-act-recitals/recital36.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital37",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "37",
+      "path": "library/grade-a/eu-ai-act-recitals/recital37.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital38",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "38",
+      "path": "library/grade-a/eu-ai-act-recitals/recital38.md",
+      "related_articles": [
+        "Art. 10",
+        "Art. 16",
+        "Art. 8"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital39",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "39",
+      "path": "library/grade-a/eu-ai-act-recitals/recital39.md",
+      "related_articles": [
+        "Art. 10",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital4",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "4",
+      "path": "library/grade-a/eu-ai-act-recitals/recital4.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital40",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "40",
+      "path": "library/grade-a/eu-ai-act-recitals/recital40.md",
+      "related_articles": [
+        "Art. 16",
+        "Art. 26",
+        "Art. 5",
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital41",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "41",
+      "path": "library/grade-a/eu-ai-act-recitals/recital41.md",
+      "related_articles": [
+        "Art. 16",
+        "Art. 26",
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital42",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "42",
+      "path": "library/grade-a/eu-ai-act-recitals/recital42.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital43",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "43",
+      "path": "library/grade-a/eu-ai-act-recitals/recital43.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital44",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "44",
+      "path": "library/grade-a/eu-ai-act-recitals/recital44.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital45",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "45",
+      "path": "library/grade-a/eu-ai-act-recitals/recital45.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital46",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "46",
+      "path": "library/grade-a/eu-ai-act-recitals/recital46.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital47",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "47",
+      "path": "library/grade-a/eu-ai-act-recitals/recital47.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital48",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "48",
+      "path": "library/grade-a/eu-ai-act-recitals/recital48.md",
+      "related_articles": [
+        "Art. 24"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital49",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "49",
+      "path": "library/grade-a/eu-ai-act-recitals/recital49.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital5",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "5",
+      "path": "library/grade-a/eu-ai-act-recitals/recital5.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital50",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "50",
+      "path": "library/grade-a/eu-ai-act-recitals/recital50.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital51",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "51",
+      "path": "library/grade-a/eu-ai-act-recitals/recital51.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital52",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "52",
+      "path": "library/grade-a/eu-ai-act-recitals/recital52.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital53",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "53",
+      "path": "library/grade-a/eu-ai-act-recitals/recital53.md",
+      "related_articles": [
+        "Art. 3",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital54",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "54",
+      "path": "library/grade-a/eu-ai-act-recitals/recital54.md",
+      "related_articles": [
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital55",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "55",
+      "path": "library/grade-a/eu-ai-act-recitals/recital55.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital56",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "56",
+      "path": "library/grade-a/eu-ai-act-recitals/recital56.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital57",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "57",
+      "path": "library/grade-a/eu-ai-act-recitals/recital57.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital58",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "58",
+      "path": "library/grade-a/eu-ai-act-recitals/recital58.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital59",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "59",
+      "path": "library/grade-a/eu-ai-act-recitals/recital59.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital6",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "6",
+      "path": "library/grade-a/eu-ai-act-recitals/recital6.md",
+      "related_articles": [
+        "Art. 2",
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital60",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "60",
+      "path": "library/grade-a/eu-ai-act-recitals/recital60.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital61",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "61",
+      "path": "library/grade-a/eu-ai-act-recitals/recital61.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital62",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "62",
+      "path": "library/grade-a/eu-ai-act-recitals/recital62.md",
+      "related_articles": [
+        "Art. 39"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital63",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "63",
+      "path": "library/grade-a/eu-ai-act-recitals/recital63.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital64",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "64",
+      "path": "library/grade-a/eu-ai-act-recitals/recital64.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital65",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "65",
+      "path": "library/grade-a/eu-ai-act-recitals/recital65.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital66",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "66",
+      "path": "library/grade-a/eu-ai-act-recitals/recital66.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital67",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "67",
+      "path": "library/grade-a/eu-ai-act-recitals/recital67.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital68",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "68",
+      "path": "library/grade-a/eu-ai-act-recitals/recital68.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital69",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "69",
+      "path": "library/grade-a/eu-ai-act-recitals/recital69.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital7",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "7",
+      "path": "library/grade-a/eu-ai-act-recitals/recital7.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital70",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "70",
+      "path": "library/grade-a/eu-ai-act-recitals/recital70.md",
+      "related_articles": [
+        "Art. 10",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital71",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "71",
+      "path": "library/grade-a/eu-ai-act-recitals/recital71.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital72",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "72",
+      "path": "library/grade-a/eu-ai-act-recitals/recital72.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital73",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "73",
+      "path": "library/grade-a/eu-ai-act-recitals/recital73.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital74",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "74",
+      "path": "library/grade-a/eu-ai-act-recitals/recital74.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital75",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "75",
+      "path": "library/grade-a/eu-ai-act-recitals/recital75.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital76",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "76",
+      "path": "library/grade-a/eu-ai-act-recitals/recital76.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital77",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "77",
+      "path": "library/grade-a/eu-ai-act-recitals/recital77.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital78",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "78",
+      "path": "library/grade-a/eu-ai-act-recitals/recital78.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital79",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "79",
+      "path": "library/grade-a/eu-ai-act-recitals/recital79.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital8",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "8",
+      "path": "library/grade-a/eu-ai-act-recitals/recital8.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital80",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "80",
+      "path": "library/grade-a/eu-ai-act-recitals/recital80.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital81",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "81",
+      "path": "library/grade-a/eu-ai-act-recitals/recital81.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital82",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "82",
+      "path": "library/grade-a/eu-ai-act-recitals/recital82.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital83",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "83",
+      "path": "library/grade-a/eu-ai-act-recitals/recital83.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital84",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "84",
+      "path": "library/grade-a/eu-ai-act-recitals/recital84.md",
+      "related_articles": [
+        "Art. 16"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital85",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "85",
+      "path": "library/grade-a/eu-ai-act-recitals/recital85.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital86",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "86",
+      "path": "library/grade-a/eu-ai-act-recitals/recital86.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital87",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "87",
+      "path": "library/grade-a/eu-ai-act-recitals/recital87.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital88",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "88",
+      "path": "library/grade-a/eu-ai-act-recitals/recital88.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital89",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "89",
+      "path": "library/grade-a/eu-ai-act-recitals/recital89.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital9",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "9",
+      "path": "library/grade-a/eu-ai-act-recitals/recital9.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital90",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "90",
+      "path": "library/grade-a/eu-ai-act-recitals/recital90.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital91",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "91",
+      "path": "library/grade-a/eu-ai-act-recitals/recital91.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital92",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "92",
+      "path": "library/grade-a/eu-ai-act-recitals/recital92.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital93",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "93",
+      "path": "library/grade-a/eu-ai-act-recitals/recital93.md",
+      "related_articles": [
+        "Art. 13"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital94",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "94",
+      "path": "library/grade-a/eu-ai-act-recitals/recital94.md",
+      "related_articles": [
+        "Art. 10",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "eu-ai-act-recitals-recital95",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "95",
+      "path": "library/grade-a/eu-ai-act-recitals/recital95.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital96",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "96",
+      "path": "library/grade-a/eu-ai-act-recitals/recital96.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital97",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "97",
+      "path": "library/grade-a/eu-ai-act-recitals/recital97.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital98",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "98",
+      "path": "library/grade-a/eu-ai-act-recitals/recital98.md",
+      "related_articles": []
+    },
+    {
+      "id": "eu-ai-act-recitals-recital99",
+      "law": "Artificial Intelligence Act",
+      "law_id": "32024R1689",
+      "recital": "99",
+      "path": "library/grade-a/eu-ai-act-recitals/recital99.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital1",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "1",
+      "path": "library/grade-a/data-act-recitals/recital1.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital10",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "10",
+      "path": "library/grade-a/data-act-recitals/recital10.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital100",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "100",
+      "path": "library/grade-a/data-act-recitals/recital100.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital101",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "101",
+      "path": "library/grade-a/data-act-recitals/recital101.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital102",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "102",
+      "path": "library/grade-a/data-act-recitals/recital102.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital103",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "103",
+      "path": "library/grade-a/data-act-recitals/recital103.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital104",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "104",
+      "path": "library/grade-a/data-act-recitals/recital104.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital105",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "105",
+      "path": "library/grade-a/data-act-recitals/recital105.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital106",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "106",
+      "path": "library/grade-a/data-act-recitals/recital106.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital107",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "107",
+      "path": "library/grade-a/data-act-recitals/recital107.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital108",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "108",
+      "path": "library/grade-a/data-act-recitals/recital108.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital109",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "109",
+      "path": "library/grade-a/data-act-recitals/recital109.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital11",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "11",
+      "path": "library/grade-a/data-act-recitals/recital11.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital110",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "110",
+      "path": "library/grade-a/data-act-recitals/recital110.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital111",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "111",
+      "path": "library/grade-a/data-act-recitals/recital111.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital112",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "112",
+      "path": "library/grade-a/data-act-recitals/recital112.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital113",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "113",
+      "path": "library/grade-a/data-act-recitals/recital113.md",
+      "related_articles": [
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital114",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "114",
+      "path": "library/grade-a/data-act-recitals/recital114.md",
+      "related_articles": [
+        "Art. 290"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital115",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "115",
+      "path": "library/grade-a/data-act-recitals/recital115.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital116",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "116",
+      "path": "library/grade-a/data-act-recitals/recital116.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital117",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "117",
+      "path": "library/grade-a/data-act-recitals/recital117.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital118",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "118",
+      "path": "library/grade-a/data-act-recitals/recital118.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital119",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "119",
+      "path": "library/grade-a/data-act-recitals/recital119.md",
+      "related_articles": [
+        "Art. 42"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital12",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "12",
+      "path": "library/grade-a/data-act-recitals/recital12.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital13",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "13",
+      "path": "library/grade-a/data-act-recitals/recital13.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital14",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "14",
+      "path": "library/grade-a/data-act-recitals/recital14.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital15",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "15",
+      "path": "library/grade-a/data-act-recitals/recital15.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital16",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "16",
+      "path": "library/grade-a/data-act-recitals/recital16.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital17",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "17",
+      "path": "library/grade-a/data-act-recitals/recital17.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital18",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "18",
+      "path": "library/grade-a/data-act-recitals/recital18.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital19",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "19",
+      "path": "library/grade-a/data-act-recitals/recital19.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital2",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "2",
+      "path": "library/grade-a/data-act-recitals/recital2.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital20",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "20",
+      "path": "library/grade-a/data-act-recitals/recital20.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital21",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "21",
+      "path": "library/grade-a/data-act-recitals/recital21.md",
+      "related_articles": [
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital22",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "22",
+      "path": "library/grade-a/data-act-recitals/recital22.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital23",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "23",
+      "path": "library/grade-a/data-act-recitals/recital23.md",
+      "related_articles": [
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital24",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "24",
+      "path": "library/grade-a/data-act-recitals/recital24.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital25",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "25",
+      "path": "library/grade-a/data-act-recitals/recital25.md",
+      "related_articles": [
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital26",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "26",
+      "path": "library/grade-a/data-act-recitals/recital26.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital27",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "27",
+      "path": "library/grade-a/data-act-recitals/recital27.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital28",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "28",
+      "path": "library/grade-a/data-act-recitals/recital28.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital29",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "29",
+      "path": "library/grade-a/data-act-recitals/recital29.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital3",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "3",
+      "path": "library/grade-a/data-act-recitals/recital3.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital30",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "30",
+      "path": "library/grade-a/data-act-recitals/recital30.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital31",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "31",
+      "path": "library/grade-a/data-act-recitals/recital31.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital32",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "32",
+      "path": "library/grade-a/data-act-recitals/recital32.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital33",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "33",
+      "path": "library/grade-a/data-act-recitals/recital33.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital34",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "34",
+      "path": "library/grade-a/data-act-recitals/recital34.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital35",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "35",
+      "path": "library/grade-a/data-act-recitals/recital35.md",
+      "related_articles": [
+        "Art. 26",
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital36",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "36",
+      "path": "library/grade-a/data-act-recitals/recital36.md",
+      "related_articles": [
+        "Art. 20",
+        "Art. 6",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital37",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "37",
+      "path": "library/grade-a/data-act-recitals/recital37.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital38",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "38",
+      "path": "library/grade-a/data-act-recitals/recital38.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital39",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "39",
+      "path": "library/grade-a/data-act-recitals/recital39.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital4",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "4",
+      "path": "library/grade-a/data-act-recitals/recital4.md",
+      "related_articles": [
+        "Art. 2"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital40",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "40",
+      "path": "library/grade-a/data-act-recitals/recital40.md",
+      "related_articles": [
+        "Art. 17"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital41",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "41",
+      "path": "library/grade-a/data-act-recitals/recital41.md",
+      "related_articles": [
+        "Art. 2",
+        "Art. 20"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital42",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "42",
+      "path": "library/grade-a/data-act-recitals/recital42.md",
+      "related_articles": [
+        "Art. 3"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital43",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "43",
+      "path": "library/grade-a/data-act-recitals/recital43.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital44",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "44",
+      "path": "library/grade-a/data-act-recitals/recital44.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital45",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "45",
+      "path": "library/grade-a/data-act-recitals/recital45.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital46",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "46",
+      "path": "library/grade-a/data-act-recitals/recital46.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital47",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "47",
+      "path": "library/grade-a/data-act-recitals/recital47.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital48",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "48",
+      "path": "library/grade-a/data-act-recitals/recital48.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital49",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "49",
+      "path": "library/grade-a/data-act-recitals/recital49.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital5",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "5",
+      "path": "library/grade-a/data-act-recitals/recital5.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital50",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "50",
+      "path": "library/grade-a/data-act-recitals/recital50.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital51",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "51",
+      "path": "library/grade-a/data-act-recitals/recital51.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital52",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "52",
+      "path": "library/grade-a/data-act-recitals/recital52.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital53",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "53",
+      "path": "library/grade-a/data-act-recitals/recital53.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital54",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "54",
+      "path": "library/grade-a/data-act-recitals/recital54.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital55",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "55",
+      "path": "library/grade-a/data-act-recitals/recital55.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital56",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "56",
+      "path": "library/grade-a/data-act-recitals/recital56.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital57",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "57",
+      "path": "library/grade-a/data-act-recitals/recital57.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital58",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "58",
+      "path": "library/grade-a/data-act-recitals/recital58.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital59",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "59",
+      "path": "library/grade-a/data-act-recitals/recital59.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital6",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "6",
+      "path": "library/grade-a/data-act-recitals/recital6.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital60",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "60",
+      "path": "library/grade-a/data-act-recitals/recital60.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital61",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "61",
+      "path": "library/grade-a/data-act-recitals/recital61.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital62",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "62",
+      "path": "library/grade-a/data-act-recitals/recital62.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital63",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "63",
+      "path": "library/grade-a/data-act-recitals/recital63.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital64",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "64",
+      "path": "library/grade-a/data-act-recitals/recital64.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital65",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "65",
+      "path": "library/grade-a/data-act-recitals/recital65.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital66",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "66",
+      "path": "library/grade-a/data-act-recitals/recital66.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital67",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "67",
+      "path": "library/grade-a/data-act-recitals/recital67.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital68",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "68",
+      "path": "library/grade-a/data-act-recitals/recital68.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital69",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "69",
+      "path": "library/grade-a/data-act-recitals/recital69.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital7",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "7",
+      "path": "library/grade-a/data-act-recitals/recital7.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital70",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "70",
+      "path": "library/grade-a/data-act-recitals/recital70.md",
+      "related_articles": [
+        "Art. 6"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital71",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "71",
+      "path": "library/grade-a/data-act-recitals/recital71.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital72",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "72",
+      "path": "library/grade-a/data-act-recitals/recital72.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital73",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "73",
+      "path": "library/grade-a/data-act-recitals/recital73.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital74",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "74",
+      "path": "library/grade-a/data-act-recitals/recital74.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital75",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "75",
+      "path": "library/grade-a/data-act-recitals/recital75.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital76",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "76",
+      "path": "library/grade-a/data-act-recitals/recital76.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital77",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "77",
+      "path": "library/grade-a/data-act-recitals/recital77.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital78",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "78",
+      "path": "library/grade-a/data-act-recitals/recital78.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital79",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "79",
+      "path": "library/grade-a/data-act-recitals/recital79.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital8",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "8",
+      "path": "library/grade-a/data-act-recitals/recital8.md",
+      "related_articles": [
+        "Art. 5",
+        "Art. 6",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "data-act-recitals-recital80",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "80",
+      "path": "library/grade-a/data-act-recitals/recital80.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital81",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "81",
+      "path": "library/grade-a/data-act-recitals/recital81.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital82",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "82",
+      "path": "library/grade-a/data-act-recitals/recital82.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital83",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "83",
+      "path": "library/grade-a/data-act-recitals/recital83.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital84",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "84",
+      "path": "library/grade-a/data-act-recitals/recital84.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital85",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "85",
+      "path": "library/grade-a/data-act-recitals/recital85.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital86",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "86",
+      "path": "library/grade-a/data-act-recitals/recital86.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital87",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "87",
+      "path": "library/grade-a/data-act-recitals/recital87.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital88",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "88",
+      "path": "library/grade-a/data-act-recitals/recital88.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital89",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "89",
+      "path": "library/grade-a/data-act-recitals/recital89.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital9",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "9",
+      "path": "library/grade-a/data-act-recitals/recital9.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital90",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "90",
+      "path": "library/grade-a/data-act-recitals/recital90.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital91",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "91",
+      "path": "library/grade-a/data-act-recitals/recital91.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital92",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "92",
+      "path": "library/grade-a/data-act-recitals/recital92.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital93",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "93",
+      "path": "library/grade-a/data-act-recitals/recital93.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital94",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "94",
+      "path": "library/grade-a/data-act-recitals/recital94.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital95",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "95",
+      "path": "library/grade-a/data-act-recitals/recital95.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital96",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "96",
+      "path": "library/grade-a/data-act-recitals/recital96.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital97",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "97",
+      "path": "library/grade-a/data-act-recitals/recital97.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital98",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "98",
+      "path": "library/grade-a/data-act-recitals/recital98.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-act-recitals-recital99",
+      "law": "Data Act",
+      "law_id": "32023R2854",
+      "recital": "99",
+      "path": "library/grade-a/data-act-recitals/recital99.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital1",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "1",
+      "path": "library/grade-a/data-governance-act-recitals/recital1.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital10",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "10",
+      "path": "library/grade-a/data-governance-act-recitals/recital10.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital11",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "11",
+      "path": "library/grade-a/data-governance-act-recitals/recital11.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital12",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "12",
+      "path": "library/grade-a/data-governance-act-recitals/recital12.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital13",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "13",
+      "path": "library/grade-a/data-governance-act-recitals/recital13.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital14",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "14",
+      "path": "library/grade-a/data-governance-act-recitals/recital14.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital15",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "15",
+      "path": "library/grade-a/data-governance-act-recitals/recital15.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital16",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "16",
+      "path": "library/grade-a/data-governance-act-recitals/recital16.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital17",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "17",
+      "path": "library/grade-a/data-governance-act-recitals/recital17.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital18",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "18",
+      "path": "library/grade-a/data-governance-act-recitals/recital18.md",
+      "related_articles": [
+        "Art. 7"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital19",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "19",
+      "path": "library/grade-a/data-governance-act-recitals/recital19.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital2",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "2",
+      "path": "library/grade-a/data-governance-act-recitals/recital2.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital20",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "20",
+      "path": "library/grade-a/data-governance-act-recitals/recital20.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital21",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "21",
+      "path": "library/grade-a/data-governance-act-recitals/recital21.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital22",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "22",
+      "path": "library/grade-a/data-governance-act-recitals/recital22.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital23",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "23",
+      "path": "library/grade-a/data-governance-act-recitals/recital23.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital24",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "24",
+      "path": "library/grade-a/data-governance-act-recitals/recital24.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital25",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "25",
+      "path": "library/grade-a/data-governance-act-recitals/recital25.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital26",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "26",
+      "path": "library/grade-a/data-governance-act-recitals/recital26.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital27",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "27",
+      "path": "library/grade-a/data-governance-act-recitals/recital27.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital28",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "28",
+      "path": "library/grade-a/data-governance-act-recitals/recital28.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital29",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "29",
+      "path": "library/grade-a/data-governance-act-recitals/recital29.md",
+      "related_articles": [
+        "Art. 2",
+        "Art. 4"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital3",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "3",
+      "path": "library/grade-a/data-governance-act-recitals/recital3.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital30",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "30",
+      "path": "library/grade-a/data-governance-act-recitals/recital30.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital31",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "31",
+      "path": "library/grade-a/data-governance-act-recitals/recital31.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital32",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "32",
+      "path": "library/grade-a/data-governance-act-recitals/recital32.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital33",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "33",
+      "path": "library/grade-a/data-governance-act-recitals/recital33.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital34",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "34",
+      "path": "library/grade-a/data-governance-act-recitals/recital34.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital35",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "35",
+      "path": "library/grade-a/data-governance-act-recitals/recital35.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital36",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "36",
+      "path": "library/grade-a/data-governance-act-recitals/recital36.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital37",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "37",
+      "path": "library/grade-a/data-governance-act-recitals/recital37.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital38",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "38",
+      "path": "library/grade-a/data-governance-act-recitals/recital38.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital39",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "39",
+      "path": "library/grade-a/data-governance-act-recitals/recital39.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital4",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "4",
+      "path": "library/grade-a/data-governance-act-recitals/recital4.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital40",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "40",
+      "path": "library/grade-a/data-governance-act-recitals/recital40.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital41",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "41",
+      "path": "library/grade-a/data-governance-act-recitals/recital41.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital42",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "42",
+      "path": "library/grade-a/data-governance-act-recitals/recital42.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital43",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "43",
+      "path": "library/grade-a/data-governance-act-recitals/recital43.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital44",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "44",
+      "path": "library/grade-a/data-governance-act-recitals/recital44.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital45",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "45",
+      "path": "library/grade-a/data-governance-act-recitals/recital45.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital46",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "46",
+      "path": "library/grade-a/data-governance-act-recitals/recital46.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital47",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "47",
+      "path": "library/grade-a/data-governance-act-recitals/recital47.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital48",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "48",
+      "path": "library/grade-a/data-governance-act-recitals/recital48.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital49",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "49",
+      "path": "library/grade-a/data-governance-act-recitals/recital49.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital5",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "5",
+      "path": "library/grade-a/data-governance-act-recitals/recital5.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital50",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "50",
+      "path": "library/grade-a/data-governance-act-recitals/recital50.md",
+      "related_articles": [
+        "Art. 5",
+        "Art. 6",
+        "Art. 89",
+        "Art. 9"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital51",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "51",
+      "path": "library/grade-a/data-governance-act-recitals/recital51.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital52",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "52",
+      "path": "library/grade-a/data-governance-act-recitals/recital52.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital53",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "53",
+      "path": "library/grade-a/data-governance-act-recitals/recital53.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital54",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "54",
+      "path": "library/grade-a/data-governance-act-recitals/recital54.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital55",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "55",
+      "path": "library/grade-a/data-governance-act-recitals/recital55.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital56",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "56",
+      "path": "library/grade-a/data-governance-act-recitals/recital56.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital57",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "57",
+      "path": "library/grade-a/data-governance-act-recitals/recital57.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital58",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "58",
+      "path": "library/grade-a/data-governance-act-recitals/recital58.md",
+      "related_articles": [
+        "Art. 290"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital59",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "59",
+      "path": "library/grade-a/data-governance-act-recitals/recital59.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital6",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "6",
+      "path": "library/grade-a/data-governance-act-recitals/recital6.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital60",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "60",
+      "path": "library/grade-a/data-governance-act-recitals/recital60.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital61",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "61",
+      "path": "library/grade-a/data-governance-act-recitals/recital61.md",
+      "related_articles": [
+        "Art. 42"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital62",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "62",
+      "path": "library/grade-a/data-governance-act-recitals/recital62.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital63",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "63",
+      "path": "library/grade-a/data-governance-act-recitals/recital63.md",
+      "related_articles": [
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "data-governance-act-recitals-recital7",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "7",
+      "path": "library/grade-a/data-governance-act-recitals/recital7.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital8",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "8",
+      "path": "library/grade-a/data-governance-act-recitals/recital8.md",
+      "related_articles": []
+    },
+    {
+      "id": "data-governance-act-recitals-recital9",
+      "law": "Data Governance Act",
+      "law_id": "32022R0868",
+      "recital": "9",
+      "path": "library/grade-a/data-governance-act-recitals/recital9.md",
+      "related_articles": [
+        "Art. 5"
+      ]
+    }
+  ]
+}

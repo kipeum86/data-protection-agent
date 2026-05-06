@@ -1,0 +1,566 @@
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 1 of 16 Page ID #:61
+
+
+
+1
+2                                                                        JS-6
+3
+4
+5
+6
+7
+8                          UNITED STATES DISTRICT COURT
+9                         CENTRAL DISTRICT OF CALIFORNIA
+10
+11    THE PEOPLE OF THE STATE OF                 Case No. 2:24-cv-05140-FLA (ASx)
+      CALIFORNIA,
+12
+                              Plaintiff,         FINAL JUDGMENT AND
+13                                               PERMANENT INJUNCTION
+                  v.                             [DKT. 4]
+14
+15    TILTING POINT MEDIA LLC,
+16                            Defendant.
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+                                             1
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 2 of 16 Page ID #:62
+
+
+
+1              Plaintiff the People of the State of California (“the People”), appearing through
+2     its attorney, Rob Bonta, Attorney General of the State of California, by Deputy
+3     Attorney General Amos E. Hartston and Supervising Deputy Attorney General Stacey
+4     D. Schesser, and through its attorney, Hydee Feldstein Soto, Los Angeles City
+5     Attorney, by Deputy City Attorney Alexandra Aurisch and Supervising Deputy City
+6     Attorney William Pletcher, and Defendant Tilting Point Media LLC
+7     (“DEFENDANT”), appearing through its attorney, Daniel Goldberg of Frankfurt
+8     Kurnit Klein & Selz PC, having stipulated to the entry of this Final Judgment and
+9     Permanent Injunction (“Judgment”) by the court without the taking of proof and
+10    without trial or adjudication of any fact or law, without this Judgment constituting
+11    evidence of or an admission by DEFENDANT regarding any issue of law or fact
+12    alleged in the Complaint on file, and without DEFENDANT admitting any liability,
+13    and with all parties having waived their right to appeal, and the court having
+14    considered the matter and good cause appearing:
+15    IT IS HEREBY ORDERED, ADJUDGED, AND DECREED THAT:
+16    I.       PARTIES AND JURISDICTION
+17             1.    This court has jurisdiction over the allegations and subject matter of the
+18    People’s Complaint filed in this action under 28 U.S.C. § 1331, and the parties to this
+19    action. Venue is proper in this judicial district under 18 U.S.C. § 1391(b)(2). This
+20    court has jurisdiction to enter this Judgment, and this Judgment is entered pursuant to
+21    the Children’s Online Privacy Protection Act, 15 U.S.C. § 6501, et seq. (“COPPA”);
+22    the California Consumer Privacy Act of 2018, Cal. Civ. Code § 1798.100, et seq., as
+23    amended (“CCPA”); and the California Unfair Competition Law, Cal. Bus. & Prof.
+24    Code § 17200, et seq. (“UCL”).
+25    II.      DEFINITIONS
+26             The following terms in this Judgment shall have these meanings:
+27             2.    CHILD or CHILDREN means an individual or individuals under the age
+28    of 13.
+
+                                                    2
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 3 of 16 Page ID #:63
+
+
+
+1           3.    CLEAR AND CONSPICUOUS means difficult to miss (i.e., is easily
+2     noticeable) and is easily understandable by ordinary CONSUMERS.
+3           4.    COLLECTS or COLLECTION means the gathering of any PERSONAL
+4     INFORMATION from a CONSUMER by any means, including, without limitation:
+5     (a) requesting, prompting, or encouraging a CONSUMER to submit PERSONAL
+6     INFORMATION online; (b) enabling a CONSUMER to make PERSONAL
+7     INFORMATION publicly available in identifiable form; (c) passive tracking of a
+8     CONSUMER online; or (d) buying, renting, gathering, obtaining, receiving, or
+9     accessing any PERSONAL INFORMATION pertaining to a CONSUMER by any
+10    means, either actively or passively, or by observing the CONSUMER’s behavior.
+11          5.    CONSUMER means a natural person who is a California resident.
+12          6.    DEFENDANT means Tilting Point Media LLC, a Delaware limited
+13    liability company and its successors and assigns.
+14          7.    DIRECTED TO CHILDREN has the same meaning as “Web site or
+15    online service directed to children” as provided in 16 C.F.R § 312.2.
+16          8.    DIRECT NOTICE means making a reasonable effort, taking into account
+17    available technology, to ensure that a PARENT receives direct notice of
+18    DEFENDANT’s practices with regard to the COLLECTION, use, or disclosure of
+19    PERSONAL INFORMATION COLLECTED from a CHILD, including notice of any
+20    material change in the COLLECTION, use or disclosure practices to which the
+21    PARENT has previously consented, as provided in 16 C.F.R. § 312.4.
+22          9.    EFFECTIVE DATE means the date that DEFENDANT is served with
+23    notice that the Judgment has been entered.
+24          10.   MIXED AUDIENCE means a website or online service, including an
+25    app, that is DIRECTED TO CHILDREN, but that does not target CHILDREN as its
+26    primary audience. MIXED AUDIENCE is a subset of DIRECTED TO CHILDREN.
+27          11.   PARENT includes a legal guardian.
+28    ///
+
+                                                   3
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 4 of 16 Page ID #:64
+
+
+
+1           12.    PERSONAL INFORMATION means information that identifies, relates
+2     to, describes, is reasonably capable of being associated with, or could reasonably be
+3     linked, directly or indirectly, with a particular CONSUMER or household.
+4     PERSONAL INFORMATION includes, but is not limited to, the items listed in the
+5     definitions of “personal information” found in 16 C.F.R § 312.2 and in Cal. Civ. Code
+6     § 1798.140(v). PERSONAL INFORMATION includes, without limitation,
+7     “persistent identifier” as described in 16 C.F.R § 312.2, and “unique identifier” or
+8     “unique personal identifier” as set forth in Cal. Civ. Code § 1798.140(aj).
+9           13.    SALE or SELL has the same meaning as provided in Cal. Civ. Code
+10    § 1798.140(ad).
+11          14.    SDKs or SOFTWARE DEVELOPMENT KITS means software
+12    development tools (including, without limitation, application programming interfaces
+13    (APIs)), individually or bundled together and offered by a third party, that includes
+14    software code that a business can integrate into its mobile applications to provide
+15    certain functionality, and that may COLLECT PERSONAL INFORMATION and
+16    allow or facilitate disclosure of data to third parties.
+17          15.    SHARE has the same meaning as provided in Civil Code
+18    § 1798.140(ah).
+19          16.    VERIFIABLE PARENTAL CONSENT means making a reasonable
+20    effort, taking into consideration available technology, to ensure that before
+21    PERSONAL INFORMATION is COLLECTED from a CHILD, a PARENT of that
+22    CHILD: (a) Receives notice of DEFENDANT’s PERSONAL INFORMATION
+23    COLLECTION, use, and disclosure practices; and (b) Authorizes any COLLECTION,
+24    use, and/or disclosure of the PERSONAL INFORMATION, using a method
+25    reasonably calculated, in light of available technology, to ensure that the person
+26    providing consent is the CHILD’s PARENT.
+27    ///
+28    ///
+
+                                                    4
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 5 of 16 Page ID #:65
+
+
+
+1     III.   INJUNCTIVE PROVISIONS
+2            17.     Nothing in this Judgment alters the requirements of state or federal law to
+3     the extent they offer greater protection to CONSUMERS.
+4            18.     The injunctive provisions of this Judgment, entered pursuant to 15 U.S.C.
+5     § 6504, Cal. Bus. & Prof. Code § 17203, and Cal. Civ. Code § 1798.199.90, shall
+6     apply to: (a) DEFENDANT, (b) its directors and officers; (c) its affiliates and
+7     subsidiaries; (d) its employees, agents, and independent contractors; and (e) its
+8     successors and the assigns of all or substantially all of the assets of their businesses.
+9                              COMPLIANCE WITH LAW—CCPA
+10           19.     DEFENDANT shall comply with the following provisions of the CCPA
+11    and its implementing regulations related to CONSUMERS under the age of 16: Cal.
+12    Civ. Code §§ 1798.120(c), 1798.135(c)(5), and Cal. Code Reg. tit. 11,
+13    §§ 7011(e)(1)(G) and (e)(3)(I), 7070, 7071, and 7072. DEFENDANT shall also
+14    comply with updates and modifications to these sections and implementing
+15    regulations.
+16           20.     DEFENDANT shall not SELL or SHARE the PERSONAL
+17    INFORMATION of a CONSUMER, including through SDKs, if DEFENDANT has
+18    actual knowledge that the CONSUMER is less than 16 years of age, except as
+19    specified below. If a CONSUMER self-identifies as a CHILD or as at least 13 and
+20    less than 16 years of age, or if DEFENDANT willfully disregards a CONSUMER’s
+21    age, DEFENDANT shall be deemed to have actual knowledge of the CONSUMER’s
+22    age.
+23                   a. In the case of a CONSUMER that DEFENDANT has actual
+24                      knowledge is at least 13 and less than 16 years of age, unless the
+25                      CONSUMER has affirmatively authorized the SALE or SHARING of
+26                      the CONSUMER’s PERSONAL INFORMATION.
+27                   b. In the case of a CONSUMER that DEFENDANT has actual
+28                      knowledge is a CHILD, unless the CHILD’s PARENT has
+
+                                                   5
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 6 of 16 Page ID #:66
+
+
+
+1                      affirmatively authorized the SALE or SHARING of the CHILD’s
+2                      PERSONAL INFORMATION.
+3           21.    Where DEFENDANT SELLS and/or SHARES the PERSONAL
+4     INFORMATION of CONSUMERS that it has actual knowledge are CHILDREN or
+5     are at least 13 and less than 16 years of age, DEFENDANT shall provide a just-in-
+6     time notice at the time of COLLECTION of such PERSONAL INFORMATION that
+7     (i) provides CONSUMERS a brief message explaining what information will be
+8     COLLECTED, the purpose, and if the information will be SOLD and/or SHARED,
+9     (ii) links to the relevant portion of the privacy policy, and (iii) complies with the
+10    following:
+11                 a. Specifically for CHILDREN, provides CLEAR AND
+12                     CONSPICUOUS notice that the PARENT’s “opt-in” affirmative
+13                     authorization is required before the SALE and/or SHARING of
+14                     PERSONAL INFORMATION of the CHILD; and
+15                 b. Specifically for CONSUMERS at least 13 and less than 16 years of
+16                     age, provides CLEAR AND CONSPICUOUS notice that such
+17                     CONSUMER’s “opt-in” affirmative authorization is required before
+18                     the SALE or SHARING of their PERSONAL INFORMATION.
+19          22.    As set forth in Cal. Code Regs. tit. 11, § 7011(e), DEFENDANT’s
+20    privacy policy shall include identification of the categories of PERSONAL
+21    INFORMATION that DEFENDANT has COLLECTED about CONSUMERS in the
+22    preceding 12 months; identification of the specific business or commercial purpose for
+23    COLLECTING PERSONAL INFORMATION from CONSUMERS; identification of
+24    the categories of PERSONAL INFORMATION, if any, that DEFENDANT has
+25    SOLD or SHARED in the preceding 12 months; identification of the categories of
+26    third parties to whom the information was SOLD or SHARED; identification of the
+27    specific business or commercial purpose for SELLING or SHARING PERSONAL
+28    INFORMATION; and a statement regarding whether DEFENDANT has actual
+
+                                                   6
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 7 of 16 Page ID #:67
+
+
+
+1     knowledge that it SELLS or SHARES the PERSONAL INFORMATION of
+2     CONSUMERS under 16 years of age. DEFENDANT’s privacy policy shall also
+3     comply with Cal. Civ. Code §§ 1798.100, 1798.115, 1798.120, and 1798.130(a)(5),
+4     Cal. Code Regs. tit. 11, §§ 7011 and 7012, and Cal. Bus. & Prof. Code § 22575
+5     (“CalOPPA”). Where DEFENDANT COLLECTS the PERSONAL INFORMATION
+6     of CONSUMERS that it has actual knowledge are either CHILDREN or at least 13
+7     and less than 16 years of age, DEFENDANT’s privacy policy shall specify its
+8     practices with respect to COLLECTION, use, SELLING or SHARING of their
+9     PERSONAL INFORMATION.
+10          23.    Where DEFENDANT SELLS and/or SHARES the PERSONAL
+11    INFORMATION of CONSUMERS through SDKs, DEFENDANT’s privacy policy
+12    shall provide CLEAR AND CONSPICUOUS notice to CONSUMERS regarding its
+13    use of SDKs, including, without limitation, identification of the categories of SDKs,
+14    identification of the categories of PERSONAL INFORMATION SOLD or SHARED
+15    through SDKs, and the business or commercial purpose for SELLING or SHARING
+16    the PERSONAL INFORMATION.
+17                          COMPLIANCE WITH LAW—COPPA
+18          24.    For each of DEFENDANT’s websites and online services, including,
+19    without limitation, each of its iOS and Android apps, that COLLECT PERSONAL
+20    INFORMATION, DEFENDANT shall determine if the website or online service
+21    meets the definition of DIRECTED TO CHILDREN considering each of the factors
+22    set forth in paragraphs 1 and 2 of the definition of “Web site or online services
+23    directed to children” in 16 C.F.R. § 312.2. As part of this determination,
+24    DEFENDANT may consider the age of users of similar websites or services, reviews
+25    by users or third parties, representations to consumers or third parties, and marketing
+26    or promotional materials or plans. If based on pre-existing intellectual property,
+27    DEFENDANT shall consider the typical age rating of such property. DEFENDANT
+28    shall document its analysis in writing.
+
+                                                  7
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 8 of 16 Page ID #:68
+
+
+
+1           25.    All apps and games featuring characters from SpongeBob SquarePants
+2     shall be deemed DIRECTED TO CHILDREN for purposes of this Judgment. For the
+3     avoidance of doubt, such apps and games could be deemed MIXED AUDIENCE.
+4           26.    For any website or online service that is DIRECTED TO CHILDREN,
+5     DEFENDANT shall be enjoined and restrained from violating the following
+6     obligations relating to the Children’s Online Privacy Protection Act, 15 U.S.C.
+7     § 6501, et seq:
+8                  a. Failing to make reasonable efforts, taking into account available
+9                       technology, to ensure that a PARENT receives DIRECT NOTICE of
+10                      DEFENDANT’s practices with regard to the COLLECTION, use, or
+11                      disclosure of PERSONAL INFORMATION from CHILDREN,
+12                      including notice of any material change in the COLLECTION, use, or
+13                      disclosure practices to which the PARENT has previously consented,
+14                      unless COPPA provides an exception;
+15                 b. Failing to post a CLEAR AND CONSPICUOUS link to its privacy
+16                      policy including its PERSONAL INFORMATION practices with
+17                      regard to CHILDREN on the home or landing page or screen of its
+18                      website or app, and at each area of the website or app where
+19                      PERSONAL INFORMATION is COLLECTED from CHILDREN,
+20                      unless COPPA provides an exception;
+21                 c. Failing to obtain VERIFIABLE PARENTAL CONSENT before any
+22                      COLLECTION, use, or disclosure of PERSONAL INFORMATION
+23                      from CHILDREN, including consent to any material change in the
+24                      COLLECTION, use, or disclosure practices to which the PARENT
+25                      has previously consented, unless COPPA provides an exception;
+26                 d. Conditioning a CHILD’s participation in an activity, app, or features
+27                      in an app on the CHILD disclosing more PERSONAL
+28                      INFORMATION than is reasonably necessary to participate in the
+
+                                                  8
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 9 of 16 Page ID #:69
+
+
+
+1                     app, unless COPPA provides an exception; and
+2                  e. Retaining PERSONAL INFORMATION COLLECTED online from a
+3                     CHILD for longer than reasonably necessary to fulfill the purpose for
+4                     which the PERSONAL INFORMATION was COLLECTED, unless
+5                     COPPA provides an exception.
+6           27.    For any website or online service that is DIRECTED TO CHILDREN,
+7     DEFENDANT’s privacy policy must comply with 16 C.F.R. § 312.4(d).
+8                                   USE OF AGE SCREENS
+9           28.    Prior to using an age-screening mechanism for any of DEFENDANT’s
+10    websites and online services, including, without limitation, each of its iOS and
+11    Android apps, that are DIRECTED TO CHILDREN and that COLLECT PERSONAL
+12    INFORMATION, DEFENDANT shall determine if the website or online service
+13    meets the definition of a MIXED AUDIENCE website or service. As part of the
+14    determination of whether CHILDREN are the primary audience, DEFENDANT may
+15    consider available information regarding who the intended audience is, audience
+16    composition, the age of users of similar websites or services, reviews by users or third
+17    parties, representations to consumers or third parties, marketing or promotional
+18    materials or plans, and each of the factors set forth in paragraphs 1 and 2 of the
+19    definition of “Web site or online services directed to children” in 16 C.F.R. § 312.2.
+20    If based on pre-existing intellectual property, DEFENDANT shall consider the typical
+21    age rating of such property. DEFENDANT shall document its analysis in writing.
+22          29.    If DEFENDANT uses an age screen in a MIXED AUDIENCE app,
+23    DEFENDANT shall: (a) not COLLECT PERSONAL INFORMATION from any
+24    CONSUMER prior to collecting age information, except as permitted by COPPA and
+25    the CCPA; (b) design the age-screening mechanism in a neutral manner; (c) not
+26    COLLECT, use, or disclose PERSONAL INFORMATION of CONSUMERS who
+27    identify themselves as CHILDREN without first complying with the notice and
+28    VERIFIABLE PARENTAL CONSENT requirements of COPPA, except as permitted
+
+                                                  9
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 10 of 16 Page ID #:70
+
+
+
+1      by COPPA; and (d) not SELL or SHARE PERSONAL INFORMATION of
+2      CONSUMERS who identify themselves as less than 16 years of age without first
+3      complying with the notice and affirmative authorization requirements of the CCPA.
+4      DEFENDANT may direct CONSUMERS who indicate they are CHILDREN or at
+5      least 13 and less than 16 years of age to a CHILD-specific version or portion of the
+6      app that does not COLLECT, use, or disclose the CONSUMER’s PERSONAL
+7      INFORMATION except as permitted by COPPA and the CCPA, and where there is
+8      no behavioral advertising except where required “opt-in” consent has been obtained.
+9            30.    Whenever DEFENDANT uses an age-screening mechanism for a
+10     MIXED AUDIENCE app, DEFENDANT shall (1) ask age information in a neutral
+11     manner that does not default to a set age of 16 or above or encourage users to falsify
+12     age information; (2) not suggest that certain features will not be available for users
+13     who identify as younger than 16 years old; and (3) provide CLEAR AND
+14     CONSPICUOUS notice as part of the age screen that the age entered should be
+15     accurate to the user (i.e. relating to the player, not the phone’s owner) and is collected
+16     to ensure data use and advertising is appropriate for the user’s age. DEFENDANT
+17     shall at least annually conduct an assessment of each of the requirements of using an
+18     age screen set forth in Paragraphs 28 through 30.
+19                    DATA MINIMIZATION AND SDK COMPLIANCE
+20           31.    For any website or online service that is DIRECTED TO CHILDREN
+21     and COLLECTS PERSONAL INFORMATION, including, without limitation,
+22     MIXED AUDIENCE apps, DEFENDANT is restrained and enjoined from
+23     COLLECTING more PERSONAL INFORMATION than reasonably necessary for a
+24     CHILD or for users at least 13 and less than 16 years of age to participate in any
+25     activity or game. DEFENDANT may direct CONSUMERS who indicate they are
+26     CHILDREN or at least 13 and less than 16 years of age to a CHILD-specific version
+27     or portion of the app that minimizes COLLECTION, use, and disclosure the
+28     CONSUMER’s PERSONAL INFORMATION, and where there is no behavioral
+
+                                                   10
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 11 of 16 Page ID #:71
+
+
+
+1      advertising except where required “opt-in” consent has been obtained.
+2            32.   DEFENDANT shall take reasonable steps to ensure that its installation,
+3      configuration, and use of SDKs within any apps DIRECTED TO CHILDREN,
+4      including, without limitation, MIXED AUDIENCE apps, comply with this Judgment.
+5            33.   DEFENDANT shall implement and maintain an SDK governance
+6      framework to review the use of SDKs within its apps that are DIRECTED TO
+7      CHILDREN, including, without limitation, MIXED AUDIENCE apps, and that
+8      COLLECT PERSONAL INFORMATION from CONSUMERS, including, at a
+9      minimum:
+10                 a. Identification of each app DIRECTED TO CHILDREN that
+11                    COLLECTS PERSONAL INFORMATION;
+12                 b. For each app, identification of each SDK within the app and, for each
+13                    SDK, the name of the third party SDK provider;
+14                 c. The purpose(s) for which DEFENDANT uses each SDK;
+15                 d. Evaluation of the configuration settings or controls for each SDK,
+16                    including default settings, with respect to COLLECTION, use, or
+17                    disclosure of PERSONAL INFORMATION;
+18                 e. For any SDK that involves COLLECTION of PERSONAL
+19                    INFORMATION of CONSUMERS under 16, review and evaluation
+20                    of the contract(s) governing the SDK with respect to COLLECTION,
+21                    use, and disclosure of PERSONAL INFORMATION and specifically
+22                    restrictions on data use; and
+23                 f. For any SDK that involves SALES or SHARES of PERSONAL
+24                    INFORMATION of CONSUMERS under 16, confirming and
+25                    documenting the measures DEFENDANT is taking to ensure such
+26                    SALES or SHARES comply with this Judgment.
+27           34.   DEFENDANT shall at least annually conduct an assessment of its data
+28     minimization efforts and its SDK governance framework. This may include ensuring
+
+                                                 11
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 12 of 16 Page ID #:72
+
+
+
+1      appropriate testing of data flows, for example that data flows appropriately change
+2      based on the CONSUMER’s age and CHILD-versions are working as intended.
+3      DEFENDANT shall also at least annually conduct adequate training of relevant
+4      employees, agents, and independent contractors regarding data minimization and
+5      configuration and use of SDKs.
+6                                 ADVERTISING TO MINORS
+7            35.    DEFENDANT will use commercially reasonable measures through
+8      cooperation with its ad partners to ensure that any advertisement displayed within any
+9      of its websites or online services, including its iOS and Android apps, that are
+10     DIRECTED TO CHILDREN, including MIXED AUDIENCE websites or online
+11     services (except in connection with a MIXED AUDIENCE website or online service
+12     where DEFENDANT uses a neutral age screen in compliance with this Judgment and
+13     such advertisements are displayed within a version or portion of the app specifically
+14     designed for users who self-identify as 13 years of age or older):
+15                  a. Is identified to CONSUMERS as being an advertisement and not part
+16                     of the gameplay;
+17                  b. Includes a prominent “X” or “Close” button that allows
+18                     CONSUMERS to promptly close the advertisement without further
+19                     action beyond one click;
+20                  c. Does not manipulate or deceive CONSUMERS into engaging with the
+21                     advertisement, downloading or installing unnecessary apps, making
+22                     unintended purchases, or providing unnecessary PERSONAL
+23                     INFORMATION;
+24                  d. Does not advertise activities in which CHILDREN cannot legally
+25                     engage or products they cannot legally possess (e.g., gambling,
+26                     alcohol, tobacco, or other drugs).
+27           36.    DEFENDANT will use commercially reasonable measures through
+28     cooperation with its ad partners to comply with Cal. Bus. & Prof. Code § 22580 where
+
+                                                  12
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 13 of 16 Page ID #:73
+
+
+
+1      DEFENDANT has actual knowledge that CONSUMERS are under the age of 18.
+2             COMPLIANCE PROGRAM; ASSESSMENT AND REPORTING
+3                                       REQUIREMENTS
+4            37.   Within 180 days of the EFFECTIVE DATE, and for a period of three
+5      years from the EFFECTIVE DATE, DEFENDANT shall implement and maintain a
+6      program to assess and monitor its websites and online services, including its iOS and
+7      Android apps, that are DIRECTED TO CHILDREN and that COLLECT PERSONAL
+8      INFORMATION for their compliance with this Judgment. DEFENDANT shall
+9      document and share the results of this review and assessment with the People in an
+10     annual report that includes, at minimum, the following:
+11                 a. The assessment of its data minimization efforts and SDK governance
+12                     framework as set out in Paragraph 34;
+13                 b. Evaluation of its privacy policies and just-in-time notices related to
+14                     CONSUMERS under 16 years of age for compliance with Paragraphs
+15                     21–23 and 27;
+16                 c. Evaluation of whether its apps meet the definition of DIRECTED TO
+17                     CHILDREN or MIXED AUDIENCE as set out in Paragraphs 24 and
+18                     28;
+19                 d. The assessment of its age screens as set out in Paragraphs 29 and 30;
+20                 e. Evaluation of its advertising to CHILDREN and users at least 13 and
+21                     less than 16 years of age for compliance with Paragraphs 35 and 36;
+22                     and
+23                 f. Evaluation of its providing DIRECT NOTICE, a CLEAR AND
+24                     CONSPICUOUS link to its privacy policy, and VERIFIABLE
+25                     PARENTAL CONSENT, if applicable, for compliance with
+26                     Paragraph 26(a), (b), and (c).
+27           38.   This review may be satisfied by a review conducted by a third party
+28     assessor or COPPA safe harbor program. If part or all of this review will be
+                                                 13
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 14 of 16 Page ID #:74
+
+
+
+1      conducted by a third party assessor or COPPA safe harbor program, DEFENDANT
+2      shall notify the People of the third party or COPPA safe harbor program to be used for
+3      this purpose, and DEFENDANT’s CEO shall review the report provided by the third
+4      party or COPPA safe harbor program and certify that the report does not contain any
+5      material misstatements or omissions.
+6            39.    All reports, reviews, and sharing of information pursuant to this
+7      Judgment shall be treated as confidential and as exempt from disclosure under the
+8      relevant public records laws, including Cal. Gov. Code § 7920.000, et seq.
+9      IV.   MONETARY PROVISIONS
+10           40.    DEFENDANT shall pay the amount of $500,000. Of this amount,
+11     $250,000 shall be paid to the California Attorney General and $250,000 shall be paid
+12     to the Los Angeles City Attorney pursuant to Cal. Bus. & Prof. Code § 17206. These
+13     payments shall be made by wire transfer pursuant to instructions provided by the
+14     People to DEFENDANT in accordance with the following timeline: the first third of
+15     the amounts due no later than six months from the EFFECTIVE DATE, the second
+16     third of the amounts due no later than two years from the EFFECTIVE DATE, and the
+17     remaining balance due no later than three years from the EFFECTIVE DATE.
+18           41.    In addition, DEFENDANT shall pay $10,079.66 to the Los Angeles City
+19     Attorney’s Office as cost recovery by wire transfer no later than thirty days after the
+20     EFFECTIVE DATE, pursuant to instructions provided by the Los Angeles City
+21     Attorney’s Office.
+22           42.    Except as otherwise expressly provided herein, each party shall bear its
+23     own attorneys’ fees and costs.
+24     V.    RELEASE
+25            43.   By entry of this Judgment, DEFENDANT, and its directors, officers,
+26     affiliates, subsidiaries, employees, agents, independent contractors, and its successors
+27     and the assigns of all or substantially all of the assets of their business are released and
+28     discharged from and against any and all civil claims or rights related to minor’s
+                                                   14
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 15 of 16 Page ID #:75
+
+
+
+1      privacy, advertising to minors, and/or DEFENDANT’s privacy policy that were
+2      asserted, or that could have been asserted, in the Complaint under COPPA, the CCPA,
+3      CalOPPA, Cal. Bus. & Prof. Code § 22580, or the UCL.
+4      VI.   ADDITIONAL GENERAL PROVISIONS
+5            44. This court retains jurisdiction of this matter for purposes of construction,
+6      modification, and enforcement of this Judgment.
+             45.    Nothing in this Judgment shall be construed as relieving DEFENDANT
+7
+       of its obligations to comply with all state and federal laws, regulations, or rules, or as
+8
+       granting permission to engage in any acts or practices prohibited by such law,
+9
+       regulation, or rule.
+10
+             46.    DEFENDANT shall use reasonable efforts to notify its officers, directors,
+11
+       employees, agents, and contractors responsible for carrying out and effecting the
+12
+       terms of this Judgment and the requirements therein.
+13
+             47.    Notices and reports under this Judgment shall be served by email and
+14
+       regular mail as follows:
+15
+16           To the People:
+17           Amos Hartston
+18           California Attorney General’s Office
+             300 South Spring Street, Suite 1702
+19
+             Los Angeles, California 90013
+20           Email: Amos.Hartston@doj.ca.gov
+21
+             William Pletcher
+22           Alexandra Aurisch
+             Office of the Los Angeles City Attorney
+23
+             Public Rights Branch
+24           201 North Figueroa, Suite 1300
+             Los Angeles, California 90012
+25
+             Email: William.Pletcher@lacity.org; Alexandra.Aurisch@lacity.org
+26
+27     ///
+28     ///
+
+                                                   15
+     Case 2:24-cv-05140-FLA-AS Document 15 Filed 07/02/24 Page 16 of 16 Page ID #:76
+
+
+
+1            To Tilting Point Media LLC:
+
+2            Daniel Goldberg
+3            Frankfurt Kurnit Klein & Selz PC
+             2029 Century Park East, Suite 2500N
+4            Los Angeles, California 90067
+5            Email: dgoldberg@fkks.com
+
+6
+7            48.   This Judgment shall take effect immediately upon entry thereof.
+8            49.   The clerk is directed to enter this Judgment forthwith.
+9
+10           IT IS SO ORDERED.
+11
+12     Dated: July 2, 2024                           _______________________________
+13                                                   FERNANDO L. AENLLE-ROCHA
+                                                     United States District Judge
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+                                                16
+

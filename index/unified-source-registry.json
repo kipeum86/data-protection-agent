@@ -1,0 +1,406 @@
+{
+  "type": "unified_source_registry",
+  "generated_at": "2026-05-06T09:27:24+00:00",
+  "count": 3,
+  "sources": [
+    {
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "label": "EU GDPR Expert KB",
+      "primary_law": "GDPR",
+      "kb_path": "kb/eu-gdpr",
+      "manifest_path": "kb/eu-gdpr/manifest.json",
+      "source_registry_path": "kb/eu-gdpr/index/source-registry.json",
+      "library_files": 1080,
+      "index_files": 7,
+      "original_registry": {
+        "type": "source_registry",
+        "generated_at": "2026-03-26T19:22:26.786416+00:00",
+        "sources": {
+          "grade-a": {
+            "gdpr": {
+              "status": "complete",
+              "count": 99,
+              "target": 99
+            },
+            "gdpr-recitals": {
+              "status": "complete",
+              "count": 173,
+              "target": 173
+            },
+            "eprivacy-directive": {
+              "status": "complete",
+              "count": 21,
+              "target": 21
+            },
+            "eu-ai-act": {
+              "status": "complete",
+              "count": 113,
+              "target": 113
+            },
+            "data-act": {
+              "status": "complete",
+              "count": 50,
+              "target": 50
+            },
+            "data-governance-act": {
+              "status": "complete",
+              "count": 38,
+              "target": 38
+            },
+            "edpb-guidelines": {
+              "status": "partial",
+              "count": 52,
+              "target": 82,
+              "note": "Phase 3"
+            },
+            "edpb-opinions": {
+              "status": "complete",
+              "count": 31,
+              "target": 20,
+              "note": "Phase 3, initial 20"
+            },
+            "edpb-recommendations": {
+              "status": "partial",
+              "count": 7,
+              "target": 11,
+              "note": "Phase 3"
+            },
+            "cjeu-cases": {
+              "status": "complete",
+              "count": 51,
+              "target": 50,
+              "note": "Phase 4-5"
+            },
+            "edpb-statements": {
+              "status": "complete",
+              "count": 19
+            },
+            "edpb-binding-decisions": {
+              "status": "complete",
+              "count": 10
+            },
+            "edpb-reports": {
+              "status": "complete",
+              "count": 1
+            },
+            "eu-ai-act-recitals": {
+              "status": "complete",
+              "count": 180,
+              "target": 180
+            },
+            "data-act-recitals": {
+              "status": "complete",
+              "count": 119,
+              "target": 119
+            },
+            "data-governance-act-recitals": {
+              "status": "complete",
+              "count": 63,
+              "target": 63
+            }
+          },
+          "grade-b": {
+            "enforcement-decisions": {
+              "status": "complete",
+              "count": 33
+            },
+            "legislative-proposals": {
+              "status": "complete",
+              "count": 2
+            }
+          },
+          "grade-c": {
+            "law-firm-analyses": {
+              "status": "pending",
+              "count": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "label": "Korea PIPA Expert KB",
+      "primary_law": "PIPA",
+      "kb_path": "kb/kr-pipa",
+      "manifest_path": "kb/kr-pipa/manifest.json",
+      "source_registry_path": "kb/kr-pipa/index/source-registry.json",
+      "library_files": 1036,
+      "index_files": 6,
+      "original_registry": {
+        "type": "source_registry",
+        "generated_at": "2026-04-10T00:00:00.000000",
+        "sources": {
+          "grade-a": {
+            "pipc-guidelines": {
+              "status": "complete",
+              "count": 46,
+              "target": 46,
+              "collection": "PIPC Official Guidelines",
+              "publisher": "개인정보보호위원회 (PIPC)",
+              "retrieved_at": "2026-03-27T05:33:05.684206",
+              "total_chars": 5835290
+            },
+            "pipa": {
+              "status": "complete",
+              "count": 126,
+              "target": 126,
+              "law_name": "개인정보 보호법",
+              "retrieved_at": "2026-03-27T14:32:59.690825"
+            },
+            "pipa-enforcement-decree": {
+              "status": "complete",
+              "count": 140,
+              "target": 140,
+              "law_name": "개인정보 보호법 시행령",
+              "retrieved_at": "2026-03-27T14:33:03.801033"
+            },
+            "pipa-enforcement-rule": {
+              "status": "retired",
+              "count": 0,
+              "target": 0,
+              "law_name": "개인정보보호법 시행규칙",
+              "retrieved_at": "",
+              "note": "Repealed statute; excluded from ingest."
+            },
+            "network-act": {
+              "status": "complete",
+              "count": 142,
+              "target": 142,
+              "law_name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률",
+              "retrieved_at": "2026-03-27T14:33:07.899798"
+            },
+            "network-act-enforcement-decree": {
+              "status": "complete",
+              "count": 131,
+              "target": 131,
+              "law_name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령",
+              "retrieved_at": "2026-03-27T14:33:11.949749"
+            },
+            "network-act-enforcement-rule": {
+              "status": "complete",
+              "count": 11,
+              "target": 11,
+              "law_name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행규칙",
+              "retrieved_at": "2026-03-27T14:33:15.839423"
+            },
+            "credit-info-act": {
+              "status": "complete",
+              "count": 91,
+              "target": 91,
+              "law_name": "신용정보의 이용 및 보호에 관한 법률",
+              "retrieved_at": "2026-03-27T14:33:19.940512"
+            },
+            "credit-info-act-enforcement-decree": {
+              "status": "complete",
+              "count": 81,
+              "target": 81,
+              "law_name": "신용정보의 이용 및 보호에 관한 법률 시행령",
+              "retrieved_at": "2026-03-27T14:33:24.037232"
+            },
+            "location-info-act": {
+              "status": "complete",
+              "count": 53,
+              "target": 53,
+              "law_name": "위치정보의 보호 및 이용 등에 관한 법률",
+              "retrieved_at": "2026-03-27T14:33:28.016866"
+            },
+            "location-info-act-enforcement-decree": {
+              "status": "complete",
+              "count": 55,
+              "target": 55,
+              "law_name": "위치정보의 보호 및 이용 등에 관한 법률 시행령",
+              "retrieved_at": "2026-03-27T14:33:32.012749"
+            },
+            "e-government-act": {
+              "status": "complete",
+              "count": 99,
+              "target": 99,
+              "law_name": "전자정부법",
+              "retrieved_at": "2026-03-27T14:33:35.978377"
+            }
+          },
+          "grade-b": {
+            "pipc-decisions": {
+              "status": "pending",
+              "count": 0,
+              "target": null,
+              "note": "PIPC 처분례 — 법제처 Open API의 get_pipc_decision_text endpoint가 빈 응답을 반환하여 수집 보류. endpoint 수정 시 Option B 원안(20건) 재개."
+            },
+            "court-precedents": {
+              "status": "partial",
+              "count": 10,
+              "target": null,
+              "retrieved_at": "2026-04-10",
+              "note": "Initial landmark collection (Option B pivot, 6 topics + constitutional right cases). 수집: 로앤비(2014다235080), 홈플러스(2018다262103), 구글공개청구(2017다219232), CCTV제공(2024도8121), 수능감독관(2020도14713), 네이트·싸이월드유출(2015다24904), 유출과징금(2022두68923), 법정손해배상(2023다311184), 가명처리정지(2024다210554), 주민등록번호변경(2013두2945)."
+            },
+            "legal-interpretations": {
+              "status": "partial",
+              "count": 20,
+              "target": null,
+              "retrieved_at": "2026-04-10",
+              "note": "법제처 법령해석례 초기 수집(Option B pivot). 원안의 PIPC 결정문 20건 자리를 법제처 해석례로 대체 — MCP get_pipc_decision_text endpoint 장애 때문. 주제 분포: 동의(§22,§15) 3, 제18조 다른 법률 특별 규정 7, 데이터주체 권리(§35) 1, 거버넌스(§31) 1, 처리자 범위(§2) 1, 가명정보(§28-2) 1, 민감정보(§23) 2, 주민등록번호(§24-2) 4."
+            }
+          },
+          "grade-c": {
+            "law-firm": {
+              "status": "pending",
+              "note": "로펌 해설/뉴스레터 — 추후 수집"
+            },
+            "academic": {
+              "status": "pending",
+              "note": "학술 논문 — 추후 수집"
+            }
+          }
+        }
+      }
+    },
+    {
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "label": "California Privacy Expert KB",
+      "primary_law": "CCPA",
+      "kb_path": "kb/us-ca",
+      "manifest_path": "kb/us-ca/manifest.json",
+      "source_registry_path": "kb/us-ca/index/source-registry.json",
+      "library_files": 245,
+      "index_files": 11,
+      "original_registry": {
+        "type": "source_registry",
+        "generated_at": "2026-05-06T08:49:24+00:00",
+        "total_files": 237,
+        "sources": {
+          "grade-a": {
+            "ca-ccpa-statute": {
+              "status": "complete",
+              "count": 46,
+              "target": 46,
+              "publisher": "California Privacy Protection Agency",
+              "source_url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf",
+              "retrieved_at": "2026-05-06"
+            },
+            "ca-ccpa-regulations": {
+              "status": "complete",
+              "count": 61,
+              "target": null,
+              "publisher": "California Privacy Protection Agency",
+              "source_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+              "retrieved_at": "2026-05-06"
+            },
+            "ca-cppa-guidance": {
+              "status": "complete",
+              "count": 2,
+              "target": null
+            },
+            "ca-cppa-rulemaking": {
+              "status": "complete",
+              "count": 1,
+              "target": null
+            },
+            "ca-oag-guidance": {
+              "status": "complete",
+              "count": 2,
+              "target": null
+            },
+            "ca-courts-published-opinions": {
+              "status": "complete",
+              "count": 1,
+              "target": 1,
+              "note": "Only CCPA/California privacy opinions verified against official court or GovInfo source."
+            },
+            "us-federal-ccpa-opinions": {
+              "status": "complete",
+              "count": 22,
+              "target": 22,
+              "note": "Only CCPA/California privacy opinions verified against official court or GovInfo source."
+            },
+            "ca-caloppa": {
+              "status": "complete",
+              "count": 5,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.&division=8.&lawCode=BPC",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-customer-records": {
+              "status": "complete",
+              "count": 7,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-cmia": {
+              "status": "complete",
+              "count": 18,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=2.&division=1.&lawCode=CIV&part=2.6.&title=",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-sopipa": {
+              "status": "complete",
+              "count": 2,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.2.&division=8.&lawCode=BPC",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-age-appropriate-design-code": {
+              "status": "complete",
+              "count": 8,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&lawCode=CIV&part=4.&title=1.81.47.",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-data-broker-delete-act": {
+              "status": "complete",
+              "count": 9,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.48.",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            },
+            "ca-cipa": {
+              "status": "complete",
+              "count": 35,
+              "target": null,
+              "publisher": "California Legislative Information",
+              "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=1.5.&division=&lawCode=PEN&part=1.&title=15.",
+              "retrieved_at": "2026-05-06",
+              "note": "Adjacent California privacy statute collected from official LegInfo group page."
+            }
+          },
+          "grade-b": {
+            "ca-courts-published-opinion-mirrors": {
+              "status": "complete",
+              "count": 6,
+              "target": 6,
+              "note": "Published California Supreme Court opinions fetched from a public mirror when the official California Courts archive URL is not locally raw-fetchable."
+            },
+            "ca-enforcement-actions": {
+              "status": "partial",
+              "count": 9,
+              "target": 9
+            },
+            "ca-administrative-orders": {
+              "status": "partial",
+              "count": 3,
+              "target": 3
+            }
+          },
+          "grade-c": {}
+        }
+      }
+    }
+  ]
+}

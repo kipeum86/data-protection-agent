@@ -1,0 +1,20 @@
+{
+  "default_top_k": 12,
+  "per_namespace_top_k": 8,
+  "topic_boost": 7,
+  "citation_boost": 6,
+  "title_boost": 4,
+  "keyword_boost": 3,
+  "body_metadata_boost": 1,
+  "minimum_score": 2,
+  "authority_group_priority": {
+    "statute": 14,
+    "regulation": 14,
+    "article": 14,
+    "recital": 3,
+    "guidance": 3,
+    "case": 5,
+    "enforcement": 0,
+    "legislative_proposal": 0
+  }
+}

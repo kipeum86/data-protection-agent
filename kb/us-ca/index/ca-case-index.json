@@ -1,0 +1,1198 @@
+{
+  "type": "ca_case_index",
+  "count": 29,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "cases": [
+    {
+      "id": "ca-supreme-smith-v-loanme-2021",
+      "case_name": "Smith v. LoanMe, Inc.",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S260391",
+      "decision_date": "2021-04-01",
+      "path": "library/grade-a/ca-courts-published-opinions/smith-v-loanme-2021.md",
+      "source_family": "ca-courts-published-opinions",
+      "source_grade": "A",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/2022-08/S260391.pdf",
+      "source_url": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/2022-08/S260391.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-632.7"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "call_recording",
+        "all_party_consent",
+        "penal_code_632_7"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "minor",
+        "third party",
+        "smith",
+        "loanme"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-gabrielli-v-motorola-2025-mtd",
+      "case_name": "Gabrielli v. Motorola Mobility LLC",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "4:24-cv-09533-JST",
+      "decision_date": "2025-07-14",
+      "path": "library/grade-a/us-federal-ccpa-opinions/gabrielli-v-motorola-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_24-cv-09533/pdf/USCOURTS-cand-4_24-cv-09533-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_24-cv-09533/pdf/USCOURTS-cand-4_24-cv-09533-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631",
+        "ca-pen-632.7"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7027"
+      ],
+      "ccpa_topics": [
+        "cipa",
+        "pen_register",
+        "cookies",
+        "website_tracking",
+        "service_provider_exception"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "service provider",
+        "third party",
+        "enforcement",
+        "settlement",
+        "gabrielli",
+        "motorola",
+        "mobility"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-garcia-v-build-2023-mtd",
+      "case_name": "Garcia v. Build.com, Inc.",
+      "court": "United States District Court, Southern District of California",
+      "court_system": "federal",
+      "case_number": "3:22-cv-01985-DMS-KSC",
+      "decision_date": "2023-07-13",
+      "path": "library/grade-a/us-federal-ccpa-opinions/garcia-v-build-2023-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631",
+        "ca-pen-632.7",
+        "ca-pen-637.2"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "chat_feature",
+        "standing",
+        "penal_code_631",
+        "penal_code_632_7"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "GPC",
+        "third party",
+        "private right of action",
+        "garcia",
+        "build"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-garcia-v-build-2024-mtd",
+      "case_name": "Garcia v. Build.com, Inc.",
+      "court": "United States District Court, Southern District of California",
+      "court_system": "federal",
+      "case_number": "3:22-cv-01985-DMS-KSC",
+      "decision_date": "2024-03-29",
+      "path": "library/grade-a/us-federal-ccpa-opinions/garcia-v-build-2024-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631",
+        "ca-pen-632.7"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "chat_feature",
+        "third_party_vendor",
+        "aiding_and_abetting"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "third party",
+        "garcia",
+        "build"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-garon-v-keleops-2025-mtd",
+      "case_name": "Garon v. Keleops USA, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "4:25-cv-02124-DMR",
+      "decision_date": "2025-09-02",
+      "path": "library/grade-a/us-federal-ccpa-opinions/garon-v-keleops-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-02124/pdf/USCOURTS-cand-4_25-cv-02124-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-02124/pdf/USCOURTS-cand-4_25-cv-02124-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-638.50",
+        "ca-pen-638.51"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "pen_register",
+        "website_tracking",
+        "pixels",
+        "ad_tech"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "enforcement",
+        "garon",
+        "keleops"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-graham-v-noom-2021-dismissal",
+      "case_name": "Graham v. Noom, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:20-cv-06903-LB",
+      "decision_date": "2021-08-13",
+      "path": "library/grade-a/us-federal-ccpa-opinions/graham-v-noom-2021-dismissal.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-06903/pdf/USCOURTS-cand-3_20-cv-06903-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-06903/pdf/USCOURTS-cand-3_20-cv-06903-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-637.2"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "session_replay",
+        "website_tracking",
+        "third_party_vendor",
+        "standing"
+      ],
+      "keywords": [
+        "access",
+        "private right of action",
+        "graham"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-9th-gutierrez-v-converse-2025",
+      "case_name": "Gutierrez v. Converse Inc.",
+      "court": "United States Court of Appeals for the Ninth Circuit",
+      "court_system": "federal",
+      "case_number": "24-4797",
+      "decision_date": "2025-07-09",
+      "path": "library/grade-a/us-federal-ccpa-opinions/gutierrez-v-converse-2025.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "unpublished_non_citable",
+      "official_url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2025/07/09/24-4797.pdf",
+      "source_url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2025/07/09/24-4797.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.106",
+        "ca-civ-1798.110",
+        "ca-civ-1798.121",
+        "ca-civ-1798.125",
+        "ca-civ-1798.135",
+        "ca-civ-1798.150",
+        "ca-pen-630",
+        "ca-pen-631",
+        "ca-pen-632.01",
+        "ca-pen-632.7"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "private_right_of_action",
+        "data_breach",
+        "cipa_comparison"
+      ],
+      "keywords": [
+        "collection",
+        "access",
+        "sale",
+        "third party",
+        "enforcement",
+        "gutierrez",
+        "converse"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-9th-in-re-california-pizza-kitchen-2025",
+      "case_name": "In re California Pizza Kitchen, Inc.",
+      "court": "United States Court of Appeals for the Ninth Circuit",
+      "court_system": "federal",
+      "case_number": "23-55288",
+      "decision_date": "2025-02-24",
+      "path": "library/grade-a/us-federal-ccpa-opinions/in-re-california-pizza-kitchen-2025.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "published_citable",
+      "official_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/02/24/23-55288.pdf",
+      "source_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/02/24/23-55288.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.150"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "data_breach",
+        "private_right_of_action",
+        "class_settlement"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sensitive personal information",
+        "data breach",
+        "settlement",
+        "california",
+        "pizza",
+        "kitchen"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-in-re-consumer-vehicle-driving-data-2026-mtd",
+      "case_name": "In re Consumer Vehicle Driving Data Tracking Collection",
+      "court": "United States District Court, Northern District of Georgia",
+      "court_system": "federal",
+      "case_number": "1:24-md-03115-TWT",
+      "decision_date": "2026-04-22",
+      "path": "library/grade-a/us-federal-ccpa-opinions/in-re-consumer-vehicle-driving-data-2026-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-gand-1_24-md-03115/pdf/USCOURTS-gand-1_24-md-03115-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-gand-1_24-md-03115/pdf/USCOURTS-gand-1_24-md-03115-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.150",
+        "ca-civ-1798.81.5",
+        "ca-pen-630",
+        "ca-pen-631"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "vehicle_telematics",
+        "driving_data",
+        "private_right_of_action",
+        "data_breach_scope",
+        "personal_information_definition"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "correction",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "children",
+        "service provider",
+        "third party",
+        "data breach",
+        "private right of action",
+        "enforcement",
+        "administrative",
+        "settlement",
+        "consumer",
+        "vehicle",
+        "driving"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-in-re-facebook-internet-tracking-2017-mtd",
+      "case_name": "In re Facebook Internet Tracking Litigation",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "5:12-md-02314-EJD",
+      "decision_date": "2017-06-30",
+      "path": "library/grade-a/us-federal-ccpa-opinions/in-re-facebook-internet-tracking-2017-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-5_12-md-02314/pdf/USCOURTS-cand-5_12-md-02314-7.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-5_12-md-02314/pdf/USCOURTS-cand-5_12-md-02314-7.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-637.2"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "cookies",
+        "tracking_technology",
+        "website_tracking",
+        "wiretap_act"
+      ],
+      "keywords": [
+        "collection",
+        "access",
+        "share",
+        "third party",
+        "privacy policy",
+        "facebook",
+        "internet",
+        "tracking",
+        "litigation"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-9th-javier-v-assurance-iq-2022",
+      "case_name": "Javier v. Assurance IQ, LLC",
+      "court": "United States Court of Appeals for the Ninth Circuit",
+      "court_system": "federal",
+      "case_number": "21-16351",
+      "decision_date": "2022-05-31",
+      "path": "library/grade-a/us-federal-ccpa-opinions/javier-v-assurance-iq-2022.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "unpublished_non_citable",
+      "official_url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2022/05/31/21-16351.pdf",
+      "source_url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2022/05/31/21-16351.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631",
+        "ca-pen-632"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "website_recording",
+        "prior_consent",
+        "tracking_technology"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "third party",
+        "privacy policy",
+        "javier",
+        "assurance"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-jones-v-tonal-2024-mtd",
+      "case_name": "Jones v. Tonal Systems, Inc.",
+      "court": "United States District Court, Southern District of California",
+      "court_system": "federal",
+      "case_number": "3:23-cv-01267-JES-BGS",
+      "decision_date": "2024-09-30",
+      "path": "library/grade-a/us-federal-ccpa-opinions/jones-v-tonal-2024-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-01267/pdf/USCOURTS-casd-3_23-cv-01267-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-01267/pdf/USCOURTS-casd-3_23-cv-01267-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631",
+        "ca-pen-632.7"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "chat_feature",
+        "third_party_vendor",
+        "website_recording"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "third party",
+        "settlement",
+        "privacy policy",
+        "jones",
+        "tonal",
+        "systems"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-little-seeds-v-citibank-2025-mtd",
+      "case_name": "Little Seeds Children's Center, Inc. v. Citibank, N.A.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "4:25-cv-01517-HSG",
+      "decision_date": "2025-11-10",
+      "path": "library/grade-a/us-federal-ccpa-opinions/little-seeds-v-citibank-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-01517/pdf/USCOURTS-cand-4_25-cv-01517-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-01517/pdf/USCOURTS-cand-4_25-cv-01517-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.150",
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.82"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "financial_fraud",
+        "reasonable_security",
+        "private_right_of_action",
+        "pleading_standard"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "children",
+        "data breach",
+        "little",
+        "seeds",
+        "center",
+        "citibank"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-maag-v-us-bank-2021-discovery",
+      "case_name": "Maag v. U.S. Bank National Association",
+      "court": "United States District Court, Southern District of California",
+      "court_system": "federal",
+      "case_number": "3:21-cv-00031-H-LL",
+      "decision_date": "2021-10-12",
+      "path": "library/grade-a/us-federal-ccpa-opinions/maag-v-us-bank-2021-discovery.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_21-cv-00031/pdf/USCOURTS-casd-3_21-cv-00031-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_21-cv-00031/pdf/USCOURTS-casd-3_21-cv-00031-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.150"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "data_breach",
+        "private_right_of_action",
+        "class_discovery",
+        "putative_class_contact_information"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "contractor",
+        "data breach",
+        "national",
+        "association"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-mg-v-therapymatch-2024-mtd",
+      "case_name": "M.G. v. Therapymatch, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:23-cv-04422-AMO",
+      "decision_date": "2024-09-16",
+      "path": "library/grade-a/us-federal-ccpa-opinions/mg-v-therapymatch-2024-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.150",
+        "ca-civ-56.36",
+        "ca-pen-631",
+        "ca-pen-632",
+        "ca-pen-637.2"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "tracking_technology",
+        "medical_privacy",
+        "private_right_of_action",
+        "data_breach_scope"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "third party",
+        "data breach",
+        "privacy policy",
+        "therapymatch"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-mg-v-therapymatch-2025-mtd",
+      "case_name": "M.G. v. Therapymatch, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:23-cv-04422-AMO",
+      "decision_date": "2025-05-19",
+      "path": "library/grade-a/us-federal-ccpa-opinions/mg-v-therapymatch-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-1.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-04422/pdf/USCOURTS-cand-3_23-cv-04422-1.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.150",
+        "ca-civ-56.05",
+        "ca-civ-56.101"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "tracking_technology",
+        "medical_privacy",
+        "private_right_of_action",
+        "successive_motion"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "therapymatch"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-mirmalek-v-la-times-2024-remand",
+      "case_name": "Mirmalek v. Los Angeles Times Communications LLC",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:24-cv-01797-CRB",
+      "decision_date": "2024-05-23",
+      "path": "library/grade-a/us-federal-ccpa-opinions/mirmalek-v-la-times-2024-remand.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-01797/pdf/USCOURTS-cand-3_24-cv-01797-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-01797/pdf/USCOURTS-cand-3_24-cv-01797-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-638.51"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "pen_register",
+        "trap_and_trace",
+        "ip_address",
+        "website_tracking"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "mirmalek",
+        "angeles",
+        "times",
+        "communications"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-randles-v-nationstar-transfer-2024",
+      "case_name": "Randles v. Nationstar Mortgage, LLC",
+      "court": "United States District Court, Eastern District of California",
+      "court_system": "federal",
+      "case_number": "1:24-cv-00177-KES-SKO",
+      "decision_date": "2024-04-26",
+      "path": "library/grade-a/us-federal-ccpa-opinions/randles-v-nationstar-transfer-2024.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-1_24-cv-00177/pdf/USCOURTS-caed-1_24-cv-00177-6.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-1_24-cv-00177/pdf/USCOURTS-caed-1_24-cv-00177-6.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.150"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "data_breach",
+        "private_right_of_action",
+        "venue_transfer"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sensitive personal information",
+        "data breach",
+        "administrative",
+        "randles",
+        "nationstar",
+        "mortgage"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-rc-v-sussex-2025-mtd",
+      "case_name": "R.C. v. Sussex Publishers, LLC",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:24-cv-02609-JSC",
+      "decision_date": "2025-03-28",
+      "path": "library/grade-a/us-federal-ccpa-opinions/rc-v-sussex-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-02609/pdf/USCOURTS-cand-3_24-cv-02609-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-02609/pdf/USCOURTS-cand-3_24-cv-02609-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.150",
+        "ca-civ-56.05",
+        "ca-civ-56.10",
+        "ca-civ-56.101",
+        "ca-civ-56.36",
+        "ca-pen-631",
+        "ca-pen-632",
+        "ca-pen-632.5",
+        "ca-pen-637.2"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cmia",
+        "cipa",
+        "mental_health",
+        "google_analytics",
+        "ip_address",
+        "ccpa_claim_conceded"
+      ],
+      "keywords": [
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "service provider",
+        "third party",
+        "sussex",
+        "publishers"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-rodriguez-v-google-2021-mtd",
+      "case_name": "Rodriguez v. Google LLC",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:20-cv-04688-RS",
+      "decision_date": "2021-05-21",
+      "path": "library/grade-a/us-federal-ccpa-opinions/rodriguez-v-google-2021-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-04688/pdf/USCOURTS-cand-3_20-cv-04688-2.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_20-cv-04688/pdf/USCOURTS-cand-3_20-cv-04688-2.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-630",
+        "ca-pen-631"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "firebase",
+        "app_tracking",
+        "intrusion",
+        "wiretap_act"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "share",
+        "third party",
+        "private right of action",
+        "privacy policy",
+        "rodriguez",
+        "google"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-swarts-v-home-depot-2023-mtd",
+      "case_name": "Swarts v. The Home Depot, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "4:23-cv-00995-JST",
+      "decision_date": "2023-08-30",
+      "path": "library/grade-a/us-federal-ccpa-opinions/swarts-v-home-depot-2023-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_23-cv-00995/pdf/USCOURTS-cand-4_23-cv-00995-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_23-cv-00995/pdf/USCOURTS-cand-4_23-cv-00995-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-pen-631"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "chat_feature",
+        "penal_code_631",
+        "third_party_vendor",
+        "website_tracking"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "third party",
+        "data breach",
+        "settlement",
+        "swarts",
+        "depot"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-valenzuela-v-keurig-2023-standing-order",
+      "case_name": "Valenzuela v. Keurig Green Mountain, Inc.",
+      "court": "United States District Court, Northern District of California",
+      "court_system": "federal",
+      "case_number": "3:22-cv-09042-JSC",
+      "decision_date": "2023-09-01",
+      "path": "library/grade-a/us-federal-ccpa-opinions/valenzuela-v-keurig-2023-standing-order.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_22-cv-09042/pdf/USCOURTS-cand-3_22-cv-09042-0.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_22-cv-09042/pdf/USCOURTS-cand-3_22-cv-09042-0.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "chat_feature",
+        "standing",
+        "concrete_injury",
+        "website_tracking"
+      ],
+      "keywords": [
+        "valenzuela",
+        "keurig",
+        "green",
+        "mountain"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "us-fed-zarif-v-healthwarehouse-2025-mtd",
+      "case_name": "Zarif v. Hwareh.com, Inc.",
+      "court": "United States District Court, Southern District of California",
+      "court_system": "federal",
+      "case_number": "3:23-cv-00565-BAS-DEB",
+      "decision_date": "2025-02-13",
+      "path": "library/grade-a/us-federal-ccpa-opinions/zarif-v-healthwarehouse-2025-mtd.md",
+      "source_family": "us-federal-ccpa-opinions",
+      "source_grade": "A",
+      "authority_level": "persuasive",
+      "precedential_status": "district_court_persuasive",
+      "official_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-00565/pdf/USCOURTS-casd-3_23-cv-00565-2.pdf",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-00565/pdf/USCOURTS-casd-3_23-cv-00565-2.pdf",
+      "source_mirror_warning": "",
+      "cited_statutes": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.150",
+        "ca-civ-56.05",
+        "ca-civ-56.10",
+        "ca-pen-631",
+        "ca-pen-638.51"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "cmia",
+        "medical_privacy",
+        "website_tracking",
+        "ccpa_thresholds",
+        "private_right_of_action"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "third party",
+        "private right of action",
+        "enforcement",
+        "zarif",
+        "hwareh"
+      ],
+      "citation_cautions": [
+        "Federal opinions applying California law are persuasive unless controlling status is separately established.",
+        "Unpublished dispositions must not be cited as controlling precedent."
+      ]
+    },
+    {
+      "id": "ca-supreme-brown-v-mortensen-2011",
+      "case_name": "Brown v. Mortensen",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S180862",
+      "decision_date": "2011-06-16",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/brown-v-mortensen-2011.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S180862.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/brown-v-mortensen-33979",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cmia",
+        "medical_privacy",
+        "consumer_reporting",
+        "preemption"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "children",
+        "brown",
+        "mortensen"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    },
+    {
+      "id": "ca-supreme-facebook-v-superior-court-2018",
+      "case_name": "Facebook, Inc. v. Superior Court",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S230051",
+      "decision_date": "2018-05-24",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/facebook-v-superior-court-2018.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S230051.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/facebook-inc-v-super-ct-34595",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "stored_communications",
+        "social_media",
+        "electronic_communications",
+        "privacy"
+      ],
+      "keywords": [
+        "service provider",
+        "facebook",
+        "superior",
+        "court"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    },
+    {
+      "id": "ca-supreme-flanagan-v-flanagan-2002",
+      "case_name": "Flanagan v. Flanagan",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S085594",
+      "decision_date": "2002-03-14",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/flanagan-v-flanagan-2002.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S085594.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/flanagan-v-flanagan-32179",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "call_recording",
+        "confidential_communication",
+        "penal_code_632"
+      ],
+      "keywords": [
+        "notice",
+        "share",
+        "children",
+        "third party",
+        "administrative",
+        "penalty",
+        "flanagan"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    },
+    {
+      "id": "ca-supreme-kearney-v-salomon-smith-barney-2006",
+      "case_name": "Kearney v. Salomon Smith Barney, Inc.",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S124739",
+      "decision_date": "2006-07-13",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/kearney-v-salomon-smith-barney-2006.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S124739.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/kearney-v-salomon-smith-barney-33656",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "cipa",
+        "call_recording",
+        "all_party_consent",
+        "choice_of_law"
+      ],
+      "keywords": [
+        "settlement",
+        "kearney",
+        "salomon",
+        "smith",
+        "barney"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    },
+    {
+      "id": "ca-supreme-raines-v-us-healthworks-2023",
+      "case_name": "Raines v. U.S. Healthworks Medical Group",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S273630",
+      "decision_date": "2023-08-21",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/raines-v-us-healthworks-2023.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S273630.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/raines-v-us-healthworks-medical-group-34753",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "employment",
+        "medical_inquiry",
+        "sensitive_personal_information",
+        "feha"
+      ],
+      "keywords": [
+        "raines",
+        "healthworks",
+        "medical",
+        "group"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    },
+    {
+      "id": "ca-supreme-yahoo-v-national-union-2022",
+      "case_name": "Yahoo Inc. v. National Union Fire Insurance Company of Pittsburgh, PA",
+      "court": "Supreme Court of California",
+      "court_system": "state",
+      "case_number": "S253593",
+      "decision_date": "2022-11-17",
+      "path": "library/grade-b/ca-courts-published-opinion-mirrors/yahoo-v-national-union-2022.md",
+      "source_family": "ca-courts-published-opinion-mirrors",
+      "source_grade": "B",
+      "authority_level": "binding_ca_supreme",
+      "precedential_status": "published_citable",
+      "official_url": "https://www.courts.ca.gov/opinions/archive/S253593.PDF",
+      "source_url": "https://scocal.stanford.edu/opinion/yahoo-inc-v-nat-union-fire-ins-co-pittsburgh-pa-34701",
+      "source_mirror_warning": "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher.",
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "privacy_right",
+        "tcpa",
+        "seclusion",
+        "insurance"
+      ],
+      "keywords": [
+        "yahoo",
+        "national",
+        "union",
+        "insurance",
+        "company",
+        "pittsburgh"
+      ],
+      "citation_cautions": [
+        "Published California Supreme Court opinion; authority level is binding, but this local file was fetched from SCOCAL rather than the official California Courts PDF.",
+        "Verify against the official California Courts copy if the archive PDF becomes raw-fetchable.",
+        "Fetched from the Stanford SCOCAL public mirror because the official California Courts archive PDF was not locally raw-fetchable during collection; do not treat the mirror URL itself as the official publisher."
+      ]
+    }
+  ]
+}

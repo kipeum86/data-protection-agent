@@ -1,0 +1,15 @@
+---
+law: Data Governance Act
+law_id: 32022R0868
+recital: 2
+document_type: recital
+source_grade: A
+effective_date: '20220623'
+retrieved_at: '2026-03-26'
+related_articles: []
+---
+
+## Recital 2
+
+Over the last decade, digital technologies have transformed the economy and society, affecting all sectors of activity and daily life. Data is at the centre of that transformation: data-driven innovation will bring enormous benefits to both Union citizens and the economy, for example by improving and personalising medicine, providing new mobility, and contributing to the communication of the Commission of 11 December 2019 on the European Green Deal. In order to make the data-driven economy inclusive for all Union citizens, particular attention must be paid to reducing the digital divide, boosting the participation of women in the data economy and fostering cutting-edge European expertise in the technology sector. The data economy has to be built in a way that enables undertakings, in particular micro, small and medium-sized enterprises (SMEs), as defined in the Annex to Commission Recommendation 2003/361/EC (3), and start-ups to thrive, ensuring data access neutrality and data portability and interoperability, and avoiding lock-in effects. In its communication of 19 February 2020 on a European strategy for data (the ‘European strategy for data’), the Commission described the vision of a common European data space, meaning an internal market for data in which data could be used irrespective of its physical storage location in the Union in compliance with applicable law, which, inter alia, could be pivotal for the rapid development of artificial intelligence technologies.
+The Commission also called for the free and safe flow of data with third countries, subject to exceptions and restrictions for public security, public order and other legitimate public policy objectives of the Union, in line with international obligations, including on fundamental rights. In order to turn that vision into reality, the Commission proposed establishing domain-specific common European data spaces for data sharing and data pooling. As proposed in the European strategy for data, such common European data spaces could cover areas such as health, mobility, manufacturing, financial services, energy or agriculture, or a combination of such areas, for example energy and climate, as well as thematic areas such as the European Green Deal or European data spaces for public administration or skills. Common European data spaces should make data findable, accessible, interoperable and re-usable (the ‘FAIR data principles’), while ensuring a high level of cybersecurity. Where there is a level playing field in the data economy, undertakings compete on quality of services, and not on the amount of data they control. For the purposes of the design, creation and maintenance of the level playing field in the data economy, sound governance is needed in which relevant stakeholders of a common European data space need to participate and be represented.

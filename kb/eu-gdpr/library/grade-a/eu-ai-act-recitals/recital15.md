@@ -1,0 +1,14 @@
+---
+law: Artificial Intelligence Act
+law_id: 32024R1689
+recital: 15
+document_type: recital
+source_grade: A
+effective_date: '20240801'
+retrieved_at: '2026-03-26'
+related_articles: []
+---
+
+## Recital 15
+
+The notion of ‘biometric identification’ referred to in this Regulation should be defined as the automated recognition of physical, physiological and behavioural human features such as the face, eye movement, body shape, voice, prosody, gait, posture, heart rate, blood pressure, odour, keystrokes characteristics, for the purpose of establishing an individual’s identity by comparing biometric data of that individual to stored biometric data of individuals in a reference database, irrespective of whether the individual has given its consent or not. This excludes AI systems intended to be used for biometric verification, which includes authentication, whose sole purpose is to confirm that a specific natural person is the person he or she claims to be and to confirm the identity of a natural person for the sole purpose of having access to a service, unlocking a device or having security access to premises.

@@ -1,0 +1,575 @@
+                                                                        c--
+                                                                       CONFORMEO COPY
+                                                                             O~IGINAL FILED
+                                                                        Su8enor Court of California
+                                                                           ounty of Los Angelc➔ s
+
+ 1   RoBBONTA
+     Attorney General of California                                           OCT 3 O2025
+ 2   NICKLAS A. AKERS
+     Senior Assistant Attorney General                           David W. Slayton, Executive Officer/Clerk of c~~rt
+ 3   STACEY D. SCHESSER
+     Supervising Deputy Attorney General
+ 4   AMOS E. HARTSTON (SBN 186471)
+     YENP. NGUYEN (SBN239085)
+ 5   MANEESH SHARMA (SBN 280084)
+     Deputy Attorneys General                                      [EXEMPT FROM FILING FEES
+ 6    300 South Spring Street, Suite 1702                          GOVERNMENT CODE § 6103]
+      Los Angeles, CA 90013
+ 7    Telephone: (213) 269-6046
+      Fax: (213) 897-4951
+ 8    E-mail: Amos.Hartston@doj.ca.gov
+
+ 9   Attorneys for the People of the State of California
+
+10
+                         SUPERIOR COURT OF THE STATE OF CALIFORNIA
+11
+                                       COUNTY OF LOS ANGELES
+12
+
+13
+                                                                  25STCV31561
+     THE PEOPLE OF THE STATE OF                            Case No.
+14   CALIFORNIA,
+15                                          Plaintiff,     COMPLAINT FOR INJUNCTION, CIVIL
+                                                           PENAL TIES, AND OTHER EQUITABLE
+16                                                         RELIEF
+
+17   SLING TV L.L.C.;                                      (Civ. Code,§ 1798.100 et seq.;
+     DISH MEDIA SALES L.L.C.                               Bus & Prof. Code, § 17200 et seq.)
+18
+                                         Defendants.
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+
+                                                 COMPLAINT
+ 1         The People of the State of California, through Attorney General Rob Bonta, bring this
+
+ 2   action against Defendants Sling TV L.L.C. and Dish Media Sales L.L.C . (collectively "S ling
+
+ 3   TV") for violations of California' s consumer protection laws. The People allege the following
+
+ 4   facts based on information and belief:
+
+ 5                                            INTRODUCTION
+ 6         1.    Californians enjoy strong privacy protections under the California Consumer Privacy
+
+ 7   Act ("CCPA")-especially the right to direct a business to stop selling or sharing their personal
+
+ 8   information, known as "the right to opt-out." The CCPA right to opt-out gives consumers
+
+ 9   meaningful control over how their personal information is used, especially in an online
+
+10   environment where personal data is collected, shared, and sold in ways that may not be obvious to
+
+11   a consumer. The right to opt-out is broad and applies to both online and offline data selling and
+
+12   sharing, and must be easy to execute and require minimal steps. Businesses should not bury the
+
+13   CCPA opt out with other choices, like cookie preferences, that do not provide the same broad
+
+14   directive to stop selling or sharing data. Conflating or combining a consumer' s right to opt-out
+
+15   with cookie choices or using other design elements that require multiple steps, unnecessarily
+
+16   request additional information, or prompt confirmation can be confusing or add unnecessary
+
+17   burden for consumers seeking to exercise their privacy rights.
+
+18         2.    Sling TV is an internet-based live TV and media streaming service that collects and
+
+19   processes consumer personal information in connection with targeted adve1iising on its platform.
+
+20   Sling TV deceptively directed consumers seeking to exercise their CCPA right to opt-out to its
+
+21   cookie preference controls-even though cookies are not the only way Sling TV sells and shares
+
+22   consumers' data. Consumers who figured out that turning off cookies would not stop all selling
+
+23   and sharing of their information had to click through hard-to-find links and fill out a webform to
+
+24   actually opt out. Even logged-in customers, where Sling TV already had the information
+
+25   necessary to stop selling or sharing the customer' s personal information, were required to provide
+
+26   additional information. Sling TV also did not provide an opt-out method within its apps, even
+
+27   though most Sling TV customers use the app on various connected living-room devices to access
+
+28   its services. Instead, Sling TV customers were required to type in a complicated URL in a
+                                                      2
+                                                 COMPLAINT
+ 1   separate web browser and work through several additional steps. In doing so, Sling TV violated
+
+ 2   the CCPA by failing to provide consumers with easy-to-use methods to opt out of selling and
+
+ 3   sharing of their personal information.
+
+ 4         3.    Unlike other streaming services, while Sling TV allowed users to create user profiles
+
+ 5   by asking " Who ' s Watching?", it did not offer parents the ability to set one or more user profiles
+
+ 6   as a " kid ' s profile" that would eliminate or limit the use of targeted advertising when children are
+
+ 7   watching. Nor did Sling TV otherwise age-screen users, default off personalized adve11ising, or
+
+ 8   obtain affirmative "opt-in" authorization when children likely were watching on shared household
+
+ 9   devices. For these and other reasons, Sling TV did not implement sufficient protections for the
+
+10   data of children watching Sling TV.
+
+11                                                  PARTIES
+
+12         4.    Plaintiff is the People of the State of California. The People bring this action by and
+
+13   through Attorney General Rob Banta. The Attorney General is authorized to bring this action
+
+14   under Civil Code section 1798.199.90 and Business and Professions Code sections 17204 and
+
+15   17206.
+
+16         5.    Defendant Sling TV L.L.C. is a Delaware limited liability company headquartered in
+
+17   Englewood, Colorado. Sling TV L.L.C. is an affiliate of Dish Network L.L.C . and an indirect
+
+18   subsidiary ofEchoStar Corporation. Sling TV L.L.C. is the operating entity of the Sling TV
+
+19   internet-based live TV and streaming service.
+
+20         6.    Defendant Dish Media Sales L.L.C. is a Colorado limited liability company
+
+21   headquat1ered in Englewood, Colorado. Dish Media Sales L.L.C. is a Sling TV L.L.C. affiliate
+
+22   that works with advet1isers interested in exposure to audiences on Sling TV, including through
+
+23   targeted adve11ising campaigns. Defendants Sling TV L.L.C. and Dish Media Sales L.L.C. are
+
+24   collectively referred to herein as Sling TV.
+
+25                                    JURISDICTION AND VENUE
+
+26         7.    Sling TV has conducted and continues to conduct business within the State of
+
+27   California, including the City and County of Los Angeles, at all times relevant to this complaint.
+
+28
+                                                        3
+                                                    COMPLAINT
+ 1   The violations of law described herein were committed or occurred in the City and County of Los
+
+ 2   Angeles and elsewhere in the State of California.
+
+ 3                                     FACTUAL ALLEGATIONS
+
+ 4         8.    Sling TV was the first internet-based live TV service. Sling TV operates an app-
+
+ 5   based, live television and streaming service that lets consumers watch spot1s, movies, and shows
+
+ 6   live or on demand over the internet. Sling TV offers both paid subscriptions and a free ad-
+
+ 7   suppot1ed streaming service called FreeStream. Sling TV includes advet1ising in both its
+
+ 8   subscription and Freestream versions. Sling TV operates a website at www.sling.com and the
+
+ 9   Sling TV application on various living room devices including sma11/connected TVs, mobile
+
+10   devices, and gaming consoles.
+
+11         9.    Sling TV ' s revenue includes both subscription fees and advet1ising revenue. Unlike
+
+12   traditional cable and broadcast TV service, Sling TV's internet-based streaming service engages
+
+13   in targeted advertising using the personal information of its customers similar to targeted
+
+14   advet1ising on the internet. Sling TV sells or shares consumer personal information in connection
+
+15   with targeted advertising.
+
+16         10.   To enhance its profits, Sling TV buys data about its customers, improving its targeted
+
+17   adve11ising capabilities and making its ad spots more valuable to its advet1ising clients. Sling TV
+
+18   purchases, licenses, or otherwise collects data about its customers and their households from
+
+19   various data brokers and third-party vendors based on activity across businesses, distinctly
+
+20   branded internet websites, applications, or services other than Sling TV (third-party data). The
+
+21   third-party data includes detailed information such as age, gender, income, locati on, interests,
+
+22   party affiliation, home and car ownership, and other detailed demographic and psychographic
+
+23   attributes. Sling TV combines this third-party data about its customers with the data it has directly
+
+24   from its customers (first-patty data) to create an enhanced data set for targeted adve11ising
+
+25   purposes. This allows Sling TV to maximize its advet1ising profits, providing advet1isers the
+
+26   valuable oppot1unity to precisely target consumers on its platform. This is a form of "cross-
+
+27   context behavioral adve11ising" as defined in the CCPA, Civil Code, section 1798.140,
+
+28   subdivision (k).
+                                                       4
+                                                 COMPLAINT
+     1         I. Sling TV Violated the CCPA By Not Providing Easy-to-Execute Methods for
+                  Consumers to Opt Out of the Selling and Sharing of Their Personal Information.
+     2
+
+     3         11.   Sling TV made interface design choices that made it difficult for consumers seeking
+
+     4   to effectuate their right to opt-out. Instead of a "Do Not Sell My Personal Information" link, Sling
+
+     5   TV posted a "Your Privacy Choices" link, which directed consumers to cookie preferences. In
+
+     6   this context, cookie preferences are not the same as a CCPA opt-out of the sale and sharing of a
+
+     7   consumer's personal information. Cookie choices typically include options to allow, limit, or
+     8   refuse cookies placed in a browser or to manage similar tracking technologies on an internet
+
+     9   website. But the CCPA opt-out right is broader: it permits a consumer to direct the business to
+
+    10   stop all cookie-based and non-cookie-based selling and sharing of the consumer's personal
+
+    11   information across browsers, devices, and offline. Sling TV's cookie choices did not operate as a
+
+    12   CCPA opt-out directing the business to stop all selling and sharing of the consumer's personal
+
+    13   information.
+
+    14         12.   Consumers who figured out that rejecting advertising and analytics cookies would not
+
+    15   give them the protections mandated by the CCPA had to locate a link embedded in text that
+
+    16   directed them to a separate opt-out page. To make matters worse, in one version Sling TV
+
+-   17   deceptively characterized cookie choices as "Do Not Sell/Share My Info," indicated "Opted In"
+
+    18   when cookies were allowed and "Opted Out" when cookies were turned off, and required
+
+    19   consumers to find and click on an unlabeled caret to reveal the opt-out webform. This further led
+
+    20   consumers to believe that merely turning off cookies was sufficient to effectuate their CCPA
+
+    21   rights, added additional unnecessary steps, and likely deterred consumers from completing their
+
+    22   CCPA opt-out request. Those consumers who successfully navigated their way through these
+
+    23   steps and submitted the webform were then directed to a "Review your Request" page where they
+
+    24   were asked "Are you sure?" and told "Please note: Being added to our 'Do Not Sell' list may
+
+    25   result in losing some of the customization of advertisements to your interests."
+
+    26         13.   In addition, logged-in customers were unnecessarily burdened with this same multi-
+
+    27   step opt-out process. When customers log into their Sling TV account, Sling TV can identify
+
+    28   them without requiring the user to provide additional information. Nevertheless, to submit an opt-
+                                                          s
+                                                    COMPLAINT
+                                                                  I ---
+
+
+
+ 1   out request, Sling TV required these logged-in and therefore already-identified consumers to
+
+ 2   unnecessarily find and fill out a webform with their name, address, phone number, and email
+
+ 3   address-information already available to Sling TV.
+
+ 4         14.   Compounding matters, the majority of consumers access Sling TV via a Sling TV app
+
+ 5   available for various living-room devices such as TVs, players, and gaming consoles (e.g., Roku,
+ 6   Apple TV, Amazon Fire TV Stick, Google TV, Samsung, LG, Vizo, Tivo, Xbox). Consumers
+
+ 7   could not opt out within Sling TV's app. Instead, consumers had to use a different device with an
+
+ 8   internet connection and type the following complicated, 55-character, non-obvious URL:
+
+ 9   www.sling.com/offer-details/disclaimers/your-privacychoices. This URL directed the consumer
+
+10   to the cookie preferences page associated with Sling TV's website. But changing cookie
+
+11   preferences on Sling TV's website only stopped certain cookies and similar tracking technologies
+
+12   on the specific browser used to access Sling TV's website-with no effect on Sling.TV
+
+13   continuing to sell or share the consumer's personal information when consumers returned to
+
+14   watching Sling TV on their living-room device via the Sling TV app. Similar to website users,
+
+15   consumers had to realize that rejecting cookies was not the same as submitting a CCPA opt out
+
+16   and then had to locate a link embedded in text that directed them to a separate opt-out page.
+
+17         15.   In sum, Sling TV's opt-out methods on its website, on mobile, and on various devices
+
+18   using the Sling TV app were not easy for consumers to execute, did not require minimal steps,
+
+19   confused or deceived consumers, used hard-to-find links either embedded in text or unlabeled,
+
+20   required filling out a webform - even for logged-in users, included a separate confirmation page,
+
+21   and did not sufficiently consider the methods by which Sling TV primarily interacts with
+
+22   consumers on app-based devices.
+
+23        II. Sling TV Did Not Provide Sufficient Privacy Protections for Children.
+24         16.   Sling TV's terms of use and other notices stated that its service is not intended to be
+
+25   used by persons under the age of 18. But Sling TV knew that children under 16 years old watch
+
+26   Sling TV. Sling TV includes channels and programming directed to children. Programmers notify
+
+27   Sling TV when their programming licensed to Sling TV is directed to children. Sling TV also
+
+28   offers consumers the ability to use parental controls. Sling TV has access to demographic,
+                                                      6
+                                                COMPLAINT
+ 1   interest, and other account-level data about its consumers and their households obtained from data
+
+ 2   brokers and other third-party vendors, including the presence of children under 16 years old in the
+
+ 3   household. Further, Sling TV uses data about the presence of children in the household, and, in
+
+ 4   some cases, that the children are within certain age ranges, to build specific groups of viewers
+
+ 5   that can be targeted for cross-context behavioral advertising.
+
+ 6         17.   Sling TV implemented advertising restrictions for certain channels targeting
+
+ 7   audiences under 13 years of age. However, Sling TV did not implement sufficient privacy
+
+ 8   protections for children. Although Sling TV asked consumers "Who's Watching?" when they log-
+
+ 9   in to their account, and consumers are able to create multiple user profiles for their household,
+
+10   Sling TV did not offer parents the ability to set one or more user profiles as a "kid's profile" that
+
+11   turned off the collection, sale, and sharing of consumer's personal information and cross-context
+
+12   behavioral advertising when children are watching. Nor did Sling TV age screen users or seek
+
+13   affirmative authorization from consumers under 16 years of age, or parental "opt-in" consent for
+
+14   children less than 13 years of age, for selling or sharing personal information when children
+
+15   watch Sling TV.
+16         18.   Sling TV did not turn off the collection, sale, and sharing of personal information or
+
+17   cross-context behavioral advertising when parental controls were turned on or otherwise when
+
+18   children likely were watching Sling TV.
+
+19         19.   Sling TV did not regularly review its channels and programing to confirm channels
+
+20   directed to children were designated for restricted advertising treatment. Some channels directed
+
+21   to children were not appropriately designated for restricted treatment.
+
+22         20.   Sling TV did not protect children's privacy by default and did not provide parents
+
+23   with sufficient information and tools to protect their children's privacy.
+
+24
+
+25
+
+26
+
+27
+
+28
+                                                       7
+                                                 COMPLAINT
+ 1                                        FIRST CAUSE OF ACTION
+
+ 2           FOR VIOLATIONS OF THE CALIFORNIA CONSUMER PRIVACY ACT,
+                         CIVIL CODE SECTION 1798.100 ET SEQ.
+ 3
+                   (Against Defendants Sling TV L.L.C. and Dish Media Sales L.L.C.)
+ 4
+
+ 5         21.   The People reallege and incorporate by reference each of the paragraphs above as
+
+ 6   though fully set forth herein.
+
+ 7         22.   Defendants have engaged in acts or practices that violated the CCPA within the
+
+ 8   meaning of Civil Code section 1798.199.90. These acts or practices include, but are not limited
+
+ 9   to, the following:
+10                 a. Failing to provide methods for submitting requests to opt-out of sale/sharing that
+
+11                        are easy for consumers to execute and require minimal steps. (Civ. Code
+
+12                        §§ 1798.120, subd. (a), 1798.135, subd. (a); Cal. Code Regs., tit. 11, § 7026,
+
+13                        subd. (b).)
+14                 b. Failing to provide easy to read and understandable disclosures and
+
+15                        communications to consumers, including elements that are confusing or
+
+16                        deceptive to consumers, adding additional steps, and adding unnecessary burden
+
+17                        or friction to the process by combining the CCPA opt out with cookie choices in
+
+18                        a confusing manner. (Civ. Code§§ 1798.120, subd. (a), 1798.135, subd. (a);
+
+19                        Cal. Code Regs., tit. 11, §§ 7003, subd. (a), 7004, and 7026, subds. (a), (b), (c)
+
+20                        and (d).)
+21                 c. Requiring a logged-in consumer submitting a request to opt-out of sale/sharing
+
+22                        to provide additional information beyond what is necessary to direct the
+
+23                        business not to sell or share the consumer's personal information. (Civ. Code
+
+24                        §§ 1798.120, subd. (a), 1798.135, subd. (c)(l); Cal. Code Regs., tit. 11, § 7026,
+
+25                        subd. (c).)
+
+26                 d. Failing to provide an easy-to-use method for submitting requests to opt-out of
+
+27                        sale/sharing reflecting the manner in which the business primarily interacts with
+
+28
+                                                          8
+                                                    COMPLAINT
+ 1                     its customers, on app-based devices. (Civ. Code§ 1798.120, subd. (a); Cal.
+
+ 2                     Code Regs., tit. 11, § 7026, subd. (a).)
+
+ 3                 e. Selling or sharing the personal information of consumers and engaging in cross-
+
+ 4                     context behavioral advertising with actual knowledge that the consumer was less
+
+ 5                     than 16 years of age without obtaining the required affirmative authorization. In
+
+ 6                     the alternative, Sling TV willfully disregarded the consumer's age. (Civ. Code,
+
+ 7                     § 1798.120, subd. (c).)
+
+ 8                                    SECOND CAUSE OF ACTION
+
+ 9                 FOR VIOLATIONS OF THE UNFAIR COMPETITION LAW,
+                  BUSINESS AND PROFESSIONS CODE SECTION 17200 ET SEQ.
+10
+                   (Against Defendants Sling TV L.L.C. and Dish Media Sales L.L.C.)
+11
+
+12         23.    The People reallege and incorporate by reference each of the paragraphs above as
+
+13   though fully set forth herein.
+
+14         24.    Sling TV has engaged in unlawful, unfair, or fraudulent acts or practices, which
+
+15   constitute unfair competition within the meaning of Section 17200 of the Business and
+
+16   Professions Code. These acts or practices may include, but are not limited to, violations of the
+
+17   following:
+
+18                 a. Civil Code section 1798.120, subdivisions (a) and (c);
+
+19                 b. Civil Code section 1798.135, subdivisions (a) and (c); and
+
+20                 c. California Code of Regulations, title 11, sections 7003, 7004, and 7026.
+
+21         25.    Sling TV also has engaged in fraudulent acts or practices by use of deceptive controls
+
+22   or dark patterns by, among other things, directing consumers to cookie choices that purported to
+
+23   allow them to stop all selling and sharing of their personal information but failed to do so.
+
+24                                        PRAYER FOR RELIEF
+
+25         WHEREFORE, the People pray for judgment as follows:
+
+26         1.     Pursuant to Civil Code section 1798.199.90, that the Court enter an injunction to
+
+27   prevent Defendants Sling TV L.L.C. and Dish Media Sales L.L.C., as well as their successors,
+
+28   agents, representatives, employees, and all persons who act in concert with them from engaging
+                                                       9
+                                                 COMPLAINT
+                                                                      l----
+                                                                      \
+                                                                          '
+
+
+ 1   in any act or practice that violates CCPA, including, but not limited to, as alleged in this
+
+ 2   Complaint;
+
+ 3            2.   Pursuant to Civil Code section 1798.199.90, that the Couii assess civil penalties of
+
+ 4   two thousand six hundred sixty-three dollars ($2,663) against each defendant for each violation of
+
+ 5   CCPA, or seven thousand nine hundred eighty~eight dollars ($7,988) for each intentional
+
+ 6   violation and each violation involving the personal information of minor consumers, as proven at
+
+ 7   trial;
+ 8            3.   Pursuant to Business and Professions Code section 17203, that the Court enter an
+
+ 9   injunction and make such orders or judgments as may be necessary to prevent Defendants Sling
+
+10   TV L.L.C. and Dish Media Sales L.L.C., as well as their successors, agents, representatives,
+11   employees, and all persons who act in concert with them from engaging in any act or practice
+
+12   which constitutes unfair competition;
+
+13            4.   Pursuant to Business and Professions Code section 17203, that the Court make such
+
+14   orders or judgments as may be necessary to restore any person in interest any money or property
+
+15   which may have been acquired by means of unfair competition in an amount according to proof;
+
+16            5.   Pursuant to Business and Professions Code section 17206, that the Court assess civil
+
+17   penalties of two thousand five hundred dollars ($2,500) against each defendant for each violation
+
+18   of Business and Professions Code section 17200, as proven at trial;
+
+19            6.   Under the authority of Government Code section 12527.6, that the Court award the
+
+20   remedy of disgorgement in an amount according to proof;
+
+21            7.   That the People recover their costs of suit; and
+
+22            8.   For such other and further relief as the Court deems just and proper.
+
+23   Dated: Octoberga, 2025                             Respectfully submitted,
+24
+
+25
+26                                                      AMOS    . HARTSTON
+                                                        Deputy Attorney General
+27                                                      Attorneys for the People of the State of
+                                                        Calffornia
+28
+                                                        10
+                                                  COMPLAINT
+

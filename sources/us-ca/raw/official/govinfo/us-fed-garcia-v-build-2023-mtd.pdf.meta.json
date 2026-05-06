@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-garcia-v-build-2023-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_22-cv-01985/pdf/USCOURTS-casd-3_22-cv-01985-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:4e618e363a7c424620df4fa24971d432553fc5a3f815aacb04ba05f8c64b35cb",
+  "bytes": 972642
+}

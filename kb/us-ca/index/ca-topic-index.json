@@ -1,0 +1,2136 @@
+{
+  "type": "ca_topic_index",
+  "count": 13,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "topics": [
+    {
+      "id": "notice_at_collection",
+      "title": "Notice at Collection and Privacy Disclosures",
+      "summary": "When and how a business must disclose categories, purposes, sale/share status, retention, and rights at or before collection.",
+      "search_terms": [
+        "notice at collection",
+        "privacy policy",
+        "categories collected",
+        "retention",
+        "CalOPPA"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.100",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.100",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.100.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7012",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7012",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7012.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7003",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7003",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7003.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7011",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7011",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7011.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-bpc-22575",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Bus. & Prof. Code § 22575",
+          "path": "library/grade-a/ca-caloppa/bpc-22575.md",
+          "source_family": "ca-caloppa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-cppa-laws-regulations",
+          "authority_group": "guidance",
+          "label": "CPPA Laws & Regulations",
+          "path": "library/grade-a/ca-cppa-guidance/cppa-laws-regulations.md",
+          "source_family": "ca-cppa-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-oag-doordash-2024-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. DoorDash",
+          "path": "library/grade-b/ca-enforcement-actions/oag-doordash-2024-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Do not substitute an OAG FAQ for the statute or CPPA regulations.",
+        "Separate CCPA notice-at-collection duties from CalOPPA privacy-policy posting duties."
+      ],
+      "comparative_hooks": [
+        "GDPR Arts. 13-14",
+        "PIPA privacy policy and collection notice rules"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "opt_out_sale_share_gpc",
+      "title": "Opt Out of Sale/Share and GPC",
+      "summary": "Consumer opt-out rights for sale/share, opt-out links, opt-out preference signals, and frictionless processing.",
+      "search_terms": [
+        "opt-out",
+        "sale",
+        "share",
+        "GPC",
+        "global privacy control",
+        "preference signal"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.120",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.120",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.120.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.135",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.135",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.135.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7025",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7025",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7025.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7013",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7013",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7013.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7026",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7026",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7026.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7004",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7004",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7004.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-ccpa-enforcement-examples",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Enforcement Case Examples",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa-enforcement-examples.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-oag-sephora-2022-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Sephora, Inc.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-sephora-2022-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-cppa-honda-2025-stipulated-final-order",
+          "authority_group": "enforcement",
+          "label": "In the Matter of American Honda Motor Co., Inc.",
+          "path": "library/grade-b/ca-administrative-orders/cppa-honda-2025-stipulated-final-order.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-disney-2026-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. The Walt Disney Company",
+          "path": "library/grade-b/ca-enforcement-actions/oag-disney-2026-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-sling-tv-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Sling TV L.L.C. and Dish Media Sales L.L.C.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-sling-tv-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-joint-gpc-2025-sweep",
+          "authority_group": "enforcement",
+          "label": "Joint GPC opt-out investigative sweep by California, Colorado, and Connecticut",
+          "path": "library/grade-b/ca-enforcement-actions/oag-joint-gpc-2025-sweep.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Do not call enforcement settlements judicial precedent.",
+        "Check whether the issue is sale, share, or both."
+      ],
+      "comparative_hooks": [
+        "GDPR objection/direct marketing",
+        "PIPA third-party provision consent"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "sensitive_personal_information",
+      "title": "Sensitive Personal Information and Limit Use",
+      "summary": "Definition and limit-use framework for sensitive personal information, including notice and risk-assessment overlap.",
+      "search_terms": [
+        "sensitive personal information",
+        "limit use",
+        "precise geolocation",
+        "health data"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.121",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.121",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.121.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.140",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.140",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.140.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7014",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7014",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7014.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7027",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7027",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7027.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7150",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7150",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7150.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-oag-healthline-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Healthline Media LLC",
+          "path": "library/grade-b/ca-enforcement-actions/oag-healthline-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [
+        {
+          "id": "ca-supreme-brown-v-mortensen-2011",
+          "authority_group": "case",
+          "label": "Brown v. Mortensen",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/brown-v-mortensen-2011.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "ca-supreme-raines-v-us-healthworks-2023",
+          "authority_group": "case",
+          "label": "Raines v. U.S. Healthworks Medical Group",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/raines-v-us-healthworks-2023.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "us-fed-mg-v-therapymatch-2024-mtd",
+          "authority_group": "case",
+          "label": "M.G. v. Therapymatch, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/mg-v-therapymatch-2024-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-mg-v-therapymatch-2025-mtd",
+          "authority_group": "case",
+          "label": "M.G. v. Therapymatch, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/mg-v-therapymatch-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-zarif-v-healthwarehouse-2025-mtd",
+          "authority_group": "case",
+          "label": "Zarif v. Hwareh.com, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/zarif-v-healthwarehouse-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-rc-v-sussex-2025-mtd",
+          "authority_group": "case",
+          "label": "R.C. v. Sussex Publishers, LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/rc-v-sussex-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        }
+      ],
+      "answer_cautions": [
+        "Medical or health-related data may also require CMIA analysis.",
+        "Private-right-of-action analysis is narrower than general CCPA compliance analysis."
+      ],
+      "comparative_hooks": [
+        "GDPR special categories",
+        "PIPA sensitive information"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "data_minimization_purpose_limitation",
+      "title": "Data Minimization and Purpose Limitation",
+      "summary": "Reasonable, necessary, and proportionate collection/use/retention under the CCPA and CPPA regulations.",
+      "search_terms": [
+        "data minimization",
+        "purpose limitation",
+        "necessary and proportionate",
+        "retention"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.100",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.100",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.100.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7002",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7002",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7002.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-civ-1798.185",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.185",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.185.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7012",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7012",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7012.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-cppa-laws-regulations",
+          "authority_group": "guidance",
+          "label": "CPPA Laws & Regulations",
+          "path": "library/grade-a/ca-cppa-guidance/cppa-laws-regulations.md",
+          "source_family": "ca-cppa-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-oag-healthline-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Healthline Media LLC",
+          "path": "library/grade-b/ca-enforcement-actions/oag-healthline-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-surveillance-pricing-2026-sweep",
+          "authority_group": "enforcement",
+          "label": "Surveillance pricing investigative sweep",
+          "path": "library/grade-b/ca-enforcement-actions/oag-surveillance-pricing-2026-sweep.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Tie the answer to disclosed purposes and consumer reasonable expectations.",
+        "Avoid saying California uses GDPR terminology unless comparing frameworks."
+      ],
+      "comparative_hooks": [
+        "GDPR Arts. 5(1)(b)-(c)",
+        "PIPA purpose limitation and minimum collection"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "service_provider_contracts",
+      "title": "Service Provider, Contractor, and Third Party Contracts",
+      "summary": "Contract requirements, restrictions, and downstream processing duties for service providers and contractors.",
+      "search_terms": [
+        "service provider",
+        "contractor",
+        "third party",
+        "contract",
+        "written agreement"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.140",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.140",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.140.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7050",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7050",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7050.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7051",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7051",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7051.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7052",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7052",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7052.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7022",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7022",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7022.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-oag-sephora-2022-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Sephora, Inc.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-sephora-2022-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-doordash-2024-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. DoorDash",
+          "path": "library/grade-b/ca-enforcement-actions/oag-doordash-2024-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Do not assume a vendor is a service provider without the required contractual restrictions.",
+        "Marketing cooperative disclosures may implicate sale analysis."
+      ],
+      "comparative_hooks": [
+        "GDPR processor contracts",
+        "PIPA outsourcing"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "data_breach_private_right",
+      "title": "Data Breach and CCPA Private Right of Action",
+      "summary": "Reasonable security, California breach-notice statutes, and the limited CCPA private right of action.",
+      "search_terms": [
+        "data breach",
+        "private right of action",
+        "reasonable security",
+        "1798.150",
+        "breach notice"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.150",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.150",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.150.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.81.5",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.81.5",
+          "path": "library/grade-a/ca-customer-records/civ-1798.81.5.md",
+          "source_family": "ca-customer-records",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.82",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.82",
+          "path": "library/grade-a/ca-customer-records/civ-1798.82.md",
+          "source_family": "ca-customer-records",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-civ-1798.80",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.80",
+          "path": "library/grade-a/ca-customer-records/civ-1798.80.md",
+          "source_family": "ca-customer-records",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.84",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.84",
+          "path": "library/grade-a/ca-customer-records/civ-1798.84.md",
+          "source_family": "ca-customer-records",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [],
+      "cases": [
+        {
+          "id": "us-9th-in-re-california-pizza-kitchen-2025",
+          "authority_group": "case",
+          "label": "In re California Pizza Kitchen, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/in-re-california-pizza-kitchen-2025.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "us-fed-randles-v-nationstar-transfer-2024",
+          "authority_group": "case",
+          "label": "Randles v. Nationstar Mortgage, LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/randles-v-nationstar-transfer-2024.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-little-seeds-v-citibank-2025-mtd",
+          "authority_group": "case",
+          "label": "Little Seeds Children's Center, Inc. v. Citibank, N.A.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/little-seeds-v-citibank-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-maag-v-us-bank-2021-discovery",
+          "authority_group": "case",
+          "label": "Maag v. U.S. Bank National Association",
+          "path": "library/grade-a/us-federal-ccpa-opinions/maag-v-us-bank-2021-discovery.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-in-re-consumer-vehicle-driving-data-2026-mtd",
+          "authority_group": "case",
+          "label": "In re Consumer Vehicle Driving Data Tracking Collection",
+          "path": "library/grade-a/us-federal-ccpa-opinions/in-re-consumer-vehicle-driving-data-2026-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        }
+      ],
+      "answer_cautions": [
+        "The CCPA private right of action is narrower than general CCPA violations.",
+        "Federal district court decisions are persuasive, not California appellate precedent."
+      ],
+      "comparative_hooks": [
+        "GDPR breach notification and damages",
+        "PIPA breach notification"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "risk_assessments",
+      "title": "Risk Assessments",
+      "summary": "When a business must conduct risk assessments and what the assessment must include under 2026 CPPA regulations.",
+      "search_terms": [
+        "risk assessment",
+        "significant risk",
+        "ADMT",
+        "sensitive personal information"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.185",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.185",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.185.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7150",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7150",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7150.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7151",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7151",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7151.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7152",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7152",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7152.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7153",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7153",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7153.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-cppa-ccpa-updates-2025",
+          "authority_group": "guidance",
+          "label": "CCPA Updates, Cybersecurity Audits, Risk Assessments, ADMT, and Insurance Regulations",
+          "path": "library/grade-a/ca-cppa-guidance/cppa-ccpa-updates-2025.md",
+          "source_family": "ca-cppa-rulemaking",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [],
+      "cases": [],
+      "answer_cautions": [
+        "Use the 2026 effective regulation text and retrieved date.",
+        "Do not overstate older CCPA materials as containing the 2026 risk-assessment details."
+      ],
+      "comparative_hooks": [
+        "GDPR DPIA",
+        "PIPA privacy impact assessment"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "admt",
+      "title": "Automated Decisionmaking Technology",
+      "summary": "ADMT notices, opt-out/access rights, appeals, and exceptions under the 2026 CPPA regulations.",
+      "search_terms": [
+        "ADMT",
+        "automated decisionmaking",
+        "significant decision",
+        "access ADMT",
+        "appeal"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.185",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.185",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.185.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7200",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7200",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7200.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7221",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7221",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7221.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7010",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7010",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7010.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7011",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7011",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7011.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7220",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7220",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7220.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-cppa-ccpa-updates-2025",
+          "authority_group": "guidance",
+          "label": "CCPA Updates, Cybersecurity Audits, Risk Assessments, ADMT, and Insurance Regulations",
+          "path": "library/grade-a/ca-cppa-guidance/cppa-ccpa-updates-2025.md",
+          "source_family": "ca-cppa-rulemaking",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [],
+      "cases": [],
+      "answer_cautions": [
+        "The ADMT rules are part of the 2026 regulation package.",
+        "Check exceptions before saying opt-out is always required."
+      ],
+      "comparative_hooks": [
+        "GDPR Art. 22",
+        "PIPA automated decision response rights"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "minors_children",
+      "title": "Minors and Children",
+      "summary": "CCPA opt-in rules for minors, child-directed enforcement, SOPIPA, and Age-Appropriate Design Code issues.",
+      "search_terms": [
+        "minor",
+        "child",
+        "under 16",
+        "under 13",
+        "SOPIPA",
+        "Age-Appropriate Design Code"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.120",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.120",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.120.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-bpc-22584",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Bus. & Prof. Code § 22584",
+          "path": "library/grade-a/ca-sopipa/bpc-22584.md",
+          "source_family": "ca-sopipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.28",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.28",
+          "path": "library/grade-a/ca-age-appropriate-design-code/civ-1798.99.28.md",
+          "source_family": "ca-age-appropriate-design-code",
+          "source_grade": "",
+          "authority_level": "binding_with_litigation_caution",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-bpc-22585",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Bus. & Prof. Code § 22585",
+          "path": "library/grade-a/ca-sopipa/bpc-22585.md",
+          "source_family": "ca-sopipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.31",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.31",
+          "path": "library/grade-a/ca-age-appropriate-design-code/civ-1798.99.31.md",
+          "source_family": "ca-age-appropriate-design-code",
+          "source_grade": "",
+          "authority_level": "binding_with_litigation_caution",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.32",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.32",
+          "path": "library/grade-a/ca-age-appropriate-design-code/civ-1798.99.32.md",
+          "source_family": "ca-age-appropriate-design-code",
+          "source_grade": "",
+          "authority_level": "binding_with_litigation_caution",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Page",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-cppa-playon-2026-order-of-decision",
+          "authority_group": "enforcement",
+          "label": "In the Matter of 2080 Media, Inc. d/b/a PlayOn Sports",
+          "path": "library/grade-b/ca-administrative-orders/cppa-playon-2026-order-of-decision.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-tilting-point-2024-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Tilting Point Media LLC",
+          "path": "library/grade-b/ca-enforcement-actions/oag-tilting-point-2024-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-sling-tv-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Sling TV L.L.C. and Dish Media Sales L.L.C.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-sling-tv-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-jam-city-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Jam City, Inc.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-jam-city-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Age-Appropriate Design Code obligations require current litigation/injunction status checks.",
+        "COPPA may also apply but is not part of this California KB."
+      ],
+      "comparative_hooks": [
+        "GDPR child consent",
+        "PIPA children privacy safeguards"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "cipa_website_tracking",
+      "title": "CIPA Website Tracking, Chat, and Session Replay",
+      "summary": "California Invasion of Privacy Act issues around wiretapping, eavesdropping, call recording, chat widgets, pixels, and session replay.",
+      "search_terms": [
+        "CIPA",
+        "session replay",
+        "chat widget",
+        "wiretap",
+        "Penal Code 631",
+        "Penal Code 632.7"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-pen-631",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 631",
+          "path": "library/grade-a/ca-cipa/pen-631.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-632.7",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 632.7",
+          "path": "library/grade-a/ca-cipa/pen-632.7.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-637.2",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 637.2",
+          "path": "library/grade-a/ca-cipa/pen-637.2.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-pen-630",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 630",
+          "path": "library/grade-a/ca-cipa/pen-630.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-632",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 632",
+          "path": "library/grade-a/ca-cipa/pen-632.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-638.55",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 638.55",
+          "path": "library/grade-a/ca-cipa/pen-638.55.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [],
+      "enforcement": [],
+      "cases": [
+        {
+          "id": "ca-supreme-smith-v-loanme-2021",
+          "authority_group": "case",
+          "label": "Smith v. LoanMe, Inc.",
+          "path": "library/grade-a/ca-courts-published-opinions/smith-v-loanme-2021.md",
+          "source_family": "ca-courts-published-opinions",
+          "source_grade": "A",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "ca-supreme-kearney-v-salomon-smith-barney-2006",
+          "authority_group": "case",
+          "label": "Kearney v. Salomon Smith Barney, Inc.",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/kearney-v-salomon-smith-barney-2006.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "ca-supreme-flanagan-v-flanagan-2002",
+          "authority_group": "case",
+          "label": "Flanagan v. Flanagan",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/flanagan-v-flanagan-2002.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
+        },
+        {
+          "id": "us-9th-javier-v-assurance-iq-2022",
+          "authority_group": "case",
+          "label": "Javier v. Assurance IQ, LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/javier-v-assurance-iq-2022.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "unpublished_non_citable"
+        },
+        {
+          "id": "us-fed-garcia-v-build-2023-mtd",
+          "authority_group": "case",
+          "label": "Garcia v. Build.com, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/garcia-v-build-2023-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-garcia-v-build-2024-mtd",
+          "authority_group": "case",
+          "label": "Garcia v. Build.com, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/garcia-v-build-2024-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-jones-v-tonal-2024-mtd",
+          "authority_group": "case",
+          "label": "Jones v. Tonal Systems, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/jones-v-tonal-2024-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-graham-v-noom-2021-dismissal",
+          "authority_group": "case",
+          "label": "Graham v. Noom, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/graham-v-noom-2021-dismissal.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-valenzuela-v-keurig-2023-standing-order",
+          "authority_group": "case",
+          "label": "Valenzuela v. Keurig Green Mountain, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/valenzuela-v-keurig-2023-standing-order.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-in-re-facebook-internet-tracking-2017-mtd",
+          "authority_group": "case",
+          "label": "In re Facebook Internet Tracking Litigation",
+          "path": "library/grade-a/us-federal-ccpa-opinions/in-re-facebook-internet-tracking-2017-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-zarif-v-healthwarehouse-2025-mtd",
+          "authority_group": "case",
+          "label": "Zarif v. Hwareh.com, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/zarif-v-healthwarehouse-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-rc-v-sussex-2025-mtd",
+          "authority_group": "case",
+          "label": "R.C. v. Sussex Publishers, LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/rc-v-sussex-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-swarts-v-home-depot-2023-mtd",
+          "authority_group": "case",
+          "label": "Swarts v. The Home Depot, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/swarts-v-home-depot-2023-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        }
+      ],
+      "answer_cautions": [
+        "CIPA is adjacent California privacy law, not CCPA.",
+        "Publication and authority level vary sharply between California Supreme Court, Ninth Circuit memorandum, and district court orders."
+      ],
+      "comparative_hooks": [
+        "GDPR ePrivacy/cookies",
+        "PIPA behavioral tracking and consent"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "cipa_pen_register_pixels",
+      "title": "CIPA Pen Register, Pixels, Cookies, and IP Address Tracking",
+      "summary": "California CIPA pen-register/trap-and-trace theories involving pixels, cookies, IP addresses, tracking scripts, and ad-tech routing data.",
+      "search_terms": [
+        "CIPA pen register",
+        "trap and trace",
+        "pixel",
+        "cookie",
+        "IP address",
+        "ad tech",
+        "638.50",
+        "638.51"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-pen-638.50",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 638.50",
+          "path": "library/grade-a/ca-cipa/pen-638.50.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-638.51",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 638.51",
+          "path": "library/grade-a/ca-cipa/pen-638.51.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-637.2",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 637.2",
+          "path": "library/grade-a/ca-cipa/pen-637.2.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-pen-630",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 630",
+          "path": "library/grade-a/ca-cipa/pen-630.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-pen-631",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Penal Code § 631",
+          "path": "library/grade-a/ca-cipa/pen-631.md",
+          "source_family": "ca-cipa",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [],
+      "enforcement": [],
+      "cases": [
+        {
+          "id": "us-fed-mirmalek-v-la-times-2024-remand",
+          "authority_group": "case",
+          "label": "Mirmalek v. Los Angeles Times Communications LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/mirmalek-v-la-times-2024-remand.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-gabrielli-v-motorola-2025-mtd",
+          "authority_group": "case",
+          "label": "Gabrielli v. Motorola Mobility LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/gabrielli-v-motorola-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-garon-v-keleops-2025-mtd",
+          "authority_group": "case",
+          "label": "Garon v. Keleops USA, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/garon-v-keleops-2025-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-fed-swarts-v-home-depot-2023-mtd",
+          "authority_group": "case",
+          "label": "Swarts v. The Home Depot, Inc.",
+          "path": "library/grade-a/us-federal-ccpa-opinions/swarts-v-home-depot-2023-mtd.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "us-9th-javier-v-assurance-iq-2022",
+          "authority_group": "case",
+          "label": "Javier v. Assurance IQ, LLC",
+          "path": "library/grade-a/us-federal-ccpa-opinions/javier-v-assurance-iq-2022.md",
+          "source_family": "us-federal-ccpa-opinions",
+          "source_grade": "A",
+          "authority_level": "persuasive",
+          "precedential_status": "unpublished_non_citable"
+        }
+      ],
+      "answer_cautions": [
+        "CIPA pen-register cases are fast-moving and often federal district court persuasive authority.",
+        "Separate section 631 wiretap/eavesdropping theories from sections 638.50 and 638.51 pen-register theories."
+      ],
+      "comparative_hooks": [
+        "GDPR/ePrivacy cookies and tracking",
+        "PIPA behavioral advertising and tracking consent"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "data_brokers_delete_act",
+      "title": "Data Brokers and Delete Act",
+      "summary": "California data broker registration and deletion mechanism provisions collected from LegInfo.",
+      "search_terms": [
+        "data broker",
+        "Delete Act",
+        "DROP",
+        "registration",
+        "accessible deletion mechanism"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.99.80",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.80",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.80.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.81",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.81",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.81.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.82",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.82",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.82.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-civ-1798.99.84",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.84",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.84.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.85",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.85",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.85.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.86",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.86",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.86.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.99.89",
+          "authority_group": "adjacent_statute",
+          "label": "Cal. Civ. Code § 1798.99.89",
+          "path": "library/grade-a/ca-data-broker-delete-act/civ-1798.99.89.md",
+          "source_family": "ca-data-broker-delete-act",
+          "source_grade": "",
+          "authority_level": "binding",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-cppa-laws-regulations",
+          "authority_group": "guidance",
+          "label": "CPPA Laws & Regulations",
+          "path": "library/grade-a/ca-cppa-guidance/cppa-laws-regulations.md",
+          "source_family": "ca-cppa-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [],
+      "cases": [],
+      "answer_cautions": [
+        "Do not collapse data broker duties into ordinary CCPA business duties.",
+        "Check current CPPA rulemaking and implementation status for operational details."
+      ],
+      "comparative_hooks": [
+        "GDPR data broker transparency",
+        "PIPA personal information file registration/comparable governance"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    },
+    {
+      "id": "enforcement_authority",
+      "title": "OAG/CPPA Enforcement Authority and Administrative Materials",
+      "summary": "Civil and administrative enforcement powers, investigation rules, and how to use enforcement materials as nonprecedential authority.",
+      "search_terms": [
+        "enforcement",
+        "administrative order",
+        "civil penalty",
+        "CPPA",
+        "OAG",
+        "settlement"
+      ],
+      "primary_authorities": [
+        {
+          "id": "ca-civ-1798.155",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.155",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.155.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.199.35",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.199.35",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.35.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-civ-1798.199.90",
+          "authority_group": "statute",
+          "label": "Cal. Civ. Code § 1798.199.90",
+          "path": "library/grade-a/ca-ccpa-statute/civ-1798.199.90.md",
+          "source_family": "",
+          "source_grade": "A",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "supporting_authorities": [
+        {
+          "id": "ca-11-ccr-7300",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7300",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7300.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7301",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7301",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7301.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7302",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7302",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7302.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7303",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7303",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7303.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7304",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7304",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7304.md",
+          "source_family": "",
+          "source_grade": "",
+          "authority_level": "",
+          "precedential_status": ""
+        }
+      ],
+      "guidance": [
+        {
+          "id": "ca-oag-ccpa-enforcement-examples",
+          "authority_group": "guidance",
+          "label": "California OAG CCPA Enforcement Case Examples",
+          "path": "library/grade-a/ca-oag-guidance/oag-ccpa-enforcement-examples.md",
+          "source_family": "ca-oag-guidance",
+          "source_grade": "",
+          "authority_level": "nonbinding_guidance",
+          "precedential_status": ""
+        }
+      ],
+      "enforcement": [
+        {
+          "id": "ca-cppa-honda-2025-stipulated-final-order",
+          "authority_group": "enforcement",
+          "label": "In the Matter of American Honda Motor Co., Inc.",
+          "path": "library/grade-b/ca-administrative-orders/cppa-honda-2025-stipulated-final-order.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-cppa-ford-2026-order-of-decision",
+          "authority_group": "enforcement",
+          "label": "In the Matter of Ford Motor Company",
+          "path": "library/grade-b/ca-administrative-orders/cppa-ford-2026-order-of-decision.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-cppa-playon-2026-order-of-decision",
+          "authority_group": "enforcement",
+          "label": "In the Matter of 2080 Media, Inc. d/b/a PlayOn Sports",
+          "path": "library/grade-b/ca-administrative-orders/cppa-playon-2026-order-of-decision.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-sephora-2022-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Sephora, Inc.",
+          "path": "library/grade-b/ca-enforcement-actions/oag-sephora-2022-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-doordash-2024-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. DoorDash",
+          "path": "library/grade-b/ca-enforcement-actions/oag-doordash-2024-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-healthline-2025-settlement-press",
+          "authority_group": "enforcement",
+          "label": "People v. Healthline Media LLC",
+          "path": "library/grade-b/ca-enforcement-actions/oag-healthline-2025-settlement-press.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-joint-gpc-2025-sweep",
+          "authority_group": "enforcement",
+          "label": "Joint GPC opt-out investigative sweep by California, Colorado, and Connecticut",
+          "path": "library/grade-b/ca-enforcement-actions/oag-joint-gpc-2025-sweep.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-oag-surveillance-pricing-2026-sweep",
+          "authority_group": "enforcement",
+          "label": "Surveillance pricing investigative sweep",
+          "path": "library/grade-b/ca-enforcement-actions/oag-surveillance-pricing-2026-sweep.md",
+          "source_family": "",
+          "source_grade": "B",
+          "authority_level": "administrative",
+          "precedential_status": ""
+        }
+      ],
+      "cases": [],
+      "answer_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Distinguish press releases from complaints, stipulated judgments, and final agency orders."
+      ],
+      "comparative_hooks": [
+        "GDPR supervisory authority enforcement",
+        "PIPA regulator corrective orders and penalties"
+      ],
+      "missing_authority_ids": [],
+      "coverage_status": "pass"
+    }
+  ],
+  "authority_to_topics": {
+    "ca-11-ccr-7002": [
+      "data_minimization_purpose_limitation"
+    ],
+    "ca-11-ccr-7003": [
+      "notice_at_collection"
+    ],
+    "ca-11-ccr-7004": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-11-ccr-7010": [
+      "admt"
+    ],
+    "ca-11-ccr-7011": [
+      "admt",
+      "notice_at_collection"
+    ],
+    "ca-11-ccr-7012": [
+      "data_minimization_purpose_limitation",
+      "notice_at_collection"
+    ],
+    "ca-11-ccr-7013": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-11-ccr-7014": [
+      "sensitive_personal_information"
+    ],
+    "ca-11-ccr-7022": [
+      "service_provider_contracts"
+    ],
+    "ca-11-ccr-7025": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-11-ccr-7026": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-11-ccr-7027": [
+      "sensitive_personal_information"
+    ],
+    "ca-11-ccr-7050": [
+      "service_provider_contracts"
+    ],
+    "ca-11-ccr-7051": [
+      "service_provider_contracts"
+    ],
+    "ca-11-ccr-7052": [
+      "service_provider_contracts"
+    ],
+    "ca-11-ccr-7150": [
+      "risk_assessments",
+      "sensitive_personal_information"
+    ],
+    "ca-11-ccr-7151": [
+      "risk_assessments"
+    ],
+    "ca-11-ccr-7152": [
+      "risk_assessments"
+    ],
+    "ca-11-ccr-7153": [
+      "risk_assessments"
+    ],
+    "ca-11-ccr-7200": [
+      "admt"
+    ],
+    "ca-11-ccr-7220": [
+      "admt"
+    ],
+    "ca-11-ccr-7221": [
+      "admt"
+    ],
+    "ca-11-ccr-7300": [
+      "enforcement_authority"
+    ],
+    "ca-11-ccr-7301": [
+      "enforcement_authority"
+    ],
+    "ca-11-ccr-7302": [
+      "enforcement_authority"
+    ],
+    "ca-11-ccr-7303": [
+      "enforcement_authority"
+    ],
+    "ca-11-ccr-7304": [
+      "enforcement_authority"
+    ],
+    "ca-bpc-22575": [
+      "notice_at_collection"
+    ],
+    "ca-bpc-22584": [
+      "minors_children"
+    ],
+    "ca-bpc-22585": [
+      "minors_children"
+    ],
+    "ca-civ-1798.100": [
+      "data_minimization_purpose_limitation",
+      "notice_at_collection"
+    ],
+    "ca-civ-1798.120": [
+      "minors_children",
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-civ-1798.121": [
+      "sensitive_personal_information"
+    ],
+    "ca-civ-1798.135": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-civ-1798.140": [
+      "sensitive_personal_information",
+      "service_provider_contracts"
+    ],
+    "ca-civ-1798.150": [
+      "data_breach_private_right"
+    ],
+    "ca-civ-1798.155": [
+      "enforcement_authority"
+    ],
+    "ca-civ-1798.185": [
+      "admt",
+      "data_minimization_purpose_limitation",
+      "risk_assessments"
+    ],
+    "ca-civ-1798.199.35": [
+      "enforcement_authority"
+    ],
+    "ca-civ-1798.199.90": [
+      "enforcement_authority"
+    ],
+    "ca-civ-1798.80": [
+      "data_breach_private_right"
+    ],
+    "ca-civ-1798.81.5": [
+      "data_breach_private_right"
+    ],
+    "ca-civ-1798.82": [
+      "data_breach_private_right"
+    ],
+    "ca-civ-1798.84": [
+      "data_breach_private_right"
+    ],
+    "ca-civ-1798.99.28": [
+      "minors_children"
+    ],
+    "ca-civ-1798.99.31": [
+      "minors_children"
+    ],
+    "ca-civ-1798.99.32": [
+      "minors_children"
+    ],
+    "ca-civ-1798.99.80": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.81": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.82": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.84": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.85": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.86": [
+      "data_brokers_delete_act"
+    ],
+    "ca-civ-1798.99.89": [
+      "data_brokers_delete_act"
+    ],
+    "ca-cppa-ccpa-updates-2025": [
+      "admt",
+      "risk_assessments"
+    ],
+    "ca-cppa-ford-2026-order-of-decision": [
+      "enforcement_authority"
+    ],
+    "ca-cppa-honda-2025-stipulated-final-order": [
+      "enforcement_authority",
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-cppa-laws-regulations": [
+      "data_brokers_delete_act",
+      "data_minimization_purpose_limitation",
+      "notice_at_collection"
+    ],
+    "ca-cppa-playon-2026-order-of-decision": [
+      "enforcement_authority",
+      "minors_children"
+    ],
+    "ca-oag-ccpa": [
+      "data_breach_private_right",
+      "minors_children",
+      "notice_at_collection",
+      "opt_out_sale_share_gpc",
+      "sensitive_personal_information",
+      "service_provider_contracts"
+    ],
+    "ca-oag-ccpa-enforcement-examples": [
+      "enforcement_authority",
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-oag-disney-2026-settlement-press": [
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-oag-doordash-2024-settlement-press": [
+      "enforcement_authority",
+      "notice_at_collection",
+      "service_provider_contracts"
+    ],
+    "ca-oag-healthline-2025-settlement-press": [
+      "data_minimization_purpose_limitation",
+      "enforcement_authority",
+      "sensitive_personal_information"
+    ],
+    "ca-oag-jam-city-2025-settlement-press": [
+      "minors_children"
+    ],
+    "ca-oag-joint-gpc-2025-sweep": [
+      "enforcement_authority",
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-oag-sephora-2022-settlement-press": [
+      "enforcement_authority",
+      "opt_out_sale_share_gpc",
+      "service_provider_contracts"
+    ],
+    "ca-oag-sling-tv-2025-settlement-press": [
+      "minors_children",
+      "opt_out_sale_share_gpc"
+    ],
+    "ca-oag-surveillance-pricing-2026-sweep": [
+      "data_minimization_purpose_limitation",
+      "enforcement_authority"
+    ],
+    "ca-oag-tilting-point-2024-settlement-press": [
+      "minors_children"
+    ],
+    "ca-pen-630": [
+      "cipa_pen_register_pixels",
+      "cipa_website_tracking"
+    ],
+    "ca-pen-631": [
+      "cipa_pen_register_pixels",
+      "cipa_website_tracking"
+    ],
+    "ca-pen-632": [
+      "cipa_website_tracking"
+    ],
+    "ca-pen-632.7": [
+      "cipa_website_tracking"
+    ],
+    "ca-pen-637.2": [
+      "cipa_pen_register_pixels",
+      "cipa_website_tracking"
+    ],
+    "ca-pen-638.50": [
+      "cipa_pen_register_pixels"
+    ],
+    "ca-pen-638.51": [
+      "cipa_pen_register_pixels"
+    ],
+    "ca-pen-638.55": [
+      "cipa_website_tracking"
+    ],
+    "ca-supreme-brown-v-mortensen-2011": [
+      "sensitive_personal_information"
+    ],
+    "ca-supreme-flanagan-v-flanagan-2002": [
+      "cipa_website_tracking"
+    ],
+    "ca-supreme-kearney-v-salomon-smith-barney-2006": [
+      "cipa_website_tracking"
+    ],
+    "ca-supreme-raines-v-us-healthworks-2023": [
+      "sensitive_personal_information"
+    ],
+    "ca-supreme-smith-v-loanme-2021": [
+      "cipa_website_tracking"
+    ],
+    "us-9th-in-re-california-pizza-kitchen-2025": [
+      "data_breach_private_right"
+    ],
+    "us-9th-javier-v-assurance-iq-2022": [
+      "cipa_pen_register_pixels",
+      "cipa_website_tracking"
+    ],
+    "us-fed-gabrielli-v-motorola-2025-mtd": [
+      "cipa_pen_register_pixels"
+    ],
+    "us-fed-garcia-v-build-2023-mtd": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-garcia-v-build-2024-mtd": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-garon-v-keleops-2025-mtd": [
+      "cipa_pen_register_pixels"
+    ],
+    "us-fed-graham-v-noom-2021-dismissal": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-in-re-consumer-vehicle-driving-data-2026-mtd": [
+      "data_breach_private_right"
+    ],
+    "us-fed-in-re-facebook-internet-tracking-2017-mtd": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-jones-v-tonal-2024-mtd": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-little-seeds-v-citibank-2025-mtd": [
+      "data_breach_private_right"
+    ],
+    "us-fed-maag-v-us-bank-2021-discovery": [
+      "data_breach_private_right"
+    ],
+    "us-fed-mg-v-therapymatch-2024-mtd": [
+      "sensitive_personal_information"
+    ],
+    "us-fed-mg-v-therapymatch-2025-mtd": [
+      "sensitive_personal_information"
+    ],
+    "us-fed-mirmalek-v-la-times-2024-remand": [
+      "cipa_pen_register_pixels"
+    ],
+    "us-fed-randles-v-nationstar-transfer-2024": [
+      "data_breach_private_right"
+    ],
+    "us-fed-rc-v-sussex-2025-mtd": [
+      "cipa_website_tracking",
+      "sensitive_personal_information"
+    ],
+    "us-fed-swarts-v-home-depot-2023-mtd": [
+      "cipa_pen_register_pixels",
+      "cipa_website_tracking"
+    ],
+    "us-fed-valenzuela-v-keurig-2023-standing-order": [
+      "cipa_website_tracking"
+    ],
+    "us-fed-zarif-v-healthwarehouse-2025-mtd": [
+      "cipa_website_tracking",
+      "sensitive_personal_information"
+    ]
+  }
+}

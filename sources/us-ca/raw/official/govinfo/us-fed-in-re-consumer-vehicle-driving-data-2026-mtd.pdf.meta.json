@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-in-re-consumer-vehicle-driving-data-2026-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-gand-1_24-md-03115/pdf/USCOURTS-gand-1_24-md-03115-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-gand-1_24-md-03115/pdf/USCOURTS-gand-1_24-md-03115-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:907576db52c2d7f6df5e7117a1582e29a64653cb1cb18a0d943892346e8a232c",
+  "bytes": 1077991
+}

@@ -1,0 +1,1263 @@
+                                       Case 4:25-cv-01517-HSG             Document 23      Filed 11/10/25      Page 1 of 19
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                   UNITED STATES DISTRICT COURT
+
+                                   5                                  NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7     LITTLE SEEDS CHILDREN'S CENTER,                    Case No. 25-cv-01517-HSG
+                                         INC., et al.,
+                                   8                                                        ORDER GRANTING IN PART AND
+                                                        Plaintiffs,                         DENYING IN PART MOTION TO
+                                   9                                                        DISMISS
+                                                 v.
+                                  10                                                        Re: Dkt. No. 13
+                                         CITIBANK, N.A.,
+                                  11
+                                                        Defendant.
+                                  12
+
+
+
+ United States District Court
+                                  13          Pending before the Court is Defendant’s motion to dismiss Plaintiffs’ complaint. See Dkt.
+
+                                  14   No. 13 (“Mot.”); Dkt. No. 17 (“Opp.”); Dkt. No. 18 (“Reply”). The Court finds this matter
+
+                                  15   appropriate for disposition without oral argument and the matter is deemed submitted. See Civil
+
+
+
+Northern District of California
+                                  16   L.R. 7-1(b). For the reasons discussed below, the Court GRANTS IN PART and DENIES IN
+
+                                  17   PART the motion to dismiss.
+
+                                  18     I.   BACKGROUND
+                                  19          Plaintiffs Little Seeds Children’s Center, Inc. (“LSCC”), LSCC CEO Mahvash Kamrani,
+                                  20   and LSCC CFO Hossein Kamrani filed a lawsuit against Defendant Citibank, N.A., in February
+                                  21   2025, bringing various state law actions arising out of a series of allegedly fraudulent wire
+                                  22   transfers. See Dkt. No. 1-1 (“Compl.”) ¶¶ 1–2, 17. Plaintiffs Mahvash and Hossein Kamrani have
+                                  23   held bank accounts with Defendant since 1999, and those accounts have been used to manage
+                                  24   LSCC’s funds. See id. ¶¶ 12–13. Before July 2024, Plaintiffs conducted all their business in
+                                  25   person. Id. ¶ 14. Plaintiffs allege that, between 1999 and 2024, Defendant’s standard practice was
+                                  26   to contact Plaintiffs via email or text message and by phone regarding potential account
+                                  27   interference and to “confirm any transaction that appeared out-of-the-norm.” Id. ¶¶ 15, 17. In one
+                                  28   instance, someone attempted to deposit fraudulent checks from LSCC’s account, and Defendant’s
+                                       Case 4:25-cv-01517-HSG            Document 23          Filed 11/10/25    Page 2 of 19
+
+
+
+
+                                   1   local branch manager contacted Plaintiffs to confirm the check was legitimate. Id. ¶ 16.
+
+                                   2          In July 2024, Plaintiffs were allegedly convinced “over [their] initial reluctance” by
+
+                                   3   Defendant’s agents at an Alameda branch to begin scanning their checks and to use a security key
+
+                                   4   to authorize transactions remotely. Id. ¶¶ 19–20. The security key provided a one-time password
+
+                                   5   used in combination with Plaintiffs’ username and password to log into Defendant’s website. Id.
+
+                                   6   ¶ 21. Plaintiffs allege that they were told by the Alameda branch agents that the security key
+
+                                   7   “would provide added protections on top of the ability to conduct important transactions in person
+
+                                   8   and the account monitoring and the already agreed-upon security protocol of phone calls for
+
+                                   9   potentially suspicious transactions.” Id. ¶¶ 71, 80.
+
+                                  10          On October 1, 2024, Plaintiffs were allegedly called by “Jason B.,” an individual using a
+
+                                  11   Citibank phone number and purporting to be an employee at Citibank’s fraud department. Id.
+
+                                  12   ¶¶ 29–43. On the call, Jason B. alerted Plaintiffs to a dozen pending wire transfers that had been
+
+
+
+ United States District Court
+                                  13   issued against Plaintiffs’ accounts and pretended to freeze them, but in actuality, he convinced
+
+                                  14   Plaintiffs to use the security key to trigger completion of the wire transfers. See id. Plaintiffs
+
+                                  15   claim they never provided any confidential personal information on this call, and “Jason B.
+
+
+
+Northern District of California
+                                  16   already had all of this information before calling Plaintiffs.” Id. ¶ 43. In total, $717,293.08 was
+
+                                  17   stolen across almost twenty wire transfers, many of which occurred within the span of an hour,
+
+                                  18   and most of which went to recipients in Florida. Id. ¶¶ 27, 95–96, 100. Plaintiffs allege they had
+
+                                  19   “no history of requesting or authorizing wire fund transfers of any kind . . . let alone multiple wire
+
+                                  20   transfers in one day or for large sums of money.” Id. ¶ 26.
+
+                                  21          Plaintiffs now seek to recover from Defendant on theories of negligent and intentional
+
+                                  22   misrepresentation, violation of various California statutes, and negligent hiring. 1 Defendant
+
+                                  23   moved to dismiss all claims. Dkt. No. 13.
+
+                                  24
+
+                                  25
+                                       1
+                                  26     The first three claims (negligent misrepresentation, intentional misrepresentation, and violation
+                                       of the California Commercial Code) are brought by Plaintiff LSCC. The fourth and fifth claims
+                                  27   (violation of the California Consumer Privacy Act and the California Consumer Records Act) are
+                                       brought by the Kamranis as individuals. The remaining two claims are brought by all Plaintiffs.
+                                  28   Because these distinctions have no bearing on the outcome today, the Court refers generally to
+                                       “Plaintiffs” throughout.
+                                                                                         2
+                                       Case 4:25-cv-01517-HSG             Document 23          Filed 11/10/25     Page 3 of 19
+
+
+
+
+                                   1    II.    LEGAL STANDARD
+
+                                   2           Federal Rule of Civil Procedure 8(a) requires that a complaint contain “a short and plain
+
+                                   3   statement of the claim showing that the pleader is entitled to relief.” Fed. R. Civ. P. 8(a)(2). A
+
+                                   4   defendant may move to dismiss a complaint for failing to state a claim upon which relief can be
+
+                                   5   granted under Rule 12(b)(6). “Dismissal under Rule 12(b)(6) is appropriate only where the
+
+                                   6   complaint lacks a cognizable legal theory or sufficient facts to support a cognizable legal theory.”
+
+                                   7   Mendiondo v. Centinela Hosp. Med. Ctr., 521 F.3d 1097, 1104 (9th Cir. 2008). To survive a Rule
+
+                                   8   12(b)(6) motion, a plaintiff need only plead “enough facts to state a claim to relief that is plausible
+
+                                   9   on its face.” Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570 (2007). A claim is facially plausible
+
+                                  10   when a plaintiff pleads “factual content that allows the court to draw the reasonable inference that
+
+                                  11   the defendant is liable for the misconduct alleged.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009).
+
+                                  12   In reviewing the plausibility of a complaint, courts “accept factual allegations in the complaint as
+
+
+
+ United States District Court
+                                  13   true and construe the pleadings in the light most favorable to the nonmoving party.” Manzarek v.
+
+                                  14   St. Paul Fire & Marine Ins. Co., 519 F.3d 1025, 1031 (9th Cir. 2008). Nevertheless, courts do not
+
+                                  15   “accept as true allegations that are merely conclusory, unwarranted deductions of fact, or
+
+
+
+Northern District of California
+                                  16   unreasonable inferences.” In re Gilead Scis. Sec. Litig., 536 F.3d 1049, 1055 (9th Cir. 2008)
+
+                                  17   (quotation omitted).
+
+                                  18           Even if the court concludes that a 12(b)(6) motion should be granted, the “court should
+
+                                  19   grant leave to amend even if no request to amend the pleading was made, unless it determines that
+
+                                  20   the pleading could not possibly be cured by the allegation of other facts.” Lopez v. Smith, 203
+
+                                  21   F.3d 1122, 1127 (9th Cir. 2000) (en banc) (quotation omitted).
+
+                                  22   III.    DISCUSSION
+                                  23           Defendant seeks dismissal on several grounds, including (1) under the economic loss rule;
+
+                                  24   (2) for failure to state a claim under Rule 9(b); (3) for failure to state a claim for negligent hiring
+
+                                  25   and under various violations of the California Commercial Code, California Consumer Privacy
+
+                                  26   Act, and California Consumer Records Act; and (4) for failure to plead an adequate remedy at law.
+
+                                  27   Mot. at 8–9.
+
+                                  28
+                                                                                           3
+                                       Case 4:25-cv-01517-HSG            Document 23          Filed 11/10/25     Page 4 of 19
+
+
+
+
+                                   1               i.     Negligent Misrepresentation (Claim One)
+
+                                   2          Plaintiffs allege that Defendant’s employees stated that the security key was an additional
+
+                                   3   security measure on top of the existing phone and email notifications, and that Defendant knew or
+
+                                   4   should have known that the security key was a replacement for these procedures. Compl. ¶¶ 71,
+
+                                   5   75. Defendant contends that the economic loss doctrine bars Plaintiffs’ negligent
+
+                                   6   misrepresentation cause of action because Plaintiff LSCC’s relationship with Defendant is
+
+                                   7   contractual, and Plaintiffs do not allege any physical injury or property damage. Mot. at 13.
+
+                                   8          The “economic loss rule prevents the law of contract and the law of tort from dissolving
+
+                                   9   one into the other.” Robinson Helicopter Co. v. Dana Corp., 34 Cal. 4th 979, 988 (2004) (internal
+
+                                  10   quotation and alteration omitted). “The rule itself is deceptively easy to state: In general, there is
+
+                                  11   no recovery in tort for negligently inflicted ‘purely economic losses,’ meaning financial harm
+
+                                  12   unaccompanied by physical or property damage.” Sheen v. Wells Fargo Bank, N.A., 12 Cal. 5th
+
+
+
+ United States District Court
+                                  13   905, 922 (2022).
+
+                                  14          This Court has previously interpreted the California Supreme Court’s holding in Robinson
+
+                                  15   Helicopter to mean that “a negligent misrepresentation claim paralleling a contract claim that
+
+
+
+Northern District of California
+                                  16   prays only for economic damages will be barred by the economic loss rule unless the plaintiff
+
+                                  17   alleges both that the defendant made an affirmative misrepresentation, and that the defendant’s
+
+                                  18   misrepresentation exposed the plaintiff to independent personal liability.” Crystal Springs Upland
+
+                                  19   Sch. v. Fieldturf USA, Inc., 219 F. Supp. 3d 962, 970 (N.D. Cal. 2016); see also Farrales v. Ford
+
+                                  20   Motor Co., No. 21-CV-07624-HSG, 2022 WL 1239347, at *9 (N.D. Cal. Apr. 27, 2022) (noting
+
+                                  21   that “[i]n the absence of California Supreme Court authority, the Court continues to read Robinson
+
+                                  22   Helicopter as a narrow exception to the economic loss rule”). In other words, “non-economic loss
+
+                                  23   is a required element of a negligence cause of action alleged in a sale of goods case, and thus non-
+
+                                  24   economic loss must be pleaded to survive a motion to dismiss.” Ladore v. Sony Comput. Ent. Am.,
+
+                                  25   LLC, 75 F. Supp. 3d 1065, 1075 (N.D. Cal. 2014).
+
+                                  26          The California Supreme Court recently elaborated regarding the economic loss doctrine in
+
+                                  27   Rattagan v. Uber Technologies., Inc., 17 Cal. 5th 1 (2024), when it considered whether fraudulent
+
+                                  28   concealment claims are exempt from the doctrine. The Court analyzed the history of the economic
+                                                                                          4
+                                       Case 4:25-cv-01517-HSG            Document 23          Filed 11/10/25    Page 5 of 19
+
+
+
+
+                                   1   loss doctrine and held that fraudulent concealment claims are exempt from the doctrine, which
+
+                                   2   “does not apply to limit recovery for intentional tort claims like fraud” and only applies when “the
+
+                                   3   parties have entered into a contract; the plaintiff sues for tort damages, alleging defendant failed to
+
+                                   4   perform as the contract requires; and [the defendant] negligently caused economic losses flowing
+
+                                   5   from the breach,” not “physical damage or personal injury beyond the economic losses.” Id. at 38,
+
+                                   6   44.
+
+                                   7          However, the court also clarified that the economic loss doctrine and the holding in
+
+                                   8   Robinson Helicopter are just specific applications of the “independent tort principle,” which holds
+
+                                   9   that “[b]roader tort liability only arises if a defendant violates an independent legal duty and the
+
+                                  10   type of harm that ensues was not reasonably contemplated or accounted for by the contractual
+
+                                  11   parties.” See id. at 26, 34, 37. Under this broader principle, courts must “(1) ascertain the full
+
+                                  12   scope of the parties’ contractual agreement”; (2) “determine whether there is an independent tort
+
+
+
+ United States District Court
+                                  13   duty to refrain from the alleged conduct”; and (3) “if an independent duty exists . . . consider
+
+                                  14   whether the plaintiff can establish all elements of the tort independently of the rights and duties
+
+                                  15   assumed by the parties under the contract.” Id. at 26. As a result, the Rattagan court ultimately
+
+
+
+Northern District of California
+                                  16   held that “[a] plaintiff may assert a tort claim for fraudulent concealment based on conduct
+
+                                  17   occurring in the course of a contractual relationship, if the elements of the cause of action can be
+
+                                  18   established independently of the parties’ contractual rights and obligations and the tortious
+
+                                  19   conduct exposes the plaintiff to a risk of harm beyond the reasonable contemplation of the parties
+
+                                  20   when they entered into the agreement.” Id. at 38.
+
+                                  21          Courts already differ in how they apply Rattagan. See Iwatani Corp. of Am. v. Nel Asa,
+
+                                  22   No. 8:24-CV-00192-JVS-KES, 2024 WL 4800080, at *5–*6 (C.D. Cal. Oct. 18, 2024), corrected
+
+                                  23   in relevant part sub nom. Iwatani Corp. v. Nel Asa, No. 8:24-CV-00192-JVS-KES, 2024 WL
+
+                                  24   4800078 (C.D. Cal. Oct. 29, 2024) (dismissing negligent misrepresentation claim but not
+
+                                  25   intentional misrepresentation claims, and distinguishing between breaches of contractual promises
+
+                                  26   and breaches of duties growing out of a contract); Dolby Lab’ys Licensing Corp. v. Roku, Inc., No.
+
+                                  27   24-CV-04660-EJD, 2025 WL 2021803, at *12 (N.D. Cal. July 18, 2025) (applying Rattagan, and
+
+                                  28   focusing on whether plaintiffs alleged non-economic loss when assessing the risk of harm beyond
+                                                                                          5
+                                       Case 4:25-cv-01517-HSG           Document 23          Filed 11/10/25    Page 6 of 19
+
+
+
+
+                                   1   the reasonable contemplation of the parties). Most notably, multiple courts have suggested that
+
+                                   2   fraudulent inducement claims can survive without conducting the full Rattagan inquiry, reasoning
+
+                                   3   that these claims are controlled by a fraudulent inducement exception that the California Supreme
+
+                                   4   Court declined to overturn from Dhital v. Nissan North America, Inc., 84 Cal. App. 5th 828
+
+                                   5   (2022). See, e.g., Moore v. Am. Honda Motor Co., No. 5:23-CV-05011-BLF, 2025 WL 948114
+
+                                   6   (N.D. Cal. Mar. 28, 2025) (“By expressly calling out the distinction between Rattagan’s facts and
+
+                                   7   the fraudulent inducement cases and then dismissing the appeal of Dhital without vacating,
+
+                                   8   reversing, or otherwise altering the court of appeal’s opinion, the California Supreme Court
+
+                                   9   indicated that the reasoning in Dhital should guide [such] claims . . . .”); Ramos v. Ford Motor
+
+                                  10   Co., No. 2:24-CV-04066-AH-(JPRX), 2025 WL 1606917, at *5 (C.D. Cal. Apr. 16, 2025). Dhital
+
+                                  11   held that fraudulent inducement is an exception to the economic loss rule “because a defendant’s
+
+                                  12   conduct in fraudulently inducing someone to enter a contract is separate from the defendant’s later
+
+
+
+ United States District Court
+                                  13   breach of the contract or warranty provisions that were agreed to.” 84 Cal. App. 5th at 841.
+
+                                  14   While Dhital discusses intentional omissions and misrepresentations, some recent cases have
+
+                                  15   applied this “fraudulent inducement exception” to negligent misrepresentations, reasoning that
+
+
+
+Northern District of California
+                                  16   negligent misrepresentation is a species of fraud that should be treated the same as intentional
+
+                                  17   omissions. See Shared P’ship v. Meta Platforms, Inc., No. 22-CV-02366-RS, 2024 WL 4280936,
+
+                                  18   at *5 (N.D. Cal. Sept. 23, 2024) (citing non-precedential case Kalitta Air, L.L.C. v. Cent. Texas
+
+                                  19   Airborne Sys., Inc., 315 F. App’x 603, 607 (9th Cir. 2008)).
+
+                                  20          Here, the Court must apply the test articulated in Rattagan. The Court agrees that
+
+                                  21   Rattagan permits at least some claims for fraudulent inducement. Rattagan, 1 Cal. 5th at 41 (“[I]t
+
+                                  22   has long been the rule that where a contract is secured by fraudulent representations, the injured
+
+                                  23   party may elect to affirm the contract and sue for the fraud.”) (quotation omitted). But Rattagan
+
+                                  24   also provides a controlling framework for analyzing tort liability, and the Court will not bypass
+
+                                  25   this analysis and extend Dhital’s reasoning to a different cause of action absent clear guidance
+
+                                  26   from the California Supreme Court. The Court is especially reluctant to do so because Rattagan’s
+
+                                  27   extensive discussion of the independent tort principle and economic loss doctrine suggests that the
+
+                                  28   line between tort and contract remedies is highly context-specific, and depends on the nature of the
+                                                                                         6
+                                       Case 4:25-cv-01517-HSG            Document 23        Filed 11/10/25      Page 7 of 19
+
+
+
+
+                                   1   contract and the principles underpinning contract and tort remedies. 2 Nothing in Rattagan
+
+                                   2   suggests that claims can be easily and categorically excluded: to the contrary, the court provided
+
+                                   3   further clarification about when fraudulent concealment claims would be permitted in contractual
+
+                                   4   disputes, even after determining that the narrower economic loss rule did not apply. 3
+
+                                   5          Applying Rattagan, the Court finds that Plaintiffs may have adequately pleaded a violation
+
+                                   6   of an independent tort duty to survive at this early pleading stage. Here, Plaintiffs do not allege
+
+                                   7   that Defendant “use[d] its affirmative misrepresentations as a means of breaching its contract”;
+
+                                   8   rather, they seem to allege that Defendant’s “affirmative misrepresentations were [used] to induce
+
+                                   9   [them] to accept the [security key], something [Defendant] could not have accomplished
+
+                                  10   independently without engaging in [allegedly] fraudulent conduct.” Rattagan, 17 Cal. 5th at 36
+
+                                  11   (discussing the holding of Robinson Helicopter) (emphasis in original).
+
+                                  12          However, even assuming (without deciding) that they can clear the independent duty
+
+
+
+ United States District Court
+                                  13   hurdle, Plaintiffs have not adequately pleaded that they were exposed to liability “beyond the
+
+                                  14   reasonable contemplation of the parties that might result from a breach when they entered into
+
+                                  15   their contract.” Id. Plaintiffs argue that the failure to use the agreed-upon security measures
+
+
+
+Northern District of California
+                                  16   created a significant risk of reputational damage and future non-compliance with California
+
+                                  17   regulations regarding childcare facilities. Opp. at 11. But those harms are not alleged in the
+
+                                  18   complaint. 4 All that remains is a purely economic loss—stolen funds—that falls within the
+
+                                  19
+
+                                  20   2
+                                         For similar reasons, the Court rejects Plaintiffs’ argument that it should not apply the economic
+                                  21   loss doctrine because many courts in this circuit have held that the economic loss rule does not bar
+                                       negligent misrepresentation claims. Opp. at 9–10. It is true that many courts have declined to
+                                  22   extend the economic loss rule to negligent misrepresentation claims. See, e.g., Phillips v.
+                                       Brooklyn Bedding LLC, No. 23-CV-03781-RFL, 2024 WL 2830663, at *7 (N.D. Cal. Mar. 28,
+                                  23   2024) (collecting cases). But none of the cases cited by Plaintiffs addressed Rattagan’s holding,
+                                       which this Court is required to apply.
+                                  24   3
+                                         Moreover, Plaintiffs do not brief the issue of whether Dhital should apply to their claim for
+                                  25   negligent misrepresentation, and the Court is not convinced from the existing allegations that this
+                                       is a case—like Dhital—where a contract was secured by misrepresentation, as opposed to a case
+                                  26   where a misrepresentation arose during the course of an existing contractual relationship.
+                                       4
+                                  27    In light of this fact, the Court need not determine if these two harms were beyond the reasonable
+                                       contemplation of the parties. But the Court is skeptical that these harms—variants of which could
+                                  28   be alleged in almost any case involving a bank’s failure to safeguard funds—are the types of
+                                       uncontemplated harms that Rattagan and Robinson Helicopter were addressing.
+                                                                                          7
+                                       Case 4:25-cv-01517-HSG              Document 23       Filed 11/10/25       Page 8 of 19
+
+
+
+
+                                   1   reasonable contemplation of an agreement to safeguard that money. The Court finds Rattagan’s
+
+                                   2   description of Robinson Helicopter instructive: there, despite the fact that the plaintiff “would not
+
+                                   3   have accepted delivery and used the nonconforming [parts]” if not for the defendant’s
+
+                                   4   misrepresentations, the court still analyzed the “risk of harm far beyond the disappointment of its
+
+                                   5   expectancy interest in contract fulfillment . . . including potential liability for personal injury or
+
+                                   6   property damage and disciplinary action by the FAA.” Rattagan, 17 Cal. 5th at 33–34. Plaintiffs
+
+                                   7   include no comparable allegations, so the Court DISMISSES this claim with leave to amend. 5
+
+                                   8              ii.    Intentional Misrepresentation (Claim Two)
+                                   9           Defendant also moves to dismiss Plaintiff LSCC’s intentional misrepresentation claim,
+
+                                  10   arguing that Plaintiffs fail to plead an actual misrepresentation, intent, reasonable reliance, and
+
+                                  11   causation with the adequate particularity required by Rule 9(b). Mot. at 14–15. 6
+
+                                  12           “The elements of a claim for intentional misrepresentation are (1) a misrepresentation; (2)
+
+
+
+ United States District Court
+                                  13   knowledge of falsity; (3) intent to induce reliance; (4) actual and justifiable reliance; and (5)
+
+                                  14   resulting damage.” Cisco Systems, Inc. v. STMicroelectronics, Inc., 77 F. Supp. 3d 887, 897 (N.D.
+
+                                  15   Cal. 2014). When fraud is an essential element of a claim, Rule 9(b) imposes a heightened
+
+
+
+Northern District of California
+                                  16   pleading standard. See Fed. R. Civ. P. 9(b) (“In alleging fraud or mistake, a party must state with
+
+                                  17   particularity the circumstances constituting fraud or mistake.”); see also Vess v. Ciba–Geigy Corp.
+
+                                  18   USA, 317 F.3d 1097, 1107 (9th Cir. 2003). A plaintiff must identify “the who, what, when, where,
+
+                                  19   and how” of the alleged conduct to provide defendants with sufficient information to defend
+
+                                  20   against the charge. Cooper v. Pickett, 137 F.3d 616, 627 (9th Cir. 1997) (quotation omitted).
+
+                                  21   However, “[m]alice, intent, knowledge, and other conditions of a person’s mind may be alleged
+
+                                  22   generally.” Fed. R. Civ. P. 9(b).
+
+                                  23           Plaintiffs have met these requirements. First, Plaintiffs allege that “[i]n or about July
+
+                                  24
+
+                                  25   5
+                                         While Rattagan’s broader test appears to supersede the Court’s previous interpretation of
+                                  26   Robinson Helicopter, the Court notes that the Robinson Helicopter test would yield the same
+                                       result—Plaintiffs’ claim fails because they have not alleged any independent personal liability.
+                                  27   6
+                                        Defendant makes the same arguments against Plaintiffs’ negligent misrepresentation claim.
+                                  28   Because the Court dismisses that claim on other grounds, the Court does not reach these
+                                       arguments.
+                                                                                       8
+                                       Case 4:25-cv-01517-HSG            Document 23        Filed 11/10/25       Page 9 of 19
+
+
+
+
+                                   1   2024,” Defendant’s “agents at the Alameda branch” misrepresented that “the security token would
+
+                                   2   provide added protections on top of . . . the agreed-upon security measure of account monitoring
+
+                                   3   and phone calls . . . for potentially suspicious transactions,” when really “Defendant [silently]
+
+                                   4   withdrew security support” once Plaintiffs signed up for the security token. Compl. ¶¶ 19, 80–82.
+
+                                   5   Contrary to Defendant’s claims, this establishes enough detail about “who made any purported
+
+                                   6   misrepresentations, what specifically was said, where it was said, [and] what was false about the
+
+                                   7   representation” to satisfy Rule 9(b)’s particularity requirements. See Mot. at 15. 7 Second,
+
+                                   8   Plaintiffs allege that “Defendant did not intend to provide the same level of account monitoring it
+
+                                   9   historically had provided,” “knew that the representation to Plaintiffs . . . was not true or
+
+                                  10   Defendant made the statement with reckless disregard for its truth,” and “Defendant intended for
+
+                                  11   Plaintiffs to rely on its statements.” Compl. ¶¶ 81, 83, 85. Plaintiffs may allege intent generally
+
+                                  12   under Rule 9(b). Third, Plaintiffs specifically allege that they had relied on phone and email
+
+
+
+ United States District Court
+                                  13   account alerts for years, were reluctant to adopt the security key, and only did so because the
+
+                                  14   agents represented that the key would be a supplementary measure. Id. ¶¶ 14–15, 18, 20, 86.
+
+                                  15   Finally, Plaintiffs allege that Defendant reduced its security support once Plaintiffs agreed to use
+
+
+
+Northern District of California
+                                  16   the security key, which permitted the fraudulent wire transfers. Id. ¶ 87. Whether this alleged
+
+                                  17   change in security procedures was a legally sufficient cause of Plaintiff LSCC’s injuries is not
+
+                                  18   something the Court can decide as a matter of law at this early pleading stage. For these reasons,
+
+                                  19   the Court DENIES Defendant’s motion with respect to the intentional misrepresentation claim. 8
+
+                                  20              iii.   Violation of California Commercial Code (Claim Three)
+                                  21          Defendant moves to dismiss Plaintiff LSCC’s claim under the California Commercial
+
+                                  22
+                                       7
+                                  23     Defendant suggests Plaintiffs “[do] not allege with particularity what the anonymous Citibank
+                                       employee actually said (as opposed to what LSCC believed).” Reply at 12 n.4. The Court
+                                  24   disagrees. Plaintiffs plead that “Defendant, by and through [the Alameda branch employees],
+                                       stated that the security token would provide added protections.” Compl. ¶ 80. This describes a
+                                  25   statement, not a belief. Plaintiffs are not required to specifically quote the July 2024 statement to
+                                       provide sufficient notice to Defendant and satisfy the Rule 9(b) standard.
+                                  26   8
+                                         Defendant cites several cases to support its arguments, but these cases are distinguishable. See,
+                                  27   e.g., White v. J.P. Morgan Chase, Inc., 167 F. Supp. 3d 1108, 1115 (E.D. Cal. 2016), aff’d sub
+                                       nom. White v. JPMorgan Chase & Co., 702 F. App’x 642 (9th Cir. 2017) (dismissing largely
+                                  28   because the alleged misrepresentation was a conditional statement that plaintiffs were eligible for
+                                       loan modification pending review of their oral statements).
+                                                                                          9
+                                       Case 4:25-cv-01517-HSG           Document 23        Filed 11/10/25      Page 10 of 19
+
+
+
+
+                                   1   Code. Plaintiffs allege that Defendant (1) incorrectly processed the wire transfers, citing Cal.
+
+                                   2   Com. Code § 11201(b); (2) failed to use commercially reasonable security procedures, see id.
+
+                                   3   § 11202; (3) failed to provide Plaintiff LSCC with proper notification of any errors, see id.
+
+                                   4   § 11204; (4) failed to return the fraudulently wired funds with interest, see id. § 11204; and (5)
+
+                                   5   engaged in unauthorized actions that caused the loss or misdirected the funds, see id. § 11205.
+
+                                   6   Compl. ¶ 90.
+
+                                   7          Defendant first argues that California Commercial Code section 11201(b) does not exist.
+
+                                   8   Mot. at 16. Plaintiffs concede that this was a “typographical error.” Opp. at 21. Plaintiff LSCC’s
+
+                                   9   claim is DISMISSED without leave to amend to the extent it brings an action under section
+
+                                  10   11201(b).
+
+                                  11          Defendant next argues that California Commercial Code section 11205 only “addresses . . .
+
+                                  12   errors in payment orders related to misdescription of the beneficiary, an error in the amount of the
+
+
+
+ United States District Court
+                                  13   transfer, or a duplicate transfer.” Mot. at 17. Plaintiffs agree. Opp. at 26. Plaintiff LSCC’s claim
+
+                                  14   is DISMISSED without leave to amend to the extent it brings an action under section 11205.
+
+                                  15          Defendant next argues that California Commercial Code section 11202 does not itself
+
+
+
+Northern District of California
+                                  16   impose liability. Mot. at 16. The Court agrees: section 11202 defines authorized and effective
+
+                                  17   payment orders. It states that a payment order is authorized if “[the customer] authorized the order
+
+                                  18   or is otherwise bound by it under the law of agency.” Cal. Com. Code § 11202(a). An
+
+                                  19   unauthorized order may nevertheless be effective if “a bank and its customer have agreed that the
+
+                                  20   authenticity of payment orders . . . will be verified pursuant to a security procedure,” “the security
+
+                                  21   procedure is a commercially reasonable method of providing security against unauthorized
+
+                                  22   payment orders,” and “the bank proves that it accepted the payment order in good faith and in
+
+                                  23   compliance with the bank’s obligations under the security procedure and any agreement or
+
+                                  24   instruction of the customer, evidenced by a record, restricting acceptance of payment orders issued
+
+                                  25   in the name of the customer.” Id. § 11202(b).
+
+                                  26          However, Plaintiffs properly bring their cause of action under section 11204 for failure to
+
+                                  27   return the fraudulently wired funds, Compl. ¶ 90(d), so the Court need not dismiss on this ground.
+
+                                  28   Section 11204 states, in relevant part:
+                                                                                         10
+                                       Case 4:25-cv-01517-HSG           Document 23        Filed 11/10/25       Page 11 of 19
+
+
+
+
+                                   1
+                                              “If a receiving bank accepts a payment order issued in the name of its customer as
+                                   2          sender which is (i) not authorized and not effective as the order of the customer
+                                              under Section 11202, or (ii) not enforceable, in whole or in part, against the
+                                   3          customer under Section 11203, the bank shall refund any payment of the payment
+                                              order received from the customer to the extent the bank is not entitled to enforce
+                                   4          payment and shall pay interest on the refundable amount calculated from the date
+                                              the bank received payment to the date of the refund.”
+                                   5
+
+                                   6   Plaintiffs allege that they did not authorize the wire transfers. Compl. ¶¶ 38, 42. They also allege
+
+                                   7   that the wire transfers were not effective under section 11202(b) because Defendant did not have a
+
+                                   8   commercially reasonable security procedure. Id. ¶¶ 90(b), 91–105. “If a payment order was
+
+                                   9   neither authorized nor verified pursuant to a commercially reasonable security procedure that the
+
+                                  10   bank followed in good faith, the bank must bear the loss.” See 800 Columbia Project Co., LLC v.
+
+                                  11   CMB Wing Lung Bank, Ltd., 2022 WL 17884221, at *6 (C.D. Cal. Sept. 19, 2022).
+
+                                  12          Defendant argues that Plaintiffs have not alleged that the use of a security token to confirm
+
+
+
+ United States District Court
+                                  13   authorization for an online transaction is commercially unreasonable or that Defendant failed to
+
+                                  14   follow its security procedures in good faith. Mot. at 16. “Commercial reasonableness of a
+
+                                  15   security procedure is a question of law to be determined by considering the wishes of the customer
+
+
+
+Northern District of California
+                                  16   expressed to the bank, the circumstances of the customer known to the bank, including the size,
+
+                                  17   type, and frequency of payment orders normally issued by the customer to the bank, alternative
+
+                                  18   security procedures offered to the customer, and security procedures in general use by customers
+
+                                  19   and receiving banks similarly situated.” Cal. Com. Code § 11202(c).
+
+                                  20          Plaintiffs allege enough facts to support an inference at the pleading stage that Defendant’s
+
+                                  21   security procedures were not commercially reasonable. For example, Plaintiffs allege that
+
+                                  22   Defendant allowed twelve wire transfers to be completed in an hour, draining more than $300,000
+
+                                  23   from accounts that had never made a wire transfer before, and allege that, “[h]ad Defendant
+
+                                  24   employed adequate security procedures and tools to effectively monitor and respond to anomalous
+
+                                  25   account activity,” Defendant would have noticed this and frozen the accounts. Compl. ¶ 95.
+
+                                  26   Plaintiffs also allege that Defendant had previously alerted Plaintiffs any time there was
+
+                                  27   “anomalous or ahistorical account activity” in the last twenty years. Id. ¶¶ 15, 17, 98. The Court
+
+                                  28   concludes that, interpreting the allegations in the light most favorable to Plaintiffs, the complaint
+                                                                                         11
+                                       Case 4:25-cv-01517-HSG            Document 23        Filed 11/10/25         Page 12 of 19
+
+
+
+
+                                   1   supports a plausible inference that these security procedures were commercially unreasonable. 9
+
+                                   2   Whether this actually proves to be true is for a later stage of the case.
+
+                                   3          Finally, Defendant argues that it cannot be liable under section 11204, because Plaintiffs
+
+                                   4   provided their information to the imposter via the security key, and this provision only requires a
+
+                                   5   bank to refund a wire transfer “if the customer proves that the order was not caused . . . by a
+
+                                   6   person . . . who obtained, from a source controlled by the customer . . . information facilitating
+
+                                   7   breach of the security procedure.” 10 Mot. at 16–17 (quoting Cal. Com. Code § 11203(a)(2)). But
+
+                                   8   that rule only applies to payment orders that are unauthorized under section 11202(a), but effective
+
+                                   9   under section 11202(b). See Cal. Com. Code § 11203(a). As discussed above, Plaintiffs have
+
+                                  10   plausibly pleaded that these payment orders are both unauthorized and ineffective, and section
+
+                                  11   11203(a)(2) does not apply. Accordingly, Defendant’s motion is DENIED with respect to the
+
+                                  12   remainder of Plaintiffs’ California Commercial Code claim.
+
+
+
+ United States District Court
+                                  13              iv.   Violation of California Consumer Privacy Act (Claim Four)
+                                  14          Defendant argues that Plaintiffs’ claim under the California Consumer Privacy Act
+
+                                  15   (“CCPA”), Cal. Civ. Code §§ 1798 et seq., “do[es] nothing more than restate the statutory
+
+
+
+Northern District of California
+                                  16   elements of a CCPA claim” and should be dismissed. Mot. at 18.
+
+                                  17          The CCPA creates a cause of action for “[a]ny consumer whose nonencrypted and
+
+                                  18   nonredacted personal information . . . is subject to an unauthorized access and exfiltration, theft, or
+
+                                  19   disclosure as a result of the business’ violation of the duty to implement and maintain reasonable
+
+                                  20   security procedures and practices.” Cal. Civ. Code § 1798.150(a)(1). Plaintiffs allege that
+
+                                  21   Defendant’s “failure to implement a reasonable security procedure to protect [Plaintiffs’] personal
+
+                                  22   information, including their names, birth dates, and other security information . . . allowed either
+
+                                  23   negligently hired employees or third-party actors to access sufficient information” to call Plaintiffs
+
+                                  24   and access their bank accounts. Compl. ¶ 114.
+
+                                  25
+                                       9
+                                  26    These allegations are much more detailed than the conclusory allegations in Chen v. JPMorgan
+                                       Chase Bank, N.A., 745 F. Supp. 3d 1025, 1032–33 (C.D. Cal. 2024), which Defendant relies on to
+                                  27   support its argument. Mot. at 16.
+                                       10
+                                  28    Plaintiffs “do not admit to providing information that facilitated the fraudulent wire transfers,”
+                                       Opp. at 25, but the Court does not reach that argument.
+                                                                                        12
+                                       Case 4:25-cv-01517-HSG           Document 23         Filed 11/10/25      Page 13 of 19
+
+
+
+
+                                   1          Courts are split on what is required to adequately plead that a defendant failed to maintain
+
+                                   2   reasonable security procedures. See, e.g., Tian v. Bank of Am., N.A., No. 2:24-CV-09877-MCS-
+
+                                   3   PD, 2025 WL 1377767, at *3 (C.D. Cal. Apr. 2, 2025) (collecting cases and dismissing claim);
+
+                                   4   Doe v. MKS Instruments, Inc., No. SACV 23-00868-CJC (KESX), 2023 WL 9421115, at *3 (C.D.
+
+                                   5   Cal. Nov. 3, 2023) (collecting cases and denying dismissal on these grounds). As Defendant
+
+                                   6   notes, several courts have dismissed claims where “[p]laintiffs’ conclusory allegations . . . simply
+
+                                   7   restate the statutory requirements,” even where the plaintiffs alleged that defendants did not
+
+                                   8   monitor their systems to identify suspicious activity. Chen v. JPMorgan Chase Bank, N.A., 745 F.
+
+                                   9   Supp. 3d 1025, 1033–34 (C.D. Cal. 2024); see also Anderson v. Kimpton Hotel & Rest. Grp., LLC,
+
+                                  10   No. 19-CV-01860-MMC, 2019 WL 3753308, at *5 (N.D. Cal. Aug. 8, 2019). Other courts permit
+
+                                  11   claims similar to Plaintiffs’ to survive. See Alexander v. Wells Fargo Bank, N.A., No. 23-CV-617-
+
+                                  12   DMS-BLM, 2023 WL 5109532, at *2 (S.D. Cal. Aug. 9, 2023); Mehta v. Robinhood Fin. LLC,
+
+
+
+ United States District Court
+                                  13   No. 21-CV-01013-SVK, 2021 WL 6882377, at *8 (N.D. Cal. May 6, 2021).
+
+                                  14          Plaintiffs sufficiently identify the type of information that can be subject to an
+
+                                  15   unauthorized access or exfiltration under the CCPA. Plaintiffs allege that either (1) their first and
+
+
+
+Northern District of California
+                                  16   last name, account security code, and social security number, driver’s license number, or account
+
+                                  17   number, see Cal. Civ. Code § 1798.81.5(d)(1)(A)(3); or (2) username or email address in
+
+                                  18   combination with a password or security question and answer that permits access to an online
+
+                                  19   account, see id. § 1798.150(a)(1), were improperly accessed or stolen. Compl. ¶¶ 109, 112. The
+
+                                  20   Court can reasonably infer from Plaintiffs’ allegations that “Jason B.” knew about the Plaintiffs’
+
+                                  21   accounts and had already initiated allegedly fraudulent wire transfers when he called them, Compl.
+
+                                  22   ¶¶ 29–43, 114, that he or his conspirators had access to this personal information.
+
+                                  23          But Plaintiffs do not sufficiently allege that any access or exfiltration was the result of
+
+                                  24   Defendant’s violation of the duty to implement and maintain reasonable security procedures.
+
+                                  25   Plaintiffs assert that Defendant’s “failure to implement a security procedure” allowed Jason B. to
+
+                                  26   access their accounts and initiate wire transfers, Compl. ¶ 114, but this allegation just restates the
+
+                                  27   statutory elements of a CCPA claim. See Maag v. US Bank, Nat’l Ass’n, No. 21-CV-00031-H-LL,
+
+                                  28   2021 WL 5605278, at *2 (S.D. Cal. Apr. 8, 2021) (assessing conclusory assertions that defendant
+                                                                                         13
+                                       Case 4:25-cv-01517-HSG           Document 23        Filed 11/10/25      Page 14 of 19
+
+
+
+
+                                   1   did not implement and maintain reasonable security procedures and practices, failed to effectively
+
+                                   2   monitor its systems, and had lax security). Plaintiffs allege that they took “reasonable
+
+                                   3   precautions” to protect their account access by “using passwords, and other security measures
+
+                                   4   provided by Defendant,” Compl. ¶ 28, but they do not sufficiently allege that Jason B. accessed
+
+                                   5   Plaintiffs’ personal information from Defendant, rather than from another source. 11 Cf. Udo v.
+
+                                   6   Wells Fargo Bank, N.A., No. 23-CV-02935-JSW, 2023 WL 8600791, at *3 (N.D. Cal. Dec. 12,
+
+                                   7   2023) (noting plaintiff only recited elements of the statute and failed to explain why the theft was
+
+                                   8   not the result of his own action of losing his briefcase). Additionally, at least some cases denying
+
+                                   9   dismissal of a CCPA claim did so only where the defendant had admitted there was a broad data
+
+                                  10   breach, which is not alleged here. Cf. Mehta, 2021 WL 6882377, at *1.
+
+                                  11          Plaintiffs argue that they adequately pleaded four facts that establish that unreasonable
+
+                                  12   security procedures resulted in the data breach: (1) a Citibank phone number was able to be
+
+
+
+ United States District Court
+                                  13   hacked by an “outside agent”; (2) Plaintiff was directed to call the “imposter” number one day
+
+                                  14   later by Citibank’s actual fraud department; (3) Defendant’s agents “cannot explain the reason for
+
+                                  15   possible infiltration”; and (4) Defendant allowed criminals to drain $600,000 from Plaintiffs’
+
+
+
+Northern District of California
+                                  16   accounts to banks in another state in less than a day without identifying or alerting Plaintiffs to any
+
+                                  17   abnormal activity. Opp. at 28–29 (citing Compl. ¶¶ 29–34, 47, 51–52). Defendant correctly
+
+                                  18   observes that none of these allegations are direct evidence that its security procedures for
+
+                                  19   protecting personal information were deficient, see Reply at 15—only the allegations that the
+
+                                  20   funds were depleted in a day without alert and that Jason B. was able to spoof a fraud phone
+
+                                  21   number clearly implicate security procedures at all, and both of those allegations relate to the
+
+                                  22   improper wire transfers rather than the alleged pre-transfer data breach. Given this, the Court
+
+                                  23   DISMISSES Plaintiffs’ CCPA claim with leave to amend.
+
+                                  24
+
+                                  25
+
+                                  26   11
+                                         Plaintiffs allege that only Defendant knew that they had a security key. See Opp. at 27 (citing
+                                  27   Compl. ¶ 24). Even if this were sufficient to overcome the other deficiencies, Plaintiffs’ CCPA
+                                       theory appears to be that Defendant’s security procedures allowed Jason B. to access personal
+                                  28   information like their names, birth dates, and other security information before Plaintiffs used the
+                                       security key to initiate the wire transfers.
+                                                                                         14
+                                       Case 4:25-cv-01517-HSG           Document 23       Filed 11/10/25      Page 15 of 19
+
+
+
+
+                                   1              v.    Violation of California Consumer Records Act (Claim Five)
+
+                                   2          Defendant next moves to dismiss Plaintiffs’ California Consumer Records Act claim.
+
+                                   3   Plaintiffs alleges that Defendant violated California Civil Code section 1798.81.5 “by failing to
+
+                                   4   implement reasonable security procedures and practices to protect [Plaintiffs’] personal
+
+                                   5   information.” Compl. ¶ 119. Defendant argues that it is exempt from this provision as a financial
+
+                                   6   institution. Mot. at 18–19. Section 1798.81.5(e)(2) exempts “[a] financial institution as defined in
+
+                                   7   Section 4052 of the Financial Code and subject to the California Financial Information Privacy
+
+                                   8   Act.” Plaintiffs concede that financial institutions are exempt and do not dispute that Defendant
+
+                                   9   qualifies. Opp. at 22. The Court thus DISMISSES this claim without leave to amend. Cf. Shah
+
+                                  10   v. Cap. One Fin. Corp., 768 F. Supp. 3d 1033, 1049 (N.D. Cal. 2025) (dismissing similar claim
+
+                                  11   without leave to amend); Chen v. JPMorgan Chase Bank, N.A., 745 F. Supp. 3d 1025, 1034 (C.D.
+
+                                  12   Cal. 2024) (same).
+
+
+
+ United States District Court
+                                  13          Plaintiffs also allege that Defendant violated California Civil Code section 1798.82(a) “by
+
+                                  14   failing to notify Plaintiffs when [Defendant’s] security system was breached and that Plaintiffs’
+
+                                  15   personal data, which should have been encrypted by Defendant but which was not, was obtained
+
+
+
+Northern District of California
+                                  16   by unauthorized persons.” Compl. ¶ 120. Defendant argues that Plaintiff has not adequately
+
+                                  17   alleged that a security breach occurred or when Defendant first discovered the purported breach.
+
+                                  18   Mot. at 19–20. Section 1798.82(a) requires businesses to “disclose a breach of the security of the
+
+                                  19   system following discovery or notification of the breach . . . without unreasonable delay.” Cal.
+
+                                  20   Civ. Code § 1798.82(a). Plaintiffs must plead a breach of security. See Shah, 768 F. Supp. 3d at
+
+                                  21   1050. Additionally, because these claims are actionable “for the harms resulting from
+
+                                  22   unreasonably delayed notification, a plaintiff must state when a defendant learned of the relevant
+
+                                  23   breach.” Chen, 745 F. Supp. 3d at 1034; Shah, 768 F. Supp. 3d at 1049–50. As it stands,
+
+                                  24   Plaintiffs plead that “negligently hired employees or third-party actors [accessed] Plaintiff LSCC’s
+
+                                  25   accounts . . . before ever speaking to Plaintiff [Kamrani].” Compl. ¶ 122. Plaintiffs do not dispute
+
+                                  26   Defendant’s characterization and agree that they are required to plead specific facts “related to
+
+                                  27   whether the unauthorized wire transfers constitute security breaches pursuant to Cal. Civ. Code
+
+                                  28
+                                                                                        15
+                                       Case 4:25-cv-01517-HSG            Document 23       Filed 11/10/25      Page 16 of 19
+
+
+
+
+                                   1   § 1798.82(a)” and that “allege when Defendant became aware of the breaches.” 12 Opp. at 22. The
+
+                                   2   Court thus DISMISSES this claim with leave to amend.
+
+                                   3              vi.   Violation of UCL (Claim Six)
+                                   4          Defendant argues that Plaintiffs do not sufficiently plead that they lack an adequate remedy
+
+                                   5   at law. Mot. at 20. Defendant relies on the Ninth Circuit’s ruling in Sonner v. Premier Nutrition
+
+                                   6   Corp, 971 F.3d 834 (9th Cir. 2020), which held that “federal courts must apply equitable
+
+                                   7   principles derived from federal common law to claims for equitable restitution under” California’s
+
+                                   8   Unfair Competition Law (“UCL”). Id. at 837. One established equitable principle is that
+
+                                   9   equitable remedies will not be awarded when there is an “adequate remedy at law.” Id. at 842.
+
+                                  10   “[T]he fundamental thing that Sonner, by its own terms, requires at the pleadings stage is that the
+
+                                  11   complaint ‘allege that [the plaintiff] lacks an adequate legal remedy.’” Johnson v. Trumpet Behav.
+
+                                  12   Health, LLC, No. 3:21-CV-03221-WHO, 2022 WL 74163, at *3 (N.D. Cal. Jan. 7, 2022) (quoting
+
+
+
+ United States District Court
+                                  13   Sonner, 971 F.3d at 844).
+
+                                  14          Courts differ as to what Sonner requires at the pleading stage. While some courts have
+
+                                  15   required plaintiffs to articulate why damages are an inadequate remedy, other courts decline to
+
+
+
+Northern District of California
+                                  16   mandate substantiation. Compare Watkins v. MGA Entertainment, Inc., 550 F. Supp. 3d 815,
+
+                                  17   837–38 (N.D. Cal. 2021), with Murphy v. Olly Pub. Benefit Corp., 651 F. Supp. 3d 1111, 1129
+
+                                  18   (N.D. Cal. 2023). This Court has recently held that explicitly alleging the absence of an adequate
+
+                                  19   remedy at law is sufficient at the pleading state. Law. v. Homary Int’l Ltd., No. 24-CV-04113-
+
+                                  20   HSG, 2025 WL 1571856, at *7 (N.D. Cal. June 2, 2025); see also Johnson, 2022 WL 74163, at *3
+
+                                  21   (“[I]f a plaintiff pleads that she lacks an adequate legal remedy, Sonner will rarely (if ever) require
+
+                                  22   more this early in the case.”).
+
+                                  23          Here, while Plaintiffs do not explain “why monetary damages would be inadequate to
+
+                                  24   make [them] whole,” they do explicitly plead that they “lack[] an adequate remedy at law, as
+
+                                  25
+
+                                  26   12
+                                          This quote from Plaintiffs’ opposition is somewhat at odds with the allegations in the complaint,
+                                  27   as the former implies the unauthorized wire transfers were the security breach, while the latter
+                                       suggests the security breach (as in Plaintiffs’ CCPA claim) is what enabled Jason B. to initiate the
+                                  28   wire transfers and call the Kamranis in the first place. Because Plaintiffs concede they have failed
+                                       to allege when Defendant became aware of any breach, the Court need not resolve this ambiguity.
+                                                                                         16
+                                       Case 4:25-cv-01517-HSG           Document 23        Filed 11/10/25       Page 17 of 19
+
+
+
+
+                                   1   actual damages cannot be recovered.” Compl. ¶ 138; Smith v. Apple, Inc., No. 21-CV-09527-
+
+                                   2   HSG, 2023 WL 2095914, at *3 (N.D. Cal. Feb. 17, 2023). Such a statement would normally be
+
+                                   3   sufficient at the pleading stage. Defendant disputes this by citing to this Court’s recent decision to
+
+                                   4   dismiss an equitable claim in Lopez v. Mead Johnson Nutrition Co., No. 24-CV-03573-HSG, 2025
+
+                                   5   WL 895213 (N.D. Cal. Mar. 24, 2025), but the plaintiff there had not alleged that she lacked an
+
+                                   6   adequate remedy at law or otherwise explained how an award of damages under any of her
+
+                                   7   remaining claims would be inadequate. Id. at *6. Similarly, in Smith v. Apple, Inc., No. 21-CV-
+
+                                   8   09527-HSG, 2023 WL 2095914, at *3 (N.D. Cal. Feb. 17, 2023), the plaintiffs had sought
+
+                                   9   equitable claims in the alternative, if there was no adequate remedy at law. Cf. Johnson, 2022 WL
+
+                                  10   741336, at *3 (similarly dismissing claims with purely conditional language). In contrast,
+
+                                  11   Plaintiffs explicitly allege that they lack an adequate remedy at law.
+
+                                  12           However, Plaintiffs specifically plead that they lack an adequate remedy at law because
+
+
+
+ United States District Court
+                                  13   “actual damages cannot be recovered,” citing Bank of the West v. Superior Court, 2 Cal. 4th 1254,
+
+                                  14   1266 (1992). Compl. ¶ 138. That citation states that damages are not available under the UCL.
+
+                                  15   But the relevant inquiry considers the other causes of action that Plaintiffs have available. See
+
+
+
+Northern District of California
+                                  16   Guzman v. Polaris Indus. Inc., 49 F.4th 1308, 1313 (9th Cir. 2022) (“Sonner’s holding applies to
+
+                                  17   equitable UCL claims when there is a viable CLRA damages claim . . . .”). Because Plaintiffs
+
+                                  18   have chosen to clearly articulate their basis for concluding that there is no adequate remedy at law,
+
+                                  19   and because the Court can determine that this basis is defective as a matter of law, these
+
+                                  20   allegations are insufficient.
+
+                                  21           Moreover, the Court must dismiss this claim for lack of standing. Plaintiffs only seek
+
+                                  22   injunctive relief under the UCL. Compl. at 36–37. To have standing to seek injunctive relief
+
+                                  23   under Article III, a plaintiff must “demonstrate a real and immediate threat of repeated injury in
+
+                                  24   the future.” Chapman v. Pier 1 Imports (U.S.) Inc., 631 F.3d 939, 946 (9th Cir. 2011) (quotation
+
+                                  25   omitted). So once a plaintiff has been wronged, they are entitled to injunctive relief only if they
+
+                                  26   can show that they face a “real or immediate threat . . . that [they] will again be wronged in a
+
+                                  27   similar way.” Mayfield v. United States, 599 F.3d 964, 970 (9th Cir. 2010) (quotation omitted).
+
+                                  28   Plaintiffs may have standing to pursue injunctive relief if, for example, they are still customers at
+                                                                                         17
+                                       Case 4:25-cv-01517-HSG           Document 23        Filed 11/10/25     Page 18 of 19
+
+
+
+
+                                   1   Citibank. But Plaintiffs have not alleged anything about their current relationship with Defendant
+
+                                   2   or what specific injunctive relief they seek from which the Court can determine that Plaintiffs face
+
+                                   3   a risk of future injury. The Court thus DISMISSES the UCL claim with leave to amend. 13
+
+                                   4               vii.   Negligent Hiring (Claim Seven)
+                                   5          Defendant argues that Plaintiffs fail to allege that Citibank hired an unfit employee or that
+
+                                   6   it knew or should have known that it created a risk or hazard by hiring a particular employee. See
+
+                                   7   Mot. at 23–24. Plaintiffs concede that they have failed to state a claim for negligent hiring. Opp.
+
+                                   8   at 32. The Court DISMISSES this claim with leave to amend.
+
+                                   9   IV.    CONCLUSION
+                                  10          Defendant’s motion to dismiss, Dkt. No. 13, is GRANTED IN PART and DENIED IN
+
+                                  11   PART. The Court DENIES the motion with respect to Plaintiffs’ claims for intentional
+
+                                  12   misrepresentation (Count Two) and violation of California Commercial Code section 11204
+
+
+
+ United States District Court
+                                  13   (Count Three). The Court GRANTS the motion with respect to the remainder of the claims. All
+
+                                  14   claims are dismissed WITH LEAVE TO AMEND, except Plaintiffs’ claims under California
+
+                                  15   Civil Code section 1798.81.5 and California Commercial Code sections 11201(b), 11205. Any
+
+
+
+Northern District of California
+                                  16   amended complaint must be filed within 21 days of the date of this order, and may not add any
+
+                                  17   new claims or defendants.
+
+                                  18          The Court further SETS a case management conference on December 9, 2025 at 2:00 p.m.
+
+                                  19   The hearing will be held by Public Zoom Webinar. All counsel, members of the public, and
+
+                                  20   media may access the webinar information at https://www.cand.uscourts.gov/hsg. All attorneys
+
+                                  21   and pro se litigants appearing for the case management conference are required to join at least 15
+
+                                  22   minutes before the hearing to check in with the courtroom deputy and test internet, video, and
+
+                                  23   audio capabilities. The parties are further DIRECTED to file a joint case management statement
+
+                                  24   by December 2, 2025.
+
+                                  25          //
+
+                                  26          //
+
+                                  27
+                                       13
+                                  28     Defendant additionally argues that Plaintiffs have failed to plausibly allege an unlawful, unfair,
+                                       of fraudulent act. Mot. at 21–23. The Court does not reach this argument.
+                                                                                        18
+                                       Case 4:25-cv-01517-HSG    Document 23     Filed 11/10/25   Page 19 of 19
+
+
+
+
+                                   1         IT IS SO ORDERED.
+
+                                   2   Dated: 11/10/2025
+
+                                   3                                           ______________________________________
+                                                                               HAYWOOD S. GILLIAM, JR.
+                                   4                                           United States District Judge
+                                   5
+
+                                   6
+
+                                   7
+
+                                   8
+
+                                   9
+
+                                  10
+
+                                  11
+
+                                  12
+
+
+
+ United States District Court
+                                  13
+
+                                  14
+
+                                  15
+
+
+
+Northern District of California
+                                  16
+
+                                  17
+
+                                  18
+
+                                  19
+
+                                  20
+
+                                  21
+
+                                  22
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+
+                                  27
+
+                                  28
+                                                                               19
+

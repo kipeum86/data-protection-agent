@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-randles-v-nationstar-transfer-2024.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-1_24-cv-00177/pdf/USCOURTS-caed-1_24-cv-00177-6.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-1_24-cv-00177/pdf/USCOURTS-caed-1_24-cv-00177-6.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:9dccb13e070ff2d65e5277c6dfd6dd6949cb7b2368f6892fb1f47d9b176b116d",
+  "bytes": 344666
+}

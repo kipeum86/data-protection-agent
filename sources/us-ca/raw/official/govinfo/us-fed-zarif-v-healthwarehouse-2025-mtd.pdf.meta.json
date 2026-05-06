@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-zarif-v-healthwarehouse-2025-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-00565/pdf/USCOURTS-casd-3_23-cv-00565-2.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-00565/pdf/USCOURTS-casd-3_23-cv-00565-2.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:85f6cbb0b50a65023d1d8deb73a1ec8e2b756176d7f4c65d318b26b662259ca1",
+  "bytes": 490596
+}

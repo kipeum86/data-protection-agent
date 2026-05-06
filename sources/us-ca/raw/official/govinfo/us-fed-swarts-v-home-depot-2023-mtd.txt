@@ -1,0 +1,1117 @@
+                                        Case 4:23-cv-00995-JST         Document 31        Filed 08/30/23      Page 1 of 17
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                 UNITED STATES DISTRICT COURT
+
+                                   5                                NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7    JASON SWARTS,                                      Case No. 23-cv-0995-JST
+                                                       Plaintiff,
+                                   8
+                                                                                           ORDER DENYING IN PART AND
+                                                v.                                         GRANTING IN PART MOTION TO
+                                   9
+                                                                                           DISMISS
+                                  10    THE HOME DEPOT, INC.,
+                                                                                           Re: ECF No. 23
+                                                       Defendant.
+                                  11
+
+                                  12
+
+
+ United States District Court
+                                  13          Before the Court is Defendant The Home Depot, Inc.’s (“Home Depot”) motion to dismiss.
+
+                                  14   ECF No. 23. The Court will deny the motion in part and grant it in part.
+
+                                  15   I.     BACKGROUND
+
+
+
+Northern District of California
+                                  16          Home Depot is a home improvement retailer with more than 2,300 stores across North
+
+                                  17   America. ECF No. 17 ¶ 18. It is incorporated in Delaware, and its principal place of business is
+
+                                  18   in Georgia. ECF No. 23 at 14.
+
+                                  19          Home Depot’s website includes an online “chat feature” which allows visitors to have
+
+                                  20   conversations with customer service representatives. ECF No. 17 ¶¶ 17–18. Home Depot records
+
+                                  21   those conversations without providing notice to customers. Id. ¶¶ 17, 25–26. Home Depot also
+
+                                  22   contracts with LivePerson, which is a company that provides software to “analyz[e] the data and
+
+                                  23   provid[e] Home Depot [with] customer data metrics related to each conversation.” Id. ¶ 4. During
+
+                                  24   each conversation, “online traffic occurs between the customer’s browser and several
+
+                                  25   liveperson.net subdomains[.]” Id. ¶ 6. Additionally, Home Depot discloses customers’ “private
+
+                                  26   chat sessions” with Quantum Metric; “provides its customers’ chats with adservice.google.com”;
+
+                                  27   and sends “live chat session data” to Twilio. Id. ¶¶ 9–10.
+
+                                  28          Plaintiff Jason Swarts is a citizen and resident of California. Id. ¶ 17. On January 30,
+                                           Case 4:23-cv-00995-JST       Document 31        Filed 08/30/23      Page 2 of 17
+
+
+
+
+                                   1   2023, Plaintiff filed this putative Class Action Complaint against Home Depot in Santa Clara
+
+                                   2   County Superior Court, alleging that it has been “record[ing] electronic conversation[s] with
+
+                                   3   Plaintiff without [his] knowledge or consent,” in violation of the California Invasion of Privacy
+
+                                   4   Act (CIPA), Cal. Penal Code §§ 631, 632, and the Wiretap Act,1 18 U.S.C. §§ 2510 et seq. ECF
+
+                                   5   No. 1 ¶ 2.
+
+                                   6           After this case was removed to federal court on March 3, 2023, see ECF No. 1, Home
+
+                                   7   Depot moved to dismiss the original complaint. ECF No. 14. On April 25, 2023, Swarts filed a
+
+                                   8   first amended complaint, alleging violations of the CIPA, Cal. Penal Code §§ 631, 632; the
+
+                                   9   Wiretap Act, 18 U.S.C. §§ 2510 et seq.; and California’s Unfair Competition Law (UCL), Cal
+
+                                  10   Bus. & Prof. Code §§ 17200, et seq. ECF No. 17.
+
+                                  11           Home Depot now moves to dismiss the amended complaint pursuant to Rules 12(b)(2) and
+
+                                  12   12(b)(6) of the Federal Rules of Civil Procedure. ECF No. 23. It argues that the Court lacks
+
+
+ United States District Court
+                                  13   personal jurisdiction over it, and that Swarts’s amended complaint fails to state a claim.
+
+                                  14   II.     JURISDICTION
+
+                                  15           The Court has federal question jurisdiction over Plaintiff’s Wiretap Act claim pursuant to
+
+
+
+Northern District of California
+                                  16   28 U.S.C. § 1331 and supplemental jurisdiction over his state law claims pursuant to 28 U.S.C.
+
+                                  17   § 1367(a).
+
+                                  18   III.    LEGAL STANDARD
+
+                                  19           A.     Rule 12(b)(2)
+
+                                  20           When a defendant objects to the Court’s exercise of personal jurisdiction over it under
+
+                                  21   Federal Rule of Civil Procedure 12(b)(2), the plaintiff bears the burden of establishing that
+
+                                  22   jurisdiction is proper. Boschetto v. Hansing, 539 F.3d 1011, 1015 (9th Cir. 2008). “Where, as
+
+                                  23   here, a motion to dismiss is based on written materials rather than an evidentiary hearing, the
+
+                                  24   plaintiff need only make a prima facie showing of jurisdictional facts.” Love v. Associated
+
+                                  25   Newspapers, Ltd., 611 F.3d 601, 608 (9th Cir. 2010). To make this showing, “the plaintiff need
+
+                                  26
+                                       1
+                                  27     The Wiretap Act was amended by the Electronic Communications Privacy Act (ECPA), and thus
+                                       the two terms are synonymous. See NovelPoster v. Javitch Canfield Grp., 140 F. Supp. 3d 938,
+                                  28   942 n.3 (N.D. Cal. 2014). Although Home Depot and Swarts use differing terms to refer to the
+                                       claim, the Court refers to the third cause of action as the Wiretap Act to avoid any confusion.
+                                                                                          2
+                                        Case 4:23-cv-00995-JST           Document 31          Filed 08/30/23     Page 3 of 17
+
+
+
+
+                                   1   only demonstrate facts that if true would support jurisdiction over the defendant.” Ballard v.
+
+                                   2   Savage, 65 F.3d 1495, 1498 (9th Cir. 1995). The complaint’s uncontroverted allegations must be
+
+                                   3   taken as true, and “[c]onflicts between parties over statements contained in affidavits must be
+
+                                   4   resolved in the plaintiff’s favor.” Schwarzenegger v. Fred Martin Motor Co., 374 F.3d 797, 800
+
+                                   5   (9th Cir. 2004).
+
+                                   6          Federal courts recognize two types of personal jurisdiction over a defendant: general and
+
+                                   7   specific. Bristol-Myers Squibb Co. v. Superior Ct. of California, San Francisco Cnty., 582 U.S.
+
+                                   8   255, 262 (2017) (citation omitted). “A court with general jurisdiction may hear any claim against
+
+                                   9   that defendant, even if all the incidents underlying the claim occurred in a different [s]tate.” Id.
+
+                                  10   (emphasis and citation omitted). General jurisdiction arises “when [the defendant’s] affiliations
+
+                                  11   with the [s]tate are so ‘continuous and systematic’ as to render them essentially at home in the
+
+                                  12   forum [s]tate.” Id. (quoting Int’l Shoe v. Washington, 326 U.S. 310, 317 (1945)). Although
+
+
+ United States District Court
+                                  13   general jurisdiction might be found elsewhere in an “exceptional case,” a corporation is usually “at
+
+                                  14   home” only in its place of incorporation and its principal place of business. Ford Motor Co. v.
+
+                                  15   Montana Eighth Jud. Dist. Ct., 141 S. Ct. 1017, 1024 (2021).
+
+
+
+Northern District of California
+                                  16          By contrast, specific jurisdiction arises when a defendant’s contacts with the forum give
+
+                                  17   rise to the claim in question. See Daimler AG v. Bauman, 571 U.S. 117, 188 (2014). “In other
+
+                                  18   words, there must be ‘an affiliation between the forum and the underlying controversy, principally,
+
+                                  19   [an] activity or an occurrence that takes place in the forum [s]tate and is therefore subject to the
+
+                                  20   State's regulation.’” Id. (quoting Goodyear Dunlop Tires Operations, S.A. v. Brown, 564 U.S.
+
+                                  21   915, 919 (2011)).
+
+                                  22          “The general rule is that personal jurisdiction over a defendant is proper if it is permitted
+
+                                  23   by a long-arm statute and if the exercise of that jurisdiction does not violate federal due process.”
+
+                                  24   Pebble Beach Co. v. Caddy, 453 F.3d 1151, 1154–55 (9th Cir. 2006) (citing Fireman’s Fund Ins.
+
+                                  25   Co. v. Nat. Bank of Coops., 103 F.3d 888, 893 (9th Cir. 1996)). “Where, as here, no federal
+
+                                  26   statute authorizes personal jurisdiction, the district court applies the law of the state in which the
+
+                                  27   court sits.” Mavrix Photo, Inc. v. Brand Techs., Inc., 647 F.3d 1218, 1223 (9th Cir. 2011).
+
+                                  28          Because California’s long-arm jurisdictional statute authorizes jurisdiction to the fullest
+                                                                                          3
+                                        Case 4:23-cv-00995-JST           Document 31           Filed 08/30/23    Page 4 of 17
+
+
+
+
+                                   1   extent permitted by the Constitution, see Cal. Code Civ. P. § 410.10, the central question is
+
+                                   2   whether the defendant has “at least ‘minimum contacts’ with [California] such that the exercise of
+
+                                   3   jurisdiction ‘does not offend traditional notions of fair play and substantial justice.’” The Ninth
+
+                                   4   Circuit has established a three-part inquiry, referred to as the minimum contacts test, to determine
+
+                                   5   whether a court has specific personal jurisdiction over a defendant:
+
+                                   6                   (1) The non-resident defendant must purposefully direct his
+                                                       activities or consummate some transaction with the forum or
+                                   7                   resident thereof; or perform some act by which he purposefully
+                                                       avails himself of the privilege of conducting activities in the forum,
+                                   8                   thereby invoking the benefits and protections of its laws;
+                                   9                   (2) the claim must be one which arises out of or relates to the
+                                                       defendant's forum-related activities; and
+                                  10
+                                                       (3) the exercise of jurisdiction must comport with fair play and
+                                  11                   substantial justice, i.e., it must be reasonable.
+                                  12           Schwarzenegger, 374 F.3d at 802. “The plaintiff bears the burden of satisfying the first
+
+
+ United States District Court
+                                  13   two prongs of the test.” Id. If the plaintiff does so, “the burden then shifts to the defendant to
+
+                                  14   ‘present a compelling case’ that the exercise of jurisdiction would not be reasonable.” Id. (quoting
+
+                                  15   Burger King Corp. v. Rudzewicz, 471 U.S. 462, 476–78 (1985)).
+
+
+
+Northern District of California
+                                  16           B.      Rule 12(b)(6)
+
+                                  17           To survive a motion to dismiss under Federal Rule of Civil Procedure 12(b)(6), a
+
+                                  18   complaint must contain “a short and plain statement of the claim showing that the pleader is
+
+                                  19   entitled to relief.” Fed. R. Civ. P. 8(a)(2). Dismissal “is appropriate only where the complaint
+
+                                  20   lacks a cognizable legal theory or sufficient facts to support a cognizable legal theory.”
+
+                                  21   Mendiondo v. Centinela Hosp. Med. Ctr., 521 F.3d 1097, 1104 (9th Cir. 2008). “[A] complaint
+
+                                  22   must contain sufficient factual matter, accepted as true, to ‘state a claim to relief that is plausible
+
+                                  23   on its face.’” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly,
+
+                                  24   550 U.S. 544, 570 (2007)). Factual allegations need not be detailed, but facts must be “enough to
+
+                                  25   raise a right to relief above the speculative level.” Twombly, 550 U.S. at 555.
+
+                                  26           “A claim has facial plausibility when the plaintiff pleads factual content that allows the
+
+                                  27   court to draw the reasonable inference that the defendant is liable for the misconduct
+
+                                  28   alleged.” Iqbal, 556 U.S. at 678. While this standard is not “akin to a ‘probability
+                                                                                           4
+                                        Case 4:23-cv-00995-JST           Document 31          Filed 08/30/23    Page 5 of 17
+
+
+
+
+                                   1   requirement,’ . . . it asks for more than a sheer possibility that a defendant has acted unlawfully.”
+
+                                   2   Id. (quoting Twombly, 550 U.S. at 556). “Where a complaint pleads facts that are ‘merely
+
+                                   3   consistent with’ a defendant’s liability, it ‘stops short of the line between possibility and
+
+                                   4   plausibility of entitlement to relief.’” Id. (quoting Twombly, 550 U.S. at 557). In determining
+
+                                   5   whether a plaintiff has met the plausibility requirement, a court must “accept all factual allegations
+
+                                   6   in the complaint as true and construe the pleadings in the light most favorable” to the
+
+                                   7   plaintiff. Knievel v. ESPN, 393 F.3d 1068, 1072 (9th Cir. 2005). A plaintiff may “plead[] facts
+
+                                   8   alleged upon information and belief where the facts are peculiarly within the possession and
+
+                                   9   control of the defendant or where the belief is based on factual information that makes the
+
+                                  10   inference of culpability plausible.” Soo Park v. Thompson, 851 F.3d 910, 928 (9th Cir. 2017)
+
+                                  11   (quoting Arista Records, LLC v. Doe 3, 603 F.3d 110, 120 (2d Cir. 2010)).
+
+                                  12   IV.    DISCUSSION
+
+
+ United States District Court
+                                  13          A.      Personal Jurisdiction
+
+                                  14                  1.      General Jurisdiction
+
+                                  15          Home Depot argues that the Court lacks general jurisdiction because Home Depot neither
+
+
+
+Northern District of California
+                                  16   is incorporated in, nor maintains its headquarters in, California, and this is not an “exceptional
+
+                                  17   case.” ECF No. 23 at 14–15. Plaintiff does not respond to this argument, and the Court finds that
+
+                                  18   it does not have general jurisdiction. See Zellerino v. Roosen, No. SACV 16-485-JLS, 2016 WL
+
+                                  19   10988763, at *5 (C.D. Cal. Aug. 22, 2016) (“Zellerino fails to respond to the argument that the
+
+                                  20   Court cannot exercise general personal jurisdiction over either Equifax or Datamyx, thereby
+
+                                  21   conceding the point.”).
+
+                                  22                  2.      Specific Jurisdiction
+
+                                  23          Defendant likewise alleges that the Court does not have specific jurisdiction over it. As set
+
+                                  24   forth below, the Court disagrees.
+
+                                  25                          a.      Purposeful Direction
+                                  26          The first prong of the minimum contact test is often called the “purposeful availment”
+
+                                  27   prong. Yahoo! Inc. v. La Ligue Contre Le Racisme Et L’Antisemitisme, 433 F.3d 1199, 1206 (9th
+
+                                  28   Cir. 2006). The phrase “purposeful availment,” however, is often used “in shorthand fashion, to
+                                                                                          5
+                                        Case 4:23-cv-00995-JST           Document 31          Filed 08/30/23     Page 6 of 17
+
+
+
+
+                                   1   include both purposeful availment and purposeful direction.” Schwarzenegger, 374 F.3d at 802.
+
+                                   2   “A purposeful availment analysis is most often used in suits sounding in contract.” Id. (citation
+
+                                   3   omitted). “A purposeful direction analysis, on the other hand, is most often used in suits sounding
+
+                                   4   in tort.” Id. (citation omitted). Because Plaintiff’s CIPA and Wiretap Act claims sound in tort,
+
+                                   5   and their UCL claim is derivative of those two claims, the Court applies a purposeful direction
+
+                                   6   analysis. See S.D. v. Hytto Ltd., No. 18-CV-00688-JSW, 2019 WL 8333519, at *3 (N.D. Cal.
+
+                                   7   May 15, 2019) (applying purposeful direction analysis to plaintiffs’ Wiretap Act, intrusion upon
+
+                                   8   seclusion, and unjust enrichment claims).
+
+                                   9           In applying a purposeful direction analysis, “[courts] typically inquire whether a defendant
+
+                                  10   ‘purposefully direct[s] his activities’ at the forum state, applying an ‘effects’ test that focuses on
+
+                                  11   the forum in which the defendant’s actions were felt, whether or not the actions themselves
+
+                                  12   occurred within the forum.” Yahoo!, 433 F.3d at 1206 (citing Calder v. Jones, 465 U.S. 783, 789–
+
+
+ United States District Court
+                                  13   90 (1984)). The effects test includes three elements: “the defendant allegedly must have (1)
+
+                                  14   committed an intentional act, (2) expressly aimed at the forum state, (3) causing harm that the
+
+                                  15   defendant knows is likely to be suffered in the forum state.” AMA Multimedia, Ltd. Liab. Co. v.
+
+
+
+Northern District of California
+                                  16   Wanat, 970 F.3d 1201, 1208–09 (9th Cir. 2020) (quoting Mavrix Photo, 647 F.3d at 1228).
+
+                                  17           It is undisputed that Home Depot operates its own website and chat function, and thus,
+
+                                  18   Swarts’s claims satisfy the first element. A defendant acts intentionally when he acts with “an
+
+                                  19   intent to perform an actual, physical act in the real world, rather than an intent to accomplish a
+
+                                  20   result or consequence of that act.” Schwarzenegger, 374 F.3d at 806. “[O]perating a passive
+
+                                  21   website, purchasing a domain name and purchasing domain privacy services are all intentional
+
+                                  22   acts.” Will Co., Ltd. v. Lee, 47 F.4th 917, 922 (9th Cir. 2022) (citing AMA Multimedia, 970 F.3d
+
+                                  23   at 1209). With regard to the third element, “[a] defendant causes harm in a particular forum when
+
+                                  24   the ‘bad acts’ that form the basis of the plaintiff’s complaint occur in that forum.” Id. at 926
+
+                                  25   (quoting Mavrix Photo, 647 F.3d at 1231). Here, taking Plaintiff’s allegations as true, Home
+
+                                  26   Depot was aware that it was recording its online chat conversations with customers, which could
+
+                                  27   foreseeably cause harm in California. ECF No. 17 ¶¶ 17, 25. The third element is therefore
+
+                                  28   satisfied.
+                                                                                          6
+                                           Case 4:23-cv-00995-JST       Document 31        Filed 08/30/23      Page 7 of 17
+
+
+
+
+                                   1           The remaining element concerns whether Home Depot expressly aimed its conduct at the
+
+                                   2   forum state. Home Depot argues that “Swarts does not allege if, or how, Home Depot aimed any
+
+                                   3   conduct related to its website chat feature at California.” ECF No. 23 at 16. It contends that
+
+                                   4   regardless of the location from which users might access Home Depot, there are no allegations that
+
+                                   5   Home Depot targeted that location. Id.
+
+                                   6           “More than two decades ago,” the Ninth Circuit “recognized a distinction between
+
+                                   7   ‘passive’ websites that merely make information available to visitors and ‘interactive’ websites,
+
+                                   8   where ‘users can exchange information with the host computer when the site is interactive.’”
+
+                                   9   Herbal Brands, Inc. v. Photoplaza, Inc., 72 F.4th 1085, 1091 (9th Cir. 2023) (quoting Cybersell,
+
+                                  10   Inc. v. Cybersell, Inc., 130 F.3d 414, 418 (9th Cir. 1997)). Mere passive operation of a website is
+
+                                  11   insufficient to demonstrate express aiming. Mavrix Photo, 647 F.3d at 1229. Rather, “operating
+
+                                  12   even a passive website in conjunction with ‘something more’—conduct directly targeting the
+
+
+ United States District Court
+                                  13   forum—is sufficient.” Id. (quoting Rio Properties, Inc. v. Rio Int’l Interlink, 284 F.3d 1007, 1020
+
+                                  14   (9th Cir. 2002)). Thus, if all Swarts alleged were Home Depot’s passive operation of a customer
+
+                                  15   website, Home Depot’s argument would be well-taken.
+
+
+
+Northern District of California
+                                  16           In Herbal Brands, Inc. v. Photoplaza, Inc., 72 F.4th 1085 (9th Cir. 2023), however, the
+
+                                  17   Ninth Circuit “squarely addressed the question whether sales of a product to forum residents
+
+                                  18   through an interactive website constitute ‘something more’ to establish express aiming when there
+
+                                  19   is no evidence that the seller specifically targeted that forum.” Herbal Brands, 72 F.4th at 1092–
+
+                                  20   93. The Court held that “if a defendant, in its regular course of business, sells a physical product
+
+                                  21   via an interactive website and causes that product to be delivered to the forum, the defendant
+
+                                  22   ‘expressly aimed’ its conduct at that forum.” Id. at 1093.2
+
+                                  23           Home Depot urges the Court to reject Swarts’s contention that “his chats concerned Home
+
+                                  24   Depot products sold to Swarts at Home Depot retail stores in California,” ECF No. 29 at 10 n.3,
+
+                                  25   because the complaint “does not allege that Swarts purchased anything from Home Depot in
+
+                                  26   California . . . .” Id. at 10 (emphasis omitted). But Swarts pleads that, while at his home in
+
+                                  27
+                                       2
+                                  28    Home Depot does not address Herbal Brands in its reply brief, although the case was decided
+                                       before the reply brief was filed, and Plaintiffs cited the case in their opposition brief.
+                                                                                           7
+                                           Case 4:23-cv-00995-JST       Document 31        Filed 08/30/23      Page 8 of 17
+
+
+
+
+                                   1   California, he had “conversations with Home Depot [that] included inquiries related to home
+
+                                   2   improvement products he had purchased, whether those products could be exchanged, and pending
+
+                                   3   orders for products which were available for sale on Defendant’s website.” ECF No. 17 ¶ 17.
+
+                                   4   Taking the allegations of Swarts’s complaint as true, as it must, the Court finds that he sufficiently
+
+                                   5   alleges that Home Depot sold a physical product to him via its interactive website.
+
+                                   6           Therefore, Swarts has satisfied the express aiming element, and has established that Home
+
+                                   7   Depot purposefully directed its conduct at the forum state.3
+
+                                   8                          b.      Arise Out of or Relate to Forum Activities
+                                   9           The second prong of the minimum contacts inquiry considers whether the plaintiff’s claims
+
+                                  10   “‘arise out of or relate to the defendant’s contacts with the forum.’” Ford Motor Co., 141 S. Ct. at
+
+                                  11   1025 (quoting Bristol-Myers Squibb Co., 582 U.S. at 262). “The first half of that standard asks
+
+                                  12   about causation; but the back half, after the ‘or,’ contemplates that some relationships will support
+
+
+ United States District Court
+                                  13   jurisdiction without a causal showing.” Id. at 1026.
+
+                                  14           Home Depot contends that Swarts’s “generic allegations about Home Depot’s sales and
+
+                                  15   business contacts in California fail the but-for test because they are too attenuated from Home
+
+
+
+Northern District of California
+                                  16   Depot’s alleged recording of Swarts’ chats to support personal jurisdiction.” ECF No. 29 at 10
+
+                                  17   n.3. Put differently, Home Depot argues that jurisdiction only attaches if Defendant’s forum
+
+                                  18   contact gave rise to the claim at issue. But such a view of the “but-for test” reads the caselaw too
+
+                                  19   narrowly. As Ford Motor Co. makes clear, the plaintiff need not establish “a strict causal
+
+                                  20
+
+                                  21   3
+                                         Home Depot’s citations to Carroll v. J.M. Smucker Co., No. C 22-08952 WHA, 2023 WL
+                                  22   4053796 (N.D. Cal. June 15, 2023) and Mikulsky v. Noom, Inc., No. 3:23-CV-00285-H-MSB,
+                                       2023 WL 4567096 (S.D. Cal. July 17, 2023) are unhelpful. See ECF No. 29 at 8–9. In Carroll,
+                                  23   the plaintiff contended that features of the defendant’s website—including a search dialog box, a
+                                       hyperlink to submit questions, and a live chat feature—were sufficiently interactive to constitute
+                                  24   express aiming at the forum. 2023 WL 4053796, at *3. The court disagreed, noting that such
+                                       activities “do not amount to a finding that California residents were specifically targeted.” Id. at
+                                  25   *4. Similarly, in Mikulsky, the court held that the plaintiff’s general allegation that the defendant
+                                       “[knew] that many users . . . interact[ed] with Noom’s website while . . . physically present in
+                                  26   California” was not enough to confer specific jurisdiction. 2023 WL 4567096, at *8. Neither case
+                                       involved a situation in which a plaintiff purchased products from, or for delivery into, the forum
+                                  27   state. Compare ECF No. 17 ¶ 17 (“As Plaintiff Swarts was remodeling his house during this time,
+                                       his conversations with Home Depot included inquiries related to home improvement products he
+                                  28   had purchased, whether those products could be exchanged, and pending orders for products
+                                       which were available for sale on Defendant’s website.”).
+                                                                                          8
+                                        Case 4:23-cv-00995-JST           Document 31          Filed 08/30/23    Page 9 of 17
+
+
+
+
+                                   1   relationship between the defendant’s in-state activity and the litigation” to satisfy this element.
+
+                                   2   141 S. Ct. at 1026. Rather, the suit must only “arise out of or relate to the defendant’s contacts
+
+                                   3   with the forum.” Id. (emphasis added). At the very least, Swarts’s claim that Home Depot
+
+                                   4   recorded online chat conversations concerning products he had purchased without his consent
+
+                                   5   relates to Home Depot’s connection with the forum, and that is sufficient for this element to be
+
+                                   6   satisfied.
+
+                                   7                          c.      Fair Play and Substantial Justice
+                                   8           Once the plaintiff satisfies the first two prongs, “the burden then shifts to the defendant to
+
+                                   9   ‘present a compelling case’ that the exercise of jurisdiction would not be reasonable.”
+
+                                  10   Schwarzenegger, 374 F.3d at 802 (quoting Burger King Corp., 471 U.S. at 476–78). Home Depot
+
+                                  11   does not contest that this element is satisfied.
+
+                                  12           Consequently, the Court has personal jurisdiction over Home Depot. It now turns to Home
+
+
+ United States District Court
+                                  13   Depot’s remaining arguments under Rule 12(b)(6).
+
+                                  14           B.     CIPA § 631
+
+                                  15           Home Depot argues that Swarts fails to state a § 631(a) claim. ECF No. 23 at 18–21.
+
+
+
+Northern District of California
+                                  16   Swarts responds that Home Depot has violated all four clauses of § 631(a). ECF No. 28 at 27–30.
+
+                                  17   The Court addresses each theory of liability in turn.
+
+                                  18                  Section 631(a) creates four avenues for relief:
+                                  19                          (1) where a person “by means of any machine, instrument, or
+                                                              contrivance, or in any other manner, intentionally taps, or
+                                  20                          makes any unauthorized connection . . . with any telegraph
+                                                              or telephone wire, line, cable, or instrument”;
+                                  21
+                                                              (2) where a person “willfully and without consent of all
+                                  22                          parties to the communication, or in any unauthorized
+                                                              manner, reads, or attempts to read, or to learn the contents or
+                                  23                          meaning of any message, report, or communication while the
+                                                              same is in transit”;
+                                  24
+                                                              (3) where a person “uses, or attempts to use, in any manner,
+                                  25                          or for any purpose, or to communicate in any way, any
+                                                              information so obtained”; and
+                                  26
+                                                              (4) where a person “aids, agrees with, employs, or conspires
+                                  27                          with any person or persons to unlawfully do, or permit, or
+                                                              cause to be done any of the acts or things mentioned above.”
+                                  28
+                                                                                          9
+                                       Case 4:23-cv-00995-JST           Document 31        Filed 08/30/23      Page 10 of 17
+
+
+
+
+                                   1   Javier v. Assurance IQ, LLC, --- F. Supp. 3d ----, No. 20-cv-02860-CRB, 2023 WL 114225, at *4
+
+                                   2   (N.D. Cal. Jan. 5, 2023) (quoting Cal. Penal Code § 631).
+
+                                   3                          a.      Subsection (a)(1)
+                                   4          Section 631(a)’s first clause prohibits “any person who by means of any machine,
+
+                                   5   instrument, or contrivance, or in any other manner, intentionally taps, or makes any unauthorized
+
+                                   6   connection . . . with any telegraph or telephone wire, line, cable, or instrument, including the wire,
+
+                                   7   line, cable, or instrument of any internal telephonic communication system.” Cal. Penal Code
+
+                                   8   § 631 (emphasis added). Thus, by its plain terms, the statute prohibits unauthorized connection
+
+                                   9   with transmissions related to “telegraph or telephone” technologies.
+
+                                  10          Courts have uniformly interpreted this clause as applying only to communications
+
+                                  11   transmitted over telephones and not those transmitted over the internet. See Williams v. What If
+
+                                  12   Holdings, LLC, No. C 22-03780 WHA, 2022 WL 17869275, at *2 (N.D. Cal. Dec. 22, 2022)
+
+
+ United States District Court
+                                  13   (determining “the first clause of Section 631(a) concerns telephonic wiretapping specifically and
+
+                                  14   does not apply to the context of the internet”); Greenley v. Kochava, Inc., No. 22-CV-01327-BAS-
+
+                                  15   AHG, 2023 WL 4833466, at *16 (S.D. Cal. July 27, 2023) (dismissing claim under first clause
+
+
+
+Northern District of California
+                                  16   based on “data collected from smartphone apps”).
+
+                                  17          Swarts alleges only that he “visited Defendant’s website” via “his cellular telephone.”
+
+                                  18   ECF No. 17 ¶ 17. He argues that “CIPA’s plain language envisions broad application to evolving
+
+                                  19   technology and its interpretation should be broadly construed to cover a wide range of privacy
+
+                                  20   concerns.” ECF No. 28 at 27. This argument, however, has been consistently rejected by
+
+                                  21   numerous courts, and the Court sees no reason to depart from the plain terms of the statute.
+
+                                  22          The Court accordingly dismisses Swarts’s claim under clause one of § 631(a).
+
+                                  23                          b.      Subsection (a)(2)
+                                  24          Swarts next alleges that Home Depot is liable under the second clause of § 631(a) because
+
+                                  25   it “willfully hired third party LivePerson to data mine its chat transcripts using live chat
+
+                                  26   software[.]” ECF No. 28 at 28. He further alleges that LivePerson listened to his conversations in
+
+                                  27   “real time” without his consent. Id. In moving to dismiss, Home Depot argues that a party cannot
+
+                                  28   be liable under the second clause of § 631(a) for eavesdropping or recording its own
+                                                                                          10
+                                       Case 4:23-cv-00995-JST           Document 31        Filed 08/30/23       Page 11 of 17
+
+
+
+
+                                   1   conversations. ECF No. 23 at 18–19.
+
+                                   2          Regardless of what actions Liveperson (as opposed to Home Depot) may have taken, it is
+
+                                   3   established that a party to the communication cannot be liable for recording its own conversations
+
+                                   4   under § 631(a). See Williams, 2022 WL 17869275, at *3 (holding “a party to the communication
+
+                                   5   is exempt from liability under CIPA”); Javier, 2023 WL 114225, at *4 (stating “if a third party
+
+                                   6   listens in on a conversation between the participants . . . the third party is liable under the second
+
+                                   7   prong”) (emphasis added). Indeed, Swarts concedes that he “does not allege direct violations by
+
+                                   8   Home Depot, as it is well understood that a party cannot eavesdrop on its own conversation, by
+
+                                   9   axiom.” ECF No. 28 at 26 n.10. Thus, Home Depot cannot be liable under clause two of
+
+                                  10   § 631(a).
+
+                                  11                          c.      Subsection (a)(3)
+                                  12          A violation under the third clause of § 631(a) is contingent upon a finding of a violation of
+
+
+ United States District Court
+                                  13   the first or second clause of § 631(a). See Martin v. Sephora USA, Inc., No. 1:22-cv-01355-JLT-
+
+                                  14   SAB, 2023 WL 2717636, at *11 (E.D. Cal. Mar. 30, 2023). Because Swarts fails to state a claim
+
+                                  15   against Home Depot under either the first or second clause of § 631(a), his claim for violations of
+
+
+
+Northern District of California
+                                  16   § 631(a) under the third clause necessarily fail as well. See In re Google Assistant Privacy Litig.,
+
+                                  17   457 F. Supp. 3d 797, 827 (N.D. Cal. 2020) (“Plaintiffs must establish that the information at issue
+
+                                  18   . . . was obtained through a violation of the first or second clauses. Because Plaintiffs have not
+
+                                  19   done so, they have also failed to plead a violation of the third clause.”).
+
+                                  20                          d.      Subsection (a)(4)
+                                  21          This leaves Swarts’s theory remaining based on the fourth clause. A party may be held
+
+                                  22   vicariously liable under the fourth clause of § 631 where it “aids, agrees with, employs, or
+
+                                  23   conspires with any person or persons to unlawfully do, or permit, or cause to be done any of the
+
+                                  24   acts or things” prohibited in the first three clauses. Cal. Penal Code § 631. Home Depot argues
+
+                                  25   that Swarts’s claims must be dismissed because the third parties utilized by Home Depot were
+
+                                  26   only a “tool” used to record the conversations, and therefore do not fall within the meaning of
+
+                                  27   § 631(a). ECF No. 29 at 15–16. In addition, Home Depot avers that Swarts “offers no factual
+
+                                  28   support” for his assertion that “LivePerson or other third parties are listening in real time.” Id. at
+                                                                                          11
+                                       Case 4:23-cv-00995-JST           Document 31         Filed 08/30/23      Page 12 of 17
+
+
+
+
+                                   1   14.
+
+                                   2          Understanding Home Depot’s argument that LivePerson, and other third parties, are
+
+                                   3   merely tools “supplying [recorded] information back to Defendant” requires a brief explanation of
+
+                                   4   two cases that have shaped § 631 jurisprudence. ECF No. 23 at 20. In Rogers v. Ulrich, Ulrich
+
+                                   5   used a tape-recording device to record a conversation with Rogers without his knowledge or
+
+                                   6   consent. 52 Cal. App. 3d 894, 897 (1975). In holding for Ulrich, the court looked to the
+
+                                   7   Legislature’s intent in passing CIPA and noted that “it speaks of preventing eavesdropping . . .
+
+                                   8   thus suggesting that participant recording was not meant to be included.” Id. at 899. In turn, the
+
+                                   9   court reasoned that “[i]t is never a secret to one party to a conversation that the other party is
+
+                                  10   listening to a conversation; only a third party can listen secretly to a private conversation.” Id.
+
+                                  11          In Ribas v. Clark, after Ribas and his wife finalized their divorce settlement, the wife asked
+
+                                  12   her friend, Clark, to listen in on a conversation with her former husband via an extension. 38 Cal.
+
+
+ United States District Court
+                                  13   3d 355, 358 (1985). In determining that the friend’s actions violated § 631, the California
+
+                                  14   Supreme Court reasoned that “a substantial distinction has been recognized between the
+
+                                  15   secondhand repetition of the contents of a conversation and its simultaneous dissemination to an
+
+
+
+Northern District of California
+                                  16   unannounced second auditor, whether that auditor be a person or mechanical device.” Id. at 361.
+
+                                  17   The Court specifically held that “such secret monitoring denies the speaker an important aspect of
+
+                                  18   privacy of communication—the right to control the nature and extent of the firsthand
+
+                                  19   dissemination of his statements.” Id.
+
+                                  20          Following the Ribas and Rogers distinction, the determinative question for courts is
+
+                                  21   whether the third parties at issue are “more akin to the tape recorder in Rogers,” “or [to] the friend
+
+                                  22   in Ribas.” Javier, 2023 WL 114225, at *5. As the court stated persuasively in Javier, this
+
+                                  23   distinction turns on the “question of whether the third party ‘ha[s] the capability to use its record
+
+                                  24   of the interaction for any other purpose.’” Yockey v. Salesforce, Inc., No. 22-CV-09067-JST, 2023
+
+                                  25   WL 5519323, at *5 (N.D. Cal. Aug. 25, 2023) (quoting Javier, 2023 WL 114225, at *6). Thus,
+
+                                  26   “[i]f [Liveperson] can use its records of the communications for any purpose other than to furnish
+
+                                  27   information relating to those communications to [Home Depot], then it is more like the wife in
+
+                                  28   Ribas who allowed Clark to eavesdrop. By contrast, if [Liveperson] “has no independent ability to
+                                                                                          12
+                                       Case 4:23-cv-00995-JST           Document 31        Filed 08/30/23      Page 13 of 17
+
+
+
+
+                                   1   divulge its recording for any other purpose but for that of” [Home Depot], then it is more like the
+
+                                   2   tape recorder in Rogers.” Id. (citation omitted).
+
+                                   3          Swarts alleges that LivePerson is a “data mining company” that “uses [] private live chat
+
+                                   4   conversations by analyzing data and providing Home Depot customer data metrics related to each
+
+                                   5   conversation.” ECF No. 17 ¶ 4. He pleads that when a customer uses Home Depot’s live chat
+
+                                   6   feature, “online traffic occurs between the customer’s browser and several liverperson.net
+
+                                   7   subdomains,” and “the customer’s chat information is sent to liveperson.net.” Id. ¶¶ 4, 6. In turn,
+
+                                   8   LivePerson “accesses and analyzes the recorded conversation[s] to understand what Home Depot
+
+                                   9   customers want, to increase sales, fix inefficiencies, and improve experiences.” Id. ¶ 4. Although
+
+                                  10   the bulk of Swarts’s allegations are centered on LivePerson, he also briefly mentions that Home
+
+                                  11   Depot “discloses private chat sessions” with Quantum Metric, “provides its customers’ data” to
+
+                                  12   Google, and sends “live chat session data” to Twilio. Id. ¶¶ 9–10. Nowhere in Swarts’s complaint
+
+
+ United States District Court
+                                  13   does he allege that LivePerson, or any other third party, can use the information obtained for any
+
+                                  14   other purpose besides relaying it to Home Depot. See Javier, 2023 WL 114225, at *6 (denying
+
+                                  15   motion to dismiss § 631 claim where plaintiff alleged that third party software provider “can use
+
+
+
+Northern District of California
+                                  16   that information for other purposes”).
+
+                                  17          The Court also agrees with Home Depot that Swarts fails to allege that LivePerson, or
+
+                                  18   other third parties, “intercepted these communications in transit.” ECF No. 29 at 14–15; see
+
+                                  19   Mastel v. Miniclip SA, 549 F. Supp. 3d 1129, 1135 (E.D. Cal. 2021) (“liability [arises] when the
+
+                                  20   [party] reads, or attempts to read, a communication that is in transit or passing over any wire, line,
+
+                                  21   or cable, or is being sent from, or received at any place within California”) (internal quotations
+
+                                  22   omitted). Swarts states that “[d]uring Defendant’s live chat sessions, online traffic occurs between
+
+                                  23   the customer’s browser and several liveperson.net subdomains[.]” ECF No. 17 ¶ 6. But this
+
+                                  24   statement does not indicate when the interception occurs. As Home Depot argues, this allegation
+
+                                  25   does not dispel the notion that LivePerson receives the information “after the chat reaches Home
+
+                                  26   Depot.” ECF No. 29 at 8 n.5.4 Courts have found that similarly conclusory allegations fail to
+
+                                  27
+                                       4
+                                  28    Swarts fails to allege how any of the other third parties mentioned in the complaint intercept
+                                       communications in transit, and thus, his claim regarding interception fails with respect to those
+                                                                                        13
+                                       Case 4:23-cv-00995-JST           Document 31        Filed 08/30/23      Page 14 of 17
+
+
+
+
+                                   1   support a claim under § 631(a). See Licea v. American Eagle Outfitters, --- F.Supp.3d ----, No.
+
+                                   2   EDCV221702MWFJPR, 2023 WL 2469630, at *9 (C.D. Cal. Mar. 7, 2023) (“Plaintiff does not
+
+                                   3   allege sufficient facts as to how and when the third party receives the communications. Plaintiffs
+
+                                   4   must provide more than conclusory allegations that messages were intercepted “during
+
+                                   5   transmission and in real time.”) (emphasis added); In re Vizio, Inc., Consumer Priv. Litig., 238 F.
+
+                                   6   Supp. 3d 1204, 1228 (C.D. Cal. 2017) (“While Plaintiffs need not prove their theory of
+
+                                   7   interception on a motion to dismiss, Plaintiffs must provide fair notice to Defendants of when they
+
+                                   8   believe [Defendant] intercepts their communications.”)
+
+                                   9            Because the third parties are more akin to the tape recorder in Rogers, and because Swarts
+
+                                  10   does not adequately allege interception within the meaning of the statute, Swarts’s claims pursuant
+
+                                  11   to clause four of § 631(a) must be dismissed at this stage.
+
+                                  12            C.     CIPA § 632
+
+
+ United States District Court
+                                  13            Section 632 provides that ‘(a) every person who, without the consent of all parties to a
+
+                                  14   communication, intercepts or receives and intentionally records . . . a communication transmitted
+
+                                  15   between two cellular radio telephones, a cellular radio telephone and a landline telephone, two
+
+
+
+Northern District of California
+                                  16   cordless telephones, a cordless telephone and a landline telephone, or a cordless telephone and a
+
+                                  17   cellular radio telephone . . . shall be punished by fine . . . or by imprisonment.’” Cal. Penal Code
+
+                                  18   § 632.
+
+                                  19            “A communication is confidential under Section 632 if a party ‘has an objectively
+
+                                  20   reasonable expectation that the conversation is not being overheard or recorded.’” Brown v.
+
+                                  21   Google LLC, 525 F. Supp. 3d 1049, 1073 (N.D. Cal. 2021) (quoting Flanagan v. Flanagan, 27
+
+                                  22   Cal. 4th 766, 776–77 (2002)). “California appeals courts have generally found that Internet-based
+
+                                  23   communications are not ‘confidential’ within the meaning of [S]ection 632, because such
+
+                                  24   communications can easily be shared by, for instance, the recipient(s) of the communications.”
+
+                                  25   Campbell v. Facebook Inc., 77 F. Supp. 3d 836, 849 (N.D. Cal. 2014) (collecting cases). As a
+
+                                  26   result, courts “have developed a presumption” that such communications do not give rise to the
+
+                                  27
+
+                                  28
+                                       third parties as well.
+                                                                                         14
+                                       Case 4:23-cv-00995-JST             Document 31      Filed 08/30/23      Page 15 of 17
+
+
+
+
+                                   1   requisite expectation. Revitch v. New Moosejaw, Inc., No. 18-cv-06827-VC, 2019 WL 5485330,
+
+                                   2   at *3 (N.D. Cal. Oct. 23, 2023).
+
+                                   3          Home Depot argues that “no reasonable user [of the chat function] could objectively
+
+                                   4   believe that such chats would be confidential.” ECF No. 29 at 19–20. Swarts alleges that chat
+
+                                   5   transcripts are “a modern equivalent to telephone conversations with customer service agents,”
+
+                                   6   and merit an “expectation of privacy.” ECF No. 28 at 21.
+
+                                   7          The Court is unpersuaded by Swarts’s argument that “[t]he statute envisions evolving
+
+                                   8   technology, [and] new ways companies may invade consumer privacy ‘communications’ . . . .”
+
+                                   9   ECF No. 28 at 22. A plain reading of the text itself makes clear that the statute only applies to
+
+                                  10   communications transmitted by telephone, not internet. Furthermore, Swarts’s claim that
+
+                                  11   consumers “cannot be expected to know” that chat conversations with customer service agents are
+
+                                  12   generally recorded is objectively unreasonable. ECF No. 28 at 25. Swarts attempts to bolster his
+
+
+ United States District Court
+                                  13   argument by pointing to In re Meta Pixel Healthcare Litig., --- F.Supp.3d ----, No. 22-cv-05380-
+
+                                  14   WHO, 2022 WL 17869218, at *14 (N.D. Cal. Dec. 22, 2022), where the court found that users of
+
+                                  15   a website that collected healthcare information had an expectation of privacy as to those
+
+
+
+Northern District of California
+                                  16   communications. But that case concerned “[c]ommunications made in the context of a patient-
+
+                                  17   medical provider relationship,” which is a “readily distinguishable” relationship from that of a
+
+                                  18   Home Depot customer conversing with a customer service agent. In re Meta Pixel Healthcare
+
+                                  19   Litig., 2022 WL 17869218, at *14; see Yockey, 2023 WL 5519323, at *6.
+
+                                  20          Accordingly, Swarts fails to state a § 632 claim.
+
+                                  21          D.      Wiretap Act
+
+                                  22          Swarts’s third claim is based upon a violation of the Wiretap Act. The Wiretap Act
+
+                                  23   provides for civil penalties against any person who “intentionally intercepts, endeavors to
+
+                                  24   intercept, or procures any other person to intercept or endeavor to intercept, any wire, oral, or
+
+                                  25   electronic communication.” 18 U.S.C. § 2511(1)(a). “The analysis for a violation of CIPA is the
+
+                                  26   same as that under the federal Wiretap Act.” NovelPoster, 140 F. Supp. 3d at 954. Because
+
+                                  27   Swarts is unable to allege that Home Depot intercepted the communications in transit under the
+
+                                  28   CIPA, he is also unable to allege a violation of the Wiretap Act.
+                                                                                         15
+                                       Case 4:23-cv-00995-JST           Document 31         Filed 08/30/23      Page 16 of 17
+
+
+
+
+                                   1          E.      UCL
+
+                                   2          Swarts’s final claim alleges a violation of California’s Unfair Competition Law. To bring
+
+                                   3   a UCL claim, a person must have “suffered injury in fact and . . . lost money or property as a result
+
+                                   4   of the unfair competition.” Cal. Bus. & Prof. Code § 17204. Thus, a UCL plaintiff must “(1)
+
+                                   5   establish a loss or deprivation of money or property sufficient to qualify as injury in fact, i.e.,
+
+                                   6   economic injury, and (2) show that that economic injury was the result of, i.e., caused by, the
+
+                                   7   unfair business practice or false advertising that is the gravamen of the claim.” Kwikset Corp. v.
+
+                                   8   Superior Court, 51 Cal. 4th 310, 322 (2011) (emphasis in original).
+
+                                   9          Home Depot argues that Swarts does not allege any economic loss, and states only that his
+
+                                  10   “right to privacy is being infringed.” ECF No. 23 at 25. Swarts counters that he has UCL
+
+                                  11   standing because he “only seeks injunctive relief and need not satisfy the UCL’s requirements for
+
+                                  12   seeking restitution.” ECF No. 28 at 10. The sole case Swarts cites in support of this position is
+
+
+ United States District Court
+                                  13   White v. Trans Union, LLC, 462 F. Supp. 2d 1079 (C.D. Cal. 2006). The Court finds this reliance
+
+                                  14   misplaced. The White court held that the plaintiff need not demonstrate that the defendant directly
+
+                                  15   took money from him in order to establish standing to sue for injunctive relief under the UCL. Id.
+
+
+
+Northern District of California
+                                  16   at 1083. As another court explained:
+
+                                  17                  White does not stand for the proposition that a UCL plaintiff need
+                                                      not show he has suffered injury in fact to demonstrate that he has
+                                  18                  standing to sue for injunctive relief. Rather, it simply recognizes
+                                                      that a plaintiff need not allege that the defendant directly took
+                                  19                  money from him—i.e., allege recoverable restitution—in order to
+                                                      allege a loss of money or property sufficient to confer standing to
+                                  20                  sue for a UCL violation.
+                                  21   Bontrager v. Showmark Media LLC, No. CV 14-01144 MMM-EX, 2014 WL 12600201, at *8
+
+                                  22   (C.D. Cal. June 20, 2014)
+
+                                  23          At bottom, Swarts cannot circumvent the requirement that he has lost money or property.
+
+                                  24   Plaintiff cites to Calhoun v. Google LLC, 526 F. Supp. 3d 605, 636 (N.D. Cal. 2021) to support his
+
+                                  25   position that a loss of personal information can confer standing. However, as another court in this
+
+                                  26   District observed, Calhoun rests on four cases that address Article III standing, which is different
+
+                                  27   from standing under the UCL. See Cottle v. Plaid Inc., 536 F. Supp. 3d 461, 484 n.8 (N.D. Cal.
+
+                                  28   2021) (disagreeing with Calhoun). Numerous courts have held that disclosure of personal
+                                                                                          16
+                                       Case 4:23-cv-00995-JST          Document 31        Filed 08/30/23      Page 17 of 17
+
+
+
+
+                                   1   information alone does not constitute economic or property loss sufficient to establish UCL
+
+                                   2   standing, unless the plaintiff provides specific allegations regarding the value of the information.
+
+                                   3   See, e.g., In re Yahoo! Inc. Customer Data Sec. Breach Litig., No. 16-MD-02752-LHK, 2017 WL
+
+                                   4   3727318, at *22 (N.D. Cal. Aug. 30, 2017) (rejecting UCL standing to victims of data breach who
+
+                                   5   had failed to allege specific benefit-of-the-bargain losses or out-of-pocket expenses); In re
+
+                                   6   Facebook Privacy Litig., 791 F. Supp. 2d 705, 714 (N.D. Cal. 2011), aff’d 572 F. App’x 494 (9th
+
+                                   7   Cir. 2014) (“A plaintiff’s personal information does not constitute property under the UCL.”)
+
+                                   8          The Court finds that Swarts has not alleged that he lost money or property and thus does
+
+                                   9   not have standing to bring his UCL claim.
+
+                                  10                                             CONCLUSION
+
+                                  11          For the foregoing reasons, Home Depot’s motion is denied in part and granted in part.
+
+                                  12   Swarts’s UCL claim is dismissed without leave to amend. Swarts’s CIPA and Wiretap Act claims
+
+
+ United States District Court
+                                  13   are dismissed with leave to amend because Home Depot has not shown that amendment would
+
+                                  14   prejudice Home Depot, is sought in bad faith, would produce an undue delay, or would be futile.
+
+                                  15   See AmerisourceBergen Corp v. Dialyst West, Inc., 465 F.3d 946, 951 (9th Cir. 2006). Plaintiff
+
+
+
+Northern District of California
+                                  16   may file an amended complaint within twenty-one days of this order solely to cure the deficiencies
+
+                                  17   identified by this order. Failure to file a timely amended complaint will result in dismissal of
+
+                                  18   Swarts’s CIPA and Wiretap Act claims with prejudice.
+
+                                  19          IT IS SO ORDERED.
+
+                                  20   Dated: August 30, 2023
+                                                                                        ______________________________________
+                                  21
+                                                                                                      JON S. TIGAR
+                                  22                                                            United States District Judge
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+                                  27
+
+                                  28
+                                                                                        17
+

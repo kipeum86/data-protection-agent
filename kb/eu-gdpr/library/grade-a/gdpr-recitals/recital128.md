@@ -1,0 +1,20 @@
+---
+# === Identification ===
+law: "General Data Protection Regulation"
+law_id: "32016R0679"
+recital: 128
+document_type: "recital"
+
+# === Source ===
+source_grade: "A"
+effective_date: "20180525"
+retrieved_at: "2026-03-25"
+
+# === Relationships ===
+related_articles:
+  - "Art. 56"
+---
+
+## Recital 128
+
+The rules on the lead supervisory authority and the one-stop-shop mechanism should not apply where the processing is carried out by public authorities or private bodies in the public interest. In such cases the only supervisory authority competent to exercise the powers conferred to it in accordance with this Regulation should be the supervisory authority of the Member State where the public authority or private body is established.

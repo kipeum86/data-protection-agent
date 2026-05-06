@@ -1,0 +1,286 @@
+{
+  "collection": "PIPC Official Guidelines",
+  "source_grade": "A",
+  "publisher": "개인정보보호위원회 (PIPC)",
+  "document_count": 46,
+  "errors": 0,
+  "generated_at": "2026-03-24T15:28:48.638426",
+  "guidelines": [
+    {
+      "id": "1",
+      "slug": "commentary-on-pipa",
+      "title_kr": "개인정보 보호법령 해설서",
+      "file": "01-commentary-on-pipa.md"
+    },
+    {
+      "id": "2",
+      "slug": "integrated-processing-guide",
+      "title_kr": "개인정보 처리 통합 안내서",
+      "file": "02-integrated-processing-guide.md"
+    },
+    {
+      "id": "3",
+      "slug": "sector-specific-guide",
+      "title_kr": "분야별 개인정보 보호 안내서",
+      "file": "03-sector-specific-guide.md"
+    },
+    {
+      "id": "4",
+      "slug": "emergency-processing",
+      "title_kr": "긴급상황 시 개인정보 처리 안내서",
+      "file": "04-emergency-processing.md"
+    },
+    {
+      "id": "5",
+      "slug": "children-adolescents",
+      "title_kr": "아동·청소년 개인정보 보호 안내서",
+      "file": "05-children-adolescents.md"
+    },
+    {
+      "id": "6",
+      "slug": "access-exclusion-right",
+      "title_kr": "인터넷 자기게시물 접근배제요청권 안내서",
+      "file": "06-access-exclusion-right.md"
+    },
+    {
+      "id": "7",
+      "slug": "automated-decision-making",
+      "title_kr": "자동화된 의사결정에 대한 정보주체 권리 안내서",
+      "file": "07-automated-decision-making.md"
+    },
+    {
+      "id": "8",
+      "slug": "safety-standards",
+      "title_kr": "개인정보의 안전성 확보조치 안내서",
+      "file": "08-safety-standards.md"
+    },
+    {
+      "id": "9",
+      "slug": "developer-privacy",
+      "title_kr": "개발자를 위한 프라이버시 보호조치 안내서",
+      "file": "09-developer-privacy.md"
+    },
+    {
+      "id": "10",
+      "slug": "biometric-info",
+      "title_kr": "생체정보 보호 안내서",
+      "file": "10-biometric-info.md"
+    },
+    {
+      "id": "11",
+      "slug": "fixed-video-surveillance",
+      "title_kr": "고정형 영상정보처리기기 안내서",
+      "file": "11-fixed-video-surveillance.md"
+    },
+    {
+      "id": "12",
+      "slug": "mobile-surveillance",
+      "title_kr": "이동형 영상정보처리기기 개인정보 보호 안내서",
+      "file": "12-mobile-surveillance.md"
+    },
+    {
+      "id": "13",
+      "slug": "smart-city",
+      "title_kr": "스마트시티 개인정보 보호 안내서",
+      "file": "13-smart-city.md"
+    },
+    {
+      "id": "14",
+      "slug": "website-exposure-prevention",
+      "title_kr": "홈페이지 개인정보 노출방지 안내서",
+      "file": "14-website-exposure-prevention.md"
+    },
+    {
+      "id": "15",
+      "slug": "synthetic-data",
+      "title_kr": "합성데이터 활용 안내서",
+      "file": "15-synthetic-data.md"
+    },
+    {
+      "id": "16",
+      "slug": "pseudonymization",
+      "title_kr": "가명정보 처리 가이드라인",
+      "file": "16-pseudonymization.md"
+    },
+    {
+      "id": "17",
+      "slug": "pseudonymization-public",
+      "title_kr": "공공부문 가명정보 처리 실무 안내서",
+      "file": "17-pseudonymization-public.md"
+    },
+    {
+      "id": "18",
+      "slug": "pseudonymization-education",
+      "title_kr": "교육분야 가명정보 처리 안내서",
+      "file": "18-pseudonymization-education.md"
+    },
+    {
+      "id": "19",
+      "slug": "health-medical-data",
+      "title_kr": "보건의료 데이터 활용 안내서",
+      "file": "19-health-medical-data.md"
+    },
+    {
+      "id": "20",
+      "slug": "synthetic-data-reference-model",
+      "title_kr": "합성데이터 생성 참조모델",
+      "file": "20-synthetic-data-reference-model.md"
+    },
+    {
+      "id": "21",
+      "slug": "public-ai-development",
+      "title_kr": "AI 개발을 위한 공공 개인정보 처리 안내서",
+      "file": "21-public-ai-development.md"
+    },
+    {
+      "id": "22",
+      "slug": "ai-privacy-risk-assessment",
+      "title_kr": "AI 프라이버시 리스크 평가 모델",
+      "file": "22-ai-privacy-risk-assessment.md"
+    },
+    {
+      "id": "23",
+      "slug": "generative-ai",
+      "title_kr": "생성AI에 의한 개인정보 처리 안내서",
+      "file": "23-generative-ai.md"
+    },
+    {
+      "id": "24",
+      "slug": "privacy-policy-drafting",
+      "title_kr": "개인정보 처리방침 작성 안내서",
+      "file": "24-privacy-policy-drafting.md"
+    },
+    {
+      "id": "25",
+      "slug": "privacy-impact-assessment",
+      "title_kr": "개인정보 영향평가 수행 안내서",
+      "file": "25-privacy-impact-assessment.md"
+    },
+    {
+      "id": "26",
+      "slug": "pia-cost-estimation",
+      "title_kr": "개인정보 영향평가 비용 산정 안내서",
+      "file": "26-pia-cost-estimation.md"
+    },
+    {
+      "id": "27",
+      "slug": "isms-p-certification",
+      "title_kr": "ISMS-P 인증기준 안내서",
+      "file": "27-isms-p-certification.md"
+    },
+    {
+      "id": "28",
+      "slug": "privacy-education",
+      "title_kr": "개인정보 보호 교육 안내서",
+      "file": "28-privacy-education.md"
+    },
+    {
+      "id": "29",
+      "slug": "breach-response",
+      "title_kr": "개인정보 유출사고 대응 매뉴얼",
+      "file": "29-breach-response.md"
+    },
+    {
+      "id": "30-en",
+      "slug": "foreign-business-en",
+      "title_kr": "Guide on Application of PIPA to Foreign Businesses (EN)",
+      "file": "30-en-foreign-business-en.md"
+    },
+    {
+      "id": "30-kr",
+      "slug": "foreign-business-kr",
+      "title_kr": "외국의 사업자에 대한 개인정보 보호법 적용 안내서",
+      "file": "30-kr-foreign-business-kr.md"
+    },
+    {
+      "id": "31",
+      "slug": "liability-insurance",
+      "title_kr": "개인정보 손해배상 책임보험 안내서",
+      "file": "31-liability-insurance.md"
+    },
+    {
+      "id": "32",
+      "slug": "qa-compilation",
+      "title_kr": "개인정보 보호 QA 모음집",
+      "file": "32-qa-compilation.md"
+    },
+    {
+      "id": "33",
+      "slug": "data-portability",
+      "title_kr": "개인정보 전송요구권 안내서",
+      "file": "33-data-portability.md"
+    },
+    {
+      "id": "34",
+      "slug": "management-agency-general",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (일반)",
+      "file": "34-management-agency-general.md"
+    },
+    {
+      "id": "35",
+      "slug": "management-agency-special",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (특례)",
+      "file": "35-management-agency-special.md"
+    },
+    {
+      "id": "36",
+      "slug": "management-agency-relay",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (중계)",
+      "file": "36-management-agency-relay.md"
+    },
+    {
+      "id": "37",
+      "slug": "general-data-recipient",
+      "title_kr": "일반 데이터 수령인 등록 안내서",
+      "file": "37-general-data-recipient.md"
+    },
+    {
+      "id": "38",
+      "slug": "mydata-transfer-procedures",
+      "title_kr": "분야 간 본인정보 전송 절차·기술 안내서",
+      "file": "38-mydata-transfer-procedures.md"
+    },
+    {
+      "id": "39a",
+      "slug": "industry-real-estate",
+      "title_kr": "업종별 개인정보 처리 안내서 - 부동산",
+      "file": "39a-industry-real-estate.md"
+    },
+    {
+      "id": "39b",
+      "slug": "industry-hotels",
+      "title_kr": "업종별 개인정보 처리 안내서 - 숙박업",
+      "file": "39b-industry-hotels.md"
+    },
+    {
+      "id": "39c",
+      "slug": "industry-academies",
+      "title_kr": "업종별 개인정보 처리 안내서 - 학원",
+      "file": "39c-industry-academies.md"
+    },
+    {
+      "id": "40",
+      "slug": "small-business-handbook",
+      "title_kr": "소상공인 개인정보 보호 핸드북",
+      "file": "40-small-business-handbook.md"
+    },
+    {
+      "id": "41a",
+      "slug": "template-real-estate",
+      "title_kr": "표준 개인정보처리방침 - 공인중개사",
+      "file": "41a-template-real-estate.md"
+    },
+    {
+      "id": "41b",
+      "slug": "template-senior-welfare",
+      "title_kr": "표준 개인정보처리방침 - 노인복지관",
+      "file": "41b-template-senior-welfare.md"
+    },
+    {
+      "id": "41c",
+      "slug": "template-travel-agency",
+      "title_kr": "표준 개인정보처리방침 - 여행사",
+      "file": "41c-template-travel-agency.md"
+    }
+  ]
+}

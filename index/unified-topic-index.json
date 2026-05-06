@@ -1,0 +1,488 @@
+{
+  "type": "unified_topic_index",
+  "generated_at": "2026-05-06T09:27:26+00:00",
+  "count": 13,
+  "note": "Currently imports native topic indexes. GDPR/PIPA topic crosswalk can be added as a separate comparative seed layer.",
+  "topics": [
+    {
+      "unified_id": "us-ca:notice_at_collection",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "notice_at_collection",
+      "title": "Notice at Collection and Privacy Disclosures",
+      "summary": "When and how a business must disclose categories, purposes, sale/share status, retention, and rights at or before collection.",
+      "search_terms": [
+        "notice at collection",
+        "privacy policy",
+        "categories collected",
+        "retention",
+        "CalOPPA"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7003",
+        "us-ca:ca-11-ccr-7011",
+        "us-ca:ca-11-ccr-7012",
+        "us-ca:ca-bpc-22575",
+        "us-ca:ca-civ-1798.100",
+        "us-ca:ca-cppa-laws-regulations",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:ca-oag-doordash-2024-settlement-press"
+      ],
+      "answer_cautions": [
+        "Do not substitute an OAG FAQ for the statute or CPPA regulations.",
+        "Separate CCPA notice-at-collection duties from CalOPPA privacy-policy posting duties."
+      ],
+      "comparative_hooks": [
+        "GDPR Arts. 13-14",
+        "PIPA privacy policy and collection notice rules"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:opt_out_sale_share_gpc",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "opt_out_sale_share_gpc",
+      "title": "Opt Out of Sale/Share and GPC",
+      "summary": "Consumer opt-out rights for sale/share, opt-out links, opt-out preference signals, and frictionless processing.",
+      "search_terms": [
+        "opt-out",
+        "sale",
+        "share",
+        "GPC",
+        "global privacy control",
+        "preference signal"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7004",
+        "us-ca:ca-11-ccr-7013",
+        "us-ca:ca-11-ccr-7025",
+        "us-ca:ca-11-ccr-7026",
+        "us-ca:ca-civ-1798.120",
+        "us-ca:ca-civ-1798.135",
+        "us-ca:ca-cppa-honda-2025-stipulated-final-order",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:ca-oag-ccpa-enforcement-examples",
+        "us-ca:ca-oag-disney-2026-settlement-press",
+        "us-ca:ca-oag-joint-gpc-2025-sweep",
+        "us-ca:ca-oag-sephora-2022-settlement-press",
+        "us-ca:ca-oag-sling-tv-2025-settlement-press"
+      ],
+      "answer_cautions": [
+        "Do not call enforcement settlements judicial precedent.",
+        "Check whether the issue is sale, share, or both."
+      ],
+      "comparative_hooks": [
+        "GDPR objection/direct marketing",
+        "PIPA third-party provision consent"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:sensitive_personal_information",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "sensitive_personal_information",
+      "title": "Sensitive Personal Information and Limit Use",
+      "summary": "Definition and limit-use framework for sensitive personal information, including notice and risk-assessment overlap.",
+      "search_terms": [
+        "sensitive personal information",
+        "limit use",
+        "precise geolocation",
+        "health data"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7014",
+        "us-ca:ca-11-ccr-7027",
+        "us-ca:ca-11-ccr-7150",
+        "us-ca:ca-civ-1798.121",
+        "us-ca:ca-civ-1798.140",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:ca-oag-healthline-2025-settlement-press",
+        "us-ca:ca-supreme-brown-v-mortensen-2011",
+        "us-ca:ca-supreme-raines-v-us-healthworks-2023",
+        "us-ca:us-fed-mg-v-therapymatch-2024-mtd",
+        "us-ca:us-fed-mg-v-therapymatch-2025-mtd",
+        "us-ca:us-fed-rc-v-sussex-2025-mtd",
+        "us-ca:us-fed-zarif-v-healthwarehouse-2025-mtd"
+      ],
+      "answer_cautions": [
+        "Medical or health-related data may also require CMIA analysis.",
+        "Private-right-of-action analysis is narrower than general CCPA compliance analysis."
+      ],
+      "comparative_hooks": [
+        "GDPR special categories",
+        "PIPA sensitive information"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:data_minimization_purpose_limitation",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "data_minimization_purpose_limitation",
+      "title": "Data Minimization and Purpose Limitation",
+      "summary": "Reasonable, necessary, and proportionate collection/use/retention under the CCPA and CPPA regulations.",
+      "search_terms": [
+        "data minimization",
+        "purpose limitation",
+        "necessary and proportionate",
+        "retention"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7002",
+        "us-ca:ca-11-ccr-7012",
+        "us-ca:ca-civ-1798.100",
+        "us-ca:ca-civ-1798.185",
+        "us-ca:ca-cppa-laws-regulations",
+        "us-ca:ca-oag-healthline-2025-settlement-press",
+        "us-ca:ca-oag-surveillance-pricing-2026-sweep"
+      ],
+      "answer_cautions": [
+        "Tie the answer to disclosed purposes and consumer reasonable expectations.",
+        "Avoid saying California uses GDPR terminology unless comparing frameworks."
+      ],
+      "comparative_hooks": [
+        "GDPR Arts. 5(1)(b)-(c)",
+        "PIPA purpose limitation and minimum collection"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:service_provider_contracts",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "service_provider_contracts",
+      "title": "Service Provider, Contractor, and Third Party Contracts",
+      "summary": "Contract requirements, restrictions, and downstream processing duties for service providers and contractors.",
+      "search_terms": [
+        "service provider",
+        "contractor",
+        "third party",
+        "contract",
+        "written agreement"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7022",
+        "us-ca:ca-11-ccr-7050",
+        "us-ca:ca-11-ccr-7051",
+        "us-ca:ca-11-ccr-7052",
+        "us-ca:ca-civ-1798.140",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:ca-oag-doordash-2024-settlement-press",
+        "us-ca:ca-oag-sephora-2022-settlement-press"
+      ],
+      "answer_cautions": [
+        "Do not assume a vendor is a service provider without the required contractual restrictions.",
+        "Marketing cooperative disclosures may implicate sale analysis."
+      ],
+      "comparative_hooks": [
+        "GDPR processor contracts",
+        "PIPA outsourcing"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:data_breach_private_right",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "data_breach_private_right",
+      "title": "Data Breach and CCPA Private Right of Action",
+      "summary": "Reasonable security, California breach-notice statutes, and the limited CCPA private right of action.",
+      "search_terms": [
+        "data breach",
+        "private right of action",
+        "reasonable security",
+        "1798.150",
+        "breach notice"
+      ],
+      "authority_refs": [
+        "us-ca:ca-civ-1798.150",
+        "us-ca:ca-civ-1798.80",
+        "us-ca:ca-civ-1798.81.5",
+        "us-ca:ca-civ-1798.82",
+        "us-ca:ca-civ-1798.84",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:us-9th-in-re-california-pizza-kitchen-2025",
+        "us-ca:us-fed-in-re-consumer-vehicle-driving-data-2026-mtd",
+        "us-ca:us-fed-little-seeds-v-citibank-2025-mtd",
+        "us-ca:us-fed-maag-v-us-bank-2021-discovery",
+        "us-ca:us-fed-randles-v-nationstar-transfer-2024"
+      ],
+      "answer_cautions": [
+        "The CCPA private right of action is narrower than general CCPA violations.",
+        "Federal district court decisions are persuasive, not California appellate precedent."
+      ],
+      "comparative_hooks": [
+        "GDPR breach notification and damages",
+        "PIPA breach notification"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:risk_assessments",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "risk_assessments",
+      "title": "Risk Assessments",
+      "summary": "When a business must conduct risk assessments and what the assessment must include under 2026 CPPA regulations.",
+      "search_terms": [
+        "risk assessment",
+        "significant risk",
+        "ADMT",
+        "sensitive personal information"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7150",
+        "us-ca:ca-11-ccr-7151",
+        "us-ca:ca-11-ccr-7152",
+        "us-ca:ca-11-ccr-7153",
+        "us-ca:ca-civ-1798.185",
+        "us-ca:ca-cppa-ccpa-updates-2025"
+      ],
+      "answer_cautions": [
+        "Use the 2026 effective regulation text and retrieved date.",
+        "Do not overstate older CCPA materials as containing the 2026 risk-assessment details."
+      ],
+      "comparative_hooks": [
+        "GDPR DPIA",
+        "PIPA privacy impact assessment"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:admt",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "admt",
+      "title": "Automated Decisionmaking Technology",
+      "summary": "ADMT notices, opt-out/access rights, appeals, and exceptions under the 2026 CPPA regulations.",
+      "search_terms": [
+        "ADMT",
+        "automated decisionmaking",
+        "significant decision",
+        "access ADMT",
+        "appeal"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7010",
+        "us-ca:ca-11-ccr-7011",
+        "us-ca:ca-11-ccr-7200",
+        "us-ca:ca-11-ccr-7220",
+        "us-ca:ca-11-ccr-7221",
+        "us-ca:ca-civ-1798.185",
+        "us-ca:ca-cppa-ccpa-updates-2025"
+      ],
+      "answer_cautions": [
+        "The ADMT rules are part of the 2026 regulation package.",
+        "Check exceptions before saying opt-out is always required."
+      ],
+      "comparative_hooks": [
+        "GDPR Art. 22",
+        "PIPA automated decision response rights"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:minors_children",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "minors_children",
+      "title": "Minors and Children",
+      "summary": "CCPA opt-in rules for minors, child-directed enforcement, SOPIPA, and Age-Appropriate Design Code issues.",
+      "search_terms": [
+        "minor",
+        "child",
+        "under 16",
+        "under 13",
+        "SOPIPA",
+        "Age-Appropriate Design Code"
+      ],
+      "authority_refs": [
+        "us-ca:ca-bpc-22584",
+        "us-ca:ca-bpc-22585",
+        "us-ca:ca-civ-1798.120",
+        "us-ca:ca-civ-1798.99.28",
+        "us-ca:ca-civ-1798.99.31",
+        "us-ca:ca-civ-1798.99.32",
+        "us-ca:ca-cppa-playon-2026-order-of-decision",
+        "us-ca:ca-oag-ccpa",
+        "us-ca:ca-oag-jam-city-2025-settlement-press",
+        "us-ca:ca-oag-sling-tv-2025-settlement-press",
+        "us-ca:ca-oag-tilting-point-2024-settlement-press"
+      ],
+      "answer_cautions": [
+        "Age-Appropriate Design Code obligations require current litigation/injunction status checks.",
+        "COPPA may also apply but is not part of this California KB."
+      ],
+      "comparative_hooks": [
+        "GDPR child consent",
+        "PIPA children privacy safeguards"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:cipa_website_tracking",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "cipa_website_tracking",
+      "title": "CIPA Website Tracking, Chat, and Session Replay",
+      "summary": "California Invasion of Privacy Act issues around wiretapping, eavesdropping, call recording, chat widgets, pixels, and session replay.",
+      "search_terms": [
+        "CIPA",
+        "session replay",
+        "chat widget",
+        "wiretap",
+        "Penal Code 631",
+        "Penal Code 632.7"
+      ],
+      "authority_refs": [
+        "us-ca:ca-pen-630",
+        "us-ca:ca-pen-631",
+        "us-ca:ca-pen-632",
+        "us-ca:ca-pen-632.7",
+        "us-ca:ca-pen-637.2",
+        "us-ca:ca-pen-638.55",
+        "us-ca:ca-supreme-flanagan-v-flanagan-2002",
+        "us-ca:ca-supreme-kearney-v-salomon-smith-barney-2006",
+        "us-ca:ca-supreme-smith-v-loanme-2021",
+        "us-ca:us-9th-javier-v-assurance-iq-2022",
+        "us-ca:us-fed-garcia-v-build-2023-mtd",
+        "us-ca:us-fed-garcia-v-build-2024-mtd",
+        "us-ca:us-fed-graham-v-noom-2021-dismissal",
+        "us-ca:us-fed-in-re-facebook-internet-tracking-2017-mtd",
+        "us-ca:us-fed-jones-v-tonal-2024-mtd",
+        "us-ca:us-fed-rc-v-sussex-2025-mtd",
+        "us-ca:us-fed-swarts-v-home-depot-2023-mtd",
+        "us-ca:us-fed-valenzuela-v-keurig-2023-standing-order",
+        "us-ca:us-fed-zarif-v-healthwarehouse-2025-mtd"
+      ],
+      "answer_cautions": [
+        "CIPA is adjacent California privacy law, not CCPA.",
+        "Publication and authority level vary sharply between California Supreme Court, Ninth Circuit memorandum, and district court orders."
+      ],
+      "comparative_hooks": [
+        "GDPR ePrivacy/cookies",
+        "PIPA behavioral tracking and consent"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:cipa_pen_register_pixels",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "cipa_pen_register_pixels",
+      "title": "CIPA Pen Register, Pixels, Cookies, and IP Address Tracking",
+      "summary": "California CIPA pen-register/trap-and-trace theories involving pixels, cookies, IP addresses, tracking scripts, and ad-tech routing data.",
+      "search_terms": [
+        "CIPA pen register",
+        "trap and trace",
+        "pixel",
+        "cookie",
+        "IP address",
+        "ad tech",
+        "638.50",
+        "638.51"
+      ],
+      "authority_refs": [
+        "us-ca:ca-pen-630",
+        "us-ca:ca-pen-631",
+        "us-ca:ca-pen-637.2",
+        "us-ca:ca-pen-638.50",
+        "us-ca:ca-pen-638.51",
+        "us-ca:us-9th-javier-v-assurance-iq-2022",
+        "us-ca:us-fed-gabrielli-v-motorola-2025-mtd",
+        "us-ca:us-fed-garon-v-keleops-2025-mtd",
+        "us-ca:us-fed-mirmalek-v-la-times-2024-remand",
+        "us-ca:us-fed-swarts-v-home-depot-2023-mtd"
+      ],
+      "answer_cautions": [
+        "CIPA pen-register cases are fast-moving and often federal district court persuasive authority.",
+        "Separate section 631 wiretap/eavesdropping theories from sections 638.50 and 638.51 pen-register theories."
+      ],
+      "comparative_hooks": [
+        "GDPR/ePrivacy cookies and tracking",
+        "PIPA behavioral advertising and tracking consent"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:data_brokers_delete_act",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "data_brokers_delete_act",
+      "title": "Data Brokers and Delete Act",
+      "summary": "California data broker registration and deletion mechanism provisions collected from LegInfo.",
+      "search_terms": [
+        "data broker",
+        "Delete Act",
+        "DROP",
+        "registration",
+        "accessible deletion mechanism"
+      ],
+      "authority_refs": [
+        "us-ca:ca-civ-1798.99.80",
+        "us-ca:ca-civ-1798.99.81",
+        "us-ca:ca-civ-1798.99.82",
+        "us-ca:ca-civ-1798.99.84",
+        "us-ca:ca-civ-1798.99.85",
+        "us-ca:ca-civ-1798.99.86",
+        "us-ca:ca-civ-1798.99.89",
+        "us-ca:ca-cppa-laws-regulations"
+      ],
+      "answer_cautions": [
+        "Do not collapse data broker duties into ordinary CCPA business duties.",
+        "Check current CPPA rulemaking and implementation status for operational details."
+      ],
+      "comparative_hooks": [
+        "GDPR data broker transparency",
+        "PIPA personal information file registration/comparable governance"
+      ],
+      "coverage_status": "pass"
+    },
+    {
+      "unified_id": "us-ca:enforcement_authority",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "original_id": "enforcement_authority",
+      "title": "OAG/CPPA Enforcement Authority and Administrative Materials",
+      "summary": "Civil and administrative enforcement powers, investigation rules, and how to use enforcement materials as nonprecedential authority.",
+      "search_terms": [
+        "enforcement",
+        "administrative order",
+        "civil penalty",
+        "CPPA",
+        "OAG",
+        "settlement"
+      ],
+      "authority_refs": [
+        "us-ca:ca-11-ccr-7300",
+        "us-ca:ca-11-ccr-7301",
+        "us-ca:ca-11-ccr-7302",
+        "us-ca:ca-11-ccr-7303",
+        "us-ca:ca-11-ccr-7304",
+        "us-ca:ca-civ-1798.155",
+        "us-ca:ca-civ-1798.199.35",
+        "us-ca:ca-civ-1798.199.90",
+        "us-ca:ca-cppa-ford-2026-order-of-decision",
+        "us-ca:ca-cppa-honda-2025-stipulated-final-order",
+        "us-ca:ca-cppa-playon-2026-order-of-decision",
+        "us-ca:ca-oag-ccpa-enforcement-examples",
+        "us-ca:ca-oag-doordash-2024-settlement-press",
+        "us-ca:ca-oag-healthline-2025-settlement-press",
+        "us-ca:ca-oag-joint-gpc-2025-sweep",
+        "us-ca:ca-oag-sephora-2022-settlement-press",
+        "us-ca:ca-oag-surveillance-pricing-2026-sweep"
+      ],
+      "answer_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Distinguish press releases from complaints, stipulated judgments, and final agency orders."
+      ],
+      "comparative_hooks": [
+        "GDPR supervisory authority enforcement",
+        "PIPA regulator corrective orders and penalties"
+      ],
+      "coverage_status": "pass"
+    }
+  ]
+}

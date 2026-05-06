@@ -1,0 +1,39 @@
+{
+  "A": {
+    "meaning": "Official primary or official current guidance source",
+    "examples": [
+      "CPPA statute PDF",
+      "California LegInfo code section",
+      "CPPA regulations PDF",
+      "California published appellate opinion from official court source",
+      "GovInfo or federal court-hosted opinion"
+    ]
+  },
+  "B": {
+    "meaning": "Official but nonbinding, explanatory, enforcement, administrative, or secondary authority source",
+    "examples": [
+      "OAG enforcement press release",
+      "OAG complaint or settlement",
+      "CPPA administrative order",
+      "CPPA stipulated final order",
+      "California unpublished opinion"
+    ]
+  },
+  "C": {
+    "meaning": "Commentary or discovery-only source requiring official verification",
+    "examples": [
+      "CourtListener search record",
+      "Justia mirror",
+      "law firm alert",
+      "academic article"
+    ]
+  },
+  "D": {
+    "meaning": "Excluded source",
+    "examples": [
+      "AI-generated summary",
+      "unsourced blog",
+      "outdated CCPA summary"
+    ]
+  }
+}

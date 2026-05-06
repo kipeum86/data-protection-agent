@@ -1,0 +1,369 @@
+ 1   ROB BONTA
+     Attorney General of California
+ 2   NICKLAS A. AKERS
+ 3   Senior Assistant Attorney General
+     STACEY D. SCHESSER
+ 4   Supervising Deputy Attorney General
+     JESSICA WANG (SBN 278300)
+ 5   AMOS E. HARTSTON (SBN 186471)
+     MANEESH SHARMA (SBN 280084)
+ 6   ROSAILDA PEREZ (SBN 284646)
+ 7   Deputy Attorneys General
+       455 Golden Gate Avenue, Suite 11000
+ 8     San Francisco, CA 94102-7004                                  [EXEMPT FROM FILING FEES
+       Telephone: (415) 510-4400                                     PURSUANT TO GOVERNMENT
+ 9     Email: Jessica.Wang@doj.ca.gov                                CODE SECTION 6103]
+
+10    Attorneys for The People of the State of California
+11
+
+12
+                          SUPERIOR COURT OF THE STATE OF CALIFORNIA
+13
+                                FOR THE COUNTY OF SAN FRANCISCO
+14
+                                       UNLIMITED JURISDICTION
+15
+
+16
+      THE PEOPLE OF THE STATE OF                              Case No.
+17    CALIFORNIA,
+
+18                                           Plaintiff,
+                                                              COMPLAINT FOR INJUNCTION, CIVIL
+19                 v.                                         PENALTIES, AND OTHER EQUITABLE
+                                                              RELIEF
+20
+      DOORDASH, INC.,                                         (CIVIL CODE, § 1798.100 et seq.; BUS. &
+21                                                            PROF., § 22575 et seq.)
+
+22                                        Defendant.
+
+23
+
+24          The People of the State of California, by and through Rob Bonta, Attorney General of the
+25    State of California (the “People”), bring this action against Defendant DoorDash, Inc.
+26    (“DoorDash”) for violations of the California Consumer Privacy Act of 2018, Civil Code section
+27    1798.100 et seq. (“CCPA”), and the California Online Privacy Protection Act of 2003, Business
+28
+                                                          1
+                                                                            Complaint (People v. DoorDash, Inc.)
+ 1   & Professions Code section 22575 et seq. (“CalOPPA”) based on DoorDash’s sale of consumer
+
+ 2   personal information without providing consumers notice or an opportunity to opt-out of the sale.
+
+ 3         The People allege the following facts based on investigation, information, or belief:
+
+ 4                                               PARTIES
+
+ 5          1.      Plaintiff is the People of the State of California. The People bring this action by
+
+ 6   and through Rob Bonta, Attorney General.
+
+ 7          2.      Defendant DoorDash, Inc. is a Delaware corporation with its principal place of
+
+ 8   business in San Francisco, California.
+
+ 9                                    JURISDICTION AND VENUE
+
+10          3.      DoorDash has conducted and continues to conduct business within the State of
+
+11   California, including the City and County of San Francisco, at all times relevant to this complaint.
+
+12   The violations of law described herein were committed or occurred in the City and County of San
+
+13   Francisco and elsewhere in the State of California.
+
+14                       DEFENDANT’S BUSINESS ACTS AND PRACTICES
+
+15          4.      DoorDash operates a website and mobile application through which consumers
+
+16   may order food delivery. As part of its service, DoorDash collects the personal information of its
+
+17   customers such as name, address, and transaction history.
+
+18          5.      As relevant here, DoorDash sold the personal information of its California
+
+19   customers without providing notice or an opportunity to opt-out of that sale in violation of the
+
+20   CCPA and CalOPPA. Beginning in 2018, DoorDash was a member of two marketing co-
+
+21   operatives (“marketing co-op”), where unrelated businesses contribute the personal information
+
+22   of their customers for the purpose of advertising their own products to customers from the other
+
+23   participating businesses. The marketing co-op then combines, analyzes, and uses the information
+
+24   to target mailed advertisements to potential new customers on behalf of participating businesses.
+
+25          6.      DoorDash sent the personal information of its California customers to a marketing
+
+26   co-op in exchange for the opportunity to send mailed advertisements to customers of the other
+
+27   participating businesses. This is a sale of personal information under the CCPA. But DoorDash
+
+28   failed to comply with CCPA’s requirements for businesses that sell personal information. It also
+                                                      2
+                                                                         Complaint (People v. DoorDash, Inc.)
+ 1   violated CalOPPA by failing to state in its posted privacy policy that it disclosed personally
+
+ 2   identifiable information, like a consumer’s home address, to the marketing co-ops.
+
+ 3   I. DoorDash Violated the CCPA Because It Sold Consumers’ Personal Information
+        Without Providing Notice or an Opportunity to Opt-Out.
+ 4
+
+ 5          7.      California’s landmark privacy law, the CCPA, went into effect on January 1, 2020.
+ 6   The CCPA vests California residents with control over their personal information. The law
+ 7   requires businesses that sell personal information to make specific disclosures and give
+ 8   consumers the right to opt out of the sale of their personal information. (Civ. Code, § 1798.135.)
+ 9   The CCPA defines “sale” to include disclosing consumer personal information to third parties in
+10   exchange for a benefit. (§ 1798.140, subd. (ad).)
+11          8.      On January 21, 2020, as part of its continuing participation in a marketing co-op,
+12   DoorDash transmitted the personal information of its California customers to the I-Behavior
+13   marketing co-op owned by KBM Group, LLC (herein referred to as “KBMG”). Specifically,
+14   DoorDash disclosed consumer names, addresses, and transaction histories to KBMG in exchange
+15   for the opportunity to advertise its services directly to the customers of the other participating
+16   companies. Any transaction under which a business receives a benefit for sharing consumer
+17   information can be a sale for purposes of the CCPA. DoorDash contracted with KBMG’s
+18   marketing co-op, which combined, analyzed, and used DoorDash’s customer data along with the
+19   customer data it received from other participating businesses to target advertisements on behalf of
+20   DoorDash and the other marketing co-op participants. DoorDash traded consumer personal
+21   information in exchange for the benefit of advertising to potential new customers; its participation
+22   in the marketing co-op was therefore a sale under the CCPA.
+23          9.      Because DoorDash sold consumer personal information, the CCPA required that it
+24   both disclose in its privacy policy that it sold personal information and post an easy-to-find “Do
+25   Not Sell My Personal Information” link on the website and mobile app. DoorDash did neither.
+26          10.     DoorDash’s failure to comply with the CCPA had real consequences for
+27   DoorDash’s California customers. In September 2020, one of DoorDash’s California customers
+28
+                                                         3
+                                                                          Complaint (People v. DoorDash, Inc.)
+ 1   complained on social media that she had received mailed advertisements at her home that were
+
+ 2   addressed to an alias that she had used solely with DoorDash when ordering its food delivery
+
+ 3   services. She intentionally used an alias to protect her privacy, particularly to conceal her actual
+
+ 4   home address, and had even reviewed DoorDash’s privacy policy to confirm that it made no
+
+ 5   mention of sharing her data with the types of businesses that were mailing her advertisements.
+
+ 6   Despite her efforts, she continued to receive mailed advertisements addressed to her alias at her
+
+ 7   actual address well into 2021. As a result of the Attorney General’s investigation, our Office
+
+ 8   learned that her data was shared many times over with a significant number of companies.
+
+ 9          11.     In September 2020, the Attorney General sent DoorDash a notice of alleged CCPA
+
+10   noncompliance. At the time, the CCPA included a provision allowing businesses to cure alleged
+
+11   violations within 30 days. 1 The CCPA did not define cure, but state courts have interpreted “cure”
+
+12   in other statutes to mean making consumers whole by restoring them to their pre-violation
+
+13   position.
+
+14          12.     Even though DoorDash had already stopped selling the personal information of
+
+15   California customers to marketing co-ops and had instructed that all of its California customer
+
+16   data be deleted, DoorDash did not cure its January 2020 sale to KBMG. DoorDash did not cure
+
+17   because it did not make affected consumers whole by restoring them to the same position they
+
+18   would have been in if their data had never been sold. The consumer personal information and
+
+19   inferences about DoorDash’s customers had already been sold downstream to other companies
+
+20   and beyond the marketing co-op’s members, including to a data broker that re-sold the data many
+
+21   times over. DoorDash also could not determine which downstream companies had received its
+
+22   data so that it could contact each company to request that it delete or stop further selling the data.
+
+23   In fact, DoorDash’s contract with KBMG did not permit DoorDash to audit who the marketing
+
+24   co-op sold customer data to, nor sufficiently restrict KBMG to only use DoorDash’s data in
+
+25   furtherance of the marketing co-op. DoorDash also did not take more modest available steps that
+
+26   could have mitigated the harm suffered by these consumers. For example, it could have instructed
+
+27
+            1
+              The cure provision, which previously appeared in Civil Code section 1798.155,
+28   subdivision (b), was eliminated as of January 1, 2023.
+                                                       4
+                                                                          Complaint (People v. DoorDash, Inc.)
+ 1   KBMG to not sell the personal information of affected customers to prevent further dissemination
+
+ 2   of their personal information. DoorDash also could have updated its privacy policy to inform
+
+ 3   consumers that it had sold their personal information during the preceding 12 months.
+
+ 4   DoorDash’s uncured violations of the CCPA led to this enforcement action.
+
+ 5   II. DoorDash Violated CalOPPA By Not Making Required Privacy Policy Disclosures.
+
+ 6           13.     CalOPPA pre-dates the CCPA and has been in effect since 2004. It requires any
+
+ 7   entity that operates a website for commercial purposes and collects personally identifiable
+
+ 8   information, such as a home address, to disclose in its privacy policy the categories of third
+
+ 9   parties with which it shares personally identifiable information. (Bus. & Prof. Code, §§ 22575,
+
+10   subds. (a), (b)(1), 22576.) This requirement demonstrates California’s longstanding stance that if
+
+11   any entity is sharing a consumer’s personally identifiable information with third parties, it must
+
+12   be transparent that it is doing so.
+
+13           14.     DoorDash was not transparent. Our investigation found that DoorDash participated
+
+14   in two marketing co-ops between 2018 and 2020. DoorDash never disclosed in its privacy policy
+
+15   that it shared personally identifiable information with these marketing co-ops. DoorDash’s
+
+16   privacy policy only indicated that DoorDash could use DoorDash’s customer data to contact a
+
+17   customer with advertisements; it did not explain that other businesses—like marketing co-op
+
+18   members—could contact DoorDash customers with advertisements for their businesses. Thus,
+
+19   DoorDash’s existing disclosures failed to comply with CalOPPA.
+
+20                                         FIRST CAUSE OF ACTION
+
+21                 VIOLATIONS OF THE CALIFORNIA CONSUMER PRIVACY ACT,
+
+22                              CIVIL CODE SECTION 1798.100 ET SEQ.
+
+23        (Failure to: Disclose Sale of Consumer Personal Information, Post “Do Not Sell My
+
+24         Personal Information” Link, Provide Two or More Methods to Opt-Out of Sale)
+
+25           15.     The People reallege and incorporate by reference each of the paragraphs above as
+
+26   though fully set forth herein.
+
+27           16.     DoorDash’s website and mobile app failed to inform consumers that it sold their
+
+28   personal information in connection with a marketing co-op and that they have the right to opt-out
+                                                      5
+                                                                         Complaint (People v. DoorDash, Inc.)
+ 1   of this sale, failed to provide a clear and conspicuous “Do Not Sell My Personal Information” link
+
+ 2   that would enable consumers to opt-out of the sale of their personal information, and failed to
+
+ 3   provide two or more designated methods for submitting requests to opt-out.
+
+ 4          17.     Accordingly, each time DoorDash sold an individual California consumer’s
+
+ 5   personal information during the relevant period without notice, consent, or the opportunity to opt-
+
+ 6   out of the sale, DoorDash violated the CCPA, including, without limitation:
+
+ 7                  (a) Civil Code section 1798.100, subdivision (a);
+
+ 8                  (b) Civil Code section 1798.120, subdivisions (a) and (b);
+
+ 9                  (c) Civil Code section 1798.130, subdivision (a)(5);
+
+10                  (d) Civil Code section 1798.135, subdivision (a);
+
+11                  (e) California Code of Regulations, title 11, sections 7010, 7011, 7012, 7013, and
+
+12                      7026.
+
+13          18.     After the Attorney General provided notice of these violations of the CCPA,
+
+14   DoorDash failed to cure them within 30 days. The California Attorney General is therefore
+
+15   authorized by Civil Code section 1798.199.90 to bring this civil action to enforce the CCPA.
+
+16                                    SECOND CAUSE OF ACTION
+
+17       VIOLATIONS OF THE CALIFORNIA ONLINE PRIVACY PROTECTION ACT,
+
+18                BUSINESS AND PROFESSIONS CODE SECTION 22575 ET SEQ.
+
+19     (Failure to Sufficiently Identify the Third-Party Entities with Which the Operator May
+
+20                      Share Personal Information in Its Posted Privacy Policy)
+
+21          19.     The People reallege and incorporate by reference each of the paragraphs above as
+
+22   though fully set forth herein.
+
+23          20.     DoorDash’s posted privacy policy failed to inform consumers that DoorDash
+
+24   shared their personal information with marketing co-ops, or that customers may receive
+
+25   unsolicited advertisements from unrelated companies using information DoorDash collected in
+
+26   connection with its food delivery services.
+
+27          21.     Accordingly, DoorDash violated Business and Professions Code section 22575,
+
+28   subdivision (b)(1) by insufficiently identifying the categories of third-party entities with which
+                                                       6
+                                                                         Complaint (People v. DoorDash, Inc.)
+ 1   DoorDash shared personally identifiable information collected about its California customers.
+
+ 2   Such violation was done either knowingly and willfully or negligently and materially.
+
+ 3                                        PRAYER FOR RELIEF
+
+ 4         WHEREFORE, Plaintiff prays for judgment as follows:
+
+ 5          1.      Pursuant to Civil Code section 1798.199.90, that the Court enter an injunction and
+
+ 6   all orders necessary to prevent DoorDash, as well as its successors, agents, representatives, and
+
+ 7   employees, from engaging in any act or practice that violates the CCPA, including, but not
+
+ 8   limited to, as alleged in this Complaint;
+
+ 9          2.      Pursuant to Civil Code section 1798.199.90, that the Court assess civil penalties of
+
+10   Two Thousand Five Hundred Dollars ($2,500) for each violation or Seven Thousand Five
+
+11   Hundred Dollars ($7,500) for each intentional violation of the CCPA, as proven at trial.
+
+12          3.      That the Court enter an injunction, civil penalties, and all orders necessary to
+
+13   prevent DoorDash, as well as its successors, agents, representatives, and employees, from
+
+14   engaging in any act or practice that violates CalOPPA, including, but not limited to, as alleged in
+
+15   this Complaint;
+
+16          4.      That Plaintiff recovers its cost of suit.
+
+17          5.      For such other and further relief as the Court deems just and proper.
+
+18
+
+19   Dated: February 21, 2024                               Respectfully submitted,
+20                                                          ROB BONTA
+                                                            Attorney General of California
+21
+
+22
+
+23
+                                                            JESSICA WANG
+24                                                          Deputy Attorney General
+                                                            Attorneys for The People of the State of
+25                                                          California
+26
+
+27
+
+28
+                                                        7
+                                                                         Complaint (People v. DoorDash, Inc.)
+

@@ -1,0 +1,130 @@
+{
+  "article_to_recital": {},
+  "recital_to_article": {
+    "Recital 9": [
+      "Art. 5"
+    ],
+    "Recital 18": [
+      "Art. 7"
+    ],
+    "Recital 29": [
+      "Art. 2",
+      "Art. 4"
+    ],
+    "Recital 50": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 89",
+      "Art. 9"
+    ],
+    "Recital 58": [
+      "Art. 290"
+    ],
+    "Recital 61": [
+      "Art. 42"
+    ],
+    "Recital 63": [
+      "Art. 5"
+    ]
+  },
+  "article_to_article": {
+    "Art. 2": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "Art. 4": [
+      "Art. 3(1)"
+    ],
+    "Art. 5": [
+      "Art. 3(1)",
+      "Art. 32",
+      "Art. 33(3)",
+      "Art. 7(1)",
+      "Art. 8"
+    ],
+    "Art. 6": [
+      "Art. 3(1)",
+      "Art. 5(3)"
+    ],
+    "Art. 7": [
+      "Art. 3(1)",
+      "Art. 5(10)"
+    ],
+    "Art. 8": [
+      "Art. 3(1)",
+      "Art. 7(1)"
+    ],
+    "Art. 9": [
+      "Art. 3(1)",
+      "Art. 7(1)"
+    ],
+    "Art. 10": [
+      "Art. 12"
+    ],
+    "Art. 11": [
+      "Art. 10",
+      "Art. 12",
+      "Art. 33(2)"
+    ],
+    "Art. 12": [
+      "Art. 10"
+    ],
+    "Art. 13": [
+      "Art. 26"
+    ],
+    "Art. 17": [
+      "Art. 18",
+      "Art. 33(2)"
+    ],
+    "Art. 18": [
+      "Art. 22(1)"
+    ],
+    "Art. 19": [
+      "Art. 18"
+    ],
+    "Art. 22": [
+      "Art. 32"
+    ],
+    "Art. 23": [
+      "Art. 26"
+    ],
+    "Art. 25": [
+      "Art. 33(2)"
+    ],
+    "Art. 27": [
+      "Art. 28"
+    ],
+    "Art. 28": [
+      "Art. 14"
+    ],
+    "Art. 29": [
+      "Art. 30"
+    ],
+    "Art. 30": [
+      "Art. 25(1)",
+      "Art. 3(1)",
+      "Art. 5(11)",
+      "Art. 7(1)"
+    ],
+    "Art. 32": [
+      "Art. 22(1)",
+      "Art. 5(13)"
+    ],
+    "Art. 33": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "Art. 34": [
+      "Art. 11",
+      "Art. 12",
+      "Art. 31",
+      "Art. 5(14)"
+    ],
+    "Art. 35": [
+      "Art. 34"
+    ],
+    "Art. 37": [
+      "Art. 10"
+    ]
+  }
+}

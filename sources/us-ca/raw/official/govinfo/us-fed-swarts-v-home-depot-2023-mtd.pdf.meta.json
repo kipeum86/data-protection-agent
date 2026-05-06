@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-swarts-v-home-depot-2023-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_23-cv-00995/pdf/USCOURTS-cand-4_23-cv-00995-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_23-cv-00995/pdf/USCOURTS-cand-4_23-cv-00995-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:9d1c8cad8176cafb148fa3a6e2635886e568cee04d62ff9d1c3bea514b6ea0fa",
+  "bytes": 362159
+}

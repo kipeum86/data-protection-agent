@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-garon-v-keleops-2025-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-02124/pdf/USCOURTS-cand-4_25-cv-02124-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-02124/pdf/USCOURTS-cand-4_25-cv-02124-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:a8f9c69b18c2425534fcd9cdfbf5870fe7b573c5c3f8863161329b983129bf2c",
+  "bytes": 356539
+}

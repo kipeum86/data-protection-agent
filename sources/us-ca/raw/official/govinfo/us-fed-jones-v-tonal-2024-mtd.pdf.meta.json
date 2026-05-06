@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-jones-v-tonal-2024-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-01267/pdf/USCOURTS-casd-3_23-cv-01267-1.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-casd-3_23-cv-01267/pdf/USCOURTS-casd-3_23-cv-01267-1.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:2095c7b357b62989e57923ac8e120fcb4197538b22796f1e47fc93c9eea40602",
+  "bytes": 394255
+}

@@ -1,0 +1,786 @@
+{
+  "law": "정보통신망 이용촉진 및 정보보호 등에 관한 법률",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정의",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "정보통신서비스 제공자 및 이용자의 책무",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "정보통신망 이용촉진 및 정보보호등에 관한 시책의 마련",
+      "is_article": true
+    },
+    {
+      "number": "4의2",
+      "title": "합성영상등으로 인한 피해 예방을 위한 시책",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "다른 법률과의 관계",
+      "is_article": true
+    },
+    {
+      "number": "5의2",
+      "title": "국외행위에 대한 적용",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "6",
+      "title": "기술개발의 추진 등",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "기술관련 정보의 관리 및 보급",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "정보통신망의 표준화 및 인증",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "인증기관의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "정보내용물의 개발 지원",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "정보통신망 응용서비스의 개발 촉진 등",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "정보의 공동활용체제 구축",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "정보통신망의 이용촉진 등에 관한 사업",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "인터넷 이용의 확산",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "인터넷 서비스의 품질 개선",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "18",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "22의2",
+      "title": "접근권한에 대한 동의",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "23의2",
+      "title": "주민등록번호의 사용 제한",
+      "is_article": true
+    },
+    {
+      "number": "23의3",
+      "title": "본인확인기관의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "23의4",
+      "title": "본인확인업무의 정지 및 지정취소",
+      "is_article": true
+    },
+    {
+      "number": "23의5",
+      "title": "연계정보의 생성ㆍ처리 등",
+      "is_article": true
+    },
+    {
+      "number": "23의6",
+      "title": "연계정보의 안전조치 의무 등",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "24의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "26의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "27",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "27의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "27의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "28의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "29의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "30",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "30의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "32의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "32의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "32의4",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "32의5",
+      "title": "국내대리인의 지정",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "33",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "33의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "41",
+      "title": "청소년 보호를 위한 시책의 마련 등",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "청소년유해매체물의 표시",
+      "is_article": true
+    },
+    {
+      "number": "42의2",
+      "title": "청소년유해매체물의 광고금지",
+      "is_article": true
+    },
+    {
+      "number": "42의3",
+      "title": "청소년 보호 책임자의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "영상 또는 음향정보 제공사업자의 보관의무",
+      "is_article": true
+    },
+    {
+      "number": "44",
+      "title": "정보통신망에서의 권리보호",
+      "is_article": true
+    },
+    {
+      "number": "44의2",
+      "title": "정보의 삭제요청 등",
+      "is_article": true
+    },
+    {
+      "number": "44의3",
+      "title": "임의의 임시조치",
+      "is_article": true
+    },
+    {
+      "number": "44의4",
+      "title": "자율규제",
+      "is_article": true
+    },
+    {
+      "number": "44의5",
+      "title": "게시판 이용자의 본인 확인",
+      "is_article": true
+    },
+    {
+      "number": "44의6",
+      "title": "이용자 정보의 제공청구",
+      "is_article": true
+    },
+    {
+      "number": "44의7",
+      "title": "불법정보의 유통금지 등",
+      "is_article": true
+    },
+    {
+      "number": "44의8",
+      "title": "대화형정보통신서비스에서의 아동 보호",
+      "is_article": true
+    },
+    {
+      "number": "44의9",
+      "title": "불법촬영물등 유통방지 책임자",
+      "is_article": true
+    },
+    {
+      "number": "44의10",
+      "title": "명예훼손 분쟁조정부",
+      "is_article": true
+    },
+    {
+      "number": "45",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "45",
+      "title": "정보통신망의 안정성 확보 등",
+      "is_article": true
+    },
+    {
+      "number": "45의2",
+      "title": "정보보호 사전점검",
+      "is_article": true
+    },
+    {
+      "number": "45의3",
+      "title": "정보보호 최고책임자의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "46",
+      "title": "집적된 정보통신시설의 보호",
+      "is_article": true
+    },
+    {
+      "number": "46의2",
+      "title": "집적정보통신시설 사업자의 긴급대응",
+      "is_article": true
+    },
+    {
+      "number": "46의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "47",
+      "title": "정보보호 관리체계의 인증",
+      "is_article": true
+    },
+    {
+      "number": "47의2",
+      "title": "정보보호 관리체계 인증기관 및 정보보호 관리체계 심사기관의 지정취소 등",
+      "is_article": true
+    },
+    {
+      "number": "47의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "47의4",
+      "title": "이용자의 정보보호",
+      "is_article": true
+    },
+    {
+      "number": "47의5",
+      "title": "정보보호 관리등급 부여",
+      "is_article": true
+    },
+    {
+      "number": "47의6",
+      "title": "정보보호 취약점 신고자에 대한 포상",
+      "is_article": true
+    },
+    {
+      "number": "47의7",
+      "title": "정보보호 관리체계 인증의 특례",
+      "is_article": true
+    },
+    {
+      "number": "48",
+      "title": "정보통신망 침해행위 등의 금지",
+      "is_article": true
+    },
+    {
+      "number": "48의2",
+      "title": "침해사고의 대응 등",
+      "is_article": true
+    },
+    {
+      "number": "48의3",
+      "title": "침해사고의 신고 등",
+      "is_article": true
+    },
+    {
+      "number": "48의4",
+      "title": "침해사고의 원인 분석 등",
+      "is_article": true
+    },
+    {
+      "number": "48의5",
+      "title": "정보통신망연결기기등 관련 침해사고의 대응 등",
+      "is_article": true
+    },
+    {
+      "number": "48의6",
+      "title": "정보통신망연결기기등에 관한 인증",
+      "is_article": true
+    },
+    {
+      "number": "49",
+      "title": "비밀 등의 보호",
+      "is_article": true
+    },
+    {
+      "number": "49의2",
+      "title": "속이는 행위에 의한 정보의 수집금지 등",
+      "is_article": true
+    },
+    {
+      "number": "49의3",
+      "title": "속이는 행위에 사용된 전화번호의 전기통신역무 제공의 중지 등",
+      "is_article": true
+    },
+    {
+      "number": "50",
+      "title": "영리목적의 광고성 정보 전송 제한",
+      "is_article": true
+    },
+    {
+      "number": "50의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "50의3",
+      "title": "영리목적의 광고성 정보 전송의 위탁 등",
+      "is_article": true
+    },
+    {
+      "number": "50의4",
+      "title": "정보 전송 역무 제공 등의 제한",
+      "is_article": true
+    },
+    {
+      "number": "50의5",
+      "title": "영리목적의 광고성 프로그램 등의 설치",
+      "is_article": true
+    },
+    {
+      "number": "50의6",
+      "title": "영리목적의 광고성 정보 전송차단 소프트웨어의 보급 등",
+      "is_article": true
+    },
+    {
+      "number": "50의7",
+      "title": "영리목적의 광고성 정보 게시의 제한",
+      "is_article": true
+    },
+    {
+      "number": "50의8",
+      "title": "불법행위를 위한 광고성 정보 전송금지",
+      "is_article": true
+    },
+    {
+      "number": "51",
+      "title": "중요 정보의 국외유출 제한 등",
+      "is_article": true
+    },
+    {
+      "number": "52",
+      "title": "한국인터넷진흥원",
+      "is_article": true
+    },
+    {
+      "number": "53",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "53",
+      "title": "통신과금서비스제공자의 등록 등",
+      "is_article": true
+    },
+    {
+      "number": "54",
+      "title": "등록의 결격사유",
+      "is_article": true
+    },
+    {
+      "number": "55",
+      "title": "등록의 취소명령",
+      "is_article": true
+    },
+    {
+      "number": "56",
+      "title": "약관의 신고 등",
+      "is_article": true
+    },
+    {
+      "number": "57",
+      "title": "통신과금서비스의 안전성 확보 등",
+      "is_article": true
+    },
+    {
+      "number": "58",
+      "title": "통신과금서비스이용자의 권리 등",
+      "is_article": true
+    },
+    {
+      "number": "58의2",
+      "title": "구매자정보 제공 요청 등",
+      "is_article": true
+    },
+    {
+      "number": "59",
+      "title": "분쟁 조정 및 해결 등",
+      "is_article": true
+    },
+    {
+      "number": "60",
+      "title": "손해배상 등",
+      "is_article": true
+    },
+    {
+      "number": "61",
+      "title": "통신과금서비스의 이용제한",
+      "is_article": true
+    },
+    {
+      "number": "62",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "62",
+      "title": "국제협력",
+      "is_article": true
+    },
+    {
+      "number": "63",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "63의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "64",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "64",
+      "title": "자료의 제출 등",
+      "is_article": true
+    },
+    {
+      "number": "64의2",
+      "title": "자료 등의 보호 및 폐기",
+      "is_article": true
+    },
+    {
+      "number": "64의3",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "64의4",
+      "title": "청문",
+      "is_article": true
+    },
+    {
+      "number": "64의5",
+      "title": "투명성 보고서 제출의무 등",
+      "is_article": true
+    },
+    {
+      "number": "65",
+      "title": "권한의 위임ㆍ위탁",
+      "is_article": true
+    },
+    {
+      "number": "65의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "66",
+      "title": "비밀유지 등",
+      "is_article": true
+    },
+    {
+      "number": "67",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "68",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "68의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "69",
+      "title": "벌칙 적용 시의 공무원 의제",
+      "is_article": true
+    },
+    {
+      "number": "69의2",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "70",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "70",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "70의2",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "71",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "72",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "73",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "74",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "75",
+      "title": "양벌규정",
+      "is_article": true
+    },
+    {
+      "number": "75의2",
+      "title": "몰수ㆍ추징",
+      "is_article": true
+    },
+    {
+      "number": "76",
+      "title": "과태료",
+      "is_article": true
+    }
+  ]
+}

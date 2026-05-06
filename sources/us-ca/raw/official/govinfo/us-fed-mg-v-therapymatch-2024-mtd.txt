@@ -1,0 +1,955 @@
+                                       Case 3:23-cv-04422-AMO               Document 44    Filed 09/16/24      Page 1 of 15
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                     UNITED STATES DISTRICT COURT
+
+                                   5                                    NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7        M.G.,                                           Case No. 23-cv-04422-AMO
+                                                           Plaintiff,
+                                   8
+                                                                                            ORDER GRANTING IN PART AND
+                                                     v.                                     DENYING IN PART MOTION TO
+                                   9
+                                                                                            DISMISS
+                                  10        THERAPYMATCH, INC.,
+                                                                                            Re: Dkt. No. 20
+                                                           Defendant.
+                                  11
+
+                                  12
+
+
+ United States District Court
+                                  13            This is a data privacy lawsuit. Therapymatch, Inc.’s motion to dismiss was heard before
+
+                                  14   this Court on April 18, 2024. Having read the papers filed by the parties and carefully considered
+
+                                  15   their arguments therein and those made at the hearing, together with the relevant legal authority,
+
+
+
+Northern District of California
+                                  16   the Court hereby GRANTS in part and DENIES in part the motion for the following reasons.
+
+                                  17   I.       BACKGROUND
+                                  18            A.        Factual Background
+
+                                  19            Defendant Therapymatch, Inc. d/b/a Headway (“Headway”) is a private company that has
+
+                                  20   an online platform to provide users with access to mental health providers. First Amended
+
+                                  21   Complaint (“FAC”) (ECF 17) ¶ 2.1 The website allows users to search Headway’s clinician
+
+                                  22   database based on specified preferences regarding language, race, ethnicity, gender, and more.
+
+                                  23   FAC ¶ 32. Headway embeds Google Analytics code on its website, which allows Google to
+
+                                  24   intercept and collect Headway website users’ protected mental health information. FAC ¶ 4.
+
+                                  25   Headway does not disclose that medical information is being shared with Google to improve
+
+                                  26
+                                  27   1
+                                         The Court accepts Plaintiff’s allegations in the complaint as true and construes the pleadings in
+                                  28   the light most favorable to Plaintiff. See Manzarek v. St. Paul Fire & Marine Ins. Co., 519 F.3d
+                                       1025, 1031 (9th Cir. 2008) (citation omitted).
+                                       Case 3:23-cv-04422-AMO             Document 44         Filed 09/16/24     Page 2 of 15
+
+
+
+
+                                   1   Google’s analytics services, software, and algorithms. FAC ¶¶ 104-05. Google analytics:
+
+                                   2          (1) simultaneously communicates information to an external server as a user
+                                   3          navigates a website; (2) tracks users across devices, meaning that a user’s actions on
+                                              multiple devices all will be included in the information stored regarding that user;
+                                   4          (3) is not easily disabled by users; and/or (4) creates a record of all of the information
+                                              that users provide to and/or receive from the website.
+                                   5
+
+                                   6   FAC ¶ 45.
+                                   7          Google Analytics offers website owners an opt-in Internet Protocol (IP) anonymization
+                                   8   feature, however Headway did not enable this feature. FAC ¶ 37. In Headway’s Privacy Policy
+                                   9   linked at the bottom of its web page, Headway states that it will share personal information only
+                                  10   “with insurance companies or clearinghouses for claims purposes, with other health care providers
+                                  11   for treatment or care coordination purposes, or with business partners” to assist Headway in
+                                  12   offering its services. FAC ¶ 39.
+
+
+ United States District Court
+                                  13          Plaintiff M.G.2 began using Headway’s online platform to search for a mental health
+                                  14   professional in May 2023. FAC ¶ 9. M.G. provided personal information on the website,
+                                  15   including his name, address, cellular phone number, health insurance provider, group
+
+
+
+Northern District of California
+                                  16   identification number, and employer. FAC ¶ 10. He also specified that he was looking for
+                                  17   therapy related to two specific, unidentified, mental health conditions. FAC ¶ 10. Google
+                                  18   intercepted M.G.’s communications with Headway, including the mental health conditions he
+                                  19   searched, the treatment he was seeking, provider preferences, and appointment details. FAC ¶ 11.
+                                  20   Google used M.G. and other class member’s information to provide analytics services to Headway
+                                  21   and to improve its own software and algorithms, as well as provide marketing services and
+                                  22   offerings. FAC ¶ 13.
+                                  23          B.      Procedural Background
+                                  24          M.G. filed a putative class action complaint on July 6, 2023, in the Superior Court of
+                                  25   California, County of Alameda. ECF 1-1. Headway timely removed the action to federal court on
+                                  26
+                                       2
+                                  27     The Court notes that Plaintiff has not moved to proceed under a pseudonym. If Plaintiff wishes
+                                       to proceed anonymously or under a pseudonym, he must so move the Court. See Does I thru
+                                  28   XXIII v. Advanced Textile Corp., 214 F.3d 1058, 1067 (9th Cir. 2000).
+
+                                                                                          2
+                                       Case 3:23-cv-04422-AMO            Document 44         Filed 09/16/24      Page 3 of 15
+
+
+
+
+                                   1   August 25, 2023, under the Class Action Fairness Act. ECF 1 ¶¶ 3-10. M.G. filed the First
+
+                                   2   Amended Complaint (FAC), the operative complaint, on October 3, 2023, alleging six causes of
+
+                                   3   action: (1) violation of the Confidentiality of Medical Information Act (“CMIA”), Cal. Civ. Code
+
+                                   4   §§ 56.06, 56.101, 56.10; (2) aiding and abetting violation of the CMIA, Cal. Civ. Code § 56.36;
+
+                                   5   (3) aiding and abetting unlawful interception under the California Invasion of Privacy Act
+
+                                   6   (“CIPA”) Cal. Pen. Code § 631, (4) unlawful recording of and eavesdropping upon confidential
+
+                                   7   information under CIPA, Cal. Pen. Code § 632, (5) invasion of privacy, Cal. Const. Art. 1 § 1, and
+
+                                   8   (6) violation of the California Consumer Privacy Act (“CCPA”), Cal. Civ. Code §§ 1798.100(e),
+
+                                   9   1798.81.5(b). FAC ¶¶ 73-140. On November 2, 2023, Headway filed the instant motion seeking
+
+                                  10   to dismiss the complaint for failure to state a claim. “Mot.” (ECF 20).
+
+                                  11   II.     LEGAL STANDARD
+                                  12           Under Rule 12(b)(6) of the Federal Rules of Civil Procedure, a complaint may be
+
+
+ United States District Court
+                                  13   dismissed for failure to state a claim for which relief may be granted. Fed. R. Civ. P. 12(b)(6).
+
+                                  14   Rule 12(b)(6) requires dismissal when a complaint lacks either a “cognizable legal theory” or
+
+                                  15   “sufficient facts alleged” under such a theory. Godecke v. Kinetic Concepts, Inc., 937 F.3d 1201,
+
+
+
+Northern District of California
+                                  16   1208 (9th Cir. 2019) (citation omitted). Whether a complaint contains sufficient factual
+
+                                  17   allegations depends on whether it pleads enough facts to “state a claim to relief that is plausible on
+
+                                  18   its face.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550
+
+                                  19   U.S. 544, 570 (2007)). A claim is plausible “when the plaintiff pleads factual content that allows
+
+                                  20   the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.”
+
+                                  21   Id. at 678.
+
+                                  22           When evaluating a motion to dismiss, the court “accept[s] factual allegations in the
+
+                                  23   complaint as true and construe[s] the pleadings in the light most favorable to the nonmoving
+
+                                  24   party.” Manzarek, 519 F.3d 1025, 1031 (9th Cir. 2008). However, “allegations in a complaint . . .
+
+                                  25   may not simply recite the elements of a cause of action [and] must contain sufficient allegations of
+
+                                  26   underlying facts to give fair notice and to enable the opposing party to defend itself effectively.”
+
+                                  27   Levitt v. Yelp! Inc., 765 F.3d 1123, 1135 (9th Cir. 2014) (citations omitted). The Court may
+
+                                  28   dismiss a claim “where there is either a lack of a cognizable legal theory or the absence of
+                                                                                         3
+                                       Case 3:23-cv-04422-AMO             Document 44          Filed 09/16/24     Page 4 of 15
+
+
+
+
+                                   1   sufficient facts alleged under a cognizable legal claim.” Hinds Invs., L.P. v. Angioli, 654 F.3d
+
+                                   2   846, 850 (9th Cir. 2011).
+
+                                   3   III.   ANALYSIS
+                                   4          Headway moves to dismiss the complaint in its entirety. The Court addresses Headway’s
+
+                                   5   challenge to each claim in the order raised in the briefing.
+
+                                   6          A.      Confidentiality of Medical Information Act Claims
+                                   7          M.G. alleges that Headway violated three separate sections of the California
+
+                                   8   Confidentiality of Medical Information Act (“CMIA”), Cal. Civ. §§ 56.10, 56.06, and 56.101.
+
+                                   9   Section 56.06 defines “provider of health care,” while Section 56.10 dictates, in pertinent part, that
+
+                                  10   a provider of health care “shall not disclose medical information regarding a patient . . . without
+
+                                  11   first obtaining an authorization . . . [.]” Section 56.101 states, in relevant part, that “[a]ny provider
+
+                                  12   of health care . . . who negligently creates, maintains, preserves, stores, abandons, destroys, or
+
+
+ United States District Court
+                                  13   disposes of medical information shall be subject to the remedies and penalties . . . [.]” Cal. Civ.
+
+                                  14   Code § 56.101. Headway argues that the CMIA claims must be dismissed because M.G. fails to
+
+                                  15   allege that any medical information or records were transmitted to Google or that anybody viewed
+
+
+
+Northern District of California
+                                  16   any medical information. Mot. at 13-16.
+
+                                  17          The CMIA defines “medical information” as “individually identifiable information . . .
+
+                                  18   regarding a patient’s medical history, mental health application information, mental or physical
+
+                                  19   condition, or treatment.” Cal Civ. Code § 56.05(i); see Eisenhower Med. Ctr. v. Superior Ct., 226
+
+                                  20   Cal. App. 4th 430, 434 (2014) (“ ‘medical information’ as defined under the CMIA is substantive
+
+                                  21   information regarding a patient’s medical condition or history that is combined with individually
+
+                                  22   identifiable information”). “Mental health application information” means information “related to
+
+                                  23   a consumer’s inferred or diagnosed mental health or substance abuse disorder . . . [.]” Cal Civ.
+
+                                  24   Code § 56.05(j). Under California caselaw, “[t]his definition does not encompass demographic or
+
+                                  25   numeric information that does not reveal medical history, diagnosis, or care.” Eisenhower, 226
+
+                                  26   Cal. App. 4th at 435. “[T]he mere fact that a person may have been a patient at the hospital at
+
+                                  27   some time is not sufficient” without “substantive information regarding that person’s medical
+
+                                  28   condition, history, or treatment.” Eisenhower, 226 Cal. App. 4th at 435; see also Wilson v.
+                                                                                           4
+                                       Case 3:23-cv-04422-AMO           Document 44        Filed 09/16/24      Page 5 of 15
+
+
+
+
+                                   1   Rater8, LLC, No. 20-CV-1515-DMS-LL, 2021 WL 4865930, at *5 (S.D. Cal. Oct. 18, 2021)
+
+                                   2   (concluding that allegations indicating that the plaintiff received medical treatment, physician
+
+                                   3   names, and appointment discharge dates and times were not “medical information” within the
+
+                                   4   meaning of the CMIA). However, the use of a patient portal to “schedule appointments, refill
+
+                                   5   prescriptions, and to view [] test results and appointment notes,” constitutes “medical history,
+
+                                   6   diagnosis, or care” within the meaning of the CMIA. B.K. et al, v. Desert Care Network, Desert
+
+                                   7   Regional Medical Center, Inc. et al, No. 223-CV-05021-SPGPDX, 2024 WL 1343305, at *5 (C.D.
+
+                                   8   Cal. Feb. 1, 2024); see also Tamraz v. Bakotic Pathology Assocs., LLC, No. 22-CV-0725-BAS-
+
+                                   9   WVG, 2022 WL 16985001, at *5 (S.D. Cal. Nov. 16, 2022) (finding that disclosure of “specimen
+
+                                  10   or test information” was substantive medical information within the meaning of CMIA).
+
+                                  11          Headway argues that the information disclosed here is not medical information because it
+
+                                  12   does not involve M.G.’s medical history, condition, or treatment, but is instead “mere browsing
+
+
+ United States District Court
+                                  13   information.” Mot. at 14. It argues that, at most, M.G. disclosed his “possible status as a patient.”
+
+                                  14   Mot. at 15. M.G. counters that the disclosed information is “detailed personal and medical
+
+                                  15   information” because it includes the patient’s “specific concern giving rise to the need for mental
+
+
+
+Northern District of California
+                                  16   health therapy,” the “kind of care that the patient was requesting,” and information regarding the
+
+                                  17   patient’s preferences regarding the therapist and where the patient was seeking therapy. “Opp.”
+
+                                  18   (ECF 27) at 11. However, it is not clear what “medical information” M.G. disclosed. He alleges
+
+                                  19   that “[w]hen prompted by the site to enter his mental health concerns and search parameters, [he]
+
+                                  20   specified that he was looking for therapy related to two specific mental health conditions.”
+
+                                  21   FAC ¶ 10. The Court cannot determine based on these sparse, generalized allegations whether
+
+                                  22   M.G. shared (and thereafter Headway disclosed) “substantive information” regarding his “medical
+
+                                  23   condition, history, or treatment.” See Eisenhower, 226 Cal. App. 4th at 435.3 Because the Court
+
+                                  24   cannot determine whether M.G.’s substantive medical information was disclosed, the Court
+
+                                  25   GRANTS the motion to dismiss the CMIA claim with leave to amend. Because the Court
+
+                                  26
+                                  27
+                                       3
+                                         At the hearing, Plaintiff’s counsel expressed concern about disclosing such private information.
+                                       The Court reminded counsel that there are numerous ways to protect a plaintiff’s privacy,
+                                  28   including by moving the Court to proceed under a pseudonym, or seeking to redact and file certain
+                                       pleadings or parts of pleadings under seal.
+                                                                                         5
+                                       Case 3:23-cv-04422-AMO              Document 44        Filed 09/16/24    Page 6 of 15
+
+
+
+
+                                   1   dismisses the underlying CMIA cause of action, it also GRANTS the motion to dismiss the claim
+
+                                   2   for aiding and abetting a violation of the CMIA.
+
+                                   3          B.      California Invasion of Privacy Act Claims
+                                   4          M.G. brings claims under Sections 631 and 632 of the California Invasion of Privacy Act
+
+                                   5   (“CIPA”). Headway challenges both causes of action for failure to state a claim.
+
+                                   6                  1.      Section 631
+                                   7          California Penal Code § 631(a) punishes any person who:
+
+                                   8            (1) “by means of any machine, instrument, or contrivance, or in any other matter,
+                                   9            intentionally taps, or makes any unauthorized connection . . . with any telegraph
+                                                or telephone wire, line, cable, or instrument”;
+                                  10
+                                                (2) “willfully and without the consent of all parties to the communication, or in
+                                  11            any unauthorized manner, reads, or attempts to read, or to learn the contents or
+                                                meaning of any message . . . while the same is in transit or passing over any wire,
+                                  12
+                                                line, or cable, or is being sent from, or received at any place within this state”;
+
+
+ United States District Court
+                                  13
+                                                (3) “uses, or attempts to use, in any manner, or for any purpose, or to communicate
+                                  14            in any way, any information so obtained”; or
+
+                                  15            (4) “aids, agrees with, employs, or conspires with any person or persons to
+
+
+
+Northern District of California
+                                                unlawfully do, or permit, or cause to be done any of the acts or things mentioned
+                                  16
+                                                above in this section.”
+                                  17
+
+                                  18   Cal. Penal Code § 631(a). Though Section 631 is a criminal statute, Section 637.2 provides a civil
+                                  19   cause of action for damages or an injunction to anyone “injured by a violation of this chapter . . .
+                                  20   against the person who committed the violation . . . [.]” Cal. Penal Code § 637.2.
+                                  21          M.G. advances a claim under the fourth subsection for aiding and abetting an unlawful
+                                  22   interception. FAC ¶¶ 109-120. Headway argues that the Section 631 claim fails because M.G.
+                                  23   fails to plead (1) that “content information” in communications was disclosed to Google, (2) that
+                                  24   any interception occurred “in transit,” or (3) that Headway aided and abetted Google to commit
+                                  25   any wrongdoing. Mot. at 19-22.
+                                  26                                  i.      Content Information
+                                  27          Section 631 prohibits reading or learning the “contents or meaning” of a communication
+                                  28   without consent. Headway argues that M.G. only alleges that browsing or “record” information
+                                                                                          6
+                                       Case 3:23-cv-04422-AMO            Document 44          Filed 09/16/24     Page 7 of 15
+
+
+
+
+                                   1   was transmitted to Google – not substantive patient records or patient-doctor communications.
+
+                                   2   Mot. at 20.
+
+                                   3          The analysis for a violation of CIPA is the same analysis for a violation of the federal
+
+                                   4   Wiretap Act. Brodsky v. Apple Inc., 445 F. Supp. 3d 110, 127 (N.D. Cal. 2020) (citation omitted).
+
+                                   5   Under the Wiretap Act, “contents” is defined as “any information concerning the substance,
+
+                                   6   purport, or meaning of [a] communication.” 18 U.S.C. § 2510(8). The “content” of a
+
+                                   7   communication is “the intended message conveyed by the communication.” In re Zynga Priv.
+
+                                   8   Litig., 750 F.3d 1098, 1106 (9th Cir. 2014). It does not include “record information regarding the
+
+                                   9   characteristics of the message that is generated in the course of the communication” such as “the
+
+                                  10   name, address and subscriber number or identity of a subscriber or customer.” Id. (internal
+
+                                  11   quotation marks omitted); see United States v. Reed, 575 F.3d 900, 914, 917 (9th Cir. 2009)
+
+                                  12   (holding that information about a telephone call’s “origination, length, and time” was not
+
+
+ United States District Court
+                                  13   “contents” for purposes of § 2510(8), because it contained no “information concerning the
+
+                                  14   substance, purport or meaning of [the] communication”). “Whether information is ‘content’ or
+
+                                  15   ‘record information’ can depend in part on the manner in which the information is generated, as
+
+
+
+Northern District of California
+                                  16   information that would otherwise be considered ‘record information’—such as names, addresses,
+
+                                  17   telephone numbers, and email addresses—may be ‘contents’ of a communication where the user
+
+                                  18   communicates with a website by entering his information into a form provided by the website.”
+
+                                  19   Saleh v. Nike, Inc., 562 F. Supp. 3d 503, 517 (C.D. Cal. 2021).
+
+                                  20          Headway argues that search terms used to find treatment for specific mental health issues
+
+                                  21   and search for a provider and information about a booked therapy session are “record”
+
+                                  22   information. Mot. at 21. This argument misunderstands the difference between content and
+
+                                  23   record information. Content information includes “search terms” as they may “divulge a user’s
+
+                                  24   personal interests, queries, and habits . . . [.]” In re Facebook, Inc. Internet Tracking Litig., 956
+
+                                  25   F.3d 589, 605 (9th Cir. 2020); cf. McCoy v. Alphabet, Inc., No. 20-CV-05427-SVK, 2021 WL
+
+                                  26   405816, at *14 (N.D. Cal. Feb. 2, 2021) (concluding that data on “when and how often” an
+
+                                  27   Android user “runs non-Google apps and the amount of time spent on the apps” is “record
+
+                                  28   information”). For example, “[w]hile a URL that includes ‘basic identification and address
+                                                                                          7
+                                       Case 3:23-cv-04422-AMO               Document 44       Filed 09/16/24     Page 8 of 15
+
+
+
+
+                                   1   information’ is not ‘content,’ a URL disclosing a ‘search term or similar communication made by
+
+                                   2   the user’ ‘could constitute a communication’ under the statute.” In re Meta Pixel Healthcare
+
+                                   3   Litig., 647 F. Supp. 3d 778, 795 (N.D. Cal. 2022) (quoting In re Zynga, 750 F.3d at 1108-09).
+
+                                   4   Similarly, log-in buttons and descriptive URLs are “contents” within the meaning of the Wiretap
+
+                                   5   Act and CIPA because they reveal the “path” and “query string,” i.e., that the user searched for a
+
+                                   6   specific doctor and searched for information about diabetes. Id. at 795, n.10. Here, M.G. alleges
+
+                                   7   that Google intercepted the information he provided about the mental health conditions for which
+
+                                   8   he was seeking therapy, his provider preferences, and his appointment details. FAC ¶¶ 10-11.
+
+                                   9   This is content information.
+
+                                  10                                  ii.      Interception
+
+                                  11          To violate Section 631, one must also listen to a communication “while the same is in
+
+                                  12   transit or passing over any wire, line, or cable, or is being sent from, or received at any place
+
+
+ United States District Court
+                                  13   within this state.” Cal. Penal Code § 631(a). Headway argues that interception was not
+
+                                  14   simultaneous here as two separate communications occurred – one between Headway’s browser
+
+                                  15   and the user’s browser, and one between the user’s browser and Google. Mot. at 22. However,
+
+
+
+Northern District of California
+                                  16   the FAC contradicts Headway’s argument. M.G. alleges that Google simultaneously intercepted
+
+                                  17   class members’ data in real time by using embedded Google Analytics Code. FAC ¶¶ 4-5, 11, 17,
+
+                                  18   26-27, 33, 40, 45. The Court must accept as true M.G.’s allegations that “[a]s users navigate the
+
+                                  19   Headway website and platform, Google Analytics, in real-time, surreptitiously is collecting their
+
+                                  20   sensitive information, including patient-clients’ private personal and medical information, without
+
+                                  21   the users’ knowledge or consent.” FAC ¶ 33; see also In re Yahoo Mail Litig., 7 F. Supp. 3d 1016,
+
+                                  22   1036 (N.D. Cal. 2014) (rejecting argument that emails were not intercepted in transit as “[t]he
+
+                                  23   Court must defer resolution of whether Yahoo accessed the emails only after the emails were on
+
+                                  24   Yahoo’s servers until after discovery makes clear where and how Yahoo’s scanning technology
+
+                                  25   intercepted the emails.”). Thus, M.G. has alleged real-time interception of users’ information.
+
+                                  26   The caselaw Headway cites does not persuade otherwise. See Smith v. Facebook, Inc., 262 F.
+
+                                  27   Supp. 3d 943, 951 (N.D. Cal. 2017), aff’d, 745 F. App’x 8 (9th Cir. 2018) (addressing whether
+
+                                  28   defendant purposefully directed its activities at the forum state for purposes of personal
+                                                                                          8
+                                       Case 3:23-cv-04422-AMO                Document 44       Filed 09/16/24   Page 9 of 15
+
+
+
+
+                                   1   jurisdiction, not whether a third party was intercepting communications in real time); Rodriguez v.
+
+                                   2   Google LLC, No. 20-CV-04688-RS, 2022 WL 214552, at *1 (N.D. Cal. Jan. 25, 2022)
+
+                                   3   (concluding that allegations of real-time interception were insufficient where complaint detailed
+
+                                   4   Google’s logging of data and subsequent transmission of a copy of the data).
+
+                                   5                                  iii.      Aiding and Abetting
+
+                                   6          Finally, Headway argues that M.G. fails to allege that it aided and abetted Google’s alleged
+
+                                   7   violation of Section 631. Headway first argues – without legal support – that the criminal standard
+
+                                   8   for aiding and abetting applies to the civil right of action. Mot. at 19. Not so. See Stoba v.
+
+                                   9   Saveology.com, LLC, No. 13-CV-2925-BAS NLS, 2014 WL 3573404, at *3 (S.D. Cal. July 18,
+
+                                  10   2014) (declining to impose criminal standard for claims pursuing civil liability under Cal. Penal
+
+                                  11   Code §§ 632 and 632.7). Under the common law definition of aiding and abetting, “[l]iability
+
+                                  12   may . . . be imposed on one who aids and abets the commission of an intentional tort if the person
+
+
+ United States District Court
+                                  13   (a) knows the other’s conduct constitutes a breach of duty and gives substantial assistance or
+
+                                  14   encouragement to the other to so act or (b) gives substantial assistance to the other in
+
+                                  15   accomplishing a tortious result and the person’s own conduct, separately considered, constitutes a
+
+
+
+Northern District of California
+                                  16   breach of duty to the third person.” Fiol v. Doellstedt, 50 Cal. App. 4th 1318, 1325-26 (1996)
+
+                                  17   (citation omitted).
+
+                                  18          Headway argues that M.G. failed to plead sufficient facts to support the aiding and abetting
+
+                                  19   claim as M.G. “merely concludes that Defendant ‘allowed Google to tap intentionally and/or make
+
+                                  20   unauthorized connections with the lines of Internet communications between Headway [and
+
+                                  21   Plaintiff and Class Members].” Mot. at 19 (citing FAC ¶¶ 116-17). This misstates M.G.’s
+
+                                  22   allegations, which include that Headway knowingly agreed to use Google Analytics, embedded
+
+                                  23   tracking technology code on its website, and allowed Google to have direct access to Headway
+
+                                  24   users’ private medical information. FAC ¶¶ 88-91.
+
+                                  25          In summary, M.G. has adequately alleged that Headway disclosed content information to
+
+                                  26   Google, that the interception occurred in transit, and Headway aided and abetted Google, and the
+
+                                  27   Court DENIES Headway’s the motion to dismiss CIPA Section 631.
+
+                                  28
+                                                                                           9
+                                       Case 3:23-cv-04422-AMO           Document 44        Filed 09/16/24      Page 10 of 15
+
+
+
+
+                                   1                  2.      Section 632
+
+                                   2          California Penal Code § 632 is also part of California’s invasion of privacy scheme. It
+
+                                   3   provides, in relevant part, that “[a] person who, intentionally and without the consent of all parties
+
+                                   4   to a confidential communication, uses a . . . recording device to eavesdrop upon or record the
+
+                                   5   confidential communication” violates the statute. Cal. Penal Code § 632(a).
+
+                                   6          Seeking dismissal, Headway argues that M.G. fails to allege that any “confidential
+
+                                   7   communications” took place. Mot. at 22-23. “A communication is confidential under Section 632
+
+                                   8   if a party ‘has an objectively reasonable expectation that the conversation is not being overheard
+
+                                   9   or recorded.’ ” Brown v. Google LLC, 525 F. Supp. 3d 1049, 1073 (N.D. Cal. 2021) (quoting
+
+                                  10   Flanagan v. Flanagan, 27 Cal. 4th 766, 777 (2002)). “[T]he plaintiff only needs to show a
+
+                                  11   reasonable ‘expectation that the conversation was not being simultaneously disseminated to an
+
+                                  12   unannounced second observer.’” Id. (citation omitted). Headway argues that numerous cases
+
+
+ United States District Court
+                                  13   have held that “Internet-based communications are not ‘confidential’ within the meaning of
+
+                                  14   [S]ection 632, because such communications can easily be shared . . . [.]” Mot. at 23 (quoting
+
+                                  15   Campbell v. Facebook Inc., 77 F. Supp. 3d 836, 849 (N.D. Cal. 2014) (collecting cases)).
+
+
+
+Northern District of California
+                                  16   However, in recent years, courts in this district have started to recognize that individuals may have
+
+                                  17   a reasonable expectation of privacy for certain internet communications. See, e.g., Brown v.
+
+                                  18   Google LLC, 685 F. Supp. 3d 909, 936-39 (N.D. Cal. 2023) (finding plaintiffs had a reasonable
+
+                                  19   expectation of privacy in private incognito browsing); Doe v. Regents of Univ. of California, 672
+
+                                  20   F. Supp. 3d 813, 820 (N.D. Cal. 2023) (concluding plaintiffs could bring common law invasion of
+
+                                  21   privacy claim because they had a reasonable expectation of privacy in personal medical
+
+                                  22   information); In re Meta Pixel Healthcare Litig., 647 F. Supp. 3d at 799 (finding confidential
+
+                                  23   under CIPA internet communications with medical providers because “health-related
+
+                                  24   communications with a medical provider are almost uniquely personal”). Here, given the nature
+
+                                  25   of the allegations – that M.G. entered information about his mental health concerns and therapist
+
+                                  26   preferences on a website that is a mental healthcare conduit – it was reasonable for M.G. to have
+
+                                  27   an expectation of privacy. M.G. has alleged that the communications with Headway were
+
+                                  28   confidential under the CIPA.
+                                                                                         10
+                                       Case 3:23-cv-04422-AMO            Document 44        Filed 09/16/24      Page 11 of 15
+
+
+
+
+                                   1          Headway also argues that M.G.’s allegations show that Google – not Headway – allegedly
+
+                                   2   unlawfully eavesdropped or recorded the communications. Mot. at 22-23. However, the FAC
+
+                                   3   alleges that “Headway permitted Google to eavesdrop upon and/or record Headway website
+
+                                   4   users,” FAC ¶ 128, and that Headway embedded Google Analytics technology on its website
+
+                                   5   allowing Google to intentionally tap communications, FAC ¶ 116. Headway has failed to show
+
+                                   6   why this is insufficient to state a claim for aiding and abetting a violation of section 632.4
+
+                                   7   Accordingly, the Court DENIES the motion to dismiss this claim.
+
+                                   8          C.      Constitutional Privacy Claim
+
+                                   9          Headway also moves to dismiss M.G.’s constitutional privacy claim under Article I,
+
+                                  10   Section I of the California Constitution. Mot. at 23-24. “[That] right, in many respects broader
+
+                                  11   than its federal constitutional counterpart, protects individuals from the invasion of their privacy
+
+                                  12   not only by state actors but also by private parties.” Leonel v. Am. Airlines, Inc., 400 F.3d 702,
+
+
+ United States District Court
+                                  13   711 (9th Cir. 2005). “To prove a claim under the California [constitutional] right to privacy, a
+
+                                  14   plaintiff must first demonstrate three elements: (1) a legally protected privacy interest; (2) a
+
+                                  15   reasonable expectation of privacy under the circumstances; and (3) conduct by the defendant that
+
+
+
+Northern District of California
+                                  16   amounts to a serious invasion of the protected privacy interest.” Id. (citing Hill v. Nat’l Collegiate
+
+                                  17   Athletic Ass’n, 7 Cal. 4th 1, 39-40 (1994)). “Actionable invasions of privacy must be sufficiently
+
+                                  18   serious in their nature, scope, and actual or potential impact to constitute an egregious breach of
+
+                                  19   the social norms underlying the privacy right.” Hill, 7 Cal. 4th at 37. Thus, if the allegations
+
+                                  20   “show no reasonable expectation of privacy or an insubstantial impact on privacy interests, the
+
+                                  21   question of invasion may be adjudicated as a matter of law.” Pioneer Electronics, Inc. v. Sup. Ct.
+
+                                  22   of L.A., 40 Cal. 4th 360, 370 (2007) (citing Hill, 7 Cal. 4th at 40). “Determining whether a
+
+                                  23   defendant’s actions were ‘highly offensive to a reasonable person’ requires a holistic consideration
+
+                                  24   of factors such as the likelihood of serious harm to the victim, the degree and setting of the
+
+                                  25
+
+                                  26   4
+                                         The Court does not consider the final argument Headway belatedly raised for the first time in the
+                                       reply: that this section only applies to communications over the telephone, ECF 28 at 15. Padilla
+                                  27   v. City of Richmond, 509 F. Supp. 3d 1168, 1180 (N.D. Cal. 2020) (“As a general rule, courts do
+                                  28   not consider arguments raised for the first time on reply.”) (citing cases).
+
+                                                                                         11
+                                       Case 3:23-cv-04422-AMO            Document 44        Filed 09/16/24      Page 12 of 15
+
+
+
+
+                                   1   intrusion, the intruder’s motives and objectives, and whether countervailing interests or social
+
+                                   2   norms render the intrusion inoffensive.” In re Facebook, Inc, 956 F.3d at 606 (citing Hernandez
+
+                                   3   v. Hillsides, Inc., 47 Cal. 4th 272, 295 (2009)).
+
+                                   4          Headway argues that the data collection practices here are “routine commercial behavior,”
+
+                                   5   and are thus not a serious intrusion of privacy. Mot. at 23. Disclosure of certain personal
+
+                                   6   information, such as social security numbers or an individual’s address, does not rise to the level
+
+                                   7   of an “egregious breach of social norms” to establish an invasion of privacy claims. Low v.
+
+                                   8   LinkedIn Corp., 900 F. Supp. 2d 1010, 1025 (N.D. Cal. 2012) (citing cases). However, “[c]ourts
+
+                                   9   have refused to dismiss invasion of privacy claims at the motion to dismiss stage where . . . a data
+
+                                  10   breach involved medical information, because the disclosure of such information is more likely to
+
+                                  11   constitute an ‘egregious breach of the social norms’ that is ‘highly offensive.’ ” 5 In re Ambry
+
+                                  12   Genetics Data Breach Litig., 567 F. Supp. 3d 1130, 1143 (C.D. Cal. 2021) (quoting In re
+
+
+ United States District Court
+                                  13   Facebook, Inc, 956 F.3d at 601); see Heldt v. Guardian Life Ins. Co. of Am., Case No. 16-cv-885-
+
+                                  14   BAS-NLS, 2019 WL 651503, at *4 (S.D. Cal. Feb. 15, 2019) (recognizing a legally protected
+
+                                  15   privacy interest in medical information held by an insurer); see also Strawn v. Morris, Polich &
+
+
+
+Northern District of California
+                                  16   Purdy, LLP, 30 Cal. App. 5th 1087, 1100 (2019) (finding the seriousness of the alleged invasion
+
+                                  17   of privacy based on disclosure of plaintiffs’ tax returns presented a question of fact that could not
+
+                                  18   be resolved on demurrer). Whether M.G. can prove an invasion of privacy “sufficiently serious in
+
+                                  19   . . . nature, scope, and actual or potential impact to constitute an egregious breach of the social
+
+                                  20   norms underlying the privacy right,” Hill, 7 Cal. 4th at 37, remains to be seen. However, this is
+
+                                  21   likely a factual dispute and Headway has not met its burden to show that the information disclosed
+
+                                  22   here – M.G.’s provider preference, appointment details, and search concerning mental health
+
+                                  23   conditions – cannot allege a serious invasion of privacy.
+
+                                  24          Headway next argues that the constitutional privacy claim must be dismissed because
+
+                                  25   M.G. cannot bring a private claim for money damages under the California Constitution. Mot. at
+
+                                  26
+                                  27
+                                       5
+                                         To be clear, “medical information” here is not a term of art as in the CMIA claim. The operative
+                                       inquiry here is whether the privacy intrusion was “highly offensive” and an “egregious breach of
+                                  28   social norms.” See In re Facebook, 956 F.3d at 601.
+
+                                                                                           12
+                                       Case 3:23-cv-04422-AMO            Document 44        Filed 09/16/24      Page 13 of 15
+
+
+
+
+                                   1   24. Citizens may seek to enjoin the government from violating the right to privacy but cannot
+
+                                   2   seek damages for a violation of this right. Clausing v. San Francisco Unified Sch. Dist., 221 Cal.
+
+                                   3   App. 3d 1224, 1238 (1990); see Regents of California, 672 F. Supp. 3d at 820. M.G. seeks
+
+                                   4   damages and disgorgement of profits for this claim. FAC ¶ 139. M.G. admits that “[i]nvasions of
+
+                                   5   privacy, such as those here, cannot be rectified adequately through monetary damages,” but argues
+
+                                   6   that courts permit plaintiffs to seek injunctive relief and disgorgement. Opp. at 25. It is clear that
+
+                                   7   M.G. may not seek money damages for a violation of this claim here. Thus, the Court
+
+                                   8   DISMISSES the claim to the extent M.G. seeks money damages. See Clausing, 221 Cal. App. 3d
+
+                                   9   at 1238; Federated Univ. Police Officers’ Ass’n v. Regents of Univ. of California, No. SACV-
+
+                                  10   1500137-JLSRNBX, 2015 WL 13273308, at *13 (C.D. Cal. July 29, 2015) (striking request for
+
+                                  11   damages for invasion of privacy claims).
+
+                                  12            However, Headway bears the burden of showing that M.G. may not bring a claim for
+
+
+ United States District Court
+                                  13   disgorgement under the California constitution, and it has not done so. Although M.G. may not
+
+                                  14   ultimately be able to recover disgorgement of profits, Plaintiff’s claim survives this stage of the
+
+                                  15   proceedings, and the Court DENIES the motion to dismiss the California constitutional privacy
+
+
+
+Northern District of California
+                                  16   claim.
+
+                                  17            D.     California Consumer Privacy Act Claim
+                                  18            Finally, Headway moves to dismiss Plaintiff’s third cause of action for violation of the
+
+                                  19   California Consumer Privacy Act (“CCPA”). Mot. at 24-25. The CCPA creates a cause of action
+
+                                  20   for:
+
+                                  21            Any consumer whose nonencrypted and nonredacted personal information . . . is
+                                  22            subject to an unauthorized access and exfiltration, theft, or disclosure as a result of
+                                                the business’s violation of the duty to implement and maintain reasonable security
+                                  23            procedures and practices appropriate to the nature of the information to protect the
+                                                personal information . . . [.]
+                                  24
+
+                                  25   Cal. Civ. Code § 1798.150. M.G. brings a CCPA claim under sections 1798.100(e) and
+                                  26   1798.81.5(b) based on Headway disclosing M.G. and Class members’ personal information,
+                                  27   including medical and health insurance information, to Google. FAC ¶ 106
+                                  28            Headway argues that the CCPA claim must be dismissed because there is no private right
+                                                                                          13
+                                       Case 3:23-cv-04422-AMO           Document 44        Filed 09/16/24      Page 14 of 15
+
+
+
+
+                                   1   of action under any subsection other than section 1798.150(a). Mot. at 24. The CCPA explicitly
+
+                                   2   states in section 1798.150 that “[t]he cause of action established by this section shall apply only to
+
+                                   3   violations as defined in subdivision (a) and shall not be based on violations of any other section of
+
+                                   4   this title.” Cal. Civ. Code § 1798.150(c). Accordingly, the Court DISMISSES with prejudice
+
+                                   5   M.G.’s CCPA claims brought under sections 1798.100 and 1798.81.5. See Hayden v. Retail
+
+                                   6   Equation, Inc., No. SACV-2001203-DOCDFM, 2022 WL 2254461, at *4-5 (C.D. Cal. May 4,
+
+                                   7   2022), reconsideration on other grounds, 2022 WL 3137446 (C.D. Cal. July 22, 2022) (dismissing
+
+                                   8   with prejudice CCPA claims under section 1798.100(b), 110(c), and 115(d) as there is no private
+
+                                   9   right of action under those sections). Although M.G. lists only CCPA subsections 1798.100(e)
+
+                                  10   and 1798.81.5(b) in the heading of the cause of action, he includes section 1798.150 in the body of
+
+                                  11   the FAC. See FAC ¶¶ 107-08. Thus, the Court addresses whether M.G. has stated a Section
+
+                                  12   1798.150 claim.
+
+
+ United States District Court
+                                  13          Headway argues that courts only recognize private rights of action under the CCPA in the
+
+                                  14   data breach context and that M.G. does not allege a data breach here. Mot. at 25. Not so; courts
+
+                                  15   have let CCPA claims survive a motion to dismiss where a plaintiff alleges that defendants
+
+
+
+Northern District of California
+                                  16   disclosed plaintiff’s personal information without his consent due to the business’s failure to
+
+                                  17   maintain reasonable security practices. See, e.g., Ramos v. Wells Fargo Bank, N.A., No. 23-CV-
+
+                                  18   0757-L-BGS, 2023 WL 5310540, at *2 (S.D. Cal. Aug. 17, 2023) (concluding that plaintiff stated
+
+                                  19   a CCPA claim, notwithstanding a failure to allege a data breach, where he alleged “unknown
+
+                                  20   individuals accessed information regarding his savings account as a result Defendant’s failure to
+
+                                  21   properly maintain Plaintiff’s nonredacted and nonencrypted information”); see also Stasi v.
+
+                                  22   Inmediata Health Grp. Corp., 501 F. Supp. 3d 898, 924 (S.D. Cal. 2020) (finding that plaintiffs
+
+                                  23   alleged a plausible CCPA claim where their personal and medical information was accessible over
+
+                                  24   the internet but there was no theft). Headway has neither pointed to authority that a data breach is
+
+                                  25   necessary nor shown that M.G.’s allegations are insufficient. The Court therefore DENIES the
+
+                                  26   motion to dismiss the CCPA claim.
+
+                                  27   IV.    CONCLUSION
+                                  28          For the foregoing reasons, the Court GRANTS the motion to dismiss the Confidentiality
+                                                                                         14
+                                       Case 3:23-cv-04422-AMO          Document 44      Filed 09/16/24     Page 15 of 15
+
+
+
+
+                                   1   of Medical Information Act and aiding and abetting the CMIA claims with leave to amend. The
+
+                                   2   Court DENIES the motion to dismiss the remaining claims. Any amended complaint must be
+
+                                   3   filed by October 16, 2024. No additional claims or parties may be added without stipulation of
+
+                                   4   Defendants or leave of Court.
+
+                                   5
+
+                                   6          IT IS SO ORDERED.
+
+                                   7   Dated: September 16, 2024
+
+                                   8
+
+                                   9
+                                                                                                 ARACELI MARTÍNEZ-OLGUÍN
+                                  10                                                             United States District Judge
+                                  11
+
+                                  12
+
+
+ United States District Court
+                                  13
+
+                                  14
+
+                                  15
+
+
+
+Northern District of California
+                                  16
+
+                                  17
+
+                                  18
+                                  19
+
+                                  20
+
+                                  21
+
+                                  22
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+                                  27
+
+                                  28
+                                                                                      15
+

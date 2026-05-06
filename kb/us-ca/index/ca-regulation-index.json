@@ -1,0 +1,1817 @@
+{
+  "type": "ca_regulation_index",
+  "count": 61,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "items": [
+    {
+      "id": "ca-11-ccr-7000",
+      "citation": "11 CCR § 7000",
+      "title": "Title and Scope.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7000.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.175"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.175"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.175"
+      ],
+      "keywords": [
+        "title",
+        "scope"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7001",
+      "citation": "11 CCR § 7001",
+      "title": "Definitions.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7001.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.105",
+        "ca-civ-1798.106",
+        "ca-civ-1798.110",
+        "ca-civ-1798.120",
+        "ca-civ-1798.121",
+        "ca-civ-1798.125",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.10"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.105",
+        "ca-civ-1798.106",
+        "ca-civ-1798.110",
+        "ca-civ-1798.120",
+        "ca-civ-1798.121",
+        "ca-civ-1798.125",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.10"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.105",
+        "ca-civ-1798.106",
+        "ca-civ-1798.110",
+        "ca-civ-1798.120",
+        "ca-civ-1798.121",
+        "ca-civ-1798.125",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.10"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "children",
+        "service provider",
+        "contractor",
+        "third party",
+        "risk assessment",
+        "ADMT",
+        "cybersecurity audit",
+        "automated decisionmaking",
+        "privacy policy",
+        "definitions"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7002",
+      "citation": "11 CCR § 7002",
+      "title": "Restrictions on the Collection and Use of Personal Information.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7002.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "deletion",
+        "access",
+        "service provider",
+        "contractor",
+        "restrictions",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7003",
+      "citation": "11 CCR § 7003",
+      "title": "Requirements for Disclosures and Communications to Consumers.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7003.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "requirements",
+        "disclosures",
+        "communications",
+        "consumers"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7004",
+      "citation": "11 CCR § 7004",
+      "title": "Requirements for Methods for Submitting CCPA Requests and Obtaining Consumer",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7004.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "opt-out",
+        "privacy policy",
+        "requirements",
+        "methods",
+        "submitting",
+        "requests",
+        "obtaining",
+        "consumer"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7010",
+      "citation": "11 CCR § 7010",
+      "title": "Overview of Required Disclosures.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7010.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "ADMT",
+        "privacy policy",
+        "overview",
+        "required",
+        "disclosures"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7011",
+      "citation": "11 CCR § 7011",
+      "title": "Privacy Policy.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7011.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "ADMT",
+        "privacy policy",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7012",
+      "citation": "11 CCR § 7012",
+      "title": "Notice at Collection of Personal Information.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7012.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.99.80",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.99.80",
+        "ca-civ-1798.99.82",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.99.80",
+        "ca-civ-1798.99.82",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "third party",
+        "privacy policy",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7013",
+      "citation": "11 CCR § 7013",
+      "title": "Notice of Right to Opt-out of Sale/Sharing and the “Do Not Sell or Share My Personal",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7013.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "opt-out",
+        "privacy policy",
+        "right",
+        "sharing",
+        "personal"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7014",
+      "citation": "11 CCR § 7014",
+      "title": "Notice of Right to Limit and the “Limit the Use of My Sensitive Personal Information”",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7014.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "sensitive personal information",
+        "opt-out",
+        "privacy policy",
+        "right",
+        "limit",
+        "sensitive",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7015",
+      "citation": "11 CCR § 7015",
+      "title": "Alternative Opt-out Link.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7015.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "alternative"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7016",
+      "citation": "11 CCR § 7016",
+      "title": "Notice of Financial Incentive.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7016.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "privacy policy",
+        "financial",
+        "incentive"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7020",
+      "citation": "11 CCR § 7020",
+      "title": "Methods for Submitting Requests to Delete, Requests to Correct, and Requests to",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7020.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "methods",
+        "submitting",
+        "requests",
+        "delete",
+        "correct"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7021",
+      "citation": "11 CCR § 7021",
+      "title": "Timelines for Responding to Requests to Delete, Requests to Correct, Requests to",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7021.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "ADMT",
+        "timelines",
+        "responding",
+        "requests",
+        "delete",
+        "correct"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7022",
+      "citation": "11 CCR § 7022",
+      "title": "Requests to Delete.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7022.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "deletion",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "third party",
+        "requests",
+        "delete"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7023",
+      "citation": "11 CCR § 7023",
+      "title": "Requests to Correct.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7023.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "deletion",
+        "correction",
+        "access",
+        "sale",
+        "share",
+        "service provider",
+        "contractor",
+        "requests",
+        "correct"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7024",
+      "citation": "11 CCR § 7024",
+      "title": "Requests to Know.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7024.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "access",
+        "share",
+        "service provider",
+        "contractor",
+        "privacy policy",
+        "requests"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7025",
+      "citation": "11 CCR § 7025",
+      "title": "Opt-out Preference Signals.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7025.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "privacy policy",
+        "preference",
+        "signals"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7026",
+      "citation": "11 CCR § 7026",
+      "title": "Requests to Opt-out of Sale/Sharing.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7026.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "privacy policy",
+        "requests",
+        "sharing"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7027",
+      "citation": "11 CCR § 7027",
+      "title": "Requests to Limit Use and Disclosure of Sensitive Personal Information.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7027.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.121",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sensitive personal information",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "third party",
+        "data breach",
+        "enforcement",
+        "requests",
+        "limit",
+        "disclosure",
+        "sensitive",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7028",
+      "citation": "11 CCR § 7028",
+      "title": "Requests to Opt-in After Opting-out of the Sale or Sharing of Personal Information or",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7028.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "requests",
+        "opt-in",
+        "after",
+        "opting-out",
+        "sharing",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7050",
+      "citation": "11 CCR § 7050",
+      "title": "Service Providers and Contractors.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7050.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "third party",
+        "risk assessment",
+        "cybersecurity audit",
+        "service",
+        "providers",
+        "contractors"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7051",
+      "citation": "11 CCR § 7051",
+      "title": "Contract Requirements for Service Providers and Contractors.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7051.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "service provider",
+        "contractor",
+        "risk assessment",
+        "ADMT",
+        "cybersecurity audit",
+        "contract",
+        "requirements",
+        "service",
+        "providers",
+        "contractors"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7052",
+      "citation": "11 CCR § 7052",
+      "title": "Third Parties.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7052.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "share",
+        "third party",
+        "third",
+        "parties"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7053",
+      "citation": "11 CCR § 7053",
+      "title": "Contract Requirements for Third Parties.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7053.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "third party",
+        "contract",
+        "requirements",
+        "third",
+        "parties"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7060",
+      "citation": "11 CCR § 7060",
+      "title": "General Rules Regarding Verification.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7060.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.81.5",
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "deletion",
+        "correction",
+        "access",
+        "sale",
+        "sensitive personal information",
+        "opt-out",
+        "ADMT",
+        "general",
+        "rules",
+        "regarding",
+        "verification"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7061",
+      "citation": "11 CCR § 7061",
+      "title": "Verification for Password-Protected Accounts.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7061.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "verification",
+        "password-protected",
+        "accounts"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7062",
+      "citation": "11 CCR § 7062",
+      "title": "Verification for Non-Accountholders.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7062.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.130",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "deletion",
+        "correction",
+        "access",
+        "ADMT",
+        "penalty",
+        "privacy policy",
+        "verification",
+        "non-accountholders"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7063",
+      "citation": "11 CCR § 7063",
+      "title": "Authorized Agents.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7063.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "authorized",
+        "agents"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7070",
+      "citation": "11 CCR § 7070",
+      "title": "Consumers Less Than 13 Years of Age.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7070.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "opt-out",
+        "penalty",
+        "consumers",
+        "years"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7071",
+      "citation": "11 CCR § 7071",
+      "title": "Consumers at Least 13 Years of Age and Less Than 16 Years of Age.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7071.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "opt-out",
+        "consumers",
+        "least",
+        "years"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7072",
+      "citation": "11 CCR § 7072",
+      "title": "Notices to Consumers Less Than 16 Years of Age.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7072.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "opt-out",
+        "privacy policy",
+        "notices",
+        "consumers",
+        "years"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7080",
+      "citation": "11 CCR § 7080",
+      "title": "Discriminatory Practices.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7080.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.125",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.125",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.125",
+        "ca-civ-1798.145",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "access",
+        "sale",
+        "opt-out",
+        "ADMT",
+        "discriminatory",
+        "practices"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7081",
+      "citation": "11 CCR § 7081",
+      "title": "Calculating the Value of Consumer Data.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7081.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "collection",
+        "deletion",
+        "sale",
+        "calculating",
+        "value",
+        "consumer"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7100",
+      "citation": "11 CCR § 7100",
+      "title": "Training.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7100.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "share",
+        "training"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7101",
+      "citation": "11 CCR § 7101",
+      "title": "Record-Keeping.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7101.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "share",
+        "third party",
+        "record-keeping"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7102",
+      "citation": "11 CCR § 7102",
+      "title": "Requirements for Businesses Collecting Large Amounts of Personal Information.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7102.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.105",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "ADMT",
+        "cybersecurity audit",
+        "privacy policy",
+        "requirements",
+        "businesses",
+        "collecting",
+        "large",
+        "amounts",
+        "personal",
+        "information"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7120",
+      "citation": "11 CCR § 7120",
+      "title": "Requirement to Complete a Cybersecurity Audit.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7120.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sensitive personal information",
+        "cybersecurity audit",
+        "requirement",
+        "complete",
+        "cybersecurity",
+        "audit"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7121",
+      "citation": "11 CCR § 7121",
+      "title": "Timing Requirements for Cybersecurity Audits and Audit Reports.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7121.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "cybersecurity audit",
+        "timing",
+        "requirements",
+        "cybersecurity",
+        "audits",
+        "audit",
+        "reports"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7122",
+      "citation": "11 CCR § 7122",
+      "title": "Thoroughness and Independence of Cybersecurity Audits.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7122.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "service provider",
+        "contractor",
+        "cybersecurity audit",
+        "thoroughness",
+        "independence",
+        "cybersecurity",
+        "audits"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7123",
+      "citation": "11 CCR § 7123",
+      "title": "Scope of Cybersecurity Audit and Audit Report.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7123.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.82",
+        "ca-civ-1798.145",
+        "ca-civ-1798.150",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.82",
+        "ca-civ-1798.145",
+        "ca-civ-1798.150",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.82",
+        "ca-civ-1798.145",
+        "ca-civ-1798.150",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "correction",
+        "access",
+        "share",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "third party",
+        "cybersecurity audit",
+        "enforcement",
+        "scope",
+        "cybersecurity",
+        "audit",
+        "report"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7124",
+      "citation": "11 CCR § 7124",
+      "title": "Certification of Completion.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7124.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "risk assessment",
+        "cybersecurity audit",
+        "penalty",
+        "certification",
+        "completion"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7150",
+      "citation": "11 CCR § 7150",
+      "title": "When a Business Must Conduct a Risk Assessment.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7150.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "share",
+        "sensitive personal information",
+        "service provider",
+        "contractor",
+        "risk assessment",
+        "ADMT",
+        "business",
+        "conduct",
+        "assessment"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7151",
+      "citation": "11 CCR § 7151",
+      "title": "Stakeholder Involvement for Risk Assessments.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7151.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "service provider",
+        "contractor",
+        "risk assessment",
+        "ADMT",
+        "stakeholder",
+        "involvement",
+        "assessments"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7152",
+      "citation": "11 CCR § 7152",
+      "title": "Risk Assessment Requirements.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7152.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "service provider",
+        "contractor",
+        "risk assessment",
+        "ADMT",
+        "assessment",
+        "requirements"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7153",
+      "citation": "11 CCR § 7153",
+      "title": "Additional Requirements for Businesses that Process Personal Information to Train",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7153.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "risk assessment",
+        "ADMT",
+        "automated decisionmaking",
+        "additional",
+        "requirements",
+        "businesses",
+        "process",
+        "personal",
+        "information",
+        "train"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7154",
+      "citation": "11 CCR § 7154",
+      "title": "Goal of a Risk Assessment.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7154.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "risk assessment",
+        "assessment"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7155",
+      "citation": "11 CCR § 7155",
+      "title": "Timing and Retention Requirements for Risk Assessments.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7155.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "risk assessment",
+        "timing",
+        "retention",
+        "requirements",
+        "assessments"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7156",
+      "citation": "11 CCR § 7156",
+      "title": "Conducting Risk Assessments for a Comparable Set of Processing Activities or in",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7156.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "children",
+        "service provider",
+        "risk assessment",
+        "conducting",
+        "assessments",
+        "comparable",
+        "processing",
+        "activities"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7157",
+      "citation": "11 CCR § 7157",
+      "title": "Submission of Risk Assessments to the Agency.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7157.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.140",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "sensitive personal information",
+        "risk assessment",
+        "automated decisionmaking",
+        "penalty",
+        "submission",
+        "assessments",
+        "agency"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7200",
+      "citation": "11 CCR § 7200",
+      "title": "When a Business’s Use of Automated Decisionmaking Technology is Subject to the",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7200.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "ADMT",
+        "automated decisionmaking",
+        "business",
+        "automated",
+        "decisionmaking",
+        "technology",
+        "subject"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7220",
+      "citation": "11 CCR § 7220",
+      "title": "Pre-use Notice Requirements.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7220.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "opt-out",
+        "ADMT",
+        "pre-use",
+        "requirements"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7221",
+      "citation": "11 CCR § 7221",
+      "title": "Requests to Opt-Out of ADMT.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7221.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "opt-out",
+        "service provider",
+        "contractor",
+        "ADMT",
+        "automated decisionmaking",
+        "requests"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7222",
+      "citation": "11 CCR § 7222",
+      "title": "Requests to Access ADMT.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7222.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.125",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "access",
+        "service provider",
+        "contractor",
+        "ADMT",
+        "privacy policy",
+        "requests"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7270",
+      "citation": "11 CCR § 7270",
+      "title": "Definition of Insurance Company.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7270.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "definition",
+        "insurance",
+        "company"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7271",
+      "citation": "11 CCR § 7271",
+      "title": "General Application of the CCPA to Insurance Companies.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7271.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "opt-out",
+        "enforcement",
+        "general",
+        "application",
+        "insurance",
+        "companies"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7300",
+      "citation": "11 CCR § 7300",
+      "title": "Sworn Complaints Filed with the Agency.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7300.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.45"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.45"
+      ],
+      "keywords": [
+        "notice",
+        "service provider",
+        "contractor",
+        "enforcement",
+        "penalty",
+        "sworn",
+        "complaints",
+        "filed",
+        "agency"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7301",
+      "citation": "11 CCR § 7301",
+      "title": "Investigations.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7301.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.45"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.45"
+      ],
+      "keywords": [
+        "investigations"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7302",
+      "citation": "11 CCR § 7302",
+      "title": "Probable Cause Proceedings.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7302.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.50"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.50"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.50"
+      ],
+      "keywords": [
+        "notice",
+        "enforcement",
+        "probable",
+        "cause",
+        "proceedings"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7303",
+      "citation": "11 CCR § 7303",
+      "title": "Stipulated Orders.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7303.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.35"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.35"
+      ],
+      "keywords": [
+        "enforcement",
+        "administrative",
+        "stipulated",
+        "orders"
+      ]
+    },
+    {
+      "id": "ca-11-ccr-7304",
+      "citation": "11 CCR § 7304",
+      "title": "Agency Audits.",
+      "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7304.md",
+      "effective_date": "2026-01-01",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf",
+      "authority_cited": [
+        "ca-civ-1798.185"
+      ],
+      "reference_sections": [
+        "ca-civ-1798.185"
+      ],
+      "related_statutes": [
+        "ca-civ-1798.185"
+      ],
+      "keywords": [
+        "collection",
+        "service provider",
+        "contractor",
+        "agency",
+        "audits"
+      ]
+    }
+  ]
+}

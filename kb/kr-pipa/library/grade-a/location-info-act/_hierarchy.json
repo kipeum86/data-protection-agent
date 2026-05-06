@@ -1,0 +1,321 @@
+{
+  "law": "위치정보의 보호 및 이용 등에 관한 법률",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정의",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "위치정보의 보호 및 이용 등을 위한 시책의 강구",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "다른 법률과의 관계",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "5",
+      "title": "개인위치정보를 대상으로 하는 위치정보사업의 등록 등",
+      "is_article": true
+    },
+    {
+      "number": "5의2",
+      "title": "개인위치정보를 대상으로 하지 아니하는 위치정보사업의 신고",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "임원 또는 종업원의 결격사유",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "위치정보사업의 양수 및 법인의 합병 등",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "위치정보사업의 휴업ㆍ폐업 등",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "위치기반서비스사업의 신고",
+      "is_article": true
+    },
+    {
+      "number": "9의2",
+      "title": "소상공인 등의 위치기반서비스사업의 신고",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "위치기반서비스사업의 양수 및 법인의 합병 등",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "위치기반서비스사업의 휴업ㆍ폐업 등",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "이용약관의 공개 등",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "등록의 취소 및 사업의 폐지ㆍ정지 등",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "과징금의 부과 등",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "15",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "15",
+      "title": "위치정보의 수집 등의 금지",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "위치정보의 보호조치 등",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "위치정보의 누설 등의 금지",
+      "is_article": true
+    },
+    {
+      "number": "17의2",
+      "title": "개인위치정보주체에 대한 위치정보 처리 고지 등",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "18",
+      "title": "개인위치정보의 수집",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "개인위치정보의 이용 또는 제공",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "위치정보사업자의 개인위치정보 제공 등",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "개인위치정보 등의 이용ㆍ제공의 제한 등",
+      "is_article": true
+    },
+    {
+      "number": "21의2",
+      "title": "개인위치정보 처리방침의 공개",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "사업의 양도 등의 통지",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "개인위치정보의 파기 등",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "24",
+      "title": "개인위치정보주체의 권리 등",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "법정대리인의 권리",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "8세 이하의 아동등의 보호를 위한 위치정보 이용",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "손해배상",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "분쟁의 조정 등",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "29",
+      "title": "긴급구조를 위한 개인위치정보의 이용",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "개인위치정보의 요청 및 방식 등",
+      "is_article": true
+    },
+    {
+      "number": "30의2",
+      "title": "가족관계 등록전산정보의 이용",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "비용의 감면",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "통계자료의 제출 등",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "33",
+      "title": "기술개발의 추진 등",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "표준화의 추진",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "위치정보의 이용촉진",
+      "is_article": true
+    },
+    {
+      "number": "35의2",
+      "title": "한국위치정보산업협회",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "36",
+      "title": "자료제출 요구 및 검사",
+      "is_article": true
+    },
+    {
+      "number": "36의2",
+      "title": "시정조치 등",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "청문",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "권한의 위임 및 위탁",
+      "is_article": true
+    },
+    {
+      "number": "38의2",
+      "title": "벌칙 적용에서 공무원 의제",
+      "is_article": true
+    },
+    {
+      "number": "38의3",
+      "title": "준용 규정",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "39",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "40의2",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "양벌규정",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "과태료",
+      "is_article": true
+    }
+  ]
+}

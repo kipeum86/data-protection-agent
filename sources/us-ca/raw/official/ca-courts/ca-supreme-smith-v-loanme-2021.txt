@@ -1,0 +1,1064 @@
+        IN THE SUPREME COURT OF
+               CALIFORNIA
+
+                    JEREMIAH SMITH,
+                   Plaintiff and Appellant,
+                             v.
+                      LOANME, INC.,
+                 Defendant and Respondent.
+
+                           S260391
+
+           Fourth Appellate District, Division Two
+                         E069752
+
+               Riverside County Superior Court
+                         RIC1612501
+
+
+
+                         April 1, 2021
+
+Chief Justice Cantil-Sakauye authored the opinion of the Court,
+in which Justices Corrigan, Liu, Cuéllar, Kruger, Groban and
+Jenkins concurred.
+                   SMITH v. LOANME, INC.
+                            S260391
+
+
+         Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+      Under Penal Code section 632.7, subdivision (a)
+(hereinafter section 632.7(a)),1 it is a crime when a person
+“without the consent of all parties to a communication,
+intercepts or receives and intentionally records, or assists in the
+interception or reception and intentional recordation of, a
+communication transmitted between” a cellular or cordless
+telephone and another telephone. A violation of section 632.7
+also can be pursued civilly and lead to the assessment of
+damages and other appropriate relief. The issue presented in
+this case is whether section 632.7 applies to the parties to a
+communication, prohibiting them from recording a covered
+communication without the consent of all participants, or
+whether the section is concerned only with recording by persons
+other than parties (sometimes hereinafter referred to as
+“nonparties” to the communication), such as an individual who
+covertly intercepts a phone call and eavesdrops upon it.
+      The Court of Appeal concluded that section 632.7 applies
+only to nonparties and does not forbid a party to a phone call
+transmitted to or from a cellular or cordless telephone from
+recording the conversation without the consent of the other
+party or parties. We reach a contrary conclusion and hold that
+section 632.7 applies to parties as well as nonparties. This
+
+1
+  All subsequent undesignated statutory references are to the
+Penal Code.
+
+                                1
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+interpretation reflects the most sensible reading of the statutory
+text, is consistent with the relevant legislative history, and
+advances the Legislature’s apparent intent by protecting
+privacy in covered communications to a greater degree than the
+Court of Appeal’s construction would. Accordingly, we reverse
+the judgment below and remand the matter to the Court of
+Appeal for further proceedings consistent with our opinion.
+        I.   FACTUAL AND PROCEDURAL BACKGROUND
+      This case arises out of a brief phone conversation.
+Defendant LoanMe, Inc. (LoanMe) extended a loan to the wife
+of plaintiff Jeremiah Smith. In October 2015, a LoanMe
+employee called a phone number Smith’s wife had provided.
+Smith answered, on what he asserts was a cordless phone.
+Smith advised the LoanMe representative that his wife was not
+at home. The call then ended, 18 seconds after it began.
+      LoanMe recorded the call. Three seconds into the call,
+LoanMe caused a “beep” tone to sound.               The LoanMe
+representative on the call did not orally advise plaintiff that the
+call was being recorded.
+      In September 2016, Smith brought suit on behalf of a
+putative class consisting of “[a]ll persons in California whose
+inbound and outbound telephone conversations involving their
+cellular or cordless telephones were recorded without their
+consent by [LoanMe] or its agent/s within the one year prior to
+the filing of this action.” The complaint alleged that the
+recording of these calls violated section 632.7.
+      The parties agreed to a bifurcated bench trial for the court
+to decide whether Smith consented to having the phone call
+recorded by continuing the conversation after LoanMe activated
+the “beep” tone. After listening to the call, the trial court agreed
+
+                                   2
+                         SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+with LoanMe that the tone gave Smith adequate notice that the
+call was being recorded. The trial court subsequently entered
+judgment in LoanMe’s favor.
+     When Smith sought review, the Court of Appeal did not
+delve into the consent issue decided by the superior court.
+Instead, the reviewing court requested supplemental briefing
+regarding whether section 632.7 prohibits a party from
+intentionally recording a communication transmitted to or from
+a cellular or cordless phone, or whether the section forbids only
+the intentional recording of such communications by persons
+other than parties. The Court of Appeal ultimately concluded
+“that section 632.7 prohibits only third party eavesdroppers from
+intentionally recording telephonic communications involving at
+least one cellular or cordless telephone. Conversely, section
+632.7 does not prohibit the participants in a phone call from
+intentionally recording it.” (Smith v. LoanMe, Inc. (2019)
+43 Cal.App.5th 844, 848 (Smith).) The judgment was affirmed
+on this basis. (Ibid.)
+     The Court of Appeal regarded section 632.7 as
+unambiguously applicable only to nonparties. (Smith, supra,
+43 Cal.App.5th at p. 851.) It reasoned, “The statute . . . requires
+that the interception or receipt of the [covered] communication
+be without the parties’ consent. But the parties to a phone call
+always consent to the receipt of their communications by each
+other — that is what it means to be a party to the call (or at least
+that is part of what it means). In this case, for example, LoanMe
+consented to Smith’s receipt of LoanMe’s communications (‘Is
+Mrs. Smith there?’), and Smith consented to LoanMe’s receipt of
+Smith’s communications (‘No.’). Consequently, the parties to a
+phone call are incapable of violating section 632.7, because they
+
+
+                                   3
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+do not intercept or receive each other’s communications without
+all parties’ consent.” (Ibid.)
+      The Court of Appeal also saw its interpretation of section
+632.7 as harmonizing this section with sections 632.5 and 632.6,
+which also address privacy issues implicated by the use of
+cellular and cordless phones. Sections 632.5 and 632.6 provide
+for liability when a person “maliciously and without the consent
+of all parties to the communication, intercepts . . . [or] receives”
+a communication transmitted between devices including a
+cellular phone (§ 632.5, subd. (a) (hereinafter section 632.5(a)))
+or a cordless phone (§ 632.6, subd. (a) (hereinafter section
+632.6(a))). The Court of Appeal determined that these sections
+cannot reasonably be applied to the parties to a phone call, for
+reasons including the fact that it was “not clear what it would
+mean for one party to receive the other party’s communications
+with malice.” (Smith, supra, 43 Cal.App.5th at p. 852.) Because
+sections 632.5 and 632.6 do not apply to the parties to a
+communication, the Court of Appeal reasoned, section 632.7
+should be construed similarly. (Smith, at pp. 851–852.) The
+Court of Appeal also saw it as “absurd” for a party to be held
+liable under section 632.7 for recording a call when it was “pure
+happenstance” whether the other party or parties were using
+cellular or cordless phones, as opposed to landline phones.
+(Smith, at p. 853.)
+      Finally, the Court of Appeal also saw its reading of section
+632.7 as accordant with the relevant legislative history. The
+court observed that in materials generated during legislative
+deliberations regarding Assembly Bill No. 2465 (1991–1992 Reg.
+Sess.) (hereinafter Assembly Bill 2465), the measure through
+which section 632.7 was added to the Penal Code, the
+
+
+                                   4
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+Legislature “never shows any concern about recording by
+parties.” (Smith, supra, 43 Cal.App.5th at p. 859.)
+      We granted review.
+                        II.    DISCUSSION
+      The discussion below proceeds as follows. We first
+examine the text of section 632.7(a), which we determine is most
+naturally read as prohibiting both parties and nonparties from
+intentionally recording a covered communication without the
+consent of all parties to the communication. Because the text
+conceivably could support the Court of Appeal’s interpretation
+as well, however, we also consult the legislative history and
+public policy as additional tools to ascertain the Legislature’s
+intent. Upon review of these resources, we conclude that this
+section applies to the intentional recording of a covered
+communication regardless of whether the recording is
+performed by a party to the communication, or by a nonparty.
+      A. General Principles
+      “ ‘ “When we interpret a statute, ‘[o]ur fundamental task
+. . . is to determine the Legislature’s intent so as to effectuate
+the law’s purpose. We first examine the statutory language,
+giving it a plain and commonsense meaning. We do not examine
+that language in isolation, but in the context of the statutory
+framework as a whole in order to determine its scope and
+purpose and to harmonize the various parts of the enactment.
+If the language is clear, courts must generally follow its plain
+meaning unless a literal interpretation would result in absurd
+consequences the Legislature did not intend. If the statutory
+language permits more than one reasonable interpretation,
+courts may consider other aids, such as the statute’s purpose,
+legislative history, and public policy.’ [Citation.] ‘Furthermore,
+
+                                  5
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+we consider portions of a statute in the context of the entire
+statute and the statutory scheme of which it is a part, giving
+significance to every word, phrase, sentence, and part of an act
+in pursuance of the legislative purpose.’ ” ’ ” (Meza v. Portfolio
+Recovery Associates, LLC (2019) 6 Cal.5th 844, 856–857.) The
+interpretation of a statute presents a question of law that this
+court reviews de novo. (People v. Jimenez (2020) 9 Cal.5th 53,
+61; Goodman v. Lozano (2010) 47 Cal.4th 1327, 1332.)
+      B. The Context and Provisions of Section 632.7
+      Section 632.7 is part of the Invasion of Privacy Act (§ 630
+et seq.). As we explained in Flanagan v. Flanagan (2002)
+27 Cal.4th 766, 768–769 (Flanagan), as originally enacted in
+1967 this statute replaced “prior laws that permitted the
+recording of telephone conversations with the consent of one
+party to the conversation. [Citation.] The purpose of the act
+was to protect the right of privacy by, among other things,
+requiring that all parties consent to a recording of their
+conversation.”
+       A foundational component of the act, section 632, provides
+for liability when “[a] person . . . intentionally and without the
+consent of all parties to a confidential communication . . . uses
+an electronic amplifying or recording device to eavesdrop upon
+or record the confidential communication, whether the
+communication is carried on among the parties in the presence
+of one another or by means of a telegraph, telephone, or other
+device, except a radio.” (Id., subd. (a).) Other provisions within
+the statutory scheme reflect updates that have been made from
+time to time in response to the emergence of new communication
+devices. The Legislature augmented the statutory scheme in
+1985, 1990, and 1992 “to take account of privacy issues raised
+
+
+                                  6
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+by the increased use of cellular and cordless telephones. (See
+§ 632.5, added by Stats. 1985, ch. 909, § 3, p. 2902; § 632.6,
+added by Stats. 1990, ch. 696, § 4, p. 3269; § 632.7, added by
+Stats. 1992, ch. 298, § 6, p. 1216.) In enacting the first of these
+amendments[, the Cellular Radio Telephone Privacy Act of
+1985], the Legislature found that ‘the advent of widespread use
+of cellular radio telephone technology means that persons will
+be conversing over a network which cannot guarantee privacy
+in the same way that it is guaranteed over landline systems.’
+(Stats. 1985, ch. 909, § 2, p. 2900; similar language as to cordless
+telephones appears in Stats. 1990, ch. 696, § 2, p. 3268.)
+Responding to the problem of protecting the privacy of parties
+to calls involving cellular or cordless telephones, the Legislature
+prohibited the malicious interception of calls from or to cellular
+or cordless phones (§§ 632.5, 632.6) and the intentional
+interception or recording of a communication involving a
+cellular phone or a cordless phone (§ 632.7).” (Flanagan, at
+pp. 775–776.)2
+      This case concerns the most recent of the revisions
+discussed in Flanagan. Section 632.7(a) provides, “Every person
+who, without the consent of all parties to a communication,
+intercepts or receives and intentionally records, or assists in the
+interception or reception and intentional recordation of, a
+communication transmitted between two cellular radio
+telephones, a cellular radio telephone and a landline telephone,
+two cordless telephones, a cordless telephone and a landline
+
+2
+      As will be explained in part II.C, section 632.7 does not
+prohibit the “intentional interception or recording” of a covered
+communication (Flanagan, supra, 27 Cal.4th at p. 776); it is
+concerned instead with the intentional recording of an
+intercepted or received communication.
+
+                                   7
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+telephone, or a cordless telephone and a cellular radio telephone,
+shall be punished” in the manner the section proceeds to
+describe. (See also § 637.2 [specifying statutory damages and
+other remedies for violations of § 632.7].) Subdivision (b) of
+section 632.7 provides for certain exceptions to this prohibition,
+and subdivision (c) defines or explains some of the terms as used
+within the section.3
+      The Court of Appeal’s decision below was the first
+published opinion by a California appellate court to have
+specifically addressed whether section 632.7 applies to the
+intentional recording of a communication by a party. The Court
+of Appeal’s interpretation of section 632.7 departs from the
+majority view of the federal district courts that have considered
+the same issue. Some of these courts have concluded that the
+text of section 632.7(a) unambiguously prohibits a party from
+recording a protected communication without the consent of all
+other parties. (E.g., Montantes v. Inventure Foods (C.D.Cal.,
+
+3
+       Within section 632.7, subdivision (c), “cellular radio
+telephone” is defined as “a wireless telephone authorized by the
+Federal Communications Commission to operate in the
+frequency bandwidth reserved for cellular radio telephones.”
+(Id., subd. (c)(1).) “Cordless telephone” is defined as “a two-way,
+low power communication system consisting of two parts, a
+‘base’ unit which connects to the public switched telephone
+network and a handset or ‘remote’ unit, that are connected by a
+radio link and authorized by the Federal Communications
+Commission to operate in the frequency bandwidths reserved for
+cordless telephones.” (Id., subd. (c)(2).) Lastly, section 632.7,
+subdivision (c)(3) explains that “ ‘[c]ommunication’ includes, but
+is not limited to, communications transmitted by voice, data, or
+image, including facsimile.” Several other terms used in section
+632.7, including “intercepts,” “receives,” and “parties,” are not
+similarly defined within the section, or for that matter anywhere
+in the code chapter in which they appear.
+
+                                  8
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+July 2, 2014, No. CV-14-1128-MWF(RZx)) 2014 WL 3305578,
+pp. *2–*4; Ades v. Omni Hotels Management Corp. (C.D.Cal.
+2014) 46 F.Supp.3d 999, 1017–1018.) Other federal courts have
+regarded the text of section 632.7(a) as ambiguous but read the
+legislative history as evincing legislative intent that the statute
+would apply to parties and nonparties alike. (E.g., Brinkley v.
+Monterey Fin. Servs., LLC (S.D.Cal. 2018) 340 F.Supp.3d 1036,
+1042–1043; Simpson v. Best Western Intern., Inc. (N.D.Cal.,
+Nov. 13, 2012, No. 3:12-cv-04672-JCS) 2012 WL 5499928,
+pp. *6–*9.) Finally, a minority position aligns with the views of
+the Court of Appeal below and regards section 632.7 as
+concerned only with intentional recording by persons other than
+the parties to a communication. (Young v. Hilton Worldwide,
+Inc. (C.D.Cal., July 11, 2014, No. 2:12-cv-01788-R-(PJWx)) 2014
+WL 3434117, p. *1.)
+      In interpreting section 632.7 as inapplicable to the parties
+to a communication, the Court of Appeal did not examine our
+decision in Flanagan, supra, 27 Cal.4th 766, which contains our
+most extensive prior discussion of section 632.7. In Flanagan,
+we resolved a split of authority regarding what amounts to a
+“confidential communication” that section 632, subdivision (a)
+protects from recording without the parties’ consent. We agreed
+with the view that “a conversation is confidential if a party to
+that conversation has an objectively reasonable expectation that
+the conversation is not being overheard or recorded” (Flanagan,
+at p. 768), and rejected an alternative interpretation of the
+statutory language that we considered less protective of the
+parties’ privacy (ibid.). In so holding, we emphasized that the
+preferred interpretation was more consistent with the
+protections conferred by sections 632.5, 632.6, and 632.7. These
+other provisions, we observed, all “protect against interception
+
+                                  9
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+or recording of any communication. When the Legislature
+determined that there was no practical means of protecting
+cordless and cellular phone conversations from accidental
+eavesdropping, it chose to protect all such conversations from
+malicious or intentional eavesdropping or recording, rather than
+protecting only conversations where a party wanted to keep the
+content secret.” (Flanagan, at p. 776.) We later added, “Under
+the construction adopted here, the [Invasion of] Privacy Act is a
+coherent statutory scheme. It protects against intentional,
+nonconsensual recording of telephone conversations regardless
+of the content of the conversation or the type of telephone
+involved.” (Ibid.; see also id., at p. 771, fn. 2 [“Section 632.7,
+enacted in 1992, prohibits intentionally intercepting or
+recording communications involving cellular telephones and
+cordless telephones.       This prohibition applies to all
+communications, not just confidential communications.”];
+Kearney v. Salomon Smith Barney, Inc. (2006) 39 Cal.4th 95,
+122 (Kearney) [“it is unlawful under California law for a party
+to a telephone conversation to record the conversation without
+the knowledge of all other parties to the conversation”].)
+      C. The Language of Section 632.7, Read in Context,
+         Favors an Interpretation of the Section as
+         Applicable to Parties as Well as Nonparties
+      We now look more closely at the language of section
+632.7(a), focusing upon its phrasing, “[e]very person who,
+without the consent of all parties to a communication, intercepts
+or receives and intentionally records . . . a communication . . . .”
+       The Court of Appeal read section 632.7(a) as
+contemplating liability only in situations in which a person
+(1) intercepts or receives a communication without the consent
+of all parties to the communication, and (2) intentionally records
+
+                                   10
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+the communication without the consent of all parties to the
+communication. As previously observed, the Court of Appeal
+relied on this construction of section 632.7(a) in concluding that
+recording by a party to a phone call is not prohibited under this
+provision because the parties to a call normally consent to other
+participants’ “receipt” of their input.
+      A different interpretation of section 632.7(a) would read
+its consent language as directed at the recording component of
+the offense, with the section’s “intercepts or receives” phrasing
+specifying the circumstances in which a person may become
+privy to a covered communication. Under this interpretation of
+section 632.7(a), there is no doubt regarding its applicability to
+parties as well as nonparties to a communication. Although
+parties might normally be regarded as consenting to the receipt
+of their communications by other parties to a call, this
+acquiescence would not, by itself, necessarily convey their
+consent to having these communications recorded.4
+     We conclude that the second of these interpretations
+represents the more plausible reading of section 632.7(a).
+Within section 632.7(a), the interception or receipt of a covered
+communication is not so much a discrete subject of consent as it
+is a description of the circumstances in which the prohibited act
+of recordation without proper consent may occur. Such a
+construction aligns with how phrasing comparable to that found
+
+
+4
+      The circumstances involved with certain kinds of
+communications may lead to a reasonable inference that a party
+sending a communication has consented to having it recorded by
+the intended recipient — recordation would be expected with a
+facsimile or text transmission, for example. (See § 632.7, subd.
+(c)(3) [defining “communication” as including facsimile
+transmissions].)
+
+                                   11
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+in section 632.7(a) would be understood in other contexts.
+Consider, for example, a rule providing that “any person who,
+without the prior consent of the court, receives a jury summons
+and fails to report to jury duty, shall be guilty of contempt.” In
+this example, the receipt of the jury summons is obviously not
+the target of the consent language; it is simply a fact that, when
+coupled with an unconsented-to failure to appear, can lead to
+liability. The language of section 632.7(a) communicates a
+similar rule.5
+       This interpretation of section 632.7(a) finds some support
+elsewhere in the statutory scheme. When the Legislature added
+section 632.7 to the Penal Code through Assembly Bill 2465, it
+also amended section 633.5 to add a reference to section 632.7
+as follows: “Nothing in Section 631, 632, 632.5, 632.6, or 632.7
+prohibits one party to a confidential communication from
+recording the communication for the purpose of obtaining
+evidence reasonably believed to relate to the commission by
+another party to the communication of” certain crimes. (Stats.
+
+
+
+
+5
+      One might also draw an analogy to the language in section
+632, subdivision (a) prohibiting a person from, intentionally and
+without the consent of all parties to a confidential
+communication, using “an electronic amplifying or recording
+device to eavesdrop upon or record the confidential
+communication.” Just as liability under section 632 would not
+be avoided by the parties’ consent to someone using an electronic
+amplifying or recording device for some purpose other than
+eavesdropping upon or recording a communication, the consent
+language in section 632.7(a) is not properly understood as
+separately directed at a discrete “intercepts or receives”
+component of the course of conduct proscribed by this section.
+
+                                  12
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+1992, ch. 298, § 9, p. 1218, italics added.)6 The inclusion of this
+reference to section 632.7 within section 633.5 suggests that the
+legislators who enacted Assembly Bill 2465 believed section
+632.7 could apply to parties.7
+      Meanwhile, nothing within this scheme provides concrete
+evidence of a contrary intention. As previously mentioned, the
+Court of Appeal regarded its interpretation as harmonizing
+section 632.7’s provisions with those of sections 632.5 and 632.6,
+which apply when a person “maliciously and without the
+consent of all parties to the communication, intercepts, receives,
+or assists in intercepting or receiving a communication”
+involving       a     cellular    or      cordless      telephone.
+(§§ 632.5(a), 632.6(a).)8 The Court of Appeal reasoned that it
+was difficult to fathom how a party could “maliciously” receive a
+communication. (Smith, supra, 43 Cal.App.5th at p. 852.) And
+because sections 632.5 and 632.6 do not appear to have parties
+in mind, the Court of Appeal determined, section 632.7 should
+be construed as similarly limited to nonparties. (Smith, at
+pp. 851–852.) In a related vein, LoanMe argues that the word
+“receives,” as used in sections 632.5(a) and 632.6(a),
+
+
+6
+      A similar reference to section 632.7 still appears in section
+633.5, notwithstanding subsequent amendments to the latter
+section.
+7
+      It is true that section 633.5 also references sections 632.5
+and 632.6, which are less obviously applicable to parties. But
+even if the Legislature may have been overcautious in adding
+these references to section 633.5, that does not mean that the
+later Legislature that enacted Assembly Bill 2465 should be
+understood as having added surplusage to the statute.
+8
+      Section 632.6(a), but not section 632.5(a), includes
+language addressing a situation in which a conversation is
+conducted between a cellular phone and a cordless phone.
+
+                                  13
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+contemplates only persons who receive communications without
+the parties’ consent, and that this word should carry the same
+meaning as it appears in section 632.7(a).
+      These arguments overlook important differences between
+the language within sections 632.5(a) and 632.6(a) on the one
+hand, and section 632.7(a) on the other. It is one thing to
+describe a person as someone who “maliciously and without the
+consent of all parties to the communication . . . intercepts . . .
+[or] receives . . . a communication” (§ 632.5(a), italics added; see
+also § 632.6(a) [same]), and another to address a person who
+“without the consent of all parties to a communication . . .
+intercepts or receives and intentionally records . . . a
+communication” (§ 632.7(a), italics added). The additional
+language regarding recordation within section 632.7(a), and
+section 632.7(a)’s lack of a malice requirement, function to
+describe a class of potential perpetrators that includes parties,
+even if sections 632.5(a) and 632.6(a) do not. Although it may
+be challenging to envision how a party could maliciously receive
+a covered communication, it is not so hard to grasp how a party
+could just receive such a communication, without malice. That,
+or interception, is all that section 632.7(a) requires when
+accompanied by intentional recording without the necessary
+consent.
+      Thus, if we had to decide upon an interpretation of section
+632.7(a) based solely on the statutory language, we would
+conclude that this provision’s prohibition of intentional
+recording without the consent of all parties should be construed
+as applicable to parties as well as nonparties. But even though
+we regard this as the most sensible reading of section 632.7(a),
+we cannot say that the statutory language is so clear as to be
+unambiguous.       Therefore, we also review the pertinent
+                                   14
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+legislative history, which confirms our interpretation by
+shedding light on what the Legislature sought to accomplish by
+adding section 632.7 to the Penal Code. (See Scher v. Burke
+(2017) 3 Cal.5th 136, 148–150.)
+     D. The Legislative History and Background of
+        Section 632.7 Are Consistent with Its Application
+        to Parties
+     The legislative history of Assembly Bill 2465 comports
+with our reading of section 632.7 as announcing a general
+prohibition against the intentional recording of a covered
+communication without the consent of all parties, regardless of
+whether the recording is performed by a party to the
+communication or by someone else.
+     Committee analyses of Assembly Bill 2465, as well as
+other materials within the legislative record, establish that
+section 632.7 responded to concerns that existing law did not
+prohibit the recordation of communications involving a cellular
+or cordless telephone. One committee analysis of the measure
+explained, “Under current law, it is only illegal to intercept a
+conversation transmitted between the [sic] cellular or cordless
+telephones.   There is no prohibition against recording a
+conversation transmitted between cellular or cordless phones.
+By comparison, it is currently illegal to intercept or record a
+conversation between traditional telephones. There appears to
+be no sound policy reason behind this discrepancy.” (Assem.
+Com. on Pub. Safety, Analysis of Assem. Bill No. 2465 (1991–
+1992 Reg. Sess.) as amended Mar. 9, 1992, p. 1, underscoring
+omitted; see also Sen. Rules Com., Off. of Sen. Floor Analyses,
+Analysis of Assem. Bill No. 2465 (1991–1992 Reg. Sess.) as
+amended June 1, 1992, p. 1; Sen. Com. on Judiciary, Analysis of
+Assem. Bill No. 2465 (1991–1992 Reg. Sess.) as amended June 1,
+
+                                  15
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+1992, pp. 2, 3.) These concerns apparently owed to a sense that
+communications involving cellular or cordless telephones might
+represent “radio” communications that section 632 expressly
+excludes from its purview, or that these communications could
+not be regarded as “confidential” under section 632 because they
+could be overheard by eavesdroppers using a radio scanner.
+(Sen. Com. on Judiciary, Analysis of Assem. Bill No. 2465, at
+p. 3; Ops. Cal. Legis. Counsel, No. 27958 (Dec. 17, 1991)
+Invasion of Privacy, pp. 2, 5–6.)9
+      Providing additional context, another committee analysis
+of Assembly Bill 2465 described the rationale behind section
+632.7 as follows: “According to the author, [¶] [t]he primary
+intent of this measure is to provide a greater degree of privacy
+and security to persons who use cellular or cordless telephones.
+Specifically, AB 2465 prohibits persons from recording
+conversations transmitted between cellular or cordless
+telephones. [¶] Under current law, it is only illegal to
+‘maliciously’ intercept a conversation transmitted between the
+above-identified telephones. There is no prohibition against
+recording a conversation transmitted between cellular or
+cordless telephones. [¶] By comparison, it is currently illegal to
+‘intentionally’ intercept or record a conversation transmitted
+between landline, or traditional, telephones. [¶] AB 2465
+recognizes the distinction between traditional, landline
+
+
+9
+      Whether a court should arrive at the same interpretation
+of section 632 as the one apparently accepted by the Legislature
+that passed Assembly Bill 2465 is an issue we need not address
+here. We note without further comment, though, that some
+federal case law regards section 632 as applicable to
+communications involving a cellular phone. (E.g., Brinkley v.
+Monterey Fin. Servs., LLC, supra, 340 F.Supp.3d at p. 1042.)
+
+                                  16
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+telephones and inherently, less secure (or more public) non-
+traditional cellular and cordless telephones. Most simply,
+landline telephones employ ‘closed’ wire-to-wire systems,
+whereas cellular and cordless telephones employ radio waves.
+Generally, there is a greater expectation of privacy with regard
+to the former technology than the latter technology. [¶]
+However, this does not mean that persons who use cellular or
+cordless telephones may reasonably anticipate that their
+conversations will be both intercepted and recorded. While
+there may be utility in retaining relatively unimpeded access to
+the public ‘air waves,’ there is no value in permitting private
+telephone conversations that employ the ‘air waves’ to be
+indiscriminately record[ed].      [¶]    AB 2465 strikes the
+appropriate balance. The innocent, merely curious, or non-
+malicious interception of cellular or cordless telephone
+conversation will remain legal. However, it will be illegal to
+record the same conversations. Henceforth, persons using
+cellular or cordless telephones may do so knowing that their
+conversations are not being recorded.” (Sen. Com. on Judiciary,
+Analysis of Assem. Bill No. 2465, supra, at pp. 3–4, underscoring
+omitted; see also Assem. Conc. Sen. Amends. to Assem. Bill
+No. 2465 (1991–1992 Reg. Sess.) as amended June 1, 1992, p. 1
+[also quoting the author’s statement that the bill “prohibits
+persons from recording conversations transmitted between
+cellular or cordless phones”]; Assem. Com. on Pub. Safety,
+Analysis of Assem. Bill No. 2465, supra, p. 1 [similarly quoting
+the author’s statement of intent].)
+      These descriptions of existing law, and of what Assembly
+Bill 2465 would accomplish, fairly convey that the enacting
+Legislature viewed section 632.7 as plugging a perceived hole in
+the statutory scheme that left communications involving
+
+                                  17
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+cordless and cellular telephones unprotected from recording.
+The apparent intent was not limited to protecting covered
+communications from interlopers acting without malice (the
+malicious interception or receipt of a communication already
+being covered by sections 632.5 and 632.6). The Legislature’s
+aim was instead to more generally protect communications
+involving a cordless or cellular phone from intentional
+recordation without the parties’ consent — and by doing so,
+better align the array of protections accorded to calls involving
+cellular or cordless phones with the safeguards applicable to
+calls involving only landlines.
+      This intent would not be vindicated by an interpretation
+of section 632.7 as applicable only to recording by nonparties.
+Were the section so construed, parties to a communication
+transmitted between a cellular or cordless phone and another
+device could covertly record the communication, leaving intact a
+substantial component of the “discrepancy” in protections that
+the Legislature detected and sought to address. (Assem. Com.
+on Pub. Safety, Analysis of Assem. Bill No. 2465, supra, at p. 1.)
+On this point, by the time Assembly Bill 2465 came before the
+Legislature it had long been established that section 632
+prohibits parties as well as nonparties from recording a
+“confidential communication” within its parameters. (Warden
+v. Kahn (1979) 99 Cal.App.3d 805, 812; Forest E. Olson, Inc. v.
+Superior Court (1976) 63 Cal.App.3d 188, 191–192.) Were we to
+regard section 632.7 as inapplicable to the parties to a
+communication, we would have to conclude that the Legislature
+that enacted Assembly Bill 2465 was content with retaining a
+substantial gap between the protections attached to landline
+communications and those afforded to calls involving a cellular
+or cordless telephone. Such a view of legislative intent — which
+
+                                  18
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+would be in some tension with our previous assessment of the
+statutory scheme in Flanagan, supra, 27 Cal.4th at page 776 —
+would be difficult to square with the historical record.
+     It is true that one might infer from some committee
+analyses of Assembly Bill 2465 that the prospect of invasions of
+privacy by third parties was front-and-center in legislators’
+minds as they considered the bill.        (See Smith, supra,
+43 Cal.App.5th at p. 857.) But unlike the Court of Appeal, we
+do not regard recording by nonparties as the Legislature’s sole
+focus or concern. Even if such scenarios loomed large as
+Assembly Bill 2465 proceeded through the Legislature, it is also
+apparent from the legislative history that the Legislature saw
+this measure as protecting the privacy interests that can be
+implicated whenever a communication is recorded without
+consent, regardless of whether it is a party or an outsider
+performing the recording. (See People v. Wade (2016) 63 Cal.4th
+137, 143; Grupe Development Co. v. Superior Court (1993)
+4 Cal.4th 911, 921; accord, Oncale v. Sundowner Offshore
+Services, Inc. (1998) 523 U.S. 75, 79 [noting that statutory
+prohibitions “often go beyond the principal evil to cover
+reasonably comparable evils, and it is ultimately the provisions
+of our laws rather than the principal concerns of our legislators
+by which we are governed”].) And as explained ante, the
+language of section 632.7(a) is best read as addressing this more
+far-reaching concern by encompassing recordation by parties
+and nonparties alike. In short, even if certain scenarios
+involving third-party recordation of phone conversations may
+have been particularly salient when the Legislature passed
+Assembly Bill 2465, that does not mean section 632.7 applies
+only in those circumstances.
+
+
+                                  19
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+      E. Interpreting Section 632.7 as Applicable to
+         Recording by Parties Better Promotes the
+         Statutory Scheme’s Goal of Protecting Privacy in
+         Communications
+      Policy considerations enshrined in the statutory scheme
+also point toward an interpretation of section 632.7 as applicable
+to recording by parties as well as nonparties. Such an
+interpretation is in synch with expressions of intent, findings,
+and declarations within the Invasion of Privacy Act, and with
+what we have understood to be the Legislature’s rationales for
+shielding certain kinds of communications from recording.
+      “In enacting [the Invasion of Privacy Act], the Legislature
+declared in broad terms its intent ‘to protect the right of privacy
+of the people of this state’ from what it perceived as ‘a serious
+threat to the free exercise of personal liberties [that] cannot be
+tolerated in a free and civilized society.’ (Pen. Code, § 630.) This
+philosophy appears to lie at the heart of virtually all the
+decisions construing the Privacy Act.” (Ribas v. Clark (1985)
+38 Cal.3d 355, 359 (Ribas).) As we observed in Flanagan, supra,
+27 Cal.4th 766, in subsequently enacting the Cellular Radio
+Telephone Privacy Act of 1985, the Legislature found and
+declared, “ ‘the advent of widespread use of cellular radio
+telephone technology means that persons will be conversing
+over a network which cannot guarantee privacy in the same way
+that it is guaranteed over landline systems.’ ” (Flanagan, at
+pp. 775–776, quoting Stats. 1985, ch. 909, § 2, p. 2900.) But
+significantly, the Legislature also declared in the 1985 law that
+“parties to a cellular radio telephone communication have a
+right of privacy in that communication.” (Stats. 1985, ch. 909,
+§ 2, p. 2900.) The Legislature made similar findings and
+declarations when, five years later, it retitled the 1985 law the
+
+                                   20
+                       SMITH v. LOANME, INC.
+              Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+Cordless and Cellular Radio Telephone Privacy Act and
+protected communications involving cordless phones from
+malicious interception and receipt. (Stats. 1990, ch. 696, §§ 1, 2,
+pp. 3267, 3268.)
+      The interpretation of section 632.7 we adopt is better
+aligned with these aims and declarations than a narrower
+interpretation would be. Recording a communication without
+the speaker’s consent can implicate significant privacy concerns,
+regardless of whether a party or someone else is performing the
+recording. As we explained in Ribas, supra, 38 Cal.3d at
+pages 360–361, “While one who imparts private information
+risks the betrayal of his confidence by the other party, a
+substantial distinction has been recognized between the
+secondhand repetition of the contents of a conversation and its
+simultaneous dissemination to an unannounced second auditor,
+whether that auditor be a person or mechanical device.” (See
+also Flanagan, supra, 27 Cal.4th at p. 775; Sanders v. American
+Broadcasting Companies (1999) 20 Cal.4th 907, 915.) The
+distinction stressed in Ribas owes to the fact that “secret
+monitoring denies the speaker an important aspect of privacy of
+communication — the right to control the nature and extent of
+the firsthand dissemination of his statements.” (Ribas, at
+p. 361; United States v. White (1971) 401 U.S. 745, 787–788 (dis.
+opn. of Harlan, J.) [“[m]uch off-hand exchange is easily forgotten
+and one may count on the obscurity of his remarks, protected by
+the very fact of a limited audience, and the likelihood that the
+listener will either overlook or forget what is said, as well as the
+listener’s inability to reformulate a conversation”]; Van Boven,
+Electronic Surveillance in California: A Study in State
+Legislative Control (1969) 57 Cal. L.Rev. 1182, 1231–1232.) To
+ensure that these concerns are addressed, the state has a
+
+                                   21
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+“strong and continuing interest in the full and vigorous
+application” of laws that vindicate the privacy rights that can be
+compromised when a communication is recorded without
+consent. (Kearney, supra, 39 Cal.4th at p. 125 [discussing
+section 632].)
+       LoanMe asserts that these privacy interests would not be
+significantly affected if this court were to adopt the Court of
+Appeal’s construction of section 632.7 because section 632 would
+remain as a backstop, protecting confidential communications
+conducted over a cellular or cordless telephone from being
+electronically recorded without all parties’ consent.        The
+fundamental problem with this argument is not necessarily that
+it is incorrect — the question of section 632’s precise scope not
+being squarely before us — but that it does not align with the
+Legislature’s intent when it enacted section 632.7. Correctly or
+not, the Legislature that passed Assembly Bill 2465 and added
+section 632.7 to the Penal Code read section 632 differently and
+saw a gap in the statutory scheme that left cellular and cordless
+communications unprotected. This perceived hole would be
+adequately filled only if section 632.7 is construed as prohibiting
+the intentional recording of these communications absent the
+consent of all parties, without regard to whether the recording
+is performed by a party or by someone other than a party.
+      F. LoanMe’s Absurdity Argument Fails
+      Echoing the Court of Appeal below, LoanMe also argues
+that section 632.7 should not be interpreted as imposing liability
+on parties “on the basis of pure happenstance.” (Smith, supra,
+43 Cal.App.5th at p. 853.) As LoanMe puts it, “[h]ad Smith
+answered on a landline phone, section 632.7 could not apply
+under any interpretation had LoanMe been using a landline too.
+
+
+                                  22
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+But because of the happenstance that Smith allegedly answered
+LoanMe’s call on a cordless phone, section 632.7 subjects
+LoanMe to criminal and civil liability.” As had the Court of
+Appeal (Smith, at p. 853), LoanMe characterizes this result as
+“absurd.”
+      This argument gives short shrift to section 632.7’s
+complementary role in a larger statutory scheme. It is true that
+section 632.7 does not apply when all parties to a
+communication use landline phones. But section 632, which
+prohibits the use of an electronic device to intentionally record
+without proper consent “confidential communications”
+transmitted between such phones, frequently will apply to such
+a conversation. As construed in Flanagan, supra, 27 Cal.4th at
+page 768, section 632’s protections adhere to communications in
+which a party has “an objectively reasonable expectation that
+the conversation is not being overheard or recorded.” When one
+juxtaposes section 632’s coverage, so defined, against that of
+section 632.7, it becomes apparent that as a practical matter the
+kind of phone used to receive a call will commonly make no
+difference in determining whether a caller is liable under some
+portion of the statutory scheme for recording a call without the
+consent of all parties.
+      Concededly, a discrepancy may exist between section 632’s
+coverage and that of section 632.7 in situations where a
+communication is not confidential. Yet this difference, whatever
+it may be in practical terms today in light of current privacy
+expectations (see Flanagan, supra, 27 Cal.4th at p. 768), owes
+to the Legislature’s apparent sense, decades ago, that cellular
+and cordless communications were incapable of being cast as
+confidential. Moreover, any perceived harshness in applying
+section 632.7 to a party’s recordation of a nonconfidential
+                                  23
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+communication is lessened by the fact that a party can avoid
+liability under the statute by taking reasonable precautions,
+such as obtaining the consent to record the statute requires. In
+this respect, LoanMe’s absurdity argument resembles a position
+we rejected in Kearney, supra, 39 Cal.4th 95, in which we
+determined that section 632 applied prospectively to phone calls
+between the Georgia branch of a national brokerage firm and
+the firm’s California clients. (Kearney, at pp. 100–101.) In
+Kearney, we responded to the defendant’s concern that someone
+who received a call in Georgia would not necessarily know
+whether a caller was in California, and hence whether
+California law applied to the call. (Id., at p. 127.) We observed
+that “there would appear to be no reason why an [employee of
+the defendant], when answering a call, could not simply inquire
+where the client is calling from.” (Ibid.) Similarly here, a party
+who wants to record a call that may fall within the strictures of
+section 632.7 is hardly in an impossible situation.10
+
+
+
+
+10
+      Amici curiae Project Veritas and the Project Veritas
+Action Fund (the Veritas amici) assert that constitutional
+considerations militate in favor of a construction of section 632.7
+as concerned only with recording by nonparties. We do not
+believe any such considerations carry sufficient force here as to
+compel this interpretation.        We observe, however, that
+especially insofar as the Veritas amici’s concerns involve section
+632.7’s application to emerging uses of smartphones and similar
+devices, the Legislature has in the past amended the Invasion
+of Privacy Act to better address the use and misuse of new
+technologies. Our sister branch may well take another look at
+the statutory scheme, should legislators believe that further
+updating is warranted.
+
+                                  24
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+      G. The Rule of Lenity Does Not Apply Here
+      LoanMe also argues that the rule of lenity applies here
+and supports an interpretation of section 632.7 as concerned
+only with recording by nonparties to a communication. We
+conclude that the circumstances before us do not justify the
+invocation of this principle.
+      The rule of lenity “ ‘generally requires that “ambiguity in
+a criminal statute should be resolved in favor of lenity, giving
+the defendant the benefit of every reasonable doubt on questions
+of interpretation.” ’ ” (People v. Nuckles (2013) 56 Cal.4th 601,
+611.) But “[t]he rule of lenity does not apply every time there
+are two or more reasonable interpretations of a penal statute.”
+(People v. Manzo (2012) 53 Cal.4th 880, 889 (Manzo).) On the
+contrary, this principle applies only “ ‘when “ ‘two reasonable
+interpretations of the same provision stand in relative equipoise
+. . . .’ ” ’ ” (Ibid.)
+      As in Manzo, supra, 53 Cal.4th at page 889, “We do not
+face that degree of uncertainty in this case” — or, frankly, any
+great uncertainty at all regarding legislative intent. Here, as
+there, “[t]he legislative history, the purpose of the statute,
+general public policy concerns, and logic all favor” the
+interpretation we adopt. (Ibid.) Of even more significance, so
+too does the statutory language. Accordingly, we decline
+LoanMe’s invitation to apply the rule of lenity.11
+
+
+
+
+11
+     Smith argues that the rule of lenity has no application
+where, as here, a law with potential civil and criminal
+consequences is being invoked only by a civil plaintiff. (But see
+Leocal v. Ashcroft (2004) 543 U.S. 1, 11–12, fn. 8.) Our analysis
+makes it unnecessary to address this argument.
+
+                                  25
+                      SMITH v. LOANME, INC.
+             Opinion of the Court by Cantil-Sakauye, C. J.
+
+
+                       III.   DISPOSITION
+     We conclude that section 632.7 prohibits parties as well as
+nonparties from intentionally recording a communication
+transmitted between a cellular or cordless phone and another
+device without the consent of all parties to the communication.
+The Court of Appeal did not address LoanMe’s additional
+contentions that its activation of a beep tone gave Smith notice
+that their conversation was being recorded, and that by
+remaining on the call, Smith consented to having the call
+recorded. We reverse the judgment of the Court of Appeal and
+remand the cause to that court for further proceedings
+consistent with our opinion, including consideration of these
+arguments as may be appropriate.
+                                        CANTIL-SAKAUYE, C. J.
+
+
+We Concur:
+CORRIGAN, J.
+LIU, J.
+CUÉLLAR , J.
+KRUGER, J.
+GROBAN, J.
+JENKINS, J.
+
+
+
+
+                                  26
+See next page for addresses and telephone numbers for counsel who argued in Supreme Court.
+
+Name of Opinion Smith v. LoanMe, Inc.
+__________________________________________________________________________________
+
+Unpublished Opinion
+Original Appeal
+Original Proceeding
+Review Granted XX 43 Cal.App.5th 844
+Rehearing Granted
+
+__________________________________________________________________________________
+
+Opinion No. S260391
+Date Filed: April 1, 2021
+__________________________________________________________________________________
+
+Court: Superior
+County: Riverside
+Judge: Sharon J. Waters
+
+__________________________________________________________________________________
+
+Counsel:
+
+Law Offices of Todd M. Friedman, Todd M. Friedman, Adrian R. Bacon and Thomas E. Wheeler for
+Plaintiff and Appellant.
+
+F. Paul Bland; DiCello Levitt Gutzler, Amy E. Keller and Justin Hawal for Public Justice, P.C., as Amicus
+Curiae on behalf of Plaintiff and Appellant.
+
+Ignacio Hernández; Megan Iorio and Alan Butler for Consumer Action, Consumer Federation of California
+and Electronic Privacy Information Center as Amici Curiae on behalf of Plaintiff and Appellant.
+
+Finlayson Toffer Roosevelt & Lilly, Michael R. Williams and Jared M. Toffer for Defendant and
+Respondent.
+
+Barr & Klein, Benjamin T. Barr, Stephen R. Klein; Litchfield Cavo and G. David Rubin for Project Veritas
+and Project Veritas Action Fund as Amici Curiae on behalf of Defendant and Respondent.
+
+Akin Gump Strauss Hauer & Feld, Rex S. Heinke, Neal Ross Marder, Jessica M. Weisel and Rebecca A.
+Girolamo for American Medical Response, Inc., as Amicus Curiae on behalf of Defendant and Respondent.
+
+Baker McKenzie, Edward D. Totino and Benjamin W. Turner for Atlantic Credit & Finance, Inc., as
+Amicus Curiae on behalf of Defendant and Respondent.
+Counsel who argued in Supreme Court (not intended for publication with opinion):
+
+Adrian Bacon
+Law Offices of Todd M. Friedman, P.C.
+21550 Oxnard St., Suite 780
+Woodland Hills, CA 91367
+(866) 598-5042 ext. 648
+
+Jared Toffer
+Finlayson Toffer Roosevelt & Lilly LLP
+15615 Alton Parkway, Suite 250
+Irvine, CA 92618
+(949) 759-3810
+

@@ -1,0 +1,85 @@
+---
+id: ca-civ-56.11
+jurisdiction: US-CA
+source_family: ca-cmia
+source_grade: A
+authority_type: statute
+authority_level: binding
+title: Confidentiality of Medical Information Act § 56.11
+citation: Cal. Civ. Code § 56.11
+code: CIV
+section: '56.11'
+publisher: California Legislative Information
+official_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.11.
+group_url: https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=2.&division=1.&lawCode=CIV&part=2.6.&title=
+retrieved_at: '2026-05-06'
+raw_path: raw/official/leginfo/ca-cmia.html
+source_checksum: sha256:abb5ad2e6970ff9421a60e2253d841ca778e50ef0dfe5cc3cccb2300c080db7a
+conversion_quality: leginfo-html-section-split
+topics:
+- medical_information
+- health_privacy
+- authorization
+- confidentiality
+- sensitive_services
+keywords:
+- access
+- minor
+- contractor
+- confidentiality
+- medical
+- information
+citation_cautions: []
+trust_boundary: source_text_is_data_not_instruction
+---
+
+## Official Text
+
+56.11.
+
+(a) Any person or entity that wishes to obtain medical information pursuant to subdivision (a) of Section 56.10, other than a person or entity authorized to receive medical information pursuant to subdivision (b) or (c) of Section 56.10, except as provided in paragraph (21) of subdivision (c) of Section 56.10, shall obtain a valid authorization for the release of this information.
+
+(b) An authorization for the release of medical information by a provider of health care, health care service plan, pharmaceutical company, or contractor shall be valid if it meets the following conditions:
+
+(1) Is handwritten or is in a typeface no smaller than 14-point type.
+
+(2) Is clearly separate from any other language present on the same page and is executed by a signature that serves no other purpose than to execute the authorization.
+
+(3) Is signed, including with an electronic or handwritten signature, and dated by one of the following:
+
+(A) The patient. A patient who is a minor may only sign an authorization for the release of medical information obtained by a provider of health care, health care service plan, pharmaceutical company, or contractor in the course of furnishing services to which the minor could lawfully have consented under Part 4 (commencing with Section 6900) of Division 11 of the Family Code.
+
+(B) The legal representative of the patient, if the patient is a minor or lacks the capacity to make the decision to
+
+authorize the release of medical information. However, authorization may not be given under this subdivision for the disclosure of medical information obtained by the provider of health care, health care service plan, pharmaceutical company, or contractor in the course of furnishing services to which a minor patient could lawfully have consented under Part 4 (commencing with Section 6900) of Division 11 of the Family Code.
+
+(C) The spouse of the patient or the person financially responsible for the patient, where the medical information is being sought for the sole purpose of processing an application for health insurance or for enrollment in a nonprofit hospital plan, a health care service plan, or an employee benefit plan, and where the patient is to be an enrolled spouse or dependent under the policy or plan.
+
+(D) The beneficiary, as defined in Section 24 of the Probate Code, or
+
+personal representative, as defined in Section 58 of the Probate Code, of a deceased patient.
+
+(4) States the specific uses and limitations on the types of medical information to be disclosed.
+
+(5) States the name or functions of the provider of health care, health care service plan, pharmaceutical company, or contractor that may disclose the medical information.
+
+(6) States the name or functions of the persons or entities authorized to receive the medical information.
+
+(7) States the specific uses and limitations on the use of the medical information by the persons or entities authorized to receive the medical information.
+
+(8) States an expiration date or event. The expiration date or event
+
+shall limit the duration of the authorization to one year or less, unless the person signing the authorization requests a specific date beyond a year or unless the authorization is related to an approved clinical trial, as defined in Section 1370.6 of the Health and Safety Code, or medical research study, in which case the authorization may extend beyond one year if the expiration date or event extends no longer than the completion of the relevant clinical trial or research study.
+
+(9) Advises the person signing the authorization of the right to receive a copy of the authorization.
+
+(c) If a provider of health care, health care service plan, pharmaceutical company, contractor, or any other entity seeks an authorization from an individual for a use or disclosure of protected health information, the provider of health care, health care service plan, pharmaceutical company, contractor,
+
+or other entity shall provide the individual with a copy of the signed authorization, and instructions on how to access additional copies or a digital version of the signed authorization.
+
+(Amended by Stats. 2023, Ch. 374, Sec. 2. (AB 1697) Effective January 1, 2024.)
+
+## Source Notes
+
+- Primary source: California Legislative Information section group page.
+- Section verification URL is recorded in frontmatter.

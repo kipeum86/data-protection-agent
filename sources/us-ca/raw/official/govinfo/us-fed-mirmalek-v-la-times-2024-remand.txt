@@ -1,0 +1,536 @@
+                                       Case 3:24-cv-01797-CRB         Document 15       Filed 05/23/24    Page 1 of 11
+
+
+
+
+                                   1
+                                   2
+                                   3
+                                   4
+                                   5                         IN THE UNITED STATES DISTRICT COURT
+                                   6                     FOR THE NORTHERN DISTRICT OF CALIFORNIA
+                                   7
+                                   8     TALIAH MIRMALEK, individually and              Case No. 3:24-cv-01797-CRB
+                                         on behalf of all others similarly situated,
+                                   9
+                                                       Plaintiff,                       ORDER DENYING MOTION TO
+                                  10
+                                                 v.                                     REMAND WITHOUT PREJUDICE
+                                  11
+                                         LOS ANGELES TIMES
+                                  12     COMMUNICATIONS LLC,
+
+
+ United States District Court
+                                  13                   Defendant.
+                                  14          Taliah Mirmalek, individually and on behalf of all others similarly situated
+                                  15   (“Plaintiff”), has brought this putative class action against Los Angeles Times
+
+
+
+Northern District of California
+                                  16   Communications LLC (“Defendant”), owner and operator of the website LATimes.com
+                                  17   (the “Website”), alleging that Defendant caused three third-party trackers to install and use
+                                  18   “pen register” devices to collect the IP addresses of Website visitors in violation of the
+                                  19   California Invasion of Privacy Act (“CIPA”), Cal. Penal Code § 638.51(a). Defendant
+                                  20   removed to this Court pursuant to the Class Action Fairness Act of 2005 (“CAFA”), 28
+                                  21   U.S.C. §§ 1332, 1446, 1453, 1711–15. Plaintiff now moves to remand the matter to the
+                                  22   Superior Court of the State of California, County of Alameda, pursuant to 28 U.S.C. §§
+                                  23   1332(d)(3), 1332(d)(4)(B), and 1447(c). The Court finds this matter suitable for resolution
+                                  24   without oral argument pursuant to Civil Local Rule 7-1(b), and therefore VACATES the
+                                  25   hearing currently on calendar for May 31, 2024. As explained below, the Court denies the
+                                  26   motion.
+                                  27
+                                  28
+                                       Case 3:24-cv-01797-CRB          Document 15        Filed 05/23/24   Page 2 of 11
+
+
+
+                                       I.     BACKGROUND
+                                   1
+                                              A.     Factual Allegations
+                                   2
+                                                     1.     The Parties
+                                   3
+                                              Plaintiff is a citizen of California and was present in California when she accessed
+                                   4
+                                       the Website. Compl. (dkt. 1) ¶ 6. Plaintiff seeks to represent a class defined as “all
+                                   5
+                                       California residents who accessed the Website in California and had their IP address
+                                   6
+                                       collected by the Trackers.” Id. ¶ 94. Defendant is a Delaware Limited Liability Company
+                                   7
+                                       with its principal place of business in California. Id. ¶ 7.
+                                   8
+                                                     2.     The Dispute Between the Parties
+                                   9
+                                              Plaintiff alleges that when users visit the Website, Defendant causes three
+                                  10
+                                       trackers—the TripleLift Tracker, GumGum Tracker, and Audiencerate Tracker
+                                  11
+                                       (collectively, the “Trackers”)—to be installed on Website visitors’ internet browsers. Id.
+                                  12
+
+
+
+ United States District Court
+                                       ¶¶ 28, 38, 49. Plaintiff alleges that Defendant then uses these Trackers to collect Website
+                                  13
+                                       visitors’ IP addresses without the users’ consent or a court order. Id. ¶¶ 64, 66.
+                                  14
+                                              In relevant part, CIPA § 638.51(a) prohibits any “person” from “install[ing] or
+                                  15
+                                       us[ing] a pen register or trap and trace device without first obtaining a court order,” or
+
+
+Northern District of California
+                                  16
+                                       obtaining the consent of the user. Cal. Penal Code §§ 638.51(a), (b)(5). A “pen register”
+                                  17
+                                       is a “device or process that records or decodes dialing, routing, addressing, or signaling
+                                  18
+                                       information transmitted by an instrument or facility from which a wire or electronic
+                                  19
+                                       communication is transmitted, but not the contents of a communication.” Cal. Penal Code
+                                  20
+                                       § 638.50(b). Plaintiff alleges that because the Trackers capture Website visitors’ “routing,
+                                  21
+                                       addressing, or signaling information,” the Trackers each constitute a “pen register” under
+                                  22
+                                       Section 638.50(b) of CIPA. Compl. ¶ 24.
+                                  23
+                                              B.     Procedural History
+                                  24
+                                              Plaintiff filed this putative class action on February 13, 2024, in the Superior Court
+                                  25
+                                       of the State of California for the County of Alameda. Id. at 1. On March 22, 2024,
+                                  26
+                                       Defendant removed this action, asserting that federal subject matter jurisdiction exists
+                                  27
+                                       pursuant to the Class Action Fairness Act (“CAFA”) 28 U.S.C. §§ 1332(d), 1446, and
+                                  28
+                                                                                      2
+                                       Case 3:24-cv-01797-CRB          Document 15         Filed 05/23/24    Page 3 of 11
+
+
+
+
+                                   1   1453. Notice of Removal (dkt. 1) at 1. Plaintiff now seeks to remand the case on the
+                                   2   ground that this action falls within the “mandatory home state exception” to CAFA, found
+                                   3   in 28 U.S.C. § 1332(d)(4)(B), or, in the alternative, under the “discretionary home state
+                                   4   exception,” found in 28 U.S.C. § 1332(d)(3). Mot. to Remand (dkt. 11) at 1–2.
+                                   5   II.    LEGAL STANDARD
+                                   6          A defendant may remove “any civil action brought in a State court of which the
+                                   7   district courts . . . have original jurisdiction.” 28 U.S.C. § 1441(a). District courts have
+                                   8   federal question jurisdiction over civil actions that “aris[e] under the Constitution, laws, or
+                                   9   treaties of the United States.” Id. § 1331. A case can “aris[e] under” federal law in two
+                                  10   ways. First, “a case arises under federal law when federal law creates the cause of action
+                                  11   asserted.” Gunn v. Minton, 568 U.S. 251, 257 (2013). Second, “federal jurisdiction over a
+                                  12   state law claim will lie if a federal issue is: (1) necessarily raised, (2) actually disputed, (3)
+
+
+
+ United States District Court
+                                  13   substantial, and (4) capable of resolution in federal court without disrupting the federal-
+                                  14   state balance approved by Congress.” Id. at 258 (citing Grable & Sons Metal Prods., Inc.
+                                  15   v. Darue Eng’g & Mfg., 545 U.S. 308, 313–14 (2005)).
+
+
+
+Northern District of California
+                                  16          Federal district courts have supplemental jurisdiction over related claims, 28 U.S.C.
+                                  17   § 1367(a), so a defendant may remove where there is federal jurisdiction over a single
+                                  18   claim. Exxon Mobil Corp. v. Allapattah Servs., Inc., 545 U.S. 546, 562–63 (2005). Where
+                                  19   “the case stated by the initial pleading is not removable, a notice of removal may be filed
+                                  20   within thirty days after receipt by the defendant . . . of a copy of an amended pleading,
+                                  21   motion, order or other paper from which it may first be ascertained that the case is one
+                                  22   which is or has become removable.” 28 U.S.C. 1446(b)(3).
+                                  23          There is a “strong presumption” against removal jurisdiction, and courts “strictly
+                                  24   construe the removal statute against removal.” Gaus v. Miles, Inc., 980 F.2d 564, 566 (9th
+                                  25   Cir. 1992). This “means that the defendant always has the burden of establishing that
+                                  26   removal is proper.” Hunter v. Philip Morris USA, 582 F.3d 1039, 1042 (9th Cir. 2009)
+                                  27   (citation and internal quotation marks omitted). Any doubt regarding the legitimacy of the
+                                  28   removal favors remanding the case to state court. Id.
+                                                                                       3
+                                       Case 3:24-cv-01797-CRB          Document 15       Filed 05/23/24   Page 4 of 11
+
+
+
+                                       III.   DISCUSSION
+                                   1
+                                              This order addresses: (A) CAFA jurisdiction generally; (B) Plaintiff’s argument that
+                                   2
+                                       the Court must remand this matter under CAFA’s “mandatory home state exception”; (C)
+                                   3
+                                       Plaintiff’s alternative argument that the Court should exercise its discretion to remand
+                                   4
+                                       under CAFA’s “discretionary home state exception”; and (D) the issues of jurisdictional
+                                   5
+                                       discovery and leave to amend.
+                                   6
+                                              A.     CAFA Jurisdiction
+                                   7
+                                              CAFA provides that federal district courts shall have original jurisdiction over civil
+                                   8
+                                       class actions where the matter in controversy exceeds five million dollars and “any
+                                   9
+                                       member of a class of plaintiffs is a citizen of a State different from any defendant[.]” 28
+                                  10
+                                       U.S.C. § 1332(d)(2). “Congress enacted CAFA in 2005 to ‘curb perceived abuses of the
+                                  11
+                                       class action device which, in the view of CAFA’s proponents, had often been used to
+                                  12
+
+
+
+ United States District Court
+                                       litigate multistate or even national class actions in state courts.’” Corber v. Xanodyne
+                                  13
+                                       Pharm., Inc., 771 F.3d 1218, 1222 (9th Cir. 2014) (en banc) (quoting Tanoh v. Dow Chem.
+                                  14
+                                       Co., 561 F.3d 945, 952 (9th Cir. 2009)). Thus, “CAFA was intended to strongly favor
+                                  15
+                                       federal jurisdiction over interstate class actions.” King v. Great Am. Chicken Corp, Inc.,
+
+
+Northern District of California
+                                  16
+                                       903 F.3d 875, 878 (9th Cir. 2018).
+                                  17
+                                              “Congress provided exceptions to CAFA jurisdiction, however, to allow truly
+                                  18
+                                       intrastate class actions to be heard in state court.” Adams v. W. Marine Prod., Inc., 958
+                                  19
+                                       F.3d 1216, 1220 (9th Cir. 2020) (alteration in original). The two exceptions that are
+                                  20
+                                       relevant here are (1) the “mandatory home state exception” and (2) the “discretionary
+                                  21
+                                       home state exception.”
+                                  22
+                                                     1.     The “Mandatory Home State Exception”
+                                  23
+                                              The “mandatory home state exception” to CAFA provides, in relevant part, that a
+                                  24
+                                       district court must decline to exercise jurisdiction over a class action in which “greater than
+                                  25
+                                       two-thirds of the members of all proposed plaintiff classes in the aggregate are citizens of
+                                  26
+                                       the State in which the action was originally filed.” 28 U.S.C. § 1332(d)(4)(A).
+                                  27
+                                  28
+                                                                                     4
+                                       Case 3:24-cv-01797-CRB          Document 15        Filed 05/23/24   Page 5 of 11
+
+
+
+                                                     2.     The “Discretionary Home State Exception”
+                                   1
+                                              CAFA’s “discretionary home state exception” provides that “a district court may, in
+                                   2
+                                       the interests of justice and looking at the totality of the circumstances, decline to exercise
+                                   3
+                                       jurisdiction . . . over a class action in which greater than one-third but less than two-thirds
+                                   4
+                                       of the members of all proposed plaintiff classes in the aggregate and the primary
+                                   5
+                                       defendants are citizens of the State in which the action was originally filed.” 28 U.S.C.
+                                   6
+                                       1332(d)(3). CAFA outlines six factors for a district court to consider in deciding whether
+                                   7
+                                       to decline jurisdiction under this discretionary home state exception. 28 U.S.C. §
+                                   8
+                                       1332(d)(3)(A)–(F).
+                                   9
+                                              B.     Plaintiff has not shown that greater than two-thirds of the proposed
+                                  10                 class are citizens of California.
+                                  11          There appears to be no dispute here that at least one defendant is a defendant (i)
+                                  12   from whom significant relief is sought by members of the plaintiff class, (ii) whose alleged
+
+
+
+ United States District Court
+                                  13   conduct forms a significant basis for the claims asserted by the proposed plaintiff class,
+                                  14   and (iii) who is a citizen of the State in which the action was originally filed. See 28
+                                  15   U.S.C. § 1332(d)(4)(A). Nor is there any dispute that the alleged principal injuries
+
+
+
+Northern District of California
+                                  16   resulting from the alleged conduct were incurred in the State in which the action was
+                                  17   originally filed, and that during the 3-year period preceding the filing of that class action,
+                                  18   no other class action has been filed asserting the same or similar factual allegations against
+                                  19   any of the defendants on behalf of the same or other persons. See id. Thus, the Court’s
+                                  20   analysis as to the mandatory home state exception will center on whether Plaintiff has
+                                  21   demonstrated that two-thirds of the members of the putative class are California citizens.
+                                  22          To qualify for the mandatory home state exception, Plaintiff bears the burden of
+                                  23   proving that greater than two-thirds of putative class members are California citizens. 28
+                                  24   U.S.C. § 1332(d)(4)(A)(i)(I); see Adams, 958 F.3d at 1221. “To meet this burden, the
+                                  25   moving party must provide ‘some facts from which the district court may make findings
+                                  26   regarding class members’ citizenship.’” Brinkley v. Monterey Fin. Servs., Inc., 873 F.3d
+                                  27   1118, 1121 (9th Cir. 2017) (quoting Mondragon v. Capital One Auto Fin., 736 F.3d 880,
+                                  28   884 (9th Cir. 2013)). “To be a citizen of a state, a natural person must first be a citizen of
+                                                                                      5
+                                       Case 3:24-cv-01797-CRB          Document 15        Filed 05/23/24    Page 6 of 11
+
+
+
+
+                                   1   the United States.” Kanter v. Warner-Lambert Co., 265 F.3d 853, 857 (9th Cir. 2001).
+                                   2   “The natural person’s state citizenship is then determined by her state of domicile, not her
+                                   3   state of residence. A person’s domicile is her permanent home, where she resides with the
+                                   4   intention to remain or to which she intends to return.” Id. A district court makes factual
+                                   5   findings regarding jurisdiction under a preponderance of the evidence standard.
+                                   6   Mondragon, 736 F.3d at 884. Although such a finding must be based on more than
+                                   7   “guesswork,” the Ninth Circuit has cautioned that the burden of proof on a plaintiff
+                                   8   “should not be exceptionally difficult to bear.” Id. at 884, 886. Even under this lenient
+                                   9   standard, Plaintiff did not meet her burden here.
+                                  10          The first stumbling block for Plaintiff is that the size of the class is unknown. “In
+                                  11   order to determine whether two-thirds of class members are California citizens, we must
+                                  12   first determine the size of the class as a whole.” Brinkley, 873 F.3d at 1121. Determining
+
+
+
+ United States District Court
+                                  13   the denominator of the class size is crucial to calculating the fraction of California citizens
+                                  14   contained in the class.
+                                  15          Here, Plaintiff’s class consists of “all California residents who accessed the Website
+
+
+
+Northern District of California
+                                  16   in California and had their IP addresses collected by the Trackers.” Compl. ¶ 94. Plaintiff
+                                  17   acknowledges that the number of people in this class could “amount to thousands, if not
+                                  18   millions of persons.” Id. ¶ 96. But Plaintiff offers no evidence to ground the class size in
+                                  19   anything more specific than “thousands, if not millions.” Id. This compares unfavorably
+                                  20   even to Brinkley, a case in which the Ninth Circuit vacated a motion to remand because
+                                  21   the putative class size was undefined. See Brinkley, 873 F.3d at 1118, 1122. In that case,
+                                  22   the plaintiff presented evidence of residency for at least a portion of the class, but failed to
+                                  23   produce evidence with regard to a class subgroup. Id. at 1122. Despite the partial
+                                  24   evidence, the court vacated the motion to remand because the lack of residency evidence
+                                  25   for the subgroup rendered the class indefinite. Id. In this case, there is not even partial
+                                  26   evidence on the total class size. “Absent ‘some facts in evidence’ regarding the size of the
+                                  27   entire class, the district court cannot determine whether two-thirds of all class members are
+                                  28   California citizens.” Id. (quoting Mondragon, 736 F.3d at 884). Thus, on this score alone,
+                                                                                      6
+                                       Case 3:24-cv-01797-CRB           Document 15          Filed 05/23/24    Page 7 of 11
+
+
+
+
+                                   1   Plaintiff “has not met her burden to show that the home-state controversy exception
+                                   2   applies.” Id.
+                                   3          Next, the slim evidence that Plaintiff does offer is not sufficient to establish that
+                                   4   two-thirds of the putative class are California citizens. To prove citizenship, Plaintiff
+                                   5   points to evidence that “as of February 2023, 26.7 million of the 39 million people living
+                                   6   in California were eligible to vote.” Mot. to Remand at 4. Plaintiff surmises further,
+                                   7   curiously based on a definition from the California Franchise Tax Board unrelated to
+                                   8   voting, that those 26.7 million people are “citizens for the purposes of jurisdiction”
+                                   9   because “people who reside in California for reasons that are not temporary have the
+                                  10   intention to remain in California” and are domiciled in the state. Id. Therefore, Plaintiff
+                                  11   urges, “at a minimum, 68% of California’s residents are citizens for the purposes of
+                                  12   jurisdiction,” and thus, “it is likely that at least 68% of the proposed Class is composed of
+
+
+
+ United States District Court
+                                  13   California citizens, exceeding the two-thirds requirement.” Id. at 4–5. To bolster this
+                                  14   claim, Plaintiff argues that Defendant’s newspaper primarily serves a California audience,
+                                  15   and thus it is likely that at least two-thirds of the California residents who accessed the
+
+
+
+Northern District of California
+                                  16   Website are California citizens. Id. at 5.
+                                  17          But Plaintiff’s conclusion does not follow from the evidence. Even setting aside the
+                                  18   issues presented by Plaintiff’s use of a Franchise Tax Board definition to prove voter
+                                  19   eligibility1 and the fact that California does not limit voter eligibility to state citizens,2
+                                  20   Plaintiff has only attempted to prove that “68% of California’s residents are citizens for the
+                                  21   purposes of jurisdiction.” Mot. to Remand at 4. This says nothing about how many in that
+                                  22   group are putative class members. Plaintiff seeks to represent a class defined as “all
+                                  23   California residents who accessed the Website in California and had their IP address
+                                  24   collected by the Trackers.” Compl. at ¶ 94. As Defendant argues, “[e]ven if 68% of
+                                  25
+                                  26   1
+                                         See Residents, STATE OF CALIFORNIA FRANCHISE TAX BOARD, https://www.ftb.ca.gov/
+                                  27   file/personal/residency-status/index.html (defining “resident” for the purposes of tax-filing only,
+                                       not “for purposes of taxing and voting” as Plaintiff urges). Mot. to Remand at 4.
+                                       2
+                                  28     Cal Const, Art. II § 2 (“A United States citizen 18 years of age and resident in this state may
+                                       vote.”) (emphasis added).
+                                                                                         7
+                                       Case 3:24-cv-01797-CRB         Document 15        Filed 05/23/24   Page 8 of 11
+
+
+
+
+                                   1   California’s residents are citizens, that does not mean the same 68% of California residents
+                                   2   accessed the LA Times Website in California and had their IP address collected by the
+                                   3   Trackers within the past year.” Opp’n to Mot. to Remand (dkt. 13) at 7.
+                                   4          It may well be that two-thirds of putative class members are California citizens.
+                                   5   But it may be less. The Court simply does not have sufficient evidence to conclude by a
+                                   6   preponderance of the evidence that greater than two-thirds of the putative class are
+                                   7   California citizens. “A jurisdictional finding of fact should be based on more than
+                                   8   guesswork.” Mondragon, 736 F.3d at 884. The evidence offered by Plaintiff here amounts
+                                   9   to mere guesswork. While it is “[s]ensible guesswork,” given that Defendant is a
+                                  10   California-focused newspaper and surely many California residents are citizens for
+                                  11   jurisdictional purposes, it is “guesswork nonetheless.” See id. The Court cannot find that
+                                  12   greater than two-thirds of the class are California citizens based only on this one piece of
+
+
+
+ United States District Court
+                                  13   evidence. And while the Court need not use a “precise mathematical formula or exact
+                                  14   data” in making class citizenship determinations, see Reply in Supp’t of Mot. to Remand
+                                  15   (dkt. 14) 3, more is needed than what Plaintiff has presented here.
+
+
+
+Northern District of California
+                                  16          The Ninth Circuit has vacated motions to remand based on far more tailored
+                                  17   evidence. For example, in King v. Great American Chicken Corp, Inc., the district court
+                                  18   granted remand based on a stipulation that “at least 67% of the last-known addresses [of
+                                  19   class members] are in California.” 903 F.3d at 877. The Ninth Circuit vacated the motion
+                                  20   to remand because the stipulation failed to account for the likelihood that “at least some . .
+                                  21   . in the group [had] moved out of California” at the time of removal, that “at least a few
+                                  22   [class members] were citizens of other states even if they temporarily had a residential
+                                  23   address in California, such as an out-of-state student working while attending college in
+                                  24   California,” or that at least “some putative class members were not United States citizens.”
+                                  25   Id. at 879.
+                                  26          “The problem” with the King stipulation, as with Plaintiff’s voter eligibility
+                                  27   estimation in this case, “is that this impression rest[ed] on guesswork.” Id. at 880. Here,
+                                  28   as in King, “[t]here [is] no evidence to support a factual finding that the proportion of
+                                                                                     8
+                                       Case 3:24-cv-01797-CRB         Document 15         Filed 05/23/24   Page 9 of 11
+
+
+
+
+                                   1   California citizens was greater than two-thirds.” Id. What is more, the evidence offered
+                                   2   here is unrelated to the putative class. As explored above, the percentage of Californians
+                                   3   who are eligible to vote tells the Court nothing about which of those Californians (a) are
+                                   4   citizens, (b) accessed the Website, and (c) were in California at the time they were tracked.
+                                   5   As in King, even if the Court were to accept Plaintiff’s voter eligibility estimation, the
+                                   6   68% citizen figure “[leaves] very little cushion, if any, to account for” real differences in
+                                   7   the percentage of California residents who are eligible to vote and the percentage of
+                                   8   Website users whose IP addresses were tracked who are also California citizens. See id. at
+                                   9   876. It could be that once populations such as out-of-state students, military personnel,
+                                  10   and non-U.S. citizens are factored in, the percentage of putative class members who are
+                                  11   citizens could slip below two-thirds. Thus, Plaintiff’s estimation, viewed even in the most
+                                  12   favorable light, narrowly clears the two-thirds requirement; this was another factor that led
+
+
+
+ United States District Court
+                                  13   the Ninth Circuit to reject the stipulation in King. Id.
+                                  14          Nor is Plaintiff’s proffered evidence comparable to the evidence that the court
+                                  15   found sufficient to carry the plaintiff’s burden in Adams v. West Marine Products, Inc. In
+
+
+
+Northern District of California
+                                  16   that case, in order to qualify for the discretionary home state exception to CAFA (requiring
+                                  17   greater than one-third but less than two-thirds of the members of the class be citizens), the
+                                  18   plaintiff offered evidence of (a) a fixed class size from which the fraction of California
+                                  19   citizens could be determined, and (b) a detailed list of contact information that included
+                                  20   last known addresses for over 90% of the class. Adams, 958 F.3d at 1219. While the
+                                  21   Ninth Circuit acknowledged that last known addresses are an imperfect proxy for
+                                  22   citizenship, “given the substantial cushion afforded by the percentage of class members
+                                  23   with last known California addresses, as compared to the percentage of class member
+                                  24   citizens required for a discretionary remand, [the plaintiff] readily met her burden.” Id. at
+                                  25   1223. In comparison, the evidence here is speculative. Plaintiff has failed to meet her
+                                  26   burden to show that greater than two-thirds of the putative class are California citizens.
+                                  27
+                                  28
+                                                                                      9
+                                       Case 3:24-cv-01797-CRB         Document 15       Filed 05/23/24      Page 10 of 11
+
+
+
+                                              C.     Plaintiff has also not shown that greater than one-third of the proposed
+                                   1                 class are California citizens.
+                                   2          The above analysis applies to the discretionary home state exception as well. The
+                                   3   indeterminate class size remains an issue. See Brinkley, 873 F.3d at 1121 (“In order to
+                                   4   determine whether two-thirds of class members are California citizens, we must first
+                                   5   determine the size of the class as a whole.”). There is also a lack of evidence from which
+                                   6   the Court can conclude that at least one-third of the putative class are California citizens.
+                                   7   The evidence presented here is far weaker than the last known addresses that were
+                                   8   sufficient in Adams. See Adams, 958 F.3d at 1223 (holding that the plaintiff met their
+                                   9   burden where “more than 90% of class members had last known mailing addresses in
+                                  10   California—a percentage far greater than the one-third (or roughly, 33%) required for
+                                  11   remand.”). Because Plaintiff has failed to meet her burden, the Court need not apply the
+                                  12   discretionary factors for remand found in 28 U.S.C. § 1332(d)(3)(A)–(F).
+
+
+
+ United States District Court
+                                  13          D.     Jurisdictional Discovery and Leave to Amend
+                                  14          Finally, Plaintiff asks that if the Court holds that Plaintiff has not satisfied her
+                                  15   burden at this point, then the Court should permit Plaintiff to take jurisdictional discovery
+
+
+
+Northern District of California
+                                  16   and renew her motion to remand. Mot. to Remand at 8. The Ninth Circuit has repeatedly
+                                  17   adopted this approach in similar cases. See, e.g., Mondragon, 736 F.3d at 886 (vacating
+                                  18   the district court’s order to remand “with instructions to allow Mondragon an opportunity,
+                                  19   if he so chooses, to renew his motion to remand and to gather evidence to prove that more
+                                  20   than two-thirds of putative class members are citizens of California”); King, 903 F.3d at
+                                  21   881 (holding that “[o]n remand to the district court . . . King should be given an
+                                  22   opportunity to seek additional jurisdictional discovery and to renew her motion to
+                                  23   remand”).
+                                  24          Here, Plaintiff has not proven the requisite citizenship status of the putative class.
+                                  25   But jurisdictional discovery may fill this gap. Defendant might have records of Website
+                                  26   users who might have been tracked while visiting the Website—that would shed light on
+                                  27   the total size of the putative class and their citizenship at the time of removal.
+                                  28
+                                                                                      10
+                                       Case 3:24-cv-01797-CRB        Document 15      Filed 05/23/24     Page 11 of 11
+
+
+
+                                       IV.    CONCLUSION
+                                   1
+                                              For the foregoing reasons, the Court hereby DENIES Plaintiff’s motion to remand
+                                   2
+                                       WITHOUT PREJUDICE to Plaintiff renewing the motion based on facts uncovered during
+                                   3
+                                       discovery. The Court further ORDERS that Plaintiff may conduct limited jurisdictional
+                                   4
+                                       discovery regarding the size and citizenship of the putative class only.
+                                   5
+                                              IT IS SO ORDERED.
+                                   6
+                                              Dated: May 23, 2024
+                                   7                                                     CHARLES R. BREYER
+                                                                                         United States District Judge
+                                   8
+                                   9
+                                  10
+                                  11
+                                  12
+
+
+
+ United States District Court
+                                  13
+                                  14
+                                  15
+
+
+
+Northern District of California
+                                  16
+                                  17
+                                  18
+                                  19
+                                  20
+                                  21
+                                  22
+                                  23
+                                  24
+                                  25
+                                  26
+                                  27
+                                  28
+                                                                                    11
+

@@ -1,0 +1,76 @@
+{
+  "type": "jurisdiction_routing",
+  "generated_at": "2026-05-06T09:27:24+00:00",
+  "routes": [
+    {
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "label": "EU GDPR Expert KB",
+      "primary_law": "GDPR",
+      "routing_terms": [
+        "gdpr",
+        "eu",
+        "europe",
+        "edpb",
+        "cjeu",
+        "eprivacy",
+        "ai act",
+        "data act"
+      ],
+      "library_root": "kb/eu-gdpr/library",
+      "index_root": "kb/eu-gdpr/index",
+      "source_registry": "kb/eu-gdpr/index/source-registry.json",
+      "authority_index_filter": {
+        "namespace": "eu-gdpr"
+      }
+    },
+    {
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "label": "Korea PIPA Expert KB",
+      "primary_law": "PIPA",
+      "routing_terms": [
+        "pipa",
+        "korea",
+        "kr",
+        "korean",
+        "개인정보",
+        "개보법",
+        "보호법",
+        "pipc"
+      ],
+      "library_root": "kb/kr-pipa/library",
+      "index_root": "kb/kr-pipa/index",
+      "source_registry": "kb/kr-pipa/index/source-registry.json",
+      "authority_index_filter": {
+        "namespace": "kr-pipa"
+      }
+    },
+    {
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "label": "California Privacy Expert KB",
+      "primary_law": "CCPA",
+      "routing_terms": [
+        "ccpa",
+        "cpra",
+        "california",
+        "cppa",
+        "cipa",
+        "caloppa",
+        "gpc"
+      ],
+      "library_root": "kb/us-ca/library",
+      "index_root": "kb/us-ca/index",
+      "source_registry": "kb/us-ca/index/source-registry.json",
+      "authority_index_filter": {
+        "namespace": "us-ca"
+      }
+    }
+  ],
+  "fallback_order": [
+    "us-ca",
+    "eu-gdpr",
+    "kr-pipa"
+  ]
+}

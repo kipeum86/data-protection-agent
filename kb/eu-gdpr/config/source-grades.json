@@ -1,0 +1,31 @@
+{
+  "grades": {
+    "A": {
+      "label": "Official Primary Sources",
+      "description": "Legislation text (Regulations, Directives), EDPB Guidelines/Opinions/Recommendations, CJEU judgments (binding interpretation)",
+      "trust_level": "authoritative",
+      "can_be_sole_basis": true
+    },
+    "B": {
+      "label": "Verified Secondary Sources",
+      "description": "DPA enforcement decisions, national court rulings, legislative proposals",
+      "trust_level": "verified",
+      "can_be_sole_basis": true,
+      "requires_note": "Grade A cross-verification recommended"
+    },
+    "C": {
+      "label": "Single Source / Reference",
+      "description": "Law firm analyses, academic papers, individual expert commentary, conference proceedings",
+      "trust_level": "reference",
+      "can_be_sole_basis": false,
+      "requires_note": "[EDITORIAL: Single-source, Grade C] tag required"
+    },
+    "D": {
+      "label": "Excluded",
+      "description": "General news, AI-generated summaries, wikis, social media",
+      "trust_level": "excluded",
+      "can_be_sole_basis": false,
+      "note": "Not included in RAG. Reference only."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "grades": {
+    "A": {
+      "label": "공식 1차 소스",
+      "description": "법령 원문, 감독기관 공식 가이드라인",
+      "trust_level": "authoritative",
+      "can_be_sole_basis": true
+    },
+    "B": {
+      "label": "교차검증된 2차 소스",
+      "description": "처분례, 판례 — 법적 구속력 있는 결정",
+      "trust_level": "verified",
+      "can_be_sole_basis": true,
+      "requires_note": "Grade A 소스로 교차검증 권장"
+    },
+    "C": {
+      "label": "단일 소스",
+      "description": "로펌 해설, 학술 논문, 개별 전문가 블로그 — 전문가 코멘터리",
+      "trust_level": "reference",
+      "can_be_sole_basis": false,
+      "requires_note": "[EDITORIAL: Single-source, Grade C] 표시 필수"
+    },
+    "D": {
+      "label": "제외",
+      "description": "일반 뉴스, AI 생성 요약, 위키, 소셜 미디어",
+      "trust_level": "excluded",
+      "can_be_sole_basis": false,
+      "note": "RAG에 포함하지 않음. 참고용으로만 사용 가능."
+    }
+  },
+  "mcp_source_mapping": {
+    "statutes": "A",
+    "enforcement_decrees": "A",
+    "enforcement_rules": "A",
+    "precedents": "B",
+    "constitutional_court": "B",
+    "administrative_decisions": "B",
+    "tax_tribunal": "B"
+  },
+  "mcp_tag_format": "[MCP] [Grade {grade}]",
+  "mcp_verified_tag": "[MCP] [Grade A] [VERIFIED]"
+}

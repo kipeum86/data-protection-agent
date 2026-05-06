@@ -1,0 +1,37 @@
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Generated reports and coverage
+coverage/
+.coverage
+htmlcov/
+data-protection-agent-result.md
+data-protection-agent-meta.json
+golden-set-report.json
+
+# Build artifacts and logs
+dist/
+build/
+*.log
+
+# Planning/session notes that should stay local
+merged-data-protection-agent.md
+docs/*implementation*.md
+docs/*hardening*.md
+docs/*session*.md
+docs/session-*.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

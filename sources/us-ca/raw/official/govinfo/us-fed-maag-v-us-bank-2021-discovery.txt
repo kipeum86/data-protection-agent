@@ -1,0 +1,412 @@
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 1 of 11
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8                             UNITED STATES DISTRICT COURT
+ 9                           SOUTHERN DISTRICT OF CALIFORNIA
+10
+11     ROBERT MAAG, individually, and on                  Case No.: 21cv31-H-LL
+       behalf of a class of similarly situated
+12
+       persons,                                           ORDER GRANTING IN PART AND
+13                                       Plaintiff,       DENYING IN PART PLAINTIFF’S
+                                                          MOTION TO COMPEL FURTHER
+14     v.                                                 RESPONSES TO PLAINTIFF’S
+15                                                        REQUEST FOR PRODUCTION NO.
+       U.S. BANK NATIONAL
+                                                          11
+16     ASSOCIATION,
+17                                     Defendant.         [ECF No. 38]
+18
+19          Before the Court is Plaintiff Robert Maag’s Motion to Compel production of
+20    documents from Defendant U.S. Bank National Association [ECF No. 38 (“Motion” or
+21    “MTC”)] and Defendant’s Opposition [ECF No. 40 (“Opposition” or “Oppo.”)]. For the
+22    reasons set forth below, the Court GRANTS IN PART AND DENIES IN PART
+23    Plaintiff’s Motion to Compel.
+24          I.     RELEVANT BACKGROUND
+25          Plaintiff brings this action against U.S. Bank National Association on behalf of
+26    himself and all others similarly situated for violation of their privacy rights in connection
+27    with an alleged data breach in July 2020. ECF No. 26, ¶ 2. Specifically, Plaintiff “bring[s]
+28    this lawsuit on behalf of himself and Class Members whose PII [personal identifiable
+
+                                                      1
+                                                                                        21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 2 of 11
+
+
+
+ 1    information] was compromised as a result of the Data Breach and [Defendant’s] failure to
+ 2    (i) implement and maintain reasonable security procedures and practices appropriate to the
+ 3    nature of the PII; (ii) disclose its inadequate security procedures and practices; (iii)
+ 4    effectively monitor its systems for security vulnerabilities; and (iv) failure to timely detect,
+ 5    report, and disclose the Data Breach.” Id., ¶ 4. In the operative complaint, Plaintiff seeks
+ 6    to certify the following class:
+ 7          All USB customers who reside in California and whose PII was accessed or
+ 8          otherwise compromised in the Data Breach, which, according to the Notice of
+            Data Breach provided by USB, occurred on or about July 30, 2020.
+ 9
+10    Id., ¶ 36. Plaintiff’s operative complaint alleges one cause of action for violation of the
+11    California Consumer Privacy Act (“CCPA”), Cal. Civil Code §§ 1798.150, et seq. Id., ¶¶
+12    45-53.
+13          On March 9, 2021, Defendant filed a Motion to Dismiss Plaintiff’s Second Amended
+14    Complaint. ECF No. 19. On April 8, 2021, Judge Huff granted Defendant’s Motion to
+15    Dismiss Plaintiff’s Second Amended Complaint. ECF No. 25. On May 3, 2021, Plaintiff
+16    filed the operative Third Amended Complaint. ECF No. 26. On May 17, 2021, Defendant
+17    filed its answer and affirmative defenses. ECF No. 27. On July 27, 2021, this Court issued
+18    an order regulating discovery. ECF No. 33. On September 14, 2021, Plaintiff filed a Motion
+19    to Remand, which is still pending. ECF No. 36.
+20          On September 20, 2021, Plaintiff filed the instant motion. MTC. Defendant
+21    responded on September 24, 2021. Oppo. The current deadline for Plaintiffs to file a motion
+22    for class certification is January 24, 2022. ECF No. 44 at 2.
+23          The disputed written discovery is Plaintiff’s Request for Production No. 11 which
+24    seeks generally the identity and contact information of putative class members. MTC at 7.
+25    Specifically, Plaintiff’s Request for Production No. 11 states:
+26          DOCUMENTS IDENTIFYING all individuals whose PERSONAL
+27          INFORMATION was stored on the COMPROMISED SERVER at the time
+            of the DATA BREACH including the number of total individuals, the
+28
+
+                                                     2
+                                                                                           21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 3 of 11
+
+
+
+ 1          COMPROMISED SERVER for each individual, whether the individuals were
+ 2          subject to an arbitration agreement with YOU, and, if so, which version of the
+            arbitration agreement the individual is/was subject to.
+ 3
+      ECF No. 38 at 7. Defendant objected to the request on the following grounds:
+ 4
+            U.S. Bank incorporates by reference its General Objections. U.S. Bank also
+ 5          objects to this Request to the extent it seeks information protected from
+ 6          disclosure by the attorney-client privilege, the work product doctrine, the bank
+ 7          examination privilege, or another privilege, immunity, or protection from
+            disclosure, which will be withheld. U.S. Bank also objects to this Request on
+ 8          the grounds that it is overly broad and unduly burdensome to the extent that it
+ 9          asks U.S. Bank to identify whether the individual whose information was
+10          located on the Server were subject to an arbitration agreement with U.S. Bank
+            and which version of the arbitration agreement the individuals were subject
+11          to. Determining that information for each of the individuals would require an
+12          individualized file-by-file review of each person’s accounts with U.S. Bank.
+13          U.S. Bank is withholding documents on the basis of this objection. U.S. Bank
+            also objects to this Request as overly broad, unduly burdensome, not
+14          reasonably calculated to lead to the discovery of admissible evidence, and not
+15          proportionate to the needs of the case to the extent it seeks information about
+16          the types of personal information stored on the compromised server for non-
+            California residents, as information about individuals who are not residents of
+17          California is not relevant to any party’s claims or defenses. U.S. Bank is
+18          withholding documents on the basis of this objection.
+19
+            Subject to and without waiving the foregoing objections, U.S. Bank is willing
+20          to meet and confer with Plaintiff regarding this request.
+21
+      ECF No. 38-1 at 8. The parties have since met and conferred about this request. MTC at
+22
+      38-1, Declaration of Edward J. Wynne; Oppo. at 5. Defendant represents that it:
+23
+            [H]as agreed to produce a list of names of putative class members whose
+24          information was on the stolen server and to identify, for each listed individual,
+25          the relevant categories of information that was stored on the stolen server and
+            the applicable version of arbitration agreement that applies, if any. Plaintiff
+26
+            has additionally requested contact information for these individuals, which
+27          Defendant has not agreed to produce.
+28    Oppo. at 5.
+
+                                                    3
+                                                                                         21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 4 of 11
+
+
+
+ 1       II.      LEGAL STANDARD
+ 2             “A district court is vested with broad discretion to permit or deny discovery.” Laub
+ 3    v. U.S. Dep’t of Interior, 342 F.3d 1080, 1093 (9th Cir. 2003). Unless otherwise limited by
+ 4    court order, the scope of discovery under the Federal Rules of Civil Procedure is as
+ 5    follows:
+ 6             Parties may obtain discovery regarding any nonprivileged matter that is
+               relevant to any party’s claim or defense and proportional to the needs of the
+ 7
+               case, considering the importance of the issues at stake in the action, the
+ 8             amount in controversy, the parties’ relative access to relevant information, the
+               parties’ resources, the importance of the discovery in resolving the issues, and
+ 9
+               whether the burden or expense of the proposed discovery outweighs its likely
+10             benefit. Information within this scope of discovery need not be admissible in
+               evidence to be discoverable.
+11
+12    Fed. R. Civ. P. 26(b)(1). Courts must limit the frequency or extent of discovery if it
+13    determines that:
+14             (i) the discovery sought is unreasonably cumulative or duplicative, or can be
+15             obtained from some other source that is more convenient, less burdensome,
+               or less expensive; (ii) the party seeking discovery has had ample opportunity
+16             to obtain the information by discovery in the action; or (iii) the proposed
+17             discovery is outside the scope permitted by Rule 26(b)(1).
+18    Fed. R. Civ. P. 26(b)(2)(C).
+19             “[A] party may move for an order compelling disclosure of discovery.” Fed. R. Civ.
+20    P. 37(a)(1). “The party seeking to compel discovery has the burden of establishing that its
+21    request satisfies the relevancy requirement of Rule 26(b)(1).” La. Pac. Corp. v. Money
+22    Mkt. 1 Inst. Inv. Dealer, 285 F.R.D. 481, 485 (N.D. Cal. 2012). “The party who resists
+23    discovery has the burden to show discovery should not be allowed, and has the burden of
+24    clarifying, explaining, and supporting its objections.” Blankenship v. Hearst Corp., 519
+25    F.2d 418, 429 (9th Cir. 1975).
+26       III.     DISCUSSION
+27                A.     The Parties’ Arguments
+28             Plaintiff seeks to compel Defendant to provide the identity and contact information
+
+                                                      4
+                                                                                           21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 5 of 11
+
+
+
+ 1    of all putative class members because it is “highly relevant to the claims and defenses of
+ 2    the action.” MTC at 7. Specifically, Plaintiff argues that “‘the information is likely to lead
+ 3    to the discovery of admissible evidence that will prove or disprove [] Plaintiff’s claims or
+ 4    Defendant’s defenses.’” Id. (citing Maharaj v. Charter Communications, Inc., No. 20cv64-
+ 5    BAS-LL, 2021 WL 1428489, at *7 (S.D. Cal. April 15, 2021)). Plaintiff also states that the
+ 6    discovery it seeks is “relevant evidence related to Defendant’s affirmative defenses, class
+ 7    certification and the merits.” MTC at 8.
+ 8          Plaintiff argues that Defendant’s affirmative defenses, including lack of proximate
+ 9    cause and that class members failed to mitigate their damages, support Plaintiff’s claim
+10    that he should be permitted to contact putative class members to gather evidence related to
+11    those defenses. Id. at 7-8. Further, Plaintiff states that Defendant “denies there has even
+12    been a data breach in its discovery responses.” Id. at 8. Plaintiff argues that “class contact
+13    information is relevant because, without this information, Plaintiff would be unable to
+14    contact putative class members to establish whether any [sic] they recently have been
+15    victims of identity theft since the server was stolen.” Id.
+16          Plaintiff further argues that “the balance of interests weigh[s] in favor of disclosing
+17    class member contact information to Plaintiff.” Id. at 9. Plaintiff argues that “putative class
+18    members in this action would not want their identities concealed from Plaintiff who is
+19    seeking to vindicate their rights under the CCPA and obtain injunctive relief to protect their
+20    PII from identity theft.” Id. Plaintiff also argues that the stipulated protective order “adds
+21    an extra layer of privacy protection.” Id. at 10.
+22          In response, Defendant states that it “has agreed to produce a list of names of putative
+23    class members whose information was on the stolen server and to identify, for each listed
+24    individual, the relevant categories of information that was stored on the stolen server and
+25    the applicable arbitration version of the arbitration agreement that applies, if any.” Oppo.
+26    at 5. Defendant further makes three arguments in support of why Plaintiff’s Motion to
+27    Compel should be denied. Id. at 4. First, Defendant argues that “Plaintiff does not satisfy
+28    his burden of establishing that contact information for thousands of individuals is relevant.”
+
+                                                     5
+                                                                                          21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 6 of 11
+
+
+
+ 1    Id. Second, Defendant argues that “Plaintiff ignores completely his burden of establishing
+ 2    that the information is proportional.” Id. Third, Defendant argues that “even if the contact
+ 3    information had some relevance, any interest that Plaintiff has in this information is far
+ 4    outweighed by the putative class members’ privacy interests.” Id. Finally, Defendant states
+ 5    that “in the alternative, if this Court is inclined to permit discovery of contact information
+ 6    in this case, Defendant respectfully requests that the Court permit discovery for only a
+ 7    sampling of putative class members (250) and implement additional protective measures
+ 8    governing Plaintiff’s counsel’s contact with putative class members.” Id. at 4-5.
+ 9              B.     Pre-Certification Discovery
+10          “The propriety of a class action cannot be determined in some cases without
+11    discovery, as for example, where discovery is necessary to determine the existence of a
+12    class or set of subclasses.” Kamm v. Cal. City Dev. Co., 509 F.2d 205, 210 (9th Cir. 1975);
+13    see also Vinole v. Countrywide Home Loans, Inc., 571 F.3d 935, 942 (9th Cir. 2009)
+14    (“Although a party seeking class certification is not always entitled to discovery on the
+15    class certification issue, . . . often the pleadings alone will not resolve the question of class
+16    certification and . . . . some discovery will be warranted.”); Doninger v. Pac. Nw. Bell, Inc.,
+17    564 F.2d 1304, 1313 (9th Cir. 1977) (“[T]he necessary antecedent to the presentation of
+18    evidence is, in most cases, enough discovery to obtain the material, especially when the
+19    information is within the sole possession of the defendant.”). “Although in some cases a
+20    district court should allow discovery to aid the determination of whether a class action is
+21    maintainable, the plaintiff bears the burden of advancing a prima facie showing that the
+22    class action requirements of Fed. R. Civ. P. 23 are satisfied or that discovery is likely to
+23    produce substantiation of the class allegations.” Mantolete v. Bolger, 767 F.2d 1416, 1424
+24    (9th Cir. 1985), as amended (Aug. 27, 1985); see also Doninger, 564 F.2d at 1313
+25    (“[W]here the plaintiffs fail to make even a prima facie showing of Rule 23’s prerequisites
+26    . . . . the burden is on the plaintiff to demonstrate that discovery measures are likely to
+27    produce persuasive information substantiating the class action allegations.”).
+28    ///
+
+                                                      6
+                                                                                            21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 7 of 11
+
+
+
+ 1              C.     Relevance
+ 2           The Court finds that the contact information sought in RFP No. 11 is relevant. As an
+ 3    initial matter, the Court notes that it is common in class actions to produce names,
+ 4    addresses, and telephone numbers of putative class members. Artis v. Deere & Co., 276
+ 5    F.R.D. 348, 352 (N.D. Cal. 2011); Faraji v. Target Corp., 2017 WL 8292781, at *4 (C.D.
+ 6    Cal. April 28, 2017). As noted above, relevancy for the purpose of discovery encompasses
+ 7    “any party’s claim or defense.” Fed. R. Civ. P. 26(b)(2). Here, Plaintiff argues that it “is
+ 8    entitled to the contact information of the putative class members because it is highly
+ 9    relevant to both class certification and the claims and defenses of the action.” MTC at 4.
+10    Plaintiff points to the specific affirmative defenses that it seeks to gather evidence about.
+11    Id. at 7-8.
+12           Defendant’s argument that Plaintiff “does not come close to meeting his burden of
+13    establishing that the contact information for thousands of individuals is relevant” is
+14    unpersuasive. Oppo. at 6. Defendant relies largely on Goro v. Flowers Foods, Inc., 334
+15    F.R.D. 275, 2018 WL 3956018, at *8 (S.D. Cal. Aug. 17, 2018) in support of its argument.
+16    Goro involved a claim brought by plaintiffs who worked as distributors against defendant,
+17    a baked good production company, alleging that they had been misclassified as contractors
+18    rather than employees. Id. at 279. In Goro, plaintiffs brought a motion to compel the names
+19    and contact information for individuals who performed direct store delivery services and
+20    entered into a form distributor agreement with the defendant. Id. at 285. The court found
+21    that plaintiffs met their burden to establish that individuals and entities that contracted with
+22    defendant may possess information relevant to the claims and defenses in that case. Id.
+23    However, the court in Goro found that plaintiffs failed to indicate what relevant
+24    information, if any, individuals who did not sign distributor agreements with defendant
+25    may have. Id.
+26           Goro is inapposite to the facts in our case. Here, Plaintiff alleges that a data breach
+27    caused by a theft of servers from Defendant’s office resulted in 5,725 individuals’
+28    information being compromised. MTC at 4; ECF No. 26, ¶ 2. The putative class is
+
+                                                     7
+                                                                                           21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 8 of 11
+
+
+
+ 1    comprised of these 5,725 individuals and, unlike in Goro, all putative plaintiffs were
+ 2    Defendant’s banking customers. Plaintiff seeks the contact information of the 5,725
+ 3    putative class members “because it is highly relevant to both class certification and the
+ 4    claims and defenses of the action.” MTC at 4. The Court agrees with Plaintiff that the
+ 5    contact information is relevant to both class certification and the claims and defenses of
+ 6    the action. In sum, the Court finds that Plaintiff has met his burden to show that class
+ 7    contact information is relevant at this stage in the litigation. See Salgado v. O’Lakes, 2014
+ 8    WL 7272784, at *11 (E.D. Cal. Dec. 18, 2014) (“Ultimately, ‘a court maintains a wide
+ 9    latitude in deciding whether contact information of putative class members should be
+10    produced prior to class certification…’”) (internal citation omitted). Accordingly, the Court
+11    concludes that the disputed discovery is relevant under Rule 26.
+12             D.     Proportionality
+13          Defendant argues that “Plaintiff’s request is not proportional to the needs of this
+14    case.” Oppo. at 8. Defendant states that Plaintiff “ignores completely his burden of
+15    establishing that the information is proportional. Nowhere does Plaintiff explain why
+16    contact information for thousands of individuals is proportional to the needs of this case.”
+17    Id. at 4. The Court finds that Defendant is correct that Plaintiff fails to address why the
+18    production of all 5,725 putative class members’ contact information would be proportional
+19    in this case. See MTC.
+20          Defendant states in the Opposition that “if this Court is inclined to permit discovery
+21    of contact information in this case, Defendant respectfully requests that the Court permit
+22    discovery for only a sampling of putative class members (250) and implement additional
+23    protective measures governing Plaintiff’s counsel’s contact with putative class members.”
+24    Oppo. at 10. Notably, Defendant does not explain how it arrived at the proposed sampling
+25    of 250 putative class members. Defendant possesses the burden of supporting its
+26    objections, but fails to show why producing more than the proposed sample of 250 putative
+27    class members is not proportional or would be unduly burdensome.
+28          However, at this stage of the litigation, the Court will exercise its discretion in
+
+                                                    8
+                                                                                        21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 9 of 11
+
+
+
+ 1    ordering Defendant to provide discovery for a random sampling of 500 putative class
+ 2    members. See Salgado v. O’Lakes, 2014 WL 7272784, at *11 (E.D. Cal. Dec. 18, 2014)
+ 3    (“Ultimately, ‘a court maintains a wide latitude in deciding whether contact information of
+ 4    putative class members should be produced prior to class certification…’”) (internal
+ 5    citation omitted). The Court will also implement additional protective measures governing
+ 6    Plaintiff’s counsel’s contact with putative class members as set forth below.
+ 7              E.     Privacy
+ 8          The California Supreme Court established a framework for assessing privacy claims
+ 9    in which “[t]he party asserting a privacy right must establish a legally protected privacy
+10    interest, an objectively reasonable expectation of privacy in the given circumstances, and
+11    a   threatened     intrusion    that    is    serious.”    Williams     v.    Superior     Ct.,
+12    3 Cal. 5th at 552 (citing Hill v. Nat'l Collegiate Athletic Assn., 7 Cal. 4th 1, 35-37 (1994)).
+13    “The party seeking information may raise in response whatever legitimate and important
+14    countervailing interests disclosure serves, while the party seeking protection may identify
+15    feasible alternatives that serve the same interests or protective measures that would
+16    diminish the loss of privacy.” Id. The court then balances these considerations. Id. (citing
+17    Hill v. Nat'l Collegiate Athletic Assn., 7 Cal. 4th at 37–40).
+18          The Court has balanced the need of the information against the putative class
+19    members’ privacy interests and concludes that the information sought by Plaintiff should
+20    be produced. In support of Defendant’s privacy objection, Defendant argues that “any
+21    relevance is outweighed by the putative class members’ privacy interest.” Oppo. at 8.
+22    Defendant fails to explain how the disclosure of the contact information for a sampling of
+23    putative class members would be harmful to them, or why any such harm would not be
+24    mitigated by production of this information subject to a protective order. Accordingly, the
+25    Court finds that the requested discovery (contact information for a sampling of the putative
+26    class members) does not constitute a serious invasion of privacy. See, e.g., Haghyayeghi
+27    v. Guess?, Inc., 168 F. Supp. 3d 1277, 1281 (S.D. Cal. March 10, 2016) (“disclosing names
+28    and contact information does not constitute a serious invasion of privacy and is
+
+                                                     9
+                                                                                          21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 10 of 11
+
+
+
+ 1     commonplace in class actions.”).
+ 2           Additionally, there is a protective order entered in this case [ECF No. 35], which
+ 3     courts have found to be sufficient to protect the privacy of putative class members. See,
+ 4     e.g., Hayghyayeghi, 168 F. Supp. 3d 1281; see also Coleman v. Jenny Craig, Inc., 2013
+ 5     WL 2896884, at *10 (S.D. Cal. June 12, 2013) (finding that “‘the parties can craft a
+ 6     protective order that limits the use of any contact information to the parties in this ligation
+ 7     and protects it from disclosure.’”). Here, because the protective order was entered prior to
+ 8     the issuance of this discovery order, the Court orders the following additional measures in
+ 9     Plaintiff’s communications with the putative class members. First, Plaintiff’s counsel shall
+10     identify themselves as Plaintiff’s counsel in this putative class action. Second, Plaintiff’s
+11     counsel shall inform the contacted putative class member that they have the right not to
+12     talk to or communicate with counsel, and if they decline to talk or communicate, then
+13     counsel shall terminate the conversation and not contact them again. Third, Plaintiff’s
+14     counsel shall inform each contacted putative class member that the Court compelled
+15     Defendant U.S. Bank to disclose the putative class member’s contact information, and that
+16     the contact information was provided solely for this lawsuit and cannot be distributed for
+17     other uses.
+18     ///
+19     ///
+20     ///
+21     ///
+22     ///
+23     ///
+24     ///
+25     ///
+26     ///
+27     ///
+28     ///
+
+                                                     10
+                                                                                           21cv31-H-LL
+     Case 3:21-cv-00031-H-LL Document 48 Filed 10/12/21 PageID.<pageID> Page 11 of 11
+
+
+
+ 1        IV.   CONCLUSION
+ 2           For the reasons set forth above, the Court GRANTS IN PART AND DENIES IN
+ 3     PART Plaintiff’s Motion to Compel. On or before October 25, 2021, Defendant shall
+ 4     produce the requested contact information for a random sampling of 500 members of the
+ 5     putative class. Additionally, the production shall be accompanied by a signed declaration
+ 6     stating how the random sample was selected. If the sample proves inadequate because of
+ 7     the inability to locate substantial numbers of putative class members, or the reluctance of
+ 8     significant numbers of putative class members to speak to Plaintiff’s counsel, Plaintiff may
+ 9     apply for additional relief after meeting and conferring with Defendant’s counsel.
+10           IT IS SO ORDERED.
+11     Dated: October 12, 2021
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+                                                    11
+                                                                                        21cv31-H-LL
+

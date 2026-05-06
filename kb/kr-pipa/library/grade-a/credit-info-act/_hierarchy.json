@@ -1,0 +1,521 @@
+{
+  "law": "신용정보의 이용 및 보호에 관한 법률",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정의",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "신용정보 관련 산업의 육성",
+      "is_article": true
+    },
+    {
+      "number": "3의2",
+      "title": "다른 법률과의 관계",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "4",
+      "title": "신용정보업 등의 허가",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "신용정보업 등의 허가를 받을 수 있는 자",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "허가의 요건",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "허가 등의 공고",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "신고 및 보고 사항",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "대주주의 변경승인 등",
+      "is_article": true
+    },
+    {
+      "number": "9의2",
+      "title": "최대주주의 자격심사 등",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "양도ㆍ양수 등의 인가 등",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "겸영업무",
+      "is_article": true
+    },
+    {
+      "number": "11의2",
+      "title": "부수업무",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "유사명칭의 사용 금지",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "임원의 겸직 금지",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "허가 등의 취소와 업무의 정지",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "15",
+      "title": "수집 및 처리의 원칙",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "처리의 위탁",
+      "is_article": true
+    },
+    {
+      "number": "17의2",
+      "title": "정보집합물의 결합 등",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "18",
+      "title": "신용정보의 정확성 및 최신성의 유지",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "신용정보전산시스템의 안전보호",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "신용정보 관리책임의 명확화 및 업무처리기록의 보존",
+      "is_article": true
+    },
+    {
+      "number": "20의2",
+      "title": "개인신용정보의 보유기간 등",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "폐업 시 보유정보의 처리",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "22",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "22",
+      "title": "신용정보회사 임원의 자격요건 등",
+      "is_article": true
+    },
+    {
+      "number": "22의2",
+      "title": "신용정보 등의 보고",
+      "is_article": true
+    },
+    {
+      "number": "22의3",
+      "title": "개인신용평가 등에 관한 원칙",
+      "is_article": true
+    },
+    {
+      "number": "22의4",
+      "title": "개인신용평가회사의 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "22의5",
+      "title": "개인사업자신용평가회사의 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "22의6",
+      "title": "기업신용조회회사의 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "22의7",
+      "title": "신용조사회사의 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "22의8",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "22의8",
+      "title": "본인신용정보관리회사의 임원의 자격요건",
+      "is_article": true
+    },
+    {
+      "number": "22의9",
+      "title": "본인신용정보관리회사의 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "23",
+      "title": "공공기관에 대한 신용정보의 제공 요청 등",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "주민등록전산정보자료의 이용",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "25",
+      "title": "신용정보집중기관",
+      "is_article": true
+    },
+    {
+      "number": "25의2",
+      "title": "종합신용정보집중기관의 업무",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "신용정보집중관리위원회",
+      "is_article": true
+    },
+    {
+      "number": "26의2",
+      "title": "신용정보집중관리위원회의 구성ㆍ운영 등",
+      "is_article": true
+    },
+    {
+      "number": "26의3",
+      "title": "개인신용평가체계 검증위원회",
+      "is_article": true
+    },
+    {
+      "number": "26의4",
+      "title": "데이터전문기관",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "27",
+      "title": "채권추심업 종사자 및 위임직채권추심인 등",
+      "is_article": true
+    },
+    {
+      "number": "27의2",
+      "title": "무허가 채권추심업자에 대한 업무위탁의 금지",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "31",
+      "title": "신용정보활용체제의 공시",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "개인신용정보의 제공ㆍ활용에 대한 동의",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "개인신용정보의 이용",
+      "is_article": true
+    },
+    {
+      "number": "33의2",
+      "title": "개인신용정보의 전송요구",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "개인식별정보의 수집ㆍ이용 및 제공",
+      "is_article": true
+    },
+    {
+      "number": "34의2",
+      "title": "개인신용정보 등의 활용에 관한 동의의 원칙",
+      "is_article": true
+    },
+    {
+      "number": "34의3",
+      "title": "정보활용 동의등급",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "신용정보 이용 및 제공사실의 조회",
+      "is_article": true
+    },
+    {
+      "number": "35의2",
+      "title": "개인신용평점 하락 가능성 등에 대한 설명의무",
+      "is_article": true
+    },
+    {
+      "number": "35의3",
+      "title": "신용정보제공ㆍ이용자의 사전통지",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "상거래 거절 근거 신용정보의 고지 등",
+      "is_article": true
+    },
+    {
+      "number": "36의2",
+      "title": "자동화평가 결과에 대한 설명 및 이의제기 등",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "개인신용정보 제공 동의 철회권 등",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "신용정보의 열람 및 정정청구 등",
+      "is_article": true
+    },
+    {
+      "number": "38의2",
+      "title": "신용조회사실의 통지 요청",
+      "is_article": true
+    },
+    {
+      "number": "38의3",
+      "title": "개인신용정보의 삭제 요구",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "무료 열람권",
+      "is_article": true
+    },
+    {
+      "number": "39의2",
+      "title": "채권자변동정보의 열람 등",
+      "is_article": true
+    },
+    {
+      "number": "39의3",
+      "title": "신용정보주체의 권리행사 방법 및 절차",
+      "is_article": true
+    },
+    {
+      "number": "39의4",
+      "title": "개인신용정보 누설통지 등",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "신용정보회사등의 금지사항",
+      "is_article": true
+    },
+    {
+      "number": "40의2",
+      "title": "가명처리ㆍ익명처리에 관한 행위규칙",
+      "is_article": true
+    },
+    {
+      "number": "40의3",
+      "title": "가명정보에 대한 적용 제외",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "채권추심회사의 금지 사항",
+      "is_article": true
+    },
+    {
+      "number": "41의2",
+      "title": "모집업무수탁자의 모집경로 확인 등",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "업무 목적 외 누설금지 등",
+      "is_article": true
+    },
+    {
+      "number": "42의2",
+      "title": "과징금의 부과 등",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "손해배상의 책임",
+      "is_article": true
+    },
+    {
+      "number": "43의2",
+      "title": "법정손해배상의 청구",
+      "is_article": true
+    },
+    {
+      "number": "43의3",
+      "title": "손해배상의 보장",
+      "is_article": true
+    },
+    {
+      "number": "44",
+      "title": "신용정보협회",
+      "is_article": true
+    },
+    {
+      "number": "45",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "45",
+      "title": "감독ㆍ검사 등",
+      "is_article": true
+    },
+    {
+      "number": "45의2",
+      "title": "금융위원회의 조치명령권",
+      "is_article": true
+    },
+    {
+      "number": "45의3",
+      "title": "보호위원회의 자료제출 요구ㆍ조사 등",
+      "is_article": true
+    },
+    {
+      "number": "45의4",
+      "title": "보호위원회의 시정조치",
+      "is_article": true
+    },
+    {
+      "number": "45의5",
+      "title": "개인신용정보 활용ㆍ관리 실태에 대한 상시평가",
+      "is_article": true
+    },
+    {
+      "number": "46",
+      "title": "퇴임한 임원 등에 대한 조치 내용의 통보",
+      "is_article": true
+    },
+    {
+      "number": "47",
+      "title": "업무보고서의 제출",
+      "is_article": true
+    },
+    {
+      "number": "48",
+      "title": "청문",
+      "is_article": true
+    },
+    {
+      "number": "49",
+      "title": "권한의 위임ㆍ위탁",
+      "is_article": true
+    },
+    {
+      "number": "50",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "51",
+      "title": "양벌규정",
+      "is_article": true
+    },
+    {
+      "number": "52",
+      "title": "과태료",
+      "is_article": true
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "chapter": "I",
+    "chapter_title": "Subject matter and scope",
+    "articles": [
+      {
+        "article": 1,
+        "title": "Subject matter and scope"
+      },
+      {
+        "article": 2,
+        "title": "Definitions"
+      }
+    ]
+  },
+  {
+    "chapter": "II",
+    "chapter_title": "Obligation to make product data and related service data accessible to the user",
+    "articles": [
+      {
+        "article": 3,
+        "title": "Obligation to make product data and related service data accessible to the user"
+      },
+      {
+        "article": 4,
+        "title": "The rights and obligations of users and data holders with regard to access, use and making available product data and related service data"
+      },
+      {
+        "article": 5,
+        "title": "Right of the user to share data with third parties"
+      },
+      {
+        "article": 6,
+        "title": "Obligations of third parties receiving data at the request of the user"
+      },
+      {
+        "article": 7,
+        "title": "Scope of business-to-consumer and business-to-business data sharing obligations"
+      }
+    ]
+  },
+  {
+    "chapter": "III",
+    "chapter_title": "Conditions under which data holders make data available to data recipients",
+    "articles": [
+      {
+        "article": 8,
+        "title": "Conditions under which data holders make data available to data recipients"
+      },
+      {
+        "article": 9,
+        "title": "Compensation for making data available"
+      },
+      {
+        "article": 10,
+        "title": "Dispute settlement"
+      },
+      {
+        "article": 11,
+        "title": "Technical protection measures on the unauthorised use or disclosure of data"
+      },
+      {
+        "article": 12,
+        "title": "Scope of obligations for data holders obliged pursuant to Union law to make data available"
+      }
+    ]
+  },
+  {
+    "chapter": "IV",
+    "chapter_title": "Unfair contractual terms unilaterally imposed on another enterprise",
+    "articles": [
+      {
+        "article": 13,
+        "title": "Unfair contractual terms unilaterally imposed on another enterprise"
+      }
+    ]
+  },
+  {
+    "chapter": "V",
+    "chapter_title": "Obligation to make data available on the basis of an exceptional need",
+    "articles": [
+      {
+        "article": 14,
+        "title": "Obligation to make data available on the basis of an exceptional need"
+      },
+      {
+        "article": 15,
+        "title": "Exceptional need to use data"
+      },
+      {
+        "article": 16,
+        "title": "Relationship with other obligations to make data available to public sector bodies, the Commission, the European Central Bank and Union bodies"
+      },
+      {
+        "article": 17,
+        "title": "Requests for data to be made available"
+      },
+      {
+        "article": 18,
+        "title": "Compliance with requests for data"
+      },
+      {
+        "article": 19,
+        "title": "Obligations of public sector bodies, the Commission, the European Central Bank and Union bodies"
+      },
+      {
+        "article": 20,
+        "title": "Compensation in cases of an exceptional need"
+      },
+      {
+        "article": 21,
+        "title": "Sharing of data obtained in the context of an exceptional need with research organisations or statistical bodies"
+      },
+      {
+        "article": 22,
+        "title": "Mutual assistance and cross-border cooperation"
+      }
+    ]
+  },
+  {
+    "chapter": "VI",
+    "chapter_title": "Removing obstacles to effective switching",
+    "articles": [
+      {
+        "article": 23,
+        "title": "Removing obstacles to effective switching"
+      },
+      {
+        "article": 24,
+        "title": "Scope of the technical obligations"
+      },
+      {
+        "article": 25,
+        "title": "Contractual terms concerning switching"
+      },
+      {
+        "article": 26,
+        "title": "Information obligation of providers of data processing services"
+      },
+      {
+        "article": 27,
+        "title": "Obligation of good faith"
+      },
+      {
+        "article": 28,
+        "title": "Contractual transparency obligations on international access and transfer"
+      },
+      {
+        "article": 29,
+        "title": "Gradual withdrawal of switching charges"
+      },
+      {
+        "article": 30,
+        "title": "Technical aspects of switching"
+      },
+      {
+        "article": 31,
+        "title": "Specific regime for certain data processing services"
+      }
+    ]
+  },
+  {
+    "chapter": "VII",
+    "chapter_title": "International governmental access and transfer",
+    "articles": [
+      {
+        "article": 32,
+        "title": "International governmental access and transfer"
+      }
+    ]
+  },
+  {
+    "chapter": "VIII",
+    "chapter_title": "Essential requirements regarding interoperability of data, of data sharing mechanisms and services, as well as of common European data spaces",
+    "articles": [
+      {
+        "article": 33,
+        "title": "Essential requirements regarding interoperability of data, of data sharing mechanisms and services, as well as of common European data spaces"
+      },
+      {
+        "article": 34,
+        "title": "Interoperability for the purposes of in-parallel use of data processing services"
+      },
+      {
+        "article": 35,
+        "title": "Interoperability of data processing services"
+      },
+      {
+        "article": 36,
+        "title": "Essential requirements regarding smart contracts for executing data sharing agreements"
+      }
+    ]
+  },
+  {
+    "chapter": "IX",
+    "chapter_title": "Competent authorities and data coordinators",
+    "articles": [
+      {
+        "article": 37,
+        "title": "Competent authorities and data coordinators"
+      },
+      {
+        "article": 38,
+        "title": "Right to lodge a complaint"
+      },
+      {
+        "article": 39,
+        "title": "Right to an effective judicial remedy"
+      },
+      {
+        "article": 40,
+        "title": "Penalties"
+      },
+      {
+        "article": 41,
+        "title": "Model contractual terms and standard contractual clauses"
+      },
+      {
+        "article": 42,
+        "title": "Role of the EDIB"
+      }
+    ]
+  },
+  {
+    "chapter": "X",
+    "chapter_title": "Databases containing certain data",
+    "articles": [
+      {
+        "article": 43,
+        "title": "Databases containing certain data"
+      }
+    ]
+  },
+  {
+    "chapter": "XI",
+    "chapter_title": "Other Union legal acts governing rights and obligations on data access and use",
+    "articles": [
+      {
+        "article": 44,
+        "title": "Other Union legal acts governing rights and obligations on data access and use"
+      },
+      {
+        "article": 45,
+        "title": "Exercise of the delegation"
+      },
+      {
+        "article": 46,
+        "title": "Committee procedure"
+      },
+      {
+        "article": 47,
+        "title": "Amendment to Regulation (EU) 2017/2394"
+      },
+      {
+        "article": 48,
+        "title": "Amendment to Directive (EU) 2020/1828"
+      },
+      {
+        "article": 49,
+        "title": "Evaluation and review"
+      },
+      {
+        "article": 50,
+        "title": "Entry into force and application"
+      }
+    ]
+  }
+]

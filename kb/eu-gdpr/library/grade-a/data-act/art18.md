@@ -1,0 +1,59 @@
+---
+# === Identification ===
+law: "Data Act"
+law_id: "32023R2854"
+article: 18
+article_sub: 0
+article_title: "Compliance with requests for data"
+chapter: "V"
+chapter_title: "Obligation to make data available on the basis of an exceptional need"
+
+# === Source ===
+source_grade: "A"
+source_url: "https://eur-lex.europa.eu/eli/reg/2023/2854/art_18/oj/eng"
+effective_date: "20240111"
+last_amended: null
+retrieved_at: "2026-03-26"
+
+# === Relationships ===
+cross_references:
+  - "Art. 17(1)"
+  - "Art. 19(1)"
+  - "Art. 37"
+
+# === Search Metadata ===
+keywords:
+  - "compliance"
+  - "requests"
+  - "data"
+  - "public sector"
+  - "personal data"
+  - "data holder"
+  - "request"
+  - "make"
+  - "fine"
+---
+
+## Article 18 — Compliance with requests for data
+
+1. A data holder receiving a request to make data available under this Chapter shall make the data available to the requesting public sector body, the Commission, the European Central Bank or a Union body without undue delay, taking into account necessary technical, organisational and legal measures.
+
+2. Without prejudice to specific needs regarding the availability of data defined in Union or national law, a data holder may decline or seek the modification of a request to make data available under this Chapter without undue delay and, in any event, no later than five working days after the receipt of a request for the data necessary to respond to a public emergency and without undue delay and, in any event, no later than 30 working days after the receipt of such a request in other cases of an exceptional need, on any of the following grounds:
+
+(a)
+
+the data holder does not have control over the data requested;
+
+(b)
+
+a similar request for the same purpose has been previously submitted by another public sector body or the Commission, the European Central Bank or a Union body and the data holder has not been notified of the erasure of the data pursuant to Article 19(1), point (c);
+
+(c)
+
+the request does not meet the conditions laid down in Article 17(1) and (2).
+
+3. If the data holder decides to decline the request or to seek its modification in accordance with paragraph 2, point (b), it shall indicate the identity of the public sector body or the Commission, the European Central Bank or the Union body that previously submitted a request for the same purpose.
+
+4. Where the data requested includes personal data, the data holder shall properly anonymise the data, unless the compliance with the request to make data available to a public sector body, the Commission, the European Central Bank or a Union body requires the disclosure of personal data. In such cases, the data holder shall pseudonymise the data.
+
+5. Where the public sector body, the Commission, the European Central Bank or the Union body wishes to challenge a data holder’s refusal to provide the data requested, or where the data holder wishes to challenge the request and the matter cannot be resolved by an appropriate modification of the request, the matter shall be referred to the competent authority designated pursuant to Article 37 of the Member State where the data holder is established.

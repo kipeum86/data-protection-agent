@@ -1,0 +1,1041 @@
+{
+  "type": "guideline_index",
+  "collection": "PIPC Official Guidelines",
+  "source_grade": "A",
+  "count": 46,
+  "generated_at": "2026-03-27T05:33:05.683714",
+  "guidelines": [
+    {
+      "id": "pipc-guideline-1",
+      "guideline_id": "1",
+      "slug": "commentary-on-pipa",
+      "title_kr": "개인정보 보호법령 해설서",
+      "title_en": "Commentary on Personal Information Protection Laws",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/01-commentary-on-pipa.md",
+      "keywords": [
+        "법령해설",
+        "PIPA",
+        "총론"
+      ],
+      "topics": [
+        "법령해설",
+        "PIPA",
+        "총론"
+      ],
+      "char_count": 670780,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-2",
+      "guideline_id": "2",
+      "slug": "integrated-processing-guide",
+      "title_kr": "개인정보 처리 통합 안내서",
+      "title_en": "Integrated Guide to Personal Information Processing",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/02-integrated-processing-guide.md",
+      "keywords": [
+        "개인정보처리",
+        "수집",
+        "이용",
+        "제공",
+        "파기"
+      ],
+      "topics": [
+        "개인정보처리",
+        "수집",
+        "이용",
+        "제공",
+        "파기"
+      ],
+      "char_count": 226418,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-3",
+      "guideline_id": "3",
+      "slug": "sector-specific-guide",
+      "title_kr": "분야별 개인정보 보호 안내서",
+      "title_en": "Sector-Specific Personal Information Protection Guide",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/03-sector-specific-guide.md",
+      "keywords": [
+        "분야별",
+        "공공",
+        "민간",
+        "업종"
+      ],
+      "topics": [
+        "분야별",
+        "공공",
+        "민간",
+        "업종"
+      ],
+      "char_count": 371945,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-4",
+      "guideline_id": "4",
+      "slug": "emergency-processing",
+      "title_kr": "긴급상황 시 개인정보 처리 안내서",
+      "title_en": "Personal Information Processing During Emergencies",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/04-emergency-processing.md",
+      "keywords": [
+        "긴급상황",
+        "재난",
+        "감염병",
+        "생명보호"
+      ],
+      "topics": [
+        "긴급상황",
+        "재난",
+        "감염병",
+        "생명보호"
+      ],
+      "char_count": 91959,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-5",
+      "guideline_id": "5",
+      "slug": "children-adolescents",
+      "title_kr": "아동·청소년 개인정보 보호 안내서",
+      "title_en": "Guidelines on PI Protection for Children and Adolescents",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/05-children-adolescents.md",
+      "keywords": [
+        "아동",
+        "청소년",
+        "법정대리인",
+        "동의"
+      ],
+      "topics": [
+        "아동",
+        "청소년",
+        "법정대리인",
+        "동의"
+      ],
+      "char_count": 50940,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-6",
+      "guideline_id": "6",
+      "slug": "access-exclusion-right",
+      "title_kr": "인터넷 자기게시물 접근배제요청권 안내서",
+      "title_en": "Guidelines on Right to Request Access Exclusion",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/06-access-exclusion-right.md",
+      "keywords": [
+        "접근배제",
+        "잊힐권리",
+        "게시물삭제"
+      ],
+      "topics": [
+        "접근배제",
+        "잊힐권리",
+        "게시물삭제"
+      ],
+      "char_count": 9420,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-7",
+      "guideline_id": "7",
+      "slug": "automated-decision-making",
+      "title_kr": "자동화된 의사결정에 대한 정보주체 권리 안내서",
+      "title_en": "Guide on Data Subject Rights - Automated Decision-Making",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/07-automated-decision-making.md",
+      "keywords": [
+        "자동화의사결정",
+        "프로파일링",
+        "정보주체권리"
+      ],
+      "topics": [
+        "자동화의사결정",
+        "프로파일링",
+        "정보주체권리"
+      ],
+      "char_count": 75128,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-8",
+      "guideline_id": "8",
+      "slug": "safety-standards",
+      "title_kr": "개인정보의 안전성 확보조치 안내서",
+      "title_en": "Guide on Safety Standards for Personal Information",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/08-safety-standards.md",
+      "keywords": [
+        "안전조치",
+        "암호화",
+        "접근통제",
+        "보안"
+      ],
+      "topics": [
+        "안전조치",
+        "암호화",
+        "접근통제",
+        "보안"
+      ],
+      "char_count": 171615,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-9",
+      "guideline_id": "9",
+      "slug": "developer-privacy",
+      "title_kr": "개발자를 위한 프라이버시 보호조치 안내서",
+      "title_en": "Guide on Privacy Protection Measures for Developers",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/09-developer-privacy.md",
+      "keywords": [
+        "개발자",
+        "Privacy by Design",
+        "보호조치"
+      ],
+      "topics": [
+        "개발자",
+        "Privacy by Design",
+        "보호조치"
+      ],
+      "char_count": 92962,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-10",
+      "guideline_id": "10",
+      "slug": "biometric-info",
+      "title_kr": "생체정보 보호 안내서",
+      "title_en": "Guide on Biometric Information Protection",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/10-biometric-info.md",
+      "keywords": [
+        "생체정보",
+        "지문",
+        "홍채",
+        "얼굴인식"
+      ],
+      "topics": [
+        "생체정보",
+        "지문",
+        "홍채",
+        "얼굴인식"
+      ],
+      "char_count": 50002,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-11",
+      "guideline_id": "11",
+      "slug": "fixed-video-surveillance",
+      "title_kr": "고정형 영상정보처리기기 안내서",
+      "title_en": "Guide on Fixed Video Surveillance Systems",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/11-fixed-video-surveillance.md",
+      "keywords": [
+        "CCTV",
+        "영상정보",
+        "고정형"
+      ],
+      "topics": [
+        "CCTV",
+        "영상정보",
+        "고정형"
+      ],
+      "char_count": 38319,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-12",
+      "guideline_id": "12",
+      "slug": "mobile-surveillance",
+      "title_kr": "이동형 영상정보처리기기 개인정보 보호 안내서",
+      "title_en": "Guide on Mobile Surveillance Device Privacy",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/12-mobile-surveillance.md",
+      "keywords": [
+        "이동형",
+        "드론",
+        "바디캠",
+        "영상정보"
+      ],
+      "topics": [
+        "이동형",
+        "드론",
+        "바디캠",
+        "영상정보"
+      ],
+      "char_count": 95154,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-13",
+      "guideline_id": "13",
+      "slug": "smart-city",
+      "title_kr": "스마트시티 개인정보 보호 안내서",
+      "title_en": "Smart City Personal Information Protection Guide",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/13-smart-city.md",
+      "keywords": [
+        "스마트시티",
+        "IoT",
+        "도시데이터"
+      ],
+      "topics": [
+        "스마트시티",
+        "IoT",
+        "도시데이터"
+      ],
+      "char_count": 43787,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-14",
+      "guideline_id": "14",
+      "slug": "website-exposure-prevention",
+      "title_kr": "홈페이지 개인정보 노출방지 안내서",
+      "title_en": "Guide on Preventing PI Exposure on Websites",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/14-website-exposure-prevention.md",
+      "keywords": [
+        "웹사이트",
+        "노출방지",
+        "개인정보유출"
+      ],
+      "topics": [
+        "웹사이트",
+        "노출방지",
+        "개인정보유출"
+      ],
+      "char_count": 71575,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-15",
+      "guideline_id": "15",
+      "slug": "synthetic-data",
+      "title_kr": "합성데이터 활용 안내서",
+      "title_en": "Guidelines on Synthetic Data Utilization",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/15-synthetic-data.md",
+      "keywords": [
+        "합성데이터",
+        "데이터활용",
+        "비식별"
+      ],
+      "topics": [
+        "합성데이터",
+        "데이터활용",
+        "비식별"
+      ],
+      "char_count": 86050,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-16",
+      "guideline_id": "16",
+      "slug": "pseudonymization",
+      "title_kr": "가명정보 처리 가이드라인",
+      "title_en": "Guidelines on Pseudonymized Information Processing",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/16-pseudonymization.md",
+      "keywords": [
+        "가명정보",
+        "가명처리",
+        "결합",
+        "재식별"
+      ],
+      "topics": [
+        "가명정보",
+        "가명처리",
+        "결합",
+        "재식별"
+      ],
+      "char_count": 217559,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-17",
+      "guideline_id": "17",
+      "slug": "pseudonymization-public",
+      "title_kr": "공공부문 가명정보 처리 실무 안내서",
+      "title_en": "Practical Guide on Pseudonymized Info in Public Sector",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/17-pseudonymization-public.md",
+      "keywords": [
+        "가명정보",
+        "공공부문",
+        "실무"
+      ],
+      "topics": [
+        "가명정보",
+        "공공부문",
+        "실무"
+      ],
+      "char_count": 32665,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-18",
+      "guideline_id": "18",
+      "slug": "pseudonymization-education",
+      "title_kr": "교육분야 가명정보 처리 안내서",
+      "title_en": "Guidelines on Pseudonymization in Education",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/18-pseudonymization-education.md",
+      "keywords": [
+        "가명정보",
+        "교육",
+        "학생정보"
+      ],
+      "topics": [
+        "가명정보",
+        "교육",
+        "학생정보"
+      ],
+      "char_count": 205227,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-19",
+      "guideline_id": "19",
+      "slug": "health-medical-data",
+      "title_kr": "보건의료 데이터 활용 안내서",
+      "title_en": "Guidelines on Health and Medical Data Utilization",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/19-health-medical-data.md",
+      "keywords": [
+        "보건의료",
+        "건강정보",
+        "의료데이터"
+      ],
+      "topics": [
+        "보건의료",
+        "건강정보",
+        "의료데이터"
+      ],
+      "char_count": 135392,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-20",
+      "guideline_id": "20",
+      "slug": "synthetic-data-reference-model",
+      "title_kr": "합성데이터 생성 참조모델",
+      "title_en": "Synthetic Data Generation Reference Model",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/20-synthetic-data-reference-model.md",
+      "keywords": [
+        "합성데이터",
+        "생성모델",
+        "기술표준"
+      ],
+      "topics": [
+        "합성데이터",
+        "생성모델",
+        "기술표준"
+      ],
+      "char_count": 156033,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-21",
+      "guideline_id": "21",
+      "slug": "public-ai-development",
+      "title_kr": "AI 개발을 위한 공공 개인정보 처리 안내서",
+      "title_en": "Guide on Processing Public PI for AI Development",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/21-public-ai-development.md",
+      "keywords": [
+        "AI",
+        "공공데이터",
+        "학습데이터"
+      ],
+      "topics": [
+        "AI",
+        "공공데이터",
+        "학습데이터"
+      ],
+      "char_count": 50524,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-22",
+      "guideline_id": "22",
+      "slug": "ai-privacy-risk-assessment",
+      "title_kr": "AI 프라이버시 리스크 평가 모델",
+      "title_en": "Privacy Risk Assessment Model for AI",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/22-ai-privacy-risk-assessment.md",
+      "keywords": [
+        "AI",
+        "리스크평가",
+        "프라이버시"
+      ],
+      "topics": [
+        "AI",
+        "리스크평가",
+        "프라이버시"
+      ],
+      "char_count": 80067,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-23",
+      "guideline_id": "23",
+      "slug": "generative-ai",
+      "title_kr": "생성AI에 의한 개인정보 처리 안내서",
+      "title_en": "Guide on PI Processing for Generative AI",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/23-generative-ai.md",
+      "keywords": [
+        "생성AI",
+        "ChatGPT",
+        "LLM",
+        "개인정보"
+      ],
+      "topics": [
+        "생성AI",
+        "ChatGPT",
+        "LLM",
+        "개인정보"
+      ],
+      "char_count": 56245,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-24",
+      "guideline_id": "24",
+      "slug": "privacy-policy-drafting",
+      "title_kr": "개인정보 처리방침 작성 안내서",
+      "title_en": "Guidelines for Drafting Privacy Policies",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/24-privacy-policy-drafting.md",
+      "keywords": [
+        "처리방침",
+        "Privacy Policy",
+        "고지"
+      ],
+      "topics": [
+        "처리방침",
+        "Privacy Policy",
+        "고지"
+      ],
+      "char_count": 109048,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-25",
+      "guideline_id": "25",
+      "slug": "privacy-impact-assessment",
+      "title_kr": "개인정보 영향평가 수행 안내서",
+      "title_en": "Guide on Conducting Privacy Impact Assessments",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/25-privacy-impact-assessment.md",
+      "keywords": [
+        "영향평가",
+        "PIA",
+        "위험분석"
+      ],
+      "topics": [
+        "영향평가",
+        "PIA",
+        "위험분석"
+      ],
+      "char_count": 395497,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-26",
+      "guideline_id": "26",
+      "slug": "pia-cost-estimation",
+      "title_kr": "개인정보 영향평가 비용 산정 안내서",
+      "title_en": "Guide on Cost Estimation for PIAs",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/26-pia-cost-estimation.md",
+      "keywords": [
+        "영향평가",
+        "비용산정",
+        "PIA"
+      ],
+      "topics": [
+        "영향평가",
+        "비용산정",
+        "PIA"
+      ],
+      "char_count": 40744,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-27",
+      "guideline_id": "27",
+      "slug": "isms-p-certification",
+      "title_kr": "ISMS-P 인증기준 안내서",
+      "title_en": "Guide on ISMS-P Certification Standards",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/27-isms-p-certification.md",
+      "keywords": [
+        "ISMS-P",
+        "인증",
+        "정보보호"
+      ],
+      "topics": [
+        "ISMS-P",
+        "인증",
+        "정보보호"
+      ],
+      "char_count": 261701,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-28",
+      "guideline_id": "28",
+      "slug": "privacy-education",
+      "title_kr": "개인정보 보호 교육 안내서",
+      "title_en": "Guide on Personal Information Protection Education",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/28-privacy-education.md",
+      "keywords": [
+        "교육",
+        "인식제고",
+        "담당자교육"
+      ],
+      "topics": [
+        "교육",
+        "인식제고",
+        "담당자교육"
+      ],
+      "char_count": 19113,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-29",
+      "guideline_id": "29",
+      "slug": "breach-response",
+      "title_kr": "개인정보 유출사고 대응 매뉴얼",
+      "title_en": "Incident Response Manual for PI Breaches",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/29-breach-response.md",
+      "keywords": [
+        "유출사고",
+        "침해사고",
+        "대응",
+        "통지"
+      ],
+      "topics": [
+        "유출사고",
+        "침해사고",
+        "대응",
+        "통지"
+      ],
+      "char_count": 42843,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-30-en",
+      "guideline_id": "30-en",
+      "slug": "foreign-business-en",
+      "title_kr": "Guide on Application of PIPA to Foreign Businesses (EN)",
+      "title_en": "Guide on Application of PIPA to Foreign Businesses (EN)",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/30-en-foreign-business-en.md",
+      "keywords": [
+        "외국사업자",
+        "역외적용",
+        "English"
+      ],
+      "topics": [
+        "외국사업자",
+        "역외적용",
+        "English"
+      ],
+      "char_count": 136788,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-30-kr",
+      "guideline_id": "30-kr",
+      "slug": "foreign-business-kr",
+      "title_kr": "외국의 사업자에 대한 개인정보 보호법 적용 안내서",
+      "title_en": "Guide on Application of PIPA to Foreign Businesses (KR)",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/30-kr-foreign-business-kr.md",
+      "keywords": [
+        "외국사업자",
+        "역외적용"
+      ],
+      "topics": [
+        "외국사업자",
+        "역외적용"
+      ],
+      "char_count": 50576,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-31",
+      "guideline_id": "31",
+      "slug": "liability-insurance",
+      "title_kr": "개인정보 손해배상 책임보험 안내서",
+      "title_en": "Guide on Liability Insurance for PI Damages",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/31-liability-insurance.md",
+      "keywords": [
+        "손해배상",
+        "보험",
+        "배상책임"
+      ],
+      "topics": [
+        "손해배상",
+        "보험",
+        "배상책임"
+      ],
+      "char_count": 36224,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-32",
+      "guideline_id": "32",
+      "slug": "qa-compilation",
+      "title_kr": "개인정보 보호 QA 모음집",
+      "title_en": "Personal Information QA Compilation",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/32-qa-compilation.md",
+      "keywords": [
+        "FAQ",
+        "질의응답",
+        "실무해석"
+      ],
+      "topics": [
+        "FAQ",
+        "질의응답",
+        "실무해석"
+      ],
+      "char_count": 81793,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-33",
+      "guideline_id": "33",
+      "slug": "data-portability",
+      "title_kr": "개인정보 전송요구권 안내서",
+      "title_en": "Guide on Right to Data Portability",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/33-data-portability.md",
+      "keywords": [
+        "전송요구권",
+        "데이터이동권",
+        "포터빌리티"
+      ],
+      "topics": [
+        "전송요구권",
+        "데이터이동권",
+        "포터빌리티"
+      ],
+      "char_count": 139974,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-34",
+      "guideline_id": "34",
+      "slug": "management-agency-general",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (일반)",
+      "title_en": "Guide on Designating PI Management Agencies - General",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/34-management-agency-general.md",
+      "keywords": [
+        "관리전문기관",
+        "지정",
+        "일반"
+      ],
+      "topics": [
+        "관리전문기관",
+        "지정",
+        "일반"
+      ],
+      "char_count": 89019,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-35",
+      "guideline_id": "35",
+      "slug": "management-agency-special",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (특례)",
+      "title_en": "Guide on Designating PI Management Agencies - Special",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/35-management-agency-special.md",
+      "keywords": [
+        "관리전문기관",
+        "지정",
+        "특례"
+      ],
+      "topics": [
+        "관리전문기관",
+        "지정",
+        "특례"
+      ],
+      "char_count": 103793,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-36",
+      "guideline_id": "36",
+      "slug": "management-agency-relay",
+      "title_kr": "개인정보 관리전문기관 지정 안내서 (중계)",
+      "title_en": "Guide on Designating PI Management Agencies - Relay",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/36-management-agency-relay.md",
+      "keywords": [
+        "관리전문기관",
+        "지정",
+        "중계"
+      ],
+      "topics": [
+        "관리전문기관",
+        "지정",
+        "중계"
+      ],
+      "char_count": 108514,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-37",
+      "guideline_id": "37",
+      "slug": "general-data-recipient",
+      "title_kr": "일반 데이터 수령인 등록 안내서",
+      "title_en": "Guide on Registration as a General Data Recipient",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/37-general-data-recipient.md",
+      "keywords": [
+        "데이터수령인",
+        "등록",
+        "MyData"
+      ],
+      "topics": [
+        "데이터수령인",
+        "등록",
+        "MyData"
+      ],
+      "char_count": 37530,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-38",
+      "guideline_id": "38",
+      "slug": "mydata-transfer-procedures",
+      "title_kr": "분야 간 본인정보 전송 절차·기술 안내서",
+      "title_en": "Cross-Sector MyData Transfer Procedures and Technical Guidelines",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/38-mydata-transfer-procedures.md",
+      "keywords": [
+        "MyData",
+        "본인정보전송",
+        "기술표준"
+      ],
+      "topics": [
+        "MyData",
+        "본인정보전송",
+        "기술표준"
+      ],
+      "char_count": 86888,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-39a",
+      "guideline_id": "39a",
+      "slug": "industry-real-estate",
+      "title_kr": "업종별 개인정보 처리 안내서 - 부동산",
+      "title_en": "Industry-Specific PI Processing Guide - Real Estate",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/39a-industry-real-estate.md",
+      "keywords": [
+        "부동산",
+        "업종별",
+        "중개"
+      ],
+      "topics": [
+        "부동산",
+        "업종별",
+        "중개"
+      ],
+      "char_count": 362021,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-39b",
+      "guideline_id": "39b",
+      "slug": "industry-hotels",
+      "title_kr": "업종별 개인정보 처리 안내서 - 숙박업",
+      "title_en": "Industry-Specific PI Processing Guide - Hotels",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/39b-industry-hotels.md",
+      "keywords": [
+        "숙박업",
+        "업종별",
+        "호텔"
+      ],
+      "topics": [
+        "숙박업",
+        "업종별",
+        "호텔"
+      ],
+      "char_count": 195853,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-39c",
+      "guideline_id": "39c",
+      "slug": "industry-academies",
+      "title_kr": "업종별 개인정보 처리 안내서 - 학원",
+      "title_en": "Industry-Specific PI Processing Guide - Academies",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/39c-industry-academies.md",
+      "keywords": [
+        "학원",
+        "업종별",
+        "교육"
+      ],
+      "topics": [
+        "학원",
+        "업종별",
+        "교육"
+      ],
+      "char_count": 296121,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-40",
+      "guideline_id": "40",
+      "slug": "small-business-handbook",
+      "title_kr": "소상공인 개인정보 보호 핸드북",
+      "title_en": "PI Protection Handbook for Small Businesses",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/40-small-business-handbook.md",
+      "keywords": [
+        "소상공인",
+        "소규모",
+        "핸드북"
+      ],
+      "topics": [
+        "소상공인",
+        "소규모",
+        "핸드북"
+      ],
+      "char_count": 24433,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-41a",
+      "guideline_id": "41a",
+      "slug": "template-real-estate",
+      "title_kr": "표준 개인정보처리방침 - 공인중개사",
+      "title_en": "Standard Privacy Policy Template - Real Estate Agents",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/41a-template-real-estate.md",
+      "keywords": [
+        "템플릿",
+        "처리방침",
+        "공인중개사"
+      ],
+      "topics": [
+        "템플릿",
+        "처리방침",
+        "공인중개사"
+      ],
+      "char_count": 40384,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-41b",
+      "guideline_id": "41b",
+      "slug": "template-senior-welfare",
+      "title_kr": "표준 개인정보처리방침 - 노인복지관",
+      "title_en": "Standard Privacy Policy Template - Senior Welfare Centers",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/41b-template-senior-welfare.md",
+      "keywords": [
+        "템플릿",
+        "처리방침",
+        "노인복지관"
+      ],
+      "topics": [
+        "템플릿",
+        "처리방침",
+        "노인복지관"
+      ],
+      "char_count": 44574,
+      "retrieved_at": "2026-03-24"
+    },
+    {
+      "id": "pipc-guideline-41c",
+      "guideline_id": "41c",
+      "slug": "template-travel-agency",
+      "title_kr": "표준 개인정보처리방침 - 여행사",
+      "title_en": "Standard Privacy Policy Template - Travel Agencies",
+      "source_grade": "A",
+      "publisher": "개인정보보호위원회 (PIPC)",
+      "path": "library/grade-a/pipc-guidelines/41c-template-travel-agency.md",
+      "keywords": [
+        "템플릿",
+        "처리방침",
+        "여행사"
+      ],
+      "topics": [
+        "템플릿",
+        "처리방침",
+        "여행사"
+      ],
+      "char_count": 52093,
+      "retrieved_at": "2026-03-24"
+    }
+  ]
+}

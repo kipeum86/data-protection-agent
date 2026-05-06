@@ -1,0 +1,63 @@
+{
+  "type": "legislative_proposal_index",
+  "count": 2,
+  "generated_at": "2026-03-27T03:30:00.000000+00:00",
+  "proposals": [
+    {
+      "id": "b-proposal-com-2025-836-digital-omnibus-ai",
+      "slug": "com-2025-836-digital-omnibus-ai",
+      "title": "Digital Omnibus on AI — Proposal amending AI Act (Regulation 2024/1689) and EASA Regulation (2018/1139)",
+      "com_number": "COM(2025) 836 final",
+      "publisher": "European Commission",
+      "published_date": "2025-11-19",
+      "path": "library/grade-b/legislative-proposals/com-2025-836-digital-omnibus-ai.md",
+      "source_grade": "B",
+      "amends": [
+        "Regulation (EU) 2024/1689 (AI Act)",
+        "Regulation (EU) 2018/1139 (EASA Regulation)"
+      ],
+      "keywords": [
+        "AI Act",
+        "omnibus",
+        "simplification",
+        "high-risk AI",
+        "GPAI",
+        "regulatory sandbox",
+        "SME"
+      ]
+    },
+    {
+      "id": "b-proposal-com-2025-837-digital-legislation-omnibus",
+      "slug": "com-2025-837-digital-legislation-omnibus",
+      "title": "Digital Legislation Omnibus — Proposal amending GDPR, ePrivacy, Data Act, NIS2, CER and repealing DGA, Open Data Directive, P2B, Free Flow of Non-Personal Data",
+      "com_number": "COM(2025) 837 final",
+      "publisher": "European Commission",
+      "published_date": "2025-11-19",
+      "path": "library/grade-b/legislative-proposals/com-2025-837-digital-legislation-omnibus.md",
+      "source_grade": "B",
+      "amends": [
+        "Regulation (EU) 2016/679 (GDPR)",
+        "Directive 2002/58/EC (ePrivacy Directive)",
+        "Regulation (EU) 2023/2854 (Data Act)",
+        "Directive (EU) 2022/2555 (NIS2)",
+        "Directive (EU) 2022/2557 (CER Directive)"
+      ],
+      "repeals": [
+        "Regulation (EU) 2022/868 (Data Governance Act)",
+        "Regulation (EU) 2018/1807 (Free Flow of Non-Personal Data)",
+        "Regulation (EU) 2019/1150 (P2B Regulation)",
+        "Directive (EU) 2019/1024 (Open Data Directive)"
+      ],
+      "keywords": [
+        "GDPR amendment",
+        "ePrivacy",
+        "Data Act",
+        "omnibus",
+        "simplification",
+        "cookie consent",
+        "breach notification",
+        "pseudonymised data"
+      ]
+    }
+  ]
+}

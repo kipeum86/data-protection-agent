@@ -1,0 +1,1190 @@
+                                           Case 3:24-cv-02609-JSC            Document 51       Filed 03/28/25      Page 1 of 18
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                       UNITED STATES DISTRICT COURT
+
+                                   5                                      NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7       R.C., et al.,                                        Case No. 24-cv-02609-JSC
+                                                            Plaintiffs,
+                                   8
+                                                                                                ORDER RE: DEFENDANT’S MOTION
+                                                     v.                                         TO DISMISS PLAINTIFFS’ SECOND
+                                   9
+                                                                                                AMENDED COMPLAINT
+                                  10       SUSSEX PUBLISHERS, LLC,
+                                                                                                Re: Dkt. No. 42
+                                                            Defendant.
+                                  11
+
+                                  12
+
+
+ United States District Court
+                                  13              Plaintiffs R.C. and D.G. (collectively “Plaintiffs”) bring this putative class action against
+
+                                  14   Sussex Publishers, LLC claiming it disclosed and mishandled their private and medical
+
+                                  15   information in violation of California law. (Dkt. No. 36.)1 Defendant now moves to dismiss the
+
+
+
+Northern District of California
+                                  16   Second Amended Complaint (“SAC”) on the grounds Plaintiffs lack standing and have not stated
+
+                                  17   a plausible claim. (Dkt. No. 42.) After carefully considering the parties’ written submissions, and
+
+                                  18   having had the benefit of oral argument on February 27, 2024, the Court GRANTS in part and
+
+                                  19   DENIES in part Defendant’s motion.
+
+                                  20                                                BACKGROUND
+
+                                  21         I.      SAC Allegations
+
+                                  22              Defendant owns the website ww.psychologytoday.com (the “website” or the “site”) which
+
+                                  23   “publishes content written by clinicians, experts, and researchers from across the field of behavior
+
+                                  24   and psychology.” (Dkt. No. 36 ¶ 27.) The site “facilitates the provision of mental health services
+
+                                  25   by listed therapists” and features “a button and link for consumers to contact therapists directly,”
+
+                                  26   “send[s] consumers emails with copies of their private communications to therapists containing
+
+                                  27
+
+                                  28
+                                       1
+                                        Record citations are to material in the Electronic Case File (“ECF”); pinpoint citations are to the
+                                       ECF-generated page numbers at the top of the documents.
+                                        Case 3:24-cv-02609-JSC           Document 51          Filed 03/28/25     Page 2 of 18
+
+
+
+
+                                   1   medical information” and “dates and times of their scheduled appointments,” and Defendant
+
+                                   2   “host[s] teletherapy sessions on the Psychology Today website or mobile app.” (Id. ¶ 28.)
+
+                                   3          “Google Analytics code is embedded into the Psychology Today website.” (Id. ¶ 6.)
+
+                                   4   “When a user accesses a website hosting Google Analytics, Google’s code surreptitiously directs
+
+                                   5   the user’s browser to duplicate the communication with the host website and concurrently send
+
+                                   6   that copied message to Google’s servers.” (Id. ¶ 40.) Google thus collects “a user’s interactions
+
+                                   7   in real-time as the user navigates the page.” (Id. ¶ 41.) “That includes [] any information that the
+
+                                   8   user may input and the links that the user clicked.” (Id.)
+
+                                   9          Defendant maintains a “free online directory that lists clinical professionals, psychiatrists,
+
+                                  10   treatment centers, and support groups providing mental health services.” (Id. ¶ 48.) Users can
+
+                                  11   access the directory either by using a search function or by clicking on the “Find a Therapist” link.
+
+                                  12   (Id. ¶ 49.) Using this link, a user inputs their desired “city or zip code” and then clicks various
+
+
+ United States District Court
+                                  13   filters to narrow their search, “specifying [their] mental health concerns, insurance provider,
+
+                                  14   gender preference, type of therapy sought, age range treated, price, and many other preferences.”
+
+                                  15   (Id.) Use “of this feature yields a list of potential therapists.” (Id. ¶ 51.) The site includes a
+
+
+
+Northern District of California
+                                  16   function whereby a user could “click a telephone number or telephone icon to place a call or,
+
+                                  17   alternatively, they can click an ‘Email me’ button that pops up a browser window with a fillable
+
+                                  18   form.” (Id. ¶ 52.) The user can then send an email directly to the provider. (Id.)
+
+                                  19          Because Defendant allows Google Analytics to run on its site, Google is able to, “in real-
+
+                                  20   time, surreptitiously [] duplicat[e] and collect[] users’ sensitive information.” (Id. ¶ 56.) “In
+
+                                  21   addition to IP addresses, that personal information includes but is not limited to (1) the user’s
+
+                                  22   specific medical or mental health symptoms and concerns giving rise to the need for therapy; (2)
+
+                                  23   the type of care or treatment that the user is requesting; (3) information concerning the user’s
+
+                                  24   gender, ethnicity, and faith preferences regarding the therapist; (4) the city or zip code where the
+
+                                  25   user is seeking therapy sessions; (5) the user’s health insurance provider; and (6) information
+
+                                  26   regarding the mental health providers viewed and/or contacted if that was done directly through
+
+                                  27   the website.” (Id. ¶ 56.)
+
+                                  28          Google offers an anonymization feature for its Analytics code which automatically
+                                                                                          2
+                                           Case 3:24-cv-02609-JSC           Document 51        Filed 03/28/25      Page 3 of 18
+
+
+
+
+                                   1   anonymizes the user’s IP address, but Defendant “did not enable or utilize Google’s IP
+
+                                   2   anonymization feature before the Complaint was filed.” (Id. ¶¶ 62, 64.)2 Plaintiff R.C. used the
+
+                                   3   site’s filters, “which reflected his symptoms and the type of therapy he was seeking” to find a
+
+                                   4   therapist in his zip code who accepted his insurance. (Id. ¶ 12.) He was not aware nor did he
+
+                                   5   consent to this information being simultaneously shared with Google. (Id. ¶ 16.) Plaintiff D.G.
+
+                                   6   used the same feature multiple times from November 7, 2019 through 2023, using the filter
+
+                                   7   options for “symptoms and issues indicating her mental health concerns and need for treatment,”
+
+                                   8   as well as her faith, her zip code, and her insurer. (Id. ¶¶ 19-20.)
+
+                                   9         II.      Procedural Background
+
+                                  10               Plaintiffs filed the operative SAC on October 31, 2024 alleging the following claims:
+
+                                  11               (1) California Medical Information Act (“CMIA”),
+
+                                  12               (2) California Consumer Privacy Act (“CCPA”),
+
+
+ United States District Court
+                                  13               (3) aiding and abetting liability for unlawful interception by Google pursuant to California
+
+                                  14               Penal Code 631,
+
+                                  15               (4) unlawful eavesdropping under California Penal Code § 632, and
+
+
+
+Northern District of California
+                                  16               (5) invasion of privacy under Article I § 1 of the California Constitution.
+
+                                  17   (Dkt. No. 36.) Defendant moves to dismiss Plaintiffs’ complaint under Federal Rule of Civil
+
+                                  18   Procedure 12(b)(1) for failure to allege a concrete and particularized injury sufficient to confer
+
+                                  19   standing. (Dkt. No. 42.) Defendant alternatively moves to dismiss the SAC under Rule 12(b)(6)
+
+                                  20   for failure to state a claim upon which relief may be granted. (Id.)
+
+                                  21                                                   ANALYSIS
+
+                                  22         I.       Motion to Dismiss for Lack of Jurisdiction (Rule 12(b)(1))
+
+                                  23               A jurisdictional attack may be factual or facial. White v. Lee, 227 F.3d 1214, 1242 (9th
+
+                                  24   Cir. 2000). A facial attack “asserts that the allegations contained in a complaint are insufficient on
+
+                                  25   their face to invoke federal jurisdiction.” Safe Air for Everyone v. Meyer, 373 F.3d 1035, 1039
+
+                                  26   (9th Cir. 2004). “The district court resolves a facial attack as it would a motion to dismiss under
+
+                                  27
+
+                                  28
+                                       2
+                                        As of the time of the SAC filing, Google’s latest iteration of its Analytics code automatically
+                                       anonymizes all IP addresses. (Id. ¶ 8 n.3.)
+                                                                                        3
+                                           Case 3:24-cv-02609-JSC        Document 51        Filed 03/28/25       Page 4 of 18
+
+
+
+
+                                   1   Rule 12(b)(6): Accepting the plaintiff’s allegations as true and drawing all reasonable inferences
+
+                                   2   in the plaintiff's favor, the court determines whether the allegations are sufficient as a legal matter
+
+                                   3   to invoke the court’s jurisdiction.” Leite v. Crane Co., 749 F.3d 1117, 1121 (9th Cir. 2014). But
+
+                                   4   on a factual attack, a defendant presents extrinsic evidence, so “the court need not presume the
+
+                                   5   truthfulness of the plaintiff’s allegations.” Safe Air for Everyone, 373 F.3d at 1039. “When the
+
+                                   6   defendant raises a factual attack, the plaintiff must support [his] jurisdictional allegations with
+
+                                   7   competent proof, under the same evidentiary standard that governs in the summary judgment
+
+                                   8   context.” Leite, 749 F.3d at 1121 (citations omitted).
+
+                                   9            Defendant argues Plaintiffs lack standing to bring their claims because they fail to allege
+
+                                  10   concrete and particularized harm sufficient to establish injury-in-fact. “Article III of the
+
+                                  11   Constitution limits the jurisdiction of federal courts to ‘Cases’ and ‘Controversies.’” Murthy v.
+
+                                  12   Missouri, 603 U.S. 43, 56 (2024). And “[a] proper case or controversy exists only when at least
+
+
+ United States District Court
+                                  13   one plaintiff establishes that she has standing to sue.” Id. at 57 (cleaned up). So, a plaintiff must
+
+                                  14   “show that she has suffered, or will suffer, an injury that is concrete, particularized, and actual or
+
+                                  15   imminent[.]” Id.
+
+
+
+Northern District of California
+                                  16            Defendant argues the information it authorized Google to obtain is not individually
+
+                                  17   identifiable and therefore Plaintiffs suffered no harm from its disclosure. Defendant presents a
+
+                                  18   declaration from its expert Kenneth Oliver, who specializes in IP address analysis training. (Dkt.
+
+                                  19   No. 42-1 ¶ 2.) Mr. Oliver testifies there are two types of IP addresses: public and private. (Id. ¶¶
+
+                                  20   9-21.)3 Public IP addresses are “shared with the server of every website visited” and are “a
+
+                                  21   globally unique address assigned to a gateway device.” (Id. ¶¶ 9, 16.) Defendant only collects
+
+                                  22   and shares public IP addresses with Google. (Id. ¶ 38.)     Most public IP addresses are dynamic,
+
+                                  23   meaning “they change over time.” (Id. ¶¶ 13, 20.) Mr. Oliver attests that a public IP address can
+
+                                  24   only identify “(1) the name of the ISP [“Internet Service Provider”] who leased the public IP
+
+                                  25   address and (2) general geographic location of the gateway device to which the public IP address
+
+                                  26   was leased (country, city, region, or zip code).” (Id. ¶ 28.) So, likening IP addresses to zip codes,
+
+                                  27
+
+                                  28
+                                       3
+                                        Private IP addresses are device specific and are “not visible to or accessible from the internet or
+                                       specific webpages.” (Id. ¶¶ 17-18.)
+                                                                                        4
+                                        Case 3:24-cv-02609-JSC          Document 51          Filed 03/28/25     Page 5 of 18
+
+
+
+
+                                   1   Defendant argues there is no injury-in-fact from such disclosure. See Big 5 Sporting Goods Corp.
+
+                                   2   v. Zurich Am. Ins. Co., 635 Fed. App’x 351, 354 (9th Cir. 2015) (“California does not recognize
+
+                                   3   any common law or constitutional privacy right causes of action for requesting, sending,
+
+                                   4   transmitting, communicating, distributing, or commercially using ZIP Codes.”).
+
+                                   5          Plaintiffs provide their own expert declaration in response. (Dkt. No. 43-1.) Plaintiffs’
+
+                                   6   expert Mr. Greenfield is both a Chief Forensic Examiner and a professor of Information
+
+                                   7   Technology. (Id. ¶¶ 3, 4.) While Mr. Greenfield largely agrees with Mr. Oliver’s statements, he
+
+                                   8   adds, “[a]t any given moment, no other system can be assigned the same IP address.” (Id. ¶ 11.)
+
+                                   9   And, “while public IP addresses alone do not provide a users’ [sic] name, they may act as unique
+
+                                  10   digital identifiers that can correlate to a specific household, workplace, or even an individual
+
+                                  11   system.” (Id. ¶ 25.)
+
+                                  12           “When the jurisdictional and merits issues are inseparable, the court must treat a factual
+
+
+ United States District Court
+                                  13   attack on jurisdiction as a motion for summary judgment and construe disputed issues of fact in
+
+                                  14   favor of the nonmoving party.” Bowen v. Energizer Holdings, Inc., 118 F.4th 1134, 1139 (9th
+
+                                  15   Cir. 2024). In other words, “when jurisdictional issues are ‘intertwined with an element of the
+
+
+
+Northern District of California
+                                  16   merits of the plaintiff’s claim,’ the court must treat the motion like a motion for summary
+
+                                  17   judgment and ‘leave the resolution of material factual disputes to the trier of fact.’” Id. at 1143
+
+                                  18   (quoting Leite, 749 F.3d at 1121).
+
+                                  19          Plaintiffs’ CMIA claims require finding the information is individually identifying. See,
+
+                                  20   e.g., Cal. Civ. Code § 56.05(j) (requiring a plaintiff alleging violation of the CMIA to prove the
+
+                                  21   information is “individually identifiable”). And the CIPA and California Constitution claims
+
+                                  22   require Plaintiffs have a privacy interest in the collected information. See, e.g., Cal. Penal Code §
+
+                                  23   632(a) (proscribing against eavesdropping upon “confidential communication”); Pioneer Elecs.
+
+                                  24   (USA), Inc. v. Superior Ct., 40 Cal. 4th 360, 370 (2007) (holding “the right of privacy protects the
+
+                                  25   individual’s reasonable expectation of privacy against a serious invasion.”). So, whether
+
+                                  26   disclosing IP information, when combined with the filtering data, is a concrete and particularized
+
+                                  27   injury ultimately is a question “intertwined with an element of the merits of plaintiff’s claim,” and
+
+                                  28   as such, the summary judgment standard applies. Bowen, 118 F.4th at 1143.
+                                                                                         5
+                                           Case 3:24-cv-02609-JSC        Document 51       Filed 03/28/25      Page 6 of 18
+
+
+
+
+                                   1            Applying the summary judgment standard, and in light of the current record, the Court
+
+                                   2   cannot find, as a matter of law, that disclosure of Plaintiffs’ IP addresses and other information
+
+                                   3   Plaintiffs input into the site—such as their insurance provider, the type of therapy they sought, and
+
+                                   4   their mental health conditions—is not a concrete and particularized injury sufficient to confer
+
+                                   5   standing. In determining statutory standing under CIPA, courts have held IP address collection for
+
+                                   6   targeted advertisement, creates a concrete injury-in-fact. Compare Mirmalek v. Los Angeles Times
+
+                                   7   Comms. LLC, No. 24-cv-01797-CRB, 2024 WL 5102709, at *4 (N.D. Cal. Dec. 12, 2024); and
+
+                                   8   Shah v. Fandom, Inc., No. 24-cv-01062-RFL, --- F. Supp. 3d ---, 2024 WL 4539577, at *5 (N.D.
+
+                                   9   Cal. Oct. 21, 2024); with Dkt. Nos. 43-1 ¶¶ 22-23; 36 ¶ 45. For example, in Shah, the court held
+
+                                  10   “IP addresses reveal geographical location and other personal information sufficient for third
+
+                                  11   parties to conduct targeted advertising.” Shah, 2024 WL 4539577, at *5.4 And as Plaintiffs note,
+
+                                  12   HIPAA designates “Internet Protocol (IP) address numbers” as “identifiers of the individual or of
+
+
+ United States District Court
+                                  13   relatives, employers, or household members of the individual” that need to be de-identified. 45
+
+                                  14   C.F.R. § 164.514(b)(2)(i)(O).
+
+                                  15            Defendant’s cited cases do not persuade otherwise. For example, in United States v. Kidd,
+
+
+
+Northern District of California
+                                  16   the court reiterated that “most courts have adopted a categorial approach holding that users have
+
+                                  17   no reasonable expectation of privacy in such IP address information.” 394 F. Supp. 3d 357, 362
+
+                                  18   (S.D.N.Y. 2019) (collecting cases). But the Kidd court did not stop there. The court analyzed and
+
+                                  19   extensively discussed how other federal and state courts have reached differing conclusions about
+
+                                  20   how to treat IP address collection, usually in the Fourth Amendment context. Id. at 362-65.
+
+                                  21   Ultimately, the court disclaimed the categorical approach, finding instead, “under the unique
+
+                                  22   circumstances [that] case presents and the substantial questions the record leaves unresolved, such
+
+                                  23   a rule may not be justified.” Id. at 368.
+
+                                  24            In Hughes v. Vivint, the plaintiff alleged “harm to be collection of otherwise anonymous
+
+                                  25   information that is used by TikTok to identify Plaintiff through the ‘fingerprinting’ process.”
+
+                                  26   Hughes v. Vivint, No. 24-cv-3081-GW-KSx, 2024 WL 5179916, at *5 (N.D. Cal. July 12, 2024).
+
+                                  27
+                                       4
+                                  28     The Fandom court first found the defendants had waived their statutory standing argument, but
+                                       still proceeded to rule on the standing issue. Id.
+                                                                                          6
+                                        Case 3:24-cv-02609-JSC           Document 51          Filed 03/28/25    Page 7 of 18
+
+
+
+
+                                   1   Because the plaintiff agreed the collected data was “anonymous,” the court concluded the plaintiff
+
+                                   2   failed to show “the necessary elements to establish her standing to bring suit.” Id. The plaintiff
+
+                                   3   did not allege injury because she “fail[ed] to allege that she has a TikTok account that would allow
+
+                                   4   Defendant’s collection of her anonymous information from visiting the Website to be associated
+
+                                   5   with her and identify her.” Id. Here, by contrast, there remains a genuine dispute as to whether
+
+                                   6   the IP information, in conjunction with other information Defendant collected, is personally
+
+                                   7   identifying. While the Hughes court found no standing when there was no dispute that the
+
+                                   8   collected information was anonymized, here, no such fact has been indisputably established or
+
+                                   9   alleged. Additionally, Defendant does not contest it incorporates the Google Analytics code on
+
+                                  10   the page where users input personal information to filter for relevant mental-health professionals,
+
+                                  11   (see Dkt. No. 42-5) and Plaintiffs attest they did not use VPNs. (Dkt. Nos. 43-2, 43-3.)
+
+                                  12            Resolution of the standing issue is “intertwined with an element of the merits of plaintiff’s
+
+
+ United States District Court
+                                  13   claim” and cannot be resolved under the summary judgment standard, Bowen, 118 F.4th at 1143,
+
+                                  14   so the Court DENIES Defendant’s motion to dismiss under Federal Rule of Civil Procedure
+
+                                  15   12(b)(1).
+
+
+
+Northern District of California
+                                  16      II.      Motion to Dismiss for Failure to State a Claim (Rule 12(b)(6))
+
+                                  17               A. CMIA Claim (First Cause of Action)
+
+                                  18            Plaintiffs allege Defendant violated California Civil Code §§ 56.06, 56.101, 56.10 and
+
+                                  19   56.36. (Dkt. No. 36 ¶ 107-120.) Section 56.101 prohibits “provider[s] of health care” from
+
+                                  20   “negligently” creating, maintaining, preserving, storing, abandoning, destroying, or disposing of
+
+                                  21   “medical information.” Cal. Civ. Code § 56.101. And providers must handle medical information
+
+                                  22   “in a manner that preserves the confidentiality of the information contained therein.” Id. Section
+
+                                  23   56.10 prohibits “provider[s] of health care” from “disclos[ing] medical information regarding a
+
+                                  24   patient of the provider of health care or an enrollee or subscriber of a health care service plan
+
+                                  25   without first obtaining an authorization.” And section 56.36 provides statutory damages of up to
+
+                                  26   $1,000 for violations of the Act. Cal. Civ. Code § 56.36(b)(1).
+
+                                  27                         1.   “Provider of Health Care”
+
+                                  28            A “provider of health care” under the CMIA includes, “[a]ny business that offers a mental
+                                                                                          7
+                                        Case 3:24-cv-02609-JSC           Document 51           Filed 03/28/25   Page 8 of 18
+
+
+
+
+                                   1   health digital service to a consumer … for the diagnosis and treatment of the individual.” Cal.
+
+                                   2   Civ. Code § 56.06(d). A “mental health digital service” is “a mobile-based application or internet
+
+                                   3   website that collects mental health application information from a consumer, markets itself as
+
+                                   4   facilitating mental health services to a consumer, and uses the information to facilitate mental
+
+                                   5   health services to a consumer.” Cal. Civ. Code § 56.05(l).
+
+                                   6          Plaintiffs plausibly allege Defendant is a “mental health digital service” and thus a
+
+                                   7   provider of health care under the CMIA. Defendant’s “Sessions by Psychology Today” mobile
+
+                                   8   app is specifically designed to aid the “treatment of the individual” since it helps users make and
+
+                                   9   join appointments with therapists. (Dkt. No. 36 ¶ 22, 54, 111.) And Plaintiff D.G. used the app to
+
+                                  10   meet with a therapist. (Id. ¶ 22.) Defendant’s service allows users “to contact therapists directly,”
+
+                                  11   “send[s] consumers emails with the dates and times of their scheduled appointments and a
+
+                                  12   Psychology Today website link to use to check in for their appointments.” (Id. ¶ 28.) The website
+
+
+ United States District Court
+                                  13   collects application information Plaintiffs input prior to connecting to their therapist in addition to
+
+                                  14   collecting Plaintiffs’ IP addresses. (Id. ¶ 56, 62, 64.) These allegations support a reasonable
+
+                                  15   inference Defendant uses an internet website that collects mental health information to facilitate
+
+
+
+Northern District of California
+                                  16   mental health services to a consumer. Cal. Civ. Code § 56.05(l); § 56.06(d).
+
+                                  17          Defendant insists it is not a mental health digital service because the app is merely its
+
+                                  18   “version of zoom” and is not “software or hardware” as required by the statute. (Dkt. No. 42 at
+
+                                  19   23-24.) But drawing all reasonable inferences from the allegations in Plaintiffs’ favor, as the
+
+                                  20   Court must, Defendant does not “merely” allow Plaintiffs to communicate with therapists such as
+
+                                  21   any video-conferencing app would; instead, Defendant holds itself out as a service that specifically
+
+                                  22   connects users to therapists. (Dkt. No. 36 ¶ 48.)
+
+                                  23          So, Plaintiffs plausibly plead Defendant is a “provider of health care” under the CMIA.
+
+                                  24                        2.   “Medical Information”
+
+                                  25          For Defendant to be liable under the CMIA, it must have collected “Medical Information”
+
+                                  26   as defined by the statute. Medical information means information that is:
+
+                                  27
+                                              (1) “individually identifiable”;
+                                  28
+                                                                                           8
+                                        Case 3:24-cv-02609-JSC           Document 51          Filed 03/28/25    Page 9 of 18
+
+
+
+
+                                              (2) “in possession of or derived from a provider of health care”;
+                                   1
+
+                                   2          (3) “regarding a patient’s medical history, mental health application information, . . . ,
+                                                  mental or physical condition, or treatment.”
+                                   3
+                                       Cal. Civ. Code § 56.05(j).
+                                   4
+                                                                    a. “individually identifiable”
+                                   5
+                                              “Individually identifiable” means the medical information “includes or contains any
+                                   6
+                                       element of personal identifying information sufficient to allow identification of the individual.”
+                                   7
+                                       Id. Such information includes “the patient’s name, address, electronic mail address, telephone
+                                   8
+                                       number, or social security number, or other information that, alone or in combination with other
+                                   9
+                                       publicly available information, reveals the identity of the individual.” Id.
+                                  10
+                                              Plaintiffs allege Defendant collected their insurance provider, IP addresses, and queries
+                                  11
+                                       Plaintiffs made regarding their mental health problems. (Dkt. No. 36 ¶¶ 56.) Drawing all
+                                  12
+                                       reasonable inferences in Plaintiffs’ favor, the IP addresses, insurers, mental health status, and
+
+
+ United States District Court
+                                  13
+                                       treatment information Plaintiffs disclosed, “in combination with other publicly available
+                                  14
+                                       information,” can reveal the identity of individuals using the site. Cal. Civ. Code § 56.05(j); see
+                                  15
+                                       also supra at pp. 6-7. So, Plaintiffs plausibly plead the information is individually identifiable.
+
+
+
+Northern District of California
+                                  16                                b. “regarding a patient’s medical history, mental health
+                                                                       application information, . . . , mental or physical condition, or
+                                  17                                   treatment”
+                                  18          “Mental health application information” is information “related to a consumer’s inferred or
+                                  19   diagnosed mental health or substance use disorder … collected by a mental health digital service.”
+                                  20   Cal. Civ. Code § 56.05(k). “This definition does not encompass demographic or numeric
+                                  21   information that does not reveal medical history, diagnosis, or care.” Eisenhower Medical Center
+                                  22   v. Superior Court, 226 Cal. App. 4th 430, 435 (2014 ).
+                                  23          Plaintiffs allege they made specific queries, including the type of therapy they sought, the
+                                  24   faith background of their preferred therapist, their particular mental health issues, and their
+                                  25   specific symptoms. (Dkt. No. 36 ¶¶ 11-24.) Plaintiffs therefore plausibly allege they disclosed
+                                  26   “Medical Information” within the meaning of the CMIA. In Eisenhower Medical Center, 226 Cal.
+                                  27   App. 4th at 435, for example, a computer with an index including “each person’s name, medical
+                                  28   record number (MRN), age, date of birth, and last four digits of the person’s Social Security
+                                                                                          9
+                                       Case 3:24-cv-02609-JSC            Document 51       Filed 03/28/25      Page 10 of 18
+
+
+
+
+                                   1   number (SSN)” was stolen from the defendant. Id. at 432. In dismissing the plaintiffs’ CMIA
+
+                                   2   claims, the court explained, “under the CMIA a prohibited release by a health care provider must
+
+                                   3   include more than individually identifiable information but must also include information relating
+
+                                   4   to medical history, mental or physical condition, or treatment of the individual.” Id. at 437. The
+
+                                   5   “mere fact” MRNs were disclosed told little to nothing about what treatment the plaintiffs sought
+
+                                   6   or received. Id. at 436. Here, Plaintiffs allege Defendant collected information about which
+
+                                   7   therapists they connected with, the health issues they sought treatment for, and even the type of
+
+                                   8   therapy they sought. These allegations “reveal medical history, diagnosis, or care” as the statute
+
+                                   9   requires. Id. at 435.
+
+                                  10                                 c. “in possession of or derived from”
+
+                                  11          Finally, Defendant’s insistence the medical information was never in its “possession” “or
+
+                                  12   derived from” Defendant and that the information itself did not necessarily relate to Plaintiffs’
+
+
+ United States District Court
+                                  13   medical information is unpersuasive. Cal. Civ. Code § 56.05. Drawing all reasonable inferences
+
+                                  14   in Plaintiffs’ favor, Defendant’s site requested this information from Plaintiffs and Defendant pays
+
+                                  15   Google Analytics to copy this information while it is simultaneously being provided to Defendant;
+
+
+
+Northern District of California
+                                  16   so, Defendant possessed the information and as to Google, it was “derived from” Defendant.
+
+                                  17   Further, Plaintiffs allege the information they input into the site was their information. Even if
+
+                                  18   other putative class members potentially did not seek information for their own care, that Plaintiffs
+
+                                  19   here allege they did so is sufficient to survive a motion to dismiss.
+
+                                  20                                                    ***
+
+                                  21          Accordingly, Plaintiffs plausibly plead the collected information is “medical information”
+
+                                  22   under section 56.05(j).
+
+                                  23                           3. Unauthorized Disclosure under Section 56.10
+
+                                  24          Under section 56.10(d), health care providers cannot “intentionally share, sell, use for
+
+                                  25   marketing, or otherwise use medical information for a purpose not necessary to provide health
+
+                                  26   care services to the patient.” Cal. Civ. Code § 56.10(d). And providers cannot “disclose medical
+
+                                  27   information regarding a patient of the provider of health care … to a person or entity that is not
+
+                                  28   engaged in providing direct health care services to the patient.” Cal. Civ. Code § 56.10(e). So, a
+                                                                                         10
+                                       Case 3:24-cv-02609-JSC           Document 51        Filed 03/28/25      Page 11 of 18
+
+
+
+
+                                   1   plaintiff must “plead an ‘affirmative communicative act’ by the defendant.” Stasi v. Inmediata
+
+                                   2   Health Group Corp., 501 F. Supp. 3d 898, 922 (S.D. Cal. 2020) (quoting Sutter Heath v. Superior
+
+                                   3   Court, 227 Cal. App. 4th 1546, 1556 (2014)). Disclosure under section 56.10 means “giving out
+
+                                   4   medical information on a patient” and is narrower than the Act’s other provisions that merely
+
+                                   5   require “negligently allowing information to end up in the possession of an unauthorized person.”
+
+                                   6   Sutter Health, 227 Cal. App. 4th at 1554-555 (comparing section 56.10 which proscribes against
+
+                                   7   “disclosure” with section 56.36 which prohibits “negligent release”).
+
+                                   8           Plaintiffs plausibly allege Defendant committed an affirmative communicative act when it
+
+                                   9   shared information to Google by embedding Google Analytics code on its website without
+
+                                  10   anonymization. (Dkt. No. 36 ¶ 117-119.) This code permitted real time sharing with Google of
+
+                                  11   communications inputted by users. (Id.) Google then used this information to improve its own
+
+                                  12   business activities and provide “marketing services and offerings,” including to other third parties.
+
+
+ United States District Court
+                                  13   (Id. ¶ 118.)
+
+                                  14           Defendant laches onto Plaintiffs’ allegations of real-time communication and claims a
+
+                                  15   party cannot at the same time affirmatively communicate information and allow a third party to
+
+
+
+Northern District of California
+                                  16   intercept it in real time, (Dkt. No. 42 at 24-25), but this argument mischaracterizes an “affirmative
+
+                                  17   communication.” Drawing inferences in Plaintiffs’ favor, Defendant “[gave] out medical
+
+                                  18   information” by taking affirmative steps to embed code in its website that did just that. Sutter
+
+                                  19   Health, 227 Cal. App. 4th at 1554. Plaintiffs plausibly plead unauthorized disclosure.
+
+                                  20                          4.      Unlawful Viewing under Section 56.101
+
+                                  21           “[I]n order to plead a violation of sections 56.101(a) and 56.36(b), the plaintiff does not
+
+                                  22   need to plead an affirmative communicative act.” Stasi v. Inmediata Health Group Corp., 501 F.
+
+                                  23   Supp. 3d 898, 922 (S.D. Cal. 2020) (citing Regents of University of California v. Superior Court,
+
+                                  24   220 Cal. App. 4th 549, 553-54 (2013)). The Act does require “that negligence resulted in
+
+                                  25   unauthorized or wrongful access to the information,’ i.e. that the information was ‘improperly
+
+                                  26   viewed or otherwise accessed.” Id. (citing Regents, 220 Cal. App. 4th at 554). Therefore, “a
+
+                                  27   breach of confidentiality under the CMIA requires a showing that an unauthorized party viewed
+
+                                  28   the confidential information.” Vigil v. Muir Med. Grp. IPA, Inc., 84 Cal. App. 5th 197, 213
+                                                                                         11
+                                       Case 3:24-cv-02609-JSC           Document 51        Filed 03/28/25      Page 12 of 18
+
+
+
+
+                                   1   (2022). Unauthorized viewing is critical to a claim under section 56.101. Even when a third party
+
+                                   2   “downloads or copies electronic files” there is no breach of confidentiality under section 56.101
+
+                                   3   “if the party has not actually viewed the confidential information included in the file.” Id. at 217.
+
+                                   4          Google collected the relevant information and used it “for its own purposes including
+
+                                   5   improving and creating new marketing and analytics services for itself.” (Dkt. No. 36 ¶ 118.)
+
+                                   6   Google “uses the data to generate reports to help analyze the data collected. This includes reports
+
+                                   7   on acquisition …, engagement …, and demographics.” (Id. ¶ 44.) Viewing these allegations in
+
+                                   8   the light most favorable to Plaintiffs, a reasonable inference is that Google “viewed or otherwise
+
+                                   9   accessed” this information in order to use it. Stasi, 501 F. Supp. 3d at 922 (citing Regents, 220
+
+                                  10   Cal. App. 4th at 554). Plaintiffs have sufficiently alleged unlawful viewing.
+
+                                  11                                                    ***
+
+                                  12          Because Plaintiffs plead sufficient facts to plausibly support their CMIA claim, the Court
+
+
+ United States District Court
+                                  13   DENIES Defendant’s motion to dismiss the First Cause of Action.
+
+                                  14              B. CCPA Claim (Second Cause of Action)
+
+                                  15          Plaintiffs concede dismissal of this claim. (Dkt. No. 43 at 8 n.1.) Plaintiffs’ claim under
+
+
+
+Northern District of California
+                                  16   California Civil Code § 1798.150 is therefore DISMISSED without leave to amend.
+
+                                  17              C. CIPA § 631 Claim for Aiding and Abetting (Third Cause of Action)
+
+                                  18          California Penal Code section 631 “prescribes criminal penalties for three distinct and
+
+                                  19   mutually independent patterns of conduct.” Tavernetti v. Superior Ct., 22 Cal. 3d 187, 192
+
+                                  20   (1978).5 Additionally, section 631 imposes liability “on anyone who aids, agrees with, employs,
+
+                                  21   or conspires with any person or persons to unlawfully do, or permit, or cause to be done any of the
+
+                                  22   acts or things mentioned above.” Swarts v. HomeDepot, Inc., 689 F. Supp. 3d 732, 743 (N.D. Cal.
+
+                                  23   2023) (quoting Cal. Penal Code § 631). To adequately plead a civil aiding-and-abetting cause of
+
+                                  24   action under section 631, a party must plead “an underlying predicate violation” by the aided party
+
+                                  25   from one or more of three distinct predicate violations. B.K. Desert Care Network, No. 23-cv-
+
+                                  26   05021-SPG (PDx), 2024 WL 1343305, at *7 (N.D. Cal. Feb. 1, 2024). These predicate violations
+
+                                  27
+                                       5
+                                  28    California Penal Code section 637.2 provides a tort cause of action for violations of sections 631
+                                       and 632. See Cal. Penal Code § 637.2.
+                                                                                      12
+                                       Case 3:24-cv-02609-JSC               Document 51        Filed 03/28/25       Page 13 of 18
+
+
+
+
+                                   1   are:
+
+                                   2                     (1) when a person “by means of any machine, instrument, or
+                                                         contrivance, or in any other manner, intentionally taps, or makes any
+                                   3                     unauthorized connection … with any telegraph or telephone wire,
+                                                         line, cable, or instrument,”
+                                   4
+                                                         (2) when a person “willfully and without consent of all parties to the
+                                   5                     communication, or in any unauthorized manner, reads, or attempts to
+                                                         read, or to learn the contents or meaning of any message, report, or
+                                   6                     communication while the same is in transit,” or
+                                   7                     (3) when a person “uses, or attempts to use, in any manner, or for any
+                                                         purpose, or to communicate in any way, any information so
+                                   8                     obtained.”
+                                   9   Yockey v. Salesforce, 688 F. Supp. 3d 962, 970 (N.D. Cal. 2023) (quoting Cal. Penal Code § 631).
+
+                                  10              As Plaintiffs concede, the first clause “does not apply to the internet, and so cannot support
+
+                                  11   [Plaintiffs’] claims.” Cody v. Ring LLC, 718 F. Supp. 3d 993, 999 (N.D. Cal. 2024); (Dkt. No. 43
+
+                                  12   at 26.).
+
+
+ United States District Court
+                                  13              To allege a predicate act under the second clause, a plaintiff must allege the eavesdropping
+
+                                  14   occurred “while the [communication] is in transit.” Cal. Penal Code § 631(a). “‘While’ is the key
+
+                                  15   word here.” Valenzuela v. Keurig Green Mountain, Inc., 674 F. Supp. 3d 751, 758 (N.D. Cal.
+
+
+
+Northern District of California
+                                  16   2023). Plaintiffs allege Google receives information as it is being transmitted, and views and
+
+                                  17   stores the information “to generate reports and to help analyze the data collected.” (Dkt. No. 16 ¶¶
+
+                                  18   36-39.) The SAC contains detailed allegations of how the software functions and collects
+
+                                  19   information as the user inputs it, and transmits this same information to Google. (Dkt. No. 36 ¶¶
+
+                                  20   42-43, 60-61.) However, Plaintiffs do not plausibly allege Google views or reads the information
+
+                                  21   while it is in transit; instead, they allege information is sent “to Google for processing” and later,
+
+                                  22   “[o]nce Google Analytics receives, views, reads, and processes the data, it aggregates and
+
+                                  23   organizes the data based on particular criteria.” (Id. ¶ 43.) These allegations do not support a
+
+                                  24   plausible inference Google reads the information “while the same is in transit.” See Licea v.
+
+                                  25   Cinmar, LLC, 659 F. Supp. 3d 1096, 1110 (C.D. Cal. 2023) (dismissing section 631 claim when
+
+                                  26   “[t]he timeline of the automatic recording and transcription is unclear.”). As such, Plaintiffs fail to
+
+                                  27   adequately allege the second clause predicate act.
+
+                                  28              Plaintiffs’ failure to plausibly allege a violation of the first two clauses defeats any
+                                                                                             13
+                                       Case 3:24-cv-02609-JSC           Document 51        Filed 03/28/25      Page 14 of 18
+
+
+
+
+                                   1   allegations as to the third. Tavernetti, 22 Cal. 3d at 192 (holding the third clause proscribes
+
+                                   2   “attempting to use or communicate information obtained as a result of engaging in either of the
+
+                                   3   previous two activities.”); see also Swarts, 689 F. Supp. 3d at 744 (holding “[a] violation under the
+
+                                   4   third clause of § 631(a) is contingent upon a finding of a violation of the first or second clause of §
+
+                                   5   631(a).”); In re Google Assistant Priv. Litig., 457 F. Supp. 3d 797, 827 (N.D. Cal. 2020)
+
+                                   6   (dismissing aiding-and-abetting claim under the third clause because “Plaintiffs must establish that
+
+                                   7   the information at issue—here, the recordings and transcripts that Defendants’ allegedly
+
+                                   8   analyzed—was obtained through a violation of the first or second clauses.”)
+
+                                   9           So, the Court GRANTS Defendant’s Motion to Dismiss the Third Cause of Action with
+
+                                  10   leave to amend.
+
+                                  11              D. CIPA §632 Claim (Aiding and Abetting Liability) (Fourth Cause of Action)
+
+                                  12          California Penal Code section 632 makes liable “[a] person who, intentionally and without
+
+
+ United States District Court
+                                  13   the consent of all parties to a confidential communication, uses an electronic amplifying or
+
+                                  14   recording device to eavesdrop upon or record the confidential communication.” Cal. Penal Code §
+
+                                  15   632(a). The section applies to any communications made “by means of a telegraph, telephone, or
+
+
+
+Northern District of California
+                                  16   other device, except a radio.” Id.
+
+                                  17          Defendant argues section 632 does not apply to communications made over the internet.
+
+                                  18   The Court disagrees. The statute’s plain language reaches communications made through
+
+                                  19   technology or means not enumerated since the statute includes communications made “by means
+
+                                  20   of … [an] other device.” Id. (emphasis added). The only form of communication explicitly
+
+                                  21   excluded by the statute is “radio.” Id.; see Green v. California, 42 Cal. 4th 254, 260 (2007) (“[t]he
+
+                                  22   statute’s plain meaning controls the court’s interpretation unless its words are ambiguous”); see
+
+                                  23   also Brown v. Google LLC, 525 F. Supp. 3d 1049, 1074 (N.D. Cal. 2021) (denying dismissal of
+
+                                  24   section 632 claim when the underlying communications were internet chat messages).
+
+                                  25          Defendant’s reliance on Swarts is unavailing. While Swarts held “[a] plain reading of the
+
+                                  26   text itself makes clear that the statute only applies to communications transmitted by telephone,
+
+                                  27   not internet,” Swarts, 689 F. Supp. 3d at 747, the court quotes language from section 632.5, not
+
+                                  28   section 632, to support its holding. Id. at 746-47. The distinction is key: section 632 reaches
+                                                                                         14
+                                       Case 3:24-cv-02609-JSC           Document 51        Filed 03/28/25      Page 15 of 18
+
+
+
+
+                                   1   communications made “by means of a telegraph, telephone, or other device,” while section 632.5
+
+                                   2   applies only to communications “between cellular radio telephones or between any cellular radio
+
+                                   3   telephone and a landline telephone.” Compare Cal. Penal Code § 632 (emphasis added); with
+
+                                   4   Cal. Penal Code § 632.5 (emphasis added). Thus, while section 632.5’s plain text may exclude
+
+                                   5   communications made over the internet, the same is not true for section 632. Defendant fails to
+
+                                   6   persuade section 632 excludes communications sent over the internet.
+
+                                   7          Defendant also alleges it is not directly liable under § 632 because “a party cannot
+
+                                   8   ‘eavesdrop’ on their own conversation under the first prong of section 632,” and instead Plaintiffs’
+
+                                   9   claim must be analyzed as an aiding-and-abetting claim. Turner v. Nuance Comms., Inc., No. 22-
+
+                                  10   cv-05827-DMR, 2024 WL 2750017, at *8 (N.D. Cal. May 28, 2024). Plaintiffs seemingly agree,
+
+                                  11   arguing in their opposition that its allegations “fully satisfy the common law definition for civil
+
+                                  12   aider-and-abettor liability.” (Dkt. No. 43 at 30-31.)
+
+
+ United States District Court
+                                  13          Next, Defendant insists the communications were not “confidential.” A confidential
+
+                                  14   communication is “any communication carried on in circumstances as may reasonably indicate
+
+                                  15   that any party to the communication desired it to be confined to the parties thereto.” Cal. Penal
+
+
+
+Northern District of California
+                                  16   Code § 632(c). A communication is confidential “if a party has an objectively reasonably
+
+                                  17   expectation that the conversation is not being overheard or recorded.” Flanagan v. Flanagan, 27
+
+                                  18   Cal. 4th 766, 777 (2002). A plaintiff “need[] only show a reasonable expectation that the
+
+                                  19   conversation was not being simultaneously disseminated to an unannounced second observer.”
+
+                                  20   Brown, 525 F. Supp. 3d at 1073 (quoting Mirkarimi v. Nevada Prop. 1 LLC, 12-cv-2160-BTM-
+
+                                  21   DHB, 2013 WL 3761530, at *2 (S.D. Cal. July 15, 2013)). California “courts have developed a
+
+                                  22   presumption that Internet communications do not reasonably give rise to that expectation” of
+
+                                  23   privacy. Revitch v. New Moosejaw, LLC, No. 18-cv-06827-VC, 2019 WL 5485330, at *3 (N.D.
+
+                                  24   Cal. Oct. 23, 2019) (collecting cases). Drawing all reasonable inferences in Plaintiffs’ favor, the
+
+                                  25   communications at issue here were confidential. Plaintiffs’ communications included personally
+
+                                  26   identifying information, such as their IP addresses, zip codes where they sought medical help, the
+
+                                  27   specific forms of therapy sought (i.e., EFT, CBT), that they sought therapists of a particular faith,
+
+                                  28   and even their insurer.
+                                                                                         15
+                                       Case 3:24-cv-02609-JSC           Document 51         Filed 03/28/25      Page 16 of 18
+
+
+
+
+                                   1          Defendant’s reliance on Revitch for the proposition that “[i]nternet communications do not
+
+                                   2   reasonably give rise” to an expectation of privacy is unpersuasive. Revitch, 2019 WL 5485330, at
+
+                                   3   *3. In Revitch, the court held communications “inquiring about items of clothing on a retail
+
+                                   4   website” were non-confidential as a matter of law. Id. But the recorded information here included
+
+                                   5   Plaintiffs’ approximate locations, their reasons for seeking therapy, the type of therapy they
+
+                                   6   sought, and their insurers. Indeed, “in recent years, courts in this district have started to recognize
+
+                                   7   that individuals may have a reasonable expectation of privacy for certain internet
+
+                                   8   communications” such as in incognito browsing, personal medical information, and health-related
+
+                                   9   communications. M.G. v. Therapymatch, Inc., No. 23-cv-04422-AMO, 2024 WL 4219992, at *5
+
+                                  10   (N.D. Cal. Sept. 16, 2024) (collecting cases). So, even accepting that California courts “have
+
+                                  11   developed a presumption that [i]nternet communications do not reasonably give rise to that
+
+                                  12   expectation,” Revitch, 2019 WL 5485330, at *3 (collecting cases), Plaintiffs sufficiently “plead
+
+
+ United States District Court
+                                  13   unique, definite circumstances rebutting California’s presumption.” Rodriguez v. Google LLC,
+
+                                  14   20-cv-04688-RS, 2021 WL 2026726, at *7 (N.D. Cal. May 21, 2021).
+
+                                  15          Finally, Defendant argues Plaintiffs need to allege both it and Google acted “willfully” or
+
+
+
+Northern District of California
+                                  16   “intentionally” to be liable under Penal Code § 632. (Dkt. No. 42 at 28-29, 29-31.) But this
+
+                                  17   standard applies to criminal liability, not civil. Civil aider-and-abettor liability requires “the
+
+                                  18   person (a) knows the other’s conduct constitutes a breach of duty and gives substantial assistance
+
+                                  19   or encouragement to the other to so act or (b) gives substantial assistance to the other in
+
+                                  20   accomplishing a tortious result and the person’s own conduct, separately considered, constitutes a
+
+                                  21   breach of duty to the third person.” Fiol v. Doellstedt, 50 Cal. App. 4th 1318, 1325-26 (1996)
+
+                                  22   (quoting Saunders v. Superior Court, 27 Cal. App. 4th 832, 846 (1994)). As shown above,
+
+                                  23   Plaintiffs make sufficient allegations to plausibly support an inference that Defendant, at the very
+
+                                  24   least, gave “substantial assistance” to Google, and that Defendant “breach[ed] [its] duty to the
+
+                                  25   [Plaintiffs]” when it shared Plaintiffs’ IP addresses and medical information. Id.
+
+                                  26          Defendant’s motion to dismiss the Fourth Cause of Action under section 632 is DENIED.
+
+                                  27              E. California Constitution Claim (Fifth Cause of Action)
+
+                                  28          To establish a violation of the constitutional right of privacy, plaintiffs “must establish (1)
+                                                                                          16
+                                       Case 3:24-cv-02609-JSC              Document 51      Filed 03/28/25       Page 17 of 18
+
+
+
+
+                                   1   a legally protected privacy interest, (2) a reasonable expectation of privacy under the
+
+                                   2   circumstances, and (3) a serious invasion of the privacy interest.” Int’l Fed’n Pro. & Tech.
+
+                                   3   Eng’rs, Loc. 21, AFL-CIO v. Superior Ct., 42 Cal. 4th 319, 338 (2007). Courts consider whether
+
+                                   4   “the intrusion [is] ‘so serious … as to constitute an egregious breach of the social norms’ such that
+
+                                   5   the breach is ‘highly offensive.’” Davis v. Facebook Inc., (In re Facebook, Inc. Internet Tracking
+
+                                   6   Litig.), 956 F.3d 589, 601 (9th Cir. 2020) (quoting Hernandez v. Hillsides, Inc., 47 Cal. 4th 272,
+
+                                   7   287 (2009)). Because this inquiry is fact intensive, “[c]ourts are generally hesitant to decide
+
+                                   8   claims of this nature at the pleading stage.” In re Meta Pixel Healthcare Litig., 647 F. Supp. 3d
+
+                                   9   778, 799 (N.D. Cal. 2022); see also Williams v. Facebook, Inc., 384 F. Supp. 3d 1043, 1054 (N.D.
+
+                                  10   Cal. 2018) (holding that determinations of whether conduct is highly offensive “is indeed a factual
+
+                                  11   question best left for a jury.”).
+
+                                  12           First, as noted supra, at pp. 6-7, Plaintiffs sufficiently plead a privacy interest and a
+
+
+ United States District Court
+                                  13   reasonable expectation of privacy in the information Google Analytics collected through
+
+                                  14   Defendant’s site. Further, Plaintiffs plead sufficient facts to “constitute an egregious breach of the
+
+                                  15   social norms.” In re Facebook, Inc. Internet Tracking Litig., 956, F.3d at 601. In determining
+
+
+
+Northern District of California
+                                  16   offensiveness, courts consider “the degree of the intrusion, the context, conduct and circumstances
+
+                                  17   surrounding the intrusion as well as the intruder’s motives and objectives, the setting into which
+
+                                  18   he intrudes, and the expectations of those whose privacy is invaded.” Hill v. Nat’l Collegiate
+
+                                  19   Athletic Assn., 7 Cal. 4th 1, 26 (1994). Plaintiffs allege Defendant shared information they
+
+                                  20   communicated to it while seeking treatment for their mental health conditions. (Dkt. No. 16 ¶
+
+                                  21   155.) This intrusion upon their privacy included the dissemination of personally identifying
+
+                                  22   information. Drawing all reasonable inferences in Plaintiffs’ favor, the Court cannot conclude as a
+
+                                  23   matter of law such conduct was not highly offensive. When Plaintiffs “allege[] Defendant
+
+                                  24   implemented a system that surreptitiously allowed third parties, …, to track, record, and intercept
+
+                                  25   [their] and other online patients’ confidential communications, personally identifiable information,
+
+                                  26   and [Personal Health Information], and use that information for marketing and other purposes …
+
+                                  27   that is sufficient to allege that Defendant’s conduct was highly offensive.” St. Aubin v. Carbon
+
+                                  28   Health Techs., Inc., No. 24-00667-JST, 2024 WL 4369675, at *13 (N.D. Cal. Oct. 1, 2024).
+                                                                                          17
+                                       Case 3:24-cv-02609-JSC          Document 51        Filed 03/28/25        Page 18 of 18
+
+
+
+
+                                   1          Defendant’s motion to dismiss Plaintiffs’ Sixth Cause of Action is DENIED.
+
+                                   2                                            CONCLUSION
+
+                                   3          The Court rules as follows:
+
+                                   4          •   Defendant’s motion to dismiss for lack of subject matter jurisdiction under Federal
+
+                                   5              Rule of Federal Procedure 12(b)(1) is DENIED because material issues of fact
+
+                                   6              intertwined with the merits exist regarding injury-in-fact.
+
+                                   7          •   Defendant’s motion to dismiss Plaintiffs’ First Cause of Action under the CMIA is
+
+                                   8              DENIED.
+
+                                   9          •   Defendant’s motion to dismiss Plaintiffs’ Second Cause of Action under the CCPA is
+
+                                  10              GRANTED without leave to amend.
+
+                                  11          •   Defendant’s motion to dismiss Plaintiffs’ Third Cause of Action under California Penal
+
+                                  12              Code § 631 is GRANTED with leave to amend.
+
+
+ United States District Court
+                                  13          •   Defendant’s motion to dismiss Plaintiffs’ Fourth Cause of Action under California
+
+                                  14              Penal Code § 632 is DENIED.
+
+                                  15          •   Defendant’s motion to dismiss Plaintiffs’ Fifth Cause of Action under the California
+
+
+
+Northern District of California
+                                  16              Constitution is DENIED.
+
+                                  17          Any amended complaint is to be filed no later than April 24, 2025. The Court shall hold a
+
+                                  18   case management conference via Zoom video on May 26, 2026 at 2:00 p.m. A joint case
+
+                                  19   management conference statement is due one week in advance.
+
+                                  20          This Order disposes of Docket Number 42.
+
+                                  21          IT IS SO ORDERED.
+
+                                  22   Dated: March 28, 2025
+
+                                  23
+
+                                  24
+                                                                                                    JACQUELINE SCOTT CORLEY
+                                  25                                                                United States District Judge
+                                  26
+
+                                  27
+
+                                  28
+                                                                                        18
+

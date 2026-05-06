@@ -1,0 +1,19 @@
+{
+  "namespace": "eu-gdpr",
+  "jurisdiction": "EU",
+  "label": "EU GDPR Expert KB",
+  "primary_law": "GDPR",
+  "source_ref": "external:GDPR-expert",
+  "imported_at": "2026-05-06T09:27:24+00:00",
+  "clean_import": true,
+  "copied_dirs": [
+    "library",
+    "index",
+    "config"
+  ],
+  "file_counts": {
+    "library": 1080,
+    "index": 7,
+    "config": 2
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "type": "ca_enforcement_index",
+  "count": 12,
+  "generated_at": "2026-05-06T08:49:24+00:00",
+  "items": [
+    {
+      "id": "ca-oag-disney-2026-settlement-press",
+      "matter_name": "People v. The Walt Disney Company",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-disney-2026-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million",
+      "attachments": [
+        {
+          "label": "announced a settlement",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/CA_SUP_LAX_26STCV04425__Final_Judgment_and_Permanent_Injunction.pdf",
+          "raw_path": "raw/official/oag/ca-oag-disney-2026-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:cbc11db4c290b6afb94a944e3d4536f3c50891ad96cbb425d551b7a8a1801c37",
+          "bytes": 1872244
+        },
+        {
+          "label": "resolving allegations",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/1%20-%20Complaint%20%28Disney%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-disney-2026-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:cd55d612f1a7308e82d4c90017506456e6f488052919645c4502364d482fa5dc",
+          "bytes": 557274
+        }
+      ],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.199.90"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7011",
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7025",
+        "ca-11-ccr-7026"
+      ],
+      "ccpa_topics": [
+        "opt_out",
+        "sale_or_share",
+        "global_privacy_control",
+        "streaming_services"
+      ],
+      "keywords": [
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "GPC",
+        "enforcement",
+        "settlement",
+        "people",
+        "disney",
+        "company"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-doordash-2024-settlement-press",
+      "matter_name": "People v. DoorDash",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-doordash-2024-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/node/581291",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/DoorDash%20Complaint.pdf",
+          "raw_path": "raw/official/oag/ca-oag-doordash-2024-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:28f5c1796f88f39f4e1aec4bd1d1b67965d7017b12b69af06cd004428d282f12",
+          "bytes": 99695
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/DoorDash%20Stip%20Judgment%20.pdf",
+          "raw_path": "raw/official/oag/ca-oag-doordash-2024-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:cca08f74d8982ffa3b7e34e945437603f5ca43a9f695ef0ea0a3d8640fd79291",
+          "bytes": 41362
+        }
+      ],
+      "cited_statutes": [
+        "ca-bpc-22575",
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.155",
+        "ca-civ-1798.199.90"
+      ],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "sale",
+        "notice",
+        "opt_out",
+        "caloppa"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "children",
+        "enforcement",
+        "penalty",
+        "settlement",
+        "privacy policy",
+        "people",
+        "doordash"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-healthline-2025-settlement-press",
+      "matter_name": "People v. Healthline Media LLC",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-healthline-2025-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-largest-ccpa-settlement-date-secures-155",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/People%20v.%20Healthline%20Media%20Complaint.pdf",
+          "raw_path": "raw/official/oag/ca-oag-healthline-2025-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:0f936efdfbdb06cd5ec586d6764f60e141a0d8024a86ef6667025cc7b12e0c78",
+          "bytes": 279453
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Signed%20Judgment_0.pdf",
+          "raw_path": "raw/official/oag/ca-oag-healthline-2025-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:9549af98ce46be88c80bae8ce41307db32dfa1bb42b5ebaf0f86fe6f2e112b70",
+          "bytes": 394973
+        },
+        {
+          "label": "attachment-3",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Proposed%20Order%20re%20Injunction%20with%20case%20number.pdf",
+          "raw_path": "raw/official/oag/ca-oag-healthline-2025-settlement-press-attachment-3.pdf",
+          "source_checksum": "sha256:c1052e06e5cae86e0ff2965020a0259ceb2d2d406d189fecde4439c2e5f42d8f",
+          "bytes": 62299
+        }
+      ],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.145",
+        "ca-civ-1798.155",
+        "ca-civ-1798.199.90",
+        "ca-civ-1798.199.95"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7002",
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7014",
+        "ca-11-ccr-7027",
+        "ca-11-ccr-7051",
+        "ca-11-ccr-7053"
+      ],
+      "ccpa_topics": [
+        "tracking_technology",
+        "sensitive_personal_information",
+        "opt_out",
+        "purpose_limitation"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "children",
+        "enforcement",
+        "settlement",
+        "privacy policy",
+        "people",
+        "healthline",
+        "media"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-jam-city-2025-settlement-press",
+      "matter_name": "People v. Jam City, Inc.",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "final_judgment_attached",
+      "path": "library/grade-b/ca-enforcement-actions/oag-jam-city-2025-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-14-million-settlement-mobile-app-gaming-company",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Complaint%20%28People%20v%20Jam%20City%20Inc%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-jam-city-2025-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:79614b6a9d61623c339a1df1a67ae4dc912581a772136700c42dee145d23d68d",
+          "bytes": 3312103
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/CA_SUP_LAX_25STCV34029_Signed_Order_Final_Judgment.pdf",
+          "raw_path": "raw/official/oag/ca-oag-jam-city-2025-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:30bb7f5a76f3aa2309226a647a354951f6bd14708d2e8a64c308a60f566cea92",
+          "bytes": 439172
+        }
+      ],
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "opt_out",
+        "sale_or_share",
+        "minors",
+        "children",
+        "mobile_apps",
+        "gaming"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "minor",
+        "children",
+        "enforcement",
+        "settlement",
+        "people"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-joint-gpc-2025-sweep",
+      "matter_name": "Joint GPC opt-out investigative sweep by California, Colorado, and Connecticut",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "investigative_sweep",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-joint-gpc-2025-sweep.md",
+      "source_grade": "B",
+      "official_url": "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-announces-joint-investigative-privacy-sweep%C2%A0co-ct-and-ca",
+      "attachments": [],
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "global_privacy_control",
+        "opt_out",
+        "sale_or_share",
+        "multi_state_enforcement"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "sensitive personal information",
+        "opt-out",
+        "global privacy control",
+        "GPC",
+        "enforcement",
+        "settlement",
+        "privacy policy",
+        "joint",
+        "investigative",
+        "sweep",
+        "california",
+        "colorado",
+        "connecticut"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-sephora-2022-settlement-press",
+      "matter_name": "People v. Sephora, Inc.",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-sephora-2022-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-sephora-part-ongoing-enforcement",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Complaint%20%288-23-22%20FINAL%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-sephora-2022-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:2e72db2616c4e8bb54156feb4f990934e1c2b8d4861a7e7ac64978f0f131b607",
+          "bytes": 250616
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Filed%20Judgment.pdf.pdf",
+          "raw_path": "raw/official/oag/ca-oag-sephora-2022-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:5454900ad299d22b6876bcc0f9899a3f1072faf0e36e15313900c6de203afa0d",
+          "bytes": 301008
+        }
+      ],
+      "cited_statutes": [
+        "ca-civ-1798.120",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.155"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7026"
+      ],
+      "ccpa_topics": [
+        "sale",
+        "global_privacy_control",
+        "opt_out",
+        "service_provider_contracts"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "opt-out",
+        "global privacy control",
+        "GPC",
+        "service provider",
+        "enforcement",
+        "settlement",
+        "privacy policy",
+        "people",
+        "sephora"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-sling-tv-2025-settlement-press",
+      "matter_name": "People v. Sling TV L.L.C. and Dish Media Sales L.L.C.",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "final_judgment_attached",
+      "path": "library/grade-b/ca-enforcement-actions/oag-sling-tv-2025-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-530000-settlement-sling-tv-first-enforcement",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Complaint%20For%20Injunction%2C%20Civil%20Penalties%2C%20And%20Other%20Equitable%20Relief.pdf",
+          "raw_path": "raw/official/oag/ca-oag-sling-tv-2025-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:deb54719975aeee519e862e8b5b38d63803700d650a99eb23452492fd4cc01b6",
+          "bytes": 1597640
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Final%20Judgment%20and%20Permanent%20Injunction%20%28People%20v%20Sling%20TV%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-sling-tv-2025-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:6efc9bcf50e510b47764661a5f7974c40a37712e7acd564dfd0a17392e31b0c5",
+          "bytes": 283775
+        }
+      ],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.199.90"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7003",
+        "ca-11-ccr-7011",
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7026"
+      ],
+      "ccpa_topics": [
+        "opt_out",
+        "sale_or_share",
+        "children",
+        "streaming_services",
+        "unnecessary_friction"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "minor",
+        "children",
+        "enforcement",
+        "settlement",
+        "people",
+        "sling",
+        "media",
+        "sales"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-surveillance-pricing-2026-sweep",
+      "matter_name": "Surveillance pricing investigative sweep",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "investigative_sweep",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-surveillance-pricing-2026-sweep.md",
+      "source_grade": "B",
+      "official_url": "https://www.oag.ca.gov/news/press-releases/data-privacy-day-attorney-general-bonta-focuses-surveillance-pricing-compliance",
+      "attachments": [],
+      "cited_statutes": [],
+      "cited_regulations": [],
+      "ccpa_topics": [
+        "purpose_limitation",
+        "data_minimization",
+        "surveillance_pricing",
+        "reasonable_expectations"
+      ],
+      "keywords": [
+        "notice",
+        "sale",
+        "share",
+        "opt-out",
+        "GPC",
+        "children",
+        "enforcement",
+        "settlement",
+        "surveillance",
+        "pricing",
+        "investigative",
+        "sweep"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-oag-tilting-point-2024-settlement-press",
+      "matter_name": "People v. Tilting Point Media LLC",
+      "agency": "California Office of the Attorney General",
+      "authority_type": "press_release",
+      "authority_level": "administrative",
+      "status": "announced",
+      "path": "library/grade-b/ca-enforcement-actions/oag-tilting-point-2024-settlement-press.md",
+      "source_grade": "B",
+      "official_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-la-city-attorney-feldstein-soto-announce-500000",
+      "attachments": [
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Complaint%20People%20v%20Tilting%20Point%20Media%20LLC%20%28filed%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-tilting-point-2024-settlement-press-attachment-1.pdf",
+          "source_checksum": "sha256:137b78c556e41087701e9e8199662267924c1b3dde406db314fe25a4e077d0e5",
+          "bytes": 295378
+        },
+        {
+          "label": "here",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/Tilting%20Point%20Final%20Judgment%20%287-2-24%29.pdf",
+          "raw_path": "raw/official/oag/ca-oag-tilting-point-2024-settlement-press-attachment-2.pdf",
+          "source_checksum": "sha256:7ee38b64059477fb8a04504ed274218a5dfa00c2a950fe1d01dff9561d2d8783",
+          "bytes": 204693
+        }
+      ],
+      "cited_statutes": [
+        "ca-bpc-22575",
+        "ca-bpc-22580",
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.199.90"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7011"
+      ],
+      "ccpa_topics": [
+        "children",
+        "minors",
+        "coppa",
+        "sale_or_share"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "sale",
+        "share",
+        "opt-out",
+        "minor",
+        "children",
+        "enforcement",
+        "settlement",
+        "privacy policy",
+        "people",
+        "tilting",
+        "point",
+        "media"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-cppa-ford-2026-order-of-decision",
+      "matter_name": "In the Matter of Ford Motor Company",
+      "agency": "California Privacy Protection Agency",
+      "authority_type": "administrative_order",
+      "authority_level": "administrative",
+      "status": "final",
+      "path": "library/grade-b/ca-administrative-orders/cppa-ford-2026-order-of-decision.md",
+      "source_grade": "B",
+      "official_url": "https://privacy.ca.gov/wp-content/uploads/sites/357/2026/03/Order-of-Decision-Ford-Motor-Co.pdf",
+      "attachments": [],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.140",
+        "ca-civ-1798.199",
+        "ca-civ-1798.199.55"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7022",
+        "ca-11-ccr-7025",
+        "ca-11-ccr-7026"
+      ],
+      "ccpa_topics": [
+        "opt_out",
+        "sale_or_share",
+        "verification",
+        "unnecessary_friction"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "contractor",
+        "enforcement",
+        "administrative",
+        "settlement",
+        "matter",
+        "motor",
+        "company"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-cppa-honda-2025-stipulated-final-order",
+      "matter_name": "In the Matter of American Honda Motor Co., Inc.",
+      "agency": "California Privacy Protection Agency",
+      "authority_type": "stipulated_final_order",
+      "authority_level": "administrative",
+      "status": "final",
+      "path": "library/grade-b/ca-administrative-orders/cppa-honda-2025-stipulated-final-order.md",
+      "source_grade": "B",
+      "official_url": "https://cppa.ca.gov/regulations/pdf/20250307_hmc_order.pdf",
+      "attachments": [],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.105",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.40",
+        "ca-civ-1798.199.55"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7004",
+        "ca-11-ccr-7025",
+        "ca-11-ccr-7026",
+        "ca-11-ccr-7051",
+        "ca-11-ccr-7063",
+        "ca-11-ccr-7102"
+      ],
+      "ccpa_topics": [
+        "consumer_requests",
+        "verification",
+        "authorized_agents",
+        "opt_out",
+        "limit_use"
+      ],
+      "keywords": [
+        "notice",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "global privacy control",
+        "service provider",
+        "contractor",
+        "third party",
+        "enforcement",
+        "administrative",
+        "settlement",
+        "privacy policy",
+        "matter",
+        "american",
+        "honda",
+        "motor"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    },
+    {
+      "id": "ca-cppa-playon-2026-order-of-decision",
+      "matter_name": "In the Matter of 2080 Media, Inc. d/b/a PlayOn Sports",
+      "agency": "California Privacy Protection Agency",
+      "authority_type": "administrative_order",
+      "authority_level": "administrative",
+      "status": "final",
+      "path": "library/grade-b/ca-administrative-orders/cppa-playon-2026-order-of-decision.md",
+      "source_grade": "B",
+      "official_url": "https://privacy.ca.gov/wp-content/uploads/sites/357/2026/03/Order-of-Decision_PlayOn_Enforcement.pdf",
+      "attachments": [],
+      "cited_statutes": [
+        "ca-civ-1798.100",
+        "ca-civ-1798.120",
+        "ca-civ-1798.130",
+        "ca-civ-1798.135",
+        "ca-civ-1798.140",
+        "ca-civ-1798.185",
+        "ca-civ-1798.199.40",
+        "ca-civ-1798.199.55"
+      ],
+      "cited_regulations": [
+        "ca-11-ccr-7001",
+        "ca-11-ccr-7003",
+        "ca-11-ccr-7011",
+        "ca-11-ccr-7013",
+        "ca-11-ccr-7025",
+        "ca-11-ccr-7026",
+        "ca-11-ccr-7053",
+        "ca-11-ccr-7102",
+        "ca-11-ccr-7150",
+        "ca-11-ccr-7152",
+        "ca-11-ccr-7154",
+        "ca-11-ccr-7155"
+      ],
+      "ccpa_topics": [
+        "minors",
+        "children",
+        "opt_in",
+        "sale_or_share"
+      ],
+      "keywords": [
+        "notice",
+        "collection",
+        "access",
+        "sale",
+        "share",
+        "opt-out",
+        "children",
+        "service provider",
+        "contractor",
+        "third party",
+        "risk assessment",
+        "enforcement",
+        "administrative",
+        "settlement",
+        "privacy policy",
+        "matter",
+        "media",
+        "playon"
+      ],
+      "citation_cautions": [
+        "Administrative/enforcement material is not judicial precedent.",
+        "Press releases should not be treated as final orders unless the underlying order, complaint, settlement, or judgment is captured."
+      ]
+    }
+  ]
+}

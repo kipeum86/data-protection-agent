@@ -1,0 +1,20 @@
+ARTICLE 1. GENERAL PROVISIONS
+
+§ 7002. Restrictions on the Collection and Use of Personal Information.
+(a) A business's collection, use, retention, and sharing shall be reasonably necessary and proportionate.
+Authority cited: Sections 1798.185 and 1798.199.40, Civil Code.
+Reference: Sections 1798.100 and 1798.140, Civil Code.
+
+ARTICLE 2. REQUIRED DISCLOSURES TO CONSUMERS
+
+§ 7025. Opt-Out Preference Signals.
+(a) A business shall process opt-out preference signals.
+Authority cited: Section 1798.185, Civil Code.
+Reference: Sections 1798.120 and 1798.135, Civil Code.
+
+ARTICLE 9. RISK ASSESSMENTS
+
+§ 7150. When a Business Must Conduct a Risk Assessment.
+(a) A business must conduct a risk assessment before processing personal information that presents significant risk.
+Authority cited: Section 1798.185, Civil Code.
+Reference: Section 1798.185, Civil Code.

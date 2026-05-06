@@ -1,0 +1,45 @@
+---
+law: Data Act
+law_id: 32023R2854
+article: 44
+article_sub: 0
+article_title: Other Union legal acts governing rights and obligations on data access and use
+chapter: XI
+chapter_title: Other Union legal acts governing rights and obligations on data access and use
+source_grade: A
+source_url: https://eur-lex.europa.eu/eli/reg/2023/2854/art_44/oj/eng
+effective_date: '20240111'
+last_amended: null
+retrieved_at: '2026-03-26'
+cross_references: []
+keywords:
+- legal
+- acts
+- governing
+- rights
+- obligations
+- data
+- access
+- use
+- public interest
+---
+
+## Article 44 — Other Union legal acts governing rights and obligations on data access and use
+
+1. The specific obligations for the making available of data between businesses, between businesses and consumers, and on exceptional basis between businesses and public bodies, in Union legal acts that entered into force on or before 11 January 2024, and delegated or implementing acts pursuant thereto, shall remain unaffected.
+
+2. This Regulation is without prejudice to Union law specifying, in light of the needs of a sector, a common European data space, or an area of public interest, further requirements, in particular in relation to:
+
+(a)
+
+technical aspects of data access;
+
+(b)
+
+limits on the rights of data holders to access or use certain data provided by users;
+
+(c)
+
+aspects going beyond data access and use.
+
+3. This Regulation, with the exception of Chapter V, is without prejudice to Union and national law providing for access to and authorising the use of data for scientific research purposes.

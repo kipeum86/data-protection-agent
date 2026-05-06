@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/leginfo/ca-cipa.html",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=1.5.&division=&lawCode=PEN&part=1.&title=15.",
+  "final_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=1.5.&division=&lawCode=PEN&part=1.&title=15.",
+  "content_type": "text/html; charset=UTF-8",
+  "status": "fetched",
+  "checksum": "sha256:8e2815602772ea93c4c4a1297fbe5085f7da8cb9a268ea0ff909875b9c760c70",
+  "bytes": 236446
+}

@@ -1,0 +1,58 @@
+---
+# === Identification ===
+law: "Directive on Privacy and Electronic Communications"
+law_id: "02002L0058-20091219"
+article: 2
+article_sub: 0
+article_title: "Definitions"
+chapter: "I"
+chapter_title: "Scope and definitions"
+
+# === Source ===
+source_grade: "A"
+source_url: "https://eur-lex.europa.eu/eli/dir/2002/58/art_2/oj/eng"
+effective_date: "20020731"
+last_amended: null
+retrieved_at: "2026-03-25"
+
+# === Relationships ===
+cross_references:
+  - "Directive 2002/21/EC"
+
+# === Search Metadata ===
+keywords:
+  - "definitions"
+  - "electronic communications"
+  - "traffic data"
+  - "security"
+  - "consent"
+  - "data breach"
+  - "data subject"
+---
+
+## Article 2 —
+Definitions
+Save as otherwise provided, the definitions in Directive 95/46/EC and in Directive 2002/21/EC of the European Parliament and of the Council of 7 March 2002 on a common regulatory framework for electronic communications networks and services (Framework Directive) (
+8
+) shall apply.
+The following definitions shall also apply:
+(a)
+‘user’ means any natural person using a publicly available electronic communications service, for private or business purposes, without necessarily having subscribed to this service;
+(b)
+‘traffic data’ means any data processed for the purpose of the conveyance of a communication on an electronic communications network or for the billing thereof;
+
+(c)
+‘location data’ means any data processed in an electronic communications network or by an electronic communications service, indicating the geographic position of the terminal equipment of a user of a publicly available electronic communications service;
+
+(d)
+‘communication’ means any information exchanged or conveyed between a finite number of parties by means of a publicly available electronic communications service. This does not include any information conveyed as part of a broadcasting service to the public over an electronic communications network except to the extent that the information can be related to the identifiable subscriber or user receiving the information;
+
+(f)
+‘consent’ by a user or subscriber corresponds to the data subject's consent in Directive 95/46/EC;
+(g)
+‘value added service’ means any service which requires the processing of traffic data or location data other than traffic data beyond what is necessary for the transmission of a communication or the billing thereof;
+(h)
+‘electronic mail’ means any text, voice, sound or image message sent over a public communications network which can be stored in the network or in the recipient's terminal equipment until it is collected by the recipient;
+
+(i)
+‘personal data breach’ means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed in connection with the provision of a publicly available electronic communications service in the Community.

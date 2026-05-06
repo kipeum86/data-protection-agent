@@ -1,0 +1,706 @@
+{
+  "law": "개인정보 보호법",
+  "chapters": [],
+  "articles": [
+    {
+      "number": "1",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "1",
+      "title": "목적",
+      "is_article": true
+    },
+    {
+      "number": "2",
+      "title": "정의",
+      "is_article": true
+    },
+    {
+      "number": "3",
+      "title": "개인정보 보호 원칙",
+      "is_article": true
+    },
+    {
+      "number": "4",
+      "title": "정보주체의 권리",
+      "is_article": true
+    },
+    {
+      "number": "5",
+      "title": "국가 등의 책무",
+      "is_article": true
+    },
+    {
+      "number": "6",
+      "title": "다른 법률과의 관계",
+      "is_article": true
+    },
+    {
+      "number": "7",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "7",
+      "title": "개인정보 보호위원회",
+      "is_article": true
+    },
+    {
+      "number": "7의2",
+      "title": "보호위원회의 구성 등",
+      "is_article": true
+    },
+    {
+      "number": "7의3",
+      "title": "위원장",
+      "is_article": true
+    },
+    {
+      "number": "7의4",
+      "title": "위원의 임기",
+      "is_article": true
+    },
+    {
+      "number": "7의5",
+      "title": "위원의 신분보장",
+      "is_article": true
+    },
+    {
+      "number": "7의6",
+      "title": "겸직금지 등",
+      "is_article": true
+    },
+    {
+      "number": "7의7",
+      "title": "결격사유",
+      "is_article": true
+    },
+    {
+      "number": "7의8",
+      "title": "보호위원회의 소관 사무",
+      "is_article": true
+    },
+    {
+      "number": "7의9",
+      "title": "보호위원회의 심의ㆍ의결 사항 등",
+      "is_article": true
+    },
+    {
+      "number": "7의10",
+      "title": "회의",
+      "is_article": true
+    },
+    {
+      "number": "7의11",
+      "title": "위원의 제척ㆍ기피ㆍ회피",
+      "is_article": true
+    },
+    {
+      "number": "7의12",
+      "title": "소위원회",
+      "is_article": true
+    },
+    {
+      "number": "7의13",
+      "title": "사무처",
+      "is_article": true
+    },
+    {
+      "number": "7의14",
+      "title": "운영 등",
+      "is_article": true
+    },
+    {
+      "number": "8",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "8의2",
+      "title": "개인정보 침해요인 평가",
+      "is_article": true
+    },
+    {
+      "number": "9",
+      "title": "기본계획",
+      "is_article": true
+    },
+    {
+      "number": "10",
+      "title": "시행계획",
+      "is_article": true
+    },
+    {
+      "number": "11",
+      "title": "자료제출 요구 등",
+      "is_article": true
+    },
+    {
+      "number": "11의2",
+      "title": "개인정보 보호수준 평가",
+      "is_article": true
+    },
+    {
+      "number": "12",
+      "title": "개인정보 보호지침",
+      "is_article": true
+    },
+    {
+      "number": "13",
+      "title": "자율규제의 촉진 및 지원",
+      "is_article": true
+    },
+    {
+      "number": "13의2",
+      "title": "개인정보 보호의 날",
+      "is_article": true
+    },
+    {
+      "number": "14",
+      "title": "국제협력",
+      "is_article": true
+    },
+    {
+      "number": "15",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "15",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "15",
+      "title": "개인정보의 수집ㆍ이용",
+      "is_article": true
+    },
+    {
+      "number": "16",
+      "title": "개인정보의 수집 제한",
+      "is_article": true
+    },
+    {
+      "number": "17",
+      "title": "개인정보의 제공",
+      "is_article": true
+    },
+    {
+      "number": "18",
+      "title": "개인정보의 목적 외 이용ㆍ제공 제한",
+      "is_article": true
+    },
+    {
+      "number": "19",
+      "title": "개인정보를 제공받은 자의 이용ㆍ제공 제한",
+      "is_article": true
+    },
+    {
+      "number": "20",
+      "title": "정보주체 이외로부터 수집한 개인정보의 수집 출처 등 통지",
+      "is_article": true
+    },
+    {
+      "number": "20의2",
+      "title": "개인정보 이용ㆍ제공 내역의 통지",
+      "is_article": true
+    },
+    {
+      "number": "21",
+      "title": "개인정보의 파기",
+      "is_article": true
+    },
+    {
+      "number": "22",
+      "title": "동의를 받는 방법",
+      "is_article": true
+    },
+    {
+      "number": "22의2",
+      "title": "아동의 개인정보 보호",
+      "is_article": true
+    },
+    {
+      "number": "23",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "23",
+      "title": "민감정보의 처리 제한",
+      "is_article": true
+    },
+    {
+      "number": "24",
+      "title": "고유식별정보의 처리 제한",
+      "is_article": true
+    },
+    {
+      "number": "24의2",
+      "title": "주민등록번호 처리의 제한",
+      "is_article": true
+    },
+    {
+      "number": "25",
+      "title": "고정형 영상정보처리기기의 설치ㆍ운영 제한",
+      "is_article": true
+    },
+    {
+      "number": "25의2",
+      "title": "이동형 영상정보처리기기의 운영 제한",
+      "is_article": true
+    },
+    {
+      "number": "26",
+      "title": "업무위탁에 따른 개인정보의 처리 제한",
+      "is_article": true
+    },
+    {
+      "number": "27",
+      "title": "영업양도 등에 따른 개인정보의 이전 제한",
+      "is_article": true
+    },
+    {
+      "number": "28",
+      "title": "개인정보취급자에 대한 감독",
+      "is_article": true
+    },
+    {
+      "number": "28의2",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "28의2",
+      "title": "가명정보의 처리 등",
+      "is_article": true
+    },
+    {
+      "number": "28의3",
+      "title": "가명정보의 결합 제한",
+      "is_article": true
+    },
+    {
+      "number": "28의4",
+      "title": "가명정보에 대한 안전조치의무 등",
+      "is_article": true
+    },
+    {
+      "number": "28의5",
+      "title": "가명정보 처리 시 금지의무 등",
+      "is_article": true
+    },
+    {
+      "number": "28의6",
+      "title": "",
+      "is_article": true
+    },
+    {
+      "number": "28의7",
+      "title": "적용범위",
+      "is_article": true
+    },
+    {
+      "number": "28의8",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "28의8",
+      "title": "개인정보의 국외 이전",
+      "is_article": true
+    },
+    {
+      "number": "28의9",
+      "title": "개인정보의 국외 이전 중지 명령",
+      "is_article": true
+    },
+    {
+      "number": "28의10",
+      "title": "상호주의",
+      "is_article": true
+    },
+    {
+      "number": "28의11",
+      "title": "준용규정",
+      "is_article": true
+    },
+    {
+      "number": "29",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "29",
+      "title": "안전조치의무",
+      "is_article": true
+    },
+    {
+      "number": "30",
+      "title": "개인정보 처리방침의 수립 및 공개",
+      "is_article": true
+    },
+    {
+      "number": "30의2",
+      "title": "개인정보 처리방침의 평가 및 개선권고",
+      "is_article": true
+    },
+    {
+      "number": "31",
+      "title": "개인정보 보호책임자의 지정 등",
+      "is_article": true
+    },
+    {
+      "number": "31의2",
+      "title": "국내대리인의 지정",
+      "is_article": true
+    },
+    {
+      "number": "32",
+      "title": "개인정보파일의 등록 및 공개",
+      "is_article": true
+    },
+    {
+      "number": "32의2",
+      "title": "개인정보 보호 인증",
+      "is_article": true
+    },
+    {
+      "number": "33",
+      "title": "개인정보 영향평가",
+      "is_article": true
+    },
+    {
+      "number": "34",
+      "title": "개인정보 유출 등의 통지ㆍ신고",
+      "is_article": true
+    },
+    {
+      "number": "34의2",
+      "title": "노출된 개인정보의 삭제ㆍ차단",
+      "is_article": true
+    },
+    {
+      "number": "35",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "35",
+      "title": "개인정보의 열람",
+      "is_article": true
+    },
+    {
+      "number": "35의2",
+      "title": "개인정보의 전송 요구",
+      "is_article": true
+    },
+    {
+      "number": "35의3",
+      "title": "개인정보관리 전문기관",
+      "is_article": true
+    },
+    {
+      "number": "35의4",
+      "title": "개인정보 전송 관리 및 지원",
+      "is_article": true
+    },
+    {
+      "number": "36",
+      "title": "개인정보의 정정ㆍ삭제",
+      "is_article": true
+    },
+    {
+      "number": "37",
+      "title": "개인정보의 처리정지 등",
+      "is_article": true
+    },
+    {
+      "number": "37의2",
+      "title": "자동화된 결정에 대한 정보주체의 권리 등",
+      "is_article": true
+    },
+    {
+      "number": "38",
+      "title": "권리행사의 방법 및 절차",
+      "is_article": true
+    },
+    {
+      "number": "39",
+      "title": "손해배상책임",
+      "is_article": true
+    },
+    {
+      "number": "39의2",
+      "title": "법정손해배상의 청구",
+      "is_article": true
+    },
+    {
+      "number": "39의3",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "39의3",
+      "title": "자료의 제출",
+      "is_article": true
+    },
+    {
+      "number": "39의4",
+      "title": "비밀유지명령",
+      "is_article": true
+    },
+    {
+      "number": "39의5",
+      "title": "비밀유지명령의 취소",
+      "is_article": true
+    },
+    {
+      "number": "39의6",
+      "title": "소송기록 열람 등의 청구 통지 등",
+      "is_article": true
+    },
+    {
+      "number": "39의7",
+      "title": "손해배상의 보장",
+      "is_article": true
+    },
+    {
+      "number": "40",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "40",
+      "title": "설치 및 구성",
+      "is_article": true
+    },
+    {
+      "number": "41",
+      "title": "위원의 신분보장",
+      "is_article": true
+    },
+    {
+      "number": "42",
+      "title": "위원의 제척ㆍ기피ㆍ회피",
+      "is_article": true
+    },
+    {
+      "number": "43",
+      "title": "조정의 신청 등",
+      "is_article": true
+    },
+    {
+      "number": "44",
+      "title": "처리기간",
+      "is_article": true
+    },
+    {
+      "number": "45",
+      "title": "자료의 요청 및 사실조사 등",
+      "is_article": true
+    },
+    {
+      "number": "45의2",
+      "title": "진술의 원용 제한",
+      "is_article": true
+    },
+    {
+      "number": "46",
+      "title": "조정 전 합의 권고",
+      "is_article": true
+    },
+    {
+      "number": "47",
+      "title": "분쟁의 조정",
+      "is_article": true
+    },
+    {
+      "number": "48",
+      "title": "조정의 거부 및 중지",
+      "is_article": true
+    },
+    {
+      "number": "49",
+      "title": "집단분쟁조정",
+      "is_article": true
+    },
+    {
+      "number": "50",
+      "title": "조정절차 등",
+      "is_article": true
+    },
+    {
+      "number": "50의2",
+      "title": "개선의견의 통보",
+      "is_article": true
+    },
+    {
+      "number": "51",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "51",
+      "title": "단체소송의 대상 등",
+      "is_article": true
+    },
+    {
+      "number": "52",
+      "title": "전속관할",
+      "is_article": true
+    },
+    {
+      "number": "53",
+      "title": "소송대리인의 선임",
+      "is_article": true
+    },
+    {
+      "number": "54",
+      "title": "소송허가신청",
+      "is_article": true
+    },
+    {
+      "number": "55",
+      "title": "소송허가요건 등",
+      "is_article": true
+    },
+    {
+      "number": "56",
+      "title": "확정판결의 효력",
+      "is_article": true
+    },
+    {
+      "number": "57",
+      "title": "「민사소송법」의 적용 등",
+      "is_article": true
+    },
+    {
+      "number": "58",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "58",
+      "title": "적용의 일부 제외",
+      "is_article": true
+    },
+    {
+      "number": "58의2",
+      "title": "적용제외",
+      "is_article": true
+    },
+    {
+      "number": "59",
+      "title": "금지행위",
+      "is_article": true
+    },
+    {
+      "number": "60",
+      "title": "비밀유지 등",
+      "is_article": true
+    },
+    {
+      "number": "61",
+      "title": "의견제시 및 개선권고",
+      "is_article": true
+    },
+    {
+      "number": "62",
+      "title": "침해 사실의 신고 등",
+      "is_article": true
+    },
+    {
+      "number": "63",
+      "title": "자료제출 요구 및 검사",
+      "is_article": true
+    },
+    {
+      "number": "63의2",
+      "title": "사전 실태점검",
+      "is_article": true
+    },
+    {
+      "number": "64",
+      "title": "시정조치 등",
+      "is_article": true
+    },
+    {
+      "number": "64의2",
+      "title": "과징금의 부과",
+      "is_article": true
+    },
+    {
+      "number": "65",
+      "title": "고발 및 징계권고",
+      "is_article": true
+    },
+    {
+      "number": "66",
+      "title": "결과의 공표",
+      "is_article": true
+    },
+    {
+      "number": "67",
+      "title": "연차보고",
+      "is_article": true
+    },
+    {
+      "number": "68",
+      "title": "권한의 위임ㆍ위탁",
+      "is_article": true
+    },
+    {
+      "number": "69",
+      "title": "벌칙 적용 시의 공무원 의제",
+      "is_article": true
+    },
+    {
+      "number": "70",
+      "title": "",
+      "is_article": false
+    },
+    {
+      "number": "70",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "71",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "72",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "73",
+      "title": "벌칙",
+      "is_article": true
+    },
+    {
+      "number": "74",
+      "title": "양벌규정",
+      "is_article": true
+    },
+    {
+      "number": "74의2",
+      "title": "몰수ㆍ추징 등",
+      "is_article": true
+    },
+    {
+      "number": "75",
+      "title": "과태료",
+      "is_article": true
+    },
+    {
+      "number": "76",
+      "title": "과태료에 관한 규정 적용의 특례",
+      "is_article": true
+    }
+  ]
+}

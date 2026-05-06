@@ -1,0 +1,1672 @@
+                  FOR PUBLICATION
+
+   UNITED STATES COURT OF APPEALS
+       FOR THE NINTH CIRCUIT
+
+In re: CALIFORNIA PIZZA                    No. 23-55288
+KITCHEN DATA BREACH
+LITIGATION,                                   D.C. Nos.
+______________________________             8:21-cv-01928-
+                                             DOC-KES
+AVIVA KIRSTEN,                             2:21-cv-09578-
+                                             DOC-KES
+               Plaintiff-Appellant,
+
+KANSAS GILLEO,
+                                             OPINION
+
+               Plaintiff-Appellee,
+
+JEREMY PITTMAN, individually and
+on behalf of all others similarly
+situated,
+
+               Plaintiff-Appellant,
+
+SYDNEY RUSEN; ESTEBAN
+MORALES; DOUG WALLACE;
+BRETT RIGAS; EVENCIO DIAZ,
+individually and on behalf of all others
+similarly situated,
+2         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+
+
+                 Plaintiffs-Appellees,
+    v.
+
+CALIFORNIA PIZZA KITCHEN,
+INC.,
+
+                 Defendant-Appellee.
+
+
+         Appeal from the United States District Court
+            for the Central District of California
+          David O. Carter, District Judge, Presiding
+
+              Argued and Submitted June 3, 2024
+                    Pasadena, California
+
+                    Filed February 24, 2025
+
+Before: Richard R. Clifton, Daniel P. Collins, and Kenneth
+                 K. Lee, Circuit Judges.
+
+                    Opinion by Judge Lee;
+    Partial Concurrence and Partial Dissent by Judge Collins
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.           3
+
+
+                          SUMMARY *
+
+
+             Class Settlement / Attorneys’ Fees
+
+    The panel affirmed the district court’s approval of a class
+settlement, reversed the attorneys’ fee award, and remanded
+in a class action brought by California Pizza Kitchen, Inc.
+(CPK) employees whose personal information was
+compromised by a cyberattack.
+    One group of plaintiffs’ lawyers struck a settlement with
+CPK. The monetary value of the class’s claims were (at
+most) around $950,000, yet the attorneys sought $800,000 in
+fees. The district court approved the settlement.
+    The panel held that district courts may approve claims-
+made settlements—even those that raise indicia of
+collusion—so long as they adhere to procedural
+requirements and find the settlement “fair, reasonable, and
+adequate” under Fed. R. Civ. P. 23(e). Although the district
+court’s preliminary and final approval orders were sparse
+and memorialized little of the district court’s rationale, the
+panel did not remand because the panel could reasonably
+infer the district court’s rationale from the record, which was
+unusually extensive. The panel held that the district court
+properly applied the In re Bluetooth Headset Prods. Liab.
+Litig., 654 F.3d 935 (9th Cir. 2011), heightened standard to
+review the settlement for collusion. The panel concluded that
+upon a review of the record, the district court neither
+procedurally erred nor abused its discretion in finding the
+
+
+*
+ This summary constitutes no part of the opinion of the court. It has
+been prepared by court staff for the convenience of the reader.
+4       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+settlement substantively acceptable. The panel thus
+affirmed the approval of the class settlement.
+    The panel reversed the fee award because the district
+court did not assess the actual value of the settlement and
+compare it to the fees requested. The panel remanded for the
+district court to determine the settlement’s actual value to
+class members and award reasonable and proportionate
+attorneys’ fees, consistent with this opinion.
+    Judge Collins concurred in the judgment to the extent
+that the majority reversed and remanded the district court’s
+approval of the fee award. He dissented from the majority’s
+decision to affirm the approval of the underlying settlement
+because, in approving the final settlement proposal before
+class certification, the district court provided little
+explanation as to why it approved this settlement and instead
+issued a series of perfunctory orders, despite the fact that
+(1) the final settlement triggers every Bluetooth factor;
+(2) the settlement’s final value ended up being nearly a
+fourth of the estimated “conservative” value presented at the
+preliminary approval hearing; and (3) the settlement’s
+proposed fee award comprises nearly 46% of the entire
+settlement.
+
+
+
+                        COUNSEL
+
+Theodore W. Maya (argued), Christopher Stiner, and Tina
+Wolfson, Ahdoot & Wolfson PC, Burbank, California; Todd
+S. Garber and Andrew C. White, Finkelstein Blankinship
+Frei-Pearson and Garber LLP, White Plains, New York; Seth
+A. Meyer, Meyer Law Firm PLLC, Scottsdale, Arizona; for
+Plaintiffs-Appellants.
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.     5
+
+
+David K. Lietz (argued), Milberg Coleman Bryson Phillips
+Grossman PLLC, Washington, D.C.; Mason Barney, Siri &
+Glimstad LLP, New York, New York; Rachele R. Byrd,
+Wolf Haldenstein Adler Freeman & Herz LLP, San Diego,
+California; Daniel O. Herrera, Cafferty Clobes Meriwether
+& Sprengel LLP, Chicago, Illinois; for Plaintiffs-Appellees.
+Jon P. Kardassakis (argued) and Michael K. Grimaldi, Lewis
+Brisbois Bisgaard & Smith LLP, Los Angeles, California,
+for Defendant-Appellee.
+
+
+
+                         OPINION
+
+LEE, Circuit Judge:
+
+    California Pizza Kitchen, Inc. (CPK) is a restaurant chain
+offering California-style pizza at about two-hundred
+locations across the country. But in November 2021, CPK
+was not in the news for its trademark Original BBQ Chicken
+Pizza or its underrated Thai Chicken Pizza. Rather, CPK
+revealed that a cyberattack had compromised the personal
+information of over 100,000 former and current employees.
+That disclosure spurred lawyers to race to the courthouse and
+file competing class action lawsuits against CPK to get a
+slice of the action.
+    One group of plaintiffs’ lawyers quickly struck a
+settlement with CPK: the deal offered cash payments and
+credit monitoring services to class members but CPK would
+only be required to make payments to class members who
+submitted valid claims (i.e., a claims-made settlement).
+Given the low redemption rate for claims, the monetary
+value of the class’s claims is (at most) around $950,000—
+6       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+yet the attorneys sought $800,000 in fees. A competing
+group of plaintiffs’ lawyers challenged that settlement,
+contending that they could deliver a deal for the class that
+would top it. Despite expressing some reservations, the
+district court approved the settlement.
+    We affirm the settlement approval but remand the
+attorneys’ fee award. District courts may approve claims-
+made settlements—even those that raise indicia of
+collusion—so long as they adhere to procedural
+requirements and find the settlement “fair, reasonable, and
+adequate” under Rule 23(e). Our review of the record shows
+that the district court neither procedurally erred nor abused
+its discretion in finding the settlement substantively
+acceptable. We thus affirm the approval of the class
+settlement. But we reverse the fee award because the district
+court did not assess the actual value of the settlement and
+compare it to the fees requested.
+                     BACKGROUND
+    I. CPK suffers a cyberattack—and then a deluge of
+       putative class actions.
+    In September 2021, CPK fell prey to a cyberattack by
+Conti, a ransomware group. Conti’s business model is
+straightforward: it hacks into a company’s system, encrypts
+the company’s files, and leaves a ransom note. In exchange
+for payment, Conti provides its victims with a decryption
+key and promises not to leak the stolen data. Conti has an
+incentive to keep those promises—if it started releasing
+stolen data, then future victims would be disinclined to pay.
+    Faced with this sticky dilemma, CPK chose to pay the
+ransom. Because the breach compromised employee data
+(including Social Security numbers), CPK notified 103,767
+           IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.                  7
+
+
+of its former and current employees. Soon, numerous
+plaintiffs’ lawyers filed a flurry of lawsuits—five in a matter
+of weeks. 1 All these class action lawsuits alleged that CPK
+failed to safeguard its employees’ personally identifiable
+information, and brought claims for negligence, breach of
+implied contract, and violations of business and privacy
+statutes.
+    Counsel for the first four cases filed (Gilleo, Morales,
+Wallace, and Rigas) quickly agreed to cooperate with each
+other in hopes of splitting the pie among themselves. They
+made overtures to the Kirsten plaintiffs, trying to bring them
+into the fold. But those attempts went nowhere: the Kirsten
+plaintiffs had little appetite for cooperation, as their counsel
+had divergent views on case strategy and jockeyed for the
+position of lead counsel. The district court eventually
+granted a stipulation consolidating Gilleo, Morales, Wallace,
+and Rigas into a single action—In re California Pizza
+Kitchen Data Breach Litigation. The Kirsten plaintiffs
+trundled on alone.
+    II. CPK and the consolidated plaintiffs reach a deal.
+    CPK and the consolidated plaintiffs proceeded straight
+into mediated settlement negotiations. In March 2022, they
+jointly requested that the district court stay the action
+
+
+
+1
+ The five cases are Gilleo, et al. v. California Pizza Kitchen, Inc., et al.,
+No. 8:21-cv-01928 (C.D. Cal. Nov. 23, 2021); Morales, et al. v.
+California Pizza Kitchen, Inc., et al., No. 8:21-cv-01988 (C.D. Cal. Dec.
+2, 2021); Wallace, et al. v. California Pizza Kitchen, Inc., et al., No. 8:21-
+cv-01970 (C.D. Cal. Dec. 2, 2021); Rigas, et al. v. California Pizza
+Kitchen, Inc., et al., No. 8:21-cv-02004 (C.D. Cal. Dec. 7, 2021); and
+Kirsten, et al. v. California Pizza Kitchen, Inc., et al., No. 8:21-cv-09578
+(C.D. Cal. Dec. 10, 2021).
+8         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+pending finalization of a proposed settlement agreement. 2
+Two months later, CPK and the consolidated plaintiffs
+presented a proposed settlement to the district court for
+preliminary approval. The proposed settlement class
+included all former and current employees potentially
+affected by CPK’s data breach, with a subclass for all class
+members residing in California. The class agreed to release
+all claims arising out of the data breach against CPK. CPK,
+in exchange, agreed to provide certain relief to the class.
+    First, CPK agreed that all class members could claim:
+(1) up to $1,000 in reimbursement for ordinary expenses and
+lost time incurred because of the data breach; (2) up to
+$5,000 in compensation for monetary loss from actual
+identity theft; and (3) 24-months’ worth of credit monitoring
+services, which included $1 million in identity theft
+insurance. Members of the California subclass could claim
+another $100 statutory damages award, though that amount
+would be counted towards the $1,000 reimbursement cap for
+ordinary expenses. The settlement agreement did not set an
+aggregate cap on these benefits, so CPK could theoretically
+be on the hook for massive liability. But the agreement was
+structured as a claims-made settlement, so class members
+would only recover if they submitted a timely claims form
+with supporting documentation—and the financial cost of
+the settlement to CPK would rest on the number of valid
+claims.
+
+
+
+2
+  Meanwhile, the district court granted CPK’s motion to dismiss the
+Kirsten plaintiffs’ lawsuit for lack of standing. The Kirsten plaintiffs
+amended the complaint, and CPK again moved to dismiss. The district
+court dismissed a subset of those claims. But Kirsten halted when it was
+stayed pending this appeal.
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    9
+
+
+    Second, CPK committed to limited injunctive relief.
+Right after the cyberattack, CPK had engaged a third-party
+cybersecurity consultant to provide post-breach “forensics,
+recovery, and remediation.” As part of the settlement
+agreement, CPK agreed to “maintain certain recently
+implemented business practices and remedial measures” for
+three years after the settlement date.
+    Finally, the settlement agreement permitted class counsel
+to request—without CPK’s objection—up to $800,000 in
+attorneys’ fees and costs. Those fees would be paid by CPK
+separately from any money disbursed to class members.
+    The consolidated plaintiffs estimated that, in aggregate,
+this settlement had “a conservative value of over $3.7
+million.” By their calculations, if only 2% of the class—
+which had around 103,767 members—claimed the full
+$1,000 in ordinary expense reimbursements, then the
+settlement would be worth $2,075,340. If only 5% of the
+California subclass—which had around 30,781 members—
+claimed the statutory damages amount, then that value
+would increase by $153,905. And if only 4% of the class
+claimed the credit monitoring service, which the
+consolidated plaintiffs valued at $15 per month per person,
+then another $1,494,244.80 could be stacked onto the
+settlement’s value.
+    Counsel for the Kirsten plaintiffs objected to the
+settlement as collusive and the fees request as excessive. It
+asked the court to appoint them as lead counsel, claiming
+that they could negotiate a better settlement for the class.
+10       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+     III. The district court separately approves the
+          settlement and attorneys’ fees.
+    In June 2022, the district court convened a preliminary
+approval hearing. At the hearing, the district court
+extensively analyzed the proposed settlement. It invited
+Bruce Friedman, the private mediator who oversaw the
+settlement negotiations, to testify and probed him on the
+parties’ negotiation process. The district court questioned
+the consolidated plaintiffs on the many vigorous objections
+raised by the Kirsten plaintiffs. And it raised its own
+concerns about whether the settlement sufficiently addressed
+the class members’ injuries.
+    The district court preliminarily approved the proposed
+settlement as “adequate, fair, and reasonable.” But it
+declined to award attorneys’ fees without knowing the
+number of submitted claims, and reserved that issue until
+after the claims process had concluded.
+    Once the claims deadline had passed, the consolidated
+plaintiffs returned to seek final approval of the settlement
+and attorneys’ fees. The consolidated plaintiffs reported:
+
+        •   176 ordinary expense claims totaling
+            $384,134.77;
+        •   979 lost time claims totaling $50,320.00;
+        •   45 identify theft claims totaling
+            $191,354.50;
+        •   803 California statutory damages claims
+            totaling $80,300.00; and
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.             11
+
+
+         •   1,264 claims for credit monitoring
+             services, valued at $455,040.00.
+
+They represented that the class had filed 1,828 claims with a
+face value of $1,161,149.27, for a final claims rate of 1.8%.
+These claims were unvalidated, meaning that the claims
+administrator had not yet determined whether they were
+properly documented and compliant with the settlement’s
+terms. Even without validation, one glaring error is apparent
+on its face: because of the $1,000 cap on ordinary expense
+claims, the 176 ordinary expense claims are capped at
+$176,000, despite the class members asking for
+$384,134.77. That means the maximum monetary value of
+the claims is, at most, around $950,000, not $1.16 million.
+No matter the final value of the settlement, the consolidated
+plaintiffs requested $773,632.95 in attorneys’ fees and
+$26,367.05 in expenses.
+    The district court observed that the settlement value had
+dramatically deflated from the consolidated plaintiffs’
+earlier estimate, and expressed “tremendous concern” over
+the scope of attorneys’ fees. After holding two hearings in
+November and December 2022, the district court issued final
+approval of the settlement in a sparse written order. It
+awarded the full $800,000 in attorneys’ fees and costs,
+noting that attorneys’ fees “would constitute 36.3% of the
+total class benefit, which is $2,133,719.” 3 The written order
+
+
+3
+  The consolidated plaintiffs reported an estimated “total benefit to the
+class” of $2,133,719—made up of $1,161,149 in unvalidated submitted
+claims; $172,570 in notice and settlement administration costs; and
+$800,000 in attorneys’ fees. But as noted earlier, the $1,161,149 is
+facially invalid under the settlement terms and should be reduced by over
+$200,000.
+12      IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+did not explain the court’s rationale for approving the
+settlement and the fees.
+    The Kirsten plaintiffs timely appealed.          We have
+jurisdiction under 28 U.S.C. § 1291.
+               STANDARD OF REVIEW
+    We review a district court’s decision to approve a class
+action settlement for abuse of discretion. Briseño v.
+Henderson, 998 F.3d 1014, 1022 (9th Cir. 2021). Our
+review of a district court’s substantive fairness
+determination is narrow: we “rarely overturn” settlements
+for substantive reasons but will do so if the agreement
+contains “convincing indications” that “self-interest rather
+than the class’s interests in fact influenced the outcome of
+the negotiations.” Allen v. Bedolla, 787 F.3d 1218, 1223
+(9th Cir. 2015) (citation omitted). Given these substantive
+limitations, we hold district courts to a stringent procedural
+standard. Id. “To survive appellate review, the district court
+must show it has explored comprehensively all factors”
+relevant to the substantive fairness determination. Dennis v.
+Kellogg Co., 697 F.3d 858, 864 (9th Cir. 2012) (citation
+omitted).
+    We review a district court’s award of attorneys’ fees for
+abuse of discretion, and the factual findings supporting such
+an award for clear error. Lowery v. Rhapsody Int’l, Inc., 75
+F.4th 985, 991 (9th Cir. 2023).
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.        13
+
+
+                       DISCUSSION
+   I. The district court did not abuse its discretion in
+      approving the class settlement.
+       A. Due process concerns require                    judicial
+          approval of class action settlements.
+    Class action settlements, by their very nature, present
+“unique due process concerns for absent class members.”
+Hanlon v. Chrysler Corp., 150 F.3d 1011, 1026 (9th Cir.
+1998). Federal Rule of Civil Procedure 23(e) thus requires
+judicial approval of any class action settlement and tasks
+district courts with ensuring that the settlement is “fair,
+reasonable, and adequate.” Under this standard, district
+courts can neither rubberstamp the settlement nor unduly
+meddle in the parties’ affairs. Although district courts are
+required to give “substantive consideration” to the terms of
+a proposed settlement, Staton v. Boeing Co., 327 F.3d 938,
+960 (9th Cir. 2003), they are not bound by any “duty to
+maximize the settlement fund for class members,” Briseño,
+998 F.3d at 1027.
+   Before 2018, this circuit instructed courts engaging in
+Rule 23(e)’s “fair, reasonable, and adequate” analysis to
+consider the following non-exhaustive list of factors:
+
+       [1] the strength of plaintiffs’ case; [2] the
+       risk, expense, complexity, and likely duration
+       of further litigation; [3] the risk of
+       maintaining class action status throughout the
+       trial; [4] the amount offered in settlement;
+       [5] the extent of discovery completed, and
+       the stage of the proceedings; [6] the
+       experience and views of counsel; [7] the
+       presence of a governmental participant; and
+14      IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+       [8] the reaction of the class members to the
+       proposed settlement.
+
+Staton, 327 F.3d at 959 (citation omitted) (known as the
+“Hanlon,” “Staton,” or “Churchill,” 361 F.3d 566 (9th Cir.
+2004), factors).
+    In 2018, Rule 23(e) was amended to prescribe its own
+multi-factor test. To determine whether a settlement is “fair,
+reasonable, and adequate,” courts should consider whether:
+
+       (A) the class representatives and class
+          counsel have adequately represented the
+          class;
+       (B) the proposal was negotiated at arm’s
+           length;
+       (C) the relief provided for the class is
+           adequate, taking into account:
+           (i) the costs, risks, and delay of trial and
+               appeal;
+           (ii) the effectiveness of any proposed
+                method of distributing relief to the
+                class, including the method of
+                processing class-member claims;
+           (iii)the terms of any proposed award of
+                attorney’s fees, including timing of
+                payment; and
+           (iv) any agreement required to be
+                identified under Rule 23(e)(3); and
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    15
+
+
+       (D) the proposal treats class members
+          equitably relative to each other.
+
+Fed. R. Civ. P. 23(e)(2)(A)–(D). The key Hanlon factors are
+now baked into the text of Rule 23(e), and the remaining
+ones can still be considered for Rule 23(e)(2) analysis. See
+McKinney-Drobnis v. Oreshack, 16 F.4th 594, 609 n.4 (9th
+Cir. 2021).
+    Another concern lurks in the background of every class
+action settlement: “class counsel may collude with the
+defendants, tacitly reducing the overall settlement in return
+for a higher attorney’s fee.” In re Bluetooth Headset Prods.
+Liab. Litig., 654 F.3d 935, 946 (9th Cir. 2011) (internal
+quotation omitted). In Bluetooth, we identified three “subtle
+signs that class counsel have allowed pursuit of their own
+self-interests and that of certain class members to infect the
+negotiations.” Id. at 946–47. Those are: “(1) when counsel
+receives a disproportionate distribution of the settlement;
+(2) when the parties negotiate a ‘clear sailing arrangement,’
+under which the defendant agrees not to challenge a request
+for an agreed-upon attorney’s fee; and (3) when the
+agreement contains a ‘kicker’ or ‘reverter’ clause that returns
+unawarded fees to the defendant, rather than the class.”
+Briseño, 998 F.3d at 1023 (quoting Bluetooth, 654 F.3d at
+947) (internal quotations and alterations omitted).
+    If these indicia of implicit collusion are present, then a
+proposed settlement “must withstand an even higher level of
+scrutiny for evidence of collusion or other conflicts of
+interest than is ordinarily required under Rule 23(e).”
+Bluetooth, 654 F.3d at 946. The district court must
+especially “assure itself that the fees awarded in the
+agreement were not unreasonably high.” Id. at 947 (internal
+citations and alterations omitted).
+16        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+    But before we can review the district court’s settlement
+approval order, we first must address a unique wrinkle here:
+the district court’s preliminary and final approval orders
+were sparse—almost boilerplate—and memorialized little of
+the district court’s rationale. Usually, when we cannot
+determine the district court’s reasoning, we remand the case
+for the court to explain its rationale. But here, we can
+reasonably infer the district court’s rationale from the record,
+which was unusually extensive with multiple hearings and
+supplemental briefs. See, e.g., Hanlon, 150 F.3d at 1023
+(“Although the district court’s [class certification] findings
+are almost conclusory, the record provides more than
+adequate foundation upon which to reach our conclusions.”);
+In re Pac. Enters. Secs. Litig., 47 F.3d 373, 377 (9th Cir.
+1995) (the district court’s “conclusory statement[s]” could
+be supported by the record, which reflected an “extensive
+settlement hearing”). 4 From the district court’s exhaustive
+questions and statements, as well as the parties’ responses,
+at the various hearings, we can reasonably deduce what
+factors the district court considered when approving the
+settlement.
+
+
+
+
+4
+  We are not suggesting that we will approve class action settlements
+based on conclusory written orders. We do so in spite of it here. Indeed,
+we have vacated settlement approval orders when we could not glean the
+district court’s reasoning from the record. See, e.g., Allen, 787 F.3d at
+1224 (vacating order because “the record before us does not allow us to
+undertake . . . review”); Roes, 1-2 v. SFBSC Mgmt., LLC, 944 F.3d 1035,
+1050, n.13 (9th Cir. 2019) (stating that the “record does not permit” the
+court to review the order). In contrast here, we can sufficiently discern
+the court’s reasoning given the voluminous record and extensive
+hearings.
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    17
+
+
+       B. The district court applied the Bluetooth
+          heightened standard to review the settlement
+          for collusion.
+    We now address whether the district followed the
+Bluetooth procedural safeguards in approving a class
+settlement. The Kirsten plaintiffs correctly point out that the
+settlement raises all three red flags of potential collusion
+under Bluetooth. 654 F.3d at 947.
+    First, Bluetooth warns that a class counsel receiving a
+disproportionately large fee award compared to what the
+class members received signals potential collusion. See
+Briseño, 998 F.3d at 1026 (a “gross disparity in distribution
+of funds between class members and their class counsel
+raises an urgent red flag”). Here, the parties agreed to
+$800,000 in fees, even though the monetary value of the
+settlement is at most $950,000.
+    Second, the parties agreed to a so-called “clear sailing”
+provision in which CPK agreed that it would not challenge
+the agreed-upon attorneys’ fees. See Bluetooth, 654 F.3d at
+947 (these provisions potentially “enabl[e] a defendant to
+pay class counsel excessive fees and costs in exchange for
+counsel accepting an unfair settlement on behalf of the
+class”).
+    And third, if a settlement has a “reverter” or a “kicker”
+provision, it could imply collusion. See Bluetooth, 654 F.3d
+at 949 (reverter provisions “amplif[y] the danger of collusion
+already suggested by a clear sailing provision”). A reverter
+in a class action settlement means that any fees not awarded
+to class counsel would revert to the defendant’s coffers, and
+not to the class members. Here, it means that if the district
+court had reduced fees below $800,000, then CPK’s
+18      IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+obligation to pay attorneys’ fees would be reduced, with no
+additional funds given to the class.
+    CPK contends that claims-made settlements do not
+contain reverter provisions, and so Bluetooth cannot apply.
+In a claims-made settlement, the defendant waits until after
+the claims process concludes—i.e., class members have
+submitted forms to seek compensation and the claim
+administrator validates them—to pay out the amount
+claimed by class members. By contrast, in a common-fund
+settlement, the defendant establishes a pot of money (i.e., a
+“common fund”) before the claims process begins. If a
+common-fund settlement includes a reversionary provision,
+then the defendant can recoup whatever amount is left in the
+fund after paying out class members’ claims. Because a
+claims-made settlement only requires CPK to pay out the
+amount claimed, the argument goes, no money reverts to
+CPK, so there technically can be no reverter provision and
+thus no Bluetooth scrutiny.
+     That   argument       fundamentally       misunderstands
+Bluetooth’s purpose. The reverter provision flagged in
+Bluetooth addresses what happens to unawarded attorneys’
+fees. 654 F.3d at 947. In a class action settlement, the
+defendant has no incentive to differentiate between
+(i) payments made to class members and (ii) payments made
+to class counsel—and is only concerned about minimizing
+the total payment. See, e.g., Staton, 327 F.3d at 964;
+Briseño, 998 F.3d at 1025. Put another way, a defendant will
+happily pay more to class counsel at the expense of the class
+if it means that its total liability—i.e., attorneys’ fees and
+payment to the class—will be lower. See Briseño, 998 F.3d
+at 1025.
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.     19
+
+
+    So when class counsel and the defendant include clear
+sailing and reverter provisions in the settlement, they might
+be benefiting themselves—at the expense of the class
+members. The district court may ultimately award less than
+the agreed-upon attorneys’ fees, despite a clear sailing
+provision in which the defendant agrees not to challenge it.
+But if the court does so, then the unawarded fees would
+ideally be distributed to the class, as the defendant is already
+willing to pay that amount to secure the settlement. See
+Briseño, 998 F.3d at 1027 (“[T]here is no plausible reason
+why the class should not benefit from the spillover of
+excessive [attorneys’] fees.”). Yet a reverter directs the
+unawarded fees to be given back to the defendant instead of
+the class members. Bluetooth directs courts to be skeptical
+of such settlements because they hint at collusion between
+the class counsel and the defendant.
+    This fear of collusion applies equally to both claims-
+made settlements and common-fund settlements. Whether
+money leaves the defendant’s hands is immaterial. In either
+case, the purpose of Bluetooth’s heightened scrutiny is to
+probe settlements for signals that class counsel may have
+colluded with the defendant by selling out the class’s
+interests in exchange for higher fees.
+    Having established that Bluetooth applies, we are
+satisfied that the district court fulfilled its heightened
+obligation to ferret out any “evidence of collusion or other
+conflicts of interest.” 654 F.3d at 946. As we have
+recognized, the presence of all three Bluetooth factors does
+not trigger a domino effect that makes a settlement per se
+collusive. See Kim v. Allison, 8 F.4th 1170, 1180 (9th Cir.
+2021) (noting that the presence of all three factors is not a
+“death knell”). Bluetooth is merely a procedural safeguard
+to ensure that district courts scrutinize class settlements for
+20       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+collusion that may harm class members. It does not set
+crusty, rigid rules that mandate a substantive result.
+    Here, the district court gave the settlement provisions a
+hard look under the Bluetooth factors. It probed the parties’
+disputes over whether CPK’s decision to negotiate with the
+consolidated plaintiffs amounted to a “reverse auction,”
+whether the Kirsten plaintiffs’ counsel’s “effort to become
+class counsel” was improper, and whether a “claims-made
+settlement” was “inherently collusive.” It questioned Mr.
+Friedman, the parties’ private mediator, on the parties’ “term
+sheets” and “settlement proffer[s],” and how many
+negotiation sessions the parties conducted. In its preliminary
+approval order, it made an explicit finding that the settlement
+was “non-collusive.” On this record, we cannot say that the
+district court ignored the Bluetooth factors or abused its
+discretion.
+       C. The district court did not abuse its discretion
+          in finding the settlement fair, reasonable, and
+          adequate.
+    We next substantively review the class settlement and
+hold that the district court did not abuse its discretion in
+finding it fair, reasonable, and adequate. The district court
+properly evaluated the settlement under the Rule 23(e)(2)
+factors as well as the judicially-crafted Hanlon factors.
+    The district court found the relief for the class adequate
+after considering a host of concerns. Fed. R. Civ. P.
+23(e)(2)(C) (requiring the settlement be “adequate” for the
+class and listing factors to consider). For example, the
+district court identified the key harm to the class (the
+disclosure of sensitive personal information) and ensured
+that class members were compensated for it. And the
+settlement offers real benefits to class members: credit
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    21
+
+
+monitoring services for two years, up to $1,000 for ordinary
+expenses and lost time, and up to $5,000 for monetary loss
+from identity theft. The district court also considered the
+California Consumer Privacy Act (CCPA) claims—which
+potentially conferred statutory damages to the California
+subclass—in assessing the adequacy of the settlement.
+    On appeal, the Kirsten plaintiffs contend that they could
+have notched a more favorable settlement on behalf of the
+class. They maintain, for example, that the CCPA claims are
+possibly worth over $77 million in statutory damages, and
+that the settlement released them for only a small sliver of
+that amount. But the accuracy of that valuation is tenuous at
+best. The Kirsten plaintiffs provide no legal authority for
+their valuation of the CCPA claims and have not rebutted
+CPK’s potential legal defenses against them.
+     The district court also weighed the “significant risks,
+expense, and/or uncertainty” that the class would face in
+litigation. Fed. R. Civ. P. 23(e)(2)(C)(i) (listing “the costs,
+risks, and delay of trial and appeal” as a factor in assessing
+adequacy). For instance, Article III standing can be an uphill
+battle for data-breach plaintiffs, who must allege a “concrete
+harm,” not just an “asserted risk of future harm.”
+TransUnion LLC v. Ramirez, 594 U.S. 413, 437 (2021).
+Here, the class’s standing rested on questionable footing—
+there is no evidence that any CPK employee’s compromised
+data was misused, and the hacker group is apparently known
+for not releasing the information to the dark web once it
+receives its ransom payment.
+    Lastly, we underscore that courts do not have a duty to
+maximize settlement value for class members. Briseño, 998
+F.3d at 1026. Rather, our inquiry is much more modest and
+limited to ensuring that the class settlement is fair,
+22        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+reasonable, and adequate. Perhaps the Kirsten plaintiffs’
+counsel could have obtained a better deal if they had litigated
+the case further. But reasonable disagreements on case
+strategy are not evidence of an unfair deal or collusion. An
+early settlement may often be beneficial for the class, as it
+reduces attorneys’ fees, preserves value for the class, and
+offers immediate compensation for injured class members. 5
+    The most problematic part of the class settlement is its
+claims-made nature. As evidenced by the 1.8% claims rate
+here, redemption rates are typically very low because most
+class members do not bother jumping through the hoops to
+submit a claim. See, e.g., Roes, 1–2, 944 F.3d at 1053;
+Briseño, 998 F.3d at 1026. As a result, claims-made
+settlements often allow defendants to settle on the cheap.
+But we have never held that claims-made settlements are per
+se inadequate under Rule 23(e). And here, the settlement
+does offer real benefits—not worthless coupons or
+imaginary injunctive relief—to the people who submitted
+claims. We cannot say that the district court abused its
+discretion in finding the settlement fair, reasonable, and
+adequate. 6
+
+5
+  The court also addressed other factors under Rule 23(e) and Hanlon.
+For example, it found that the proposal was negotiated at arm’s length.
+Fed. R. Civ. P. 23(e)(2)(B). To be sure, the presence of a mediator is not
+dispositive, as mediation has become a cottage industry with repeat
+players. See, e.g., Roes, 1–2, 944 F.3d at 1050 n.13. But here, the district
+court assured itself that Mr. Friedman’s mediation of the parties’
+settlement negotiations was more than a pro forma exercise.
+6
+ Both the majority and dissent agree that the lack of a detailed written
+order made appellate review more difficult. While there were extensive
+hearings, off-the-cuff oral statements often lack clarity and are subject to
+differing interpretations. For example, the dissent believes the court at
+           IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.                23
+
+
+    II. We reverse and remand the approval of excessive
+        attorneys’ fees.
+     Finally, we address the district court’s fee award of
+almost $800,000. Because the settlement agreement was not
+conditioned on attorneys’ fees, we can vacate the fee award
+without undoing the settlement approval, as the settlement
+still passes muster under Rule 23(e). See Bluetooth, 654 F.3d
+at 945; McKinney-Drobnis, 16 F.4th at 606.
+    Courts may only award “reasonable” attorneys’ fees.
+Fed. R. Civ. P. 23(h). The “touchstone” for that analysis is
+“the benefit to the class”—class counsel can only reap
+rewards if they have delivered results for class members.
+Lowery, 75 F.4th at 988. This circuit has signed off on two
+methods for determining reasonable attorneys’ fees in class
+actions: the “lodestar” method and the “percentage-of-
+recovery” method. In re Hyundai & Kia Fuel Econ. Litig.,
+926 F.3d 539, 570 (9th Cir. 2019) (en banc). Under the
+lodestar method, the court multiplies the number of hours
+reasonably spent on the case by a reasonable hourly rate. Id.
+Under the percentage-of-recovery method, the court simply
+
+the preliminary approval hearing indicated that it likely would not
+approve a settlement worth less than $3 million. Dissent at 43. But we
+do not believe that court was making such a categorical statement when
+it said “And if they end up with 3.2 million, I’d probably look very
+favorably, or even 2.5. I don’t know. Looking very favorably.” Another
+complicating factor is that a court may not tick off every single factor or
+reason it considered during an oral hearing. But based on our review of
+the record, we believe the court sufficiently probed and analyzed the key
+points, such as the settlement’s benefit to the class and the attorneys’ fees
+relative to that benefit. As explained, the court first flagged the
+possibility of an outsized fee amount if redemption rates turned out to be
+low but then ignored this problem when the redemption percentage was
+indeed low. As explained below, we thus reverse and remand on the fees
+amount.
+24       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+awards counsel with a percentage of the recovery claimed by
+the class—the typical benchmark is 25%. Id. Under both
+methods, certain factors, like “the quality of representation,
+the benefit obtained for the class, the complexity and novelty
+of the issues presented, and the risk of nonpayment,” may
+favor upward or downward adjustment. Bluetooth, 654 F.3d
+at 942.
+    Unlike the district court’s settlement approval, we cannot
+infer the district court’s rationale for its fee award from the
+record. At the November 2022 hearing, the district court
+raised “tremendous concern[s]” about the reasonableness of
+the consolidated plaintiffs’ $800,000 fee request. First, it
+questioned the lodestar of $687,681. Although the district
+court noted that the blended hourly rate of $670 seemed
+reasonable, it asked about the sheer “number of attorneys
+allegedly making appearances” in the case. Second, the
+district court appeared disinclined to award fees “clearly
+above the benchmark of 25%” percentage-of-recovery.
+     Yet its final award did just that—even though the
+attorneys’ fees constitute around 45% of the settlement value
+to the class. In a short, two-paragraph order, the district court
+signed off on a positive multiplier to counsel’s lodestar, even
+though the fees were significantly over the 25% percentage-
+of-recovery benchmark. The court failed to “provide an
+adequate explanation” for the fees, so we must reverse and
+remand. Lowery, 75 F.4th at 992 (citing Stanger v. China
+Elec. Motor, Inc., 812 F.3d 734, 739 (9th Cir. 2016)).
+    Even apart from its failure to provide an explanation, the
+district court erred by approving fees that appear excessive
+of settlement value. To assess the reasonableness of fees, the
+district court must first independently “calculate the class
+action settlement’s benefit to the class members.” Id. In a
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.              25
+
+
+claims-made settlement, that obligation requires the district
+court to wait until at least after the claims deadline to award
+attorneys’ fees. When the claims validation process is brief
+or where the settlement presents a significant risk of
+fraudulent or invalid claims (e.g., settlements offering
+potentially lucrative compensation), that may even require
+the district court to wait until after the claims validation
+process has concluded.
+    Here, the district court appeared to accept the
+consolidated plaintiffs’ assertion that the class’s claims were
+worth $1.16 million, despite the substantial likelihood that
+many of these claims would be thrown out post-validation
+for exceeding the caps or failing to provide supporting
+documentation. As noted earlier, that $1.16 figure is facially
+invalid based on the settlement agreement, which caps
+ordinary expense claims at $1,000. As the consolidated
+plaintiffs conceded at oral argument, the class’s 176 ordinary
+expense claims could, at most, theoretically be $176,000.
+Yet the consolidated plaintiffs claimed that ordinary
+expenses would be $384,134.77. So, at most, the monetary
+value of the class’s claims is around $950,000, not $1.16
+million. And that amount may be far less after validation. A
+fee award of $800,000 would then constitute at most around
+45% of settlement value, a significant departure from our
+25% benchmark. 7
+
+
+7
+  Specifically, the $800,000 fee award is around 45% of $1.75 million,
+which is made up of $950,000 in the class’s claims and $800,000 in fees.
+District courts have discretion to include notice and administration costs
+in their calculation of settlement value under the percentage-of-recovery
+method, but that determination should be driven by reasonableness. See
+In re Online DVD-Rental Antitrust Litig., 779 F.3d 934, 953 (9th Cir.
+26         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+    On remand, the district should scrutinize the
+reasonableness of the consolidated plaintiffs’ lodestar. It
+should then calculate the actual value of the settlement to the
+class and perform a crosscheck of the lodestar against the
+25% percentage-of-recovery benchmark to ensure that fees
+are reasonable. Based on the record before us, that method
+will likely favor downward adjustment.
+                           CONCLUSION
+    We AFFIRM the district court’s settlement approval but
+REVERSE the attorneys’ fee award. We REMAND for the
+district court to determine the settlement’s actual value to
+class members and award reasonable and proportionate
+attorneys’ fees, consistent with this opinion.
+
+
+COLLINS, Circuit Judge, concurring in the judgment in part
+and dissenting in part:
+
+    I concur in the judgment to the extent that the majority
+reverses and remands the district court’s approval of the
+attorney’s fee award. I respectfully dissent, however, from
+the majority’s decision to affirm the approval of the
+underlying settlement in this case.
+   Under our precedents and Federal Rule of Civil
+Procedure 23(e), district courts must closely scrutinize the
+substantive fairness of class action settlement proposals. As
+we have recognized, “‘settlement class actions present
+
+2015). So, for example, it may not make sense to include notice and
+administration costs if they approach or exceed the value of the monetary
+and injunctive relief benefits to the class. Here, even if the district court
+included the $172,570 in notice costs in its calculations, the $800,000
+fee award would still constitute around 41.5% of settlement value.
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    27
+
+
+unique due process concerns for absent class members,’ and
+the district court has a fiduciary duty to look after the
+interests of those absent class members.” Allen v. Bedolla,
+787 F.3d 1218, 1223 (9th Cir. 2015) (citation omitted).
+Accordingly, a district court “may approve” a class action
+settlement “only on finding that it is fair, reasonable, and
+adequate.” FED. R. CIV. P. 23(e)(2). “To survive appellate
+review, the district court must show it has explored
+comprehensively all factors, and must give a reasoned
+response to all non-frivolous objections.” Allen, 787 F.3d at
+1223–24 (citation omitted).
+    This duty is even more stringent, we have held, “when a
+settlement is negotiated absent class certification.” Allen,
+787 F.3d at 1224. “Specifically, such settlement agreements
+must withstand an even higher level of scrutiny for evidence
+of collusion or other conflicts of interest than is ordinarily
+required under Rule 23(e) before securing the court’s
+approval as fair.” Roes, 1–2 v. SFBSC Mgmt., LLC, 944 F.3d
+1035, 1048–49 (9th Cir. 2019) (simplified). This higher
+scrutiny is required in order “to ensure that class
+representatives and their counsel do not secure a
+disproportionate benefit at the expense of the unnamed
+plaintiffs.” Id. at 1049 (simplified). “The subtle signs of
+collusion for which we require district courts to look,” id.
+(simplified), are drawn from our decision in In re Bluetooth
+Headset Products Liability Litigation, 654 F.3d 935, 947
+(9th Cir. 2011). These “Bluetooth factors” include the
+following danger signs: “(1) when counsel receive a
+disproportionate distribution of the settlement; (2) when the
+parties negotiate a clear sailing arrangement (i.e., an
+arrangement where defendant will not object to a certain fee
+request by class counsel); and (3) when the parties create a
+reverter that returns unclaimed funds to the defendant.”
+28       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+Allen, 787 F.3d at 1224 (simplified). Although the presence
+of these factors “is not a death knell” for a settlement, “when
+they exist, they require the district court to examine them”
+and “develop the record to support its final approval
+decision.” Kim v. Allison, 8 F.4th 1170, 1180 (9th Cir. 2021)
+(simplified).
+    Here, in approving the final settlement proposal before
+class certification, the district court failed to follow these
+procedural requirements. It provided little explanation as to
+why it approved this settlement and instead issued a series of
+perfunctory orders, despite the fact that, inter alia, (1) the
+final settlement triggers every Bluetooth factor; (2) the
+settlement’s final value ended up being nearly a fourth of the
+estimated “conservative” value presented at the preliminary
+approval hearing; and (3) the settlement’s proposed
+attorney’s fees award comprises nearly 46% of the entire
+settlement. The district court’s failure to adequately
+examine any of these issues compels reversal and remand.
+Because the majority nonetheless upholds the district court’s
+approval of the settlement, I respectfully dissent.
+                               I
+                               A
+    In September 2021, California Pizza Kitchen (“CPK”), a
+national restaurant chain, suffered a data breach that exposed
+the names, Social Security numbers, dates of birth, and other
+personal identifying information of over 100,000 current and
+former employees. On November 15, 2021, CPK, after
+investigating the breach, sent notification letters to 103,767
+individuals whose personal information may have been
+compromised as a result of the breach.
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.                29
+
+
+    Soon thereafter, five putative class actions were filed in
+the United States District Court for the Central District of
+California, seeking monetary and equitable relief for a
+nationwide class of persons whose personal identifying
+information was accessed by the breach. 1 The last of these
+suits was filed on December 10, 2021 by plaintiffs Aviva
+Kirsten and Jeremy Pittman (the “Kirsten Plaintiffs”), who
+are the Appellants in this case. In contrast to the complaints
+of the first four plaintiff groups (the “Settling Plaintiffs”), the
+Kirsten Plaintiffs’ complaint explicitly asserted a claim
+under the California Consumer Privacy Act (“CCPA”). See
+CAL. CIV. CODE § 1798.100 et seq. That statute, under
+certain conditions, allows for statutory damages between
+$100 and $750 for California residents whose personal
+identifying information was “subject to an unauthorized
+access and exfiltration, theft, or disclosure as a result of” a
+business’s failure to maintain digital security procedures. Id.
+§ 1798.150(a)(1)(A); see also id. § 1798.140(i) (generally
+defining a “consumer” covered by the CCPA as “a natural
+person who is a California resident”). The Kirsten Plaintiffs’
+operative complaint stated that, once the ongoing statutory
+advance-notice process was completed, the complaint would
+be amended to assert a formal request for CCPA statutory
+damages.
+    Two days before the complaint in Kirsten was filed, the
+Settling Plaintiffs agreed to coordinate their efforts. After
+
+1
+ Gilleo, et al. v. California Pizza Kitchen, Inc., et al., No. 8:21-cv-01928
+(C.D. Cal. Nov. 23, 2021); Morales v. California Pizza Kitchen, Inc., No.
+8:21-cv-01988 (C.D. Cal. Dec. 2, 2021); Wallace, et al. v. California
+Pizza Kitchen, Inc., No. 8:21-cv-01970 (C.D. Cal. Dec. 2, 2021); Rigas,
+et al. v. California Pizza Kitchen, Inc., No. 8:21-cv-02004 (C.D. Cal.
+Dec. 7, 2021); and Kirsten, et al. v. California Pizza Kitchen, Inc., No.
+2:21-cv-09578 (C.D. Cal. Dec. 10, 2021).
+30       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+initiating their suit, the Kirsten Plaintiffs reached out to the
+Settling Plaintiffs “to meet and confer about streamlining
+efforts and potentially coming to consensus on leadership.”
+However, these attempts to reach consensus failed.
+    Attempts to consolidate all five cases also failed. On
+January 24, 2022, the Kirsten Plaintiffs drafted and
+circulated a stipulation to consolidate the five cases and
+establish a briefing schedule for the appointment of lead
+class counsel. Fifteen days later, the Settling Plaintiffs
+circulated their own version of the stipulation, and the
+Kirsten Plaintiffs sent back redlines of the draft stipulation,
+which, inter alia, proposed a shorter briefing schedule for
+contested leadership motions. The next day, the Settling
+Plaintiffs responded with an edited draft stipulation rejecting
+the Kirsten Plaintiffs’ proposed leadership motion schedule.
+After five days, the Settling Plaintiffs, without hearing back
+from the Kirsten Plaintiffs, filed a stipulation and a proposed
+order consolidating the four other cases. In a footnote, the
+stipulation noted the existence of the Kirsten litigation,
+stating that “the parties to this stipulation were unable to
+obtain agreement to this stipulation from plaintiffs in that
+action.” Without comment, the district court then entered the
+proposed order consolidating the four cases. The deadline
+for lead counsel motions was set for March 17, 2022.
+                               B
+    Meanwhile, the Settling Plaintiffs had begun discussing
+settlement with CPK. After a mandatory pre-motion
+conference with CPK’s counsel concerning CPK’s
+anticipated motion to dismiss, counsel in the Wallace case
+had “substantial questions in [his] mind about the viability
+of Plaintiffs’ claims in this litigation.” He subsequently
+drafted a settlement proposal term sheet, which he first
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.   31
+
+
+circulated to his co-counsel and then, on January 26, 2022,
+to CPK’s counsel. The term sheet proposed a claims-made
+settlement and included a demand for compensation for
+statutory claims under the CCPA.
+    On February 9, 2022, the Kirsten Plaintiffs and CPK
+conferred about scheduling in the Kirsten litigation. After
+this meeting, CPK’s counsel sent an email to the Kirsten
+Plaintiffs’ counsel asking, “Would you consider for example
+a claims made style settlement? Do you have a proposed
+term sheet?” The Kirsten Plaintiffs responded that the
+parties would need to exchange information and set a
+mediation before engaging in any settlement talks.
+    Following consolidation, the Settling Plaintiffs and CPK
+began settlement talks in earnest. The parties engaged in
+informal discovery regarding CPK’s insurance coverage and
+the data breach. The parties selected a mediator and engaged
+in their first mediation session, via Zoom, on March 10,
+2022. This mediation session was not fully successful, but
+the parties agreed to meet again on March 15 for another
+mediation session on Zoom.
+    Four days later, on March 14, 2022, CPK’s counsel and
+the Kirsten Plaintiffs’ counsel conferred pursuant to Federal
+Rule of Civil Procedure 26(f). During that conference, the
+Kirsten Plaintiffs asked CPK whether the company was
+negotiating with any other plaintiffs’ counsel and about the
+status of any such negotiations. Although there is some
+dispute over what precisely was said on this call, it is
+undisputed that CPK did not mention its ongoing mediation
+with the Settling Plaintiffs.
+    The next day, on March 15, 2022, the Settling Plaintiffs
+and CPK held their second mediation session, where they
+ultimately came to agreement on the material terms of
+32       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+settlement, including an award of attorney’s fees. On March
+16, 2022, they informed the district judge’s courtroom
+deputy clerk that they had reached a settlement in principle,
+see C.D. CAL. LOC. CIV. R. 16-15.7, and they also filed a
+stipulation requesting that the district court stay the
+consolidated action pending approval of the proposed
+settlement. Motions for appointment of lead counsel would
+have been due the next day.
+    On March 17, 2022, the Kirsten Plaintiffs filed a motion
+to have their counsel appointed lead counsel, together with
+an opposition to the settling parties’ request for a stay.
+Nonetheless, the district court promptly granted the
+requested stay of proceedings, pending the filing and
+disposition of a motion for preliminary approval of the
+settlement.
+    On April 22, 2022, the district court held a hearing
+concerning the Kirsten Plaintiffs’ lead counsel motion. The
+court stated that “[i]t seems just odd on my part that I
+wouldn’t consolidate all five cases” and wondered out loud
+why it had not done so, but the court ultimately decided “to
+leave the case[s] divided” and to hold the lead counsel
+motion in abeyance while the district court evaluated the
+Settling Plaintiffs’ motion for preliminary approval. The
+Settling Plaintiffs filed a motion for preliminary approval on
+May 2, 2022, and the court subsequently scheduled a hearing
+on the motion for June 29, 2022.
+                               C
+    Before summarizing the preliminary approval hearing, I
+will first describe (1) the key terms of the proposed class
+settlement between the Settling Plaintiffs and CPK; and
+(2) the Kirsten Plaintiffs’ written objections to the settlement
+prior to the preliminary approval hearing.
+        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    33
+
+
+                              1
+    Under the terms of the proposed settlement, the Settling
+Plaintiffs agreed that “every Settlement Class member
+(except those who timely opt out)” would “fully and finally
+release CPK . . . from any and all claims or causes of action,
+whether known or unknown, that concern, refer or relate to
+the Data Security Incident announced by CPK on or about
+November 15, 2021, and all other claims arising out of the
+Data Security Incident announced by CPK on or about
+November 21, 2021, that were asserted, or that could have
+been asserted, in the Consolidated Cases.” In return, CPK
+agreed to a claims-made settlement, i.e., one in which only
+those class members who submitted timely, valid claims
+could receive any payment. That claims-made settlement
+would provide the following relief:
+
+       •   Up to $1,000 per claimant for “out-of-
+           pocket expenses and lost time” incurred
+           as a result of the data breach.
+       •   Up to $5,000 per claimant for
+           “extraordinary losses,” i.e., “proven
+           monetary loss as a result of actual identity
+           theft.”
+       •   A $100 “statutory damages award” for
+           “California     Settlement      Subclass
+           members,” which could be combined
+           with a claim for out-of-pocket expenses,
+           but “subject to the $1,000 cap on
+           compensation for ordinary losses and lost
+           time.”
+       •   “24 months of 3[-]bureau credit
+           monitoring to Settlement Class members
+34      IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+           who enroll,” which the Settling Plaintiffs
+           valued at $360 per claimant.
+
+    In the settlement, CPK also agreed to a clear-sailing
+provision whereby it “agree[d] not to object to [the Settling]
+Plaintiffs’ request for combined attorneys’ fees and costs to”
+their counsel “in an amount not to exceed a total of $800,000,
+inclusive of costs.” CPK further agreed to “maintain certain
+recently implemented business practices and remedial
+measures . . . for a period of three (3) years” to safeguard
+against future data breaches.
+    Under the agreement, class members would receive
+notice of the settlement primarily through notices sent to the
+respective postal addresses or email addresses “associated
+with” each class member. There would also be a website and
+toll-free number for any inquiries regarding the settlement.
+The agreement provided for a specified class action
+settlement administrator to administer the claims, including
+providing notice to class members, with CPK being
+responsible for all costs of the settlement administration.
+                              2
+    In their written opposition to the Settling Plaintiffs’
+motion for preliminary approval, the Kirsten Plaintiffs raised
+six objections to the proposed settlement.
+    First, the Kirsten Plaintiffs asserted that because the
+settlement is claims-based and allows any unclaimed funds
+to remain with CPK, the settlement is functionally
+reversionary, thereby presenting one of the “subtle signs”
+this court has identified of potential collusion between class
+counsel and defendant’s counsel. Allen, 787 F.3d at 1224.
+The Kirsten Plaintiffs argued that “[r]eversionary clauses are
+highly disfavored in the Ninth Circuit,” because they
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.              35
+
+
+promote “perverse incentives” for “defendants to ensure as
+low a claims rate as possible” and because they “can benefit
+both defendants and class counsel, and thus raise the specter
+of their collusion, by (1) reducing the actual amount
+defendants are on the hook for . . . ; and (2) giving counsel
+an inflated common-fund value against which to base a fee
+motion.” 2 Roes, 1–2, 944 F.3d at 1058–59 (simplified).
+    Second, the Kirsten Plaintiffs objected to the settlement’s
+inclusion of a “clear sailing agreement,” that is, a provision
+that CPK would “not object to an amount of $800,000 paid
+in attorney fees.” In doing so, the Kirsten Plaintiffs relied
+on caselaw holding that “clear sailing agreements on
+attorney’s fees are important warning signs of collusion
+because the very existence of a clear sailing provision
+increases the likelihood that class counsel will have
+bargained away something of value to the class.” Roes, 1–
+2, 944 F.3d at 1051 (simplified).
+    Third, the Kirsten Plaintiffs contended that CPK’s
+potential liability was $77 million, but that the proposed
+settlement’s ceiling for liability was approximately $38
+million with “[t]he only guaranteed payment under the
+[s]ettlement [being] the $800,000 in attorney fees” to the
+Settling Plaintiffs’ counsel. As a result, the Kirsten Plaintiffs
+argued, “[t]he amount offered in [the] [s]ettlement is unfair,
+unreasonable and inadequate.” The Kirsten Plaintiffs also
+asserted that, because “[t]he CCPA claim is arguably the
+
+
+2
+  The settlement here technically is not “reversionary” because it did not
+establish a common fund from which any unclaimed funds would revert
+to CPK. However, as the majority correctly recognizes, there is no
+functional difference between a formal reversion and a purely claims-
+made settlement structure, as both leave any unclaimed funds with the
+defendant. See Opin. at 18–19.
+36      IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+most valuable claim in the litigation against CPK” and
+“[n]one of the Settling Plaintiffs asserted a CCPA claim,” the
+Settling Plaintiffs were “not adequate to negotiate and
+release the CCPA claims.” According to the Kirsten
+Plaintiffs, CPK “intentionally chose the weakest opponents
+in this litigation” with which to “negotiate . . . , while
+excluding the one [plaintiff group] that did assert CCPA
+claims,” i.e., the Kirsten Plaintiffs, “from the mediation.”
+    Fourth, the Kirsten Plaintiffs criticized the settlement’s
+one-time mail/e-mail notice plan as inadequate. In their
+view, the notice plan should also have included “(1) a
+reminder notice program, (2) a targeted social media/internet
+advertising campaign, and (3) a publication of the notice
+through CPK’s employee intranet or other internal employee
+communication system.”          According to the Kirsten
+Plaintiffs, option (3) would have been free, and the other two
+would have “cost very little.”
+    Fifth, the Kirsten Plaintiffs argued that the settlement’s
+release was overbroad because it extended to any claims that
+“relate to” the data breach in question.
+    Sixth, the Kirsten Plaintiffs also contended that
+additional circumstances surrounding the settlement talks
+underscored the potentially collusive nature of the
+settlement. The Kirsten Plaintiffs highlighted the facts that
+(1) they were not included in the stipulation for
+consolidation; and (2) CPK had avoided informing them of
+the ongoing settlement negotiations with the Settling
+Plaintiffs. The Kirsten Plaintiffs also observed that the
+settlement was reached the day before motions for the
+appointment of lead counsel would have been due and that
+they had previously rejected any claims-made settlement
+structure in their discussions with CPK. The Kirsten
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    37
+
+
+Plaintiffs further argued that the mere fact that a mediator
+had presided over the settlement negotiations was no
+guarantee of its compliance with Rule 23(e)(2).
+                               D
+    At the preliminary approval hearing held on June 29,
+2022, the mediator took the stand and answered questions
+from the court. The district court stated that, based on the
+Settling Plaintiffs’ representations, “the settlement ha[d] a
+conservative value [of] over $3.7 million,” and the $800,000
+in attorney’s fees amounted to “approximately 21 percent of
+the value of the settlement.” Nonetheless, the district court
+discerned “some due process issues with” the fact that the
+settlement would resolve the claims in the Kirsten litigation,
+despite the Kirsten Plaintiffs’ lack of involvement in the
+mediation. Moreover, the district court stated that it had “a
+tremendous concern about these fees,” due to the
+“reversionary” nature of the settlement.
+    After returning from a recess, the district court
+announced that it would preliminarily find that the
+settlement was “adequate, fair, and reasonable.” The court
+then expressly addressed only one of the Kirsten Plaintiffs’
+objections, namely, the claims-made structure of the
+settlement. The district court declined to approve the
+$800,000 in attorney’s fees at that time, explaining that it
+would wait to see how many claims were made in order to
+“incentivize[]” the Settling Plaintiffs’ counsel “to get as
+much money for this class” during the claims process. The
+court indicated that it would “probably” approve the
+requested attorney’s fees if the total settlement value
+amounted to approximately $3.2 million “or even” $2.5
+million. The district court offered no comment on any of the
+Kirsten Plaintiffs’ other written objections, nor did the court
+38       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+set forth on the record any express findings justifying its
+conclusions.
+     On June 30, 2022, the district court issued a written order
+preliminarily approving the settlement and finding the
+settlement “to be fair, reasonable, and adequate, and the
+result of vigilant, informed, non-collusive arms’-length
+negotiations overseen by an experienced and neutral
+mediator.” The court stated, without further explanation,
+that it “considered . . . the briefs and arguments of counsel.”
+As the majority puts it, “the district court’s preliminary . . .
+order[] w[as] sparse—almost boilerplate and memorialized
+little of the district court’s rationale.” See Opin. at 16.
+                               E
+    Following the preliminary approval of the settlement, the
+Settling Plaintiffs and the class administrator sent out
+103,380 direct postcard notices and 4,349 email notices to
+potential class members. Thereafter, a follow-up email
+notice was sent to more than 60,500 class members. There
+was also a targeted social media campaign on Facebook,
+Instagram, and LinkedIn. Despite these efforts, which went
+beyond the minimum notice provisions to which the Kirsten
+Plaintiffs had objected, the class administrator ultimately
+received only 1,828 unvalidated claims for a claims rate of
+less than 1.8%.
+    On October 6, 2022, the Settling Plaintiffs filed their
+motion for final approval of the settlement. The Kirsten
+Plaintiffs objected, essentially re-raising the same concerns
+they had voiced prior to the preliminary approval hearing.
+They also pointed out that, after the preliminary approval
+hearing, their CCPA claims had survived both a motion to
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.                39
+
+
+dismiss and a motion for reconsideration. 3 The Kirsten
+Plaintiffs further argued that the low claims rate highlighted
+that CPK would be “securing a full release” from the class
+“for a very low dollar cost” and that the settlement’s “notice
+scheme was woefully inadequate.”
+    At the final approval hearing on November 7, 2022, the
+Settling Plaintiffs confirmed that the claims rate was
+approximately 1.8%, and they asserted that the final
+settlement value, prior to claim validation, was $1,161,149. 4
+According to the Settling Plaintiffs, the claims made were as
+follows:
+
+         •    176 claims for ordinary expenses,
+              totaling $384,134.77;
+         •    979 claims for lost time, totaling
+              $50,320.00;
+         •    45 claims for extraordinary losses,
+              totaling $191,354.50;
+         •    803 claims for CCPA statutory damages,
+              totaling $80,300.00; and
+         •    1,264 claims for credit monitoring,
+              totaling $455,040.00.
+
+    The court then asked the Kirsten Plaintiffs to repeat their
+objections on the record. The Kirsten Plaintiffs recounted
+
+
+3
+ CPK filed motions to dismiss only in the Kirsten case and not in the
+consolidated cases.
+4
+  As the majority agrees, however, counsel’s representation as to this
+“final settlement value” was flatly inaccurate: the settlement’s final value
+is closer to $950,000. See Opin. at 11; see infra Section II.A.
+40        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+that the settlement includes a clear-sailing provision; that the
+settlement was reversionary and had ultimately gotten
+“nowhere near the suggested 3 million or in excess of that”;
+and that, consequently, the Settling Plaintiffs’ counsel were
+receiving “a disproportionate amount of the settlement”—
+approximately 40%—in attorney’s fees. The Kirsten
+Plaintiffs also pointed out that the Settling Plaintiffs had not
+undergone any motions practice at all, which, in the Kirsten
+Plaintiffs’ view, demonstrated that the Settling Plaintiffs
+“gave up . . . leverage” by settling with CPK.
+    The district court responded that it had already “gone
+through the collusion arguments” and “rejected those.” With
+respect to the settlement’s final value at $1.16 million, the
+court merely stated that it could not “recall why” it had
+earlier expected the settlement to amount to $3 million. The
+district court also noted its “tremendous concern over these
+attorney’s fees” of up to $800,000. At the conclusion of the
+hearing, the district court requested additional briefing on
+the issue of attorney’s fees. The district court did not discuss
+the remainder of the Kirsten Plaintiffs’ objections, nor did it
+set forth on the record any of its findings.
+    The district court received the requested briefing
+concerning the attorney’s fees and held another hearing on
+December 5, 2022. 5 Thereafter, the district court on
+February 22, 2023 approved the settlement and awarded the
+maximum $800,000 in attorney’s fees to the Settling
+Plaintiff’s counsel.     The court’s order contains no
+explanation for its ruling and merely states that the court
+“reviewed . . . any objections filed with or presented to the
+
+5
+  Oddly enough, there does not appear to be any transcript of the
+December 5, 2022 hearing in the record of the district court or of this
+court.
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.    41
+
+
+Court” and the “oral argument of counsel and any objectors
+who appeared.” Like the preliminary approval order, as the
+majority puts it, “the district court’s . . . final approval
+order[]      w[as]     sparse—almost        boilerplate—and
+memorialized little of the district court’s rationale.” See
+Opin. at 16.
+                               II
+    Given these details in the record, it is clear that the
+district court contravened its duty to explain why the
+settlement complied with Rule 23(e). Accordingly, the
+settlement approval should be vacated, and the case should
+be remanded.
+                               A
+    “To survive appellate review, the district court must
+show it has explored comprehensively all factors, and must
+give a reasoned response to all non-frivolous objections.”
+Allen, 787 F.3d at 1223–24 (emphasis added) (simplified).
+And because, as the majority correctly recognizes, the
+settlement has a claims-made structure that resulted in a
+claims rate of less than two percent, provides attorney’s fees
+equivalent to 84% of the settlement’s benefit to the class, and
+contains a clear-sailing provision for these fees, the
+settlement here “raises all three red flags of potential
+collusion under” our caselaw. See Opin. at 17. The district
+court therefore had a “heightened obligation” to scrutinize
+the settlement for “any evidence of collusion or other
+conflicts of interest.” See Opin. at 19 (simplified).
+     The district court did not abide by this mandate. To
+begin with, the district court committed an obvious and
+critical error by assuming that the settlement was valued at
+$1.16 million when in fact it was worth no more than
+42       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+$950,000. See Opin. at 11 (referring to this as a “glaring
+error . . . apparent on [the settlement’s] face”). Because of
+the $1,000 cap on per-claimant out-of-pocket expenses, the
+176 claimants who sought $384,134.77 are entitled, at most,
+to $176,000. Yet the district court relied on a patently
+incorrect valuation of the settlement in determining whether
+the attorney’s fees were disproportionate to the settlement’s
+benefit to the class. This error is starker still because, as
+recounted above, the district court’s chief concern at the
+settlement approval hearings was the size of the settlement
+vis-à-vis the attorney’s fees award. It cannot be inferred that
+the district court “explored comprehensively all factors,”
+Allen, 787 F.3d at 1223–24 (simplified), when the district
+court—contrary to its asserted concern—failed to notice an
+obvious issue with the valuation of the settlement and thus
+failed to notice that the attorney’s fees are equivalent to 84%
+of the final settlement’s benefit to the class. See Kim, 8 F.4th
+at 1180 (reversing the district court in part for relying on an
+“inflated settlement value” in approving a class action
+settlement).
+    Moreover, the record is bereft of any discussion of Rule
+23(e)’s factors and many of the Kirsten Plaintiffs’ detailed
+objections. In particular, the district court did not respond to
+the Kirsten Plaintiffs’ objection to the settlement’s clear-
+sailing provision. “[W]hen confronted with a clear sailing
+provision”—particularly when the fee request is large vis-à-
+vis the benefits to the class—“the district court ha[d] a
+heightened duty to peer into the provision and scrutinize
+closely the relationship between attorney’s fees and benefit
+to the class.” In re Bluetooth, 654 F.3d at 948. The district
+court, as I have explained, failed to do this. Moreover, the
+district court nowhere addressed the Kirsten Plaintiffs’
+objections that the Settling Plaintiffs had engaged in no
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.     43
+
+
+motions practice or formal discovery, that the Kirsten
+Plaintiffs had been excluded from consolidation and
+settlement talks, that the settlement’s release clause was
+arguably overbroad, and that the methods by which the
+Settling Plaintiffs and the claims administrator reached out
+to potential class members were assertedly inadequate. At
+best, the district court acknowledged that it had heard these
+objections. “In the pre-certification context,” however, “the
+district court must do more than acknowledge that warning-
+sign provisions exist and then conclude that they are not
+dispositive without further apparent scrutiny.” McKinney-
+Drobnis v. Oreshack, 16 F.4th 594, 611 (9th Cir. 2021). The
+district court’s silence on the record and in its orders was in
+direct contravention of our precedent.
+    Furthermore, what little the district court did state on the
+record was internally contradictory, making the court’s
+reasoning all the more confounding and opaque. At the
+preliminary approval hearing, the district court expressed
+considerable concern about the potential that the settlement’s
+value would end up being much less than $3 million,
+particularly given that the claims-made nature of the
+settlement arguably rendered it “reversionary” in nature. In
+one of its few substantive comments, the court explained that
+in “incentiviz[ing]” the Settling Plaintiffs’ counsel “to get as
+much money for this class” during the claims process, the
+court sought to address its discomfort about “not knowing
+the amount of the claims” that would ultimately be made.
+Yet, at the final hearing, the district court heard that the
+settlement’s final value was no more than $1.16 million, with
+a claims rate of less than two percent, and that therefore the
+court’s hope that the Settling Plaintiffs’ counsel would
+achieve the previously hypothesized claims rate had failed.
+Nonetheless, the district court approved the settlement. The
+44       IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+district court never explained in its written orders or on the
+record why it did so, in spite of its prior stated concerns about
+the claims-made nature of the settlement and the possibility
+of a low claims rate.
+    This failure to properly address the low claims rate was
+independently an abuse of discretion. In Allen, we vacated
+and remanded a settlement because, after “class counsel said
+that he would consider it a success if even 10% or 15% of
+the class made claims,” the actual “claims rate was less than
+8%,” and “the record g[ave] no assurance” that the district
+court made any further inquiry, in light of that development,
+“into why the parties had negotiated such a disproportionate
+distribution between fees and relief.” 787 F.3d at 1224 n.4.
+(simplified). Likewise, in Roes, 1–2, we held that, “in light
+of the” low claims rate of a settlement with reversionary
+features, the district court “should have done more to
+investigate whether [the settlement] was really worth $1
+million and was not unfairly inflating attorneys’ fees.” 944
+F.3d at 1054–55. The low claims rate here should have
+caused the district court to investigate further and make clear
+findings, not resort to a perfunctory order.
+    Finally, the narrow gap between the maximum value of
+the settlement and the attorney’s fees award “ma[de] it all
+the more important for the district court to closely examine
+the claimed value of the non-cash portions of the settlement
+that were used to justify the requested attorneys’ fees.” Roes,
+1–2, 944 F.3d at 1051. While the district court asked
+questions about the two-year credit monitoring program, it
+never made a finding attaching a monetary value to the
+program. Again, we have previously reversed district courts
+for precisely this reason. See, e.g., Kim, 8 F.4th at 1179
+(reversing a settlement approval because we discerned “no
+basis for [the district court’s]” decision to “accept[] class
+         IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.     45
+
+
+counsel’s unsupported representation” of the settlement’s
+injunctive relief’s worth); Allen, 787 F.3d at 1225 (reversing
+a district court after it “did not make express findings about
+the value of the injunctive relief”).
+    The foregoing errors plainly demonstrate that the district
+court failed to apply heightened scrutiny to the settlement
+and therefore abused its discretion in approving the
+settlement. The settlement should be vacated, and this
+matter remanded to the district court so that it can engage in
+“a more searching inquiry,” Roes 1–2, 944 F.3d at 1050
+(citation omitted), and provide a “clear explanation of why
+the disproportionate fee is justified” and why this settlement
+was not the result of collusion, In re Bluetooth, 654 F.3d at
+949.
+                               B
+    The majority agrees with much of what I have said.
+Specifically, the majority agrees that the district court had a
+“heightened obligation to ferret out any evidence of
+collusion or other conflicts of interest” in the negotiation of
+the settlement. See Opin. at 19 (simplified). The majority
+also agrees that the settlement here “raises all three red flags
+of potential collusion under Bluetooth,” see Opin. at 17
+(citation omitted), and that the district court missed at least
+“one glaring error . . . apparent on [the] face” of the
+settlement, see Opin. at 11. Further, the majority agrees that,
+despite these red flags and the district court’s heightened
+obligation, “the district court’s preliminary and final
+approval orders were sparse—almost boilerplate—and
+memorialized little of the district court’s rationale,” see
+Opin. at 16, and that it is impossible to “infer the district
+court’s rationale for its fee award from the record,” even
+though the court “approv[ed] fees that appear excessive of
+46        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+[the] settlement[’s] value,” see Opin. at 24. The majority
+nonetheless upholds the approval of the settlement, but its
+reasons for doing so are flawed.
+    The majority contends that it “can reasonably infer the
+district court’s rationale from the record,” see Opin. at 16,
+and that “the district court gave the settlement provisions a
+hard look under the Bluetooth factors,” see Opin. at 20. But
+this conclusory assertion lacks support in the record. The
+district court expressly addressed only one of the Bluetooth
+factors—the disparity between the size of the settlement and
+the attorney’s fees—and even then, it missed what even the
+majority refers to as a “glaring error” concerning the
+settlement’s final value. There is thus no evidence in the
+record that the district court gave a proper hard look at any
+of the Bluetooth factors. Moreover, the district court’s
+rationale cannot be “reasonably” inferred when the district
+court initially expressed “tremendous concern” about the
+settlement’s fee provisions if the settlement’s final value fell
+below $2.5 million and then, in an unexplained about-face,
+approved the fees award and reaffirmed the settlement
+approval even though the settlement’s final value fell to less
+than $1.2 million (and, in reality, $950,000). And nowhere
+does the record show why the district court rejected the
+Kirsten Plaintiffs’ remaining objections. The majority is
+simply wrong in concluding that the record here provides a
+sufficient basis for affirming the district court. 6
+
+
+6
+   The majority’s apparent reliance on the fact that the district court
+questioned the mediator is also contrary to our precedent. As we
+explained in In re Bluetooth, “the mere presence of a neutral mediator
+. . . is not on its own dispositive of whether the end product is a fair,
+adequate, and reasonable settlement agreement. . . . [T]he Rule 23(e)
+          IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.              47
+
+
+     The majority cites two pre-2000 cases for the proposition
+that, in some instances, a district court’s issuance of a
+conclusory order will not be reversible, but these cases lend
+no help to the majority here. See Opin. at 16 (first citing
+Hanlon v. Chrysler Corp., 150 F.3d 1011, 1023 (9th Cir.
+1998), overruled on other grounds by Wal-Mart Stores, Inc.
+v. Dukes, 564 U.S. 338 (2011), and then citing In re Pac.
+Enters. Sec. Litig., 47 F.3d 373, 377 (9th Cir. 1995)). As an
+initial matter, the majority misreads Hanlon. The “almost
+conclusory” findings that were upheld in Hanlon exclusively
+concerned “the requirements of Rule 23(a) and 23(b)(3),”
+and not “the ‘fair, adequate and reasonable’ preconditions for
+class settlement pursuant to Fed. R. Civ. P. 23(e).” 150 F.3d
+at 1023–24. Indeed, Hanlon explicitly adopted “a more
+probing inquiry” standard for pre-class certification
+settlements pursuant to Rule 23(e). Id. at 1026–27. And in
+explaining why the Rule 23(e) standards were met, Hanlon
+did not say that the district court’s comments were
+conclusory; on the contrary, it discussed the district court’s
+multiple stated reasons at some length. Id. at 1027. By
+misciting Hanlon, the majority does exactly what Hanlon
+made clear that courts should not do, which is “conflat[e]”
+the requirements of Rule 23(a) and (b) with those of Rule
+23(e) and thereby water down the latter. Id. at 1023–24. In
+any event, we explicitly noted in Hanlon that “[n]o evidence
+of collusion was presented to the district court or otherwise
+evident in the record.” Id. at 1027. As the majority
+concedes, the record of this case is replete with such
+evidence. See Opin. at 17–18. Finally, the majority’s
+reliance on In re Pacific Enterprises is similarly unavailing.
+
+reasonableness inquiry is designed precisely to capture instances of
+unfairness not apparent on the face of the negotiations.” 654 F.3d at 948;
+see also Roes, 1–2, 944 F.3d at 1050 n.13 (similar).
+48        IN RE: KIRSTEN V. CALIFORNIA PIZZA KITCHEN INC.
+
+
+In that case, we explicitly noted that the district court
+“responded to . . . objections and explained why the
+derivative settlement [was] fair.” 47 F.3d at 377. Here, the
+district court did neither.
+    At bottom, the majority’s error stems from its unfounded
+belief that merely “prob[ing]” and “question[ing],” see Opin.
+at 20, the parties and a mediator at a hearing is a substitute
+for judicial reasoning and the careful exercise of judgment.
+But we have said otherwise. We have held that Rule 23(e),
+our precedent, and due process demand an “inquiry,
+findings, and evaluation of whether the settlement is fair,
+reasonable, and adequate.” Allen, 787 F.3d at 1225
+(emphasis added). By ruling as it does today, the majority
+flouts all three, just as the court below did.
+                        *       *        *
+     I respectfully dissent.
+

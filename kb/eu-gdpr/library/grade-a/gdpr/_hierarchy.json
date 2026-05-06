@@ -1,0 +1,464 @@
+[
+  {
+    "chapter": "I",
+    "chapter_title": "Subject-matter and objectives",
+    "articles": [
+      {
+        "article": 1,
+        "title": "Subject-matter and objectives"
+      },
+      {
+        "article": 2,
+        "title": "Material scope"
+      },
+      {
+        "article": 3,
+        "title": "Territorial scope"
+      },
+      {
+        "article": 4,
+        "title": "Definitions"
+      }
+    ]
+  },
+  {
+    "chapter": "II",
+    "chapter_title": "Principles relating to processing of personal data",
+    "articles": [
+      {
+        "article": 5,
+        "title": "Principles relating to processing of personal data"
+      },
+      {
+        "article": 6,
+        "title": "Lawfulness of processing"
+      },
+      {
+        "article": 7,
+        "title": "Conditions for consent"
+      },
+      {
+        "article": 8,
+        "title": "Conditions applicable to child's consent in relation to information society services"
+      },
+      {
+        "article": 9,
+        "title": "Processing of special categories of personal data"
+      },
+      {
+        "article": 10,
+        "title": "Processing of personal data relating to criminal convictions and offences"
+      },
+      {
+        "article": 11,
+        "title": "Processing which does not require identification"
+      }
+    ]
+  },
+  {
+    "chapter": "III",
+    "chapter_title": "Transparent information, communication and modalities for the exercise of the rights of the data subject",
+    "articles": [
+      {
+        "article": 12,
+        "title": "Transparent information, communication and modalities for the exercise of the rights of the data subject"
+      },
+      {
+        "article": 13,
+        "title": "Information to be provided where personal data are collected from the data subject"
+      },
+      {
+        "article": 14,
+        "title": "Information to be provided where personal data have not been obtained from the data subject"
+      },
+      {
+        "article": 15,
+        "title": "Right of access by the data subject"
+      },
+      {
+        "article": 16,
+        "title": "Right to rectification"
+      },
+      {
+        "article": 17,
+        "title": "Right to erasure (‘right to be forgotten’)"
+      },
+      {
+        "article": 18,
+        "title": "Right to restriction of processing"
+      },
+      {
+        "article": 19,
+        "title": "Notification obligation regarding rectification or erasure of personal data or restriction of processing"
+      },
+      {
+        "article": 20,
+        "title": "Right to data portability"
+      },
+      {
+        "article": 21,
+        "title": "Right to object"
+      },
+      {
+        "article": 22,
+        "title": "Automated individual decision-making, including profiling"
+      },
+      {
+        "article": 23,
+        "title": "Restrictions"
+      }
+    ]
+  },
+  {
+    "chapter": "IV",
+    "chapter_title": "Responsibility of the controller",
+    "articles": [
+      {
+        "article": 24,
+        "title": "Responsibility of the controller"
+      },
+      {
+        "article": 25,
+        "title": "Data protection by design and by default"
+      },
+      {
+        "article": 26,
+        "title": "Joint controllers"
+      },
+      {
+        "article": 27,
+        "title": "Representatives of controllers or processors not established in the Union"
+      },
+      {
+        "article": 28,
+        "title": "Processor"
+      },
+      {
+        "article": 29,
+        "title": "Processing under the authority of the controller or processor"
+      },
+      {
+        "article": 30,
+        "title": "Records of processing activities"
+      },
+      {
+        "article": 31,
+        "title": "Cooperation with the supervisory authority"
+      },
+      {
+        "article": 32,
+        "title": "Security of processing"
+      },
+      {
+        "article": 33,
+        "title": "Notification of a personal data breach to the supervisory authority"
+      },
+      {
+        "article": 34,
+        "title": "Communication of a personal data breach to the data subject"
+      },
+      {
+        "article": 35,
+        "title": "Data protection impact assessment"
+      },
+      {
+        "article": 36,
+        "title": "Prior consultation"
+      },
+      {
+        "article": 37,
+        "title": "Designation of the data protection officer"
+      },
+      {
+        "article": 38,
+        "title": "Position of the data protection officer"
+      },
+      {
+        "article": 39,
+        "title": "Tasks of the data protection officer"
+      },
+      {
+        "article": 40,
+        "title": "Codes of conduct"
+      },
+      {
+        "article": 41,
+        "title": "Monitoring of approved codes of conduct"
+      },
+      {
+        "article": 42,
+        "title": "Certification"
+      },
+      {
+        "article": 43,
+        "title": "Certification bodies"
+      }
+    ]
+  },
+  {
+    "chapter": "V",
+    "chapter_title": "General principle for transfers",
+    "articles": [
+      {
+        "article": 44,
+        "title": "General principle for transfers"
+      },
+      {
+        "article": 45,
+        "title": "Transfers on the basis of an adequacy decision"
+      },
+      {
+        "article": 46,
+        "title": "Transfers subject to appropriate safeguards"
+      },
+      {
+        "article": 47,
+        "title": "Binding corporate rules"
+      },
+      {
+        "article": 48,
+        "title": "Transfers or disclosures not authorised by Union law"
+      },
+      {
+        "article": 49,
+        "title": "Derogations for specific situations"
+      },
+      {
+        "article": 50,
+        "title": "International cooperation for the protection of personal data"
+      }
+    ]
+  },
+  {
+    "chapter": "VI",
+    "chapter_title": "Supervisory authority",
+    "articles": [
+      {
+        "article": 51,
+        "title": "Supervisory authority"
+      },
+      {
+        "article": 52,
+        "title": "Independence"
+      },
+      {
+        "article": 53,
+        "title": "General conditions for the members of the supervisory authority"
+      },
+      {
+        "article": 54,
+        "title": "Rules on the establishment of the supervisory authority"
+      },
+      {
+        "article": 55,
+        "title": "Competence"
+      },
+      {
+        "article": 56,
+        "title": "Competence of the lead supervisory authority"
+      },
+      {
+        "article": 57,
+        "title": "Tasks"
+      },
+      {
+        "article": 58,
+        "title": "Powers"
+      },
+      {
+        "article": 59,
+        "title": "Activity reports"
+      }
+    ]
+  },
+  {
+    "chapter": "VII",
+    "chapter_title": "Cooperation between the lead supervisory authority and the other supervisory authorities concerned",
+    "articles": [
+      {
+        "article": 60,
+        "title": "Cooperation between the lead supervisory authority and the other supervisory authorities concerned"
+      },
+      {
+        "article": 61,
+        "title": "Mutual assistance"
+      },
+      {
+        "article": 62,
+        "title": "Joint operations of supervisory authorities"
+      },
+      {
+        "article": 63,
+        "title": "Consistency mechanism"
+      },
+      {
+        "article": 64,
+        "title": "Opinion of the Board"
+      },
+      {
+        "article": 65,
+        "title": "Dispute resolution by the Board"
+      },
+      {
+        "article": 66,
+        "title": "Urgency procedure"
+      },
+      {
+        "article": 67,
+        "title": "Exchange of information"
+      },
+      {
+        "article": 68,
+        "title": "European Data Protection Board"
+      },
+      {
+        "article": 69,
+        "title": "Independence"
+      },
+      {
+        "article": 70,
+        "title": "Tasks of the Board"
+      },
+      {
+        "article": 71,
+        "title": "Reports"
+      },
+      {
+        "article": 72,
+        "title": "Procedure"
+      },
+      {
+        "article": 73,
+        "title": "Chair"
+      },
+      {
+        "article": 74,
+        "title": "Tasks of the Chair"
+      },
+      {
+        "article": 75,
+        "title": "Secretariat"
+      },
+      {
+        "article": 76,
+        "title": "Confidentiality"
+      }
+    ]
+  },
+  {
+    "chapter": "VIII",
+    "chapter_title": "Right to lodge a complaint with a supervisory authority",
+    "articles": [
+      {
+        "article": 77,
+        "title": "Right to lodge a complaint with a supervisory authority"
+      },
+      {
+        "article": 78,
+        "title": "Right to an effective judicial remedy against a supervisory authority"
+      },
+      {
+        "article": 79,
+        "title": "Right to an effective judicial remedy against a controller or processor"
+      },
+      {
+        "article": 80,
+        "title": "Representation of data subjects"
+      },
+      {
+        "article": 81,
+        "title": "Suspension of proceedings"
+      },
+      {
+        "article": 82,
+        "title": "Right to compensation and liability"
+      },
+      {
+        "article": 83,
+        "title": "General conditions for imposing administrative fines"
+      },
+      {
+        "article": 84,
+        "title": "Penalties"
+      }
+    ]
+  },
+  {
+    "chapter": "IX",
+    "chapter_title": "Processing and freedom of expression and information",
+    "articles": [
+      {
+        "article": 85,
+        "title": "Processing and freedom of expression and information"
+      },
+      {
+        "article": 86,
+        "title": "Processing and public access to official documents"
+      },
+      {
+        "article": 87,
+        "title": "Processing of the national identification number"
+      },
+      {
+        "article": 88,
+        "title": "Processing in the context of employment"
+      },
+      {
+        "article": 89,
+        "title": "Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes"
+      },
+      {
+        "article": 90,
+        "title": "Obligations of secrecy"
+      },
+      {
+        "article": 91,
+        "title": "Existing data protection rules of churches and religious associations"
+      }
+    ]
+  },
+  {
+    "chapter": "X",
+    "chapter_title": "Exercise of the delegation",
+    "articles": [
+      {
+        "article": 92,
+        "title": "Exercise of the delegation"
+      },
+      {
+        "article": 93,
+        "title": "Committee procedure"
+      }
+    ]
+  },
+  {
+    "chapter": "XI",
+    "chapter_title": "Repeal of Directive 95/46/EC",
+    "articles": [
+      {
+        "article": 94,
+        "title": "Repeal of Directive 95/46/EC"
+      },
+      {
+        "article": 95,
+        "title": "Relationship with Directive 2002/58/EC"
+      },
+      {
+        "article": 96,
+        "title": "Relationship with previously concluded Agreements"
+      },
+      {
+        "article": 97,
+        "title": "Commission reports"
+      },
+      {
+        "article": 98,
+        "title": "Review of other Union legal acts on data protection"
+      },
+      {
+        "article": 99,
+        "title": "Entry into force and application"
+      }
+    ]
+  }
+]

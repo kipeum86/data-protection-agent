@@ -1,0 +1,448 @@
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 1 of 12
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8                           UNITED STATES DISTRICT COURT
+ 9                         SOUTHERN DISTRICT OF CALIFORNIA
+10   SILVIA GARCIA, individually and on                   Case No.: 22-cv-01985-DMS-KSC
+11   behalf of all others similarly situated,
+                                                          ORDER GRANTING DEFENDANT’S
+12                                     Plaintiff,         MOTION TO DISMISS
+13   v.
+     BUILD.COM, INC., and DOES 1–10,
+14
+     inclusive,
+15                                   Defendants.
+16
+17         Before the Court is Defendant’s Motion to Dismiss. (ECF No. 10.) Plaintiff brings
+18   two claims alleging violations of two provisions of the California Invasion of Privacy Act
+19   (CIPA), Cal. Penal Code §§ 631 & 632.7, on behalf of herself and a putative class of others
+20   similarly situated, based on interactions with the chat feature on Build.com’s website. For
+21   the reasons explained below, the Court grants Defendant’s Motion to Dismiss. Plaintiff’s
+22   Complaint is dismissed without prejudice as to the Section 631 claim to the extent it is
+23   based on Clause 4 of California Penal Code § 631(a). The Complaint is dismissed with
+24   prejudice as to all other claims and theories.
+25                                      I.   BACKGROUND
+26         Defendant Build.com is “an online home improvement retailer” that operates an e-
+27   commerce website. (Def.’s Mem. of P. & A. in Supp. of Mot. to Dismiss (“Def.’s Mem.”)
+28   at 8, ECF No. 10-1.) It operates a chat feature on its website which allows customers to
+
+                                                      1
+                                                                              22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 2 of 12
+
+
+
+ 1   ask questions about Build.com’s products and services. (Id.) At some point in the year-
+ 2   long period before Plaintiff Silvia Garcia filed her complaint on November 17, 2022, she
+ 3   visited the Build.com website on her smartphone. (Compl. ¶ 18, ECF No. 1, Ex. A.) When
+ 4   she visited the website, she initiated a chat conversation with Defendant. (Id. ¶¶ 18–19.)
+ 5   Plaintiff alleges that she later learned that Defendant “secretly recorded their conversation
+ 6   or allowed a third party to eavesdrop upon it until after the conversation was completed
+ 7   and additional, highly technical research was completed.” (Id. ¶ 20.)
+ 8         Plaintiff filed this complaint on behalf of herself and a class of “[a]ll persons within
+ 9   California who within the statute of limitations period . . . communicated with Defendant
+10   via that chat feature on Defendant’s Website using a cellular telephone . . . [and] whose
+11   communications were recorded . . . without prior consent.” (Id. ¶ 22.) Plaintiff brings two
+12   claims alleging violations of two provisions of the California Invasion of Privacy Act
+13   (CIPA), Cal. Penal Code §§ 631 & 632.7. Defendants filed a motion to dismiss under
+14   Federal Rule of Civil Procedure 12(b)(6) for failure to state a claim. (See Def.’s Mot. to
+15   Dismiss.)
+16                                   II.   LEGAL STANDARD
+17         Under Federal Rule of Civil Procedure 12(b)(6), a party may file a motion to dismiss
+18   on the grounds that a complaint “fail[s] to state a claim upon which relief can be granted.”
+19   Fed. R. Civ. P. 12(b)(6). A motion to dismiss under Rule 12(b)(6) “tests the legal
+20   sufficiency of a claim.” Navarro v. Block, 250 F.3d 729, 732 (9th Cir. 2001). To survive
+21   a motion to dismiss, “a complaint must contain sufficient factual matter, accepted as true,
+22   to ‘state a claim to relief that is plausible on its face.’” Ashcroft v. Iqbal, 556 U.S. 662,
+23   678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570 (2007)). “A claim has
+24   facial plausibility when the plaintiff pleads factual content that allows the court to draw the
+25   reasonable inference that the defendant is liable for the misconduct alleged.”              Id.
+26   “Determining whether a complaint states a plausible claim for relief will . . . be a context-
+27   specific task that requires the reviewing court to draw on its judicial experience and
+28   common sense.” Id. at 679. “Factual allegations must be enough to raise a right to relief
+
+                                                    2
+                                                                                 22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 3 of 12
+
+
+
+ 1   above the speculative level.” Twombly, 550 U.S. at 555. If Plaintiff “ha[s] not nudged”
+ 2   her “claims across the line from conceivable to plausible,” the complaint “must be
+ 3   dismissed.” Id. at 570.
+ 4         In reviewing the plausibility of a complaint on a motion to dismiss, a court must
+ 5   “accept factual allegations in the complaint as true and construe the pleadings in the light
+ 6   most favorable to the nonmoving party.” Manzarek v. St. Paul Fire & Marine Ins. Co.,
+ 7   519 F.3d 1025, 1031 (9th Cir. 2008). But courts are not “required to accept as true
+ 8   allegations that are merely conclusory, unwarranted deductions of fact, or unreasonable
+ 9   inferences.” In re Gilead Scis. Secs. Litig., 536 F.3d 1049, 1055 (9th Cir. 2008) (quoting
+10   Sprewell v. Golden State Warriors, 266 F.3d 979, 988 (9th Cir. 2001)).
+11         When a court grants a motion to dismiss a complaint, it must then decide whether to
+12   grant leave to amend. Leave to amend should be “freely given” where there is no (1)
+13   “undue delay,” (2) “bad faith or dilatory motive,” (3) “undue prejudice to the opposing
+14   party” if amendment were allowed, or (4) “futility” in allowing amendment. Foman v.
+15   Davis, 371 U.S. 178, 182 (1962). Dismissal without leave to amend is proper only if it is
+16   clear that “the complaint could not be saved by any amendment.” Intri-Plex Techs. v. Crest
+17   Group, Inc., 499 F.3d 1048, 1056 (9th Cir. 2007). “Leave need not be granted where the
+18   amendment of the complaint . . . constitutes an exercise in futility . . . .” Ascon Props., Inc.
+19   v. Mobil Oil Co., 866 F.2d 1149, 1160 (9th Cir. 1989).
+20                                       III.   DISCUSSION
+21      A. Standing
+22         Article III of the Constitution requires courts to adjudicate only actual cases or
+23   controversies. See U.S. Const. art. III, § 2, cl. 1. To establish Article III standing, “a
+24   plaintiff must show (i) that he suffered an injury in fact that is concrete, particularized, and
+25   actual or imminent; (ii) that the injury was likely caused by the defendant; and (iii) that the
+26   injury would likely be redressed by judicial relief.” TransUnion LLC v. Ramirez, 141 S.
+27   Ct. 2190, 2203 (2021). “Standing is determined by the facts that exist at the time the
+28   complaint is filed.” Clark v. City of Lakewood, 259 F.3d 996, 1006 (9th Cir. 2001). “A
+
+                                                    3
+                                                                                  22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 4 of 12
+
+
+
+ 1   suit brought by a plaintiff without Article III standing is not a ‘case or controversy,’ and an
+ 2   Article III federal court therefore lacks subject matter jurisdiction over the suit.” Cetacean
+ 3   Cmty. v. Bush, 386 F.3d 1169, 1174 (9th Cir. 2004). “If the court determines at any time
+ 4   that it lacks subject-matter jurisdiction, the court must dismiss the action.” Fed. R. Civ. P.
+ 5   12(h)(3).
+ 6          Defendant does not specifically argue that Plaintiff lacks Article III standing, but
+ 7   instead argues that Plaintiff has not alleged an injury sufficient to assert a claim for a
+ 8   violation of CIPA. (Def.’s Mem. at 25.) California law creates a private right of action for
+ 9   “[a]ny person who has been injured by a violation of” one of CIPA’s provisions. Cal. Penal
+10   Code § 637.2(a). It appears a plaintiff may more easily show a sufficient statutory injury
+11   under CIPA than a sufficient Article III injury. See Cal. Penal Code § 637.2(c) (“It is not
+12   a necessary prerequisite . . . that the plaintiff has suffered, or be threatened with, actual
+13   damages.”). Therefore, if a plaintiff fails to allege an injury sufficient to satisfy CIPA’s
+14   statutory injury requirement, that plaintiff necessarily lacks an injury-in-fact sufficient to
+15   satisfy Article III standing. Moreover, a federal court has an independent obligation to
+16   determine whether subject-matter jurisdiction exists—which includes whether a plaintiff
+17   has standing—even in the absence of a challenge from any party. Arbaugh v. Y&H Corp.,
+18   546 U.S. 500, 514 (2006). Therefore, the Court analyzes whether Plaintiff has Article III
+19   standing to bring this claim and concludes that she does.1
+20          1. Injury-in-fact
+21          To satisfy Article III standing, “a plaintiff must show . . . that he suffered an injury
+22   in fact that is concrete, particularized, and actual or imminent.” TransUnion, 141 S. Ct. at
+23   2203. “Congress may ‘elevate to the status of legally cognizable injuries concrete, de facto
+24   injuries that were previously inadequate in law.’” Id. at 2204 (quoting Spokeo, Inc. v.
+25
+26
+     1
+       A dismissal for lack of standing is a jurisdictional dismissal and would not bar Plaintiff from raising the
+27   same claims in state court, which is not bound by Article III. A dismissal on the merits, however, has res
+     judicata effect. See Cal. Civ. Proc. Code § 1908(a) (a judgment of “a court or judge of this state, or of the
+28   United States, having jurisdiction to pronounce the judgment or order” has res judicata effect).
+
+                                                          4
+                                                                                            22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 5 of 12
+
+
+
+ 1   Robins, 578 U.S. 330, 341 (2016)).         However, “Congress’s creation of a statutory
+ 2   prohibition or obligation and a cause of action does not relieve courts of their responsibility
+ 3   to independently decide whether a plaintiff has suffered a concrete harm . . . .” Id. A
+ 4   federal court “cannot treat an injury as ‘concrete’ for Article III purposes based only on
+ 5   [the legislature’s] say-so.” Id. (quoting Trichell v. Midland Credit Mgmt., Inc., 964 F.3d
+ 6   990, 999 n.2 (11th Cir. 2020)). “When a legislature has enacted a ‘bare procedural’
+ 7   protection, a plaintiff ‘cannot satisfy the demands of Article III’ by pointing only to a
+ 8   violation of that provision, but also must link it to a concrete harm.” Campbell v. Facebook,
+ 9   Inc., 951 F.3d 1106, 1117 (9th Cir. 2020) (quoting Spokeo, 578 U.S. at 342) (emphasis in
+10   Campbell). “[C]ourts should assess whether the alleged injury . . . has a ‘close relationship’
+11   to a harm ‘traditionally’ recognized as providing a basis for a lawsuit in American courts.”
+12   TransUnion, 141 S. Ct. at 2204 (quoting Spokeo, 578 U.S. at 341). “That inquiry asks
+13   whether plaintiffs have identified a close historical or common-law analogue for their
+14   asserted injury” but “does not require an exact duplicate in American history and tradition.”
+15   Id.
+16         Plaintiff’s complaint is defective, but not for failing to show standing. Although the
+17   Complaint alleges that “visitors often share highly sensitive personal data with Defendant
+18   via the website chat feature,” (Compl. ¶ 14), Defendant argues that Plaintiff never asserts
+19   that she shared “highly sensitive personal data” with Defendant through the chat feature,
+20   or that she was injured in any way. (Def.’s Mem. at 26.) Plaintiff responds that a CIPA
+21   violation is a violation of privacy rights and is a sufficiently concrete injury-in-fact. The
+22   Court agrees.
+23         Federal courts in California have reached different conclusions on whether plaintiffs
+24   bringing similar CIPA claims based on interactions with a website’s chat feature have
+25   demonstrated standing. Compare Licea v. Am. Eagle Outfitters, Inc., No. 22-cv-1702-
+26   MWF, 2023 WL 2469630, at *3 (C.D. Cal. Mar. 7, 2023) (plaintiffs adequately alleged
+27   injury-in-fact and demonstrated standing because a violation of CIPA is a cognizable
+28   violation of privacy rights) and Licea v. Cinmar, LLC, No. 22-cv-6454-MWF, 2023 WL
+
+                                                    5
+                                                                                 22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 6 of 12
+
+
+
+ 1   2415592, at *3 (C.D. Cal. Mar. 7, 2023) (same) with Byars v. Sterling Jewelers, Inc., No.
+ 2   22-cv-1456-SB, 2023 WL 2996686, at *4 (C.D. Cal. Apr. 5, 2023) (plaintiff alleges no
+ 3   injury-in-fact sufficient to show standing because she “does not allege that she disclosed
+ 4   any sensitive information” to defendant); see also Lightroller v. Jetblue Airways Corp.,
+ 5   No. 23-cv-361-H, 2023 WL 3963823, at *5 (S.D. Cal. June 12, 2023) (where plaintiff
+ 6   alleged that defendant website recorded her interactions with the website in violation of
+ 7   CIPA, plaintiff failed to allege injury-in-fact sufficient to show standing because she did
+ 8   not “allege that she disclosed any personal information” to defendant).
+ 9         The Court concludes that Plaintiff has standing at this stage. Plaintiff alleges that
+10   Defendant secretly intercepted and recorded Plaintiff’s chat messages without informing
+11   her and without her consent. (Compl. ¶¶ 17, 20–21.) This is a sufficiently concrete and
+12   particularized injury. See Am. Eagle Outfitters, 2023 WL 2469630, at *3 (concluding that
+13   plaintiff sufficiently alleged injury-in-fact by pleading: “Defendant did not inform him or
+14   Class Members that Defendant was secretly recording their conversations or allowing,
+15   aiding, and abetting a third party to intercept and eavesdrop on them in real time”).
+16         Federal courts within California, including this Court, have held that “violations of
+17   Plaintiffs’ statutory rights under CIPA, without more, constitute injury in fact” because
+18   unlike a bare procedural violation, a CIPA violation is “‘a violation of privacy rights’”
+19   which is a more “‘concrete and particularized harm.’” Osgood v. Main Streat Mktg., LLC,
+20   No. 16-cv-2415-GPC, 2017 WL 131829, at *7 (S.D. Cal. Jan. 13, 2017) (quoting Romero
+21   v. Securus Techs., Inc., 216 F. Supp. 3d 1078, 1088 (S.D. Cal. 2016)); see also Matera v.
+22   Google, Inc., No. 15-cv-4062-LHK, 2016 WL 5339806, at *14 (N.D. Cal. Sept. 23, 2016)
+23   (holding that alleged violations of Plaintiff’s statutory rights under CIPA constitute
+24   concrete injury-in-fact). Recently, some courts have held that the reasoning in these cases
+25   was undermined by the Supreme Court’s 2021 decision in TransUnion, which held that
+26   “Article III standing requires a concrete injury even in the context of a statutory violation,”
+27   141 S. Ct. at 2205 (quoting Spokeo, 578 U.S. at 341). See, e.g., Lightroller, 2023 WL
+28   3963823, at *3. However, that aspect of TransUnion’s holding was not new; it was a
+
+                                                    6
+                                                                                 22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 7 of 12
+
+
+
+ 1   reiteration (and a direct quote) of the Supreme Court’s holding in Spokeo, decided in 2016.
+ 2   Osgood, Romero, and Matera were all decided in light of Spokeo. This Court concludes
+ 3   that TransUnion does not undermine the reasoning in those cases.
+ 4         In Wakefield v. ViSalus, Inc., a decision that came after TransUnion, the Ninth
+ 5   Circuit held that a plaintiff had standing to bring a claim under the Telephone Consumer
+ 6   Protection Act because receipt of unwanted telemarketing phone calls is a concrete injury-
+ 7   in-fact. 51 F.4th 1109, 1118 (9th Cir. 2022). The Ninth Circuit explained:
+ 8         In TransUnion, the Supreme Court reaffirmed the preexisting rule that an
+           intangible injury qualifies as “concrete” when that injury bears a “close
+ 9
+           relationship to harms traditionally recognized as providing a basis for lawsuits
+10         in American courts.” . . . . TransUnion therefore strengthens the principle
+           that an intangible injury is sufficiently “concrete” when (1) Congress created
+11
+           a statutory cause of action for the injury, and (2) the injury has a close
+12         historical or common-law analog.
+13   Id. (quoting TransUnion, 141 S. Ct. at 2204). This formulation in Wakefield confirms that
+14   Plaintiff has standing here. First, the California legislature created a cause of action in the
+15   CIPA statute—and it is the cause of action Plaintiff asserts here. See Cal. Penal Code §
+16   637.2(a). In addition, the Ninth Circuit concluded in Wakefield that “traditional claims for
+17   ‘invasion of privacy, intrusion upon seclusion, and nuisance’” are “evidence of a common-
+18   law analog to privacy violations.” 51 F.4th at 1118 (quoting Van Patten v. Vertical Fitness
+19   Grp., LLC, 847 F.3d 1037, 1043 (9th Cir. 2017)). As in Wakefield, the Court finds that the
+20   privacy injury Plaintiff asserts here is sufficiently similar to “a historical or common-law
+21   analogue.” TransUnion, 141 S. Ct. at 2204.
+22         2. Causation and Redressability
+23         Having shown injury-in-fact, the Court concludes that Plaintiff satisfies the two
+24   remaining requirements of standing—causation and redressability. Plaintiff has adequately
+25   pled that the injury was caused by Defendant Build.com, and an award of money damages
+26   would remedy Plaintiff’s injury.
+27      B. Merits
+28         Plaintiff brings two claims on behalf of herself and the putative class alleging
+
+                                                    7
+                                                                                 22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 8 of 12
+
+
+
+ 1   violations of two provisions of the California Invasion of Privacy Act: (1) a violation of
+ 2   California Penal Code § 631, and (2) a violation of California Penal Code § 632.7. The
+ 3   Court concludes that both are insufficiently pled.
+ 4         1. Section 631 Claim
+ 5         Plaintiff has not adequately pled a Section 631 claim. Section 631 makes actionable
+ 6   “three distinct and mutually independent patterns of conduct: intentional wiretapping,
+ 7   wilfully attempting to learn the contents or meaning of a communication in transit over a
+ 8   wire, and attempting to use or communicate information obtained as a result of engaging
+ 9   in either of the previous two activities.” Tavernetti v. Super. Ct. of San Diego Cnty., 22
+10   Cal. 3d 187, 192 (1978). Section 631 also imposes liability upon “anyone ‘who aids, agrees
+11   with, employs, or conspires with any person or persons to unlawfully do, or permit, or
+12   cause to be done any of the’ . . . three bases for liability.” Mastel v. Miniclip SA, 549 F.
+13   Supp. 3d 1129, 1134 (E.D. Cal. 2021) (quoting Cal. Penal Code § 631(a)). Specifically,
+14   Section 631(a) makes liable:
+15         Any person
+                [1] who, by means of any machine, instrument, or contrivance, or in
+16
+                any other manner, intentionally taps, or makes any unauthorized
+17              connection, whether physically, electrically, acoustically, inductively,
+                or otherwise, with any telegraph or telephone wire, line, cable, or
+18
+                instrument, including the wire, line, cable, or instrument of any internal
+19              telephonic communication system, or
+                [2] who willfully and without the consent of all parties to the
+20
+                communication, or in any unauthorized manner, reads, or attempts to
+21              read, or to learn the contents or meaning of any message, report, or
+                communication while the same is in transit or passing over any wire,
+22
+                line, or cable, or is being sent from, or received at any place within this
+23              state; or
+                [3] who uses, or attempts to use, in any manner, or for any purpose, or
+24
+                to communicate in any way, any information so obtained, or
+25              [4] who aids, agrees with, employs, or conspires with any person or
+                persons to unlawfully do, or permit, or cause to be done any of the acts
+26
+                or things mentioned above in this section
+27         ....
+28
+
+                                                  8
+                                                                               22-cv-01985-DMS-KSC
+Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 9 of 12
+
+
+
+ 1   Cal. Penal Code § 631(a). Plaintiff asserts Defendant violated all four clauses.
+ 2          First, Defendant cannot be liable under the first three clauses because parties to a
+ 3   conversation cannot eavesdrop on their own conversations. See Warden v. Kahn, 99 Cal.
+ 4   App. 3d 805, 811 (1979) (distinguishing “eavesdropping by a third party” from “recording
+ 5   by a participant to a conversation”); Rogers v. Ulrich, 52 Cal. App. 3d 894, 899 (1975) (“It
+ 6   is never a secret to one party to a conversation that the other party is listening to the
+ 7   conversation . . . .”). Plaintiff alleges that she “used a smart phone” to “visit[] Defendant’s
+ 8   Website,” and “had a conversation with Defendant,” which “Defendant secretly recorded.”
+ 9   (Compl. ¶ 18, 20, emphasis added.) These facts cannot plausibly allege a violation of the
+10   first three clauses of Section 631(a) because Plaintiff alleges that Defendant was the
+11   intended recipient of the chat communications. See Ribas v. Clark, 38 Cal. 3d 355, 360
+12   n.3 (1985) (“[S]ection 631 does not penalize the secret recording of a conversation by one
+13   of the participants.”); In re Facebook, Inc. Internet Tracking Litig., 956 F.3d 589, 607 (9th
+14   Cir. 2020) (“[Section 631] contain[s] an exception from liability for a person who is a
+15   ‘party’ to the communication . . . .”).
+16          This leaves only Plaintiff’s theory based on Clause 4. Plaintiff alleges “Defendant
+17   allow[ed] at least one independent third-party vendor . . . to use a software device or
+18   contrivance to secretly intercept . . ., eavesdrop upon, and store transcripts of Defendant’s
+19   chat communications with unsuspecting website visitors.” (Compl. ¶ 12.) This claim fails
+20   because the Complaint does not plausibly allege the existence of a third-party
+21   eavesdropper. Plaintiff speculates that the eavesdropper may be WhosOn or SalesForce,
+22   (see id.), but such a speculative, “‘naked assertion,’ devoid of ‘further factual
+23   enhancement’” cannot plausibly allege the existence of a third-party eavesdropper. Iqbal,
+24   556 U.S. at 678 (quoting Twombly, 550 U.S. at 557).
+25          In addition, Plaintiff’s allegation that Defendant “has covertly embedded software
+26   code . . . into its website that automatically intercepts, records, and creates transcripts of all
+27   conversation using the website chat feature,” (Compl. ¶ 12), does not assist Plaintiff
+28   because it points to Defendant’s own conduct, not the conduct of a third-party. At best,
+
+                                                     9
+                                                                                   22-cv-01985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 10 of
+                                       12
+
+
+ 1   this allegation suggests that Defendant employs a third-party software service as a tool to
+ 2   record its own data. See Graham v. Noom, 533 F. Supp. 3d 823, 832 (N.D. Cal. 2021)
+ 3   (concluding that third-party software service was an “extension of” defendant and merely
+ 4   “provide[d] a tool . . . like [a] tape recorder . . . that allow[ed] [defendant] to record and
+ 5   analyze its own data”). As explained, this cannot be a basis for liability because a
+ 6   participant to a conversation cannot eavesdrop on their own conversation. In cases where
+ 7   courts have found software companies to be third-party eavesdroppers, those third parties
+ 8   had mined information from other websites and used that information for their own
+ 9   purposes. Id.; see, e.g., In re Facebook, 956 F.3d at 596, 607–08 (after companies
+10   embedded Facebook plug-ins onto their websites, Facebook collected data on visitors to
+11   those websites and sold the data to advertisers); Revitch v. New Moosejaw, LLC, No. 18-
+12   cv-6827-VC, 2019 WL 5485330, at *1–2 (N.D. Cal. Oct. 23, 2019) (website embedded
+13   third-party software on its site, and that third party used the data it gathered to create a
+14   marketing database of consumer information). Here, Plaintiff does not allege that the third
+15   party “intercepted and used the data itself.” Williams v. What If Holdings, LLC, No. 22-
+16   cv-3780-WHA, 2022 WL 17869275, at *3 (N.D. Cal. Dec. 22, 2022).
+17         Accordingly, Plaintiff’s Section 631 claim is dismissed with prejudice to the extent
+18   it is based on Clauses 1–3 of California Penal Code § 631(a), because there is no way for
+19   Plaintiff to plead around the key defect that Defendant cannot be liable for eavesdropping
+20   on its own conversation. See Klamath-Lake Pharm. Ass’n v. Klamath Med. Serv. Bureau,
+21   701 F.2d 1276, 1293 (9th Cir. 1983) (“[F]utile amendments should not be permitted.”).
+22   Plaintiff’s Section 631 claim is dismissed without prejudice to the extent it is based on
+23   Clause 4. The Court need not reach Defendant’s other arguments.
+24         2. Section 632.7 Claim
+25         Plaintiff also has not adequately pled a Section 632.7 claim. Section 632.7 imposes
+26   liability upon anyone who intercepts and intentionally records telephone communications
+27   without the consent of all participants in the communication. Specifically, Section 632.7(a)
+28   makes liable:
+
+                                                   10
+                                                                                22-cv-01985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 11 of
+                                       12
+
+
+ 1         [e]very person who, without the consent of all of the parties to a
+           communication, intercepts or receives and intentionally records, or assists in
+ 2
+           the interception or reception and intentional recordation of, a communication
+ 3         transmitted between two cellular radio telephones, a cellular radio telephone
+           and a landline telephone, two cordless telephones, a cordless telephone and a
+ 4
+           landline telephone, or a cordless telephone and a cellular radio telephone … .
+ 5
+ 6   Cal. Penal Code § 632.7(a). A plain reading of the text makes clear that the statute only
+ 7   applies to communications transmitted by telephone, not internet. Plaintiff seems to argue
+ 8   that Defendant’s conduct violated Section 632.7 because Plaintiff’s communications with
+ 9   Defendant through the website chat function on her smart phone amounted to
+10   “communication . . . transmitted via telephony.” (See Compl. ¶¶ 18, 37–39.) This stretches
+11   the statutory language too far. “The plaint text of § 632.7” states that “the communication
+12   must have a cellular radio or cordless telephone on one side, and a cellular radio, cordless,
+13   or landline telephone on the other side” to be actionable under the statute. Montantes v.
+14   Inventure Foods, No. 14-cv-1128-MWF, 2014 WL 3305578, at *4 (C.D. Cal. July 2, 2014).
+15   Transmission by internet through a device called “phone” is not sufficient.
+16         Plaintiff invites the Court to construe the term “landline telephone” in the statute
+17   broadly “as encompassing Defendant’s computer equipment, which connected with
+18   Plaintiff’s smart phone to transmit and receive Plaintiff’s chat communications,” and
+19   argues that “[t]he Internet works through a series of networks that connect devices around
+20   the world through telephone lines.” (Pl.’s Mem. of P. & A. in Opp’n to Def.’s Mot. to
+21   Dismiss at 21, ECF No. 12.) However, as explained, Section 632.7 “unambiguously limits
+22   its reach to communications between various types of telephones,” which are specifically
+23   identified in the statute. Valenzuela v. Keurig Green Mountain, Inc., No. 22-CV-09042-
+24   JSC, 2023 WL 3707181, at *6 (N.D. Cal. May 24, 2023). Plaintiff “makes no persuasive
+25   argument” that “the statute contemplates internet communications between a smart phone
+26   and an unspecified device on Defendant’s end.” Id. Accordingly, Plaintiff’s Section 632.7
+27   claim is dismissed with prejudice because there is no way for Plaintiff to plead around the
+28   fundamental defect that the statute does not apply to internet chat communications at issue
+
+                                                  11
+                                                                               22-cv-01985-DMS-KSC
+ Case 3:22-cv-01985-DMS-KSC Document 17 Filed 07/13/23 PageID.<pageID> Page 12 of
+                                       12
+
+
+ 1   here. See Klamath-Lake Pharm. Ass’n, 701 F.2d at 1293.
+ 2                                    IV.    CONCLUSION
+ 3         For the reasons explained above, the Court GRANTS Defendant’s Motion to
+ 4   Dismiss. Plaintiff’s Complaint is DISMISSED WITHOUT PREJUDICE as to the
+ 5   Section 631 claim to the extent it is based on Clause 4 of California Penal Code § 631(a);
+ 6   and DISMISSED WITH PREJUDICE as to all other claims and theories. Within
+ 7   fourteen (14) days of the date of this Order, Plaintiff may file an amended complaint.
+ 8         IT IS SO ORDERED.
+ 9
+10   Dated: July 13, 2023
+11                                                    _________________________________
+                                                      Hon. Dana M. Sabraw, Chief Judge
+12                                                    United States District Court
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+                                                 12
+                                                                              22-cv-01985-DMS-KSC
+

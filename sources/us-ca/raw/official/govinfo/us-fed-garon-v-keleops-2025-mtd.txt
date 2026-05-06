@@ -1,0 +1,719 @@
+                                       Case 4:25-cv-02124-DMR            Document 36      Filed 09/02/25      Page 1 of 11
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                  UNITED STATES DISTRICT COURT
+
+                                   5                                 NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7       JEFFREY GARON,                                  Case No. 25-cv-02124-DMR
+                                   8                    Plaintiff,
+                                                                                           ORDER DENYING DEFENDANT’S
+                                   9             v.                                        MOTION TO DISMISS
+                                  10       KELEOPS USA, INC.,                              Re: Dkt. No. 16
+                                  11                    Defendant.
+
+                                  12
+
+
+ United States District Court
+                                  13           Plaintiff Jeffrey Garon (“Garon” or “Plaintiff”), individually and on behalf of all others
+
+                                  14   similarly situated, brings this putative class action against Keleops USA, Inc. (“Keleops” or
+
+                                  15   “Defendant”), asserting a single claim under the California Invasion of Privacy Act (“CIPA”), Cal.
+
+
+
+Northern District of California
+                                  16   Penal Code § 638.51(a). Keleops now moves to dismiss the First Amended Complaint (“FAC”) in
+
+                                  17   its entirety pursuant to Federal Rule of Civil Procedure 12(b)(6). 1 [Docket No. 16 (Mot.).] Garon
+
+                                  18   filed an opposition (Docket No. 22 (Opp’n)), and Keleops filed a reply (Docket No. 23 (Reply)).
+
+                                  19   The parties also filed a joint stipulation for leave for Keleops to file a sur-reply. [Docket No. 23
+
+                                  20   (stip.); Docket No. 23-1 (proposed sur-reply).]
+
+                                  21           This matter is suitable for determination without oral argument. Civ. L.R. 7-1(b). For the
+
+                                  22   reasons stated below, the motion to dismiss is denied.
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+                                       1
+                                  27    Defendant filed the Notice of Removal and FAC as a single docket entry. [See Docket No. 1.]
+                                       Citations to the Notice of Removal refer to ECF pages 1-6, and citations to the FAC refer to ECF
+                                  28   pages 7-51.
+                                       Case 4:25-cv-02124-DMR           Document 36        Filed 09/02/25      Page 2 of 11
+
+
+
+
+                                   1   I.     BACKGROUND
+
+                                   2          A.      Factual Allegations2
+
+                                   3          Garon alleges that Keleops owns and operates the website https://gizmodo.com (the
+
+                                   4   “Website”).3 FAC ¶ 1. When users visit the Website, Keleops causes various trackers4—the Steam
+
+                                   5   Rail Tracker, AGKN Tracker, and Crowd Control Tracker (the “Trackers”), which are operated by
+
+                                   6   third parties ironSource, Neustar, and Lotame (the “Third Parties”)—to be installed on the user’s
+
+                                   7   internet browsers. Id. ¶¶ 2, 83. Specifically, to load the Website onto a user’s browser, the browser
+
+                                   8   sends an “HTTP” or “GET” request to Keleops’ server where the Website data is stored. Id. ¶ 28.
+
+                                   9   Keleops’ server then sends an “HTTP response” back to the browser with instructions. Id. These
+
+                                  10   instructions not only include how to properly display the Website, but also cause the Trackers to be
+
+                                  11   installed on the browser. Id. ¶¶ 29-30.
+
+                                  12          The Trackers then cause the browser to send identifying information to the Third Parties.
+
+
+ United States District Court
+                                  13   Id. ¶ 30. This includes the user’s IP address, the user-agent string (browser, operating system, and
+
+                                  14   device type), and device capabilities (e.g., supported image formats and compression methods). Id.
+
+                                  15   ¶ 31. A number of elements—such as persistent identifiers and fingerprinting and server-side
+
+
+
+Northern District of California
+                                  16
+
+                                  17
+                                       2
+                                         When reviewing a motion to dismiss for failure to state a claim, the court must “accept as true all
+                                       of the factual allegations contained in the complaint.” Erickson v. Pardus, 551 U.S. 89, 94 (2007)
+                                  18   (per curiam) (citation omitted).
+                                       3
+                                  19     In footnotes, the parties discuss whether Keleops owns or operates the Website. Mot. at 7 n.1;
+                                       Opp’n at 3 n.4. Keleops contends that it “is the sole member of Gizmodo USA LLC, the American
+                                  20   entity owning and operating Gizmodo.com. Gizmodo USA LLC acquired Gizmodo.com in June
+                                       2024.” Mot. at 7 n.1. As Garon points out, however, Keleops does not move to dismiss on grounds
+                                  21   that it is an improperly named party. Opp’n at 3 n.4; see generally Mot. Garon asserts, without
+                                       citation, that negotiating contracts or integrating code amounts to “installation,” and deriving
+                                  22   revenue through trackers constitutes “use.” Opp’n at 3 n.4. The court declines to address such
+                                       throwaway arguments and bare assertions made only in passing. See Christian Legal Soc. Chapter
+                                  23   of Univ. of California v. Wu, 626 F.3d 483, 487 (9th Cir. 2010) (“[W]e’ve refused to address claims
+                                       that were only argued in passing . . . , or that were bare assertions . . . with no supporting
+                                  24   argument[.]”) (cleaned up); Guatay Christian Fellowship v. Cnty. of San Diego, 670 F.3d 957, 987
+                                       (9th Cir. 2011) (declining to consider argument unsupported by any argument or legal authority). If
+                                  25   the parties want an adjudication on an issue, they need to queue it up at an appropriate stage and
+                                       state their positions along with supporting legal authority.
+                                  26   4
+                                         The FAC alleges that “[w]hen users visit the Website, Defendant causes four Trackers—the
+                                  27   Steamrail Tracker, AGKN Tracker, and Crowd Control Tracker ( collectively, the ‘Trackers’)—to
+                                       be installed on Website visitors’ internet browsers.” FAC ¶ 2. It is unclear how many Trackers are
+                                  28   allegedly installed: although Garon alleges there are “four Trackers,” he only identifies three. See
+                                       id. For purposes of this order, the court assumes there are three Trackers.
+                                                                                         2
+                                       Case 4:25-cv-02124-DMR            Document 36          Filed 09/02/25     Page 3 of 11
+
+
+
+
+                                   1   matching (“device identifier information”)—remain and allow users to be identified even after
+
+                                   2   clearing standard session data, such as cookies. Id. This device identifier information forms a
+
+                                   3   detailed, unique fingerprint that allows for cross-site tracking and behavioral profiling. Id.; see also
+
+                                   4   see id. ¶¶ 84-114 (alleging functionality of Trackers).
+
+                                   5          Garon alleges that these Trackers constitute a “pen register” within the meaning of CIPA
+
+                                   6   section 638.50(b), and that Keleops has violated CIPA section 638.51(a) by installing the Trackers
+
+                                   7   absent Garon’s consent and a court order. FAC ¶¶ 3, 33, 155, 157, 159. He further alleges that
+
+                                   8   Keleops has long incorporated the Trackers’ code into the Website’s code. Id. ¶ 32. Thus, when
+
+                                   9   Garon and other putative class members visited the Website, Trackers were installed on their
+
+                                  10   browsers, which allowed the Third Parties to collect users’ IP addresses and other device
+
+                                  11   information to be used by Keleops and the Third Parties for marketing, advertising, and analytics
+
+                                  12   purposes. Id. ¶ 32, 131-41.
+
+
+ United States District Court
+                                  13          B.      Procedural History
+                                  14          Garon initiated this action in the Superior Court of California, County of Marin on
+
+                                  15   January 28, 2025, on behalf of “all California residents who accessed the Website while in
+
+
+
+Northern District of California
+                                  16   California and had their IP address collected by the Trackers.” Id. ¶ 143. The FAC asserts a single
+
+                                  17   claim for violation of CIPA section 658.1(a). Id. ¶¶ 150-59. On February 28, 2025, Keleops
+
+                                  18   removed to this court based on diversity jurisdiction. See Not. of Removal.
+
+                                  19   II.    LEGAL STANDARD
+
+                                  20          A motion to dismiss under Rule 12(b)(6) tests the legal sufficiency of the claims alleged in
+
+                                  21   the complaint. See Parks Sch. of Bus., Inc. v. Symington, 51 F.3d 1480, 1484 (9th Cir. 1995). When
+
+                                  22   reviewing a motion to dismiss for failure to state a claim, the court must “accept as true all of the
+
+                                  23   factual allegations contained in the complaint,” Erickson, 551 U.S. at 94, and may dismiss a claim
+
+                                  24   “only where there is no cognizable legal theory” or there is an absence of “sufficient factual matter
+
+                                  25   to state a facially plausible claim to relief,” Shroyer v. New Cingular Wireless Servs., Inc., 622 F.3d
+
+                                  26   1035, 1041 (9th Cir. 2010) (citing Ashcroft v. Iqbal, 556 U.S. 662, 677-78 (2009); Navarro v. Block,
+
+                                  27   250 F.3d 729, 732 (9th Cir. 2001)) (internal quotation marks omitted). A claim has facial
+
+                                  28   plausibility when a plaintiff “pleads factual content that allows the court to draw the reasonable
+                                                                                          3
+                                       Case 4:25-cv-02124-DMR             Document 36         Filed 09/02/25     Page 4 of 11
+
+
+
+
+                                   1   inference that the defendant is liable for the misconduct alleged.” Iqbal, 556 U.S. at 678 (citation
+
+                                   2   omitted). In other words, the facts alleged must demonstrate “more than labels and conclusions,
+
+                                   3   and a formulaic recitation of the elements of a cause of action will not do.” Bell Atl. Corp. v.
+
+                                   4   Twombly, 550 U.S. 554, 555 (2007).
+
+                                   5           Under Federal Rule of Civil Procedure 15(a), leave to amend should be granted as a matter
+
+                                   6   of course, at least until the defendant files a responsive pleading. Fed. R. Civ. P. 15(a)(1). After that
+
+                                   7   point, Rule 15(a) provides generally that leave to amend the pleadings before trial should be given
+
+                                   8   “freely . . . when justice so requires.” Fed. R. Civ. P. 15(a)(2). “This policy is to be applied with
+
+                                   9   extreme liberality.” Eminence Capital, LLC v. Aspeon, Inc., 316 F.3d 1048, 1051 (9th Cir. 2003)
+
+                                  10   (quotation omitted). However, leave to amend may be denied where the complaint “could not be
+
+                                  11   saved by any amendment,” i.e., “where the amendment would be futile.” Thinket Ink Info. Res., Inc.
+
+                                  12   v. Sun Microsystems, Inc., 368 F.3d 1053, 1061 (9th Cir. 2004).
+
+
+ United States District Court
+                                  13   III.    DISCUSSION
+
+                                  14           A.      Request for Judicial Notice
+
+                                  15           Keleops requests the court take judicial notice of minute orders issued in three cases in the
+
+
+
+Northern District of California
+                                  16   Superior Court of California, County of Los Angeles: (1) Licea v. Hickory Farms LLC, Case No.
+
+                                  17   23STCV26148, 2024 WL 1698147 (Cal. Super. Mar. 13, 2024); (2) Sanchez v. Cars.com Inc., No.
+
+                                  18   24STCV13201, 2025 WL 487194 (Cal. Super. Jan. 27, 2025); and (3) Aviles v. Liveramp, Inc., No.
+
+                                  19   24STCV19869, 2025 WL 487196 (Cal. Super. Jan. 28, 2025). [Docket No. 17 (RJN).]
+
+                                  20           Federal Rule of Evidence 201(b) provides that “[t]he court may judicially notice a fact that
+
+                                  21   is not subject to reasonable dispute because it: (1) is generally known within the trial court's
+
+                                  22   territorial jurisdiction; or (2) can be accurately and readily determined from sources whose accuracy
+
+                                  23   cannot reasonably be questioned.” As filings in state court actions are undisputed matters of public
+
+                                  24   record, the court grants Keleops’ request and takes judicial notice of the existence of the rulings in
+
+                                  25   the three cited minute orders. See Harris v. Cnty. of Orange, 682 F.3d 1126, 1132 (9th Cir. 2012)
+
+                                  26   (courts “may take judicial notice of undisputed matters of public record . . . , including documents
+
+                                  27   on file in . . . state courts”); Banks v. Allison, 140 F.4th 1181, 1185 n.3 (9th Cir. 2025) (taking
+
+                                  28   judicial notice of state court records).
+                                                                                          4
+                                       Case 4:25-cv-02124-DMR             Document 36          Filed 09/02/25     Page 5 of 11
+
+
+
+
+                                   1           B.      Stipulation to File Sur-Reply
+
+                                   2           Garon contends that Keleops’ reply raises new arguments that were not raised in its motion.
+
+                                   3   [Docket No. 23 at 1.] Although Keleops disputes that its reply improperly raises new arguments, it
+
+                                   4   stipulated to allow Garon to file a sur-reply. Id.; see Docket No. 23-1 (proposed sur-reply).
+
+                                   5           The court agrees with Garon that the reply offers new arguments that were not raised in the
+
+                                   6   motion and do not address arguments raised in the opposition. The court therefore grants the
+
+                                   7   stipulated request to file a sur-reply.
+
+                                   8           C.      Allegations about Trackers as Pen Registers
+
+                                   9           Keleops argues the CIPA claim fails because Garon has not alleged the existence of a pen
+
+                                  10   register for two reasons. First, Keleops contends that the FAC “alleges the transmission of
+
+                                  11   Plaintiff’s IP address,” but that “[r]ecording an IP address is not equivalent to recording the numbers
+
+                                  12   dialed from a phone and does not make any record of other outgoing routing, dialing, or signaling
+
+
+ United States District Court
+                                  13   information.” Mot. at 9. Second, Keleops asserts that software is not a “device or process” within
+
+                                  14   the meaning of CIPA. Id. at 10-14.
+
+                                  15           CIPA provides that “a person may not install or use a pen register . . . without first obtaining
+
+
+
+Northern District of California
+                                  16   a court order[.]” Cal. Penal Code § 638.51. A “pen register” is “a device or process that records or
+
+                                  17   decodes dialing, routing, addressing, or signaling information transmitted by an instrument or
+
+                                  18   facility from which a wire or electronic communication is transmitted, but not the contents of a
+
+                                  19   communication.” Cal. Penal Code § 638.50(b).
+
+                                  20           The FAC contains sufficient allegations that the Trackers constitute “pen registers” within
+
+                                  21   the meaning of CIPA. First, the FAC adequately alleges that the Trackers constitute a “device or
+
+                                  22   process.” See, e.g., FAC ¶ 91 (“The Steamrail Tracker is at least a ‘process’ because it is ‘software
+
+                                  23   that identifies consumers, gathers data, and correlates that data.’”) (citation omitted); id. ¶ 92 (“[T]he
+
+                                  24   Steamrail Tracker is a ‘device’ because ‘in order for software to work, it must be run on some kind
+
+                                  25   of computing device.’”) (citation omitted); id. ¶ 101 (“The AGKN Tracker is at least a ‘process’
+
+                                  26   because it is ‘software that identifies consumers, gathers data, and correlates that data.’”) (citation
+
+                                  27   omitted); id. ¶ 102 (“[T]he AGKN Tracker is a ‘device’ because ‘in order for software to work, it
+
+                                  28   must be run on some kind of computing device.’”) (citation omitted); id. ¶ 112 (“The Crowd Control
+                                                                                           5
+                                       Case 4:25-cv-02124-DMR           Document 36         Filed 09/02/25     Page 6 of 11
+
+
+
+
+                                   1   Tracker is at least a ‘process’ because it is ‘software that identifies consumers, gathers data, and
+
+                                   2   correlates that data.’”) (citation omitted); id. ¶ 113 (“[T]he Crowd Control Tracker is a ‘device’
+
+                                   3   because ‘in order for software to work, it must be run on some kind of computing device.’”) (citation
+
+                                   4   omitted).
+
+                                   5          These allegations are sufficient to withstand Keleops’ motion. “A process can take many
+
+                                   6   forms” including “software that identifies consumers, gathers data, and correlates that data through
+
+                                   7   unique ‘fingerprinting.’” Greenley v. Kochava, Inc., 684 F. Supp. 3d 1024, 1050 (S.D. Cal. 2023),
+
+                                   8   (finding a software development kit constituted a pen register); see Mirmalek v. Los Angeles Times
+
+                                   9   Commc’ns LLC, No. 24-CV-01797-CRB, 2024 WL 5102709, at *3 (N.D. Cal. Dec. 12, 2024)
+
+                                  10   (finding “[p]laintiff adequately allege[d] that the Trackers are a ‘device or process’ as required by
+
+                                  11   CIPA’s definition of a pen register” based on similar allegations); Shah v. Fandom, Inc., 754 F.
+
+                                  12   Supp. 3d 924, 928 (N.D. Cal. 2024) (same).
+
+
+ United States District Court
+                                  13          Second, there are plausible allegations that the Trackers “record[] or decode[] . . .
+
+                                  14   addressing . . . information . . . but not the contents of a communication.”       Cal. Penal Code
+
+                                  15   § 638.50(b). The FAC alleges that an “IP address is a unique identifier for a device,” and that
+
+
+
+Northern District of California
+                                  16   “[p]ublic IP addresses can be used to determine the approximate physical location of a device.” Id.
+
+                                  17   ¶¶ 34, 38; see id. ¶ 42 (“[T]he public IP address divulges the approximate location of the user that
+
+                                  18   is connecting to the Internet and the router directing those communications (presumably the user’s
+
+                                  19   house or workplace) . . .”). Moreover, while “the Trackers . . . enabled the Third Parties to collect
+
+                                  20   Plaintiffs and Class Members’ IP addresses,” they “do not collect the content of Plaintiffs and the
+
+                                  21   Class’s electronic communications with the Website.” Id. ¶¶ 155-56. This is sufficient to survive
+
+                                  22   a Rule 12(b)(6) motion. See Shah, 754 F. Supp. 3d at 929 (“Construing the pleadings in the light
+
+                                  23   most favorable to Plaintiff, the IP addresses collected by the Trackers fall within the statutory
+
+                                  24   definition of ‘addressing’ information.”) (citing In re Zynga Priv. Litig., 750 F.3d 1098, 1108 (9th
+
+                                  25   Cir. 2014)); In re Zynga Priv. Litig., 750 F.3d at 1108 (“IP addresses ‘constitute addressing
+
+                                  26   information and do not necessarily reveal any more about the underlying contents of communication
+
+                                  27   than do phone numbers.’”) (citation omitted).
+
+                                  28          Keleops’ arguments to the contrary are based on an unsupported and impermissibly narrow
+                                                                                        6
+                                       Case 4:25-cv-02124-DMR            Document 36           Filed 09/02/25   Page 7 of 11
+
+
+
+
+                                   1   reading of the statute. According to Keleops, CIPA was intended to “to protect individuals from the
+
+                                   2   use of ‘device[s] or process[es]’ that could be used for telephone surveillance[,]” and “[n]othing in
+
+                                   3   the Penal Code extends a pen register to software.” Mot. at 10 (brackets in the original; citations
+
+                                   4   omitted); see id. at 9 (“A pen register is a device installed on a landline telephone to make a record
+
+                                   5   of the phone numbers dialed from that phone.”); id. at 10 (“The ‘device or process’ required under
+
+                                   6   Section 638.50 must be tied to ‘telephonic functionality’ . . .”). Keleops wholly fails to acknowledge
+
+                                   7   that courts have repeatedly rejected these arguments and makes no attempt to distinguish those cases
+
+                                   8   from the case at hand. See Fajardo v. Barr, 808 F. App’x 413, 414 (9th Cir. 2020) (“[T]he failure
+
+                                   9   to mention Roman-Suaste in the opening brief is inexplicable. We take this opportunity to remind
+
+                                  10   counsel that the duty of candor requires counsel to bring relevant adverse authority to our attention
+
+                                  11   and argue why that authority does not control.”).
+
+                                  12          Contrary to Keleops’ argument, “[n]othing in the statutory definition limits pen registers to
+
+
+ United States District Court
+                                  13   those that operate the same way as a traditional phone pen register.” Shah, 754 F. Supp. 3d at 929.
+
+                                  14   Rather, “the expansive language in the California Legislature’s chosen definition” of a pen register
+
+                                  15   “is specific as to the type of data a pen register collects—‘dialing, routing, addressing, or signaling
+
+
+
+Northern District of California
+                                  16   information transmitted by an instrument or facility from which a wire or electronic communication
+
+                                  17   is transmitted,’ but . . . is vague and inclusive as to the form of the collection tool—‘a device or
+
+                                  18   process.’” Greenley, 684 F. Supp. 3d at 1050 (citing Cal. Penal Code § 538.50(b)); see Shah, 754
+
+                                  19   F. Supp. 3d at 928 (quoting Greenley, 684 F. Supp. 3d at 1050); Mirmalek, 2024 WL 5102709, at
+
+                                  20   *3 (same); Moody v. C2 Educ. Sys. Inc., 742 F. Supp. 3d 1072, 1076 (C.D. Cal. 2024) (“Though
+
+                                  21   § 638.52 refers to pen registers and trap and trace devices as physically attached to telephone lines,
+
+                                  22   the definitions set forth under § 638.50 do not state any such requirement.”); Rodriguez v.
+
+                                  23   Autotrader.com, Inc., 762 F. Supp. 3d 921, 929 (C.D. Cal. 2025) (“Defendant argues that this
+
+                                  24   language makes clear that § 638.51 applies only to telephone surveillance, not software. . . .
+
+                                  25   However, as this Court explained in Moody v. C2 Educational Systems Inc., § 638.51 and the
+
+                                  26   definitions supplied by § 638.50 are not so limited.”). “If the drafters of Section 638.50 had intended
+
+                                  27   for ‘pen register’ to be limited to telephone technologies, they knew how to do so—as evidenced by
+
+                                  28   other sections of CIPA where they imposed such limitations.” Gabrielli v. Motorola Mobility LLC,
+                                                                                           7
+                                       Case 4:25-cv-02124-DMR            Document 36       Filed 09/02/25      Page 8 of 11
+
+
+
+
+                                   1   No. 24-CV-09533-JST, 2025 WL 1939957, at *11 (N.D. Cal. July 14, 2025) (citing Cal. Penal Code
+
+                                   2   §§ 631(a), 632.7). The statutory language “indicates courts should focus less on the form of the
+
+                                   3   data collector and more on the result.” Greenley, 684 F. Supp. 3d at 1050.
+
+                                   4          As the statute does not specify the form of the “device or process,” the idea of what
+
+                                   5   constitutes such “device or process” has evolved. “Traditionally, law enforcement used ‘pen
+
+                                   6   registers’ in investigations to record all numbers called from a particular telephone, and ‘pen
+
+                                   7   registers’ required physical machines. Today, pen registers take the form of software.” Greenley,
+
+                                   8   684 F. Supp. 3d at 1050 (footnote omitted). Similarly, “[a] process can take many forms. Surely
+
+                                   9   among them is software that identifies consumers, gathers data, and correlates that data through
+
+                                  10   unique ‘fingerprinting.’” Id. Courts have thus repeatedly “reject[ed] the contention that a private
+
+                                  11   company’s surreptitiously embedded software installed in a telephone cannot constitute a ‘pen
+
+                                  12   register.’” Id. at 1051.
+
+
+ United States District Court
+                                  13          Keleops’ cited cases are not persuasive. For instance, Smith v. Maryland, 442 U.S. 735
+
+                                  14   (1979), and People v. Larkin, 194 Cal. App. 3d 650 (1987), were decided before the internet became
+
+                                  15   prevalent. Those courts thus did not have the opportunity to consider whether software could fall
+
+
+
+Northern District of California
+                                  16   within the scope of CIPA.
+
+                                  17          Keleops also cites three state court cases that have “dismissed similar CIPA pen register
+
+                                  18   claims”: Licea v. Hickory Farms LLC, Sanchez v. Cars.com Inc., and Aviles v. Liveramp, Inc.5 Mot.
+
+                                  19   at 10-12, 15; see RJN. The court respectfully declines to do so here. Licea and Sanchez reached
+
+                                  20   their conclusions based on an analysis of CIPA’s legislative history. Licea, 2024 WL 1698147, at
+
+                                  21   *3 (“Legislative updates and commentary continue to explicitly cover cordless and cellular phone
+
+                                  22   technology without reference to internet based communications.”); Sanchez, WL 487194, at *3
+
+                                  23   (“Here, the legislative history of the CIPA suggests that ‘pen register’ and ‘track and trace devices’
+
+                                  24
+
+                                  25   5
+                                         In Avila, the court noted that, “[w]hile the statutory definition of a pen register now includes
+                                  26   electronic communications in mediums other than simply telephone communications, Plaintiff has
+                                       not provided authority showing that the category of information collected by pen registers as defined
+                                  27   by the statute has been expanded.” 2025 WL 487196, at *2. That is not the case here. As set forth
+                                       above, at least three reported opinions issued by California-based federal district courts have held
+                                  28
+                                       that trackers that collect IP addresses fall within CIPA’s scope.
+                                                                                           8
+                                       Case 4:25-cv-02124-DMR            Document 36         Filed 09/02/25     Page 9 of 11
+
+
+
+
+                                   1   refers to devices or processes that are used to record or decode dialing, routing, addressing, or
+
+                                   2   signaling information from telephone numbers, not internet communications such as websites.”).
+
+                                   3   The court is persuaded by the reasoning in Greenley, Shah, and Mirmalek—which was based on the
+
+                                   4   plain statutory language. See Hernandez v. Williams, Zinman & Parham PC, 829 F.3d 1068, 1073
+
+                                   5   (9th Cir. 2016) (“When an examination of the plain language of the statute, its structure, and purpose
+
+                                   6   clearly reveals congressional intent, our judicial inquiry is complete.”); Riganian v. LiveRamp
+
+                                   7   Holdings, Inc., No. 25-CV-00824-JST, 2025 WL 2021802, at *12 (N.D. Cal. July 18, 2025) (“[T]he
+
+                                   8   Court respectfully disagrees with the California Superior Court’s conclusion in Sanchez, which
+
+                                   9   focused its analysis on the legislative history of the CIPA rather than on the expansive, plain
+
+                                  10   language of Section 638.50.”).
+
+                                  11          Keleops’ reliance on Khamooshi v. Politico LLC, No. 24-CV-07836-SK, 2025 WL 1408896
+
+                                  12   (N.D. Cal. May 13, 2025), is also misplaced. As an initial matter, Khamooshi concerned a
+
+
+ United States District Court
+                                  13   Rule 12(b)(1) motion to dismiss for lack of Article III standing, such that the issue was “whether
+
+                                  14   disclosure of IP addresses gives rise to a privacy injury.” 2025 WL 1408896, at *1-3. Keleops has
+
+                                  15   not moved to dismissed for lack of standing, and it does not otherwise explain why Khamooshi,
+
+
+
+Northern District of California
+                                  16   which did not consider whether trackers constitute pen registers under CIPA, is “particularly salient
+
+                                  17   here.” Reply at 3. The court declines to consider Keleops’ argument that “this lawsuit is not based
+
+                                  18   on any individualized harm, but rather part of a broader campaign to leverage statutory damages in
+
+                                  19   the absence of concrete injury” (id.), when Keleops brings its motion only pursuant to Rule 12(b)(6)
+
+                                  20   and made no such argument in its opening brief.
+
+                                  21          Finally, Keleops argues the FAC should be dismissed under the rule of lenity. Reply at 5.
+
+                                  22   At least one court has expressly declined to do so. In Riganian v. LiveRamp Holdings, Inc., the
+
+                                  23   court rejected the defendant’s argument that the rule of lenity applied to CIPA, explaining that
+
+                                  24                  “The rule of lenity applies to criminal and punitive statutes and
+                                                      requires ambiguities to be resolved in favor of the defendant.” Sec.
+                                  25                  & Exch. Comm’n v. Bardman, 231 F. Supp. 3d 442, 447 n.6 (N.D.
+                                                      Cal. 2017) (citing Fed. Election Comm’n v. Arlen Specter ’96, 150 F.
+                                  26                  Supp. 2d 797 (E.D. Pa. 2001)). The “rule of lenity only applies if,
+                                                      after considering text, structure, history, and purpose, there remains a
+                                  27                  ‘grievous ambiguity or uncertainty in the statute.’” Barber v. Thomas,
+                                                      560 U.S. 474, 488, 130 S.Ct. 2499, 177 L.Ed.2d 1 (2010) (quoting
+                                  28                  Muscarello v. United States, 524 U.S. 125, 139, 118 S.Ct. 1911, 141
+                                                                                         9
+                                       Case 4:25-cv-02124-DMR              Document 36     Filed 09/02/25      Page 10 of 11
+
+
+
+                                                      L.Ed.2d 111 (1998)); see also People v. Superior Ct. of Riverside
+                                   1                  Cnty., 81 Cal. App. 5th 851, 886, 297 Cal. Rptr. 3d 517 (2022)
+                                                      (explaining that the rule of lenity applies “only if the court can do no
+                                   2                  more than guess what the legislative body intended; there must be an
+                                                      egregious ambiguity and uncertainty to justify invoking the rule”
+                                   3                  (internal quotations omitted)).
+                                   4   2025 WL 2021802, at *12. The court agrees. Like the defendant in Rignanian, Keleops has not
+
+                                   5   identified any “grievous ambiguity or uncertainty” in CIPA.
+
+                                   6          For these reasons, the court denies Keleops’ motion to dismiss on grounds that Garon failed
+
+                                   7   to adequately allege the existence of a pen register within the meaning of CIPA.
+
+                                   8          D.      Exemption Under Section 638.51(b)
+                                   9          Keleops contends that it is subject to CIPA’s exemption that allows “[a] provider of
+
+                                  10   electronic or wire communication service may use a pen register or a trap and trace device . . . [t]o
+
+                                  11   operate, maintain, and test a wire or electronic communication service.”            Cal. Penal Code
+
+                                  12   § 638.51(b)(1); Mot. at 14 (“Fundamentally, any website provider must collect IP addresses to
+
+
+ United States District Court
+                                  13   operate a website.”); Reply at 7 (“Plaintiff does not dispute that Gizmodo.com must collect IP
+
+                                  14   addresses to deliver content to visitors. This fundamental web functionality falls squarely within the
+
+                                  15   statutory exemption.”).
+
+
+
+Northern District of California
+                                  16          The court declines to dismiss the FAC on these grounds at this time. Whether Keleops uses
+
+                                  17   the Trackers “[t]o operate, maintain, and test a wire or electronic communication service,” Cal.
+
+                                  18   Penal Code § 638.51(b)(1), is a question of fact not suitable for a Rule 12(b)(6) motion, which tests
+
+                                  19   the sufficiency of the pleadings.
+
+                                  20          E.      Stay in Light of SB690
+                                  21          Keleops urges the court to stay the case while California Senate Bill 690 (“SB690”), which
+
+                                  22   would amend California Penal Code sections 631, 632, 632.7, 637.2, and 638.50, is pending in the
+
+                                  23   California Legislature. Mot. at 15-16. According to Keleops, SB690 “demonstrates a clear
+
+                                  24   legislative intent to curb litigation created by misconstruing CIPA” and “would render this entire
+
+                                  25   case moot if enacted.” Id. at 15, 20. Garon argues there is no grounds for a stay based on a bill that
+
+                                  26   may or may not be enacted with the current proposed language. Opp’n at 18-19.
+
+                                  27          The court agrees with Garon. SB690 is too tenuous to form a basis to stay the case. There
+
+                                  28   is no indication when SB690 will be enacted, or whether the proposed language Keleops contends
+                                                                                         10
+                                       Case 4:25-cv-02124-DMR           Document 36        Filed 09/02/25      Page 11 of 11
+
+
+
+
+                                   1   bears on the issues here will be part of the final bill. See San Francisco Tech., Inc. v. Dial Corp.,
+
+                                   2   No. 10-CV-04986-JF/PSG, 2011 WL 941152, at *4 (N.D. Cal. Mar. 17, 2011) (denying request to
+
+                                   3   stay “pending the enactment of federal legislation that retroactively could alter the standing
+
+                                   4   requirements” where “there [wa]s no indication that passage of the legislation is imminent” and “the
+
+                                   5   unpredictability of the legislative process counsel[ed] against the imposition of a stay.”); Log Cabin
+
+                                   6   Republicans v. United States, No. CV 04-08425-VAP (EX), 2010 WL 11508368, at *7 (C.D. Cal.
+
+                                   7   July 6, 2010) (denying motion to stay in light of pending legislation because, “[g]iven the many
+
+                                   8   contingencies involved—including the threshold contingency of Congressional approval—and the
+
+                                   9   lack of clear timelines, any ultimate repeal that may result from this legislation [wa]s at this point
+
+                                  10   remote, if not wholly speculative.”). Moreover, “[i]f courts were to stay actions every time new
+
+                                  11   legislation was introduced the judicial system would grind to a halt.” Droesch v. Wells Fargo Bank,
+
+                                  12   N.A., No. 20-CV-06751-JSC, 2021 WL 1817057, at *6 (N.D. Cal. May 6, 2021).
+
+
+ United States District Court
+                                  13          Accordingly, Keleops’ request for a stay is denied.
+
+                                  14   IV.    CONCLUSION
+                                  15          For these reasons, the court denies Keleops’ motion to dismiss. Keleops shall file an answer
+
+
+
+Northern District of California
+                                  16   to the FAC within two weeks of this order.
+
+                                  17          IT IS SO ORDERED.
+
+                                  18
+                                  19   Dated: September 2, 2025
+
+                                  20                                                     ______________________________________
+                                                                                                      Donna M. Ryu
+                                  21                                                              Chief Magistrate Judge
+                                  22
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+                                  27
+
+                                  28
+                                                                                        11
+

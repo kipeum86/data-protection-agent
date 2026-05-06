@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/leginfo/ca-caloppa.html",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.&division=8.&lawCode=BPC",
+  "final_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?chapter=22.&division=8.&lawCode=BPC",
+  "content_type": "text/html; charset=UTF-8",
+  "status": "fetched",
+  "checksum": "sha256:93699c531519127347bbd76444d4e7a01d4c3ae44572326c2182be17b758eb45",
+  "bytes": 140504
+}

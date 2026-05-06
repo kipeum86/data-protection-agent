@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/govinfo/us-fed-rc-v-sussex-2025-mtd.pdf",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-02609/pdf/USCOURTS-cand-3_24-cv-02609-0.pdf",
+  "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-02609/pdf/USCOURTS-cand-3_24-cv-02609-0.pdf",
+  "content_type": "application/pdf",
+  "status": "fetched",
+  "checksum": "sha256:856c414ed2fe7b7221afaafcf346a2262ebc6aeec21ffd498db0ba8ebc6ffbe7",
+  "bytes": 423839
+}

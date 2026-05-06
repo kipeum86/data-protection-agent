@@ -1,0 +1,105 @@
+{
+  "type": "source_registry",
+  "generated_at": "2026-03-26T19:22:26.786416+00:00",
+  "sources": {
+    "grade-a": {
+      "gdpr": {
+        "status": "complete",
+        "count": 99,
+        "target": 99
+      },
+      "gdpr-recitals": {
+        "status": "complete",
+        "count": 173,
+        "target": 173
+      },
+      "eprivacy-directive": {
+        "status": "complete",
+        "count": 21,
+        "target": 21
+      },
+      "eu-ai-act": {
+        "status": "complete",
+        "count": 113,
+        "target": 113
+      },
+      "data-act": {
+        "status": "complete",
+        "count": 50,
+        "target": 50
+      },
+      "data-governance-act": {
+        "status": "complete",
+        "count": 38,
+        "target": 38
+      },
+      "edpb-guidelines": {
+        "status": "partial",
+        "count": 52,
+        "target": 82,
+        "note": "Phase 3"
+      },
+      "edpb-opinions": {
+        "status": "complete",
+        "count": 31,
+        "target": 20,
+        "note": "Phase 3, initial 20"
+      },
+      "edpb-recommendations": {
+        "status": "partial",
+        "count": 7,
+        "target": 11,
+        "note": "Phase 3"
+      },
+      "cjeu-cases": {
+        "status": "complete",
+        "count": 51,
+        "target": 50,
+        "note": "Phase 4-5"
+      },
+      "edpb-statements": {
+        "status": "complete",
+        "count": 19
+      },
+      "edpb-binding-decisions": {
+        "status": "complete",
+        "count": 10
+      },
+      "edpb-reports": {
+        "status": "complete",
+        "count": 1
+      },
+      "eu-ai-act-recitals": {
+        "status": "complete",
+        "count": 180,
+        "target": 180
+      },
+      "data-act-recitals": {
+        "status": "complete",
+        "count": 119,
+        "target": 119
+      },
+      "data-governance-act-recitals": {
+        "status": "complete",
+        "count": 63,
+        "target": 63
+      }
+    },
+    "grade-b": {
+      "enforcement-decisions": {
+        "status": "complete",
+        "count": 33
+      },
+      "legislative-proposals": {
+        "status": "complete",
+        "count": 2
+      }
+    },
+    "grade-c": {
+      "law-firm-analyses": {
+        "status": "pending",
+        "count": 0
+      }
+    }
+  }
+}

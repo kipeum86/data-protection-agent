@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "section_gaps": {
+    "ca-age-appropriate-design-code": {
+      "status": "ok",
+      "expected_count": 13,
+      "present_count": 8,
+      "missing": [
+        "1798.99.34",
+        "1798.99.36",
+        "1798.99.37",
+        "1798.99.38",
+        "1798.99.39"
+      ],
+      "verified_absent": [
+        "1798.99.34",
+        "1798.99.36",
+        "1798.99.37",
+        "1798.99.38",
+        "1798.99.39"
+      ],
+      "unverified": [],
+      "verified_absent_source": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&lawCode=CIV&part=4.&title=1.81.47."
+    },
+    "ca-data-broker-delete-act": {
+      "status": "ok",
+      "expected_count": 10,
+      "present_count": 9,
+      "missing": [
+        "1798.99.83"
+      ],
+      "verified_absent": [
+        "1798.99.83"
+      ],
+      "unverified": [],
+      "verified_absent_source": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.48."
+    }
+  },
+  "generated_at": "2026-05-06T08:59:23+00:00"
+}

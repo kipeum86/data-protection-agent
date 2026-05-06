@@ -1,0 +1,768 @@
+ 1   ROB BONTA
+     Attorney General of California
+ 2   NICKLAS A. AKERS
+     Senior Assistant Attorney General
+ 3   STACEY D. SCHESSER
+     Supervising Deputy Attorney General
+ 4   AMOS E. HARTSTON (SBN 186471)
+     YEN P. NGUYEN (SBN 239085)
+ 5   MANEESH SHARMA (SBN 280084)
+     Deputy Attorneys General
+ 6    300 South Spring Street, Suite 1702
+      Los Angeles, CA 90013
+ 7    Telephone: (213) 269-6046
+      Fax: (213) 897-4951
+ 8    E-mail: Amos.Hartston@doj.ca.gov
+
+ 9   Attorneys for the People of the State of California
+
+10
+
+11
+                         SUPERIOR COURT OF THE STATE OF CALIFORNIA
+12
+                                       COUNTY OF LOS ANGELES
+13
+
+14
+
+15   THE PEOPLE OF THE STATE OF                           CASE NO.: 25STCV31561
+     CALIFORNIA,
+16                                                     [PROPOSED] FINAL JUDGMENT
+                                            Plaintiff, AND PERMANENT INJUNCTION
+17
+                    v.
+18
+
+19   SLING TV L.L.C.;
+     DISH MEDIA SALES L.L.C.,
+20
+                                          Defendants.
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+27
+
+28
+                                                      1
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1   ROB BONTA
+     Attorney General of California
+ 2   NICKLAS A. AKERS
+     Senior Assistant Attorney General
+ 3   STACEY D. SCHESSER
+     Supervising Deputy Attorney General
+ 4   AMOS E. HARTSTON (SBN 186471)
+     YEN P. NGUYEN (SBN 239085)
+ 5   MANEESH SHARMA (SBN 280084)
+     Deputy Attorneys General
+ 6    300 South Spring Street, Suite 1702
+      Los Angeles, CA 90013
+ 7    Telephone: (213) 269-6046
+      Fax: (213) 897-4951
+ 8    E-mail: Amos.Hartston@doj.ca.gov
+
+ 9   Attorneys for the People of the State of California
+
+10
+
+11
+                         SUPERIOR COURT OF THE STATE OF CALIFORNIA
+12
+                                       COUNTY OF LOS ANGELES
+13
+
+14
+
+15   THE PEOPLE OF THE STATE OF                            CASE NO.:
+     CALIFORNIA,
+16                                                     [PROPOSED] FINAL JUDGMENT AND
+                                            Plaintiff, PERMANENT INJUNCTION
+17
+                    v.
+18
+
+19   SLING TV L.L.C.;
+     DISH MEDIA SALES L.L.C.,
+20
+                                          Defendants.
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+27
+
+28
+                                                      1
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1         Plaintiff, the People of the State of California (“the People”), appearing through its
+
+ 2   attorney, Rob Bonta, Attorney General of the State of California, by Deputy Attorneys General
+
+ 3   Amos E. Hartston, Yen P. Nguyen, and Maneesh Sharma and Supervising Deputy Attorney
+
+ 4   General Stacey D. Schesser, and Defendants Sling TV L.L.C. and Dish Media Sales L.L.C.
+
+ 5   (“Defendants”), appearing through their attorney, Alysa Z. Hutnik, of Kelly Drye & Warren LLP,
+
+ 6   having stipulated to the entry of this Final Judgment and Permanent Injunction (“JUDGMENT”)
+
+ 7   by the Court without the taking of proof and without trial or adjudication of any fact or law,
+
+ 8   without this JUDGMENT constituting evidence of or an admission by Defendants regarding any
+
+ 9   issue of law or fact alleged in the Complaint on file, and without Defendants admitting any
+
+10   liability, and with all parties having waived their right to appeal, and the Court having considered
+
+11   the matter and good cause appearing:
+
+12   IT IS HEREBY ORDERED, ADJUDGED, AND DECREED THAT:
+
+13   I.     PARTIES AND JURISDICTION
+
+14          1.       This Court has jurisdiction over the allegations and subject matter of the People’s
+
+15   Complaint filed in this action, and the parties to this action; venue is proper in this County; and
+
+16   this Court has jurisdiction to enter this JUDGMENT. This JUDGMENT is entered pursuant to the
+
+17   California Consumer Privacy Act of 2018, Civil Code section 1798.100 et seq., as amended
+
+18   (“CCPA”), and the Unfair Competition Law, Business and Professions Code section 17200 et
+
+19   seq. (“UCL”).
+
+20   II.    DEFINITIONS
+21          The following terms in this JUDGMENT shall have these meanings:
+
+22          2.       CHILD or CHILDREN means an individual or individuals under the age of 13.
+
+23          3.       CLEAR AND CONSPICUOUS means that a required disclosure is easily
+
+24   noticeable and easily understandable by ordinary people.
+
+25          4.       COLLECTS or COLLECTION has the same meaning as provided in Civil Code
+
+26   section 1798.140, subdivision (f).
+27          5.       CONSUMER means a natural person who is a California resident.
+
+28
+                                                       2
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1          6.      CROSS-CONTEXT BEHAVIORAL ADVERTISING: means the targeting of
+
+ 2   advertising to a consumer based on the consumer’s personal information obtained from the
+
+ 3   consumer’s activity across businesses, distinctly-branded internet websites, applications, or
+
+ 4   services, other than the business, distinctly-branded internet website, application, or service with
+
+ 5   which the consumer intentionally interacts, as provided in Civil Code section 1798.140,
+
+ 6   subdivision (k).
+
+ 7          7.      DEFENDANTS mean Sling TV L.L.C., Delaware-incorporated, and Dish Media
+
+ 8   Sales L.L.C., Colorado-incorporated, each limited liability companies headquartered in
+
+ 9   Englewood, Colorado, and their respective successors and assigns. Sling TV L.L.C. is the
+
+10   operating entity of the Sling TV internet-based live TV and streaming service. Dish Media Sales
+
+11   L.L.C. is an affiliate of Sling TV L.L.C. and is responsible for the monetization of advertising on
+
+12   Sling TV and processes customer data in this role.
+
+13          8.      EFFECTIVE DATE means the date this JUDGMENT is entered.
+
+14          9.      MADE FOR CHILDREN OR MINORS is programming that is targeted to
+
+15   CHILDREN or MINORS. Considerations include, without limitation, the programming’s subject
+
+16   matter; visual content; use of animated characters; CHILD-oriented, or MINOR-oriented
+
+17   activities and incentives; music or other audio content; age of models; presence of CHILD or
+
+18   MINOR celebrities, or celebrities who appeal to CHILDREN or MINORS; language or other
+
+19   characteristics; and whether advertising promoting or appearing on the programming is directed
+
+20   to CHILDREN or MINORS. Other considerations include evidence regarding the programming’s
+21   audience composition, the intended audience, marketing or promotional materials or plans,
+
+22   representations to CONSUMERS or to third parties, reviews by users or third parties, and the age
+
+23   of users or viewers of similar content. It is not required that CHILDREN or MINORS are targeted
+
+24   as the primary audience.
+
+25          10.     MINOR or MINORS mean an individual or individuals at least 13 years of age
+
+26   and less than 16 years of age.
+27
+
+28
+                                                       3
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1          11.      NOTICE OF RIGHT TO OPT-OUT OF SALE/SHARING has the same meaning
+
+ 2   as provided in California Code of Regulations, title 11, section 7001, subdivision (s), and
+
+ 3   California Code of Regulations, title 11, section 7013.
+
+ 4          12.      PARENT includes a legal guardian.
+
+ 5          13.      PERSONAL INFORMATION means information that identifies, relates to,
+
+ 6   describes, is reasonably capable of being associated with, or could reasonably be linked, directly
+
+ 7   or indirectly, with a particular CONSUMER or household. PERSONAL INFORMATION
+
+ 8   includes the items listed in the definition of “personal information” found in Civil Code section
+
+ 9   1798.140, subdivision (v), which includes, without limitation, “unique identifier” or “unique
+
+10   personal identifier” as set forth in Civil Code section 1798.140, subdivision (aj).
+
+11          14.      PRIVACY POLICY has the same meaning as provided in California Code of
+
+12   Regulations, title 11, section 7001, subdivision (w), and California Code of Regulations, title 11,
+
+13   section 7011.
+
+14          15.      PROGRAMMERS mean third parties that license audio visual content to
+
+15   DEFENDANTS for distribution through the SLINGTV service.
+
+16          16.      SALE, SELL, OR SELLING has the same meaning as provided in Civil Code
+
+17   section 1798.140, subdivision (ad).
+
+18          17.      SHARE or SHARING has the same meaning as provided in Civil Code section
+
+19   1798.140, subdivision (ah).
+
+20          18.      SLINGTV means the app-based TV service, available on various devices
+21   including TVs and players, mobile devices, computers, gaming consoles, and via the
+
+22   www.sling.com website, offered and operated by DEFENDANTS that allows CONSUMERS to
+
+23   stream live and on-demand content over the internet.
+
+24          19.      THIRD PARTY has the same meaning as provided in Civil Code section
+
+25   1798.140, subdivision (ai).
+
+26   III.   INJUNCTIVE PROVISIONS
+27          20.      Nothing in this JUDGMENT alters the requirements of state or federal law to the
+
+28   extent they offer greater protection to CONSUMERS.
+                                                       4
+                                           [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1           21.     The injunctive provisions of this JUDGMENT, entered pursuant to Business and
+
+ 2   Professions Code section 17203 and Civil Code section 1798.199.90, shall apply to:
+
+ 3   (a) DEFENDANTS; (b) their directors, officers, and employees; (c) their subsidiaries and
+
+ 4   affiliated entities; (d) their agents and independent contractors; and (e) their successors and the
+
+ 5   assigns of all or substantially all of the assets of their business.
+
+ 6   COMPLIANCE WITH THE CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
+
+ 7                  CONSUMERS’ RIGHT TO OPT OUT OF SALE OR SHARING
+                              OF PERSONAL INFORMATION
+ 8
+
+ 9           22.     In connection with SLINGTV, DEFENDANTS shall comply with the following
+
+10   provisions of the CCPA and its implementing regulations related to required notices and
+
+11   CONSUMERS’ right to opt-out of the SELLING or SHARING of their PERSONAL
+
+12   INFORMATION: Civil Code sections 1798.100, 1798.120, 1798.130, and 1798.135; California
+
+13   Code of Regulations, title 11, sections 7003, 7004, 7010, 7011, 7012, 7013, 7015, 7025, 7026,
+
+14   and 7060, including as they may be amended or modified.
+
+15           23.     DEFENDANTS shall provide CLEAR AND CONSPICUOUS notice to
+
+16   CONSUMERS in connection with SLINGTV that DEFENDANTS COLLECT PERSONAL
+
+17   INFORMATION about the CONSUMER from third parties, that DEFENDANTS SELL or
+
+18   SHARE the CONSUMER’s PERSONAL INFORMATION, and that DEFENDANTS conduct
+
+19   CROSS-CONTEXT BEHAVIORAL ADVERTISING using PERSONAL INFORMATION
+
+20   obtained from THIRD PARTIES. Such notice shall be in a manner that provides CONSUMERS a
+21   meaningful understanding of the information being collected, the categories of sources from
+
+22   which the PERSONAL INFORMATION is collected, and that CONSUMERS have the “right to
+
+23   opt-out” of the SALE or SHARING of their PERSONAL INFORMATION.
+
+24           24.     DEFENDANTS shall provide a CLEAR AND CONSPICUOUS link on its
+
+25   homepages for SLINGTV titled “Do Not Sell or Share My Personal Information,” or, if used, an
+
+26   Alternative Opt-out Link titled “Your Privacy Choices” or “Your California Privacy Choices”
+27   with the opt-out icon, that complies with Civil Code section 1798.135 and California Code of
+
+28   Regulations, title 11, sections 7013 and 7015. For the SLINGTV mobile applications (iOS and
+                                                         5
+                                            [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1   Android) and the SLINGTV applications made available through various TVs, players, gaming
+
+ 2   consoles, and other devices (e.g., Roku, Apple TV, Amazon Firestick, Google TV, Samsung, LG,
+
+ 3   Vizo, Tivo, Xbox), the links shall be CLEAR AND CONSPICUOUS within the app if technically
+
+ 4   feasible, such as on the app’s introductory page, in the app’s footer, within the app’s settings
+
+ 5   menu, and/or another easy-to-find location. If selected, the links shall either immediately
+
+ 6   effectuate the CONSUMER’s right to opt-out of SALE and SHARING, or in the alternative,
+
+ 7   direct the CONSUMER to the NOTICE OF RIGHT TO OPT-OUT OF SALE/SHARING
+
+ 8   consistent with applicable obligations under the CCPA.
+
+ 9          25.     DEFENDANTS shall provide a CLEAR AND CONSPICUOUS opt-out system
+
+10   for SLINGTV that is consumer-friendly, easy to execute, requires minimal steps, allows the
+
+11   consumer to see if they are opted-in or opted-out, and directs DEFENDANTS not to SELL or
+
+12   SHARE the CONSUMER’s PERSONAL INFORMATION.
+
+13                  a.      Where a CONSUMER is logged-in to their SLINGTV account,
+
+14   DEFENDANTS shall not require the CONSUMER to fill out a webform with identification
+
+15   information (e.g., name, address, phone number, email address). Instead, DEFENDANTS shall
+
+16   provide the CONSUMER with a toggle or other opt-out method that is easy to execute, requires
+
+17   minimal steps, and does not require the CONSUMER to provide additional information beyond
+
+18   what is necessary to direct DEFENDANTS not to SELL or SHARE their PERSONAL
+
+19   INFORMATION. DEFENDANTS shall fully implement a logged-in CONSUMER’s opt-out
+
+20   choice account-wide across devices and browsers.
+21                  b.      Where a CONSUMER does not have a SLINGTV account or is not
+
+22   logged-in to such account, DEFENDANTS shall inform the CONSUMER that it may be
+
+23   necessary to log-in to their SLINGTV account or provide necessary PERSONAL
+
+24   INFORMATION to have their opt-out choice fully implemented. For CONSUMERS who do not
+
+25   have a SLINGTV account, choose not to log-in to their SLINGTV account, or who do not
+
+26   provide the necessary additional information, DEFENDANTS shall treat the CONSUMER’s opt-
+27   out choice as a request to opt out of SALE or SHARING for that browser or device and any
+
+28   consumer profile that DEFENDANTS associate with that browser or device, including
+                                                       6
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1   pseudonymous profiles, in the context of SELLING or SHARING their PERSONAL
+
+ 2   INFORMATION or CROSS CONTEXT BEHAVIORAL ADVERTISING.
+
+ 3          26.     For each platform or device used to access the SLINGTV app, DEFENDANTS
+
+ 4   shall implement an in-app, easy-to-use opt-out method with minimal steps such as a simple
+
+ 5   toggle, not requiring use of a second device. If implementation of an in-app toggle or similar
+
+ 6   method is not commercially and technically practicable, DEFENDANTS shall simplify the in-app
+
+ 7   opt-out method as much as possible such as by providing a QR code (quick-response code) that
+
+ 8   captures the CONSUMER’s log-in information (to the extent the CONSUMER is in a logged-in
+
+ 9   state) and either immediately effectuates the CONSUMER’s right to opt-out account-wide across
+
+10   devices and browsers or directs the CONSUMER to the NOTICE OF RIGHT TO OPT-OUT OF
+
+11   SALE/SHARING where a CONSUMER can learn about and easily opt-out without being
+
+12   required to log-in again or fill out a webform.
+
+13          27.     If DEFENDANTS make available to CONSUMERS other choices related to
+
+14   collection and use of PERSONAL INFORMATION in connection with SLINGTV, such as
+
+15   cookie preferences, direct e-mail marketing preferences, vendor specific processing (e.g.,
+
+16   Nielsen), DEFENDANTS shall avoid language and choice architecture likely to confuse or
+
+17   deceive CONSUMERS into believing that other choice(s) either: (i) must also be selected in order
+
+18   to opt out of SELLING or SHARING, or (ii) constitute an opt-out instructing DEFENDANTS not
+
+19   to SELL or SHARE the CONSUMER’s PERSONAL INFORMATION to all THIRD PARTIES.
+
+20   DEFENDANTS shall not implement other user choices in a manner likely to subvert or impair
+21   user decision making or choice related to opting out of the SELLING or SHARING of their
+
+22   PERSONAL INFORMATION.
+
+23          28.     DEFENDANTS shall not require CONSUMERS to use hard-to-find links to
+
+24   effectuate an opt-out, such as requiring CONSUMERS to search or scroll through text to locate
+
+25   DEFENDANTS’ opt out or to find an unlabeled caret, arrow, or other menu symbol that adds
+
+26   unnecessary steps or may be unclear.
+27          29.     DEFENDANTS shall not use confirmation questions or screens that require the
+
+28   CONSUMER to take additional steps to exercise their right, or attempt to dissuade
+                                                       7
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1   CONSUMERS from exercising their right, to opt out of SELLING OR SHARING the
+
+ 2   CONSUMER’s PERSONAL INFORMATION.
+
+ 3          30.     DEFENDANTS shall not direct CONSUMERS seeking to opt-out to choices that
+
+ 4   have no bearing on the CONSUMER (e.g., directing a CONSUMER accessing SLINGTV via a
+
+ 5   SLINGTV app to website cookie choices on DEFENDANTS’ website).
+
+ 6                  SPECIAL RULES REGARDING CHILDREN AND MINORS
+
+ 7          31.     In connection with SLINGTV, DEFENDANTS shall comply with the following
+
+ 8   provisions of the CCPA and its implementing regulations related to special rules regarding
+
+ 9   CONSUMERS under 16 years of age: Civil Code, § 1798.120, subdivision (c); California Code
+
+10   of Regulations, title 11, sections 7070-7072, including as they may be amended or modified.
+
+11          32.     DEFENDANTS shall allow CONSUMERS who create a SLINGTV account to
+
+12   create “kids” (or similarly named) profiles intended for use by CHILDREN and/or MINORS that
+
+13   defaults off the SALE and SHARING of PERSONAL INFORMATION and CROSS-CONTEXT
+
+14   BEHAVIORAL ADVERTISING using PERSONAL INFORMATION obtained from THIRD
+
+15   PARTIES.
+
+16          33.     DEFENDANTS shall default off the SALE and SHARING of PERSONAL
+
+17   INFORMATION and CROSS-CONTEXT BEHAVIORAL ADVERTISING on channels
+
+18   designated as MADE FOR CHILDREN OR MINORS using the system described in Paragraphs
+
+19   34 and 36, including, without limitation, the channels listed in Exhibit A.
+
+20          34.     DEFENDANTS shall maintain a system for PROGRAMMERS to designate to
+21   DEFENDANTS their channels as MADE FOR CHILDREN OR MINORS.
+
+22          35.     For channels designated as MADE FOR CHILDREN OR MINORS,
+
+23   DEFENDANTS shall not make available to advertising partners the display of advertising that is
+
+24   based on or inferred from PERSONAL INFORMATION related to the CONSUMER or
+
+25   household.
+
+26          36.     At least annually, and as new channels are added to SLINGTV, DEFENDANTS
+27   shall assess if any additional channels available on SLINGTV appropriately should be designated
+
+28
+                                                      8
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1   as MADE FOR CHILDREN OR MINORS and classify such channels as MADE FOR
+
+ 2   CHILDREN OR MINORS.
+
+ 3          37.     Data deletion: DEFENDANTS shall delete PERSONAL INFORMATION
+
+ 4   COLLECTED from or regarding CONSUMERS who DEFENDANTS HAVE ACTUAL
+
+ 5   KNOWLEDGE are CHILDREN or MINORS on SLINGTV in DEFENDANTS’ possession
+
+ 6   through the EFFECTIVE DATE.
+
+ 7                                     COMPLIANCE PROGRAM
+
+ 8          38.     Within 180 days of the EFFECTIVE DATE, and for a period of three years
+
+ 9   thereafter, DEFENDANTS shall implement and maintain a program to assess and monitor
+
+10   whether it is effectively providing methods of opting out of SELLING AND SHARING on
+
+11   SLINGTV that are consumer-friendly, easy to execute, require minimum steps, and which, as
+
+12   appropriate, fully implement a CONSUMER’s opt-out choice account-wide on each platform and
+
+13   device used to access the Sling TV app as described in Paragraphs 22 - 30 of this JUDGMENT,
+
+14   and that DEFENDANTS are providing disclosures and notices that comply with this
+
+15   JUDGMENT. For three years from the EFFECTIVE DATE, DEFENDANTS shall document and
+
+16   share the results of this review with the People in an annual report.
+
+17          39.     Within 180 days of the EFFECTIVE DATE, and for a period of three years
+
+18   thereafter, DEFENDANTS shall implement and maintain a program to assess and monitor
+
+19   whether it is making reasonable efforts to comply with Paragraphs 31 - 37 of this JUDGMENT
+
+20   relating to special rules regarding CHILDREN and MINORS on SLINGTV. For three years from
+21   the EFFECTIVE DATE, DEFENDANTS shall document and share the results of this review with
+
+22   the People in an annual report.
+
+23          40.     All reports, reviews, and sharing of information pursuant to this JUDGMENT
+
+24   shall be treated as confidential and as exempt from disclosure under the relevant public records
+
+25   laws, including Cal. Gov. Code § 7920.000 et seq.
+
+26
+27
+
+28
+                                                       9
+                                          [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1                                      MONETARY PROVISIONS
+
+ 2          41.     DEFENDANTS shall pay the California Attorney General’s Office the total
+
+ 3   amount of $530,000 pursuant to Civil Code section 1798.199.90. Payment shall be made by
+
+ 4   check pursuant to instructions provided by the California Attorney General’s Office.
+
+ 5          42.     The civil penalty set forth in Paragraph 41 shall be deemed satisfied and
+
+ 6   extinguished if DEFENDANTS timely make payments as follows:
+
+ 7                  a.      No later than thirty days after the EFFECTIVE DATE, DEFENDANTS
+
+ 8   shall make an initial payment totaling $265,000.
+
+ 9                  b.      No later than one year after the EFFECTIVE DATE, DEFENDANTS shall
+
+10   make a further payment totaling $265,000.
+
+11          43.     Except as otherwise expressly provided herein, each party shall bear its own
+
+12   attorneys’ fees and costs.
+
+13                                                RELEASE
+
+14          44.     By entry of this JUDGMENT and following full payment of the amount due as set
+
+15   forth in Paragraphs 41 - 42, DEFENDANTS and its directors, officers, employees, subsidiaries,
+
+16   and successors, are released and discharged from and against any and all civil claims related to
+
+17   requests to opt-out of SALE or SHARING of PERSONAL INFORMATION and CHILDREN’s
+
+18   or MINOR’s privacy on SLINGTV that were asserted, or that could have been asserted, in the
+
+19   Complaint under the CCPA or the UCL.
+
+20                                ADDITIONAL GENERAL PROVISIONS
+21          45.     This Court retains jurisdiction for purposes of construction, modification, and
+
+22   enforcement of this JUDGMENT.
+
+23          46.     Nothing in this JUDGMENT shall be construed as relieving DEFENDANTS of
+
+24   their obligations to comply with all state and federal laws, regulations, or rules, or as granting
+
+25   permission to engage in any acts or practices prohibited by such law, regulation, or rule.
+
+26          47.     DEFENDANTS shall use reasonable efforts to notify their officers, directors,
+27   employees, agents, contractors, and affiliates responsible for carrying out and effecting the terms
+
+28   of this JUDGMENT and the requirements therein.
+                                                       10
+                                           [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+ 1          48.     Notices and reports under this JUDGMENT shall be served by email and regular
+
+ 2   mail as follows:
+
+ 3          To the People of the State of California:
+
+ 4          Amos Hartston and Stacey Schesser
+            California Attorney General’s Office
+ 5          300 South Spring Street, Suite 1702
+            Los Angeles, CA 90013
+ 6          Email: Amos.Hartston@doj.ca.gov
+                   Stacey.Schesser@doj.ca.gov
+ 7
+
+ 8          To Sling TV L.L.C. and Dish Media Sales L.L.C.:
+ 9          Alysa Hutnik
+            Kelley Drye & Warren LLP
+10          Washington Harbour, Suite 400
+            3050 K Street, NW
+11          Washington, DC 20007
+            Email: ahutnik@kelleydrye.com
+12
+
+13          49.     This JUDGMENT shall take effect immediately upon entry thereof.
+
+14          50.     The clerk is directed to enter this JUDGMENT forthwith.
+
+15   IT IS SO ORDERED.
+16   At Los Angeles, California, the 31
+                                    ________ day of October, 2025.
+17
+
+18
+                                                             Judge of the Superior Court
+19
+
+20
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+27
+
+28
+                                                        11
+                                         [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+Exhibit A
+ 1                                       EXHIBIT A
+
+ 2
+        1. Alebrije
+ 3
+        2. BabyTV
+ 4
+        3. Barney and Friends
+ 5      4. BatteryPop
+ 6      5. Bob the Builder
+ 7      6. Boomerang
+        7. Cartoon Network
+ 8
+        8. Disney Channel
+ 9
+        9. Disney Junior
+10
+        10. Disney XD
+11      11. DuckTV
+12      12. FamilyTime
+13      13. FilmRise Family
+
+14      14. FilmRise Kids
+        15. Fireman Sam
+15
+        16. Kabillion
+16
+        17. Kartoon Channel
+17      18. LEGOI Kids En Espanol
+18      19. Nick Jr.
+19      20. NickToons
+
+20      21. Nickelodeon
+        22. Ninja Kids TV
+21
+        23. Noursat Kids
+22
+        24. PW Kids
+23
+        25. Pitufo TV
+24      26. Pocket.Watch
+25      27. Rainbow Ruby
+
+26      28. Rev and Roll
+        29. Ryan and Friends
+27
+        30. Sensical Gaming
+28
+                                             1
+                                    [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+
+     4906-6442-5049v.2
+ 1      31. Sensical Jr.
+ 2      32. Sensical Makers
+
+ 3      33. Shemaroo Kids
+        34. Slugterra
+ 4
+        35. Sonic
+ 5
+        36. Strawberry Shortcake
+ 6      37. TG Junior
+ 7      38. TeenNick
+ 8      39. Teletubbies
+
+ 9      40. The Playground
+        41. Toon Goggles
+10
+        42. Yipee Kids TV
+11
+        43. YoYo TV
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+27
+
+28
+                                            2
+                                   [PROPOSED] FINAL JUDGMENT AND PERMANENT INJUNCTION
+
+     4906-6442-5049v.2
+

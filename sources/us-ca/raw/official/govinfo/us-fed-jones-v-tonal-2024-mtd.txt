@@ -1,0 +1,969 @@
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 1 of 25
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8                           UNITED STATES DISTRICT COURT
+ 9                         SOUTHERN DISTRICT OF CALIFORNIA
+10
+11   JULIE JONES, individually and on behalf            Case No.: 3:23-cv-1267-JES-BGS
+     of all others similarly situated,
+12
+                                      Plaintiffs,       ORDER GRANTING DEFENDANT’S
+13                                                      MOTION TO DISMISS
+     v.
+14
+     TONAL SYSTEMS, INC., and DOES 1-                   [ECF No. 14]
+15
+     100, inclusive,
+16                                  Defendants.
+17
+18
+19
+20
+21         Before the Court is Defendant Tonal Systems, Inc.’s (“Defendant” or “Tonal”)
+
+22   motion to dismiss Julie Jones’ (“Plaintiff”) complaint under Federal Rule of Civil
+
+23   Procedure 12(b)(6) for failure to state a claim. ECF No. 14-1. The motion is fully briefed
+
+24   and has been subject to oral argument. For the reasons stated below, the motion is
+
+25   GRANTED.
+
+26                             I.    FACTUAL ALLEGATIONS
+
+27         Defendant is a California-headquartered manufacturer of internet-enabled home
+
+28   fitness equipment. ECF No. 1-2, Compl. ¶ 4. Defendant maintains a customer support chat
+
+                                                    1
+                                                                             3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 2 of 25
+
+
+
+ 1   feature on its website, the mechanics of which are the subject of this dispute. 1 The Plaintiff
+ 2   is a California citizen who along with class members visited Tonal’s website and “engaged
+ 3   with the ‘chat’ feature of the Website to communicate with Defendant.” Id. at ¶ 25.
+ 4            Defendant’s website chat feature includes an Application Programming Interface
+ 5   (“API”) run by a third-party vendor called Drift. Id. at ¶¶ 15-16. Drift API is a piece of
+ 6   computer code that creates and stores transcripts of conversations that take place between
+ 7   website visitors and Tonal agents in the chat feature. Id. at ¶ 15.
+ 8            According to the Complaint, 2 although “consumers interact with the chat service on
+ 9   Defendant's Website, [such that] it appears they are only communicating with a company
+10   representative of Defendant[,]” Plaintiff and Class Members’ messages to Tonal are “first
+11   routed through Drift’s server.” Id. at ¶¶ 16-17. Drift thereby gains the ability to “secretly
+12   intercept in real time, eavesdrop upon, interpret, analyze, store, and use [chat feature
+13   conversations] for [its] own purposes.” Id. at ¶ 15. See also Compl. ¶ 17 (“This enables
+14   Drift to analyze, interpret, and collect customer-support agent interactions in real time to
+15   create live transcripts of communications as they occur, among other services.”).
+16            Plaintiff repeatedly references the prospect that Drift can use Tonal’s chat feature
+17   transcripts for “its own business purposes.” Id. at ¶¶ 18, 23. She infers these uses and
+18   purposes from Drift’s Product Guide for its Live Chat software (“the Product Guide”). 3
+19   Plaintiff quotes a statement from the Product Guide that chats are not deleted and are
+20   organized by the third-party vendor: “Drift does not allow conversations to be deleted. This
+21   is because Drift doesn't want to lose any activity with your contacts and/or leads. Instead
+22   of deleting conversations, Drift utilizes Conversation Statuses to help organize your chats.”
+23   Id. at ¶ 18. Plaintiff also says Drift uses cookies “to record a Website visitor's activity
+24   during and after the visitor's chat sessions with Defendant” and to link Tonal chat
+25
+26   1
+       The Defendant’s website is https://www.Tonal.com/.
+27   2
+       On a motion to dismiss for failure to state a claim, “allegations of material fact are taken as true and construed in the light
+     most favorable to the nonmoving party.” Cahill v. Liberty Mut. Ins. Co., 80 F.3d 336, 337-38 (9th Cir. 1996).
+28     The Live Chat Quick Reference Guide is attached to the Defendant’s motion and incorporated into the Complaint by reference.
+     3
+
+     See Ex. A, ECF No. 14-3.
+
+                                                                    2
+                                                                                                             3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 3 of 25
+
+
+
+ 1   transcripts if the user is a repeat visitor to the website. Id. at ¶ 20. Apart from keeping chat
+ 2   transcripts and site activity, Plaintiff alleges that Drift analyzes chat feature conversations
+ 3   to determine Class Members’ likelihood of purchasing Tonal’s products and services. Id.
+ 4   at ¶ 19. By combining chat transcripts and chat metadata with Salesforce record details, the
+ 5   site user’s recently visited webpages and activity during his or her website visit; and the
+ 6   visitor’s IP address, browser, and device information, Drift can label and tag web visitor
+ 7   conversations according to the user’s potential interest in Tonal products. Id.
+ 8         Plaintiff alleges the above has occurred without her knowledge or consent. Id. at ¶¶
+ 9   16, 18, 27-30, 49, 55. By paying for and using Drift’s services, she says, Tonal has
+10   intentionally caused the illegal interception and eavesdropping of her communications. Id.
+11   at ¶¶ 45-46. Plaintiff accordingly brings claims for violations of the California Invasion of
+12   Privacy Act (“CIPA”), California Penal Code §§ 630-638; California’s Unfair Competition
+13   Law (“UCL”), California Business & Profession Code § 17200, et seq.; and the California
+14   Constitution’s right to privacy provision, Cal. Const. art. I, § 1. Id. at ¶ 13.
+15                                   II.    LEGAL STANDARD
+16         A motion to dismiss under Federal Rule of Civil Procedure 12(b)(6) tests the legal
+17   sufficiency of a plaintiff's claims. Navarro v. Block, 250 F.3d 729, 732 (9th Cir. 2001).
+18   Rule 12(b)(6) is read in conjunction with Rule 8(a)(2), which requires only “a short and
+19   plain statement of the claim showing that the pleader is entitled to relief.” To survive a
+20   motion to dismiss, a complaint must contain sufficient factual material to “state a claim to
+21   relief that is plausible on its face.” Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570 (2007).
+22   “A claim has facial plausibility when the Plaintiff pleads factual content that allows the
+23   court to draw the reasonable inference that the Defendant is liable for the misconduct
+24   alleged.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009). “The plausibility standard is not akin
+25   to a ‘probability requirement,’ but it asks for more than a sheer possibility that a defendant
+26   has acted unlawfully.” Id. (quoting Twombly, 550 U.S. at 556). The Court need not accept
+27   as true “threadbare recitals of the elements of a cause of action, supported by mere
+28   conclusory statements.” Id. The Complaint “must contain sufficient allegations of
+
+                                                    3
+                                                                                   3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 4 of 25
+
+
+
+ 1   underlying facts to give fair notice and to enable the opposing party to defend itself
+ 2   effectively.” Starr v. Baca, 652 F.3d 1202, 1216 (9th Cir. 2011).
+ 3         Dismissal is proper only where there is either a “lack of a cognizable legal theory or
+ 4   the absence of sufficient facts alleged under a cognizable legal theory.” Balistreri v.
+ 5   Pacifica Police Dep’t, 901 F.2d 696, 699 (9th Cir. 2008). The question is not whether the
+ 6   plaintiff will ultimately prevail, but whether she is entitled to offer evidence to support the
+ 7   claims asserted. Gilligan v. Jamco Dev. Corp., 108 F.3d 246, 249 (9th Cir. 1997).
+ 8         When a court grants a motion to dismiss a complaint, it must then decide whether to
+ 9   grant leave to amend. Leave to amend should be “freely given” where there is no (1) “undue
+10   delay,” (2) “bad faith or dilatory motive,” (3) “undue prejudice to the opposing party” if
+11   amendment were allowed, or (4) “futility” in allowing amendment. Foman v. Davis, 371
+12   U.S. 178, 182 (1962). Dismissal without leave to amend is proper only if it is clear that
+13   “the complaint could not be saved by any amendment.” Intri-Plex Techs., Inc. v. Crest
+14   Group, Inc., 499 F.3d 1048, 1056 (9th Cir. 2007). “Leave need not be granted where the
+15   amendment of the complaint . . . constitutes an exercise in futility . . . .” Ascon Props., Inc.
+16   v. Mobil Oil Co., 866 F.2d 1149, 1160 (9th Cir. 1989).
+17       III.   REQUESTS FOR JUDICIAL NOTICE AND NOTICES OF RECENT
+18                                               DECISIONS
+19      A. Defendant’s Request for Judicial Notice of its Website and Privacy Policy
+20         Two doctrines allow the Court to consider matters outside the pleadings without
+21   converting a defendant’s motion under Rule 12(b)(6) into a motion for summary judgment.
+22   Under incorporation by reference, “a court may consider a writing referenced in a
+23   complaint but not explicitly incorporated therein if the complaint relies on the document
+24   and its authenticity is unquestioned.” Swartz v. KPMG LLP, 476 F.3d 756, 763 (9th Cir.
+25   2007). Second, the doctrine of judicial notice allows the Court to consider as part of the
+26   record adjudicative facts when they are “not subject to reasonable dispute,” either because
+27   the fact is “generally known within the trial court’s territorial jurisdiction” or “can be
+28   accurately and readily determined from sources whose accuracy cannot reasonably be
+
+                                                    4
+                                                                                  3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 5 of 25
+
+
+
+ 1   questioned.” Fed. R. Evid. 201(b). “[A]s a general matter, websites and their contents may
+ 2   be proper subjects for judicial notice.” Caldwell v. Caldwell, No. C 05-4166 PJH, 2006
+ 3   WL 618511, at *4 (N.D. Cal. Mar. 13, 2006); see also Loomis v. Slendertone Distribution,
+ 4   Inc., 420 F.Supp.3d 1046, 1062 (S.D. Cal. 2019) (granting Defendant’s unopposed request
+ 5   for judicial notice of a printout from the Food and Drug Administration’s publicly available
+ 6   website).
+ 7         Defendant has requested the Court consider as incorporated by reference and take
+ 8   judicial notice of four exhibits. ECF No. 15. These are, respectively, the Drift Live Chat
+ 9   Product Guide as accessed on August 28, 2023 (Ex. A), a copy of Tonal’s chat box and
+10   accompanying disclosure (Ex. B), a copy of Tonal’s website homepage (Ex. C), and a copy
+11   of the Defendant’s Privacy Policy in effect from March 17, 2021, to June 22, 2023 (Ex. D).
+12   All four exhibits are printouts of publicly available webpages. Plaintiff has not opposed
+13   Tonal’s judicial notice request as to these exhibits or contested the authenticity of the pages.
+14   Plaintiff’s Complaint quotes from Tonal’s Live Chat Product Guide and her
+15   characterizations of the website chat feature “form the basis” of her lawsuit. Khoja v.
+16   Orexigen Therapeutics, Inc., 899 F.3d 988, 1002 (9th Cir. 2018) (citing U.S. v. Ritchie, 342
+17   F.3d 903, 907 (9th Cir. 2003)). Accordingly, the Court GRANTS Defendant’s Request for
+18   Judicial Notice of Exhibits A-D of the instant motion and considers these Exhibits in the
+19   motion.
+20      B. Notices of Recent Judicial Decisions
+21         Defendant also requests the Court take judicial notice of five other complaints filed
+22   by Plaintiff in this district. ECF No. 15 at 2. Separately, each party has filed multiple
+23   separate notices of recent decisions relating to this motion, each containing an opinion from
+24   within this district on a CIPA defendant’s Rule 12(b)(6) motion. ECF Nos. 28-32. These
+25   requests are DENIED as moot. The Court need not take judicial notice of a legal opinion
+26   or proceeding in order to consider it.
+27   ///
+28   ///
+
+                                                    5
+                                                                                  3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 6 of 25
+
+
+
+ 1                                     IV.   LEGAL ANALYSIS
+ 2      A. California Invasion of Privacy Act Section 631(a) Claims
+ 3         Plaintiff’s first cause of action arises under Section 631(a) of CIPA. Cal. Penal Code
+ 4   §§ 630-638. Section 631(a) prohibits three classes of activity as well as aiding and abetting
+ 5   thereof. The section penalizes:
+ 6         “Any person who, by means of any machine, instrument, or contrivance, or in
+           any other manner,
+ 7
+ 8         [1] intentionally taps, or makes any unauthorized connection, whether
+           physically, electrically, acoustically, inductively, or otherwise, with any
+ 9
+           telegraph or telephone wire, line, cable, or instrument, including the wire, line,
+10         cable, or instrument of any internal telephonic communication system,
+11
+           [2] or who willfully and without the consent of all parties to the
+12         communication, or in any unauthorized manner, reads, or attempts to read, or
+           to learn the contents or meaning of any message, report, or communication
+13
+           while the same is in transit or passing over any wire, line, or cable, or is being
+14         sent from, or received at any place within this state;
+15
+           [3] or who uses, or attempts to use, in any manner, or for any purpose, or to
+16         communicate in any way, any information so obtained,
+17
+           [4] or who aids, agrees with, employs, or conspires with any person or persons
+18         to unlawfully do, or permit, or cause to be done any of the acts or things
+           mentioned above in this section.”
+19
+20   Cal. Penal Code § 631(a) [subdivisions added for ease of reference].
+21
+           Plaintiff’s first CIPA claim falls under the second, third, and fourth prongs of section
+22
+     631(a). These prongs respectively prohibit interception. These prongs have also regularly
+23
+     been interpreted to cover internet communications. In re Google Inc., No. 13-MD-02430-
+24
+     LHK, 2013 WL 5423918, at *20 (N.D. Cal. Sept. 26, 2013) (“[T]he Court finds no reason
+25
+     to conclude that the limitation of ‘telegraphic or telephone’ on ‘wire, line, cable, or
+26
+     instrument’ in the first prong of the statute should be imported to the second prong of the
+27
+     statute.”) Notably, Plaintiff does not seek to invoke liability under the first prong, nor has
+28
+
+                                                   6
+                                                                                 3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 7 of 25
+
+
+
+ 1   she filed a cause of action against Drift, only Tonal and Doe Defendants. Plaintiff only
+ 2   invokes the fourth prong under section 631 against Tonal to allege that Tonal aided and
+ 3   abetted Drift to eavesdrop. Therefore, the Court needs to address whether Drift has violated
+ 4   the second or third prong in order to invoke liability against Tonal under the fourth prong.
+ 5         1. Second Prong – Eavesdropping
+ 6         The second prong of section 631(a) provides that it is punishable by fine or
+ 7   imprisonment for “any person … who willfully and without the consent of all parties to the
+ 8   communication, or in any unauthorized manner, reads, or attempts to read, or to learn the
+ 9   contents or meaning of any message, report, or communication while the same is in transit
+10   or passing over any wire, line, or cable, or is being sent from, or received at any place
+11   within this state[.]” Cal. Penal Code § 631(a).
+12         Defendant makes three arguments that its alleged conduct does not create CIPA
+13   liability: (1) CIPA’s party exemption applies as Drift’s software is merely a tool that Tonal
+14   uses to communicate with visitors to Tonal’s website; (2) there is no adequate allegation
+15   of interception; and (3) Plaintiff does not allege that she entered “contents” of
+16   communications in the chat feature. ECF No. 14-1 at 13-14.
+17            a. Applicability of CIPA’s Party Exemption
+18         Tonal first argues that its alleged conduct is exempt from liability via CIPA’s party
+19   exemption. ECF No. 14-1 at 6-9. There are two seminal cases that frame the analysis of
+20   section 631 liability, Rogers v. Ulrich, 52 Cal. App. 3d 894 (1975) and Ribas v. Clark, 38
+21   Cal. 3d 355 (1985).
+22         In Rogers, Ulrich used a tape recorder jack installed in his telephone to record a
+23   conversation with Rogers, without Rogers’ knowledge, and then played the conversation
+24   for a third party. Rogers, 52 Cal. App. 3d at 897-98. Relying on the legislative finding that
+25   the law is intended to prevent “eavesdropping,” the appellate court held that a party to a
+26   conversation cannot “eavesdrop” under the law: “It is never a secret to one party to a
+27   conversation that the other party is listening to the conversation; only a third party can
+28
+
+                                                   7
+                                                                                3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 8 of 25
+
+
+
+ 1   listen secretly to a private conversation.” Javier v. Assurance IQ, LLC, 649 F.Supp.3d 891,
+ 2   898 (N.D. Cal. 2023) (citation and quotation marks omitted).
+ 3         In Ribas, during a dispute over a divorce settlement, Ribas’ wife asked her friend,
+ 4   Clark, to secretly listen in via an extension to a conversation with her former husband,
+ 5   about a prior conversation Ribas had with the wife’s attorney. Ribas, 38 Cal. 3d at 358.
+ 6   The California Supreme Court held that the act was eavesdropping under the statute,
+ 7   because the statute differentiates between “the secondhand repetition of the contents of a
+ 8   conversation and its simultaneous dissemination to an unannounced second auditor.” Id. at
+ 9   360-61. “[S]uch secret monitoring denies the speaker an important aspect of privacy of
+10   communication—the right to control the nature and extent of the firsthand dissemination
+11   of his statements.” Id. at 361.
+12         Thus, as the Court in Javier noted, the question for purposes of determining whether
+13   Drift was a party to the communications is whether Drift “is more akin to the tape recorder
+14   in Rogers … or [to] the friend in Ribas.” Javier, 649 F.Supp.3d at 898. “Despite widespread
+15   agreement among courts in this Circuit as to the nature of [this] inquiry, courts have split
+16   on how the party exception applies in the context of third-party software, as well as how
+17   stringently pleading standards should be applied.” Rodriguez v. Ford Motor Company, No.
+18   3:23-cv-00598-RBM-JLB, 2024 WL 1223485, at *10 (S.D. Cal. Mar. 21, 2024) (internal
+19   citations and quotations omitted).
+20         In the first line of cases, courts have held that software providers are third parties
+21   within the meaning of section 631. The Ninth Circuit in In re Facebook, Inc., Internet
+22   Tracking Litig., held that Facebook was not a party to communications between a user’s
+23   browser and a third-party website. 956 F.3d 589, 607-08 (9th Cir. 2020). On websites with
+24   Facebook plugins, Facebook’s code copied a header containing a user’s personally
+25   identifiable URL information that was transmitted from the user’s web browser to the
+26   website that enabled Facebook to compile users’ browsing histories for its own purposes.
+27   Id.; see also Revitch v. New Moosejaw, LLC, No. 18-cv-06827-VC, 2019 WL 5485330, at
+28   *1 (N.D. Cal. May 22, 2019) (“NaviStone ‘acted as a third party’ because ‘the code
+
+                                                  8
+                                                                               3:23-cv-1267-JES-BGS
+Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 9 of 25
+
+
+
+ 1   embedded into the Moosejaw.com pages functioned as a wiretap that redirected [Revitch’s]
+ 2   communications to NaviStone while he browsed the site.”); see also Saleh v. Nike, Inc.,
+ 3   562 F.Supp.3d 503, 521 (C.D. Cal. 2021) (“Here, as in Revitch, FullStory did not become
+ 4   a ‘party’ to the communication simply because it was providing recording and transmission
+ 5   services for Nike.”).
+ 6         In the second line of cases, led by Graham v. Noom, Inc., courts have held that
+ 7   software providers are “extension[s]” of the websites that employ them that “provide[] a
+ 8   tool” allowing a company “to record and analyze its own data in aid of [its] business.” 533
+ 9   F.Supp.3d 823, 832 (N.D. Cal. 2021). In Graham, FullStory provided a “software service
+10   that captures its clients’ data, hosts it on FullStory’s servers, and allows the clients to
+11   analyze their data.” Id. The court likened this software to the tape recorder in Rogers and
+12   held that the software did not constitute eavesdropping because the plaintiffs had not
+13   alleged that FullStory “intercepted and used the data itself.” Id.; see also Cody v. Boscov’s,
+14   Inc., 658 F.Supp.3d 779, 782 (C.D. Cal. 2023) (“[the] [p]laintiff must provide facts
+15   suggesting that [the software companies] are recording [the] [d]efendant’s customers’
+16   information for some use or potential future use beyond simply supplying this information
+17   back to [the] [d]efendant.”); see also Byars v. Hot Topic, Inc., 656 F.Supp.3d 1051, 1066-
+18   68 (C.D. Cal. 2023) (“As in Graham … Defendant uses a third-party vendor to ‘record and
+19   analyze its own data in aid of [Defendant]’s business,’ not the ‘aggregation of data for
+20   resale,’ which make the third-party an ‘extension’ of Defendant’s website, not a ‘third-
+21   party eavesdropper.’”).
+22         The court in Javier, held that there are two problems with the reading of section 631
+23   in Graham. Javier, 649 F.Supp.3d at 900. First, the reading “interprets the second prong
+24   of the statute … based on the intentions and usage of the prospective third party.” Id.
+25   (quoting Cal. Penal Code § 631(a)). “But the third prong of the statute already penalizes
+26   ‘use’ … [of] any information so obtained.” Id. (quoting same). Thus, “reading a use
+27   requirement into the second prong would add requirements that are not present (and
+28   swallow the third prong in the process).” Id. Second, the California Supreme Court in Ribas
+
+                                                   9
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 10 of
+                                       25
+
+
+ 1   did not consider Clark’s intentions or the use of the obtained information, but rather
+ 2   “emphasized the privacy concerns at issue with having an ‘unannounced second auditor’
+ 3   listening in on the call,” which implicates an individual’s “right to control the nature and
+ 4   extent of the firsthand dissemination of [their] statements.” Id.
+ 5         Javier mentioned two other grounds upon which to conclude that a software
+ 6   company is not an “unannounced second auditor” of a communication: “(1) If [the software
+ 7   company] does not have the capability to use its record of the interaction for any other
+ 8   purpose …; or (2) the ubiquity of services like [the software company] on the internet
+ 9   effectively renders it party to the ‘firsthand dissemination’ of [the plaintiff’s] information
+10   to [the website].” Id.
+11         The Court finds the reasoning articulated in Javier persuasive. Thus, applying
+12   Javier, the question now is whether Plaintiff has adequately alleged that Drift has the
+13   capability to use the chat data for its own purposes or benefit. See Balletto v. Am. Honda
+14   Motor Co., No. 23-cv-01017-JSW, 2023 WL 7026931, at *2 (N.D. Cal. Oct. 24, 2023); see
+15   also Rodriguez, 2024 WL 1223485, at *11-12.
+16         Here, Plaintiff alleges “whenever a chat message is sent from a member of the Class
+17   to Defendant, it is first routed through Drift’s server. This enables Drift to analyze,
+18   interpret, and collect customer-support agent interactions in real time to create live
+19   transcripts of communications as they occur, among other services.” Compl. ¶ 17. Plaintiff
+20   then alleges that “Drift boasts that it harvests data from the chat transcripts it intercepts,
+21   eavesdrops upon, interprets, analyzes, stores, and uses for a variety of its own purposes—
+22   all without Plaintiff’s or class members’ consent—saying, ‘In short, Drift does not allow
+23   conversations to be deleted. This is because Drift doesn’t want to lose any activity with
+24   your contacts and/or leads. Instead of deleting conversations, Drift utilizes Conversation
+25   Statuses to help organize your chats.’” Id. at ¶ 18. Plaintiff then alleges that:
+26         “Drift claims that it analyzes Plaintiff’s and class members’ conversations to
+           determine the likelihood they will buy a product or service from Defendant.
+27
+           Specifically, Drift creates a “CQL score” for each unsuspecting visitor based
+28         on the degree to which Drift’s AI thinks (1) they are interested in buying
+
+                                                   10
+                                                                                  3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 11 of
+                                       25
+
+
+ 1         Defendant’s product or service and (2) their goals can be accomplished with
+           Defendant’s product or service. Each unsuspecting visitor has their
+ 2
+           conversations analyzed in combination with numerous other attributes that
+ 3         Drift has collected about the visitor, including through ‘Drift Intel.’ Drift Intel
+           is comprised of Salesforce record details, HubSpot record details (using the
+ 4
+           email address of the visitor or data collected using the HubSpot cookie),
+ 5         visitor’s recently visited webpages, and the ‘full activity timeline’ of the
+           visitor. This data is measured in tandem with every detail that Drift can collect
+ 6
+           about a visitors’ chat conversation, including the full transcript of the
+ 7         conversation, the date and time the conversation began, the IP address of the
+           visitor, the web browser they used to access the Website (Chrome, Firefox,
+ 8
+           etc.), the device they used to have the chat conversation (iPhone 14, Microsoft
+ 9         Surface Pro, etc.), and which words in the visitor’s conversation triggered
+           Drift’s software to route the visitor to a particular person or ‘bot playbook.’
+10
+           Drift then creates an audit log to explain why the software analyzed the visitor
+11         in a particular way and creates ‘tags’ to label and organize the visitor’s
+           conversation with other unsuspecting visitors’ conversations.” Compl. ¶ 19.
+12
+13         “Drift [also] utilizes a number of cookies to record a Website visitor’s activity
+           during and after the visitor’s chat sessions with Defendant and to link to a
+14
+           current chat the transcripts of previously intercepted chats between the visitor
+15         and [Tonal].” Compl. ¶ 20.
+16
+           Similar arguments were made in Balletto, 2023 WL 7026931, at *2; Yockey v.
+17
+     Salesforce, Inc., 688 F.Supp.3d 962, 973 (N.D. Cal. 2023); and Rodriguez, 2024 WL
+18
+     1223485. The Court agrees with those cases and finds that Plaintiff has not adequately
+19
+     alleged that Drift has the capability of using the chat data for its own purposes and benefit.
+20
+     Plaintiff’s first allegation that chat conversations are first routed through Drift’s server
+21
+     enabling Drift to “analyze, interpret, and collect customer-support agent interactions in real
+22
+     time to create live transcripts of communications as they occur,” only supports the
+23
+     inference that Drift receives and stores communications for the benefit of its client, Tonal.
+24
+     See Yockey, 688 F.Supp.3d at 973 (finding that similar allegations “do not support a
+25
+     reasonable inference that [the software company] has the capability to use these
+26
+     communications for any purpose other than furnishing them to [its client]. [The] [c]hat, as
+27
+     alleged, is therefore more akin to the tape recorder in Rogers, and [the plaintiff] have thus
+28
+
+                                                   11
+                                                                                  3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 12 of
+                                       25
+
+
+ 1   failed to state a claim pursuant to Section 631.”). Plaintiff’s second allegation that Drift
+ 2   “analyzes, stores, and uses for its own purposes,” chat communications is conclusory and
+ 3   is not supported by the quoted information immediately following this allegation in the
+ 4   complaint. In the next sentence in the complaint, Plaintiff alleges that Drift does not allow
+ 5   conversations to be deleted because Drift doesn’t want to lose any activity with your
+ 6   contacts and utilizes conversation statuses to help organize chats further supports the
+ 7   inference that Drift is more akin to the tape recorder in Rogers. Plaintiff’s third allegation
+ 8   is also conclusory. Further, Drift’s analysis of chat communications for Tonal’s purpose as
+ 9   described in the complaint is akin to the tape recorder in Rogers. As in Rodriguez,
+10   Plaintiff’s allegations failed to adequately allege that Drift violated the second prong of
+11   CIPA section 631(a).
+12         Further, as Defendant argues, “Plaintiff alleges no facts in support of the allegation
+13   of “aiding and abetting” other than the existence of a third-party vendor.” ECF No. 14-1 at
+14   6. The Court agrees. The complaint “only supports the inference that [the vendor] receives
+15   and stores these communications for the benefit of its client, the Defendant.” See
+16   Rodriguez, 2024 WL 1223485 at *13. “Plaintiff must provide facts suggesting that [third-
+17   party vendors] are recording Defendant's customers’ information for some use or potential
+18   future use beyond simply supplying this information back to Defendant.” Cody, 658
+19   F.Supp.3d at 782.
+20             b. Sufficiency of Plaintiff’s Interception Allegation
+21         Although, the Court has already found that Plaintiff failed to adequately allege the
+22   second prong of Section 631(a), the Court will also address Defendant’s argument
+23   regarding the sufficiency of Plaintiff’s interception allegation. The section prong of section
+24   631(a) applies to communications intercepted “while . . . in transit or passing over any
+25   wire, line, or cable, or . . . being sent from, or received at any place within this state.” Cal.
+26   Penal Code § 631(a) (emphasis added). Tonal argues that CIPA’s “in transit” language
+27   presents, and that Plaintiff has failed to meet, a pleading requirement which is narrowly
+28   defined to cover communications “acquired during transmission, not while … in electronic
+
+                                                    12
+                                                                                   3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 13 of
+                                       25
+
+
+ 1   storage.” ECF No. 14-1 at 10-12 (emphasis added). This requirement derives from the
+ 2   Ninth Circuit’s interpretation of the federal wiretap statute. Konop v. Hawaiian Airlines,
+ 3   Inc., 302 F.3d 868 (9th Cir. 2002). District courts in this Circuit have found it appropriate
+ 4   to apply an identical standard to interception claims in the CIPA context. See, e.g., In re
+ 5   Vizio, Inc., Consumer Priv. Litig., 238 F.Supp.3d 1204, 1228 n.9 (C.D. Cal. 2017) (“Courts
+ 6   have generally construed [CIPA] as coextensive with the Wiretap Act.”).
+ 7         The standard articulated by the Ninth Circuit in Konop precludes interception claims
+ 8   with respect to communications accessed when the communications are “in electronic
+ 9   storage.” Konop, 302 F.3d at 877. To be liable, a defendant must have “read or learned the
+10   contents of a communication while the communication was in transit, or in the process of
+11   being sent or received.” Mastel v. Miniclip SA, 549 F.Supp.3d 1129, 1136 (E.D. Cal. 2021).
+12   Stated differently, “once a [communication] has been received by the destination server, a
+13   communication becomes ‘stored’ and contemporaneous interception is no longer possible.”
+14   In re Carrier IQ, Inc., 78 F.Supp.3d 1051, 1077-1078 (N.D. Cal. 2015).
+15         As alleged by Plaintiff, “Drift runs the chat service from its own servers,” and the
+16   Drift API “directs [chat] communications to be routed directly to Drift.” Compl. ¶ 16.
+17   While the Court is mindful of Rule 8(a)’s liberal pleading requirements, the complaint
+18   lacks allegations that Drift “halt[ed] the transmission of the messages to their intended
+19   recipients,” Bunnell v. Motion Picture Ass’n of America, 567 F.Supp.2d 1148, 1154 (C.D.
+20   Cal. 2011), rather than, as Tonal argues, that transcripts are retrieved and created after
+21   transmission from “the server provided for Tonal’s benefit by Tonal’s software service
+22   provider.” ECF No. 14-1 at 11. The Complaint contains averments that customer chats
+23   were “intercepted in real time” (Compl. ¶ 19), but these amount to conclusory statements
+24   below the Twombly and Iqbal plausibility threshold. See Rodriguez v. Google LLC, No.
+25   20-cv-04688-RS, 2022 WL 214552, at *2 (N.D. Cal. Jan. 25, 2022) (“Using the word
+26   ‘intercept’ repeatedly is simply not enough without the addition of specific facts that make
+27   it plausible [the software company] is intercepting the data in transit.”).
+28
+
+                                                   13
+                                                                                   3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 14 of
+                                       25
+
+
+ 1         The Konop Court acknowledged that this definition of interception considerably
+ 2   curtailed the availability of certain claims regarding email and other text-based electronic
+ 3   communications. 302 F.3d at 878, n.6; see also Id. at 874 (“The existing statutory
+ 4   framework is ill-suited to address modern forms of communication.”). Yet it remains the
+ 5   case that “Plaintiffs do not sufficiently allege how the messages were intercepted, and
+ 6   thereby do not provide fair notice to Defendant of their alleged violation.” Licea v.
+ 7   American Eagle Outfitters, Inc., 659 F.Supp.3d 1072, 1085 (C.D. Cal. 2023) (emphasis
+ 8   added). For this reason as well, Plaintiff’s claim under the second prong must be
+ 9   DISMISSED.
+10             c. Whether Plaintiff Sufficiently Alleges “Contents”
+11         Tonal further argues that Plaintiff has not alleged with sufficient specificity that she
+12   entered “contents” into Drift’s chat feature, and that this too constitutes independent
+13   grounds for dismissal of her claims under the second prong of section 631(a). ECF No. 14-
+14   1 at 12-13.
+15         Under Ninth Circuit precedent interpreting the federal wiretap statute, 18 U.S.C. §
+16   2510, “contents” “refers to the intended message conveyed by the communication, and
+17   does not include record information regarding the characteristics of the message that is
+18   generated in the course of the communication.” In re Zynga Priv. Litig., 750 F.3d 1098,
+19   1106 (9th Cir. 2014). Courts have applied the same “contents” standard to section 631(a)
+20   of CIPA. Brodsky v. Apple Inc., 445 F.Supp.3d 110, 127 (N.D. Cal. 2020). While Zynga
+21   does “not hold that certain types of information are unprotected in all contexts,” In re Vizio,
+22   Inc., Consumer Priv. Litig., No. 8:16-ml-02693-JLS-KES, 2017 WL 11420284, at *6 (C.D.
+23   Cal. July 25, 2017), Plaintiff must at a minimum demonstrate “that the contents were not
+24   record information, such as her name and address.” Byars v. Goodyear Tire and Rubber
+25   Co., 654 F.Supp.3d 1020, 1027 (C.D. Cal. 2023).
+26         Courts in this Circuit have dismissed CIPA plaintiffs presenting similar facts for not
+27   sufficiently alleging intercepted “contents.” See, e.g. Graham, 533 F.Supp.3d at 833
+28   (dismissing complaint to the extent that it alleged “non-content information,” including “IP
+
+                                                   14
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 15 of
+                                       25
+
+
+ 1   addresses, locations, browser types, and operating systems”); Yoon v. Lululemon USA, Inc.,
+ 2   549 F.Supp.3d 1073, 1082 (C.D. Cal. 2021) (“Taken together, this body of caselaw
+ 3   suggests that CIPA § 631(a)[ii] protects only the internal, user-generated material of a
+ 4   message, not routine identifiers, whether automatically generated or not.”); 4 McCoy v.
+ 5   Alphabet, Inc., No. 20-cv-05427-SVK, 2021 WL 405816 at *14 (N.D. Cal. Feb. 2, 2021)
+ 6   (data on when, how often, and for how long a user opened certain apps on his smartphone
+ 7   constituted record information and could not support a CIPA claim). Cases holding that
+ 8   non-text information generated by CIPA plaintiffs constitutes intercepted “contents” have
+ 9   chiefly focused on “session replay” technologies, which capture video of the user’s entire
+10   session. See, e.g., Saleh, 562 F.Supp.3d at 517-518.
+11            The complaint’s allegations concerning the substance of Plaintiff’s Drift chat
+12   messages are limited to the assertion that she “engaged with the ‘chat’ feature of the
+13   Website to communicate with Defendant.” Compl. ¶ 25. She further lists information the
+14   Drift software can record, “including the full transcript of the conversation, the date and
+15   time the conversation began, the IP address of the visitor, the web browser they used to
+16   access the Website (Chrome, Firefox, etc.), [and] the device they used to have the chat
+17   conversation.” Id. ¶ 19. She outlines how Drift can or may tag and organize users’
+18   conversations and route visitors to customer service agents or “bot playbook[s],” and how
+19   Drift uses cookies to track website visitor activity. Id. ¶¶ 19-20. Taking all of the above as
+20   true, Plaintiff has not met her burden to demonstrate that her “engage[ment]” with the chat
+21   feature contained more than record information. For this reason as well, Plaintiff’s claim
+22   under the second prong must be DISMISSED.
+23                 2. Third Prong – Use
+24            The third prong of section 631(a) provides that it is punishable by fine or
+25   imprisonment for “any person … who uses, or attempts to use, in any manner, or for any
+26
+27   4
+       Specifically, the Yoon Court held that “keystrokes, mouse clicks, pages viewed, and shipping and billing information ... [and]
+28   the date and time of the visit, the duration of the visit, Plaintiff's IP address, her location at the time of the visit, her browser
+     type, and the operating system on her device,” were not “contents” within the meaning of the statute. Id.
+
+                                                                      15
+                                                                                                                3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 16 of
+                                       25
+
+
+ 1   purpose, or to communicate in any way, any information so obtained[.]” Cal. Penal Code
+ 2   § 631(a).
+ 3         In her opposition, Plaintiff alleges that Drift violated the third prong of section
+ 4   631(a) by “harvest[ing] chat transcripts, which are then used by Drift for its own business
+ 5   purposes,” and refers to paragraphs 18, 22-23 of the complaint to support the allegation.
+ 6   ECF No. 24 at 4. However, these paragraphs do not support Plaintiff’s argument. In
+ 7   paragraph 18, Plaintiff makes a conclusory statement that “Drift boasts that it harvests data
+ 8   from the chat transcripts it intercepts … for a variety of its own purposes.” Compl. ¶ 18.
+ 9   Plaintiff then supports that statement by quoting from Drift’s website, stating, “Drift does
+10   not allow conversations to be deleted. This is because Drift doesn’t want to lose any activity
+11   with your contacts and/or leads. Instead of deleting conversations, Drift utilizes
+12   Conversation Statuses to help organize your chats.” Id. at ¶ 18. This quote from Drift’s
+13   website contradicts the conclusory statement that Drift uses the chat conversations for its
+14   own purposes. In fact, it supports Defendant’s argument that Drift stores the information
+15   for Tonal’s future use. Further, in paragraph 22, Plaintiff states, “Drift’s exploitation,
+16   modernization, use of, and interaction with the data it gathers through the chat feature in
+17   real time makes it more than a mere ‘extension’ of Defendant.” Id. at ¶ 22. In paragraph
+18   23, Plaintiff makes several conclusory statements about visitors to the website’s chat
+19   feature, “[v]isitors would also be shocked to learn that Defendant allows a third party to
+20   interpret, analyze, and also use these intercepted conversations for that third party’s own
+21   uses and business purposes.” Id. at ¶ 23. These are all conclusory statements and does not
+22   actually allege how Drift uses chat transcripts for its own business purposes.
+23         Further, a finding of a violation of prong three is contingent upon a finding of a
+24   violation of either prong one or two. Rodriguez, 2024 WL 1223485, at *14 (citing Martin
+25   v. Sephora USA, Inc., Case No. 1:22-cv-01355-JLT-SAB, 2023 WL 2717636, at *11 (E.D.
+26   Cal. Mar. 30, 2023). Because Plaintiff failed to adequately plead a violation of the second
+27   prong, she has also failed to adequately plead a violation of the third prong. Accordingly,
+28   Plaintiff’s claim under the third prong is DISMISSED.
+
+                                                   16
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 17 of
+                                       25
+
+
+ 1         B. California Invasion of Privacy Act Section 632.7 Claim
+ 2           Section 632.7(a) prohibits the interception or recording of communications between
+ 3   two phones:
+ 4           Every person who, without the consent of all of the parties to a
+             communication, intercepts or receives and intentionally records, or assists in
+ 5
+             the interception or reception and intentional recordation of, a communication
+ 6           transmitted between two cellular radio telephones, a cellular radio telephone
+             and a landline telephone, two cordless telephones, a cordless telephone and a
+ 7
+             landline telephone, or a cordless telephone and a cellular radio telephone, shall
+ 8           be punished by a fine …, or by imprisonment in a county jail …”
+ 9
+     Cal. Penal Code § 632.7(a).
+10
+             Defendant argues that section 632.7(a)’s plain language “unambiguously limits its
+11
+     reach to communications between various types of telephones … [and] Plaintiff has not
+12
+     alleged a conversation between two telephones.” ECF No. 14-1 at 21 (quotation marks and
+13
+     citation omitted). Further, Defendant argues that Plaintiff did not allege that she used her
+14
+     smart phone as a phone and that Plaintiff did not adequately allege that Tonal received and
+15
+     recorded the communications using a cellular radio, cordless, or landline telephone on its
+16
+     end. ECF No. 14-1 at 21. In addition, Defendant argues that Plaintiff “offers only a stretch
+17
+     allegation repeatedly rejected by Courts that any communication over the internet is a
+18
+     ‘phone conversation,’” as a “plain reading of [section 632.7(a)] makes clear that the statute
+19
+     only applies to communications transmitted by telephone, not internet.” ECF No. 14-1 at
+20
+     21.
+21
+             Plaintiff argues that the Central District of California has held that both federal and
+22
+     state courts have characterized section 632.7 as prohibiting the “intentional recording of
+23
+     any communication without the consent of all parties where one of the parties is using a
+24
+     cellular or cordless telephone.” ECF No. 24 at 14 (quotation marks and citation omitted).
+25
+     Second, Plaintiff argues that the Court should broadly construe the term, “landline
+26
+     telephone,” in section 632.7 as encompassing Defendant’s computer equipment, which
+27
+     connected with Plaintiff’s smartphone to transmit and receive Plaintiff’s chat
+28
+
+                                                    17
+                                                                                  3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 18 of
+                                       25
+
+
+ 1   communications. Id. at 15. Third, Plaintiff argues that section 632.7 broadly defines the
+ 2   term “communication,” as “includes, but is not limited to, communications transmitted by
+ 3   voice, data, or image, including facsimile.” Id. at 16. Fourth, Plaintiff argues that it is
+ 4   beyond dispute that “[t]he internet works through a series of networks that connect devices
+ 5   around the world through telephone lines.” Id. at 17. Fifth, Plaintiff argues that section
+ 6   632.7 should be read to establish broad privacy protections. Id. at 17. The Court finds that
+ 7   Plaintiff’s arguments are without merit. California district courts have repeatedly addressed
+ 8   this issue with near unanimity.
+ 9         In Rodriguez, the Court conducted an in-depth analysis of the overwhelming
+10   majority of district courts addressing this issue. Rodriguez, 2024 WL 1223485, at *15-17.
+11   The Court agrees with and repeats that analysis here.
+12         The overwhelming majority of district courts addressing this issue have held that
+13   section 632.7(a) applies only to communications between two telephones and not to the
+14   internet chat communications at issue here, even when the Plaintiff accessed the internet
+15   via her smartphone. See Cody v. Ring LLC, No. 23-cv-00562-AMO, 2024 WL 735667, at
+16   *7 (N.D. Cal. Feb. 22, 2024) (“The fact that she used a smart phone to access the internet
+17   does not fit within Section 632.7’s statutory reach.”); Esparza v. Gen Digital Inc., No. CV
+18   23-8223-KK-AGRx, 2024 WL 655986, at *4 (C.D. Cal. Jan. 16, 2024) (“[S]mart phones
+19   do not fall within the scope of the five categories of Section 632.7.”) Valenzuela v.
+20   Nationwide Mut. Ins. Co., 686 F.Supp.3d 969, 983 (C.D. Cal. Aug. 14, 2023) (“[R]eading
+21   [section 632.7] so broadly as to encompass web-based messages sent from the internet
+22   browser of a smart phone to another party not using a phone at all would completely divorce
+23   [the statute] from its clear limits. The Court need not decide the exact contours of what
+24   text-based communications Section 632.7 covers; the statute is limited to communications
+25   between two phones, and the allegations here do not fit that category.”); Licea v.
+26   Vitacost.com, Inc., 683 F.Supp.3d 1118, 1124 (S.D. Cal. July 24, 2023) (“Plaintiff’s use of
+27   his smartphone—not to make a phone call, but rather to engage the chat feature of
+28   Defendant’s website—… places Plaintiff’s own device outside the scope of a ‘cellular
+
+                                                  18
+                                                                                3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 19 of
+                                       25
+
+
+ 1   radio telephone.’”); Valenzuela v. Keurig Green Moutain, Inc., 674 F. Supp. 3d 751, 760
+ 2   (“[Section] 632.7 unambiguously limits its reach to communications between various types
+ 3   of telephones.”); Licea, 659 F. Supp. 3d at 1112 (“The Court determines that section 632.7
+ 4   only applies to the five types of calls enumerated …”); Hot Topic, Inc., 656 F. Supp. 3d at
+ 5   1069 (“The unambiguous meaning of the statute is thus that it only applies to
+ 6   communications involving two telephones. Plaintiff’s allegations all relate to text-based
+ 7   web communications regarding a chat feature on a website, which virtually by definition
+ 8   cannot involve two telephones.”); D’Angelo v. Penny OpCo, LLC, No. 23-cv-0981-BAS-
+ 9   DDL (S.D. Cal. Oct. 24, 2023) (“[S]martphones are not covered by Section 632.7.”);
+10   Garcia v. Build.com, inc., Case No. 22-cv-01985-DMS-KSC, 2023 WL 4535531, at *6
+11   (S.D. Cal. July 13, 2023) (“A plain reading of the text makes clear that the statute only
+12   applies to communications transmitted by telephone, not internet. Plaintiff seems to argue
+13   that Defendant’s conduct violated Section 632.7 because Plaintiff’s communications with
+14   Defendant through the website chat function on her smart phone amounted to
+15   ‘communication … transmitted via telephony.’ This stretches the statutory language too
+16   far.”); Martin v. Sephora USA, Inc., No. 1:22-cv-01355-JLT-SAB, 2023 WL 2717636, at
+17   *17 (E.D. Cal. Mar. 30, 2023) (“[T]he Court concludes that § 632.7 only applies to the five
+18   types of calls previously enumerated.”).
+19         The Court is persuaded by the reasoning of the overwhelming majority of California
+20   district courts, which have held that CIPA section 632.7 does not encompass web-based
+21   messages sent from the internet browser of a smartphone. Therefore, the Court declines to
+22   adopt Plaintiff’s interpretation of the statute.
+23         The only two cases extending the meaning of the statute to the present
+24   circumstances, both written by the same judge, found that only one party needs to be using
+25   a telephone to bring a communication within the purview of section 632.7. See Old Navy,
+26   LLC, 669 F.Supp.3d at 947; Goodyear Tire & Rubber Co., 654 F.Supp.3d at 1027-28.
+27   However, this finding is based on dicta in the California Supreme Court’s decision in
+28   Flanagan, which addressed the meaning of “confidential communication,” not at issue
+
+                                                    19
+                                                                              3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 20 of
+                                       25
+
+
+ 1   here. Flanagan v. Flanagan, 27 Cal. 4th 766, 774-76 (2002). Further, the district court’s
+ 2   finding that smartphones fall within the cellular phone category is also unsupported. See
+ 3   Old Navy, LLC, 669 F. Supp. 3d at 947; Goodyear Tire & Rubber Co., 654 F.Supp.3d at
+ 4   1027-28. As stated above, smartphones “are, in reality, small computers.” Mastel v.
+ 5   Miniclip SA, 549 F.Supp.3d 1129, 1135 (E.D. Cal. 2021). Thus, even if only one phone
+ 6   need be involved, CIPA section 632.7 still does not apply to the present case. Therefore,
+ 7   the second cause of action is DISMISSED with prejudice.
+ 8      C. Claims Under California’s Unfair Competition Law
+ 9         The Defendant further moves to dismiss Plaintiff’s UCL claims for lack of statutory
+10   standing. ECF No. 14-1 at 19-20. The UCL provides a private cause of action to “a person
+11   who has suffered injury in fact and has lost money or property as a result” of an unlawful,
+12   unfair or fraudulent business practice. Cal. Bus. & Prof. Code § 17204. California courts
+13   have read § 17204 to require both injury in fact and the loss of money or property. Kwikset
+14   Corp. v. Superior Ct., 51 Cal.4th 310, 320-324 (2011). An injury in fact will not suffice for
+15   statutory standing if it is not economic in nature.
+16         The parameters for economic injury are expansive and California courts have not
+17   undertaken to define them exhaustively. Economic injury may at least be demonstrated
+18   when a plaintiff “(1) surrender[s] in a transaction more, or acquire in a transaction less,
+19   than he or she otherwise would have; (2) [has] a present or future property interest
+20   diminished; (3) [is] deprived of money or property to which he or she has a cognizable
+21   claim; or (4) [is] required to enter into a transaction, costing money or property, that would
+22   otherwise have been unnecessary.” Id. at 323.”
+23         The Plaintiff here locates an economic injury in the Defendant’s alleged allowing,
+24   aiding, or abetting Drift in “exploit[ing]” chat feature conversation transcripts and
+25   information for financial gain. Compl. ¶ 29. She says “the economic value of Plaintiff’s
+26   and Class Members’ data to them is inherent” in the fact that the data can be harvested and
+27   analyzed for Defendant’s and third parties’ financial benefit. ECF No. 24 at 18. However,
+28   courts in this Circuit have not extrapolated from the fact that a user’s data has economic
+
+                                                   20
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 21 of
+                                       25
+
+
+ 1   value to someone that its collection constitutes an economic loss to the user. See, e.g.,
+ 2   Greenley v. Kochava, 684 F.Supp.3d 1024, 1054 (S.D. Cal. 2023) (“The relevant inquiry
+ 3   is not whether Defendants can profit from Plaintiff’s personal information, but whether
+ 4   Plaintiff himself can profit from his own data.”); Bass v. Facebook, Inc., 394 F.Supp.3d
+ 5   1024, 1040 (“That the information has external value, but no economic value to plaintiff,
+ 6   cannot serve to establish that plaintiff has personally lost money or property.”). Because
+ 7   Plaintiff’s allegations do not suffice for standing under the UCL, the UCL claims are
+ 8   DISMISSED with prejudice. Because Plaintiff lacks standing for her UCL claims, it is
+ 9   not necessary at this stage to rule on Tonal’s other arguments that she lacks any predicate
+10   claim for the UCL’s unlawful or unfair prongs. ECF No. 14-1 at 21-22.
+11        D. Constitutional Invasion of Privacy Claims
+12            Plaintiff’s fourth claim alleges violations of her state constitutional right to privacy.
+13   Article I, Section 1 of the California Constitution enumerates a non-exhaustive list of
+14   “inalienable rights,” to which California voters added “privacy” via a 1972 ballot measure.
+15   5
+         The privacy clause has been held to cover private, non-governmental actors. Hill v. Nat’l
+16   Collegiate Athletic Assn., 7 Cal. 4th 1, 16 (1994). The California Constitution sets a “high
+17   bar” for establishing an invasion of privacy claim. See Belluomini v. Citigroup, Inc., No.
+18   CV 13–01743 CRB, 2013 WL 3855589, at *6 (N.D. Cal. July 24, 2013).
+19            The Supreme Court of California has derived three elements plaintiffs must plead
+20   for invasion of privacy claims. Id. at 35-38. These are (1) “a specific, legally protected
+21   privacy interest,” (2) “a reasonable expectation of privacy on plaintiff's part,” and (3) an
+22   invasion “sufficiently serious in [its] nature, scope, and actual or potential impact to
+23   constitute an egregious breach of the social norms underlying the privacy right.” Id. The
+24   first element is a question of law to be decided by the court, while the latter two elements
+25   are mixed questions of law and fact. Id. at 40. “A defendant may prevail in a state
+26
+27   5
+      The section reads in full, “All people are by nature free and independent and have inalienable rights. Among these are enjoying
+28   and defending life and liberty, acquiring, possessing, and protecting property, and pursuing and obtaining safety, happiness,
+     and privacy.”
+
+                                                                   21
+                                                                                                            3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 22 of
+                                       25
+
+
+ 1   constitutional privacy case by negating any of the three elements . . . or by pleading and
+ 2   proving, as an affirmative defense, that the invasion of privacy is justified because it
+ 3   substantively furthers one or more countervailing interests.” Id.
+ 4         As other courts have observed, the threshold elements of Hill are “not a categorical
+ 5   test.” In re Google Location History Litig., 428 F.Supp.3d 185, 196 (N.D. Cal. 2019). The
+ 6   existence of a privacy interest is rarely considered in isolation from the context that molds
+ 7   the plaintiff’s expectations and the defendant’s purportedly intrusive conduct. California
+ 8   Supreme Court precedent confirms that “[T]he specific kind of privacy interest involved
+ 9   and the nature and seriousness of the invasion and any countervailing interests, remains the
+10   critical factor in the analysis.” Loder v. City of Glendale, 14 Cal. 4th 846, 890 (1997).
+11         The first element under Hill addresses whether Plaintiff has a legally protected
+12   privacy interest in the communications she undertook using Tonal’s chat feature. Hill
+13   outlined two generally recognized kinds of legally protected privacy interests: “(1) interests
+14   in precluding the dissemination or misuse of sensitive and confidential information
+15   (‘informational privacy’); and (2) interests in making intimate personal decisions or
+16   conducting personal activities without observation, intrusion, or interference (‘autonomy
+17   privacy’).” 7 Cal. 4th at 35. The first interest in informational privacy is the most obviously
+18   relevant to this case, and courts addressing whether CIPA plaintiffs have a privacy interest
+19   in various internet communications have considered the issue under this banner. See, e.g.,
+20   In re Yahoo Mail Litig., 7 F.Supp.3d 1016, 1039 (N.D. Cal. 2014).
+21         Tonal argues first that “Generally, there is no legally protected privacy interest in
+22   internet communications with a website.” ECF No. 14-1 at 16. This statement is overbroad.
+23   In a field as broad as web-based communications, at least some privacy interests exist for
+24   at least some classes of plaintiffs. See In re Yahoo Mail Litig., 7 F.Supp.3d at 1041 (“Under
+25   California law, a legally recognizable privacy interest arises from the sort of information
+26   revealed[.]”). See, e.g., Mintz v. Mark Bartelstein & Associates Inc., 906 F.Supp.2d 1017,
+27   1033–34 (C.D. Cal. 2012) (finding legally protected privacy interest in the personal
+28   financial and employment information contained in an email account).
+
+                                                   22
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 23 of
+                                       25
+
+
+ 1         However, it is clear enough that courts hearing information privacy cases focus both
+ 2   on the nature of the stored information and the way it is used. See In re Google Assistant
+ 3   Privacy Litig., 457 F.Supp.3d 797, 817 (N.D. Cal. 2020) (“[T]here is no legally protected
+ 4   privacy interest and reasonable expectation of privacy in electronic messages, in general.
+ 5   Rather, a privacy interest can exist, if at all, only with respect to the content of those
+ 6   communications.”) (internal citation and quotations omitted).
+ 7         Further, and in contrast to Plaintiff’s arguments in her opposition brief, courts have
+ 8   found it appropriate to rule on the plausibility of constitutional informational privacy
+ 9   claims at the motion to dismiss stage. “Whether a legally recognized privacy interest is
+10   present in a given case is a question of law to be decided by the court. Whether plaintiff
+11   has a reasonable expectation of privacy in the circumstances and whether defendant's
+12   conduct constitutes a serious invasion of privacy are mixed questions of law and fact. If
+13   the undisputed material facts show no reasonable expectation of privacy or an insubstantial
+14   impact on privacy interests, the question of invasion may be adjudicated as a matter of
+15   law.” Hill, 7 Cal. 4th at 40; see also Mastel v. Miniclip SA, 549 F.Supp.3d 1129, 1140 (E.D.
+16   Cal. 2021) (When addressing whether an alleged invasion of privacy “constitute[s] an
+17   egregious breach of the social norms underlying the privacy right … one important factor
+18   that courts often rely on is whether the plaintiff alleges that the defendant used the private
+19   or confidential information obtained for some improper purpose.”); see also In re Yahoo
+20   Mail Litig., 7 F.Supp.3d at 1040. (“To the extent Plaintiffs claim a legally protected privacy
+21   interest and reasonable expectation of privacy in email generally based on the mere fact
+22   that Yahoo intercepted and distributed their emails, regardless of the specific content in the
+23   emails, Plaintiffs' claim fails as a matter of law.”).
+24         “A particular class of information is private when well-established social norms
+25   recognize the need to maximize individual control over its dissemination and use to prevent
+26   unjustified embarrassment or indignity.” Hill at 35. Plaintiff makes conclusory allegations
+27   in the complaint. Plaintiff’s allegations lack the requisite specificity to indicate the
+28   existence of a legally protected privacy interest or a sufficiently serious breach thereof.
+
+                                                    23
+                                                                                 3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 24 of
+                                       25
+
+
+ 1   Defendant’s arguments on this are persuasive and sufficient to foreclose Plaintiff’s
+ 2   constitutional claim at the motion-to-dismiss stage. Plaintiff has made only sparing
+ 3   references to the nature of the communications. Her opposition brief points to two
+ 4   paragraphs in her Complaint, paragraphs 15 and 24. ECF No. 24 at 20, c.f. ECF No. 1-2.
+ 5   Paragraph 15 only alludes to the possibility that chat feature conversations could be
+ 6   “private and deeply personal.” 6 Paragraph 24 cites to a recent study by the Electronic
+ 7   Privacy Information Center and does not address the content of the chat feature
+ 8   conversations alleged to be involved in this case. There is no supporting allegation that
+ 9   Plaintiff’s engagement with the Drift chat feature conversations produced or transferred
+10   content likely to be embarrassing. Plaintiff’s allegations fail to allege an egregious breach
+11   of social norms. Thus, Plaintiff’s claims for violation of the California Constitution’s right
+12   to privacy provision is DISMISSED.
+13                                                      E. CONCLUSION
+14            For the reasons stated above, Defendant’s motion to dismiss is GRANTED. As
+15   stated above, Plaintiff’s claim against Defendant for liability under CIPA section 632.7 is
+16   DISMISSED with prejudice. Likewise, Plaintiff’s UCL claim against Defendant for
+17   liability under the UCL is DISMISSED with prejudice. All remaining claims are
+18   DISMISSED without prejudice. Should Plaintiff decide to file an amended complaint,
+19   she must do so within 21 days of this order. If Plaintiff fails to file a timely amended
+20   complaint, the Court will close the case.
+21   ///
+22   ///
+23   ///
+24   ///
+25
+26   6
+       That paragraph, in full, reads: “To enable the wiretapping, Defendant has covertly embedded a third-party's code into its chat
+27   feature that automatically records and creates transcripts of all such conversations. To enable the eavesdropping, Defendant
+     allows at least one independent Third Party (on information and belief, "Drift") to secretly intercept in real time, eavesdrop
+28   upon, interpret, analyze, store, and use for that Third-Party's own purposes transcripts of Defendant's chat communications
+     with unsuspecting website visitors - even when such conversations are private and deeply personal.”
+
+                                                                   24
+                                                                                                            3:23-cv-1267-JES-BGS
+ Case 3:23-cv-01267-JES-BJC Document 35 Filed 09/30/24 PageID.<pageID> Page 25 of
+                                       25
+
+
+ 1        IT IS SO ORDERED.
+ 2
+     Dated: September 30, 2024
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+                                           25
+                                                                    3:23-cv-1267-JES-BGS
+

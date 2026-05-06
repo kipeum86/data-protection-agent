@@ -1,0 +1,9 @@
+{
+  "path": "sources/us-ca/raw/official/oag/ca-oag-ccpa-enforcement-examples.html",
+  "url": "https://oag.ca.gov/privacy/ccpa/enforcement",
+  "final_url": "https://oag.ca.gov/privacy/ccpa/enforcement",
+  "content_type": "text/html; charset=utf-8",
+  "status": "fetched",
+  "checksum": "sha256:a31415d7ea41a3503cdc93a58c2688789ba2216a53f5a5666a334a7af2f4643c",
+  "bytes": 94191
+}

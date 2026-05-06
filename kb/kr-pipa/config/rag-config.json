@@ -1,0 +1,55 @@
+{
+  "project": "PIPA Agent-Native RAG",
+  "version": "0.2.0",
+  "phase": 1,
+  "search": {
+    "step_0_freshness": {
+      "method": "mcp_law_api",
+      "server": "korean-law",
+      "triggers": ["every_question"],
+      "max_api_calls": 2,
+      "note": "질문 관련 법령의 개정 여부를 실시간 확인"
+    },
+    "phase_1": {
+      "method": "keyword_index_plus_grep",
+      "index_file": "index/guideline-index.json",
+      "fallback": "grep_full_text",
+      "max_results": 5
+    },
+    "step_2_5_precedents": {
+      "method": "mcp_law_api",
+      "server": "korean-law",
+      "triggers": ["interpretation_question", "comparison_question", "dual_pass"],
+      "max_api_calls": 5,
+      "note": "판례/처분례/헌재 결정 실시간 검색"
+    },
+    "step_3_5_supplementary": {
+      "method": "mcp_law_api",
+      "server": "korean-law",
+      "triggers": ["external_law_reference", "insufficient_result", "sub_article_query"],
+      "max_api_calls": 5,
+      "fallback": "web_search_layer_1",
+      "note": "로컬 KB 미수집 법령 보충 조회"
+    },
+    "phase_2": {
+      "method": "vector_semantic",
+      "embedding_model": "TBD",
+      "vector_db": "chromadb",
+      "fallback": "phase_1"
+    }
+  },
+  "mcp_servers": {
+    "korean-law": {
+      "rate_limit_rpm": 60,
+      "per_question_budget": 15,
+      "session_threshold": 45,
+      "fact_checker_budget": 3
+    },
+    "kordoc": {
+      "use_in": "ingest_skill",
+      "supported_formats": ["hwp", "hwpx", "pdf"]
+    }
+  },
+  "source_grades_config": "config/source-grades.json",
+  "languages": ["ko", "en"]
+}

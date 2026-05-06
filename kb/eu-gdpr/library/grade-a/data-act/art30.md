@@ -1,0 +1,49 @@
+---
+# === Identification ===
+law: "Data Act"
+law_id: "32023R2854"
+article: 30
+article_sub: 0
+article_title: "Technical aspects of switching"
+chapter: "VI"
+chapter_title: "Removing obstacles to effective switching"
+
+# === Source ===
+source_grade: "A"
+source_url: "https://eur-lex.europa.eu/eli/reg/2023/2854/art_30/oj/eng"
+effective_date: "20240111"
+last_amended: null
+retrieved_at: "2026-03-26"
+
+# === Relationships ===
+cross_references:
+  - "Art. 26"
+  - "Art. 27"
+  - "Art. 35(8)"
+
+# === Search Metadata ===
+keywords:
+  - "technical"
+  - "aspects"
+  - "switching"
+  - "provider"
+  - "security"
+  - "interoperability"
+  - "transfer"
+  - "data portability"
+  - "processing"
+---
+
+## Article 30 — Technical aspects of switching
+
+1. Providers of data processing services that concern scalable and elastic computing resources limited to infrastructural elements such as servers, networks and the virtual resources necessary for operating the infrastructure, but that do not provide access to the operating services, software and applications that are stored, otherwise processed, or deployed on those infrastructural elements, shall, in accordance with Article 27, take all reasonable measures in their power to facilitate that the customer, after switching to a service covering the same service type, achieves functional equivalence in the use of the destination data processing service. The source provider of data processing services shall facilitate the switching process by providing capabilities, adequate information, documentation, technical support and, where appropriate, the necessary tools.
+
+2. Providers of data processing services, other than those referred to in paragraph 1, shall make open interfaces available to an equal extent to all their customers and the concerned destination providers of data processing services free of charge to facilitate the switching process. Those interfaces shall include sufficient information on the service concerned to enable the development of software to communicate with the services, for the purposes of data portability and interoperability.
+
+3. For data processing services other than those referred to in paragraph 1 of this Article, providers of data processing services shall ensure compatibility with common specifications based on open interoperability specifications or harmonised standards for interoperability at least 12 months after the references to those common specifications or harmonised standards for interoperability of data processing services were published in the central Union standards repository for the interoperability of data processing services following the publication of the underlying implementing acts in the Official Journal of the European Union in accordance with Article 35(8).
+
+4. Providers of data processing services other than those referred to in paragraph 1 of this Article shall update the online register referred to in Article 26, point (b) in accordance with their obligations under paragraph 3 of this Article.
+
+5. In the case of switching between services of the same service type, for which common specifications or the harmonised standards for interoperability referred to in paragraph 3 of this Article have not been published in the central Union standards repository for the interoperability of data processing services in accordance with Article 35(8), the provider of data processing services shall, at the request of the customer, export all exportable data in a structured, commonly used and machine-readable format.
+
+6. Providers of data processing services shall not be required to develop new technologies or services, or disclose or transfer digital assets that are protected by intellectual property rights or that constitute a trade secret, to a customer or to a different provider of data processing services or compromise the customer’s or provider’s security and integrity of service.
