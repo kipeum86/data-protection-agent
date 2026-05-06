@@ -81,6 +81,23 @@ def load_regulation_metadata() -> dict[str, dict[str, str]]:
     }
 
 
+def load_mirror_case_ids() -> set[str]:
+    """Returns set of case ids whose local source is a Grade B mirror.
+
+    Mirror-backed cases (e.g., Stanford SCOCAL copies of California Supreme
+    Court opinions) may still cite as binding authority, but the local raw
+    source is not the official California Courts archive PDF. Answers must
+    disclose the mirror provenance when citing these.
+    """
+    cases = load_json("ca-case-index.json").get("cases", [])
+    return {
+        case["id"]
+        for case in cases
+        if case.get("id")
+        and case.get("source_family") == "ca-courts-published-opinion-mirrors"
+    }
+
+
 def statute_citations(text: str) -> list[tuple[str, str]]:
     results: list[tuple[str, str]] = []
     patterns = [
@@ -149,6 +166,17 @@ OFFICIAL_2026_REGULATION_SOURCES = (
     "ccpa_statute_eff_20260101.pdf",
     "ccpa_updates_cyber_risk_admt_appr_text.pdf",
 )
+DISCLOSURE_TERMS = (
+    "mirror",
+    "scocal",
+    "stanford",
+    "official url",
+    "official source",
+    "source_mirror_warning",
+    "공식 출처",
+    "미러",
+    "official california courts archive",
+)
 
 
 def check_federal_case_as_ca_binding(text: str, case_meta: dict[str, dict[str, str]], local_ids: list[str]) -> list[Finding]:
@@ -188,6 +216,37 @@ def check_unpublished_as_controlling(text: str, case_meta: dict[str, dict[str, s
                 suggested_fix=(
                     "Check the decision's publication and citation status. Treat unpublished/non-citable "
                     "decisions as non-controlling unless a jurisdiction-specific exception applies."
+                ),
+            ))
+    return findings
+
+
+def check_mirror_cited_without_disclosure(
+    text: str,
+    mirror_ids: set[str],
+) -> list[Finding]:
+    """Warn when a mirror-backed case id is cited without disclosing the mirror source.
+
+    Trigger (AND):
+      - text contains a case id that is in mirror_ids
+      - text does NOT contain any term from DISCLOSURE_TERMS (case-insensitive)
+    """
+    if not mirror_ids:
+        return []
+    text_lower = text.lower()
+    if any(term in text_lower for term in DISCLOSURE_TERMS):
+        return []
+    findings: list[Finding] = []
+    for case_id in mirror_ids:
+        if case_id in text:
+            findings.append(Finding(
+                severity="warn",
+                citation=case_id,
+                message="Mirror-backed opinion cited without disclosing the mirror source.",
+                suggested_fix=(
+                    "Disclose that the local copy was fetched from a public mirror "
+                    "(e.g., SCOCAL) and cite the official California Courts archive "
+                    "URL from the case frontmatter."
                 ),
             ))
     return findings
@@ -250,6 +309,7 @@ def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
     case_meta = load_case_metadata()
     reg_meta = load_regulation_metadata()
+    mirror_ids = load_mirror_case_ids()
     findings: list[Finding] = []
 
     statute_hits = statute_citations(text)
@@ -330,6 +390,7 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_unpublished_as_controlling(text, case_meta, local_ids))
     findings.extend(check_federal_case_as_ca_binding(text, case_meta, local_ids))
     findings.extend(check_regulation_2026_source_required(text, reg_meta, regulation_hits))
+    findings.extend(check_mirror_cited_without_disclosure(text, mirror_ids))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

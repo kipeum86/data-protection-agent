@@ -77,3 +77,53 @@ def test_regulation_2026_with_correct_source_passes():
     )
 
     assert not any("2026-effective regulation" in finding["message"] for finding in result["findings"])
+
+
+def test_mirror_case_cited_without_disclosure_warns():
+    result = audit(
+        "Per ca-supreme-kearney-v-salomon-smith-barney-2006, "
+        "this is binding California Supreme Court precedent."
+    )
+
+    assert result["status"] == "warn"
+    assert any(
+        "Mirror-backed opinion" in finding["message"]
+        for finding in result["findings"]
+    )
+
+
+def test_mirror_case_cited_with_english_disclosure_passes():
+    result = audit(
+        "Per ca-supreme-kearney-v-salomon-smith-barney-2006 "
+        "(local copy fetched from the SCOCAL mirror; official URL: "
+        "https://www.courts.ca.gov/opinions/archive/S124739.PDF), "
+        "this is binding California Supreme Court precedent."
+    )
+
+    assert not any(
+        "Mirror-backed opinion" in finding["message"]
+        for finding in result["findings"]
+    )
+
+
+def test_mirror_case_cited_with_korean_disclosure_passes():
+    result = audit(
+        "ca-supreme-raines-v-us-healthworks-2023 (로컬 KB는 미러에서 수집됨, "
+        "공식 출처는 California Courts archive)는 controlling Supreme Court 선례."
+    )
+
+    assert not any(
+        "Mirror-backed opinion" in finding["message"]
+        for finding in result["findings"]
+    )
+
+
+def test_non_mirror_case_not_warned_for_disclosure():
+    result = audit(
+        "Per ca-supreme-smith-v-loanme-2021, this is binding California precedent."
+    )
+
+    assert not any(
+        "Mirror-backed opinion" in finding["message"]
+        for finding in result["findings"]
+    )
