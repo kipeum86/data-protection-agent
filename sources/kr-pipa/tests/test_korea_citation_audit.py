@@ -59,3 +59,25 @@ def test_pipc_guideline_as_binding_warns():
 def test_local_id_for_unknown_warns():
     result = audit("Per kr-court-doesnotexist-2099, holding...")
     assert any("Local KR KB id" in f["message"] for f in result["findings"])
+
+
+def test_existing_network_act_enforcement_rule_citation_passes():
+    ids = load_valid_ids()
+    rule_arts = sorted(
+        i for i in ids["articles"] if i.startswith("network-act-enforcement-rule-art")
+    )
+    if not rule_arts:
+        return
+    art_num = rule_arts[0].replace("network-act-enforcement-rule-art", "")
+    result = audit(f"정보통신망법 시행규칙 제{art_num}조에 따라 보고한다.")
+    assert not any("Article citation" in f["message"] for f in result["findings"])
+
+
+def test_missing_enforcement_rule_fails():
+    result = audit("정보통신망법 시행규칙 제9999조에 따라.")
+    assert result["status"] == "fail"
+    assert any(
+        "Article citation" in f["message"]
+        and "network-act-enforcement-rule" in f["message"]
+        for f in result["findings"]
+    )

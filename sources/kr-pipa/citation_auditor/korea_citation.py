@@ -42,6 +42,10 @@ def load_valid_ids() -> dict[str, set[str]]:
 # 인용 패턴: (regex, id_template). 한국어 + 영문 혼용.
 # 시행령은 별도 패턴 (한국어 인용에서 "시행령 제N조" 형태가 흔함).
 ARTICLE_PATTERNS: tuple[tuple[str, str], ...] = (
+    # 정보통신망법 시행규칙 → network-act-enforcement-rule-art{n}
+    # (가장 긴 매치, 다른 정보통신망 패턴 위에 둘 것)
+    (r"정보통신망(?:법|\s*이용촉진[^제]*법)\s*시행규칙\s*제\s*(\d+)\s*조(?:의\s*(\d+))?",
+     "network-act-enforcement-rule-art{}"),
     # 개인정보 보호법 시행령 → pipa-enforcement-decree-art{n} (시행령이 먼저 — 더 긴 매치 우선)
     (r"개인정보\s*보호법\s*시행령\s*제\s*(\d+)\s*조(?:의\s*(\d+))?", "pipa-enforcement-decree-art{}"),
     # 개인정보 보호법 → pipa-art{n}
@@ -91,8 +95,12 @@ def guideline_citations(text: str) -> list[tuple[str, str]]:
 
 def local_id_citations(text: str) -> list[str]:
     candidates = []
+    # NOTE: alternation order matters in Python re (leftmost match).
+    # Longer prefixes (network-act-enforcement-rule) must come BEFORE
+    # shorter prefixes (network-act) so the longer one wins.
     for match in re.finditer(
-        r"\b(?:pipa|network-act|credit-info-act|location-info-act|"
+        r"\b(?:network-act-enforcement-rule|pipa|network-act|"
+        r"credit-info-act|location-info-act|"
         r"e-government-act|pipc-guideline|kr-court)-[a-z0-9][a-z0-9.-]*\b",
         text, flags=re.I,
     ):
