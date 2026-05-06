@@ -27,10 +27,15 @@ Audit the markdown file at `$0`.
      `python3 sources/us-ca/scripts/audit-california-citations.py --json "$0"`
      This CLI wraps `citation_auditor.california_citation.audit()` and prints
      a JSON findings report. Exit code is 1 on `fail`, 0 otherwise.
-   - `eu-gdpr`: TBD. If a `kb/eu-gdpr/scripts/audit-*.py` exists, run it.
-     If not, emit a warning: "EU sub-auditor not yet wired up; manual
-     verification required for EU authorities in this answer."
-   - `kr-pipa`: TBD. Same pattern as EU.
+   - `eu-gdpr`: run
+     `python3 sources/eu-gdpr/scripts/audit-europe-citations.py --json "$0"`
+     This CLI wraps `citation_auditor.europe_citation.audit()`. Catches
+     missing GDPR Article / Recital ids and Recitals cited as binding rules.
+   - `kr-pipa`: run
+     `python3 sources/kr-pipa/scripts/audit-korea-citations.py --json "$0"`
+     This CLI wraps `citation_auditor.korea_citation.audit()`. Catches
+     missing PIPA Article / Network Act / PIPC guideline ids and PIPC
+     guidelines cited as binding law.
 
 4. Aggregate findings from all sub-auditors.
 
@@ -63,3 +68,12 @@ Audit the markdown file at `$0`.
   but the answer MUST disclose the mirror source. The sub-auditor catches
   missing disclosure (English: "mirror", "SCOCAL", "official URL";
   Korean: "미러", "공식 출처").
+
+- The KR sub-auditor uses both Korean (개인정보 보호법 제15조) and English
+  (PIPA Article 15) citation patterns; either resolves to the same KB id.
+  Decree patterns (시행령) are matched before parent-law patterns so the
+  longer match wins.
+
+- The EU sub-auditor distinguishes Articles (binding) from Recitals
+  (interpretive only). Citing a Recital as a binding rule is a warn.
+  Recital ids in the index use the plural form (gdpr-recitals-recital{n}).
