@@ -39,6 +39,19 @@ def load_valid_ids() -> dict[str, set[str]]:
     return {"articles": articles, "guidelines": guidelines}
 
 
+def load_external_law_names() -> set[str]:
+    """Returns Korean law names that are cross-referenced from KR KB statutes
+    but not present as full text in the local index.
+
+    These laws (e.g., '전기통신사업법', '의료법') appear in PIPA-family law
+    cross-references but the agent cannot quote their text. The auditor
+    surfaces a warning so the answerer verifies the cited provision against
+    an official source.
+    """
+    candidates = load_json("external-law-candidates.json").get("candidates", [])
+    return {c["law"] for c in candidates if c.get("law")}
+
+
 # 인용 패턴: (regex, id_template). 한국어 + 영문 혼용.
 # 시행령은 별도 패턴 (한국어 인용에서 "시행령 제N조" 형태가 흔함).
 ARTICLE_PATTERNS: tuple[tuple[str, str], ...] = (
@@ -126,6 +139,38 @@ PIPC_GUIDELINE_AS_BINDING_RE = re.compile(
 )
 
 
+def check_external_law_referenced(
+    text: str, external_law_names: set[str]
+) -> list[Finding]:
+    """Warn when an external (cross-referenced) Korean law is cited.
+
+    These laws are mentioned by name in PIPA/Network-Act/Credit-Info-Act
+    cross-references but the local KB does not have full text. The agent
+    must verify the cited provision against an official source.
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for law_name in external_law_names:
+        # Match law name followed by an article reference (제N조), 시행령, or 시행규칙
+        pattern = re.escape(law_name) + r"\s*(?:제\s*\d+\s*조|시행령|시행규칙)"
+        if re.search(pattern, text) and law_name not in seen:
+            seen.add(law_name)
+            findings.append(Finding(
+                severity="warn",
+                citation=law_name,
+                message=(
+                    f"External law cited but not in local KB: {law_name}. "
+                    f"Listed in external-law-candidates.json (cross-referenced "
+                    f"from PIPA-family laws) but full text not available locally."
+                ),
+                suggested_fix=(
+                    "Verify the cited provision against an official source "
+                    "(e.g., 국가법령정보센터). Do not paraphrase from memory."
+                ),
+            ))
+    return findings
+
+
 def check_pipc_guideline_as_binding(text: str) -> list[Finding]:
     """Warn when a PIPC guideline is cited as binding law.
 
@@ -150,6 +195,7 @@ def check_pipc_guideline_as_binding(text: str) -> list[Finding]:
 
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
+    external_law_names = load_external_law_names()
     findings: list[Finding] = []
 
     article_hits = article_citations(text)
@@ -190,6 +236,7 @@ def audit(text: str) -> dict[str, Any]:
         ))
 
     findings.extend(check_pipc_guideline_as_binding(text))
+    findings.extend(check_external_law_referenced(text, external_law_names))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

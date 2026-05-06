@@ -81,3 +81,22 @@ def test_missing_enforcement_rule_fails():
         and "network-act-enforcement-rule" in f["message"]
         for f in result["findings"]
     )
+
+
+def test_external_law_cited_warns():
+    # 전기통신사업법 is the highest-priority external law candidate (verified)
+    result = audit("전기통신사업법 제50조에 따라 통신사업자는 보고한다.")
+    assert result["status"] == "warn"
+    assert any(
+        "External law cited but not in local KB" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_in_kb_law_not_warned_as_external():
+    # 개인정보 보호법 is in the KB. Should not trigger external-law warn.
+    result = audit("개인정보 보호법 제15조에 따라 동의를 받는다.")
+    assert not any(
+        "External law cited but not in local KB" in f["message"]
+        for f in result["findings"]
+    )
