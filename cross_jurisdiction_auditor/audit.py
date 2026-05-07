@@ -288,6 +288,18 @@ VOCAB_BY_JURISDICTION: tuple[tuple[str, str, str], ...] = (
 
     # PIPA processor
     (r"수탁자", "kr-pipa", "GDPR uses 'processor' or CCPA uses 'service provider'"),
+
+    # CCPA opt-out vs GDPR object — semantically distinct, commonly confused
+    (_ASCII_LB + r"right\s+to\s+object" + _ASCII_LA, "eu-gdpr",
+     "CCPA uses 'right to opt-out of sale/share' (Cal. Civ. Code § 1798.120) — semantically distinct"),
+    (_ASCII_LB + r"right\s+to\s+opt[-\s]?out" + _ASCII_LA, "us-ca",
+     "GDPR Art. 21 'right to object' is the analogous concept (semantically distinct)"),
+
+    # KR processing entrustment / GDPR joint controllers
+    (r"위탁(?:자|처리)?", "kr-pipa",
+     "GDPR uses 'processing on behalf of controller' (Art. 28); semantically related but distinct"),
+    (_ASCII_LB + r"joint\s+controllers?" + _ASCII_LA, "eu-gdpr",
+     "PIPA uses 공동개인정보처리자 (joint personal information controllers)"),
 )
 
 
@@ -338,6 +350,12 @@ VAGUE_LAW_REFERENCES: tuple[tuple[str, str], ...] = (
      "Vague jurisdiction reference. Name the specific jurisdictions."),
     (r"\bapplicable\s+law\s+(?:requires|may\s+require|provides)\b",
      "'Applicable law' is too vague. Cite the specific governing law."),
+    (r"\bdepending\s+on\s+the\s+jurisdictions?\b",
+     "Vague jurisdiction hedge. Name the specific jurisdictions and contrast."),
+    (r"\bin\s+certain\s+cases\b",
+     "'In certain cases' is too vague. Cite the authority that defines the case."),
+    (r"\bmay\s+apply\b",
+     "'May apply' is hedge without commitment. Cite the authority and threshold conditions."),
 )
 
 

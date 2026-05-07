@@ -295,3 +295,54 @@ def test_default_mode_partial_labels_passes(monkeypatch):
         if "missing labels" in f["message"] or "lacks explicit" in f["message"]
     ]
     assert not label_findings
+
+
+def test_ccpa_only_with_right_to_object_warns():
+    text = "Under CCPA, the consumer has a right to object to sale of personal information."
+    result = audit(text)
+    assert any(
+        "right to object" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_gdpr_only_with_right_to_opt_out_warns():
+    text = "Under GDPR, data subjects have a right to opt-out of processing."
+    result = audit(text)
+    assert any(
+        "right to opt" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_gdpr_only_with_korean_witak_warns():
+    text = "Under GDPR, the controller appoints a 위탁자 to process data."
+    result = audit(text)
+    assert any(
+        "위탁" in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_depending_on_jurisdiction_warns():
+    text = "Depending on the jurisdiction, opt-in consent may be required for tracking."
+    result = audit(text)
+    assert any(
+        "Vague law reference" in f["message"]
+        and "depending on the jurisdiction" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_may_apply_with_nearby_id_passes():
+    text = (
+        "Per gdpr-art9, sensitive-data restrictions may apply when "
+        "processing health data."
+    )
+    result = audit(text)
+    vague_findings = [
+        f for f in result["findings"]
+        if "Vague law reference" in f["message"]
+        and "may apply" in f.get("citation", "").lower()
+    ]
+    assert not vague_findings
