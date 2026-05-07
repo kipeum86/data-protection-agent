@@ -170,3 +170,49 @@ def test_future_effective_cited_with_future_framing_passes():
         if "(future)" in f.get("message", "") and aid in f.get("citation", "")
     ]
     assert not future_findings
+
+
+def test_load_authority_body_returns_text():
+    from citation_auditor.california_citation import (
+        BASE_DIR,
+        _build_path_lookup,
+        load_authority_body,
+    )
+    body = load_authority_body("ca-civ-1798.100", _build_path_lookup(), BASE_DIR)
+    assert body and "personal information" in body.lower()
+
+
+def test_quote_matching_body_passes():
+    text = (
+        'Per Cal. Civ. Code § 1798.100, the statute states "at or before the '
+        'point of collection, inform consumers of the following".'
+    )
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings, f"unexpected quote findings: {result['findings']}"
+
+
+def test_fabricated_quote_near_citation_warns():
+    text = (
+        'Per Cal. Civ. Code § 1798.100, the statute states "all businesses must '
+        'encrypt all biometric data within twenty-four hours of collection".'
+    )
+    result = audit(text)
+    assert any(
+        "Quoted text not found" in f.get("message", "")
+        and "ca-civ-1798.100" in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_quote_without_citation_skipped():
+    text = '"Some random made-up text that does not appear in any KB authority body."'
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings

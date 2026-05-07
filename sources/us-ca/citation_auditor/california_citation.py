@@ -388,6 +388,138 @@ def dedupe_pairs_by_id(values: list[tuple[str, str]]) -> list[tuple[str, str]]:
     return out
 
 
+CA_INDEXES_WITH_PATH = (
+    ("ca-statute-index.json", "items"),
+    ("ca-adjacent-statute-index.json", "items"),
+    ("ca-regulation-index.json", "items"),
+    ("ca-enforcement-index.json", "items"),
+    ("ca-case-index.json", "cases"),
+)
+
+QUOTE_PATTERNS = (
+    re.compile(r'"([^"]{25,500})"'),
+    re.compile(r"“([^”]{25,500})”"),
+)
+
+
+def _build_path_lookup() -> dict[str, str]:
+    """Returns {authority_id: relpath} from all CA indexes that carry a path."""
+    out: dict[str, str] = {}
+    for index_name, key in CA_INDEXES_WITH_PATH:
+        for item in load_json(index_name).get(key, []):
+            aid = item.get("id")
+            relpath = item.get("path")
+            if aid and relpath:
+                out[aid] = relpath
+    return out
+
+
+def _strip_frontmatter(content: str) -> str:
+    m = re.match(r"^---\n.*?\n---\n", content, flags=re.S)
+    return content[m.end():] if m else content
+
+
+def load_authority_body(authority_id: str, path_lookup: dict[str, str], base_dir: Path) -> str | None:
+    relpath = path_lookup.get(authority_id)
+    if not relpath:
+        return None
+    fpath = base_dir / relpath
+    if not fpath.exists():
+        return None
+    return _strip_frontmatter(fpath.read_text(encoding="utf-8"))
+
+
+def _extract_quotes(text: str) -> list[tuple[str, int]]:
+    out: list[tuple[str, int]] = []
+    for pat in QUOTE_PATTERNS:
+        for match in pat.finditer(text):
+            out.append((match.group(1), match.start(1)))
+    return out
+
+
+def _looks_like_citation_only(quote: str) -> bool:
+    if len(quote) < 30 and re.match(r"^[A-Z][\w\s.§/-]+$", quote):
+        return True
+    if re.match(r"^\s*(?:Cal\.|Civ\.|Code|§)", quote):
+        return True
+    return False
+
+
+def _normalize_for_match(s: str) -> str:
+    return re.sub(r"\s+", " ", s.lower()).strip()
+
+
+def _quote_matches_body(quote: str, body: str) -> bool:
+    nq = _normalize_for_match(quote)
+    nb = _normalize_for_match(body)
+    if nq in nb:
+        return True
+    qt = [t for t in re.split(r"\W+", nq) if len(t) >= 3]
+    if len(qt) < 5:
+        return False
+    threshold = max(1, int(len(qt) * 0.8))
+    bt = re.split(r"\W+", nb)
+    win = max(int(len(qt) * 1.5), len(qt) + 5)
+    step = max(1, len(qt) // 4)
+    for i in range(0, max(0, len(bt) - len(qt)) + 1, step):
+        if sum(1 for t in qt if t in bt[i:i + win]) >= threshold:
+            return True
+    return False
+
+
+def _build_citation_positions(text: str) -> list[tuple[int, str]]:
+    positions: list[tuple[int, str]] = []
+    for citation, source_id in statute_citations(text) + regulation_citations(text):
+        for match in re.finditer(re.escape(citation), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    for source_id in local_id_citations(text):
+        for match in re.finditer(re.escape(source_id), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    return positions
+
+
+def check_quote_integrity(
+    text: str,
+    path_lookup: dict[str, str],
+    base_dir: Path,
+) -> list[Finding]:
+    findings: list[Finding] = []
+    quotes = _extract_quotes(text)
+    if not quotes:
+        return findings
+    positions = _build_citation_positions(text)
+    if not positions:
+        return findings
+    for quote, qstart in quotes:
+        if _looks_like_citation_only(quote):
+            continue
+        nearby = sorted({sid for off, sid in positions if abs(off - qstart) <= 300})
+        if not nearby:
+            continue
+        checked: list[str] = []
+        matched = False
+        for cid in nearby:
+            body = load_authority_body(cid, path_lookup, base_dir)
+            if body is None:
+                continue
+            checked.append(cid)
+            if _quote_matches_body(quote, body):
+                matched = True
+                break
+        if checked and not matched:
+            preview = quote[:80] + ("..." if len(quote) > 80 else "")
+            findings.append(Finding(
+                severity="warn",
+                citation=", ".join(checked),
+                message=f'Quoted text not found in cited authority: "{preview}"',
+                suggested_fix=(
+                    "Verify the quote against the local authority body, "
+                    "or paraphrase and remove quotation marks."
+                ),
+            ))
+    return findings
+
+
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
     case_meta = load_case_metadata()
@@ -476,6 +608,7 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_regulation_2026_source_required(text, reg_meta, regulation_hits))
     findings.extend(check_mirror_cited_without_disclosure(text, mirror_ids))
     findings.extend(check_future_effective_cited_as_current(text, future_auths))
+    findings.extend(check_quote_integrity(text, _build_path_lookup(), BASE_DIR))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {
