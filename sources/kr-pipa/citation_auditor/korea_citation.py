@@ -8,6 +8,7 @@ import json
 import re
 import sys
 from dataclasses import asdict, dataclass
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -37,6 +38,33 @@ def load_valid_ids() -> dict[str, set[str]]:
     guidelines = {g["id"] for g in load_json("guideline-index.json").get("guidelines", [])
                   if g.get("id")}
     return {"articles": articles, "guidelines": guidelines}
+
+
+def _parse_yyyymmdd(s: str) -> date | None:
+    if not s or len(s) != 8 or not s.isdigit():
+        return None
+    try:
+        return date(int(s[:4]), int(s[4:6]), int(s[6:8]))
+    except ValueError:
+        return None
+
+
+def load_future_effective_articles() -> dict[str, str]:
+    """Returns {article_id: effective_date_str} for KR articles whose
+    effective_date (YYYYMMDD) is in the future.
+
+    Used to flag answers that cite future-effective KR authority with
+    present-tense language ('현재', 'requires', '시행 중', '해야 한다').
+    """
+    today = date.today()
+    out: dict[str, str] = {}
+    for art in load_json("article-index.json").get("articles", []):
+        aid = art.get("id")
+        eff = art.get("effective_date", "")
+        ed = _parse_yyyymmdd(eff)
+        if aid and ed and ed > today:
+            out[aid] = eff
+    return out
 
 
 def load_external_law_names() -> set[str]:
@@ -139,6 +167,62 @@ PIPC_GUIDELINE_AS_BINDING_RE = re.compile(
 )
 
 
+KR_PRESENT_TENSE_RE = re.compile(
+    r"\b(?:currently|now|is\s+in\s+effect|requires|mandates|prohibits)\b"
+    r"|현재|지금|시행\s*중|반드시|해야\s*한다|적용된다",
+    flags=re.I,
+)
+KR_FUTURE_FRAMING_RE = re.compile(
+    r"\b(?:will\s+(?:require|mandate|prohibit|take\s+effect)|"
+    r"effective\s+\d{4}|upcoming|forthcoming|pending)\b"
+    r"|시행\s*예정|적용\s*예정|효력\s*발생\s*예정|장차",
+    flags=re.I,
+)
+
+
+def check_future_effective_cited_as_current(
+    text: str,
+    future_arts: dict[str, str],
+) -> list[Finding]:
+    """Warn when a future-effective KR article id is cited with present-tense
+    language and no future-framing nearby.
+
+    Recognizes both English ('currently', 'requires') and Korean ('현재',
+    '해야 한다') trigger words. Skip when nearby ±200 chars also has
+    future-framing language ('will require', '시행 예정').
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for aid, eff in future_arts.items():
+        if aid not in text:
+            continue
+        for match in re.finditer(re.escape(aid), text, flags=re.I):
+            window_start = max(0, match.start() - 200)
+            window_end = min(len(text), match.end() + 200)
+            window = text[window_start:window_end]
+            if not KR_PRESENT_TENSE_RE.search(window):
+                continue
+            if KR_FUTURE_FRAMING_RE.search(window):
+                continue
+            if aid in seen:
+                continue
+            seen.add(aid)
+            findings.append(Finding(
+                severity="warn",
+                citation=aid,
+                message=(
+                    f"KR authority {aid} cited with present-tense language "
+                    f"but effective date is {eff} (future)."
+                ),
+                suggested_fix=(
+                    f"Frame as 'will require' / '시행 예정' or note "
+                    f"effective date {eff}, rather than present tense."
+                ),
+            ))
+            break
+    return findings
+
+
 def check_external_law_referenced(
     text: str, external_law_names: set[str]
 ) -> list[Finding]:
@@ -196,6 +280,7 @@ def check_pipc_guideline_as_binding(text: str) -> list[Finding]:
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
     external_law_names = load_external_law_names()
+    future_arts = load_future_effective_articles()
     findings: list[Finding] = []
 
     article_hits = article_citations(text)
@@ -237,6 +322,7 @@ def audit(text: str) -> dict[str, Any]:
 
     findings.extend(check_pipc_guideline_as_binding(text))
     findings.extend(check_external_law_referenced(text, external_law_names))
+    findings.extend(check_future_effective_cited_as_current(text, future_arts))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

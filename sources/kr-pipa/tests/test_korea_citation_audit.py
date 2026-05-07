@@ -100,3 +100,42 @@ def test_in_kb_law_not_warned_as_external():
         "External law cited but not in local KB" in f["message"]
         for f in result["findings"]
     )
+
+
+def test_load_future_effective_articles_returns_dict():
+    """Smoke: function returns dict and parses YYYYMMDD without crashing."""
+    from citation_auditor.korea_citation import load_future_effective_articles
+    from datetime import date
+    result = load_future_effective_articles()
+    assert isinstance(result, dict)
+    for aid, eff in result.items():
+        assert len(eff) == 8 and eff.isdigit()
+        date(int(eff[:4]), int(eff[4:6]), int(eff[6:8]))  # parses
+
+
+def test_kr_future_effective_cited_with_present_tense_warns():
+    """Skip if no future-effective KR articles in current index."""
+    from citation_auditor.korea_citation import load_future_effective_articles
+    future = load_future_effective_articles()
+    if not future:
+        return
+    aid = next(iter(future))
+    result = audit(f"Per {aid}, businesses currently require additional consent.")
+    assert any(
+        "(future)" in f.get("message", "") and aid in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_kr_future_effective_with_future_framing_passes():
+    from citation_auditor.korea_citation import load_future_effective_articles
+    future = load_future_effective_articles()
+    if not future:
+        return
+    aid, eff = next(iter(future.items()))
+    result = audit(f"Per {aid}, businesses will require consent effective {eff}.")
+    future_findings = [
+        f for f in result["findings"]
+        if "(future)" in f.get("message", "") and aid in f.get("citation", "")
+    ]
+    assert not future_findings
