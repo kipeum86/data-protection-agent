@@ -71,3 +71,32 @@ jobs:
           else
             echo "Skipping unified runner smoke (sibling KBs not imported on CI)."
           fi
+
+      - name: KB schema validation
+        # Catches sibling KB schema drift fast. Tests assert 0 missing fields.
+        run: PYTHONPATH=. python -m pytest -q tests/test_validate_kb_schema.py
+
+      - name: KB diff self-check
+        # Self-diff should report 0 changes. Validates diff CLI works on real index.
+        run: |
+          if [ -f index/unified-authority-index.json ]; then
+            python3 scripts/kb-diff.py \
+              index/unified-authority-index.json \
+              index/unified-authority-index.json | head -20
+          else
+            echo "index/unified-authority-index.json absent. Skipping diff self-check."
+          fi
+
+      - name: Coverage reports smoke
+        # CA always; KR/EU/unified only when sibling KBs imported.
+        run: |
+          python3 scripts/coverage-report.py | head -10
+          if [ -f kb/kr-pipa/index/article-index.json ]; then
+            python3 scripts/coverage-report-kr.py | head -10
+          fi
+          if [ -f kb/eu-gdpr/index/article-index.json ]; then
+            python3 scripts/coverage-report-eu.py | head -10
+          fi
+          if [ -f index/unified-authority-index.json ]; then
+            python3 scripts/coverage-report-all.py | head -10
+          fi
