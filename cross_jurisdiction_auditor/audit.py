@@ -235,6 +235,27 @@ VOCAB_BY_JURISDICTION: tuple[tuple[str, str, str], ...] = (
     # PIPA-specific terminology (Korean — substring match is fine)
     (r"개인정보처리자", "kr-pipa", "GDPR uses 'controller' or CCPA uses 'business'"),
     (r"정보주체", "kr-pipa", "GDPR uses 'data subject' or CCPA uses 'consumer'"),
+
+    # GDPR rights terminology
+    (_ASCII_LB + r"right\s+to\s+erasure" + _ASCII_LA, "eu-gdpr",
+     "CCPA uses 'right to delete' (Cal. Civ. Code § 1798.105)"),
+    (_ASCII_LB + r"right\s+to\s+be\s+forgotten" + _ASCII_LA, "eu-gdpr",
+     "CCPA uses 'right to delete'; GDPR Art. 17 is also called 'right to erasure'"),
+    (_ASCII_LB + r"right\s+of\s+access" + _ASCII_LA, "eu-gdpr",
+     "CCPA uses 'right to know' (Cal. Civ. Code § 1798.110)"),
+
+    # CCPA rights terminology
+    (_ASCII_LB + r"right\s+to\s+delete" + _ASCII_LA, "us-ca",
+     "GDPR uses 'right to erasure' (Art. 17, also 'right to be forgotten')"),
+    (_ASCII_LB + r"right\s+to\s+know" + _ASCII_LA, "us-ca",
+     "GDPR uses 'right of access' (Art. 15)"),
+
+    # GDPR-only role: DPO
+    (_ASCII_LB + r"data\s+protection\s+officer" + _ASCII_LA, "eu-gdpr",
+     "CCPA does not require a DPO; PIPA has 개인정보 보호책임자"),
+
+    # PIPA processor
+    (r"수탁자", "kr-pipa", "GDPR uses 'processor' or CCPA uses 'service provider'"),
 )
 
 

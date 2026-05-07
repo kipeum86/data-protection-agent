@@ -176,3 +176,39 @@ def test_partial_labels_pass():
         if "lacks explicit jurisdiction labels" in f["message"]
     ]
     assert not label_findings
+
+
+def test_ccpa_only_with_right_to_erasure_warns():
+    text = "Under CCPA, consumers have a right to erasure of their personal information."
+    result = audit(text)
+    assert any(
+        "right to erasure" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_gdpr_only_with_right_to_delete_warns():
+    text = "Under GDPR, the data subject has a right to delete their personal data."
+    result = audit(text)
+    assert any(
+        "right to delete" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_ccpa_only_with_dpo_warns():
+    text = "Under CCPA, businesses must appoint a data protection officer."
+    result = audit(text)
+    assert any(
+        "data protection officer" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_gdpr_only_with_korean_susuctaja_warns():
+    text = "Under GDPR, the controller must conclude a contract with the 수탁자."
+    result = audit(text)
+    assert any(
+        "수탁자" in f.get("citation", "")
+        for f in result["findings"]
+    )
