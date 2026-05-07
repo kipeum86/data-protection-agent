@@ -1,0 +1,62 @@
+{
+  "meta_version": "1.0",
+  "summary": "Concise 2-4 sentence summary of the answer.",
+  "research_mode": "ca_only",
+  "mode_source": "self_classified",
+  "active_profile": "data-protection-agent",
+  "orchestrator_route_mode": null,
+  "fallback_reason": null,
+  "classification_warnings": [],
+  "co_running_agents": [],
+  "jurisdictions": ["US-CA"],
+  "namespaces": ["us-ca"],
+  "domains": ["data_protection"],
+  "issue_map": [
+    {
+      "issue_id": "issue_001",
+      "issue": "Notice-at-collection obligations for sensitive personal information",
+      "answer": "A California business must inform consumers at or before collection. [src_001]",
+      "authority_ids": ["src_001"],
+      "confidence": "high",
+      "limits": "Check service-provider and contractor context separately."
+    }
+  ],
+  "key_findings": [
+    "California businesses must give notice at or before collection. [src_001]"
+  ],
+  "sources": [
+    {
+      "id": "src_001",
+      "authority_id": "us-ca:ca-civ-1798.100",
+      "namespace": "us-ca",
+      "jurisdiction": "US-CA",
+      "title": "General Duties of Businesses that Collect Personal Information",
+      "citation": "Cal. Civ. Code Section 1798.100",
+      "pinpoint": "(a)",
+      "grade": "A",
+      "authority_level": "binding",
+      "official_url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf",
+      "local_path": "kb/us-ca/library/grade-a/ca-ccpa-statute/civ-1798.100.md",
+      "currentness": {
+        "status": "current",
+        "checked_as_of": "2026-05-07",
+        "effective_date": "2026-01-01"
+      }
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "claim_001",
+      "issue_id": "issue_001",
+      "claim": "Notice must be given at or before collection.",
+      "authority_ids": ["src_001"],
+      "support_strength": "direct",
+      "currentness": "current",
+      "verification_method": "kb_body_substring"
+    }
+  ],
+  "comparison_matrix": [],
+  "coverage_gaps": [],
+  "handoff_notes": [],
+  "error": null
+}
