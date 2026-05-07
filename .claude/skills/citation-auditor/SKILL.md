@@ -21,48 +21,30 @@ Audit the markdown file at `$0`.
    - If two or more routes tie above zero, treat the answer as
      multi-jurisdictional.
 
-3. For each in-scope jurisdiction, dispatch to the sub-KB auditor:
+3. **Run unified auditor** (single invocation, replaces v8 4-step dispatch):
 
-   - `us-ca`: run
-     `python3 sources/us-ca/scripts/audit-california-citations.py --json "$0"`
-     This CLI wraps `citation_auditor.california_citation.audit()` and prints
-     a JSON findings report. Exit code is 1 on `fail`, 0 otherwise.
-   - `eu-gdpr`: run
-     `python3 sources/eu-gdpr/scripts/audit-europe-citations.py --json "$0"`
-     This CLI wraps `citation_auditor.europe_citation.audit()`. Catches
-     missing GDPR Article / Recital ids and Recitals cited as binding rules.
-   - `kr-pipa`: run
-     `python3 sources/kr-pipa/scripts/audit-korea-citations.py --json "$0"`
-     This CLI wraps `citation_auditor.korea_citation.audit()`. Catches
-     missing PIPA Article / Network Act / PIPC guideline ids and PIPC
-     guidelines cited as binding law.
+   `python3 scripts/audit-unified.py --json "$0"`
 
-4. **Cross-jurisdiction routing check** (always run, regardless of detected
-   jurisdictions). Run:
+   The unified runner imports all 4 auditors (CA / KR / EU sub-auditors +
+   cross-jurisdiction) via importlib and aggregates their findings into a
+   single JSON report. Output schema:
+   - `status`: `"fail"` | `"warn"` | `"pass"` (aggregate)
+   - `per_auditor[name]`: `{status, finding_count}` for each of
+     `us-ca`, `kr-pipa`, `eu-gdpr`, `cross-jurisdiction`
+   - `findings[]`: each with an `auditor` field identifying source
 
-   `python3 scripts/audit-cross-jurisdiction.py --json "$0"`
+   Exit code is 1 on `fail`, 0 otherwise.
 
-   This catches:
-   - Authorities cited from a jurisdiction the answer's text does not signal
-     (e.g., a California question that quietly cites GDPR Article 6).
-   - Vocabulary mismatches in single-jurisdiction answers (e.g., "personal
-     data" used in a CCPA-only context, or "lawful basis" in a CCPA answer).
+   The individual sub-auditor CLIs
+   (`sources/{us-ca,kr-pipa,eu-gdpr}/scripts/audit-*.py` and
+   `scripts/audit-cross-jurisdiction.py`) still exist for direct invocation
+   if needed, but step 3 is the standard entry point.
 
-   The check is skipped when the text has no detectable routing terms (no
-   intent signal) or when multiple jurisdictions are signalled (comparative
-   answer is legitimate).
+4. Render the unified runner's output to the user:
+   - One row per finding: `[auditor] [severity] message (citation; fix)`
+   - A summary line with `aggregate_status` and `finding_count`.
 
-5. Aggregate findings from all sub-auditors AND the cross-jurisdiction check.
-
-6. Render a single combined report with:
-   - Per-jurisdiction sub-section (sub-auditor findings)
-   - Cross-jurisdiction sub-section (routing + vocabulary findings)
-   - One row per finding: `[severity] message (citation; suggested_fix)`
-   - A summary line:
-     `aggregate_status = fail if any finding.severity == "error"
-                        else (warn if any finding else pass)`
-
-7. If `aggregate_status == "fail"`, the answer MUST be revised before
+5. If `aggregate_status == "fail"`, the answer MUST be revised before
    sending to the user. If `aggregate_status == "warn"`, surface the
    warnings to the user inline.
 
