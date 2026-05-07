@@ -37,16 +37,32 @@ Audit the markdown file at `$0`.
      missing PIPA Article / Network Act / PIPC guideline ids and PIPC
      guidelines cited as binding law.
 
-4. Aggregate findings from all sub-auditors.
+4. **Cross-jurisdiction routing check** (always run, regardless of detected
+   jurisdictions). Run:
 
-5. Render a single combined report with:
-   - Per-jurisdiction sub-section
+   `python3 scripts/audit-cross-jurisdiction.py --json "$0"`
+
+   This catches:
+   - Authorities cited from a jurisdiction the answer's text does not signal
+     (e.g., a California question that quietly cites GDPR Article 6).
+   - Vocabulary mismatches in single-jurisdiction answers (e.g., "personal
+     data" used in a CCPA-only context, or "lawful basis" in a CCPA answer).
+
+   The check is skipped when the text has no detectable routing terms (no
+   intent signal) or when multiple jurisdictions are signalled (comparative
+   answer is legitimate).
+
+5. Aggregate findings from all sub-auditors AND the cross-jurisdiction check.
+
+6. Render a single combined report with:
+   - Per-jurisdiction sub-section (sub-auditor findings)
+   - Cross-jurisdiction sub-section (routing + vocabulary findings)
    - One row per finding: `[severity] message (citation; suggested_fix)`
    - A summary line:
      `aggregate_status = fail if any finding.severity == "error"
                         else (warn if any finding else pass)`
 
-6. If `aggregate_status == "fail"`, the answer MUST be revised before
+7. If `aggregate_status == "fail"`, the answer MUST be revised before
    sending to the user. If `aggregate_status == "warn"`, surface the
    warnings to the user inline.
 
@@ -77,3 +93,9 @@ Audit the markdown file at `$0`.
 - The EU sub-auditor distinguishes Articles (binding) from Recitals
   (interpretive only). Citing a Recital as a binding rule is a warn.
   Recital ids in the index use the plural form (gdpr-recitals-recital{n}).
+
+- The cross-jurisdiction auditor (step 4) operates ABOVE the sub-auditors.
+  It detects the answer's jurisdiction signal from `index/jurisdiction-routing.json`
+  routing_terms and warns when cited authorities or jurisdiction-specific
+  vocabulary belong to a different jurisdiction. Comparative answers
+  (multi-jurisdiction signal) skip both checks to avoid false positives.
