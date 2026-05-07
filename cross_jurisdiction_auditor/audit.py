@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from dataclasses import asdict, dataclass
@@ -178,20 +179,51 @@ def find_labelled_jurisdictions(text: str) -> set[str]:
     return found
 
 
+def _is_strict_labels() -> bool:
+    """STRICT_JURISDICTION_LABELS env var toggle.
+
+    When true, every signalled jurisdiction must have an explicit label.
+    Default (false) accepts partial labelling (at least one label is OK).
+    """
+    return os.environ.get("STRICT_JURISDICTION_LABELS", "").lower() in {"true", "1", "yes"}
+
+
 def check_jurisdiction_labels(text: str) -> list[Finding]:
     """Warn when a multi-jurisdiction answer has no explicit jurisdiction labels.
 
     Per CLAUDE.md §2, comparative answers must label each jurisdiction in
     its own section ('EU GDPR:', 'California:', 'Korea PIPA:').
 
-    Trigger: signalled jurisdictions ≥ 2 AND no jurisdiction has a label.
-    Skip: single-jurisdiction (no label needed).
-    Skip: at least one labelled jurisdiction (partial structure is OK).
+    Default mode:
+      Trigger: ≥2 signals AND no jurisdiction has a label.
+      Skip: at least one labelled jurisdiction (partial structure is OK).
+
+    STRICT mode (STRICT_JURISDICTION_LABELS=true):
+      Trigger: ≥2 signals AND any signalled juris missing a label.
+      Skip: only when every signalled juris has a label.
     """
     signalled = detect_jurisdictions_from_signals(text)
     if len(signalled) < 2:
         return []
     labelled = find_labelled_jurisdictions(text)
+
+    if _is_strict_labels():
+        unlabelled = signalled - labelled
+        if not unlabelled:
+            return []
+        return [Finding(
+            severity="warn",
+            message=(
+                f"Multi-jurisdiction answer (signals: {sorted(signalled)}) is "
+                f"missing labels for: {sorted(unlabelled)} (STRICT mode)."
+            ),
+            suggested_fix=(
+                "STRICT_JURISDICTION_LABELS env var is set. Each signalled "
+                "jurisdiction must have an explicit label heading. Add labels "
+                "for the missing jurisdictions or unset STRICT_JURISDICTION_LABELS."
+            ),
+        )]
+
     if labelled:
         return []
     return [Finding(

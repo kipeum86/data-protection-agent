@@ -255,3 +255,43 @@ def test_applicable_law_with_nearby_id_passes():
         f for f in result["findings"] if "Vague law reference" in f["message"]
     ]
     assert not vague_findings
+
+
+def test_strict_mode_partial_labels_warns(monkeypatch):
+    monkeypatch.setenv("STRICT_JURISDICTION_LABELS", "true")
+    text = (
+        "California: CCPA covers personal information.\n\n"
+        "GDPR Article 6 sets lawful bases."
+    )
+    result = audit(text)
+    assert any(
+        "missing labels for" in f["message"] for f in result["findings"]
+    )
+
+
+def test_strict_mode_all_labels_passes(monkeypatch):
+    monkeypatch.setenv("STRICT_JURISDICTION_LABELS", "true")
+    text = (
+        "California: CCPA covers personal information.\n\n"
+        "EU GDPR: GDPR Article 6 sets lawful bases."
+    )
+    result = audit(text)
+    label_findings = [
+        f for f in result["findings"]
+        if "missing labels" in f["message"] or "lacks explicit" in f["message"]
+    ]
+    assert not label_findings
+
+
+def test_default_mode_partial_labels_passes(monkeypatch):
+    monkeypatch.delenv("STRICT_JURISDICTION_LABELS", raising=False)
+    text = (
+        "California: CCPA covers personal information.\n\n"
+        "GDPR Article 6 sets lawful bases."
+    )
+    result = audit(text)
+    label_findings = [
+        f for f in result["findings"]
+        if "missing labels" in f["message"] or "lacks explicit" in f["message"]
+    ]
+    assert not label_findings
