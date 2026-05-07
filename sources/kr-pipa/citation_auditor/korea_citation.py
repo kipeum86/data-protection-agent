@@ -134,18 +134,30 @@ def guideline_citations(text: str) -> list[tuple[str, str]]:
     return _dedupe(results)
 
 
+def _strip_inline_code(text: str) -> str:
+    """Remove backtick-delimited code spans and fenced blocks before
+    id-pattern matching (markdown paths in backticks are not citations).
+    """
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`[^`]*`", " ", text)
+    return text
+
+
 def local_id_citations(text: str) -> list[str]:
     candidates = []
+    cleaned = _strip_inline_code(text)
     # NOTE: alternation order matters in Python re (leftmost match).
     # Longer prefixes (network-act-enforcement-rule) must come BEFORE
     # shorter prefixes (network-act) so the longer one wins.
+    # Citation IDs are lowercase by convention; no re.I flag, to avoid
+    # matching prose hyphenations.
     for match in re.finditer(
         r"\b(?:network-act-enforcement-rule|pipa|network-act|"
         r"credit-info-act|location-info-act|"
         r"e-government-act|pipc-guideline|kr-court)-[a-z0-9][a-z0-9.-]*\b",
-        text, flags=re.I,
+        cleaned,
     ):
-        candidates.append(match.group(0).lower().rstrip(".,;:)"))
+        candidates.append(match.group(0).rstrip(".,;:)"))
     return sorted(set(candidates))
 
 

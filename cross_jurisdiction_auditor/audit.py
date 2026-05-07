@@ -188,6 +188,12 @@ def _is_strict_labels() -> bool:
     return os.environ.get("STRICT_JURISDICTION_LABELS", "").lower() in {"true", "1", "yes"}
 
 
+FALLBACK_MODE_RE = re.compile(
+    r"Research\s+mode:\s*`(?:fallback|fallback_us)`",
+    flags=re.I,
+)
+
+
 def check_jurisdiction_labels(text: str) -> list[Finding]:
     """Warn when a multi-jurisdiction answer has no explicit jurisdiction labels.
 
@@ -197,11 +203,15 @@ def check_jurisdiction_labels(text: str) -> list[Finding]:
     Default mode:
       Trigger: ≥2 signals AND no jurisdiction has a label.
       Skip: at least one labelled jurisdiction (partial structure is OK).
+      Skip: answer's Route Context declares a fallback mode (no real
+            multi-jurisdiction analysis is being attempted).
 
     STRICT mode (STRICT_JURISDICTION_LABELS=true):
       Trigger: ≥2 signals AND any signalled juris missing a label.
-      Skip: only when every signalled juris has a label.
+      Skip: only when every signalled juris has a label, or fallback mode.
     """
+    if FALLBACK_MODE_RE.search(text):
+        return []
     signalled = detect_jurisdictions_from_signals(text)
     if len(signalled) < 2:
         return []

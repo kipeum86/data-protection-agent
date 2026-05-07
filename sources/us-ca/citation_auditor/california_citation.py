@@ -159,10 +159,30 @@ def regulation_citations(text: str) -> list[tuple[str, str]]:
     return dedupe_pairs_by_id(results)
 
 
+def _strip_inline_code(text: str) -> str:
+    """Remove backtick-delimited code spans and fenced blocks before
+    id-pattern matching. Markdown often quotes filesystem paths or local
+    KB references inside backticks (e.g., `kb/us-ca/library/...`); those
+    substrings are not citations and must not be matched as authority ids.
+    """
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`[^`]*`", " ", text)
+    return text
+
+
+NAMESPACE_TOKENS_CA = {"us-ca", "us-fed", "us-9th"}  # not citation ids on their own
+
+
 def local_id_citations(text: str) -> list[str]:
     candidates = []
-    for match in re.finditer(r"\b(?:ca|us|cppa)-[a-z0-9][a-z0-9.-]*\b", text, flags=re.I):
-        candidates.append(match.group(0).lower().rstrip(".,;:)"))
+    cleaned = _strip_inline_code(text)
+    # Citation IDs are lowercase by convention. Dropping re.I avoids
+    # matching prose hyphenations like "US-California" or "US-jurisdiction".
+    for match in re.finditer(r"\b(?:ca|us|cppa)-[a-z0-9][a-z0-9.-]*\b", cleaned):
+        token = match.group(0).rstrip(".,;:)")
+        if token in NAMESPACE_TOKENS_CA:
+            continue
+        candidates.append(token)
     return sorted(set(candidates))
 
 

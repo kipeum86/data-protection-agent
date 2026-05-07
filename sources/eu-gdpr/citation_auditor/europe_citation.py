@@ -239,16 +239,27 @@ def edpb_citations(
     return results
 
 
+def _strip_inline_code(text: str) -> str:
+    """Remove backtick-delimited code spans and fenced blocks before
+    id-pattern matching (markdown paths in backticks are not citations).
+    """
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"`[^`]*`", " ", text)
+    return text
+
+
 def local_id_citations(text: str) -> list[str]:
     candidates = []
-    # EU id prefixes observed in indexes
+    cleaned = _strip_inline_code(text)
+    # EU id prefixes observed in indexes. Citation IDs are lowercase by
+    # convention; no re.I flag, to avoid matching prose hyphenations.
     for match in re.finditer(
         r"\b(?:gdpr|eu-ai-act|data-act|data-governance-act|eprivacy-directive|"
         r"a-precedent|a-guideline|a-endorsement|a-opinion|a-letter|a-decision)"
         r"-[a-z0-9][a-z0-9.-]*\b",
-        text, flags=re.I,
+        cleaned,
     ):
-        candidates.append(match.group(0).lower().rstrip(".,;:)"))
+        candidates.append(match.group(0).rstrip(".,;:)"))
     return sorted(set(candidates))
 
 

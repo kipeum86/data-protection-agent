@@ -40,6 +40,8 @@ LEGACY_MODE_ALIASES = {
 VALID_JURISDICTIONS = {"US-CA", "KR", "EU"}
 VALID_NAMESPACES = {"us-ca", "kr-pipa", "eu-gdpr"}
 
+FALLBACK_MODES = {"fallback", "fallback_us"}
+
 REQUIRED_KEYS = {
     "meta_version",
     "summary",
@@ -166,6 +168,9 @@ def detect_result_kind(meta: dict[str, Any], result_text: str) -> str:
     return "v19_result"
 
 
+FALLBACK_NULLABLE_KEYS = {"jurisdictions", "namespaces", "sources", "issue_map", "key_findings"}
+
+
 def validate_required_keys(
     meta: dict[str, Any],
     findings: list[dict[str, str]],
@@ -177,8 +182,12 @@ def validate_required_keys(
     for key in missing:
         add_finding(findings, "error", "missing_meta_key", f"missing required meta key `{key}`", path=key)
 
+    raw_mode = meta.get("research_mode")
+    is_fallback = normalize_mode(raw_mode) in FALLBACK_MODES
+    nullable = NULLABLE_OR_EMPTY_KEYS | (FALLBACK_NULLABLE_KEYS if is_fallback else set())
+
     for key in sorted(required & set(meta)):
-        if key in NULLABLE_OR_EMPTY_KEYS:
+        if key in nullable:
             continue
         if is_empty_load_bearing(meta.get(key)):
             add_finding(findings, "error", "empty_meta_key", f"meta key `{key}` is empty", path=key)
@@ -250,8 +259,8 @@ def validate_mode_and_scope(
                         f"invalid namespace `{namespace}`",
                         path=f"namespaces[{idx}]",
                     )
-    elif strict and normalized != "fallback":
-        add_finding(findings, "error", "missing_namespaces", "`namespaces` must be present outside fallback mode")
+    elif strict and normalized not in FALLBACK_MODES:
+        add_finding(findings, "error", "missing_namespaces", "`namespaces` must be present outside fallback modes")
 
     return normalized
 
@@ -266,8 +275,8 @@ def validate_sources(
     if not isinstance(sources, list):
         add_finding(findings, "error", "invalid_sources", "`sources` must be a list", path="sources")
         return
-    if mode != "fallback" and not sources:
-        add_finding(findings, "error", "empty_sources", "`sources` must be non-empty outside fallback mode", path="sources")
+    if mode not in FALLBACK_MODES and not sources:
+        add_finding(findings, "error", "empty_sources", "`sources` must be non-empty outside fallback modes", path="sources")
 
     seen: set[str] = set()
     for idx, source in enumerate(sources):
