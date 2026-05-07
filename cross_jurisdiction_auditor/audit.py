@@ -294,6 +294,51 @@ def check_vocabulary(text: str) -> list[Finding]:
     return findings
 
 
+# Vague law reference patterns. Each entry: (regex, suggested_fix).
+# Trigger only when no specific authority id is cited within ±200 chars
+# (proximity check in check_vague_law_reference()).
+VAGUE_LAW_REFERENCES: tuple[tuple[str, str], ...] = (
+    (r"\bthe\s+law\s+(?:requires|mandates|states|prohibits|allows|provides)\b",
+     "Vague reference to 'the law'. Cite the specific statute and section."),
+    (r"\bthis\s+regulation\s+(?:requires|mandates|states|prohibits)\b",
+     "Vague reference to 'this regulation'. Cite the specific regulation and section."),
+    (r"\bin\s+some\s+jurisdictions?\b",
+     "Vague jurisdiction reference. Name the specific jurisdictions."),
+    (r"\bapplicable\s+law\s+(?:requires|may\s+require|provides)\b",
+     "'Applicable law' is too vague. Cite the specific governing law."),
+)
+
+
+def check_vague_law_reference(text: str) -> list[Finding]:
+    """Warn when text uses vague law references without nearby specific authority.
+
+    Looks for vague phrases ('the law requires', 'this regulation states', etc.)
+    and checks whether a specific authority id citation appears within 200 chars
+    before/after. If yes, skip (the vague phrase is acceptable shorthand for
+    the explicit citation). If no, warn.
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for pattern, fix in VAGUE_LAW_REFERENCES:
+        for match in re.finditer(pattern, text, flags=re.I):
+            phrase = match.group(0)
+            if phrase.lower() in seen:
+                continue
+            window_start = max(0, match.start() - 200)
+            window_end = min(len(text), match.end() + 200)
+            window = text[window_start:window_end]
+            if ID_TOKEN_RE.search(window):
+                continue  # Specific authority nearby; vague phrase is OK shorthand
+            seen.add(phrase.lower())
+            findings.append(Finding(
+                severity="warn",
+                citation=phrase,
+                message=f"Vague law reference: '{phrase}'.",
+                suggested_fix=fix,
+            ))
+    return findings
+
+
 def check_citation_routing(text: str) -> list[Finding]:
     """Warn when an answer cites authorities from a jurisdiction the text
     does not signal as in-scope.
@@ -335,6 +380,7 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_citation_routing(text))
     findings.extend(check_vocabulary(text))
     findings.extend(check_jurisdiction_labels(text))
+    findings.extend(check_vague_law_reference(text))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

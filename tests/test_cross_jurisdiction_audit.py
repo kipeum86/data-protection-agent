@@ -212,3 +212,46 @@ def test_gdpr_only_with_korean_susuctaja_warns():
         "수탁자" in f.get("citation", "")
         for f in result["findings"]
     )
+
+
+def test_vague_law_reference_alone_warns():
+    text = "The law requires businesses to obtain explicit consent before collection."
+    result = audit(text)
+    assert any(
+        "Vague law reference" in f["message"] for f in result["findings"]
+    )
+
+
+def test_vague_law_reference_with_nearby_id_passes():
+    """Specific authority within 200 chars → vague phrase is acceptable shorthand."""
+    text = (
+        "Per ca-civ-1798.100, businesses must provide notice. "
+        "The law requires this notice to appear at or before collection."
+    )
+    result = audit(text)
+    vague_findings = [
+        f for f in result["findings"] if "Vague law reference" in f["message"]
+    ]
+    assert not vague_findings
+
+
+def test_in_some_jurisdictions_warns():
+    text = "In some jurisdictions, opt-in consent is required for tracking pixels."
+    result = audit(text)
+    assert any(
+        "Vague law reference" in f["message"]
+        and "in some jurisdictions" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_applicable_law_with_nearby_id_passes():
+    text = (
+        "Applicable law may require additional consent for sensitive data. "
+        "See gdpr-art9 and ca-civ-1798.121 for the relevant provisions."
+    )
+    result = audit(text)
+    vague_findings = [
+        f for f in result["findings"] if "Vague law reference" in f["message"]
+    ]
+    assert not vague_findings
