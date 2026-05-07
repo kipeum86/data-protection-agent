@@ -26,9 +26,13 @@ build/
 *.log
 
 # Planning/session notes that should stay local
+.local/
+docs/_archive-local/
+docs/_planning-local/
 merged-data-protection-agent.md
 docs/*implementation*.md
 docs/*hardening*.md
+docs/*plan*.md
 docs/*session*.md
 docs/session-*.md
 
