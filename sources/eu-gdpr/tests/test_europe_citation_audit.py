@@ -168,3 +168,42 @@ def test_edpb_guidelines_as_interpretive_passes():
         if "EDPB non-binding document cited as binding" in f["message"]
     ]
     assert not binding_findings
+
+
+def test_load_future_effective_articles_returns_dict():
+    """Smoke: function returns dict and parses YYYYMMDD."""
+    from citation_auditor.europe_citation import load_future_effective_articles
+    from datetime import date
+    result = load_future_effective_articles()
+    assert isinstance(result, dict)
+    for aid, eff in result.items():
+        assert len(eff) == 8 and eff.isdigit()
+        date(int(eff[:4]), int(eff[4:6]), int(eff[6:8]))
+
+
+def test_eu_future_effective_cited_with_present_tense_warns():
+    """Skip if no future-effective EU articles in current index."""
+    from citation_auditor.europe_citation import load_future_effective_articles
+    future = load_future_effective_articles()
+    if not future:
+        return
+    aid = next(iter(future))
+    result = audit(f"Per {aid}, controllers currently require additional consent.")
+    assert any(
+        "(future)" in f.get("message", "") and aid in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_eu_future_effective_with_future_framing_passes():
+    from citation_auditor.europe_citation import load_future_effective_articles
+    future = load_future_effective_articles()
+    if not future:
+        return
+    aid, eff = next(iter(future.items()))
+    result = audit(f"Per {aid}, controllers will require consent effective {eff}.")
+    future_findings = [
+        f for f in result["findings"]
+        if "(future)" in f.get("message", "") and aid in f.get("citation", "")
+    ]
+    assert not future_findings

@@ -16,6 +16,7 @@ import json
 import re
 import sys
 from dataclasses import asdict, dataclass
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -82,6 +83,33 @@ def load_ecli_lookup() -> dict[str, str]:
         for c in cases
         if c.get("ecli") and c.get("id")
     }
+
+
+def _parse_yyyymmdd(s: str) -> date | None:
+    if not s or len(s) != 8 or not s.isdigit():
+        return None
+    try:
+        return date(int(s[:4]), int(s[4:6]), int(s[6:8]))
+    except ValueError:
+        return None
+
+
+def load_future_effective_articles() -> dict[str, str]:
+    """Returns {article_id: effective_date_str} for EU articles whose
+    effective_date (YYYYMMDD) is in the future.
+
+    Used to flag answers that cite future-effective EU authority with
+    present-tense language ('currently', 'requires', 'is in effect').
+    """
+    today = date.today()
+    out: dict[str, str] = {}
+    for art in load_json("article-index.json").get("articles", []):
+        aid = art.get("id")
+        eff = art.get("effective_date", "")
+        ed = _parse_yyyymmdd(eff)
+        if aid and ed and ed > today:
+            out[aid] = eff
+    return out
 
 
 def load_edpb_lookup() -> dict[str, str]:
@@ -254,6 +282,57 @@ EDPB_BINDING_VERBS_RE = re.compile(
 )
 
 
+EU_PRESENT_TENSE_RE = re.compile(
+    r"\b(?:currently|now|is\s+in\s+effect|requires|mandates|prohibits|"
+    r"provides|allows)\b",
+    flags=re.I,
+)
+EU_FUTURE_FRAMING_RE = re.compile(
+    r"\b(?:will\s+(?:require|mandate|prohibit|take\s+effect|come\s+into\s+force)|"
+    r"effective\s+\d{4}|upcoming|forthcoming|pending|adopted\s+but\s+not\s+yet)\b",
+    flags=re.I,
+)
+
+
+def check_future_effective_cited_as_current(
+    text: str,
+    future_arts: dict[str, str],
+) -> list[Finding]:
+    """Warn when a future-effective EU article id is cited with present-tense
+    language and no future-framing nearby.
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for aid, eff in future_arts.items():
+        if aid not in text:
+            continue
+        for match in re.finditer(re.escape(aid), text, flags=re.I):
+            window_start = max(0, match.start() - 200)
+            window_end = min(len(text), match.end() + 200)
+            window = text[window_start:window_end]
+            if not EU_PRESENT_TENSE_RE.search(window):
+                continue
+            if EU_FUTURE_FRAMING_RE.search(window):
+                continue
+            if aid in seen:
+                continue
+            seen.add(aid)
+            findings.append(Finding(
+                severity="warn",
+                citation=aid,
+                message=(
+                    f"EU authority {aid} cited with present-tense language "
+                    f"but effective date is {eff} (future)."
+                ),
+                suggested_fix=(
+                    f"Frame as 'will require' or note effective date {eff}, "
+                    f"rather than present tense."
+                ),
+            ))
+            break
+    return findings
+
+
 def check_edpb_doc_as_binding(
     text: str,
     edpb_hits: list[tuple[str, str | None]],
@@ -320,6 +399,7 @@ def audit(text: str) -> dict[str, Any]:
     case_lookup = load_case_lookup()
     ecli_lookup = load_ecli_lookup()
     edpb_lookup = load_edpb_lookup()
+    future_arts = load_future_effective_articles()
     findings: list[Finding] = []
 
     article_hits = article_citations(text)
@@ -392,6 +472,7 @@ def audit(text: str) -> dict[str, Any]:
 
     findings.extend(check_recital_as_binding(text))
     findings.extend(check_edpb_doc_as_binding(text, edpb_hits))
+    findings.extend(check_future_effective_cited_as_current(text, future_arts))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {
