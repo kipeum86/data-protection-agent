@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          if [ -f sources/us-ca/requirements.txt ]; then
+            pip install -r sources/us-ca/requirements.txt
+          fi
+
+      - name: Build California KB
+        run: |
+          cd sources/us-ca
+          python3 scripts/build_california_kb.py --validate
+
+      - name: CA sub-auditor tests
+        run: |
+          cd sources/us-ca
+          PYTHONPATH=. python -m pytest -q tests
+
+      - name: KR sub-auditor tests (skipped if sibling KB absent)
+        run: |
+          if [ -f kb/kr-pipa/index/article-index.json ]; then
+            cd sources/kr-pipa
+            PYTHONPATH=. python -m pytest -q tests
+          else
+            echo "kb/kr-pipa/index/ absent (sibling PIPA-expert not on CI). Skipping KR tests."
+          fi
+
+      - name: EU sub-auditor tests (skipped if sibling KB absent)
+        run: |
+          if [ -f kb/eu-gdpr/index/article-index.json ]; then
+            cd sources/eu-gdpr
+            PYTHONPATH=. python -m pytest -q tests
+          else
+            echo "kb/eu-gdpr/index/ absent (sibling GDPR-expert not on CI). Skipping EU tests."
+          fi
+
+      - name: Cross-cutting tests
+        run: PYTHONPATH=. python -m pytest -q tests
+
+      - name: Auditor CLI smoke tests
+        run: |
+          echo "Cal. Civ. Code § 1798.150 grants a private right of action." | \
+            python3 sources/us-ca/scripts/audit-california-citations.py
+          echo "Under CCPA, see gdpr-art6 for parallels." | \
+            python3 scripts/audit-cross-jurisdiction.py
+          # unified runner needs all 3 sub-KBs in kb/. Skip on CI when
+          # sibling KBs are unavailable.
+          if [ -f kb/kr-pipa/index/article-index.json ] && [ -f kb/eu-gdpr/index/article-index.json ]; then
+            echo "Cal. Civ. Code § 1798.150 grants a private right of action." | \
+              python3 scripts/audit-unified.py
+          else
+            echo "Skipping unified runner smoke (sibling KBs not imported on CI)."
+          fi
