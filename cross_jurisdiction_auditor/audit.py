@@ -159,6 +159,55 @@ _ASCII_LB = r"(?<![A-Za-z])"
 _ASCII_LA = r"(?![A-Za-z])"
 
 
+# Canonical jurisdiction labels and common variants.
+# Pattern matches a label-like phrase (jurisdiction name + ':' or '—' or '-')
+# at the start of a line OR after a paragraph break.
+JURISDICTION_LABEL_PATTERNS: dict[str, str] = {
+    "us-ca": r"(?:^|\n\n|\n)\s*(?:\*\*)?(?:California|CCPA|CPRA|US-CA|미국 캘리포니아)(?:\*\*)?\s*[:：—–\-]",
+    "eu-gdpr": r"(?:^|\n\n|\n)\s*(?:\*\*)?(?:EU\s+GDPR|GDPR|EU|유럽|유럽연합)(?:\*\*)?\s*[:：—–\-]",
+    "kr-pipa": r"(?:^|\n\n|\n)\s*(?:\*\*)?(?:Korea\s+PIPA|PIPA|한국|대한민국)(?:\*\*)?\s*[:：—–\-]",
+}
+
+
+def find_labelled_jurisdictions(text: str) -> set[str]:
+    """Returns set of jurisdictions whose canonical label appears in text."""
+    found: set[str] = set()
+    for juris, pattern in JURISDICTION_LABEL_PATTERNS.items():
+        if re.search(pattern, text, flags=re.M | re.I):
+            found.add(juris)
+    return found
+
+
+def check_jurisdiction_labels(text: str) -> list[Finding]:
+    """Warn when a multi-jurisdiction answer has no explicit jurisdiction labels.
+
+    Per CLAUDE.md §2, comparative answers must label each jurisdiction in
+    its own section ('EU GDPR:', 'California:', 'Korea PIPA:').
+
+    Trigger: signalled jurisdictions ≥ 2 AND no jurisdiction has a label.
+    Skip: single-jurisdiction (no label needed).
+    Skip: at least one labelled jurisdiction (partial structure is OK).
+    """
+    signalled = detect_jurisdictions_from_signals(text)
+    if len(signalled) < 2:
+        return []
+    labelled = find_labelled_jurisdictions(text)
+    if labelled:
+        return []
+    return [Finding(
+        severity="warn",
+        message=(
+            f"Multi-jurisdiction answer (signals: {sorted(signalled)}) lacks "
+            f"explicit jurisdiction labels."
+        ),
+        suggested_fix=(
+            "Per CLAUDE.md §2, comparative answers must label each "
+            "jurisdiction in its own section. Use headings like "
+            "'EU GDPR:', 'California:', 'Korea PIPA:' or equivalent."
+        ),
+    )]
+
+
 # Vocabulary that "belongs" to one jurisdiction. If the text signals only
 # OTHER jurisdiction(s) but uses these terms, warn. Comparative context
 # (multi-jurisdiction signal) skips this check.
@@ -264,6 +313,7 @@ def audit(text: str) -> dict[str, Any]:
     findings: list[Finding] = []
     findings.extend(check_citation_routing(text))
     findings.extend(check_vocabulary(text))
+    findings.extend(check_jurisdiction_labels(text))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

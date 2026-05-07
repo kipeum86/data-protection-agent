@@ -130,3 +130,49 @@ def test_pipa_only_with_controller_warns():
         "controller" in f.get("citation", "").lower()
         for f in result["findings"]
     )
+
+
+def test_multi_juris_with_labels_passes():
+    text = (
+        "EU GDPR: GDPR Article 6 sets lawful bases.\n\n"
+        "California: CCPA gives consumers the right to opt-out."
+    )
+    result = audit(text)
+    label_findings = [
+        f for f in result["findings"]
+        if "lacks explicit jurisdiction labels" in f["message"]
+    ]
+    assert not label_findings
+
+
+def test_multi_juris_without_labels_warns():
+    text = "GDPR Article 6 sets lawful bases. CCPA gives consumers the right to opt-out."
+    result = audit(text)
+    assert any(
+        "lacks explicit jurisdiction labels" in f["message"]
+        for f in result["findings"]
+    )
+
+
+def test_single_juris_no_label_required():
+    text = "Under CCPA, the business must honor opt-out within 15 days."
+    result = audit(text)
+    label_findings = [
+        f for f in result["findings"]
+        if "lacks explicit jurisdiction labels" in f["message"]
+    ]
+    assert not label_findings
+
+
+def test_partial_labels_pass():
+    """Partial labelling counts as structured (don't perfectionism-block)."""
+    text = (
+        "California: CCPA covers personal information.\n\n"
+        "GDPR Article 6 sets lawful bases."
+    )
+    result = audit(text)
+    label_findings = [
+        f for f in result["findings"]
+        if "lacks explicit jurisdiction labels" in f["message"]
+    ]
+    assert not label_findings
