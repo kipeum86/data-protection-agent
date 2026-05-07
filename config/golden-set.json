@@ -2,6 +2,70 @@
   "version": "2026-05-06",
   "description": "Golden-set smoke evaluation for the local data-protection-agent runner. These checks verify routing, output-contract metadata, and retrieval of core local authorities; they do not judge final legal prose.",
   "default_top_k": 14,
+  "fixtures": [
+    {
+      "id": "g_ca_001",
+      "question": "Under California law, when must a business give notice at collection?",
+      "expected_mode": "ca_only",
+      "expected_runner_mode": "california",
+      "expected_jurisdictions": ["US-CA"],
+      "expected_namespaces": ["us-ca"],
+      "expected_authority_prefixes": ["ca-civ-1798.100"],
+      "forbidden_authority_namespaces": ["kr-pipa", "eu-gdpr"],
+      "min_sources": 1,
+      "expected_coverage_gaps": []
+    },
+    {
+      "id": "g_kr_001",
+      "question": "Under Korean PIPA Article 15, what authority governs consent and personal information processing?",
+      "expected_mode": "kr_only",
+      "expected_runner_mode": "pipa",
+      "expected_jurisdictions": ["KR"],
+      "expected_namespaces": ["kr-pipa"],
+      "expected_authority_prefixes": ["pipa-art15"],
+      "forbidden_authority_namespaces": ["us-ca", "eu-gdpr"],
+      "min_sources": 1,
+      "expected_coverage_gaps": []
+    },
+    {
+      "id": "g_eu_001",
+      "question": "Under GDPR, what authority governs lawful basis for processing personal data?",
+      "expected_mode": "eu_only",
+      "expected_runner_mode": "gdpr",
+      "expected_jurisdictions": ["EU"],
+      "expected_namespaces": ["eu-gdpr"],
+      "expected_authority_prefixes": ["gdpr-art6"],
+      "forbidden_authority_namespaces": ["us-ca", "kr-pipa"],
+      "min_sources": 1,
+      "expected_coverage_gaps": []
+    },
+    {
+      "id": "g_multi_001",
+      "question": "What does each regime require for consent under Korean PIPA, GDPR, and California CCPA?",
+      "expected_mode": "multi_jurisdiction",
+      "expected_runner_mode": "comparative",
+      "expected_jurisdictions": ["EU", "KR", "US-CA"],
+      "expected_namespaces": ["eu-gdpr", "kr-pipa", "us-ca"],
+      "expected_authority_prefixes": [],
+      "forbidden_authority_namespaces": [],
+      "min_sources": 9,
+      "top_k": 18,
+      "expected_coverage_gaps": []
+    },
+    {
+      "id": "g_comp_001",
+      "question": "Compare lawful basis under GDPR vs notice under CCPA vs consent under PIPA.",
+      "expected_mode": "comparative",
+      "expected_runner_mode": "comparative",
+      "expected_jurisdictions": ["EU", "KR", "US-CA"],
+      "expected_namespaces": ["eu-gdpr", "kr-pipa", "us-ca"],
+      "expected_authority_prefixes": ["gdpr-art6", "ca-civ-1798.100"],
+      "forbidden_authority_namespaces": [],
+      "min_sources": 9,
+      "top_k": 18,
+      "expected_coverage_gaps": []
+    }
+  ],
   "cases": [
     {
       "id": "kr-pipa-pseudonymized-art28-2",
