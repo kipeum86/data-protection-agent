@@ -8,6 +8,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass, asdict
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -79,6 +80,33 @@ def load_regulation_metadata() -> dict[str, dict[str, str]]:
         for reg in regs
         if reg.get("id")
     }
+
+
+def load_future_effective_authorities() -> dict[str, str]:
+    """Returns {authority_id: effective_date} for statutes/regulations whose
+    effective date is in the future (after today).
+
+    Used to flag answers that cite future-effective authority with present-tense
+    language ("currently requires", "is in effect", etc.).
+    """
+    today = date.today()
+    out: dict[str, str] = {}
+    for index_name, key in (
+        ("ca-statute-index.json", "items"),
+        ("ca-adjacent-statute-index.json", "items"),
+        ("ca-regulation-index.json", "items"),
+    ):
+        for entry in load_json(index_name).get(key, []):
+            eff = entry.get("effective_date", "")
+            if not eff or not entry.get("id"):
+                continue
+            try:
+                eff_date = date.fromisoformat(eff)
+            except ValueError:
+                continue
+            if eff_date > today:
+                out[entry["id"]] = eff
+    return out
 
 
 def load_mirror_case_ids() -> set[str]:
@@ -221,6 +249,61 @@ def check_unpublished_as_controlling(text: str, case_meta: dict[str, dict[str, s
     return findings
 
 
+PRESENT_TENSE_RE = re.compile(
+    r"\b(?:currently|now|is\s+in\s+effect|takes\s+effect\s+now|"
+    r"requires|mandates|prohibits|provides|allows)\b",
+    flags=re.I,
+)
+FUTURE_FRAMING_RE = re.compile(
+    r"\b(?:will\s+(?:require|mandate|prohibit|take\s+effect|come\s+into\s+force)|"
+    r"effective\s+\d{4}|upcoming|forthcoming|pending)\b",
+    flags=re.I,
+)
+
+
+def check_future_effective_cited_as_current(
+    text: str,
+    future_auths: dict[str, str],
+) -> list[Finding]:
+    """Warn when a future-effective authority is cited with present-tense
+    language and no future-framing language nearby.
+
+    Skip when nearby text uses future-framing ('will require', 'effective YYYY',
+    'upcoming') — that signals the answer correctly frames the future status.
+    """
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for aid, eff in future_auths.items():
+        if aid not in text:
+            continue
+        for match in re.finditer(re.escape(aid), text, flags=re.I):
+            window_start = max(0, match.start() - 200)
+            window_end = min(len(text), match.end() + 200)
+            window = text[window_start:window_end]
+            if not PRESENT_TENSE_RE.search(window):
+                continue
+            if FUTURE_FRAMING_RE.search(window):
+                continue
+            if aid in seen:
+                continue
+            seen.add(aid)
+            findings.append(Finding(
+                severity="warn",
+                citation=aid,
+                message=(
+                    f"Authority {aid} cited with present-tense language but "
+                    f"effective date is {eff} (future)."
+                ),
+                suggested_fix=(
+                    f"Frame as 'will require' or 'effective {eff}' rather than "
+                    f"present tense, or remove the citation if the question is "
+                    f"about currently-in-force law only."
+                ),
+            ))
+            break
+    return findings
+
+
 def check_mirror_cited_without_disclosure(
     text: str,
     mirror_ids: set[str],
@@ -310,6 +393,7 @@ def audit(text: str) -> dict[str, Any]:
     case_meta = load_case_metadata()
     reg_meta = load_regulation_metadata()
     mirror_ids = load_mirror_case_ids()
+    future_auths = load_future_effective_authorities()
     findings: list[Finding] = []
 
     statute_hits = statute_citations(text)
@@ -391,6 +475,7 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_federal_case_as_ca_binding(text, case_meta, local_ids))
     findings.extend(check_regulation_2026_source_required(text, reg_meta, regulation_hits))
     findings.extend(check_mirror_cited_without_disclosure(text, mirror_ids))
+    findings.extend(check_future_effective_cited_as_current(text, future_auths))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

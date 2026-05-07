@@ -127,3 +127,46 @@ def test_non_mirror_case_not_warned_for_disclosure():
         "Mirror-backed opinion" in finding["message"]
         for finding in result["findings"]
     )
+
+
+def test_load_future_effective_returns_dict():
+    """Smoke: function returns dict and doesn't crash on real index."""
+    from citation_auditor.california_citation import load_future_effective_authorities
+    from datetime import date
+    result = load_future_effective_authorities()
+    assert isinstance(result, dict)
+    for aid, eff in result.items():
+        # Each value should be a date string parseable as ISO
+        assert date.fromisoformat(eff)
+
+
+def test_future_effective_cited_with_present_tense_warns():
+    """If the live index has any future-effective authorities, citing one
+    with present-tense language should warn. Skip if none exist."""
+    from citation_auditor.california_citation import load_future_effective_authorities
+    future = load_future_effective_authorities()
+    if not future:
+        return  # no future-effective authorities — graceful skip
+    aid = next(iter(future))
+    result = audit(f"Per {aid}, businesses currently require additional consent.")
+    assert any(
+        "(future)" in finding.get("message", "")
+        and aid in finding.get("citation", "")
+        for finding in result["findings"]
+    )
+
+
+def test_future_effective_cited_with_future_framing_passes():
+    from citation_auditor.california_citation import load_future_effective_authorities
+    future = load_future_effective_authorities()
+    if not future:
+        return
+    aid, eff = next(iter(future.items()))
+    result = audit(
+        f"Per {aid}, businesses will require additional consent effective {eff}."
+    )
+    future_findings = [
+        f for f in result["findings"]
+        if "(future)" in f.get("message", "") and aid in f.get("citation", "")
+    ]
+    assert not future_findings
