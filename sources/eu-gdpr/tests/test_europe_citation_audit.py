@@ -207,3 +207,45 @@ def test_eu_future_effective_with_future_framing_passes():
         if "(future)" in f.get("message", "") and aid in f.get("citation", "")
     ]
     assert not future_findings
+
+
+def test_load_authority_body_returns_text_eu():
+    from citation_auditor.europe_citation import _build_path_lookup, load_authority_body
+    body = load_authority_body("gdpr-art1", _build_path_lookup())
+    assert body and "personal data" in body.lower()
+
+
+def test_quote_matching_body_passes_eu():
+    text = (
+        'GDPR Article 1 states "This Regulation lays down rules relating to '
+        'the protection of natural persons" as its core scope.'
+    )
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings, f"unexpected quote findings: {result['findings']}"
+
+
+def test_fabricated_quote_near_citation_warns_eu():
+    text = (
+        'GDPR Article 1 states "All controllers must encrypt all personal data '
+        'within twenty-four hours of every collection event without exception".'
+    )
+    result = audit(text)
+    assert any(
+        "Quoted text not found" in f.get("message", "")
+        and "gdpr-art1" in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_quote_without_citation_skipped_eu():
+    text = '"Some random made-up text that does not appear in any KB authority body."'
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings

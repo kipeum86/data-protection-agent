@@ -394,6 +394,155 @@ def check_recital_as_binding(text: str) -> list[Finding]:
     return findings
 
 
+EU_INDEXES_WITH_PATH = (
+    ("article-index.json", "articles"),
+    ("recital-index.json", "recitals"),
+    ("case-index.json", "cases"),
+    ("edpb-document-index.json", "documents"),
+)
+
+QUOTE_PATTERNS_EU = (
+    re.compile(r'"([^"]{25,500})"'),
+    re.compile(r"“([^”]{25,500})”"),
+)
+
+EU_KB_ROOT = BASE_DIR / "kb" / "eu-gdpr"
+
+
+def _build_path_lookup() -> dict[str, str]:
+    """Returns {authority_id: relpath} from EU indexes that carry a path."""
+    out: dict[str, str] = {}
+    for index_name, key in EU_INDEXES_WITH_PATH:
+        for item in load_json(index_name).get(key, []):
+            aid = item.get("id")
+            relpath = item.get("path")
+            if aid and relpath:
+                out[aid] = relpath
+    return out
+
+
+def _strip_frontmatter(content: str) -> str:
+    m = re.match(r"^---\n.*?\n---\n", content, flags=re.S)
+    return content[m.end():] if m else content
+
+
+def load_authority_body(authority_id: str, path_lookup: dict[str, str]) -> str | None:
+    relpath = path_lookup.get(authority_id)
+    if not relpath:
+        return None
+    fpath = EU_KB_ROOT / relpath
+    if not fpath.exists():
+        return None
+    return _strip_frontmatter(fpath.read_text(encoding="utf-8"))
+
+
+def _extract_quotes(text: str) -> list[tuple[str, int]]:
+    out: list[tuple[str, int]] = []
+    for pat in QUOTE_PATTERNS_EU:
+        for match in pat.finditer(text):
+            out.append((match.group(1), match.start(1)))
+    return out
+
+
+def _looks_like_citation_only(quote: str) -> bool:
+    if len(quote) < 30 and re.match(r"^[A-Z][\w\s.§/-]+$", quote):
+        return True
+    if re.match(r"^\s*(?:Article|Art\.|Recital|Case|ECLI)", quote, flags=re.I):
+        return True
+    return False
+
+
+def _normalize_for_match(s: str) -> str:
+    return re.sub(r"\s+", " ", s.lower()).strip()
+
+
+def _quote_matches_body(quote: str, body: str) -> bool:
+    nq = _normalize_for_match(quote)
+    nb = _normalize_for_match(body)
+    if nq in nb:
+        return True
+    qt = [t for t in re.split(r"\W+", nq) if len(t) >= 3]
+    if len(qt) < 5:
+        return False
+    threshold = max(1, int(len(qt) * 0.8))
+    bt = re.split(r"\W+", nb)
+    win = max(int(len(qt) * 1.5), len(qt) + 5)
+    step = max(1, len(qt) // 4)
+    for i in range(0, max(0, len(bt) - len(qt)) + 1, step):
+        if sum(1 for t in qt if t in bt[i:i + win]) >= threshold:
+            return True
+    return False
+
+
+def _build_citation_positions(
+    text: str,
+    case_lookup: dict[str, str],
+    ecli_lookup: dict[str, str],
+    edpb_lookup: dict[str, str],
+) -> list[tuple[int, str]]:
+    positions: list[tuple[int, str]] = []
+    pairs: list[tuple[str, str | None]] = (
+        article_citations(text)
+        + recital_citations(text)
+        + case_number_citations(text, case_lookup)
+        + ecli_citations(text, ecli_lookup)
+        + edpb_citations(text, edpb_lookup)
+    )
+    for citation, source_id in pairs:
+        if not source_id:
+            continue
+        for match in re.finditer(re.escape(citation), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    for source_id in local_id_citations(text):
+        for match in re.finditer(re.escape(source_id), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    return positions
+
+
+def check_quote_integrity(
+    text: str,
+    path_lookup: dict[str, str],
+    case_lookup: dict[str, str],
+    ecli_lookup: dict[str, str],
+    edpb_lookup: dict[str, str],
+) -> list[Finding]:
+    findings: list[Finding] = []
+    quotes = _extract_quotes(text)
+    if not quotes:
+        return findings
+    positions = _build_citation_positions(text, case_lookup, ecli_lookup, edpb_lookup)
+    if not positions:
+        return findings
+    for quote, qstart in quotes:
+        if _looks_like_citation_only(quote):
+            continue
+        nearby = sorted({sid for off, sid in positions if abs(off - qstart) <= 300})
+        if not nearby:
+            continue
+        checked: list[str] = []
+        matched = False
+        for cid in nearby:
+            body = load_authority_body(cid, path_lookup)
+            if body is None:
+                continue
+            checked.append(cid)
+            if _quote_matches_body(quote, body):
+                matched = True
+                break
+        if checked and not matched:
+            preview = quote[:80] + ("..." if len(quote) > 80 else "")
+            findings.append(Finding(
+                severity="warn",
+                citation=", ".join(checked),
+                message=f'Quoted text not found in cited authority: "{preview}"',
+                suggested_fix=(
+                    "Verify the quote against the local authority body, "
+                    "or paraphrase and remove quotation marks."
+                ),
+            ))
+    return findings
+
+
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
     case_lookup = load_case_lookup()
@@ -473,6 +622,9 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_recital_as_binding(text))
     findings.extend(check_edpb_doc_as_binding(text, edpb_hits))
     findings.extend(check_future_effective_cited_as_current(text, future_arts))
+    findings.extend(check_quote_integrity(
+        text, _build_path_lookup(), case_lookup, ecli_lookup, edpb_lookup
+    ))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {
