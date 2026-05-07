@@ -150,6 +150,80 @@ def detect_cited_jurisdictions(text: str) -> dict[str, list[str]]:
     return out
 
 
+# ASCII-letter boundary (NOT Python's \b, which treats Hangul as word
+# character and so '\bcontroller\b' fails to match 'controller' inside
+# 'controller는'). These lookarounds restrict the boundary to ASCII letters
+# only, so any non-ASCII-letter neighbor (whitespace, hyphen, Hangul,
+# punctuation) counts as a boundary.
+_ASCII_LB = r"(?<![A-Za-z])"
+_ASCII_LA = r"(?![A-Za-z])"
+
+
+# Vocabulary that "belongs" to one jurisdiction. If the text signals only
+# OTHER jurisdiction(s) but uses these terms, warn. Comparative context
+# (multi-jurisdiction signal) skips this check.
+VOCAB_BY_JURISDICTION: tuple[tuple[str, str, str], ...] = (
+    # GDPR-specific terminology
+    (_ASCII_LB + r"personal\s+data" + _ASCII_LA, "eu-gdpr",
+     "'personal information' (CCPA/PIPA term)"),
+    (_ASCII_LB + r"lawful\s+bas[ei]s" + _ASCII_LA, "eu-gdpr",
+     "CCPA does not use 'lawful basis'; cite § 1798.100 notice-at-collection"),
+    (_ASCII_LB + r"data\s+subject" + _ASCII_LA, "eu-gdpr",
+     "'consumer' (CCPA) or '정보주체' (PIPA)"),
+    (_ASCII_LB + r"controller" + _ASCII_LA, "eu-gdpr",
+     "'business' (CCPA) or '개인정보처리자' (PIPA)"),
+    (_ASCII_LB + r"processor" + _ASCII_LA, "eu-gdpr",
+     "'service provider' (CCPA) or '수탁자' (PIPA)"),
+
+    # CCPA-specific terminology
+    (_ASCII_LB + r"personal\s+information" + _ASCII_LA, "us-ca",
+     "'personal data' (GDPR)"),
+    (_ASCII_LB + r"notice\s+at\s+collection" + _ASCII_LA, "us-ca",
+     "GDPR uses Article 13/14 information duties instead"),
+    (_ASCII_LB + r"service\s+provider" + _ASCII_LA, "us-ca",
+     "GDPR uses 'processor'"),
+
+    # PIPA-specific terminology (Korean — substring match is fine)
+    (r"개인정보처리자", "kr-pipa", "GDPR uses 'controller' or CCPA uses 'business'"),
+    (r"정보주체", "kr-pipa", "GDPR uses 'data subject' or CCPA uses 'consumer'"),
+)
+
+
+def check_vocabulary(text: str) -> list[Finding]:
+    """Warn when text uses terminology that doesn't fit its jurisdiction signal.
+
+    Skip when text is multi-jurisdiction (comparative answer is legitimate)
+    or when no jurisdiction is signalled (cannot determine intent).
+    """
+    signalled = detect_jurisdictions_from_signals(text)
+    if not signalled or len(signalled) >= 2:
+        return []
+    primary = next(iter(signalled))
+    findings: list[Finding] = []
+    seen: set[str] = set()
+    for pattern, term_juris, alternative in VOCAB_BY_JURISDICTION:
+        if term_juris == primary:
+            continue
+        for match in re.finditer(pattern, text, flags=re.I):
+            term = match.group(0)
+            if term.lower() in seen:
+                continue
+            seen.add(term.lower())
+            findings.append(Finding(
+                severity="warn",
+                citation=term,
+                message=(
+                    f"Term '{term}' is {term_juris} terminology but answer "
+                    f"signals {primary}."
+                ),
+                suggested_fix=(
+                    f"Use {alternative}. If the answer is intentionally "
+                    f"comparative, label each jurisdiction explicitly."
+                ),
+            ))
+    return findings
+
+
 def check_citation_routing(text: str) -> list[Finding]:
     """Warn when an answer cites authorities from a jurisdiction the text
     does not signal as in-scope.
@@ -189,6 +263,7 @@ def check_citation_routing(text: str) -> list[Finding]:
 def audit(text: str) -> dict[str, Any]:
     findings: list[Finding] = []
     findings.extend(check_citation_routing(text))
+    findings.extend(check_vocabulary(text))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {

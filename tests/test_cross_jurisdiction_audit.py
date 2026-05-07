@@ -89,3 +89,44 @@ def test_detect_cited_jurisdictions_finds_all_three():
     assert "us-ca" in cited
     assert "eu-gdpr" in cited
     assert "kr-pipa" in cited
+
+
+def test_ccpa_only_with_personal_data_warns():
+    text = "Under CCPA, the business must protect personal data of California residents."
+    result = audit(text)
+    assert any(
+        "personal data" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_gdpr_only_with_personal_information_warns():
+    text = "Under GDPR, the controller must protect personal information of EU residents."
+    result = audit(text)
+    assert any(
+        "personal information" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
+
+
+def test_comparative_answer_passes_vocabulary_check():
+    """비교 답변은 vocab 체크에서도 false positive 안 떠야."""
+    text = (
+        "GDPR uses 'personal data' and 'controller'. CCPA uses "
+        "'personal information' and 'business'."
+    )
+    result = audit(text)
+    vocab_findings = [
+        f for f in result["findings"]
+        if "terminology but answer signals" in f["message"]
+    ]
+    assert not vocab_findings
+
+
+def test_pipa_only_with_controller_warns():
+    text = "개인정보 보호법에 따라 controller는 동의를 받아야 한다."
+    result = audit(text)
+    assert any(
+        "controller" in f.get("citation", "").lower()
+        for f in result["findings"]
+    )
