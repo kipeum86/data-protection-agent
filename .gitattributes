@@ -1,0 +1,10 @@
+# Linguist overrides — keep stats focused on actual project code (Python).
+#
+# Raw HTML/PDF under sources/*/raw/ is upstream provenance material
+# (CA OAG / leginfo / CPPA / SCOCAL mirrors). It is not executed at
+# runtime; the agent reads parsed Markdown under kb/*/library/. Marking
+# as vendored excludes it from the GitHub language bar without losing
+# the source-of-truth audit trail referenced by frontmatter
+# `raw_path` / `source_checksum` fields.
+sources/*/raw/**          linguist-vendored
+sources/*/tests/fixtures/*.html linguist-vendored
