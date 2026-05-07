@@ -78,6 +78,20 @@ cd sources/kr-pipa && PYTHONPATH=. pytest -q tests
 cd sources/eu-gdpr && PYTHONPATH=. pytest -q tests
 ```
 
+### Optional: pre-commit auditor hook
+
+Enable the pre-commit hook to run the unified auditor on staged `.md`
+files automatically:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook aborts commits with `error` findings and prints `warn` findings
+inline (without aborting). Disable with `git config --unset core.hooksPath`.
+
+Skip the hook for a single commit with `git commit --no-verify`.
+
 ## Architecture
 
 ```

@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# Pre-commit hook: run unified citation auditor on staged .md files.
+#
+# Enable:  git config core.hooksPath .githooks
+# Disable: git config --unset core.hooksPath
+#
+# Behavior:
+#   - status=fail (any error finding) -> abort commit
+#   - status=warn -> allow commit, print warnings
+#   - status=pass -> silent
+#
+# Skipped when no .md files are staged.
+
+set -euo pipefail
+
+CHANGED_MD=$(git diff --cached --name-only --diff-filter=AM | grep '\.md$' || true)
+if [ -z "$CHANGED_MD" ]; then
+    exit 0
+fi
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+exit_code=0
+for f in $CHANGED_MD; do
+    full_path="$REPO_ROOT/$f"
+    if [ ! -f "$full_path" ]; then
+        continue
+    fi
+    # Skip meta-documentation (README, agent rules, plan/ops docs).
+    # The auditor is for answer files, not for project documentation.
+    case "$f" in
+        README.md|CLAUDE.md|AGENTS.md) continue ;;
+        docs/*|sources/*/CLAUDE.md|sources/*/README.md) continue ;;
+        .claude/*|.github/*) continue ;;
+    esac
+    result=$(python3 "$REPO_ROOT/scripts/audit-unified.py" --json "$full_path" 2>/dev/null || echo '{"status":"error","findings":[]}')
+    status=$(printf '%s' "$result" | python3 -c "import json, sys; d=json.load(sys.stdin); print(d.get('status', 'error'))" 2>/dev/null || echo error)
+    case "$status" in
+        fail)
+            echo ""
+            echo "audit-unified FAIL on $f:"
+            printf '%s' "$result" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+for f in d.get('findings', []):
+    if f.get('severity') == 'error':
+        print(f'   [{f[\"auditor\"]}] {f[\"message\"]}')
+        if f.get('suggested_fix'):
+            print(f'     fix: {f[\"suggested_fix\"]}')
+"
+            exit_code=1
+            ;;
+        warn)
+            echo ""
+            echo "audit-unified WARN on $f (commit allowed):"
+            printf '%s' "$result" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+for f in d.get('findings', [])[:5]:
+    print(f'   [{f[\"auditor\"]}] {f[\"message\"]}')
+"
+            ;;
+    esac
+done
+
+if [ "$exit_code" -ne 0 ]; then
+    echo ""
+    echo "Commit aborted by pre-commit hook. Fix the errors above or run with --no-verify."
+fi
+exit "$exit_code"
