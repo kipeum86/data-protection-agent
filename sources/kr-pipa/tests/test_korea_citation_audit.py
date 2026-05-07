@@ -139,3 +139,45 @@ def test_kr_future_effective_with_future_framing_passes():
         if "(future)" in f.get("message", "") and aid in f.get("citation", "")
     ]
     assert not future_findings
+
+
+def test_load_authority_body_returns_text_kr():
+    from citation_auditor.korea_citation import _build_path_lookup, load_authority_body
+    body = load_authority_body("pipa-art1", _build_path_lookup())
+    assert body and "개인정보" in body
+
+
+def test_quote_matching_body_passes_kr():
+    text = (
+        '개인정보 보호법 제1조에 따르면 '
+        '"개인정보의 처리 및 보호에 관한 사항을 정함" 이라고 명시한다.'
+    )
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings, f"unexpected quote findings: {result['findings']}"
+
+
+def test_fabricated_quote_near_citation_warns_kr():
+    text = (
+        '개인정보 보호법 제1조에 따르면 '
+        '"모든 사업자는 24시간 이내에 모든 개인정보를 암호화해야 한다" 라고 한다.'
+    )
+    result = audit(text)
+    assert any(
+        "Quoted text not found" in f.get("message", "")
+        and "pipa-art1" in f.get("citation", "")
+        for f in result["findings"]
+    )
+
+
+def test_quote_without_citation_skipped_kr():
+    text = '"이 글은 어떤 KB 권한 본문에도 없는 임의의 텍스트입니다."'
+    result = audit(text)
+    quote_findings = [
+        f for f in result["findings"]
+        if "Quoted text not found" in f.get("message", "")
+    ]
+    assert not quote_findings

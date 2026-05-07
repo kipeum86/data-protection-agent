@@ -277,6 +277,122 @@ def check_pipc_guideline_as_binding(text: str) -> list[Finding]:
     return findings
 
 
+KR_INDEXES_WITH_PATH = (
+    ("article-index.json", "articles"),
+    ("guideline-index.json", "guidelines"),
+)
+
+QUOTE_PATTERNS_KR = (
+    re.compile(r'"([^"]{25,500})"'),
+    re.compile(r"“([^”]{25,500})”"),
+    re.compile(r"「([^」]{12,300})」"),
+)
+
+KR_KB_ROOT = BASE_DIR / "kb" / "kr-pipa"
+
+
+def _build_path_lookup() -> dict[str, str]:
+    """Returns {authority_id: relpath} from KR indexes that carry a path."""
+    out: dict[str, str] = {}
+    for index_name, key in KR_INDEXES_WITH_PATH:
+        for item in load_json(index_name).get(key, []):
+            aid = item.get("id")
+            relpath = item.get("path")
+            if aid and relpath:
+                out[aid] = relpath
+    return out
+
+
+def _strip_frontmatter(content: str) -> str:
+    m = re.match(r"^---\n.*?\n---\n", content, flags=re.S)
+    return content[m.end():] if m else content
+
+
+def load_authority_body(authority_id: str, path_lookup: dict[str, str]) -> str | None:
+    relpath = path_lookup.get(authority_id)
+    if not relpath:
+        return None
+    fpath = KR_KB_ROOT / relpath
+    if not fpath.exists():
+        return None
+    return _strip_frontmatter(fpath.read_text(encoding="utf-8"))
+
+
+def _extract_quotes(text: str) -> list[tuple[str, int]]:
+    out: list[tuple[str, int]] = []
+    for pat in QUOTE_PATTERNS_KR:
+        for match in pat.finditer(text):
+            out.append((match.group(1), match.start(1)))
+    return out
+
+
+def _looks_like_citation_only_kr(quote: str) -> bool:
+    # Korean citation form: "제N조" alone is short noise, skip
+    if len(quote) < 30 and re.match(r"^\s*제\s*\d+\s*조", quote):
+        return True
+    return False
+
+
+def _quote_matches_body_kr(quote: str, body: str) -> bool:
+    """Whitespace-collapsed substring match. No tokenizer (한글 has no
+    word boundaries on whitespace)."""
+    nq = re.sub(r"\s+", "", quote)
+    nb = re.sub(r"\s+", "", body)
+    return nq in nb
+
+
+def _build_citation_positions(text: str) -> list[tuple[int, str]]:
+    positions: list[tuple[int, str]] = []
+    for citation, source_id in article_citations(text) + guideline_citations(text):
+        for match in re.finditer(re.escape(citation), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    for source_id in local_id_citations(text):
+        for match in re.finditer(re.escape(source_id), text, flags=re.I):
+            positions.append((match.start(), source_id))
+    return positions
+
+
+def check_quote_integrity(
+    text: str,
+    path_lookup: dict[str, str],
+) -> list[Finding]:
+    findings: list[Finding] = []
+    quotes = _extract_quotes(text)
+    if not quotes:
+        return findings
+    positions = _build_citation_positions(text)
+    if not positions:
+        return findings
+    for quote, qstart in quotes:
+        if _looks_like_citation_only_kr(quote):
+            continue
+        nearby = sorted({sid for off, sid in positions if abs(off - qstart) <= 300})
+        if not nearby:
+            continue
+        checked: list[str] = []
+        matched = False
+        for cid in nearby:
+            body = load_authority_body(cid, path_lookup)
+            if body is None:
+                continue
+            checked.append(cid)
+            if _quote_matches_body_kr(quote, body):
+                matched = True
+                break
+        if checked and not matched:
+            preview = quote[:80] + ("..." if len(quote) > 80 else "")
+            findings.append(Finding(
+                severity="warn",
+                citation=", ".join(checked),
+                message=f'Quoted text not found in cited authority: "{preview}"',
+                suggested_fix=(
+                    "Verify the quote against the local authority body, "
+                    "or paraphrase and remove quotation marks."
+                ),
+            ))
+    return findings
+
+
 def audit(text: str) -> dict[str, Any]:
     ids = load_valid_ids()
     external_law_names = load_external_law_names()
@@ -323,6 +439,7 @@ def audit(text: str) -> dict[str, Any]:
     findings.extend(check_pipc_guideline_as_binding(text))
     findings.extend(check_external_law_referenced(text, external_law_names))
     findings.extend(check_future_effective_cited_as_current(text, future_arts))
+    findings.extend(check_quote_integrity(text, _build_path_lookup()))
 
     status = "fail" if any(f.severity == "error" for f in findings) else "warn" if findings else "pass"
     return {
