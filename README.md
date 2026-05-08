@@ -20,9 +20,27 @@ The runtime KB is imported under `kb/<namespace>` and indexed under `index/`.
 Each sub-KB ships with its own per-section markdown, JSON indexes, and a
 regex-based citation auditor. A cross-jurisdiction auditor sits above the
 three sub-auditors to catch routing mismatches, vocabulary confusion, and
-vague law references.
+vague law references. From v19 onward, an LLM-facing answering layer
+(skills + templates + slash command + output validator) sits above the
+auditor stack so a Claude Code session can run the full intake → routing
+→ retrieval → grounding → composition → quality-check workflow against
+any privacy-law question.
 
 ## Quick Start
+
+### Inside a Claude Code session
+
+```text
+/answer Under California law, when must a business provide notice at or before collection?
+```
+
+Routes intake → applies the v19 skills (kb-retrieval, trust-boundary,
+claim-grounding, result-memo-composition or comparative-composition,
+quality-check) → writes the two contract files
+(`data-protection-agent-result.md` + `data-protection-agent-meta.json`)
+under `$OUTPUT_DIR` or `outputs/data-protection-agent/`.
+
+### Direct CLI (no LLM in the loop)
 
 Refresh imported KBs:
 
@@ -36,13 +54,19 @@ Retrieve local authorities for a question:
 python3 scripts/retrieve_authorities.py "Does the CCPA require honoring Global Privacy Control opt-out signals?" --format markdown
 ```
 
-Write output-contract files locally:
+Write the deterministic research-packet output (no LLM composition):
 
 ```bash
 python3 scripts/run_data_protection_agent.py "Compare GDPR and CCPA automated decisionmaking obligations." --output-dir /tmp/dpa-output --print-summary
 ```
 
-Run the local golden-set evaluator:
+Validate output against the v19 contract:
+
+```bash
+python3 scripts/validate-output.py /tmp/dpa-output
+```
+
+Run the local golden-set evaluator (13 fixtures, both legacy and v19 cases):
 
 ```bash
 python3 scripts/evaluate_golden_set.py --output-dir /tmp/dpa-golden --clean
@@ -97,18 +121,19 @@ Skip the hook for a single commit with `git commit --no-verify`.
 ```
 data-protection-agent/
 ├── CLAUDE.md, AGENTS.md       # Agent rules + trust boundary policy
-├── README.md
+├── README.md, CHANGELOG.md
 │
 ├── kb/                        # Unified runtime KB (generated)
-│   ├── eu-gdpr/library/       #   ← imported from sibling GDPR-expert
-│   ├── kr-pipa/library/       #   ← imported from sibling PIPA-expert
-│   └── us-ca/library/         #   ← imported from local sources/us-ca/
+│   ├── eu-gdpr/               #   ← imported from sibling GDPR-expert
+│   ├── kr-pipa/               #   ← imported from sibling PIPA-expert
+│   └── us-ca/                 #   ← imported from local sources/us-ca/
+│       └── index/{ca,kr,eu}-topic-index.json   # Per-namespace topic crosswalk
 │
 ├── index/                     # Unified indexes (jurisdiction-routing,
-│                              #   unified-authority-index, etc.)
+│                              #   unified-authority-index, unified-topic-index, …)
 │
 ├── sources/{us-ca,kr-pipa,eu-gdpr}/
-│   ├── citation_auditor/      # per-jurisdiction regex auditor
+│   ├── citation_auditor/      # per-jurisdiction regex auditor (10 checks each ~)
 │   ├── scripts/               # per-jurisdiction CLI + sanitize.py
 │   └── tests/
 │   (us-ca additionally has library/, index/, config/, build_california_kb.py)
@@ -125,32 +150,68 @@ data-protection-agent/
 │   ├── run_data_protection_agent.py
 │   ├── evaluate_golden_set.py
 │   ├── audit-unified.py
-│   └── audit-cross-jurisdiction.py
+│   ├── audit-cross-jurisdiction.py
+│   ├── validate-output.py     # v19 output-contract validator
+│   ├── coverage-report-all.py, who-cites.py, who-is.py, kb-diff.py,
+│   └── validate-kb-schema.py
 │
-├── tests/                     # Cross-cutting tests
+├── tests/                     # Cross-cutting + e2e (123 tests)
+│   └── test_e2e_agent_pipeline.py    # v19 golden-fixture parametrised
 │
-├── .claude/skills/citation-auditor/SKILL.md   # Slash skill for Claude Code
+├── templates/                 # v19 result memo + per-mode variants
+│   ├── result.md, meta.example.json
+│   └── modes/{single-jurisdiction,multi-jurisdiction,
+│              comparative-matrix,fallback}.md
+│
+├── .claude/
+│   ├── agents/data-protection-agent.md
+│   ├── commands/answer.md     # /answer slash command
+│   └── skills/                # 8 skills (1 v8 + 7 v19)
+│       ├── citation-auditor/SKILL.md
+│       ├── intake-and-routing/SKILL.md
+│       ├── kb-retrieval/SKILL.md
+│       ├── trust-boundary/SKILL.md
+│       ├── claim-grounding/SKILL.md
+│       ├── result-memo-composition/SKILL.md
+│       ├── comparative-composition/SKILL.md
+│       └── quality-check/SKILL.md
 │
 └── docs/
-    ├── auditors.md                              # Catalog of all checks
+    ├── auditors.md                              # Catalog of all 30+ checks
     ├── agent-protocol.md
     ├── kb-operations-guide.md
+    ├── examples.md                              # 7 worked auditor cases
     ├── california-local-kb-implementation.md
-    ├── california-local-kb-hardening-plan.md
-    ├── integration-hardening-plan.md            # v3
-    └── integration-hardening-plan-v{4..10}.md
+    └── california-local-kb-hardening-plan.md
 ```
+
+(Round-by-round plan documents live under `.local/planning/v{N}/` and
+are not tracked in git after v18; see `docs/README.md`.)
 
 ## Citation auditor
 
-The unified auditor catches ~25 distinct error patterns across 4 layers
+The unified auditor catches ~30 distinct error patterns across 4 layers
 (3 sub-auditors + 1 cross-jurisdiction layer). See
 [docs/auditors.md](docs/auditors.md) for the full catalog.
+
+Notable additions since v12:
+- **v17:** KR/EU future-effective check (mirror of v11 CA) — warns when an
+  authority with a future `effective_date` is cited with present-tense
+  language and no future-framing nearby. Bilingual triggers for KR.
+- **v18:** Quote integrity check (CA/KR/EU) — verifies that quoted text
+  in an answer actually appears in the cited authority's KB body.
+  Catches the most common LLM hallucination pattern: correct citation id
+  paired with a fabricated quote.
+- **v20:** False-positive cleanup — `_strip_inline_code()` skips backtick
+  paths, lowercase-only id matching, namespace tokens excluded;
+  `fallback_us` recognised as a fallback mode by the validator;
+  cross-jurisdiction labels check skips fallback memos.
 
 Aggregate severity:
 - `error` (statute/regulation/case id missing, unpublished as controlling)
   → answer must be revised before sending.
-- `warn` (binding misuse, vocabulary mismatch, vague references)
+- `warn` (binding misuse, vocabulary mismatch, vague references,
+  quote-integrity mismatch)
   → surface to user inline.
 - `pass` → ship.
 
@@ -158,13 +219,11 @@ Aggregate severity:
 
 | Layer | Tests |
 |---|---|
-| CA sub-auditor | 42 |
-| KR sub-auditor | 16 |
-| EU sub-auditor | 21 |
-| Cross-jurisdiction | 35 |
-| Unified runner | 5 |
-| KB import | 6 |
-| **Total** | **125** |
+| CA sub-auditor | 49 |
+| KR sub-auditor | 23 |
+| EU sub-auditor | 28 |
+| Cross-cutting + e2e (incl. golden-set parametrised) | 123 |
+| **Total** | **223** |
 
 ### Optional toggles
 
@@ -172,14 +231,52 @@ Aggregate severity:
   multi-juris answer must have an explicit label heading. Default mode
   accepts partial labelling.
 
+## Agent answering pipeline (v19)
+
+The v19 round adds an LLM-facing answering layer on top of the auditor.
+Inside a Claude Code session, `/answer "<question>"` walks an 8-stage
+workflow:
+
+1. **Intake & routing** — `intake-and-routing` skill classifies the
+   question into one of `ca_only / kr_only / eu_only / multi_jurisdiction
+   / comparative / fallback_us / fallback`, using
+   `index/jurisdiction-routing.json`.
+2. **Retrieval** — `kb-retrieval` skill runs `retrieve_authorities.py`
+   against the routed namespace(s) with topic-boost from
+   `unified-topic-index.json` (29 curated topics: 13 CA + 8 KR + 8 EU).
+3. **Trust boundary** — `trust-boundary` skill enforces that ingested
+   KB bodies are data, not instructions, before composition.
+4. **Claim grounding** — `claim-grounding` skill verifies every material
+   claim has a local authority id, a verifiable pinpoint, and a
+   currentness status. Fail = block; record in `coverage_gaps`.
+5. **Composition** — `result-memo-composition` (or
+   `comparative-composition` for multi-juris / comparative modes)
+   produces the 9-section memo with strict source-anchor discipline.
+6. **Quality-check** — `quality-check` skill runs the citation auditor
+   plus `validate-output.py`. Block on any auditor `fail`; surface
+   `warn` findings inline.
+7. **Write** — emit `data-protection-agent-result.md` and
+   `data-protection-agent-meta.json` to the configured output dir.
+
+Output contract validator: `scripts/validate-output.py` (~538 lines,
+stdlib only) — both v19 strict and legacy_packet modes.
+
+Golden-set fixtures: `config/golden-set.json` (13 cases — 5 v19
+fixtures + 8 legacy CA cases). Parametrised e2e tests run validator +
+auditor against every fixture.
+
 ## Key Docs
 
 - [Agent protocol](docs/agent-protocol.md)
 - [KB operations guide](docs/kb-operations-guide.md)
 - [Citation auditor catalog](docs/auditors.md)
+- [Worked auditor examples](docs/examples.md)
 - [California KB implementation](docs/california-local-kb-implementation.md)
 - [California KB hardening plan](docs/california-local-kb-hardening-plan.md)
-- Integration hardening rounds: `docs/integration-hardening-plan-v{3..10}.md`
+- [Documentation layout](docs/README.md)
+
+Per-round plan documents (v3-v20) live under `.local/planning/v{N}/`
+and are not tracked in git. The `CHANGELOG.md` summarises every round.
 
 ## Source of Truth
 
