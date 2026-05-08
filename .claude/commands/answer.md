@@ -1,6 +1,6 @@
 ---
-description: Answer a privacy/data-protection question using the unified KR PIPA / EU GDPR / US-CA CCPA KBs with full source-grounding, citation auditing, and optional DOCX legal-opinion rendering.
-argument-hint: "<question text> [mode=ca_only|kr_only|eu_only|multi_jurisdiction|comparative] [output_mode=canonical|legal_opinion] [--docx]"
+description: Answer a privacy/data-protection question using the unified KR PIPA / EU GDPR / US-CA CCPA KBs with full source-grounding, citation auditing, and optional DOCX/HTML legal-opinion rendering.
+argument-hint: "<question text> [mode=ca_only|kr_only|eu_only|multi_jurisdiction|comparative] [output_mode=canonical|legal_opinion] [--docx] [--html]"
 ---
 
 Run the data-protection-agent workflow described in `CLAUDE.md` for the
@@ -43,8 +43,17 @@ Then execute the 8-stage workflow:
    for English the `en-formatter-profile.md`. Profiles live under
    `knowledge/legal-writing/`.
 
-9. Print a one-line summary: mode, jurisdictions, source count, audit
-   status, output_mode, and (if DOCX) rendered file path.
+9. **Optional HTML rendering (v22)** — when the user passed `--html`, run:
+
+   `python3 scripts/render-html.py <result.md> <result.html> --lang <en|ko> --title "<question summary>"`
+
+   HTML output is intended for browser-viewable circulation (email,
+   intranet, GitHub Pages). Self-contained — inline CSS, no external
+   asset dependencies. Independent of DOCX rendering: `--docx` and
+   `--html` may be combined.
+
+10. Print a one-line summary: mode, jurisdictions, source count, audit
+    status, output_mode, and (if DOCX/HTML) rendered file path(s).
 
 Defaults:
 
@@ -54,3 +63,4 @@ Defaults:
 - Output mode: `canonical` (the 9-section research memo).
 - DOCX: rendered automatically when `output_mode=legal_opinion`; otherwise
   only when the user passes `--docx`.
+- HTML: rendered only when the user passes `--html` (independent of DOCX).

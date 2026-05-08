@@ -10,5 +10,8 @@
 # v21 DOCX renderers (scripts/render-docx.py, scripts/render-legal-opinion-docx.py)
 python-docx>=1.1.0
 
+# v22 HTML renderer (scripts/render-html.py)
+marko>=2.0.0
+
 # Test runner used by all four pytest gates
 pytest>=7.0

@@ -454,10 +454,14 @@ For `comparative` and `multi_jurisdiction` modes, Issues + Analysis are replaced
 |:---|:---|:---|:---|
 | `canonical` (default) | Privacy lawyer / paralegal | Markdown | — |
 | `legal_opinion` | Client / GC / 사내 법무팀 | Markdown + auto DOCX | `scripts/render-legal-opinion-docx.py` |
-| `executive_brief` | Decision-makers, executives | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
-| `comparative_matrix` | Cross-jurisdiction comparison reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
-| `enforcement_case_law` | Litigation / enforcement risk reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
-| `black_letter_commentary` | Academic / treatise reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
+| `executive_brief` | Decision-makers, executives | Markdown (+ optional DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `comparative_matrix` | Cross-jurisdiction comparison reader | Markdown (+ optional DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `enforcement_case_law` | Litigation / enforcement risk reader | Markdown (+ optional DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `black_letter_commentary` | Academic / treatise reader | Markdown (+ optional DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+
+Any output mode can additionally be rendered to **HTML** via the `--html` flag (vendored `scripts/render-html.py`, marko-based, self-contained styled document — useful for browser/email/intranet circulation). DOCX and HTML are independent and may be combined.
+
+For a worked example showing all four output forms (`*.md` / `*-meta.json` / `*.docx` / `*.html`) produced by a single `/answer` invocation, see [`docs/rendering-examples.md`](docs/rendering-examples.md).
 
 The `legal_opinion` renderer (`scripts/render-legal-opinion-docx.py`) ships with a Korean-default cover-page convention (`수신인: 사내 법무팀 귀중`, classification `CONFIDENTIAL — INTERNAL LEGAL REVIEW`, date `YYYY년 M월 D일`) and English-default analogues. Override any of these via CLI flags. Per-language formatter profiles live under `knowledge/legal-writing/`:
 
@@ -486,9 +490,16 @@ python3 scripts/render-legal-opinion-docx.py \
   --date "$(date +'%Y년 %-m월 %-d일')" \
   --classification "CONFIDENTIAL — INTERNAL LEGAL REVIEW" \
   --author "Data Protection Agent (data-protection-agent)"
+
+# v22 HTML — browser-viewable, self-contained, no external deps
+python3 scripts/render-html.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.html \
+  --title "AI 자동화 결정 — 3법역 검토" \
+  --lang ko
 ```
 
-`requirements.txt` pins `python-docx>=1.1.0` for the renderers.
+`requirements.txt` pins `python-docx>=1.1.0` (DOCX) and `marko>=2.0.0` (HTML) for the renderers.
 
 ---
 

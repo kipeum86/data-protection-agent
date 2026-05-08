@@ -5,6 +5,34 @@ plan document under `.local/planning/v{N}/` (older plans were tracked at
 `docs/integration-hardening-plan-v{N}.md` before v18; the docs/* path is
 now gitignored so plan drafts stay local).
 
+## v22 — HTML renderer + worked rendering examples
+
+Completes the deliverable-rendering trio (markdown / DOCX / HTML)
+started in v21. Browser-viewable HTML is the natural third format
+when a user wants to share an answer via email or intranet without
+attaching a Word file.
+
+- `scripts/render-html.py` — vendored verbatim from
+  `legal-research-agent` (87 lines, no DPA-domain rewrites needed —
+  the renderer is generic). Uses `marko` for markdown→HTML, wraps
+  in a self-contained styled HTML document with inline CSS
+  (max-width 760px, bordered tables, code-block styling).
+- `requirements.txt` adds `marko>=2.0.0`.
+- `.claude/commands/answer.md` accepts `--html` flag (independent
+  of `--docx`; both may be combined).
+- `tests/test_e2e_agent_pipeline.py` adds `test_packet_renders_html`
+  parametrised over all 5 fixtures (asserts HTML > 2 KB + DOCTYPE
+  present + `<title>` tag). Test skips gracefully when `marko` is
+  unavailable.
+- `docs/rendering-examples.md` (new) — worked example walking
+  through all 4 output forms (md / meta.json / docx / html) for
+  the same 3-jurisdiction ADM analysis used in the v21 dogfood.
+  Includes file sizes, structure introspection, when-to-use table.
+
+Test counts:
+  - Before: CA 49 / KR 23 / EU 28 / cross 129 = 229
+  - After:  CA 49 / KR 23 / EU 28 / cross 134 = 234 (+5 v22 HTML)
+
 ## v21 — DOCX + legal-opinion output (vendored from legal-research-agent)
 
 Adds the second axis to the output contract: `output_mode` is now orthogonal
@@ -290,4 +318,5 @@ introduced the unified-KB pattern.
 | v18 | 213 | + quote integrity 12 (CA 4, KR 4, EU 4) |
 | v19 | 223 | + golden-set e2e 10 (5 fixtures × 2) |
 | v20 | 223 | retrieval/auditor fixes; no new tests |
-| v21 | 223 | DOCX + legal-opinion vendored; no new tests (renderers ship with their own LRA-side coverage) |
+| v21 | 229 | DOCX + legal-opinion vendored; +6 e2e (5 fixtures × DOCX + 1 legal-opinion smoke) |
+| v22 | 234 | HTML renderer vendored; +5 e2e (5 fixtures × HTML smoke) |

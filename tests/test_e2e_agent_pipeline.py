@@ -183,3 +183,38 @@ def test_legal_opinion_renderer_smoke(tmp_path: Path) -> None:
     assert proc.returncode == 0, f"render-legal-opinion-docx failed:\n{proc.stderr}"
     assert docx_path.exists()
     assert docx_path.stat().st_size > DOCX_MIN_BYTES
+
+
+# ---------------------------------------------------------------------------
+# v22: HTML renderer smoke (marko-based).
+# ---------------------------------------------------------------------------
+
+HTML_MIN_BYTES = 2_000  # boilerplate + minimal content; rendered fixtures are 20-40 KB.
+
+
+@pytest.mark.parametrize("fixture", FIXTURES, ids=lambda f: f["id"])
+def test_packet_renders_html(tmp_path: Path, fixture: dict[str, Any]) -> None:
+    pytest.importorskip("marko")
+    out = run_packet(tmp_path, fixture)
+    html_path = out / "data-protection-agent-result.html"
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/render-html.py",
+            str(out / "data-protection-agent-result.md"),
+            str(html_path),
+            "--lang", "en",
+        ],
+        capture_output=True,
+        text=True,
+        cwd=ROOT,
+    )
+    assert proc.returncode == 0, f"render-html failed for {fixture['id']}:\n{proc.stderr}"
+    assert html_path.exists(), f"HTML not written for {fixture['id']}"
+    assert html_path.stat().st_size > HTML_MIN_BYTES, (
+        f"HTML suspiciously small for {fixture['id']}: {html_path.stat().st_size} bytes"
+    )
+    # Sanity: HTML wraps the rendered markdown content.
+    text = html_path.read_text(encoding="utf-8")
+    assert text.startswith("<!DOCTYPE html>")
+    assert "<title>" in text and "</title>" in text
