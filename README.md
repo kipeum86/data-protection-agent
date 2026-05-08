@@ -265,7 +265,7 @@ sequenceDiagram
 
 The mode is locked at intake. The agent **never silently switches modes** mid-workflow. If the user's question conflicts with the routed mode, the agent records a `classification_warnings` entry and surfaces the uncertainty in `coverage_gaps` rather than overriding.
 
-### Skills (8 modular instructions)
+### Skills (10 modular instructions)
 
 Each skill carries `disable-model-invocation: true` so the LLM loads it only when explicitly told to via `CLAUDE.md` references. This keeps the prompt budget tight and the workflow disciplined.
 
@@ -279,6 +279,8 @@ Each skill carries `disable-model-invocation: true` so the LLM loads it only whe
 | [`comparative-composition`](.claude/skills/comparative-composition/SKILL.md) | Multi-juris labeled sections + side-by-side matrix; never blend |
 | [`quality-check`](.claude/skills/quality-check/SKILL.md) | Run citation auditor + output validator + source-coverage gate |
 | [`citation-auditor`](.claude/skills/citation-auditor/SKILL.md) | Slash-skill wrapper around `audit-unified.py` (CC users can invoke directly) |
+| [`output-mode-composition`](.claude/skills/output-mode-composition/SKILL.md) *(v21, vendored)* | Dispatch on `output_mode` to the appropriate template under `templates/modes/` |
+| [`legal-writing-formatter`](.claude/skills/legal-writing-formatter/SKILL.md) *(v21, vendored)* | Apply per-language formatter profile; coordinate with the DOCX renderer |
 
 ---
 
@@ -296,6 +298,14 @@ The agent walks the 8-stage workflow and writes:
 - `outputs/data-protection-agent/data-protection-agent-meta.json` (structured metadata)
 
 Override the output directory with `OUTPUT_DIR=...` env var. Pass `mode=...` in the prompt to force a research mode (e.g. `mode=comparative`).
+
+For a polished legal-opinion DOCX deliverable (cover page, classification banner, auto-numbered headings, endnote-style 각주):
+
+```text
+/answer Under California law, when must a business provide notice at or before the point of collection? output_mode=legal_opinion
+```
+
+Or render an existing canonical research memo to DOCX with `--docx`. See [Output Modes (v21)](#output-modes-v21).
 
 ### Direct CLI (no LLM in the loop)
 
@@ -433,6 +443,52 @@ For `comparative` and `multi_jurisdiction` modes, Issues + Analysis are replaced
 ```
 
 `scripts/validate-output.py` enforces both shapes; CI fails on contract violations. The validator also runs in **legacy_packet** mode for outputs from the pre-v19 deterministic runner — older packets do not need to satisfy v19-strict keys, but missing v19 keys are surfaced as warnings so the user knows they are not getting the full contract.
+
+---
+
+## Output Modes (v21)
+
+`research_mode` (which sub-KB to query) and `output_mode` (how to format the deliverable) are **orthogonal axes**. The default `output_mode` is `canonical` — the 9-section research memo described above. v21 adds `legal_opinion` for client-facing DOCX deliverables, plus four additional templates vendored from `legal-research-agent`:
+
+| `output_mode` | Audience | Format | Renderer |
+|:---|:---|:---|:---|
+| `canonical` (default) | Privacy lawyer / paralegal | Markdown | — |
+| `legal_opinion` | Client / GC / 사내 법무팀 | Markdown + auto DOCX | `scripts/render-legal-opinion-docx.py` |
+| `executive_brief` | Decision-makers, executives | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
+| `comparative_matrix` | Cross-jurisdiction comparison reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
+| `enforcement_case_law` | Litigation / enforcement risk reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
+| `black_letter_commentary` | Academic / treatise reader | Markdown (+ optional DOCX) | `scripts/render-docx.py` |
+
+The `legal_opinion` renderer (`scripts/render-legal-opinion-docx.py`) ships with a Korean-default cover-page convention (`수신인: 사내 법무팀 귀중`, classification `CONFIDENTIAL — INTERNAL LEGAL REVIEW`, date `YYYY년 M월 D일`) and English-default analogues. Override any of these via CLI flags. Per-language formatter profiles live under `knowledge/legal-writing/`:
+
+- `ko-legal-opinion-profile.md` — Korean opinion-letter typography + tone
+- `en-formatter-profile.md` / `ko-formatter-profile.md` — general formatter profiles
+- `docx-ready-markdown-profile.md` — markdown conventions safe for DOCX rendering
+- `formatter-index.md` — when to use which
+
+The renderer + skill stack is **vendored verbatim from `legal-research-agent`** to avoid reinventing rendering infrastructure that already exists in the family. DPA-domain patches (rewrites of `legal-research-agent-*` filenames to `data-protection-agent-*`, author-default rewrites) are applied; the rendering and typography logic is unchanged.
+
+### CLI examples
+
+```bash
+# Canonical research memo → DOCX (English, US letter format)
+python3 scripts/render-docx.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.docx \
+  --language en --jurisdiction us --overwrite
+
+# Polished Korean legal-opinion DOCX with cover page
+python3 scripts/render-legal-opinion-docx.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.docx \
+  --title "AI 자동화 결정 — 3법역 검토" \
+  --recipient "사내 법무팀 귀중" \
+  --date "$(date +'%Y년 %-m월 %-d일')" \
+  --classification "CONFIDENTIAL — INTERNAL LEGAL REVIEW" \
+  --author "Data Protection Agent (data-protection-agent)"
+```
+
+`requirements.txt` pins `python-docx>=1.1.0` for the renderers.
 
 ---
 

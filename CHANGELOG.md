@@ -5,6 +5,70 @@ plan document under `.local/planning/v{N}/` (older plans were tracked at
 `docs/integration-hardening-plan-v{N}.md` before v18; the docs/* path is
 now gitignored so plan drafts stay local).
 
+## v21 — DOCX + legal-opinion output (vendored from legal-research-agent)
+
+Adds the second axis to the output contract: `output_mode` is now orthogonal
+to `research_mode`. The default `canonical` (the 9-section research memo
+shipped in v19) is preserved for backward compatibility; `legal_opinion`
+adds a polished DOCX deliverable suitable for client circulation.
+
+Rather than reinventing rendering and formatting infrastructure, v21
+vendors the proven assets from the sibling `legal-research-agent`:
+
+- `scripts/render-docx.py` — basic markdown→DOCX renderer (KO/EN page
+  setups, Times New Roman + 맑은 고딕 fallback, source-table styling).
+- `scripts/render-legal-opinion-docx.py` — polished legal-opinion
+  renderer with cover page (title, recipient, date, classification
+  banner), auto-numbered headings, indented italic statutory excerpts,
+  endnote-style 각주 section, page-numbered footer with confidentiality
+  classification on every page.
+- `knowledge/legal-writing/` — 5 formatter profiles (`en-formatter-profile`,
+  `ko-formatter-profile`, `ko-legal-opinion-profile`,
+  `docx-ready-markdown-profile`, `formatter-index`) covering tone,
+  heading hierarchy, citation style, and per-language typography defaults.
+- `.claude/skills/legal-writing-formatter/` — composition skill for the
+  polished deliverable.
+- `.claude/skills/output-mode-composition/` — output_mode dispatcher skill.
+- `templates/modes/{black-letter-commentary,comparative-matrix,
+  enforcement-case-law,executive-brief}.md` — 4 additional output_mode
+  templates (the existing single-jurisdiction / multi-jurisdiction /
+  comparative-matrix / fallback templates remain).
+
+DPA-domain patches applied to vendored files:
+
+- All `legal-research-agent-result.md` / `legal-research-agent-meta.json`
+  references rewritten to `data-protection-agent-result.md` /
+  `data-protection-agent-meta.json`.
+- `Legal Research Agent (legal-research-agent)` author default rewritten
+  to `Data Protection Agent (data-protection-agent)`.
+- Backtick references to ``legal-research-agent`` rewritten to
+  ``data-protection-agent``.
+
+Meta schema (additive, all optional):
+
+- `output_mode` — one of `canonical | legal_opinion | executive_brief |
+  comparative_matrix | enforcement_case_law | black_letter_commentary`;
+  default `canonical`.
+- `output_mode_audience` — free-text audience descriptor; default `null`.
+- `output_mode_format` — `markdown | docx_ready_markdown`; default
+  `markdown`.
+
+Validator:
+
+- New `validate_output_mode_fields()` checks the three new fields against
+  `VALID_OUTPUT_MODES` / `VALID_OUTPUT_FORMATS`.
+- Existing v19 metadata without the new fields validates unchanged
+  (treated as implicit canonical defaults).
+
+`/answer` command:
+
+- Accepts `output_mode=legal_opinion` and `--docx` arguments.
+- Auto-renders DOCX when `output_mode=legal_opinion`.
+- Default Korean opinion-letter cover-page values (수신인, 기밀 분류,
+  날짜) are applied unless the user overrides.
+
+`requirements.txt` (new): pins `python-docx>=1.1.0` and `pytest>=7.0`.
+
 ## v20 — Retrieval quality + auditor false-positive cleanup (`fcda737..6ad4879`)
 
 Two related rounds driven by the v19 dogfood:
@@ -226,3 +290,4 @@ introduced the unified-KB pattern.
 | v18 | 213 | + quote integrity 12 (CA 4, KR 4, EU 4) |
 | v19 | 223 | + golden-set e2e 10 (5 fixtures × 2) |
 | v20 | 223 | retrieval/auditor fixes; no new tests |
+| v21 | 223 | DOCX + legal-opinion vendored; no new tests (renderers ship with their own LRA-side coverage) |

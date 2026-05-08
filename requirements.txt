@@ -1,0 +1,14 @@
+# Top-level Python deps for the data-protection-agent runtime.
+#
+# Most of the auditor + validator stack is stdlib-only by design (see
+# scripts/validate-output.py docstring). The DOCX renderers vendored from
+# legal-research-agent in v21 are the one exception.
+#
+# Sub-KB build pipelines have their own requirements.txt
+# (sources/us-ca/requirements.txt for the California ingest path).
+
+# v21 DOCX renderers (scripts/render-docx.py, scripts/render-legal-opinion-docx.py)
+python-docx>=1.1.0
+
+# Test runner used by all four pytest gates
+pytest>=7.0

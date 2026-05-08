@@ -1,5 +1,5 @@
 {
-  "meta_version": "1.0",
+  "meta_version": "1.1",
   "summary": "Concise 2-4 sentence summary of the answer.",
   "research_mode": "ca_only",
   "mode_source": "self_classified",
@@ -11,6 +11,9 @@
   "jurisdictions": ["US-CA"],
   "namespaces": ["us-ca"],
   "domains": ["data_protection"],
+  "output_mode": "canonical",
+  "output_mode_audience": null,
+  "output_mode_format": "markdown",
   "issue_map": [
     {
       "issue_id": "issue_001",

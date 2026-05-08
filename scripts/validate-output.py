@@ -42,6 +42,21 @@ VALID_NAMESPACES = {"us-ca", "kr-pipa", "eu-gdpr"}
 
 FALLBACK_MODES = {"fallback", "fallback_us"}
 
+# v21: output_mode is the orthogonal axis to research_mode. canonical = the
+# default 9-section research memo. legal_opinion = vendored from
+# legal-research-agent (formal opinion-letter format with cover page,
+# auto-numbered headings, classification footer, optional DOCX render).
+VALID_OUTPUT_MODES = {
+    "canonical",
+    "legal_opinion",
+    "executive_brief",
+    "comparative_matrix",
+    "enforcement_case_law",
+    "black_letter_commentary",
+}
+
+VALID_OUTPUT_FORMATS = {"markdown", "docx_ready_markdown"}
+
 REQUIRED_KEYS = {
     "meta_version",
     "summary",
@@ -169,6 +184,41 @@ def detect_result_kind(meta: dict[str, Any], result_text: str) -> str:
 
 
 FALLBACK_NULLABLE_KEYS = {"jurisdictions", "namespaces", "sources", "issue_map", "key_findings"}
+
+
+def validate_output_mode_fields(meta: dict[str, Any], findings: list[dict[str, str]]) -> None:
+    """v21: validate the orthogonal output_mode axis. Optional fields; absence
+    is treated as the implicit canonical research-memo default for backward
+    compat with v19/v20 metas."""
+    output_mode = meta.get("output_mode")
+    if output_mode is not None:
+        if not isinstance(output_mode, str) or output_mode not in VALID_OUTPUT_MODES:
+            add_finding(
+                findings,
+                "error",
+                "invalid_output_mode",
+                f"invalid output_mode `{output_mode}`; expected one of {sorted(VALID_OUTPUT_MODES)}",
+                path="output_mode",
+            )
+    output_format = meta.get("output_mode_format")
+    if output_format is not None:
+        if not isinstance(output_format, str) or output_format not in VALID_OUTPUT_FORMATS:
+            add_finding(
+                findings,
+                "error",
+                "invalid_output_mode_format",
+                f"invalid output_mode_format `{output_format}`; expected one of {sorted(VALID_OUTPUT_FORMATS)}",
+                path="output_mode_format",
+            )
+    audience = meta.get("output_mode_audience")
+    if audience is not None and not isinstance(audience, str):
+        add_finding(
+            findings,
+            "error",
+            "invalid_output_mode_audience",
+            "output_mode_audience must be a string or null",
+            path="output_mode_audience",
+        )
 
 
 def validate_required_keys(
@@ -495,6 +545,7 @@ def validate_output_dir(output_dir: Path) -> dict[str, Any]:
     validate_sections(result_text, findings, strict=strict, mode=mode)
     validate_placeholders(meta, findings)
     validate_source_coverage(meta, findings, mode=mode)
+    validate_output_mode_fields(meta, findings)
 
     return report(output_dir, kind, findings)
 
