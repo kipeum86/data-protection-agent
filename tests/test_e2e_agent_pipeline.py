@@ -122,3 +122,64 @@ def test_packet_passes_citation_auditor(tmp_path: Path, fixture: dict[str, Any])
         cwd=ROOT,
     )
     assert audit.returncode == 0, f"audit-unified failed for {fixture['id']}:\n{audit.stdout}"
+
+
+# ---------------------------------------------------------------------------
+# v21: DOCX renderer smoke (basic + legal-opinion).
+# ---------------------------------------------------------------------------
+
+DOCX_MIN_BYTES = 10_000  # An empty DOCX is ~5 KB; rendered fixtures are 30-50 KB.
+
+
+@pytest.mark.parametrize("fixture", FIXTURES, ids=lambda f: f["id"])
+def test_packet_renders_basic_docx(tmp_path: Path, fixture: dict[str, Any]) -> None:
+    pytest.importorskip("docx")
+    out = run_packet(tmp_path, fixture)
+    docx_path = out / "data-protection-agent-result.docx"
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/render-docx.py",
+            str(out / "data-protection-agent-result.md"),
+            str(docx_path),
+            "--language", "en",
+            "--jurisdiction", "us",
+            "--overwrite",
+        ],
+        capture_output=True,
+        text=True,
+        cwd=ROOT,
+    )
+    assert proc.returncode == 0, f"render-docx failed for {fixture['id']}:\n{proc.stderr}"
+    assert docx_path.exists(), f"DOCX not written for {fixture['id']}"
+    assert docx_path.stat().st_size > DOCX_MIN_BYTES, (
+        f"DOCX suspiciously small for {fixture['id']}: {docx_path.stat().st_size} bytes"
+    )
+
+
+def test_legal_opinion_renderer_smoke(tmp_path: Path) -> None:
+    """Render the first fixture as a legal-opinion DOCX with the cover-page
+    metadata the /answer command would supply when output_mode=legal_opinion."""
+    pytest.importorskip("docx")
+    fixture = FIXTURES[0]
+    out = run_packet(tmp_path, fixture)
+    docx_path = out / "data-protection-agent-result.docx"
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/render-legal-opinion-docx.py",
+            str(out / "data-protection-agent-result.md"),
+            str(docx_path),
+            "--title", "v21 e2e smoke — legal-opinion render",
+            "--recipient", "사내 법무팀 귀중",
+            "--date", "2026년 5월 8일",
+            "--classification", "TEST — NOT FOR DISTRIBUTION",
+            "--author", "Data Protection Agent (data-protection-agent)",
+        ],
+        capture_output=True,
+        text=True,
+        cwd=ROOT,
+    )
+    assert proc.returncode == 0, f"render-legal-opinion-docx failed:\n{proc.stderr}"
+    assert docx_path.exists()
+    assert docx_path.stat().st_size > DOCX_MIN_BYTES

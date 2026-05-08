@@ -265,7 +265,7 @@ sequenceDiagram
 
 모드는 intake 시점에 잠깁니다. 워크플로우 중간에 **silently 모드 전환 안 함**. 사용자 질문이 라우팅된 모드와 충돌하면, 에이전트는 `classification_warnings` 에 기록하고 `coverage_gaps` 에 불확실성을 surface — override 안 함.
 
-### 스킬 (8개 모듈러 instruction)
+### 스킬 (10개 모듈러 instruction)
 
 각 스킬은 `disable-model-invocation: true` frontmatter — `CLAUDE.md` 참조를 통해 명시적으로 호출될 때만 LLM 이 로드. 토큰 예산을 타이트하게 유지하고 워크플로우를 규율적으로 만듦.
 
@@ -279,6 +279,8 @@ sequenceDiagram
 | [`comparative-composition`](.claude/skills/comparative-composition/SKILL.md) | 다중 법역 라벨 section + side-by-side 매트릭스; 절대 섞지 않음 |
 | [`quality-check`](.claude/skills/quality-check/SKILL.md) | 인용 감사기 + 출력 검증기 + source-coverage 게이트 실행 |
 | [`citation-auditor`](.claude/skills/citation-auditor/SKILL.md) | `audit-unified.py` 의 슬래시 스킬 wrapper (CC 사용자 직접 호출 가능) |
+| [`output-mode-composition`](.claude/skills/output-mode-composition/SKILL.md) *(v21, vendored)* | `output_mode` 별로 `templates/modes/` 의 적절한 템플릿으로 dispatch |
+| [`legal-writing-formatter`](.claude/skills/legal-writing-formatter/SKILL.md) *(v21, vendored)* | 언어별 formatter profile 적용 + DOCX 렌더러와 협업 |
 
 ---
 
@@ -296,6 +298,14 @@ sequenceDiagram
 - `outputs/data-protection-agent/data-protection-agent-meta.json` (구조화 메타데이터)
 
 `OUTPUT_DIR=...` 환경변수로 출력 디렉토리 override 가능. 프롬프트에 `mode=...` 를 넣어 리서치 모드 강제 가능 (예: `mode=comparative`).
+
+정식 의견서 형태의 DOCX 결과물 (표지 페이지 + 기밀 분류 banner + 자동 번호 헤딩 + 각주 변환) 이 필요한 경우:
+
+```text
+/answer 캘리포니아 법상 사업자가 개인정보 수집 시점 또는 그 이전에 통지를 제공해야 하는 시점은? output_mode=legal_opinion
+```
+
+또는 기존 canonical 메모를 DOCX 로 렌더링하려면 `--docx` 플래그. 자세한 내용은 [출력 모드 (v21)](#출력-모드-v21) 섹션 참조.
 
 ### CLI 직접 호출 (LLM 없이)
 
@@ -433,6 +443,52 @@ $OUTPUT_DIR/data-protection-agent-meta.json     # 구조화 메타데이터
 ```
 
 `scripts/validate-output.py` 가 두 형태 모두 강제. CI 가 컨트랙트 위반에 fail. 검증기는 v19 이전 결정론적 runner 의 출력에 대해 **legacy_packet 모드**도 지원 — 구버전 packet 은 v19-strict 키 만족 불필요하지만, 누락된 v19 키는 warning 으로 surface 해서 사용자가 full 컨트랙트가 아님을 알 수 있게 함.
+
+---
+
+## 출력 모드 (v21)
+
+`research_mode` (어떤 sub-KB 를 조회할지) 와 `output_mode` (어떤 형식으로 산출할지) 는 **직교 (orthogonal) 한 두 축** 입니다. 디폴트 `output_mode` 는 `canonical` — v19 에서 도입한 9-section 리서치 메모. v21 은 client-facing DOCX 산출물용 `legal_opinion` 모드 + `legal-research-agent` 에서 vendor 한 4개 추가 템플릿을 더합니다.
+
+| `output_mode` | 청자 | 형식 | 렌더러 |
+|:---|:---|:---|:---|
+| `canonical` (디폴트) | 변호사 / 패럴리갈 | Markdown | — |
+| `legal_opinion` | 의뢰인 / GC / 사내 법무팀 | Markdown + 자동 DOCX | `scripts/render-legal-opinion-docx.py` |
+| `executive_brief` | 의사결정자 / 임원 | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
+| `comparative_matrix` | Cross-juris 비교 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
+| `enforcement_case_law` | 소송 / enforcement 리스크 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
+| `black_letter_commentary` | 학술 / 주석서 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
+
+`legal_opinion` 렌더러 (`scripts/render-legal-opinion-docx.py`) 는 한국어 디폴트 표지 페이지 컨벤션 (`수신인: 사내 법무팀 귀중`, 기밀 분류 `CONFIDENTIAL — INTERNAL LEGAL REVIEW`, 날짜 `YYYY년 M월 D일`) 과 영문 디폴트를 모두 ship 합니다. 모든 디폴트는 CLI 플래그로 override 가능. 언어별 formatter profile 은 `knowledge/legal-writing/` 에 위치:
+
+- `ko-legal-opinion-profile.md` — 한국어 의견서 typography + 톤
+- `en-formatter-profile.md` / `ko-formatter-profile.md` — 일반 formatter profile
+- `docx-ready-markdown-profile.md` — DOCX 렌더링 안전한 markdown 컨벤션
+- `formatter-index.md` — 어떤 profile 을 언제 쓰는지
+
+렌더러 + 스킬 스택은 family 내에 이미 존재하는 렌더링 인프라 재발명을 피하기 위해 **`legal-research-agent` 에서 verbatim 으로 vendor**. DPA 도메인 패치 (`legal-research-agent-*` 파일명을 `data-protection-agent-*` 로 rewrite, 작성자 디폴트 rewrite) 는 적용하되 렌더링·typography 로직은 unchanged.
+
+### CLI 예시
+
+```bash
+# Canonical 리서치 메모 → DOCX (영문, US letter)
+python3 scripts/render-docx.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.docx \
+  --language en --jurisdiction us --overwrite
+
+# 정식 한국어 legal-opinion DOCX (표지 + 기밀 banner + 자동 번호 헤딩)
+python3 scripts/render-legal-opinion-docx.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.docx \
+  --title "AI 자동화 결정 — 3법역 검토" \
+  --recipient "사내 법무팀 귀중" \
+  --date "$(date +'%Y년 %-m월 %-d일')" \
+  --classification "CONFIDENTIAL — INTERNAL LEGAL REVIEW" \
+  --author "Data Protection Agent (data-protection-agent)"
+```
+
+`requirements.txt` 가 렌더러 의존성 `python-docx>=1.1.0` 핀.
 
 ---
 
