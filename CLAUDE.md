@@ -105,7 +105,10 @@ cd sources/us-ca
 python3 scripts/build_california_kb.py --validate
 PYTHONPATH=. pytest -q tests
 
-# EU and KR sub-KBs are imported from sibling repos via:
+# EU/KR/CA sub-KBs are bundled in this repo (EU + KR were folded in
+# from the now-superseded GDPR-expert / PIPA-expert sibling repos at
+# v1.0.0). Re-run after editing kb/{eu-gdpr,kr-pipa}/ or rebuilding
+# CA from sources/us-ca/ to refresh the unified-*.json indexes:
 python3 scripts/import_namespaced_kbs.py --clean
 PYTHONPATH=. pytest -q tests/test_namespaced_kb_import.py
 ```

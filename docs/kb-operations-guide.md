@@ -1,7 +1,7 @@
 # KB Operations Guide
 
 Status: active operating guide
-Date: 2026-05-06
+Date: 2026-05-08 (post-v1.0.0)
 Scope: `kb/eu-gdpr`, `kb/kr-pipa`, `kb/us-ca`, and their source folders
 
 ## 1. Purpose
@@ -10,13 +10,13 @@ This guide turns the jurisdiction KBs from one-time build artifacts into maintai
 
 The merged agent uses three namespaced sub-KBs:
 
-| Namespace | Jurisdiction | Source of truth | Merged output |
+| Namespace | Jurisdiction | Source of truth | Notes |
 |---|---|---|---|
-| `eu-gdpr` | EU | sibling `GDPR-expert` repo/folder | `kb/eu-gdpr` |
-| `kr-pipa` | Korea | sibling `PIPA-expert` repo/folder | `kb/kr-pipa` |
-| `us-ca` | California | local `sources/us-ca` | `kb/us-ca` |
+| `eu-gdpr` | EU | in-tree (`kb/eu-gdpr`) | Originally folded in from sibling `GDPR-expert` at v1.0.0 (2026-05-08); the sibling repo is now superseded. Edit `kb/eu-gdpr/library` + `kb/eu-gdpr/index` directly. |
+| `kr-pipa` | Korea | in-tree (`kb/kr-pipa`) | Originally folded in from sibling `PIPA-expert` at v1.0.0 (2026-05-08); the sibling repo is now superseded. Edit `kb/kr-pipa/library` + `kb/kr-pipa/index` directly. |
+| `us-ca` | California | local `sources/us-ca` | Built in-tree from the start. Edit `sources/us-ca/`, then run `python3 sources/us-ca/scripts/build_california_kb.py --validate` to rebuild, then run the namespaced import to refresh `kb/us-ca/`. |
 
-The merged `kb/` tree is an imported runtime copy. Do not hand-edit `kb/<namespace>/library` or `kb/<namespace>/index`; update the source-of-truth folder, rebuild there, then run the namespaced import.
+After any KB change (CA build, or direct edit of `kb/{eu-gdpr,kr-pipa}/`), run `scripts/import_namespaced_kbs.py --clean` to refresh the unified `index/` tree.
 
 ## 2. Operating Principles
 
@@ -57,11 +57,14 @@ Promotion rules:
 
 1. Identify the jurisdiction and source family.
 2. Read the relevant runbook in `docs/sub-kb-operations/`.
-3. Update only the source-of-truth KB folder.
-4. Fetch or add raw source material according to that KB's builder.
-5. Generate markdown and JSON indexes.
+3. Update the appropriate source location:
+   - For California: edit `sources/us-ca/` (frontmatter, library files, etc.), then re-run `sources/us-ca/scripts/build_california_kb.py --validate` to regenerate per-family indexes.
+   - For EU: edit `kb/eu-gdpr/library/` and/or `kb/eu-gdpr/index/` directly.
+   - For Korea: edit `kb/kr-pipa/library/` and/or `kb/kr-pipa/index/` directly.
+4. Fetch or add raw source material as needed (under the relevant `raw/` tree where applicable).
+5. Verify markdown frontmatter conforms to the per-family schema.
 6. Run the jurisdiction validation gates.
-7. Run the root namespaced import:
+7. Run the root namespaced import to refresh `kb/us-ca/` (from the rebuilt `sources/us-ca/`) and the unified `index/` tree:
 
 ```bash
 python3 scripts/import_namespaced_kbs.py --clean

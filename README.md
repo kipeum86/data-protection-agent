@@ -39,11 +39,11 @@ Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 This agent is the **privacy-research nucleus of the KP Legal Orchestrator**, unifying three knowledge bases into one cross-jurisdictional answering surface:
 
-- **`GDPR-expert`** *(sibling repo)* → EU GDPR + ePrivacy Directive + EU AI Act + Data Act + Data Governance Act · 1,029 records
-- **`PIPA-expert`** *(sibling repo)* → Korea PIPA + Network Act + Credit Information Act + Location Information Act + PIPC guidelines · 929 records
-- **California sub-KB** *(in-tree under `sources/us-ca/`)* → CCPA-as-amended-by-CPRA + CPPA regulations + CIPA + CMIA + AADC + Customer Records Act + adjacent privacy statutes · 237 records
+- **EU GDPR sub-KB** *(in-tree under `kb/eu-gdpr/`; folded in from the now-superseded [GDPR-expert](https://github.com/kipeum86/GDPR-expert) sibling repo at v1.0.0)* → GDPR + ePrivacy Directive + EU AI Act + Data Act + Data Governance Act · 1,029 records
+- **Korea PIPA sub-KB** *(in-tree under `kb/kr-pipa/`; folded in from the now-superseded [PIPA-expert](https://github.com/kipeum86/PIPA-expert) sibling repo at v1.0.0)* → Korea PIPA + Network Act + Credit Information Act + Location Information Act + PIPC guidelines · 929 records
+- **California sub-KB** *(in-tree under `sources/us-ca/`; built locally in this repo from the start)* → CCPA-as-amended-by-CPRA + CPPA regulations + CIPA + CMIA + AADC + Customer Records Act + adjacent privacy statutes · 237 records
 
-> **You do not need to read the sibling repos to use this one.** This README and the docs in this repo are self-contained. The sibling repos remain the source of truth for the EU and KR knowledge bases — separately maintained, separately released — and are re-imported into this tree via a deterministic build script. The California sub-KB is built and lives here.
+> **As of v1.0.0 (2026-05-08), all KB content is maintained in this repo** under `kb/`. The original GDPR-expert and PIPA-expert sibling repos are preserved for historical reference but are now superseded — all future development, including KB updates, happens here. This README and the docs in this repo are self-contained; you do not need to consult the sibling repos to use this one.
 
 What this repo adds on top of the three knowledge bases:
 
@@ -156,47 +156,58 @@ Three sub-KBs imported into one runtime tree. Each sub-KB ships per-section mark
 
 | Sub-KB | Source-of-truth | Records | Primary law | Authority types |
 |:---|:---|---:|:---|:---|
-| `eu-gdpr` | sibling [`GDPR-expert/`](https://github.com/kipeum86/GDPR-expert) | **1,029** | GDPR | Articles · Recitals · EDPB documents (guidelines/opinions/binding decisions) · CJEU cases · enforcement decisions |
-| `kr-pipa` | sibling [`PIPA-expert/`](https://github.com/kipeum86/PIPA-expert) | **929** | PIPA | Articles · Enforcement Decree articles · Network Act · Credit Information Act · Location Information Act · PIPC guidelines · court decisions |
-| `us-ca` | local `sources/us-ca/` | **237** | CCPA-as-amended-by-CPRA | CCPA statute · CPPA regulations (11 CCR § 7000–7300) · CalOPPA · CIPA · CMIA · AADC · Customer Records Act · OAG guidance · court opinions |
+| `eu-gdpr` | in-tree (`kb/eu-gdpr/`) — originally folded in from [GDPR-expert](https://github.com/kipeum86/GDPR-expert) at v1.0.0 | **1,029** | GDPR | Articles · Recitals · EDPB documents (guidelines/opinions/binding decisions) · CJEU cases · enforcement decisions |
+| `kr-pipa` | in-tree (`kb/kr-pipa/`) — originally folded in from [PIPA-expert](https://github.com/kipeum86/PIPA-expert) at v1.0.0 | **929** | PIPA | Articles · Enforcement Decree articles · Network Act · Credit Information Act · Location Information Act · PIPC guidelines · court decisions |
+| `us-ca` | local `sources/us-ca/` (built in-tree from the start) | **237** | CCPA-as-amended-by-CPRA | CCPA statute · CPPA regulations (11 CCR § 7000–7300) · CalOPPA · CIPA · CMIA · AADC · Customer Records Act · OAG guidance · court opinions |
 | **Total** | | **2,195** | | |
 
 ### How the Knowledge Gets In
 
 ```mermaid
 flowchart LR
-    subgraph siblings["Source of Truth (separately maintained)"]
+    subgraph hist["Historical lineage<br/><i>(superseded sibling repos, v1.0.0)</i>"]
         direction TB
-        G["GDPR-expert/<br/><i>EU legislation via CELLAR API,<br/>EDPB PDFs, CJEU case files</i>"]
-        P["PIPA-expert/<br/><i>law.go.kr structured data,<br/>PIPC guideline PDFs</i>"]
-        C["sources/us-ca/<br/><i>CPPA regs, OAG guidance,<br/>SCOCAL mirrors, leginfo</i>"]
+        G["GDPR-expert<br/><i>EU legislation via CELLAR API,<br/>EDPB PDFs, CJEU case files</i>"]
+        P["PIPA-expert<br/><i>law.go.kr structured data,<br/>PIPC guideline PDFs</i>"]
     end
 
-    IM["<b>scripts/import_namespaced_kbs.py</b><br/>(deterministic, idempotent)"]
-
-    subgraph runtime["Runtime KB (this repo)"]
+    subgraph local["In-Tree Sources of Truth"]
         direction TB
-        KBs["kb/&lt;ns&gt;/library/<br/>kb/&lt;ns&gt;/index/"]
+        KBEU["<b>kb/eu-gdpr/</b><br/><i>library/ + index/<br/>(folded in at v1.0.0)</i>"]
+        KBKR["<b>kb/kr-pipa/</b><br/><i>library/ + index/<br/>(folded in at v1.0.0)</i>"]
+        SRC["<b>sources/us-ca/</b><br/><i>library/ + index/<br/>+ build_california_kb.py</i>"]
+    end
+
+    IM["<b>scripts/import_namespaced_kbs.py</b><br/>(deterministic, idempotent — refreshes<br/>unified indexes; copies sources/us-ca/ → kb/us-ca/)"]
+
+    subgraph runtime["Runtime / Unified View"]
+        direction TB
+        KBCA["kb/us-ca/<br/><i>(generated from sources/us-ca/)</i>"]
         UI["index/<br/><i>jurisdiction-routing,<br/>unified-authority-index,<br/>unified-topic-index,<br/>unified-source-registry</i>"]
-        KBs --> UI
+        KBCA --> UI
     end
 
-    G --> IM
-    P --> IM
-    C --> IM
-    IM --> KBs
+    G -.folded in at v1.0.0.-> KBEU
+    P -.folded in at v1.0.0.-> KBKR
+    SRC --> IM
+    IM --> KBCA
+    KBEU --> UI
+    KBKR --> UI
 
-    style siblings fill:#eff6ff,stroke:#2563eb
-    style runtime fill:#f0fdf4,stroke:#16a34a
+    style hist fill:#f3f4f6,stroke:#9ca3af,color:#374151
+    style local fill:#f0fdf4,stroke:#16a34a
+    style runtime fill:#eff6ff,stroke:#2563eb
     style IM fill:#fef9c3,stroke:#ca8a04,color:#713f12
-    style G fill:#dbeafe,stroke:#3b82f6,color:#1e40af
-    style P fill:#dbeafe,stroke:#3b82f6,color:#1e40af
-    style C fill:#dbeafe,stroke:#3b82f6,color:#1e40af
-    style KBs fill:#d1fae5,stroke:#059669,color:#065f46
-    style UI fill:#d1fae5,stroke:#059669,color:#065f46
+    style G fill:#e5e7eb,stroke:#6b7280,color:#374151
+    style P fill:#e5e7eb,stroke:#6b7280,color:#374151
+    style KBEU fill:#d1fae5,stroke:#059669,color:#065f46
+    style KBKR fill:#d1fae5,stroke:#059669,color:#065f46
+    style SRC fill:#d1fae5,stroke:#059669,color:#065f46
+    style KBCA fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style UI fill:#dbeafe,stroke:#3b82f6,color:#1e40af
 ```
 
-For EU and KR, the source-of-truth is in the sibling repos (separately maintained, separately released — see [GDPR-expert README](https://github.com/kipeum86/GDPR-expert) and [PIPA-expert README](https://github.com/kipeum86/PIPA-expert) for ingest pipelines). The importer copies their structured `library/` and `index/` trees into `kb/{namespace}/`. For California, everything lives in `sources/us-ca/`: per-section markdown under `library/grade-{a,b,c}/`, per-family JSON indexes under `index/`, and the build pipeline at `scripts/build_california_kb.py`. The importer copies those into `kb/us-ca/`.
+All three sub-KBs are maintained in-tree under `kb/<namespace>/`. The EU and KR KB content was originally folded in from the [GDPR-expert](https://github.com/kipeum86/GDPR-expert) and [PIPA-expert](https://github.com/kipeum86/PIPA-expert) sibling repos at v1.0.0 (2026-05-08); those sibling repos are now superseded but their original ingest pipelines (CELLAR API for GDPR, law.go.kr for PIPA) remain documented there for historical reference. The California sub-KB is built locally from `sources/us-ca/` via `scripts/build_california_kb.py` and copied into `kb/us-ca/` by the importer. After any KB change, `scripts/import_namespaced_kbs.py --clean` regenerates the unified `index/` tree.
 
 The unified indexes at `index/` are **generated, never hand-edited**:
 
@@ -593,9 +604,9 @@ data-protection-agent/
 ├── README.md, README.ko.md, CHANGELOG.md
 │
 ├── kb/                        # Unified runtime KB (generated, never hand-edit)
-│   ├── eu-gdpr/               #   ← imported from sibling GDPR-expert
-│   ├── kr-pipa/               #   ← imported from sibling PIPA-expert
-│   └── us-ca/                 #   ← imported from local sources/us-ca/
+│   ├── eu-gdpr/               #   ← in-tree (folded in from GDPR-expert at v1.0.0)
+│   ├── kr-pipa/               #   ← in-tree (folded in from PIPA-expert at v1.0.0)
+│   └── us-ca/                 #   ← built from local sources/us-ca/ via the importer
 │       └── index/{ca,kr,eu}-topic-index.json   # Per-namespace topic crosswalk
 │
 ├── index/                     # Unified indexes (generated)
@@ -706,7 +717,7 @@ KR and EU steps gracefully skip when the sibling repos are not available on the 
 |:---:|:---|:---|
 | ✅ Done (v3-v20) | Sub-KB unification, 30+ auditor checks, agent answering pipeline, 29 topic crosswalks, 13 golden fixtures, output validator, 223 tests | Production-ready |
 | ⏳ Considering | LRA-style `output_mode` axis (executive_brief, compliance_checklist, enforcement_focused) | The `research_mode` axis (jurisdiction routing) is locked; `output_mode` would be a separate orthogonal axis |
-| ⏳ Considering | KR case-law import | Would require a separate sibling repo (parallel to GDPR-expert / PIPA-expert) |
+| ⏳ Considering | KR case-law import | Would require a separate sub-KB build (analogous to how the original EU/KR KBs were ingested before being folded in at v1.0.0) |
 | ⏳ Considering | MCP integration | `korean-law` MCP for live KR primary-source fetch — already used in `legal-research-agent` |
 | 🚫 Out of scope | Multi-state US privacy (Virginia CDPA, Colorado CPA, etc.) | Each requires a dedicated sub-KB build round; flagged as `fallback_us` until then |
 | 🚫 Out of scope | LLM provider integration as code | The agent runs inside Claude Code; composition stays in the LLM during the slash-command run |
