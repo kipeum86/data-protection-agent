@@ -1,148 +1,551 @@
+<div align="center">
+
+**[English](README.md)** · **[한국어](README.ko.md)**
+
 # Data Protection Agent
 
-Merged privacy/data-protection research agent workspace for:
+### KP Legal Orchestrator · Unified Privacy Research Across EU, Korea & California
 
-- EU GDPR
-- Korea PIPA
-- California CCPA/CPRA
+**3 jurisdictions** · **2,195 indexed authorities** · **30+ citation audit checks** · **223 tests** · **8-stage research workflow**
 
-The runtime KB is imported under `kb/<namespace>` and indexed under `index/`.
+Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) · Powered by structured RAG · Production-tested
 
-## Sub-KBs
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Powered-blueviolet?logo=anthropic)](https://claude.ai/code)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Jurisdictions](https://img.shields.io/badge/Jurisdictions-EU_·_KR_·_US--CA-blue)](#knowledge-base)
+[![Authorities](https://img.shields.io/badge/Authorities-2%2C195-green)](#knowledge-base)
+[![Audit Checks](https://img.shields.io/badge/Audit_Checks-30%2B-orange)](#citation-auditor)
+[![Tests](https://img.shields.io/badge/Tests-223-brightgreen)](#local-preflight--ci)
+[![License](https://img.shields.io/badge/License-Apache_2.0-yellow)](#license)
 
-| Sub-KB    | Jurisdiction        | Records | Primary law              |
-|-----------|---------------------|---------|--------------------------|
-| eu-gdpr   | EU                  | 1,029   | GDPR (+ ePrivacy, AI Act)|
-| kr-pipa   | Korea               | 929     | PIPA (+ Network Act)     |
-| us-ca     | California (US)     | 237     | CCPA as amended by CPRA  |
-| **total** |                     | **2,195** |                        |
+<br/>
 
-Each sub-KB ships with its own per-section markdown, JSON indexes, and a
-regex-based citation auditor. A cross-jurisdiction auditor sits above the
-three sub-auditors to catch routing mismatches, vocabulary confusion, and
-vague law references. From v19 onward, an LLM-facing answering layer
-(skills + templates + slash command + output validator) sits above the
-auditor stack so a Claude Code session can run the full intake → routing
-→ retrieval → grounding → composition → quality-check workflow against
-any privacy-law question.
+> *"Data structure is intelligence."*
+> — Smarter data beats smarter search. Every time.
+
+</div>
+
+> [!CAUTION]
+> **This tool is for legal research assistance only — it does not provide legal advice.** Outputs are AI-generated and may contain errors despite built-in verification. All legal citations must be independently verified before reliance. Consult a qualified attorney for advice on specific legal matters.
+
+> [!TIP]
+> **New here?** Skip to [Quick Start](#quick-start) for the `/answer` slash command, or [The Problem](#the-problem) for what this tool actually solves and why it exists.
+
+---
+
+## Heritage
+
+This agent is the **privacy-research nucleus of the KP Legal Orchestrator**, unifying three knowledge bases into one cross-jurisdictional answering surface:
+
+- **`GDPR-expert`** *(sibling repo)* → EU GDPR + ePrivacy Directive + EU AI Act + Data Act + Data Governance Act · 1,029 records
+- **`PIPA-expert`** *(sibling repo)* → Korea PIPA + Network Act + Credit Information Act + Location Information Act + PIPC guidelines · 929 records
+- **California sub-KB** *(in-tree under `sources/us-ca/`)* → CCPA-as-amended-by-CPRA + CPPA regulations + CIPA + CMIA + AADC + Customer Records Act + adjacent privacy statutes · 237 records
+
+> **You do not need to read the sibling repos to use this one.** This README and the docs in this repo are self-contained. The sibling repos remain the source of truth for the EU and KR knowledge bases — separately maintained, separately released — and are re-imported into this tree via a deterministic build script. The California sub-KB is built and lives here.
+
+What this repo adds on top of the three knowledge bases:
+
+| Layer | Why it cannot live in a single-jurisdiction repo |
+|---|---|
+| **Cross-jurisdiction routing** | Decides which sub-KB(s) a question concerns. A single-juris repo cannot route across borders. |
+| **Cross-jurisdiction citation auditor** | Catches blending of EU/KR/CA authorities in one paragraph, vocabulary drift (`controller` vs `business` vs `개인정보처리자`), and vague "depending on the jurisdiction" hand-waving. |
+| **Unified answering pipeline** | One slash command (`/answer`) that walks intake → retrieval → grounding → composition → audit → write across all three KBs with strict source-anchor discipline. |
+| **Output contract validator** | Machine-checkable result memo (.md) + metadata (.json) schema. Every key finding traces to a `src_NNN` id; every source id resolves to a local KB authority. |
+
+---
+
+## Table of Contents
+
+- [Heritage](#heritage)
+- [The Problem](#the-problem)
+- [The Solution](#the-solution)
+- [Knowledge Base](#knowledge-base)
+- [How It Works](#how-it-works)
+- [Quick Start](#quick-start)
+- [Output Contract](#output-contract)
+- [Source Reliability Model](#source-reliability-model)
+- [Citation Auditor](#citation-auditor)
+- [Repository Structure](#repository-structure)
+- [Local Preflight & CI](#local-preflight--ci)
+- [Roadmap](#roadmap)
+- [Part of KP Legal Orchestrator](#part-of-kp-legal-orchestrator)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+
+---
+
+## The Problem
+
+Real-world privacy compliance is rarely single-jurisdiction. A SaaS product handling user data routinely needs simultaneous analysis across **GDPR (EU users)**, **PIPA (Korean users)**, and **CCPA-as-amended-by-CPRA (California consumers)**. Even an EU-only company often has California marketing exposure; even a Korea-only company often has EU customers via API.
+
+Existing AI privacy assistants fail this scenario because they:
+
+- **Are single-jurisdiction by design** — most tools cover GDPR *or* PIPA *or* CCPA, never the trinity. Cross-juris questions force manual orchestration.
+- **Blend authorities silently** — when forced to multi-juris, generic RAG merges GDPR Article 22 with CCPA opt-out into one paragraph as if they were the same concept. They are not. "Personal data" (GDPR) and "personal information" (CCPA, PIPA) are not interchangeable; lawful basis (GDPR Art. 6) and notice-at-collection (CCPA § 1798.100) are not the same legal hook.
+- **Lose citation discipline** — generic RAG over flat PDFs hallucinates article numbers, fabricates case holdings, misclassifies recitals as binding, and treats federal court orders as California state precedent.
+- **Have no quality gate** — no programmatic check that the answer is actually grounded in primary law. The user is the only line of defence.
+
+The cost of getting this wrong is real: regulators, plaintiffs, and journalists notice when a privacy memo cites GDPR Recital 71 as binding, claims § 1798.150 is the California breach-notification statute (it is the private-right-of-action), or treats a 9th Circuit interpretation of CCPA as binding California precedent.
+
+---
+
+## The Solution
+
+```mermaid
+flowchart LR
+    Q["<b>User question</b><br/>e.g. <i>Compare GDPR Art 22 / PIPA Art 37-2 /<br/>CCPA ADMT regs for AI refund denial</i>"]
+
+    subgraph route["Routing"]
+        direction TB
+        R["<b>intake-and-routing</b> skill<br/>→ comparative mode<br/>→ EU + KR + US-CA"]
+    end
+
+    subgraph kb["Three Sub-KBs (2,195 authorities)"]
+        direction LR
+        EU["<b>eu-gdpr</b><br/>1,029 records<br/>GDPR · ePrivacy · AI Act<br/>· Data Act · DGA · EDPB · CJEU"]
+        KR["<b>kr-pipa</b><br/>929 records<br/>PIPA · Network Act ·<br/>Credit Info · Location Info · PIPC"]
+        CA["<b>us-ca</b><br/>237 records<br/>CCPA-as-amended-by-CPRA ·<br/>CPPA regs · CalOPPA · CIPA · CMIA · AADC"]
+    end
+
+    subgraph audit["Quality Gate (30+ checks)"]
+        direction TB
+        SUB["3 sub-auditors<br/><i>article id · case lookup · quote integrity ·<br/>future-effective · mirror disclosure · binding misuse</i>"]
+        XJ["Cross-jurisdiction auditor<br/><i>routing · vocabulary · labels · vague refs</i>"]
+        VAL["Output contract validator<br/><i>schema · source anchors · placeholders</i>"]
+        SUB --> XJ --> VAL
+    end
+
+    OUT["<b>Output (2 contract files)</b><br/>data-protection-agent-result.md (9-section memo)<br/>data-protection-agent-meta.json (structured metadata)"]
+
+    Q --> R
+    R --> EU & KR & CA
+    EU & KR & CA --> SUB
+    VAL --> OUT
+
+    style Q fill:#ede9fe,stroke:#7c3aed,color:#5b21b6
+    style route fill:#eff6ff,stroke:#2563eb
+    style kb fill:#f0fdf4,stroke:#16a34a
+    style audit fill:#fffbeb,stroke:#d97706
+    style OUT fill:#d1fae5,stroke:#059669,color:#065f46
+    style EU fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style KR fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style CA fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style SUB fill:#fef3c7,stroke:#d97706,color:#92400e
+    style XJ fill:#fef3c7,stroke:#d97706,color:#92400e
+    style VAL fill:#fef3c7,stroke:#d97706,color:#92400e
+```
+
+The data-protection-agent does what no single-jurisdiction tool can:
+
+1. **Routes per question** to the right sub-KB(s) using `index/jurisdiction-routing.json` — modes: `ca_only` / `kr_only` / `eu_only` / `multi_jurisdiction` / `comparative` / `fallback_us` / `fallback`.
+2. **Retrieves only from local KBs** (no web fetch, no training-data fallback) using deterministic keyword + topic-boost scoring against `unified-authority-index.json` (2,195 authorities) and `unified-topic-index.json` (29 curated topic crosswalks).
+3. **Composes per mode** with strict source-anchor discipline — every key finding traces to a `src_NNN` id, the memo never blends jurisdictions in a single paragraph, comparative answers use a side-by-side matrix with labeled per-jurisdiction commentary.
+4. **Audits programmatically** via 30+ regex + structural checks across four auditor layers (3 sub-auditors + cross-jurisdiction layer).
+5. **Validates the output contract** — both the markdown memo and the JSON metadata are machine-checked before declaring done. CI fails on any contract violation.
+6. **Records what it does not know** — out-of-scope (Virginia CDPA, Brazil LGPD, etc.) is honestly flagged as `coverage_gaps`, never fabricated. The agent fails loud rather than guessing.
+
+The result: a research artifact a privacy lawyer can defend in front of a regulator.
+
+---
+
+## Knowledge Base
+
+Three sub-KBs imported into one runtime tree. Each sub-KB ships per-section markdown files with rich YAML frontmatter, JSON indexes for fast lookup, and (where applicable) cross-reference graphs.
+
+| Sub-KB | Source-of-truth | Records | Primary law | Authority types |
+|:---|:---|---:|:---|:---|
+| `eu-gdpr` | sibling [`GDPR-expert/`](https://github.com/kipeum86/GDPR-expert) | **1,029** | GDPR | Articles · Recitals · EDPB documents (guidelines/opinions/binding decisions) · CJEU cases · enforcement decisions |
+| `kr-pipa` | sibling [`PIPA-expert/`](https://github.com/kipeum86/PIPA-expert) | **929** | PIPA | Articles · Enforcement Decree articles · Network Act · Credit Information Act · Location Information Act · PIPC guidelines · court decisions |
+| `us-ca` | local `sources/us-ca/` | **237** | CCPA-as-amended-by-CPRA | CCPA statute · CPPA regulations (11 CCR § 7000–7300) · CalOPPA · CIPA · CMIA · AADC · Customer Records Act · OAG guidance · court opinions |
+| **Total** | | **2,195** | | |
+
+### How the Knowledge Gets In
+
+```mermaid
+flowchart LR
+    subgraph siblings["Source of Truth (separately maintained)"]
+        direction TB
+        G["GDPR-expert/<br/><i>EU legislation via CELLAR API,<br/>EDPB PDFs, CJEU case files</i>"]
+        P["PIPA-expert/<br/><i>law.go.kr structured data,<br/>PIPC guideline PDFs</i>"]
+        C["sources/us-ca/<br/><i>CPPA regs, OAG guidance,<br/>SCOCAL mirrors, leginfo</i>"]
+    end
+
+    IM["<b>scripts/import_namespaced_kbs.py</b><br/>(deterministic, idempotent)"]
+
+    subgraph runtime["Runtime KB (this repo)"]
+        direction TB
+        KBs["kb/&lt;ns&gt;/library/<br/>kb/&lt;ns&gt;/index/"]
+        UI["index/<br/><i>jurisdiction-routing,<br/>unified-authority-index,<br/>unified-topic-index,<br/>unified-source-registry</i>"]
+        KBs --> UI
+    end
+
+    G --> IM
+    P --> IM
+    C --> IM
+    IM --> KBs
+
+    style siblings fill:#eff6ff,stroke:#2563eb
+    style runtime fill:#f0fdf4,stroke:#16a34a
+    style IM fill:#fef9c3,stroke:#ca8a04,color:#713f12
+    style G fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style P fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style C fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    style KBs fill:#d1fae5,stroke:#059669,color:#065f46
+    style UI fill:#d1fae5,stroke:#059669,color:#065f46
+```
+
+For EU and KR, the source-of-truth is in the sibling repos (separately maintained, separately released — see [GDPR-expert README](https://github.com/kipeum86/GDPR-expert) and [PIPA-expert README](https://github.com/kipeum86/PIPA-expert) for ingest pipelines). The importer copies their structured `library/` and `index/` trees into `kb/{namespace}/`. For California, everything lives in `sources/us-ca/`: per-section markdown under `library/grade-{a,b,c}/`, per-family JSON indexes under `index/`, and the build pipeline at `scripts/build_california_kb.py`. The importer copies those into `kb/us-ca/`.
+
+The unified indexes at `index/` are **generated, never hand-edited**:
+
+| File | What |
+|---|---|
+| `index/jurisdiction-routing.json` | Routing terms per namespace (used by intake-and-routing) |
+| `index/unified-authority-index.json` | Flat list of all 2,195 authorities with `unified_id`, `namespace`, `jurisdiction`, `source_grade`, `path` |
+| `index/unified-topic-index.json` | 29 curated topic crosswalks (CA 13 + KR 8 + EU 8) |
+| `index/unified-source-registry.json` | Per-sub-KB manifest with import timestamps + record counts |
+
+### Topic Crosswalks (29 total)
+
+Each sub-KB ships a topic index that maps a common privacy question to the controlling authorities. The retriever applies a topic-boost (+7) on top of keyword scoring so questions like "consent under PIPA" surface `pipa-art15` and `pipa-art22` first, not the generic `pipa-art1` (Purpose) that keyword-only scoring would rank highly.
+
+| Topic family | Coverage |
+|:---|:---|
+| Notice / consent / lawful basis | All 3 (GDPR Art 6/7/8, PIPA Art 15/22, CCPA § 1798.100 + 11 CCR § 7012) |
+| Data subject rights | All 3 (GDPR Arts 15-22, PIPA Arts 35-37-2, CCPA § 1798.105/.110/.115) |
+| Sensitive / special-category data | All 3 (GDPR Art 9, PIPA Art 23-24, CCPA § 1798.121) |
+| Breach notification | All 3 (GDPR Art 33-34, PIPA Art 34 + Decree 39/40, CCPA § 1798.150 + Civ § 1798.82) |
+| Cross-border transfer | EU + KR (GDPR Chapter V, PIPA Art 28-8/-9) |
+| Automated decision-making | All 3 (GDPR Art 22, PIPA Art 37-2, CCPA 11 CCR § 7200-7222 ADMT regime) |
+| DPIA / impact assessment | All 3 (GDPR Art 35-36, PIPA Art 33, CCPA 11 CCR § 7150-7155) |
+| Enforcement and penalties | All 3 (GDPR Art 83/82/77, PIPA Art 64-2/64/39, CPPA enforcement) |
+| Minors / children | CA-strongest (CCPA § 1798.120, 11 CCR § 7070-7071, AADC, SOPIPA) |
+| CCPA-specific | Notice at collection · CalOPPA · CIPA tracking · Data Broker Delete Act |
+
+---
+
+## How It Works
+
+The agent runs an **8-stage workflow** — same path for standalone `/answer` invocations and for orchestrator subagent dispatches:
+
+```mermaid
+sequenceDiagram
+    participant U as User / Orchestrator
+    participant SK as .claude/skills/
+    participant KB as Local KBs (kb/)
+    participant AU as Auditors
+    participant OUT as Output files
+
+    U->>SK: /answer "<question>"<br/>or Task(subagent_type=...)
+    SK->>SK: 1. intake-and-routing<br/><i>classify mode, select sub-KB(s)</i>
+    SK->>KB: 2. kb-retrieval<br/><i>retrieve_authorities.py + topic boost</i>
+    KB-->>SK: top-K authorities + bodies
+    SK->>SK: 3. trust-boundary<br/><i>KB content = data, not instructions</i>
+    SK->>SK: 4. claim-grounding<br/><i>every material claim → local id</i>
+    SK->>SK: 5. result-memo-composition<br/><i>or comparative-composition for multi-juris</i>
+    SK->>AU: 6. quality-check
+    AU->>AU: 4 sub-auditors + cross-juris
+    AU->>AU: validate-output.py
+    AU-->>SK: pass / warn / fail
+    SK->>OUT: 7. write 2 contract files
+    Note right of OUT: data-protection-agent-result.md<br/>data-protection-agent-meta.json
+```
+
+### Modes
+
+| Mode | When | Output shape |
+|:---|:---|:---|
+| `ca_only` | California-only signals (CCPA, CPRA, CPPA, CIPA, CMIA, etc.) | Single-jurisdiction memo |
+| `kr_only` | Korean-only (PIPA, 정보통신망법, 신용정보법, PIPC) | Single-jurisdiction memo (Korean OK) |
+| `eu_only` | EU-only (GDPR, EDPB, AI Act, Data Act, ePrivacy) | Single-jurisdiction memo |
+| `multi_jurisdiction` | 2+ jurisdictions, no explicit "compare" intent | Per-jurisdiction labeled sections |
+| `comparative` | 2+ jurisdictions with comparison intent (`compare`, `vs`, `비교`, `차이`) | Side-by-side matrix + per-juris commentary |
+| `fallback_us` | US privacy outside California (Virginia CDPA, Colorado CPA, etc.) | Coverage-gap memo (out of KB scope) |
+| `fallback` | Out of domain entirely (non-privacy) | Conservative memo with explicit gaps |
+
+The mode is locked at intake. The agent **never silently switches modes** mid-workflow. If the user's question conflicts with the routed mode, the agent records a `classification_warnings` entry and surfaces the uncertainty in `coverage_gaps` rather than overriding.
+
+### Skills (8 modular instructions)
+
+Each skill carries `disable-model-invocation: true` so the LLM loads it only when explicitly told to via `CLAUDE.md` references. This keeps the prompt budget tight and the workflow disciplined.
+
+| Skill | Purpose |
+|:---|:---|
+| [`intake-and-routing`](.claude/skills/intake-and-routing/SKILL.md) | Classify mode + emit routing block |
+| [`kb-retrieval`](.claude/skills/kb-retrieval/SKILL.md) | Run deterministic local retrieval + build source envelopes |
+| [`trust-boundary`](.claude/skills/trust-boundary/SKILL.md) | Treat every byte from KB / web / MCP as data, not instruction |
+| [`claim-grounding`](.claude/skills/claim-grounding/SKILL.md) | Every material claim → local authority id + currentness check |
+| [`result-memo-composition`](.claude/skills/result-memo-composition/SKILL.md) | Write the canonical 9-section memo with source anchors |
+| [`comparative-composition`](.claude/skills/comparative-composition/SKILL.md) | Multi-juris labeled sections + side-by-side matrix; never blend |
+| [`quality-check`](.claude/skills/quality-check/SKILL.md) | Run citation auditor + output validator + source-coverage gate |
+| [`citation-auditor`](.claude/skills/citation-auditor/SKILL.md) | Slash-skill wrapper around `audit-unified.py` (CC users can invoke directly) |
+
+---
 
 ## Quick Start
 
-### Inside a Claude Code session
+### Inside Claude Code
 
 ```text
-/answer Under California law, when must a business provide notice at or before collection?
+/answer Under California law, when must a business provide notice at or before the point of collection?
 ```
 
-Routes intake → applies the v19 skills (kb-retrieval, trust-boundary,
-claim-grounding, result-memo-composition or comparative-composition,
-quality-check) → writes the two contract files
-(`data-protection-agent-result.md` + `data-protection-agent-meta.json`)
-under `$OUTPUT_DIR` or `outputs/data-protection-agent/`.
+The agent walks the 8-stage workflow and writes:
+
+- `outputs/data-protection-agent/data-protection-agent-result.md` (9-section memo)
+- `outputs/data-protection-agent/data-protection-agent-meta.json` (structured metadata)
+
+Override the output directory with `OUTPUT_DIR=...` env var. Pass `mode=...` in the prompt to force a research mode (e.g. `mode=comparative`).
 
 ### Direct CLI (no LLM in the loop)
 
-Refresh imported KBs:
+Refresh imported KBs from sibling repos + local sources:
 
 ```bash
 python3 scripts/import_namespaced_kbs.py --clean
 ```
 
-Retrieve local authorities for a question:
+Retrieve top-K authorities for a question — deterministic scoring, no synthesis:
 
 ```bash
-python3 scripts/retrieve_authorities.py "Does the CCPA require honoring Global Privacy Control opt-out signals?" --format markdown
+python3 scripts/retrieve_authorities.py "Compare GDPR Art 22 with PIPA Art 37-2" --top-k 12
 ```
 
-Write the deterministic research-packet output (no LLM composition):
+Write a deterministic research packet (no LLM composition; useful for pipelines and tests):
 
 ```bash
-python3 scripts/run_data_protection_agent.py "Compare GDPR and CCPA automated decisionmaking obligations." --output-dir /tmp/dpa-output --print-summary
+python3 scripts/run_data_protection_agent.py "<question>" --output-dir /tmp/out --print-summary
 ```
 
-Validate output against the v19 contract:
+Audit a draft answer through the unified 4-layer auditor:
 
 ```bash
-python3 scripts/validate-output.py /tmp/dpa-output
+python3 scripts/audit-unified.py outputs/data-protection-agent/data-protection-agent-result.md
 ```
 
-Run the local golden-set evaluator (13 fixtures, both legacy and v19 cases):
+Validate an output directory against the v19 contract:
 
 ```bash
-python3 scripts/evaluate_golden_set.py --output-dir /tmp/dpa-golden --clean
+python3 scripts/validate-output.py outputs/data-protection-agent/
 ```
 
-Audit a draft answer:
+Run the local golden-set evaluator (13 fixtures across legacy + v19 modes):
 
 ```bash
-# Single-call unified auditor (recommended) — runs all 4 auditors at once
-echo "Per Cal. Civ. Code § 1798.150, businesses must ..." | \
-  python3 scripts/audit-unified.py
-
-# Or invoke individual auditors directly
-echo "Per Cal. Civ. Code § 1798.150, ..." | \
-  python3 sources/us-ca/scripts/audit-california-citations.py
-
-echo "GDPR Article 6 sets lawful bases." | \
-  python3 sources/eu-gdpr/scripts/audit-europe-citations.py
-
-echo "개인정보 보호법 제15조에 따라 ..." | \
-  python3 sources/kr-pipa/scripts/audit-korea-citations.py
+python3 scripts/evaluate_golden_set.py --output-dir /tmp/golden --clean
 ```
 
-Run tests:
+### Tests
 
 ```bash
-# Cross-cutting tests (top-level)
-PYTHONPATH=. pytest -q tests
-
-# Per sub-KB
-cd sources/us-ca && PYTHONPATH=. pytest -q tests
-cd sources/kr-pipa && PYTHONPATH=. pytest -q tests
-cd sources/eu-gdpr && PYTHONPATH=. pytest -q tests
+PYTHONPATH=. pytest -q tests              # cross-cutting + e2e (123)
+cd sources/us-ca && PYTHONPATH=. pytest -q tests   # CA sub-auditor (49)
+cd sources/kr-pipa && PYTHONPATH=. pytest -q tests # KR sub-auditor (23)
+cd sources/eu-gdpr && PYTHONPATH=. pytest -q tests # EU sub-auditor (28)
 ```
+
+Total: **223 tests**, all green on `main`.
 
 ### Optional: pre-commit auditor hook
-
-Enable the pre-commit hook to run the unified auditor on staged `.md`
-files automatically:
 
 ```bash
 git config core.hooksPath .githooks
 ```
 
-The hook aborts commits with `error` findings and prints `warn` findings
-inline (without aborting). Disable with `git config --unset core.hooksPath`.
+The hook runs the unified auditor on staged `.md` files. `error` findings abort the commit; `warn` findings print inline. Disable with `git config --unset core.hooksPath`. Skip for one commit with `git commit --no-verify`.
 
-Skip the hook for a single commit with `git commit --no-verify`.
+---
 
-## Architecture
+## Output Contract
+
+Every successful run writes exactly two files:
+
+```text
+$OUTPUT_DIR/data-protection-agent-result.md     # 9-section memo
+$OUTPUT_DIR/data-protection-agent-meta.json     # Structured metadata
+```
+
+### Result memo structure
+
+```markdown
+# Data Protection Agent - Result
+
+## Question        # verbatim user question
+## Route Context   # mode, jurisdictions, namespaces (mirrors meta exactly)
+## Short Answer    # 1-3 sentences with at least one src_NNN anchor
+## Issues          # per-issue: answer, sources, confidence, limits
+## Analysis        # Rule and Authority / Application / Counter-Analysis / Practical Next Step
+## Sources         # markdown table of authorities
+## Coverage Gaps   # or "None."
+## Handoff Notes   # or "None."
+```
+
+For `comparative` and `multi_jurisdiction` modes, Issues + Analysis are replaced by labeled per-jurisdiction sections plus a `## Comparison Matrix` table — **never blended in a single paragraph**.
+
+### Meta JSON schema (required keys)
+
+```json
+{
+  "meta_version": "1.0",
+  "summary": "Concise 2-4 sentence summary (under ~500 tokens).",
+  "research_mode": "ca_only | kr_only | eu_only | multi_jurisdiction | comparative | fallback_us | fallback",
+  "mode_source": "self_classified | orchestrator",
+  "active_profile": "data-protection-agent",
+  "orchestrator_route_mode": null,
+  "fallback_reason": null,
+  "classification_warnings": [],
+  "co_running_agents": [],
+  "jurisdictions": ["EU", "KR", "US-CA"],
+  "namespaces": ["eu-gdpr", "kr-pipa", "us-ca"],
+  "domains": ["data_protection"],
+  "issue_map": [...],
+  "key_findings": [...],
+  "sources": [...],
+  "claim_checks": [...],
+  "comparison_matrix": [...],
+  "coverage_gaps": [...],
+  "handoff_notes": [],
+  "error": null
+}
+```
+
+### Source envelope
+
+```json
+{
+  "id": "src_001",
+  "authority_id": "us-ca:ca-civ-1798.100",
+  "namespace": "us-ca",
+  "jurisdiction": "US-CA",
+  "title": "General Duties of Businesses that Collect Personal Information",
+  "citation": "Cal. Civ. Code § 1798.100",
+  "pinpoint": "(a)(1)-(3)",
+  "grade": "A",
+  "authority_level": "binding",
+  "official_url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf",
+  "local_path": "kb/us-ca/library/grade-a/ca-ccpa-statute/civ-1798.100.md",
+  "currentness": {
+    "status": "current",
+    "checked_as_of": "2026-05-08",
+    "effective_date": "2026-01-01"
+  }
+}
+```
+
+`scripts/validate-output.py` enforces both shapes; CI fails on contract violations. The validator also runs in **legacy_packet** mode for outputs from the pre-v19 deterministic runner — older packets do not need to satisfy v19-strict keys, but missing v19 keys are surfaced as warnings so the user knows they are not getting the full contract.
+
+---
+
+## Source Reliability Model
+
+The same A/B/C/D vocabulary applies across all three sub-KBs (`config/source-grades.json` per sub-KB):
+
+| Grade | What | When to cite |
+|:---:|:---|:---|
+| **A** | Official primary or current official guidance — statutes, regulations, official agency decisions, court decisions | Sole authority for a binding rule |
+| **B** | Official-but-nonbinding, explanatory, enforcement, or secondary authority — including mirror-backed primary authorities (e.g., SCOCAL mirror of California Supreme Court opinion) where the local raw source is not the official PDF | Cross-verify with Grade A; mirror provenance must be disclosed |
+| **C** | Commentary or discovery-only — academic, practitioner blogs, news | Editorial context only; never sole basis for a high-confidence conclusion |
+| **D** | Excluded — unverified summaries, marketing pages | Not cited for legal propositions |
+
+**Mirror disclosure rule:** any Grade B mirror-backed primary authority (e.g., Stanford SCOCAL copies of California Supreme Court opinions) must be cited with a parenthetical such as `(local copy from SCOCAL mirror; official URL: https://courts.ca.gov/...)`. The auditor's `mirror_cited_without_disclosure` check enforces this.
+
+**Federal-court / California precedent rule:** federal court interpretations of California privacy law (9th Circuit, district courts) are persuasive — not binding California state precedent. Treating them as binding triggers the auditor's `federal_court_as_ca_binding` warn.
+
+**Recital rule (EU):** GDPR Recitals are interpretive aids, not operative provisions. Citing a Recital as a binding obligation triggers `recital_as_binding`. The Recital should support an Article-level rule, not stand in its place.
+
+**PIPC guideline rule (KR):** PIPC guidelines are administrative interpretation, not statute. Citing them as binding triggers `pipc_guideline_as_binding`. The underlying article of 개인정보 보호법 carries the binding force.
+
+---
+
+## Citation Auditor
+
+Four-layer regex + structural auditor catching ~30 distinct error patterns. Full catalog in [`docs/auditors.md`](docs/auditors.md); 7 worked examples with real I/O in [`docs/examples.md`](docs/examples.md).
+
+### Layers
+
+| Layer | Path | Notable checks |
+|:---|:---|:---|
+| **CA sub-auditor** | `sources/us-ca/citation_auditor/california_citation.py` | Statute / regulation / case id missing · CPRA standalone framing · OAG FAQ as binding · enforcement as judicial precedent · federal court as CA binding · unpublished as controlling · 2026 regulation source required · mirror disclosure · future-effective cited as current · quote integrity |
+| **KR sub-auditor** | `sources/kr-pipa/citation_auditor/korea_citation.py` | Article id missing · 시행규칙 (Network Act enforcement rule) · PIPC guideline as binding · external Korean law referenced (not in KB) · future-effective bilingual triggers (English + Korean) · quote integrity |
+| **EU sub-auditor** | `sources/eu-gdpr/citation_auditor/europe_citation.py` | Article / Recital / Case id missing · ECLI lookup · EDPB document number lookup · Recital cited as binding rule · EDPB non-binding doc cited as binding · future-effective · quote integrity |
+| **Cross-jurisdiction** | `cross_jurisdiction_auditor/audit.py` | Citation routing (authority cited from non-signalled juris) · vocabulary drift (`controller` vs `business` vs `개인정보처리자`) · multi-juris labels missing · vague law references |
+
+### Run
+
+```bash
+# Single-call unified runner (recommended) — all 4 auditors in one process
+python3 scripts/audit-unified.py outputs/data-protection-agent/data-protection-agent-result.md
+
+# Or per-jurisdiction
+python3 sources/us-ca/scripts/audit-california-citations.py < answer.md
+python3 sources/kr-pipa/scripts/audit-korea-citations.py < answer.md
+python3 sources/eu-gdpr/scripts/audit-europe-citations.py < answer.md
+python3 scripts/audit-cross-jurisdiction.py < answer.md
+```
+
+### Severity model
+
+| Severity | Meaning | Action |
+|:---:|:---|:---|
+| `error` | Statute / regulation / case id does not exist; unpublished cited as controlling | **Block** — fix before sending |
+| `warn` | Binding misuse, vocabulary mismatch, vague references, quote-body mismatch, future-effective in present tense | Surface inline in `coverage_gaps` or issue limits |
+| `pass` | No findings | Ship |
+
+The unified runner exits `1` on any `error`, `0` otherwise. Per-jurisdiction runners are still available for targeted use; the unified runner is the recommended default.
+
+### Notable checks
+
+- **Quote integrity (v18, all 3 KBs)** — extracts every double-quoted passage and verifies it appears in the cited authority's KB body. Catches the most common LLM hallucination: correct citation id paired with fabricated quote. KR variant uses substring-only matching (Hangul has no whitespace word boundaries).
+- **Future-effective check (v17, all 3 KBs)** — warns when an authority with a future `effective_date` is cited with present-tense language ("currently requires") and no future-framing nearby ("will require"). KR uses bilingual triggers (`현재`, `시행 중`, `해야 한다` + English).
+- **Recital-as-binding (EU)** — GDPR Recitals are interpretive aids. Citing Recital 71 as a binding obligation triggers a warn.
+- **EDPB-as-binding (EU)** — EDPB Guidelines / Opinions / Recommendations are non-binding; only EDPB Binding Decisions (Art. 65) are binding. Citing a Guideline as binding triggers a warn.
+- **Federal-court-as-CA-binding (CA)** — 9th Circuit interpretations of CCPA are persuasive, not binding California state precedent.
+- **Mirror disclosure (CA)** — SCOCAL mirror copies of California Supreme Court opinions must disclose the mirror provenance.
+- **2026-regulation-source-required (CA)** — when citing a 2026-effective CCPA regulation, the official CPPA source URL must appear in the answer text (not just the metadata).
+- **Vocabulary drift (cross-juris)** — `controller` is GDPR; `business` is CCPA; `개인정보처리자` is PIPA. Using EU terminology in a California section triggers a warn.
+
+### Test coverage
+
+| Layer | Tests |
+|:---|---:|
+| CA sub-auditor | 49 |
+| KR sub-auditor | 23 |
+| EU sub-auditor | 28 |
+| Cross-cutting + e2e (golden-set parametrised) | 123 |
+| **Total** | **223** |
+
+---
+
+## Repository Structure
 
 ```
 data-protection-agent/
 ├── CLAUDE.md, AGENTS.md       # Agent rules + trust boundary policy
-├── README.md, CHANGELOG.md
+├── README.md, README.ko.md, CHANGELOG.md
 │
-├── kb/                        # Unified runtime KB (generated)
+├── kb/                        # Unified runtime KB (generated, never hand-edit)
 │   ├── eu-gdpr/               #   ← imported from sibling GDPR-expert
 │   ├── kr-pipa/               #   ← imported from sibling PIPA-expert
 │   └── us-ca/                 #   ← imported from local sources/us-ca/
 │       └── index/{ca,kr,eu}-topic-index.json   # Per-namespace topic crosswalk
 │
-├── index/                     # Unified indexes (jurisdiction-routing,
-│                              #   unified-authority-index, unified-topic-index, …)
+├── index/                     # Unified indexes (generated)
+│   ├── jurisdiction-routing.json
+│   ├── unified-authority-index.json    # 2,195 entries
+│   ├── unified-topic-index.json        # 29 topics
+│   └── unified-source-registry.json
 │
 ├── sources/{us-ca,kr-pipa,eu-gdpr}/
-│   ├── citation_auditor/      # per-jurisdiction regex auditor (10 checks each ~)
-│   ├── scripts/               # per-jurisdiction CLI + sanitize.py
+│   ├── citation_auditor/      # Per-jurisdiction regex auditor (~10 checks each)
+│   ├── scripts/               # Per-jurisdiction CLI + sanitize.py
 │   └── tests/
 │   (us-ca additionally has library/, index/, config/, build_california_kb.py)
 │
-├── cross_jurisdiction_auditor/   # Layer above the 3 sub-auditors
-│   └── audit.py    # 4 checks: routing, vocab, labels, vague refs
+├── cross_jurisdiction_auditor/
+│   └── audit.py               # 4 checks: routing · vocab · labels · vague refs
 │
-├── unified_auditor/           # Single-invocation runner over all 4 auditors
-│   └── run.py
+├── unified_auditor/
+│   └── run.py                 # importlib-based aggregator over all 4 auditors
 │
 ├── scripts/                   # Top-level CLIs
 │   ├── import_namespaced_kbs.py
@@ -151,144 +554,144 @@ data-protection-agent/
 │   ├── evaluate_golden_set.py
 │   ├── audit-unified.py
 │   ├── audit-cross-jurisdiction.py
-│   ├── validate-output.py     # v19 output-contract validator
-│   ├── coverage-report-all.py, who-cites.py, who-is.py, kb-diff.py,
-│   └── validate-kb-schema.py
+│   ├── validate-output.py     # v19 output-contract validator (538 lines, stdlib only)
+│   ├── coverage-report-{,kr,eu,all}.py
+│   ├── who-cites.py, who-is.py, kb-diff.py, validate-kb-schema.py
 │
 ├── tests/                     # Cross-cutting + e2e (123 tests)
 │   └── test_e2e_agent_pipeline.py    # v19 golden-fixture parametrised
 │
 ├── templates/                 # v19 result memo + per-mode variants
 │   ├── result.md, meta.example.json
-│   └── modes/{single-jurisdiction,multi-jurisdiction,
-│              comparative-matrix,fallback}.md
+│   └── modes/{single-jurisdiction,multi-jurisdiction,comparative-matrix,fallback}.md
 │
 ├── .claude/
-│   ├── agents/data-protection-agent.md
-│   ├── commands/answer.md     # /answer slash command
-│   └── skills/                # 8 skills (1 v8 + 7 v19)
-│       ├── citation-auditor/SKILL.md
-│       ├── intake-and-routing/SKILL.md
-│       ├── kb-retrieval/SKILL.md
-│       ├── trust-boundary/SKILL.md
-│       ├── claim-grounding/SKILL.md
-│       ├── result-memo-composition/SKILL.md
-│       ├── comparative-composition/SKILL.md
-│       └── quality-check/SKILL.md
+│   ├── agents/data-protection-agent.md      # Agent definition (re-imports CLAUDE.md)
+│   ├── commands/answer.md                   # /answer slash command
+│   └── skills/                              # 8 skills (intake / retrieval / trust-boundary
+│                                            # / claim-grounding / composition × 2 / quality-check
+│                                            # / citation-auditor)
+│
+├── config/
+│   └── golden-set.json        # 13 fixtures (5 v19 + 8 legacy CA cases)
 │
 └── docs/
-    ├── auditors.md                              # Catalog of all 30+ checks
-    ├── agent-protocol.md
-    ├── kb-operations-guide.md
-    ├── examples.md                              # 7 worked auditor cases
-    ├── california-local-kb-implementation.md
-    └── california-local-kb-hardening-plan.md
+    ├── auditors.md            # Full catalog of 30+ checks
+    ├── examples.md            # 7 worked auditor cases with I/O
+    ├── agent-protocol.md      # Runtime protocol spec
+    ├── kb-operations-guide.md # Build / refresh / verify
+    ├── README.md              # docs/ folder layout guide
+    └── sub-kb-operations/     # Per-sub-KB operational notes
 ```
 
-(Round-by-round plan documents live under `.local/planning/v{N}/` and
-are not tracked in git after v18; see `docs/README.md`.)
+> Round-by-round plan documents (v3-v20) live under `.local/planning/v{N}/` and are not tracked in git after v18. The `CHANGELOG.md` summarises every round.
 
-## Citation auditor
+---
 
-The unified auditor catches ~30 distinct error patterns across 4 layers
-(3 sub-auditors + 1 cross-jurisdiction layer). See
-[docs/auditors.md](docs/auditors.md) for the full catalog.
+## Local Preflight & CI
 
-Notable additions since v12:
-- **v17:** KR/EU future-effective check (mirror of v11 CA) — warns when an
-  authority with a future `effective_date` is cited with present-tense
-  language and no future-framing nearby. Bilingual triggers for KR.
-- **v18:** Quote integrity check (CA/KR/EU) — verifies that quoted text
-  in an answer actually appears in the cited authority's KB body.
-  Catches the most common LLM hallucination pattern: correct citation id
-  paired with a fabricated quote.
-- **v20:** False-positive cleanup — `_strip_inline_code()` skips backtick
-  paths, lowercase-only id matching, namespace tokens excluded;
-  `fallback_us` recognised as a fallback mode by the validator;
-  cross-jurisdiction labels check skips fallback memos.
+### Local preflight
 
-Aggregate severity:
-- `error` (statute/regulation/case id missing, unpublished as controlling)
-  → answer must be revised before sending.
-- `warn` (binding misuse, vocabulary mismatch, vague references,
-  quote-integrity mismatch)
-  → surface to user inline.
-- `pass` → ship.
+Before pushing, run the full gate locally:
 
-### Test coverage
+```bash
+# 4 test gates (must all be green)
+cd sources/us-ca && PYTHONPATH=. pytest -q tests
+cd ../kr-pipa && PYTHONPATH=. pytest -q tests
+cd ../eu-gdpr && PYTHONPATH=. pytest -q tests
+cd ../.. && PYTHONPATH=. pytest -q tests
 
-| Layer | Tests |
-|---|---|
-| CA sub-auditor | 49 |
-| KR sub-auditor | 23 |
-| EU sub-auditor | 28 |
-| Cross-cutting + e2e (incl. golden-set parametrised) | 123 |
-| **Total** | **223** |
+# Golden set (13/13)
+python3 scripts/evaluate_golden_set.py --output-dir /tmp/golden --clean
 
-### Optional toggles
+# KB schema validation (14 indexes, 2,414 items)
+python3 scripts/validate-kb-schema.py
 
-- `STRICT_JURISDICTION_LABELS=true`: every signalled jurisdiction in a
-  multi-juris answer must have an explicit label heading. Default mode
-  accepts partial labelling.
+# KB snapshot diff vs main (catches unintended churn)
+python3 scripts/kb-diff.py --base main
+```
 
-## Agent answering pipeline (v19)
+### CI
 
-The v19 round adds an LLM-facing answering layer on top of the auditor.
-Inside a Claude Code session, `/answer "<question>"` walks an 8-stage
-workflow:
+`.github/workflows/ci.yml` runs on every push and PR with 11 separate steps so each gate has its own pass/fail signal in the check log:
 
-1. **Intake & routing** — `intake-and-routing` skill classifies the
-   question into one of `ca_only / kr_only / eu_only / multi_jurisdiction
-   / comparative / fallback_us / fallback`, using
-   `index/jurisdiction-routing.json`.
-2. **Retrieval** — `kb-retrieval` skill runs `retrieve_authorities.py`
-   against the routed namespace(s) with topic-boost from
-   `unified-topic-index.json` (29 curated topics: 13 CA + 8 KR + 8 EU).
-3. **Trust boundary** — `trust-boundary` skill enforces that ingested
-   KB bodies are data, not instructions, before composition.
-4. **Claim grounding** — `claim-grounding` skill verifies every material
-   claim has a local authority id, a verifiable pinpoint, and a
-   currentness status. Fail = block; record in `coverage_gaps`.
-5. **Composition** — `result-memo-composition` (or
-   `comparative-composition` for multi-juris / comparative modes)
-   produces the 9-section memo with strict source-anchor discipline.
-6. **Quality-check** — `quality-check` skill runs the citation auditor
-   plus `validate-output.py`. Block on any auditor `fail`; surface
-   `warn` findings inline.
-7. **Write** — emit `data-protection-agent-result.md` and
-   `data-protection-agent-meta.json` to the configured output dir.
+1. Python 3.12 setup
+2. Install requirements
+3. Build CA KB + validate
+4. KR/EU sibling-repo graceful skip when not present on the runner
+5. CA sub-auditor tests
+6. KR sub-auditor tests (skip if no sibling)
+7. EU sub-auditor tests (skip if no sibling)
+8. Cross-cutting + e2e tests
+9. Golden set evaluation
+10. KB schema validation
+11. KB snapshot diff
 
-Output contract validator: `scripts/validate-output.py` (~538 lines,
-stdlib only) — both v19 strict and legacy_packet modes.
+KR and EU steps gracefully skip when the sibling repos are not available on the runner (typical for fresh PR CI before sibling repos are vendored). The CA path always runs.
 
-Golden-set fixtures: `config/golden-set.json` (13 cases — 5 v19
-fixtures + 8 legacy CA cases). Parametrised e2e tests run validator +
-auditor against every fixture.
+---
 
-## Key Docs
+## Roadmap
 
-- [Agent protocol](docs/agent-protocol.md)
-- [KB operations guide](docs/kb-operations-guide.md)
-- [Citation auditor catalog](docs/auditors.md)
-- [Worked auditor examples](docs/examples.md)
-- [California KB implementation](docs/california-local-kb-implementation.md)
-- [California KB hardening plan](docs/california-local-kb-hardening-plan.md)
-- [Documentation layout](docs/README.md)
+| Status | Item | Notes |
+|:---:|:---|:---|
+| ✅ Done (v3-v20) | Sub-KB unification, 30+ auditor checks, agent answering pipeline, 29 topic crosswalks, 13 golden fixtures, output validator, 223 tests | Production-ready |
+| ⏳ Considering | LRA-style `output_mode` axis (executive_brief, compliance_checklist, enforcement_focused) | The `research_mode` axis (jurisdiction routing) is locked; `output_mode` would be a separate orthogonal axis |
+| ⏳ Considering | KR case-law import | Would require a separate sibling repo (parallel to GDPR-expert / PIPA-expert) |
+| ⏳ Considering | MCP integration | `korean-law` MCP for live KR primary-source fetch — already used in `legal-research-agent` |
+| 🚫 Out of scope | Multi-state US privacy (Virginia CDPA, Colorado CPA, etc.) | Each requires a dedicated sub-KB build round; flagged as `fallback_us` until then |
+| 🚫 Out of scope | LLM provider integration as code | The agent runs inside Claude Code; composition stays in the LLM during the slash-command run |
 
-Per-round plan documents (v3-v20) live under `.local/planning/v{N}/`
-and are not tracked in git. The `CHANGELOG.md` summarises every round.
+---
 
-## Source of Truth
+## Part of KP Legal Orchestrator
 
-- `eu-gdpr`: sibling `GDPR-expert`
-- `kr-pipa`: sibling `PIPA-expert`
-- `us-ca`: local `sources/us-ca`
+This repo is the **privacy specialist** in the KP Legal Orchestrator graph:
 
-Do not hand-edit imported files under `kb/`; update the source-of-truth folder and re-import.
+```mermaid
+flowchart TB
+    O["<b>KP Legal Orchestrator</b><br/><i>intake + dispatch + handoff coordination</i>"]
+    
+    O --> LRA["<b>legal-research-agent</b><br/>general legal questions<br/>+ game-industry regulation"]
+    O --> DPA["<b>data-protection-agent</b><br/><i>this repo</i><br/>privacy across EU + KR + US-CA"]
+    O --> LWA["<b>legal-writing-agent</b><br/>opinion drafting<br/>+ DOCX assembly"]
+    O --> LTA["<b>legal-translation-agent</b><br/>EN/KR legal translation"]
+    O --> CA["<b>contract-review-agent</b><br/>contract analysis"]
+    
+    DPA -.specialist handoff.-> LRA
+    
+    style O fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style DPA fill:#d1fae5,stroke:#059669,color:#065f46,stroke-width:3px
+    style LRA fill:#e3f2fd,stroke:#2196f3,color:#0d47a1
+    style LWA fill:#e3f2fd,stroke:#2196f3,color:#0d47a1
+    style LTA fill:#e3f2fd,stroke:#2196f3,color:#0d47a1
+    style CA fill:#e3f2fd,stroke:#2196f3,color:#0d47a1
+```
+
+**Subagent dispatch contract.** When invoked from the orchestrator, the agent reads `intake_payload` (question text, optional pre-classified mode, optional co-running agent list, output directory) and writes the two contract files into the supplied `output_dir`. The agent does not call back into other subagents; specialist handoff is recorded in the meta `handoff_notes` for the orchestrator to act on.
+
+**Standalone use.** When invoked directly via `/answer`, the agent self-classifies, picks the output dir from `$OUTPUT_DIR` env var (default `outputs/data-protection-agent/`), and produces the same two contract files plus a one-line summary.
+
+The agent definition at [`.claude/agents/data-protection-agent.md`](.claude/agents/data-protection-agent.md) re-imports `CLAUDE.md` via `@`-import so the standalone and subagent surfaces never drift.
+
+---
+
+## License
+
+Apache 2.0 — see [`LICENSE`](LICENSE).
+
+---
+
+## Disclaimer
+
+This tool is for **legal research assistance only** and does not provide legal advice, does not create an attorney-client relationship, and is not a substitute for qualified legal counsel. Outputs are AI-generated and may contain errors despite the built-in citation auditor and output validator. Every legal citation produced by this tool **must be independently verified** against the official source before reliance in any professional, regulatory, or litigation context. Privacy law evolves rapidly — effective dates, amendments, and regulatory guidance change frequently.
+
+If you are facing a specific legal question, consult a qualified attorney licensed in the relevant jurisdiction.
+
+---
 
 ## Contributing
 
-Read [CLAUDE.md](CLAUDE.md) (agent rules + jurisdiction routing) and
-[AGENTS.md](AGENTS.md) (trust boundary policy) before opening a PR.
+Read [`CLAUDE.md`](CLAUDE.md) (agent rules + jurisdiction routing) and [`AGENTS.md`](AGENTS.md) (trust boundary policy) before opening a PR. CI must pass; the unified auditor must report `pass` (or `warn` only) on any new example output.
 
-CI runs all tests on every PR (see `.github/workflows/ci.yml`).
+For the round-by-round development history, see [`CHANGELOG.md`](CHANGELOG.md).
