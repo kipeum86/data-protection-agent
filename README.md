@@ -39,8 +39,8 @@ Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 This agent is the **privacy-research nucleus of the KP Legal Orchestrator**, unifying three knowledge bases into one cross-jurisdictional answering surface:
 
-- **EU GDPR sub-KB** *(in-tree under `kb/eu-gdpr/`; folded in from the now-superseded [GDPR-expert](https://github.com/kipeum86/GDPR-expert) sibling repo at v1.0.0)* → GDPR + ePrivacy Directive + EU AI Act + Data Act + Data Governance Act · 1,029 records
-- **Korea PIPA sub-KB** *(in-tree under `kb/kr-pipa/`; folded in from the now-superseded [PIPA-expert](https://github.com/kipeum86/PIPA-expert) sibling repo at v1.0.0)* → Korea PIPA + Network Act + Credit Information Act + Location Information Act + PIPC guidelines · 929 records
+- **EU GDPR sub-KB** *(in-tree under `kb/eu-gdpr/`; folded in from the now-superseded GDPR-expert sibling repo at v1.0.0)* → GDPR + ePrivacy Directive + EU AI Act + Data Act + Data Governance Act · 1,029 records
+- **Korea PIPA sub-KB** *(in-tree under `kb/kr-pipa/`; folded in from the now-superseded PIPA-expert sibling repo at v1.0.0)* → Korea PIPA + Network Act + Credit Information Act + Location Information Act + PIPC guidelines · 929 records
 - **California sub-KB** *(in-tree under `sources/us-ca/`; built locally in this repo from the start)* → CCPA-as-amended-by-CPRA + CPPA regulations + CIPA + CMIA + AADC + Customer Records Act + adjacent privacy statutes · 237 records
 
 > **As of v1.0.0 (2026-05-08), all KB content is maintained in this repo** under `kb/`. The original GDPR-expert and PIPA-expert sibling repos are preserved for historical reference but are now superseded — all future development, including KB updates, happens here. This README and the docs in this repo are self-contained; you do not need to consult the sibling repos to use this one.
@@ -156,8 +156,8 @@ Three sub-KBs imported into one runtime tree. Each sub-KB ships per-section mark
 
 | Sub-KB | Source-of-truth | Records | Primary law | Authority types |
 |:---|:---|---:|:---|:---|
-| `eu-gdpr` | in-tree (`kb/eu-gdpr/`) — originally folded in from [GDPR-expert](https://github.com/kipeum86/GDPR-expert) at v1.0.0 | **1,029** | GDPR | Articles · Recitals · EDPB documents (guidelines/opinions/binding decisions) · CJEU cases · enforcement decisions |
-| `kr-pipa` | in-tree (`kb/kr-pipa/`) — originally folded in from [PIPA-expert](https://github.com/kipeum86/PIPA-expert) at v1.0.0 | **929** | PIPA | Articles · Enforcement Decree articles · Network Act · Credit Information Act · Location Information Act · PIPC guidelines · court decisions |
+| `eu-gdpr` | in-tree (`kb/eu-gdpr/`) — originally folded in from GDPR-expert at v1.0.0 | **1,029** | GDPR | Articles · Recitals · EDPB documents (guidelines/opinions/binding decisions) · CJEU cases · enforcement decisions |
+| `kr-pipa` | in-tree (`kb/kr-pipa/`) — originally folded in from PIPA-expert at v1.0.0 | **929** | PIPA | Articles · Enforcement Decree articles · Network Act · Credit Information Act · Location Information Act · PIPC guidelines · court decisions |
 | `us-ca` | local `sources/us-ca/` (built in-tree from the start) | **237** | CCPA-as-amended-by-CPRA | CCPA statute · CPPA regulations (11 CCR § 7000–7300) · CalOPPA · CIPA · CMIA · AADC · Customer Records Act · OAG guidance · court opinions |
 | **Total** | | **2,195** | | |
 
@@ -207,7 +207,7 @@ flowchart LR
     style UI fill:#dbeafe,stroke:#3b82f6,color:#1e40af
 ```
 
-All three sub-KBs are maintained in-tree under `kb/<namespace>/`. The EU and KR KB content was originally folded in from the [GDPR-expert](https://github.com/kipeum86/GDPR-expert) and [PIPA-expert](https://github.com/kipeum86/PIPA-expert) sibling repos at v1.0.0 (2026-05-08); those sibling repos are now superseded but their original ingest pipelines (CELLAR API for GDPR, law.go.kr for PIPA) remain documented there for historical reference. The California sub-KB is built locally from `sources/us-ca/` via `scripts/build_california_kb.py` and copied into `kb/us-ca/` by the importer. After any KB change, `scripts/import_namespaced_kbs.py --clean` regenerates the unified `index/` tree.
+All three sub-KBs are maintained in-tree under `kb/<namespace>/`. The EU and KR KB content was originally folded in from the GDPR-expert and PIPA-expert sibling repos at v1.0.0 (2026-05-08); those sibling repos are now superseded but their original ingest pipelines (CELLAR API for GDPR, law.go.kr for PIPA) remain documented there for historical reference. The California sub-KB is built locally from `sources/us-ca/` via `scripts/build_california_kb.py` and copied into `kb/us-ca/` by the importer. After any KB change, `scripts/import_namespaced_kbs.py --clean` regenerates the unified `index/` tree.
 
 The unified indexes at `index/` are **generated, never hand-edited**:
 
