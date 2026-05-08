@@ -27,12 +27,13 @@ For each release:
 
 1. **Land all changes on `main`** through the normal PR cycle. CI must be green.
 2. **Update `CHANGELOG.md`** with a new top-level entry summarising the round.
-3. **Write the release note** at `docs/releases/RELEASE-vX.Y.Z.md` (English) and `docs/releases/RELEASE-vX.Y.Z.ko.md` (Korean). Cover:
-   - One-line summary of what shipped.
+3. **Write the release note** at `docs/releases/RELEASE-vX.Y.Z.md` as a **single bilingual file** (English paragraph + Korean paragraph stacked under each section heading; no separate `.ko.md`). Keep it tight — release notes are not a re-explanation of the README. Cover only:
+   - One-line bilingual summary of what shipped.
    - Why it shipped (rationale, not just the diff).
-   - What changed in user-facing surfaces (`/answer`, output contract, auditor, CLI).
-   - Quick start or migration steps where relevant.
-   - Disclaimer + license footer.
+   - Highlights table (stats / capabilities), with bilingual column headers.
+   - Forward-looking note where relevant.
+   - Pointer to README + CHANGELOG for full content.
+   - Disclaimer + license footer (bilingual).
 4. **Update the README banner** — change the `> Latest release: ...` line at the top of both `README.md` and `README.ko.md` to point at the new release note.
 5. **Commit + push** the release-note files and README banner update.
 6. **Tag** the commit:
@@ -55,12 +56,15 @@ The published release fires GitHub's release-notification hook (RSS, watcher ema
 
 ## Bilingual Notes
 
-Every release ships **two release-note files**:
+Every release ships **a single bilingual file** at `docs/releases/RELEASE-vX.Y.Z.md`. The English text and the Korean text live side by side under the same headings. Both READMEs (EN + KO) point to the same file from the top banner.
 
-- `docs/releases/RELEASE-vX.Y.Z.md` — English
-- `docs/releases/RELEASE-vX.Y.Z.ko.md` — Korean (natural rendering, not a literal translation)
+This pattern was chosen over separate `.md` + `.ko.md` files because:
 
-Both files are linked from the appropriate README banner. The English file is the source-of-truth for technical content; the Korean file may localise idioms, examples, and ordering as long as the substantive coverage matches.
+- Release notes are short by design (~70 lines total). Two files of that length is more friction than benefit.
+- Readers of the GitHub Releases page see a single description either way; bilingual-in-one keeps that surface coherent.
+- Translation drift is easier to spot when both languages live next to each other.
+
+The English text is the source-of-truth for technical content; the Korean text may localise idioms, examples, and ordering as long as the substantive coverage matches.
 
 ---
 

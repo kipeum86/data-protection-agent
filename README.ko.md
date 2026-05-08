@@ -2,7 +2,7 @@
 
 **[English](README.md)** · **[한국어](README.ko.md)**
 
-> 최신 릴리즈: **[v1.0.0 — 최초 공개 릴리즈](docs/releases/RELEASE-v1.0.0.ko.md)**
+> 최신 릴리즈: **[v1.0.0 — 최초 공개 릴리즈](docs/releases/RELEASE-v1.0.0.md)** (영/한 병기)
 
 # Data Protection Agent
 

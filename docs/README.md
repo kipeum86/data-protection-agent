@@ -12,7 +12,8 @@
 - `kb-operations-guide.md` — build / refresh / verify the unified KB
 - `release-process.md` — versioning, release-note authoring, GitHub
   Releases publishing cycle
-- `releases/RELEASE-vX.Y.Z.md` — per-release notes (EN + KO)
+- `releases/RELEASE-vX.Y.Z.md` — per-release notes, single bilingual file
+  (EN + KO under the same headings)
 - `sub-kb-operations/*.md` — per-sub-KB (CA / KR / EU) operational notes
 
 Planning documents, implementation drafts, hardening plans, session logs, and
