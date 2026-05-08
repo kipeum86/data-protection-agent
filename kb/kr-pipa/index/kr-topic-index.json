@@ -1,0 +1,199 @@
+{
+  "type": "kr_topic_index",
+  "count": 8,
+  "generated_at": "2026-05-07T00:00:00+00:00",
+  "note": "Curated KR PIPA topic crosswalk for retrieval boost. Each topic ties a common privacy-law question to the controlling article(s) and supporting decree provisions.",
+  "topics": [
+    {
+      "id": "breach_notification",
+      "title": "Personal Information Breach Notification and Reporting",
+      "summary": "When and how a 개인정보처리자 must notify affected data subjects and report to PIPC/KISA after a personal information leak. Statute fixes 'without delay'; the Enforcement Decree fixes 72-hour outer limits and the >=1000 subjects / sensitive-data / external-access trigger for PIPC reporting.",
+      "search_terms": [
+        "유출 통지",
+        "유출 신고",
+        "개인정보 유출",
+        "breach notification",
+        "data breach",
+        "PIPC 신고",
+        "72 hours"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art34", "label": "개인정보 보호법 제34조 (유출 통지·신고)", "path": "library/grade-a/pipa/art34.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-enforcement-decree-art39", "label": "시행령 제39조 (유출 통지)", "path": "library/grade-a/pipa-enforcement-decree/art39.md", "source_grade": "A", "authority_group": "regulation"},
+        {"id": "pipa-enforcement-decree-art40", "label": "시행령 제40조 (유출 신고)", "path": "library/grade-a/pipa-enforcement-decree/art40.md", "source_grade": "A", "authority_group": "regulation"}
+      ],
+      "supporting_authorities": [
+        {"id": "pipa-art29", "label": "개인정보 보호법 제29조 (안전조치의무)", "path": "library/grade-a/pipa/art29.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "본법 '지체 없이' 와 시행령 '72시간' 의 관계: 시행령은 outer limit, '지체 없이' 가 더 빠른 시점이면 그것이 기준.",
+        "PIPC 신고 trigger 3가지 (1000명 이상 / 민감·고유식별정보 / 외부 불법접근) 충족 여부를 즉시 평가."
+      ]
+    },
+    {
+      "id": "consent_collection",
+      "title": "Consent and Lawful Collection of Personal Information",
+      "summary": "PIPA's consent-led model for collecting and using personal information, including consent contents (Art. 15), method (Art. 22), and collection limits (Art. 16).",
+      "search_terms": [
+        "동의",
+        "consent",
+        "개인정보 수집",
+        "이용 동의",
+        "lawful basis",
+        "처리 근거",
+        "최소 수집"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art15", "label": "개인정보 보호법 제15조 (수집·이용)", "path": "library/grade-a/pipa/art15.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art22", "label": "개인정보 보호법 제22조 (동의를 받는 방법)", "path": "library/grade-a/pipa/art22.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "pipa-art16", "label": "개인정보 보호법 제16조 (수집 제한)", "path": "library/grade-a/pipa/art16.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art17", "label": "개인정보 보호법 제17조 (제공)", "path": "library/grade-a/pipa/art17.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "동의 외 처리 근거 (제15조 제1항 각호) 도 제공 — '동의' 만 강조하지 말 것.",
+        "민감정보·고유식별정보는 별도 동의 (제23조·제24조) 필요 — 일반 동의로 대체 불가."
+      ]
+    },
+    {
+      "id": "data_subject_rights",
+      "title": "Data Subject Rights (Access / Correction / Deletion / Restriction / Portability)",
+      "summary": "정보주체의 권리 — 열람 (제35조), 정정·삭제 (제36조), 처리정지 (제37조), 전송 요구 (제35조의2), 그리고 권리행사 절차 (제38조).",
+      "search_terms": [
+        "정보주체 권리",
+        "열람 요구",
+        "정정 삭제",
+        "처리정지",
+        "전송 요구",
+        "data subject rights",
+        "right to access",
+        "right to delete"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art35", "label": "개인정보 보호법 제35조 (열람)", "path": "library/grade-a/pipa/art35.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art36", "label": "개인정보 보호법 제36조 (정정·삭제)", "path": "library/grade-a/pipa/art36.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art37", "label": "개인정보 보호법 제37조 (처리정지)", "path": "library/grade-a/pipa/art37.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "pipa-art35-2", "label": "개인정보 보호법 제35조의2 (전송 요구)", "path": "library/grade-a/pipa/art35-2.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art38", "label": "개인정보 보호법 제38조 (권리행사 절차)", "path": "library/grade-a/pipa/art38.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "권리별 처리 기한 및 거부 사유는 시행령에 별도 규정 — 시행령 미인용 시 답변 불완전.",
+        "전송 요구 (제35조의2) 는 GDPR portability 와 유사하지만 시행 범위·대상이 다름."
+      ]
+    },
+    {
+      "id": "sensitive_unique_identifier",
+      "title": "Sensitive Information and Unique Identifiers",
+      "summary": "민감정보 (제23조), 고유식별정보 (제24조), 주민등록번호 (제24조의2) 의 처리 제한과 별도 동의·법적 근거 요건.",
+      "search_terms": [
+        "민감정보",
+        "고유식별정보",
+        "주민등록번호",
+        "sensitive information",
+        "biometric",
+        "건강정보",
+        "특별한 종류"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art23", "label": "개인정보 보호법 제23조 (민감정보)", "path": "library/grade-a/pipa/art23.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art24", "label": "개인정보 보호법 제24조 (고유식별정보)", "path": "library/grade-a/pipa/art24.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [],
+      "answer_cautions": [
+        "민감정보·고유식별정보 처리는 일반 동의로 갈음할 수 없음 — 별도 동의 또는 법령 근거 필수.",
+        "주민등록번호는 제24조의2 의 별도 더 엄격한 처리 제한 적용."
+      ]
+    },
+    {
+      "id": "cross_border_transfer",
+      "title": "Cross-Border Transfer of Personal Information",
+      "summary": "개인정보의 국외 이전 (제28조의8) 의 5개 근거와 중지 명령 (제28조의9). 2023년 개정으로 적정성 결정·인증·계약 등 다양화.",
+      "search_terms": [
+        "국외 이전",
+        "cross-border transfer",
+        "international transfer",
+        "해외 이전",
+        "적정성 결정",
+        "표준계약",
+        "BCR"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art28-8", "label": "개인정보 보호법 제28조의8 (국외 이전)", "path": "library/grade-a/pipa/art28-8.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [],
+      "answer_cautions": [
+        "5개 근거 (동의 / 법률·조약 / 표준계약·인증 / 적정성 결정 / 기타 정보주체 권익 보호조치) 중 어느 것에 해당하는지 명시.",
+        "PIPC 가 중지 명령 (제28조의9) 을 발동할 수 있는 사유에 주의."
+      ]
+    },
+    {
+      "id": "dpia_impact_assessment",
+      "title": "Personal Information Impact Assessment",
+      "summary": "개인정보 영향평가 (제33조) 의 대상 (공공기관의 일정 규모 개인정보파일), 절차, PIPC 제출 의무.",
+      "search_terms": [
+        "영향평가",
+        "PIA",
+        "DPIA",
+        "impact assessment",
+        "개인정보파일"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art33", "label": "개인정보 보호법 제33조 (영향평가)", "path": "library/grade-a/pipa/art33.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [],
+      "answer_cautions": [
+        "현행 PIPA 영향평가 의무는 공공기관 중심. 민간 자율 PIA 와 구분.",
+        "대상 규모 기준은 시행령에 위임 — 시행령 확인 필수."
+      ]
+    },
+    {
+      "id": "automated_decision_rights",
+      "title": "Rights Regarding Automated Decision-Making",
+      "summary": "자동화된 결정에 대한 정보주체의 권리 (제37조의2). 2023년 신설, GDPR Art. 22 와 유사한 거부·설명 요구권.",
+      "search_terms": [
+        "자동화된 결정",
+        "automated decision",
+        "ADM",
+        "profiling",
+        "AI 의사결정"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art37-2", "label": "개인정보 보호법 제37조의2 (자동화된 결정)", "path": "library/grade-a/pipa/art37-2.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [],
+      "answer_cautions": [
+        "거부권·설명요구권의 발동 요건과 제외 사유 (계약 체결·이행, 법령상 의무 등) 를 명확히 구분.",
+        "GDPR Art. 22 와 1:1 매칭 아님 — 비교 답변 시 차이 명시."
+      ]
+    },
+    {
+      "id": "enforcement_penalties",
+      "title": "Enforcement, Administrative Sanctions, and Civil Liability",
+      "summary": "PIPC 의 시정조치 (제64조), 과징금 (제64조의2, 2023년 매출 3% 한도로 강화), 형사 벌칙 (제70조 이하), 민사 손해배상 (제39조).",
+      "search_terms": [
+        "과징금",
+        "벌칙",
+        "시정조치",
+        "손해배상",
+        "enforcement",
+        "penalty",
+        "fine",
+        "PIPC 처분"
+      ],
+      "primary_authorities": [
+        {"id": "pipa-art64-2", "label": "개인정보 보호법 제64조의2 (과징금)", "path": "library/grade-a/pipa/art64-2.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "pipa-art64", "label": "개인정보 보호법 제64조 (시정조치)", "path": "library/grade-a/pipa/art64.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "pipa-art39", "label": "개인정보 보호법 제39조 (손해배상)", "path": "library/grade-a/pipa/art39.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "2023년 개정 과징금 (전체 매출 3% 한도) 와 구 과태료의 차이 명확히.",
+        "PIPC 결정 (administrative) 과 법원 판결 (judicial) 을 혼동하지 말 것."
+      ]
+    }
+  ]
+}

@@ -214,7 +214,10 @@ def phrase_in(text: str, phrase: str) -> bool:
         return phrase_lower in text_lower
     if re.fullmatch(r"[a-z0-9]+", phrase_lower):
         return re.search(rf"(?<![a-z0-9]){re.escape(phrase_lower)}(?![a-z0-9])", text_lower) is not None
-    pattern = re.escape(phrase_lower).replace(r"\ ", r"\s+")
+    # Treat space and hyphen as interchangeable separators so that a search
+    # term like "breach notification" matches "breach-notification" in the
+    # query (and vice versa). Same for "decision making" / "decision-making".
+    pattern = re.escape(phrase_lower).replace(r"\ ", r"[\s-]+").replace(r"\-", r"[\s-]+")
     return re.search(rf"(?<![a-z0-9]){pattern}(?![a-z0-9])", text_lower) is not None
 
 
@@ -368,9 +371,16 @@ def score_authority(authority: dict[str, Any], query: str, topic_boost: int, con
     if specific_match and "gdpr" in query_lower and source_family in {"gdpr", "gdpr-recitals"}:
         score += 8
         reasons.append("primary-law:gdpr")
-    if specific_match and ("ccpa" in query_lower or "cpra" in query_lower) and source_family in {"ca-ccpa-statute", "ca-ccpa-regulations"}:
+    ca_primary_families = {
+        "ca-ccpa-statute", "ca-ccpa-regulations",
+        # Adjacent California privacy statutes the user naturally expects
+        # to surface for a "California" question:
+        "ca-customer-records", "ca-caloppa", "ca-cipa", "ca-cmia",
+        "ca-data-broker-delete-act", "ca-age-appropriate-design-code",
+    }
+    if specific_match and ("ccpa" in query_lower or "cpra" in query_lower or "california" in query_lower) and source_family in ca_primary_families:
         score += 8
-        reasons.append("primary-law:ccpa")
+        reasons.append("primary-law:ca")
     if specific_match and "pipa" in query_lower and source_family in {"pipa", "pipa-enforcement-decree"}:
         score += 8
         reasons.append("primary-law:pipa")

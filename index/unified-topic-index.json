@@ -1,9 +1,460 @@
 {
   "type": "unified_topic_index",
-  "generated_at": "2026-05-06T09:27:26+00:00",
-  "count": 13,
-  "note": "Currently imports native topic indexes. GDPR/PIPA topic crosswalk can be added as a separate comparative seed layer.",
+  "generated_at": "2026-05-08T00:49:46+00:00",
+  "count": 29,
+  "note": "Imports per-namespace topic indexes (ca-topic-index.json / kr-topic-index.json / eu-topic-index.json).",
   "topics": [
+    {
+      "unified_id": "eu-gdpr:breach_notification",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "breach_notification",
+      "title": "Personal Data Breach Notification and Communication",
+      "summary": "GDPR's two breach-response duties: notification to the supervisory authority within 72 hours of awareness (Art. 33) and communication to data subjects without undue delay when high-risk (Art. 34). Includes content requirements and the high-risk carve-outs.",
+      "search_terms": [
+        "breach notification",
+        "data breach",
+        "72 hours",
+        "supervisory authority",
+        "personal data breach",
+        "Art 33",
+        "Art 34"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art32",
+        "eu-gdpr:gdpr-art33",
+        "eu-gdpr:gdpr-art34"
+      ],
+      "answer_cautions": [
+        "72-hour rule is for SA only; subject-facing communication (Art. 34) is 'without undue delay' and gated by high-risk.",
+        "Art. 34(3) carve-outs (rendered unintelligible / risk eliminated / disproportionate effort) replace individual communication, not eliminate the SA notification."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:lawful_basis",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "lawful_basis",
+      "title": "Lawful Basis for Processing and Conditions for Consent",
+      "summary": "GDPR Art. 6 lawful bases (consent, contract, legal obligation, vital interests, public task, legitimate interests) and the strict consent conditions of Art. 7 (and Art. 8 for children).",
+      "search_terms": [
+        "lawful basis",
+        "Article 6",
+        "consent",
+        "legitimate interest",
+        "contract necessity",
+        "처리 근거",
+        "GDPR consent"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art6",
+        "eu-gdpr:gdpr-art7",
+        "eu-gdpr:gdpr-art8",
+        "eu-gdpr:gdpr-recitals-recital47"
+      ],
+      "answer_cautions": [
+        "Recitals are interpretive aids, not binding. Cite the underlying Article for binding rules.",
+        "Legitimate-interest balancing (6(1)(f)) requires a documented assessment; cannot be the default for direct marketing across all member states."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:data_subject_rights",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "data_subject_rights",
+      "title": "Data Subject Rights (Access / Rectification / Erasure / Restriction / Portability / Objection)",
+      "summary": "Chapter III rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), portability (Art. 20), objection (Art. 21).",
+      "search_terms": [
+        "right to access",
+        "right to erasure",
+        "right to be forgotten",
+        "data portability",
+        "right to object",
+        "rectification",
+        "data subject rights",
+        "Article 15"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art15",
+        "eu-gdpr:gdpr-art16",
+        "eu-gdpr:gdpr-art17",
+        "eu-gdpr:gdpr-art18",
+        "eu-gdpr:gdpr-art20",
+        "eu-gdpr:gdpr-art21"
+      ],
+      "answer_cautions": [
+        "Each right has different exemptions and grounds — do not flatten into one generic 'data subject right'.",
+        "One-month default response window (Art. 12(3)), extendable by two months for complex requests."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:special_categories_sensitive_data",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "special_categories_sensitive_data",
+      "title": "Special Categories of Personal Data (Sensitive Data)",
+      "summary": "GDPR Art. 9 prohibition on processing special categories (health, biometric, genetic, racial/ethnic, political, religious, trade-union, sex life/orientation) and the ten exhaustive derogations.",
+      "search_terms": [
+        "special categories",
+        "sensitive data",
+        "health data",
+        "biometric",
+        "genetic data",
+        "Article 9",
+        "racial origin",
+        "religious belief"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art9",
+        "eu-gdpr:gdpr-recitals-recital51"
+      ],
+      "answer_cautions": [
+        "Art. 9 derogations are exhaustive — member-state law may add restrictions but cannot expand grounds.",
+        "Explicit consent under Art. 9(2)(a) is stricter than Art. 6 consent; document the explicit nature."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:international_transfers",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "international_transfers",
+      "title": "International Data Transfers (Chapter V)",
+      "summary": "Transfer of personal data to third countries: adequacy decisions (Art. 45), appropriate safeguards including SCCs and BCRs (Art. 46-47), and derogations for specific situations (Art. 49). Built on the Art. 44 general principle.",
+      "search_terms": [
+        "international transfer",
+        "third country transfer",
+        "adequacy decision",
+        "SCC",
+        "standard contractual clauses",
+        "BCR",
+        "binding corporate rules",
+        "Schrems",
+        "Article 44"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art44",
+        "eu-gdpr:gdpr-art45",
+        "eu-gdpr:gdpr-art46",
+        "eu-gdpr:gdpr-art47",
+        "eu-gdpr:gdpr-art49"
+      ],
+      "answer_cautions": [
+        "Schrems II (C-311/18) requires a transfer impact assessment even when SCCs are used; mention but do not over-claim.",
+        "Art. 49 derogations are narrowly construed and not for routine transfers."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:dpia_prior_consultation",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "dpia_prior_consultation",
+      "title": "Data Protection Impact Assessment and Prior Consultation",
+      "summary": "When a DPIA is required (Art. 35) and the obligation to consult the supervisory authority before processing where residual high risk remains (Art. 36).",
+      "search_terms": [
+        "DPIA",
+        "data protection impact assessment",
+        "Article 35",
+        "prior consultation",
+        "high risk",
+        "Article 36"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art35",
+        "eu-gdpr:gdpr-art36",
+        "eu-gdpr:gdpr-art37"
+      ],
+      "answer_cautions": [
+        "Each member state's SA may publish a 'must DPIA' / 'never DPIA' list — local SA guidance overrides generic mapping.",
+        "DPIA is a process, not a one-off form; review when processing changes materially."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:automated_decision_making",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "automated_decision_making",
+      "title": "Automated Individual Decision-Making, Including Profiling",
+      "summary": "GDPR Art. 22 right not to be subject to a decision based solely on automated processing (including profiling) producing legal or similarly significant effects, with the three statutory exceptions.",
+      "search_terms": [
+        "automated decision",
+        "profiling",
+        "Article 22",
+        "AI decision",
+        "ADM",
+        "right not to be subject"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art22",
+        "eu-gdpr:gdpr-recitals-recital71"
+      ],
+      "answer_cautions": [
+        "Art. 22 applies to decisions based 'solely' on automated processing — human-in-the-loop changes the analysis.",
+        "Three statutory exceptions (contract necessity / EU or member-state law / explicit consent) are exhaustive."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "eu-gdpr:enforcement_remedies",
+      "namespace": "eu-gdpr",
+      "jurisdiction": "EU",
+      "original_id": "enforcement_remedies",
+      "title": "Enforcement, Remedies, Liability, and Penalties",
+      "summary": "Right to lodge a complaint (Art. 77), right to compensation (Art. 82), and the two-tier administrative fines structure of Art. 83 (up to 10/20 million EUR or 2/4% of global turnover).",
+      "search_terms": [
+        "GDPR fine",
+        "enforcement",
+        "penalty",
+        "administrative fine",
+        "Article 83",
+        "complaint",
+        "Article 77",
+        "compensation",
+        "Article 82"
+      ],
+      "authority_refs": [
+        "eu-gdpr:gdpr-art77",
+        "eu-gdpr:gdpr-art82",
+        "eu-gdpr:gdpr-art83"
+      ],
+      "answer_cautions": [
+        "Art. 83 has TWO fine tiers — distinguish 10M/2% (lower-tier infringements) from 20M/4% (upper-tier infringements).",
+        "Compensation under Art. 82 is judicial; administrative fines under Art. 83 are imposed by the SA."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:breach_notification",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "breach_notification",
+      "title": "Personal Information Breach Notification and Reporting",
+      "summary": "When and how a 개인정보처리자 must notify affected data subjects and report to PIPC/KISA after a personal information leak. Statute fixes 'without delay'; the Enforcement Decree fixes 72-hour outer limits and the >=1000 subjects / sensitive-data / external-access trigger for PIPC reporting.",
+      "search_terms": [
+        "유출 통지",
+        "유출 신고",
+        "개인정보 유출",
+        "breach notification",
+        "data breach",
+        "PIPC 신고",
+        "72 hours"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art29",
+        "kr-pipa:pipa-art34",
+        "kr-pipa:pipa-enforcement-decree-art39",
+        "kr-pipa:pipa-enforcement-decree-art40"
+      ],
+      "answer_cautions": [
+        "본법 '지체 없이' 와 시행령 '72시간' 의 관계: 시행령은 outer limit, '지체 없이' 가 더 빠른 시점이면 그것이 기준.",
+        "PIPC 신고 trigger 3가지 (1000명 이상 / 민감·고유식별정보 / 외부 불법접근) 충족 여부를 즉시 평가."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:consent_collection",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "consent_collection",
+      "title": "Consent and Lawful Collection of Personal Information",
+      "summary": "PIPA's consent-led model for collecting and using personal information, including consent contents (Art. 15), method (Art. 22), and collection limits (Art. 16).",
+      "search_terms": [
+        "동의",
+        "consent",
+        "개인정보 수집",
+        "이용 동의",
+        "lawful basis",
+        "처리 근거",
+        "최소 수집"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art15",
+        "kr-pipa:pipa-art16",
+        "kr-pipa:pipa-art17",
+        "kr-pipa:pipa-art22"
+      ],
+      "answer_cautions": [
+        "동의 외 처리 근거 (제15조 제1항 각호) 도 제공 — '동의' 만 강조하지 말 것.",
+        "민감정보·고유식별정보는 별도 동의 (제23조·제24조) 필요 — 일반 동의로 대체 불가."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:data_subject_rights",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "data_subject_rights",
+      "title": "Data Subject Rights (Access / Correction / Deletion / Restriction / Portability)",
+      "summary": "정보주체의 권리 — 열람 (제35조), 정정·삭제 (제36조), 처리정지 (제37조), 전송 요구 (제35조의2), 그리고 권리행사 절차 (제38조).",
+      "search_terms": [
+        "정보주체 권리",
+        "열람 요구",
+        "정정 삭제",
+        "처리정지",
+        "전송 요구",
+        "data subject rights",
+        "right to access",
+        "right to delete"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art35",
+        "kr-pipa:pipa-art35-2",
+        "kr-pipa:pipa-art36",
+        "kr-pipa:pipa-art37",
+        "kr-pipa:pipa-art38"
+      ],
+      "answer_cautions": [
+        "권리별 처리 기한 및 거부 사유는 시행령에 별도 규정 — 시행령 미인용 시 답변 불완전.",
+        "전송 요구 (제35조의2) 는 GDPR portability 와 유사하지만 시행 범위·대상이 다름."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:sensitive_unique_identifier",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "sensitive_unique_identifier",
+      "title": "Sensitive Information and Unique Identifiers",
+      "summary": "민감정보 (제23조), 고유식별정보 (제24조), 주민등록번호 (제24조의2) 의 처리 제한과 별도 동의·법적 근거 요건.",
+      "search_terms": [
+        "민감정보",
+        "고유식별정보",
+        "주민등록번호",
+        "sensitive information",
+        "biometric",
+        "건강정보",
+        "특별한 종류"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art23",
+        "kr-pipa:pipa-art24"
+      ],
+      "answer_cautions": [
+        "민감정보·고유식별정보 처리는 일반 동의로 갈음할 수 없음 — 별도 동의 또는 법령 근거 필수.",
+        "주민등록번호는 제24조의2 의 별도 더 엄격한 처리 제한 적용."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:cross_border_transfer",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "cross_border_transfer",
+      "title": "Cross-Border Transfer of Personal Information",
+      "summary": "개인정보의 국외 이전 (제28조의8) 의 5개 근거와 중지 명령 (제28조의9). 2023년 개정으로 적정성 결정·인증·계약 등 다양화.",
+      "search_terms": [
+        "국외 이전",
+        "cross-border transfer",
+        "international transfer",
+        "해외 이전",
+        "적정성 결정",
+        "표준계약",
+        "BCR"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art28-8"
+      ],
+      "answer_cautions": [
+        "5개 근거 (동의 / 법률·조약 / 표준계약·인증 / 적정성 결정 / 기타 정보주체 권익 보호조치) 중 어느 것에 해당하는지 명시.",
+        "PIPC 가 중지 명령 (제28조의9) 을 발동할 수 있는 사유에 주의."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:dpia_impact_assessment",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "dpia_impact_assessment",
+      "title": "Personal Information Impact Assessment",
+      "summary": "개인정보 영향평가 (제33조) 의 대상 (공공기관의 일정 규모 개인정보파일), 절차, PIPC 제출 의무.",
+      "search_terms": [
+        "영향평가",
+        "PIA",
+        "DPIA",
+        "impact assessment",
+        "개인정보파일"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art33"
+      ],
+      "answer_cautions": [
+        "현행 PIPA 영향평가 의무는 공공기관 중심. 민간 자율 PIA 와 구분.",
+        "대상 규모 기준은 시행령에 위임 — 시행령 확인 필수."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:automated_decision_rights",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "automated_decision_rights",
+      "title": "Rights Regarding Automated Decision-Making",
+      "summary": "자동화된 결정에 대한 정보주체의 권리 (제37조의2). 2023년 신설, GDPR Art. 22 와 유사한 거부·설명 요구권.",
+      "search_terms": [
+        "자동화된 결정",
+        "automated decision",
+        "ADM",
+        "profiling",
+        "AI 의사결정"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art37-2"
+      ],
+      "answer_cautions": [
+        "거부권·설명요구권의 발동 요건과 제외 사유 (계약 체결·이행, 법령상 의무 등) 를 명확히 구분.",
+        "GDPR Art. 22 와 1:1 매칭 아님 — 비교 답변 시 차이 명시."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
+    {
+      "unified_id": "kr-pipa:enforcement_penalties",
+      "namespace": "kr-pipa",
+      "jurisdiction": "KR",
+      "original_id": "enforcement_penalties",
+      "title": "Enforcement, Administrative Sanctions, and Civil Liability",
+      "summary": "PIPC 의 시정조치 (제64조), 과징금 (제64조의2, 2023년 매출 3% 한도로 강화), 형사 벌칙 (제70조 이하), 민사 손해배상 (제39조).",
+      "search_terms": [
+        "과징금",
+        "벌칙",
+        "시정조치",
+        "손해배상",
+        "enforcement",
+        "penalty",
+        "fine",
+        "PIPC 처분"
+      ],
+      "authority_refs": [
+        "kr-pipa:pipa-art39",
+        "kr-pipa:pipa-art64",
+        "kr-pipa:pipa-art64-2"
+      ],
+      "answer_cautions": [
+        "2023년 개정 과징금 (전체 매출 3% 한도) 와 구 과태료의 차이 명확히.",
+        "PIPC 결정 (administrative) 과 법원 판결 (judicial) 을 혼동하지 말 것."
+      ],
+      "comparative_hooks": [],
+      "coverage_status": ""
+    },
     {
       "unified_id": "us-ca:notice_at_collection",
       "namespace": "us-ca",
@@ -194,7 +645,13 @@
         "private right of action",
         "reasonable security",
         "1798.150",
-        "breach notice"
+        "breach notice",
+        "breach notification",
+        "data-breach",
+        "1798.82",
+        "1798.29",
+        "personal information breach",
+        "security breach"
       ],
       "authority_refs": [
         "us-ca:ca-civ-1798.150",
@@ -203,6 +660,7 @@
         "us-ca:ca-civ-1798.82",
         "us-ca:ca-civ-1798.84",
         "us-ca:ca-oag-ccpa",
+        "us-ca:ca-supreme-brown-v-mortensen-2011",
         "us-ca:us-9th-in-re-california-pizza-kitchen-2025",
         "us-ca:us-fed-in-re-consumer-vehicle-driving-data-2026-mtd",
         "us-ca:us-fed-little-seeds-v-citibank-2025-mtd",
@@ -299,6 +757,8 @@
         "Age-Appropriate Design Code"
       ],
       "authority_refs": [
+        "us-ca:ca-11-ccr-7070",
+        "us-ca:ca-11-ccr-7071",
         "us-ca:ca-bpc-22584",
         "us-ca:ca-bpc-22585",
         "us-ca:ca-civ-1798.120",
@@ -343,6 +803,7 @@
         "us-ca:ca-pen-632.7",
         "us-ca:ca-pen-637.2",
         "us-ca:ca-pen-638.55",
+        "us-ca:ca-supreme-facebook-v-superior-court-2018",
         "us-ca:ca-supreme-flanagan-v-flanagan-2002",
         "us-ca:ca-supreme-kearney-v-salomon-smith-barney-2006",
         "us-ca:ca-supreme-smith-v-loanme-2021",
@@ -390,6 +851,7 @@
         "us-ca:ca-pen-637.2",
         "us-ca:ca-pen-638.50",
         "us-ca:ca-pen-638.51",
+        "us-ca:ca-supreme-kearney-v-salomon-smith-barney-2006",
         "us-ca:us-9th-javier-v-assurance-iq-2022",
         "us-ca:us-fed-gabrielli-v-motorola-2025-mtd",
         "us-ca:us-fed-garon-v-keleops-2025-mtd",

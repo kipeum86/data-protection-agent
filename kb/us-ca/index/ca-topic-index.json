@@ -1,7 +1,7 @@
 {
   "type": "ca_topic_index",
   "count": 13,
-  "generated_at": "2026-05-06T08:49:24+00:00",
+  "generated_at": "2026-05-06T13:16:34+00:00",
   "topics": [
     {
       "id": "notice_at_collection",
@@ -657,7 +657,13 @@
         "private right of action",
         "reasonable security",
         "1798.150",
-        "breach notice"
+        "breach notice",
+        "breach notification",
+        "data-breach",
+        "1798.82",
+        "1798.29",
+        "personal information breach",
+        "security breach"
       ],
       "primary_authorities": [
         {
@@ -776,6 +782,16 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "ca-supreme-brown-v-mortensen-2011",
+          "authority_group": "case",
+          "label": "Brown v. Mortensen",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/brown-v-mortensen-2011.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "answer_cautions": [
@@ -999,6 +1015,26 @@
           "source_family": "",
           "source_grade": "A",
           "authority_level": "",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7070",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7070",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7070.md",
+          "source_family": "ca-ccpa-regulations",
+          "source_grade": "A",
+          "authority_level": "binding",
+          "precedential_status": ""
+        },
+        {
+          "id": "ca-11-ccr-7071",
+          "authority_group": "regulation",
+          "label": "11 CCR § 7071",
+          "path": "library/grade-a/ca-ccpa-regulations/11-ccr-7071.md",
+          "source_family": "ca-ccpa-regulations",
+          "source_grade": "A",
+          "authority_level": "binding",
           "precedential_status": ""
         },
         {
@@ -1328,6 +1364,16 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "district_court_persuasive"
+        },
+        {
+          "id": "ca-supreme-facebook-v-superior-court-2018",
+          "authority_group": "case",
+          "label": "Facebook, Inc. v. Superior Court",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/facebook-v-superior-court-2018.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "answer_cautions": [
@@ -1461,6 +1507,16 @@
           "source_grade": "A",
           "authority_level": "persuasive",
           "precedential_status": "unpublished_non_citable"
+        },
+        {
+          "id": "ca-supreme-kearney-v-salomon-smith-barney-2006",
+          "authority_group": "case",
+          "label": "Kearney v. Salomon Smith Barney, Inc.",
+          "path": "library/grade-b/ca-courts-published-opinion-mirrors/kearney-v-salomon-smith-barney-2006.md",
+          "source_family": "ca-courts-published-opinion-mirrors",
+          "source_grade": "B",
+          "authority_level": "binding_ca_supreme",
+          "precedential_status": "published_citable"
         }
       ],
       "answer_cautions": [
@@ -2054,12 +2110,17 @@
       "cipa_website_tracking"
     ],
     "ca-supreme-brown-v-mortensen-2011": [
+      "data_breach_private_right",
       "sensitive_personal_information"
+    ],
+    "ca-supreme-facebook-v-superior-court-2018": [
+      "cipa_website_tracking"
     ],
     "ca-supreme-flanagan-v-flanagan-2002": [
       "cipa_website_tracking"
     ],
     "ca-supreme-kearney-v-salomon-smith-barney-2006": [
+      "cipa_pen_register_pixels",
       "cipa_website_tracking"
     ],
     "ca-supreme-raines-v-us-healthworks-2023": [

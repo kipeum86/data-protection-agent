@@ -1,0 +1,216 @@
+{
+  "type": "eu_topic_index",
+  "count": 8,
+  "generated_at": "2026-05-07T00:00:00+00:00",
+  "note": "Curated EU GDPR topic crosswalk for retrieval boost. Each topic ties a common privacy-law question to the controlling article(s) and supporting recital(s) or Chapter V provisions.",
+  "topics": [
+    {
+      "id": "breach_notification",
+      "title": "Personal Data Breach Notification and Communication",
+      "summary": "GDPR's two breach-response duties: notification to the supervisory authority within 72 hours of awareness (Art. 33) and communication to data subjects without undue delay when high-risk (Art. 34). Includes content requirements and the high-risk carve-outs.",
+      "search_terms": [
+        "breach notification",
+        "data breach",
+        "72 hours",
+        "supervisory authority",
+        "personal data breach",
+        "Art 33",
+        "Art 34"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art33", "label": "GDPR Art. 33 (notification to SA)", "path": "library/grade-a/gdpr/art33.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art34", "label": "GDPR Art. 34 (communication to data subject)", "path": "library/grade-a/gdpr/art34.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art32", "label": "GDPR Art. 32 (security of processing)", "path": "library/grade-a/gdpr/art32.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "72-hour rule is for SA only; subject-facing communication (Art. 34) is 'without undue delay' and gated by high-risk.",
+        "Art. 34(3) carve-outs (rendered unintelligible / risk eliminated / disproportionate effort) replace individual communication, not eliminate the SA notification."
+      ]
+    },
+    {
+      "id": "lawful_basis",
+      "title": "Lawful Basis for Processing and Conditions for Consent",
+      "summary": "GDPR Art. 6 lawful bases (consent, contract, legal obligation, vital interests, public task, legitimate interests) and the strict consent conditions of Art. 7 (and Art. 8 for children).",
+      "search_terms": [
+        "lawful basis",
+        "Article 6",
+        "consent",
+        "legitimate interest",
+        "contract necessity",
+        "처리 근거",
+        "GDPR consent"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art6", "label": "GDPR Art. 6 (lawfulness)", "path": "library/grade-a/gdpr/art6.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art7", "label": "GDPR Art. 7 (conditions for consent)", "path": "library/grade-a/gdpr/art7.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art8", "label": "GDPR Art. 8 (child consent)", "path": "library/grade-a/gdpr/art8.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-recitals-recital47", "label": "GDPR Recital 47 (legitimate interest balancing)", "path": "library/grade-a/gdpr-recitals/recital47.md", "source_grade": "A", "authority_group": "recital"}
+      ],
+      "answer_cautions": [
+        "Recitals are interpretive aids, not binding. Cite the underlying Article for binding rules.",
+        "Legitimate-interest balancing (6(1)(f)) requires a documented assessment; cannot be the default for direct marketing across all member states."
+      ]
+    },
+    {
+      "id": "data_subject_rights",
+      "title": "Data Subject Rights (Access / Rectification / Erasure / Restriction / Portability / Objection)",
+      "summary": "Chapter III rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), portability (Art. 20), objection (Art. 21).",
+      "search_terms": [
+        "right to access",
+        "right to erasure",
+        "right to be forgotten",
+        "data portability",
+        "right to object",
+        "rectification",
+        "data subject rights",
+        "Article 15"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art15", "label": "GDPR Art. 15 (right of access)", "path": "library/grade-a/gdpr/art15.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art17", "label": "GDPR Art. 17 (erasure / right to be forgotten)", "path": "library/grade-a/gdpr/art17.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art20", "label": "GDPR Art. 20 (data portability)", "path": "library/grade-a/gdpr/art20.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art16", "label": "GDPR Art. 16 (rectification)", "path": "library/grade-a/gdpr/art16.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art18", "label": "GDPR Art. 18 (restriction of processing)", "path": "library/grade-a/gdpr/art18.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art21", "label": "GDPR Art. 21 (right to object)", "path": "library/grade-a/gdpr/art21.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "Each right has different exemptions and grounds — do not flatten into one generic 'data subject right'.",
+        "One-month default response window (Art. 12(3)), extendable by two months for complex requests."
+      ]
+    },
+    {
+      "id": "special_categories_sensitive_data",
+      "title": "Special Categories of Personal Data (Sensitive Data)",
+      "summary": "GDPR Art. 9 prohibition on processing special categories (health, biometric, genetic, racial/ethnic, political, religious, trade-union, sex life/orientation) and the ten exhaustive derogations.",
+      "search_terms": [
+        "special categories",
+        "sensitive data",
+        "health data",
+        "biometric",
+        "genetic data",
+        "Article 9",
+        "racial origin",
+        "religious belief"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art9", "label": "GDPR Art. 9 (special categories)", "path": "library/grade-a/gdpr/art9.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-recitals-recital51", "label": "GDPR Recital 51 (special categories rationale)", "path": "library/grade-a/gdpr-recitals/recital51.md", "source_grade": "A", "authority_group": "recital"}
+      ],
+      "answer_cautions": [
+        "Art. 9 derogations are exhaustive — member-state law may add restrictions but cannot expand grounds.",
+        "Explicit consent under Art. 9(2)(a) is stricter than Art. 6 consent; document the explicit nature."
+      ]
+    },
+    {
+      "id": "international_transfers",
+      "title": "International Data Transfers (Chapter V)",
+      "summary": "Transfer of personal data to third countries: adequacy decisions (Art. 45), appropriate safeguards including SCCs and BCRs (Art. 46-47), and derogations for specific situations (Art. 49). Built on the Art. 44 general principle.",
+      "search_terms": [
+        "international transfer",
+        "third country transfer",
+        "adequacy decision",
+        "SCC",
+        "standard contractual clauses",
+        "BCR",
+        "binding corporate rules",
+        "Schrems",
+        "Article 44"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art44", "label": "GDPR Art. 44 (general principle for transfers)", "path": "library/grade-a/gdpr/art44.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art45", "label": "GDPR Art. 45 (adequacy decisions)", "path": "library/grade-a/gdpr/art45.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art46", "label": "GDPR Art. 46 (appropriate safeguards / SCCs)", "path": "library/grade-a/gdpr/art46.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art47", "label": "GDPR Art. 47 (binding corporate rules)", "path": "library/grade-a/gdpr/art47.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art49", "label": "GDPR Art. 49 (derogations)", "path": "library/grade-a/gdpr/art49.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "Schrems II (C-311/18) requires a transfer impact assessment even when SCCs are used; mention but do not over-claim.",
+        "Art. 49 derogations are narrowly construed and not for routine transfers."
+      ]
+    },
+    {
+      "id": "dpia_prior_consultation",
+      "title": "Data Protection Impact Assessment and Prior Consultation",
+      "summary": "When a DPIA is required (Art. 35) and the obligation to consult the supervisory authority before processing where residual high risk remains (Art. 36).",
+      "search_terms": [
+        "DPIA",
+        "data protection impact assessment",
+        "Article 35",
+        "prior consultation",
+        "high risk",
+        "Article 36"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art35", "label": "GDPR Art. 35 (DPIA)", "path": "library/grade-a/gdpr/art35.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art36", "label": "GDPR Art. 36 (prior consultation)", "path": "library/grade-a/gdpr/art36.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art37", "label": "GDPR Art. 37 (designation of DPO)", "path": "library/grade-a/gdpr/art37.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "Each member state's SA may publish a 'must DPIA' / 'never DPIA' list — local SA guidance overrides generic mapping.",
+        "DPIA is a process, not a one-off form; review when processing changes materially."
+      ]
+    },
+    {
+      "id": "automated_decision_making",
+      "title": "Automated Individual Decision-Making, Including Profiling",
+      "summary": "GDPR Art. 22 right not to be subject to a decision based solely on automated processing (including profiling) producing legal or similarly significant effects, with the three statutory exceptions.",
+      "search_terms": [
+        "automated decision",
+        "profiling",
+        "Article 22",
+        "AI decision",
+        "ADM",
+        "right not to be subject"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art22", "label": "GDPR Art. 22 (automated individual decision-making)", "path": "library/grade-a/gdpr/art22.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-recitals-recital71", "label": "GDPR Recital 71 (automated decision context)", "path": "library/grade-a/gdpr-recitals/recital71.md", "source_grade": "A", "authority_group": "recital"}
+      ],
+      "answer_cautions": [
+        "Art. 22 applies to decisions based 'solely' on automated processing — human-in-the-loop changes the analysis.",
+        "Three statutory exceptions (contract necessity / EU or member-state law / explicit consent) are exhaustive."
+      ]
+    },
+    {
+      "id": "enforcement_remedies",
+      "title": "Enforcement, Remedies, Liability, and Penalties",
+      "summary": "Right to lodge a complaint (Art. 77), right to compensation (Art. 82), and the two-tier administrative fines structure of Art. 83 (up to 10/20 million EUR or 2/4% of global turnover).",
+      "search_terms": [
+        "GDPR fine",
+        "enforcement",
+        "penalty",
+        "administrative fine",
+        "Article 83",
+        "complaint",
+        "Article 77",
+        "compensation",
+        "Article 82"
+      ],
+      "primary_authorities": [
+        {"id": "gdpr-art83", "label": "GDPR Art. 83 (administrative fines)", "path": "library/grade-a/gdpr/art83.md", "source_grade": "A", "authority_group": "statute"},
+        {"id": "gdpr-art82", "label": "GDPR Art. 82 (compensation and liability)", "path": "library/grade-a/gdpr/art82.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "supporting_authorities": [
+        {"id": "gdpr-art77", "label": "GDPR Art. 77 (right to lodge a complaint)", "path": "library/grade-a/gdpr/art77.md", "source_grade": "A", "authority_group": "statute"}
+      ],
+      "answer_cautions": [
+        "Art. 83 has TWO fine tiers — distinguish 10M/2% (lower-tier infringements) from 20M/4% (upper-tier infringements).",
+        "Compensation under Art. 82 is judicial; administrative fines under Art. 83 are imposed by the SA."
+      ]
+    }
+  ]
+}

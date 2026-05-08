@@ -259,11 +259,21 @@ def build_unified_authority_index() -> None:
     })
 
 
+TOPIC_INDEX_FILENAMES = {
+    "us-ca": "ca-topic-index.json",
+    "kr-pipa": "kr-topic-index.json",
+    "eu-gdpr": "eu-topic-index.json",
+}
+
+
 def build_unified_topic_index() -> None:
     topics = []
     for source in KB_SOURCES:
         namespace = source["namespace"]
-        topic_index = read_json(KB_ROOT / namespace / "index" / "ca-topic-index.json")
+        filename = TOPIC_INDEX_FILENAMES.get(namespace)
+        if not filename:
+            continue
+        topic_index = read_json(KB_ROOT / namespace / "index" / filename)
         if not topic_index:
             continue
         for topic in topic_index.get("topics", []):
@@ -288,7 +298,7 @@ def build_unified_topic_index() -> None:
         "type": "unified_topic_index",
         "generated_at": utc_now(),
         "count": len(topics),
-        "note": "Currently imports native topic indexes. GDPR/PIPA topic crosswalk can be added as a separate comparative seed layer.",
+        "note": "Imports per-namespace topic indexes (ca-topic-index.json / kr-topic-index.json / eu-topic-index.json).",
         "topics": topics,
     })
 
