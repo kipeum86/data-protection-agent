@@ -187,8 +187,8 @@ flowchart LR
         KBCA --> UI
     end
 
-    G -.v1.0.0 에서 흡수.-> KBEU
-    P -.v1.0.0 에서 흡수.-> KBKR
+    G -.-> KBEU
+    P -.-> KBKR
     SRC --> IM
     IM --> KBCA
     KBEU --> UI

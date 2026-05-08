@@ -187,8 +187,8 @@ flowchart LR
         KBCA --> UI
     end
 
-    G -.folded in at v1.0.0.-> KBEU
-    P -.folded in at v1.0.0.-> KBKR
+    G -.-> KBEU
+    P -.-> KBKR
     SRC --> IM
     IM --> KBCA
     KBEU --> UI
