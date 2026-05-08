@@ -20,6 +20,11 @@ data-protection-agent-result.md
 data-protection-agent-meta.json
 golden-set-report.json
 
+# Generated agent outputs (the file-name patterns above already cover the
+# v19 contract files; this dir entry catches anything else the agent or
+# dogfood runs may write — fixtures, deliverables, scratch outputs).
+outputs/
+
 # Build artifacts and logs
 dist/
 build/
