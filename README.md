@@ -2,6 +2,8 @@
 
 **[English](README.md)** · **[한국어](README.ko.md)**
 
+> Latest release: **[v1.0.0 — Initial public release](docs/releases/RELEASE-v1.0.0.md)**
+
 # Data Protection Agent
 
 ### KP Legal Orchestrator · Unified Privacy Research Across EU, Korea & California

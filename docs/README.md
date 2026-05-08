@@ -10,6 +10,9 @@
 - `rendering-examples.md` — v21+v22 deliverable rendering walkthrough
   (md / meta.json / docx / html for one worked question)
 - `kb-operations-guide.md` — build / refresh / verify the unified KB
+- `release-process.md` — versioning, release-note authoring, GitHub
+  Releases publishing cycle
+- `releases/RELEASE-vX.Y.Z.md` — per-release notes (EN + KO)
 - `sub-kb-operations/*.md` — per-sub-KB (CA / KR / EU) operational notes
 
 Planning documents, implementation drafts, hardening plans, session logs, and
