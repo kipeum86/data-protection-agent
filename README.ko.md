@@ -454,10 +454,14 @@ $OUTPUT_DIR/data-protection-agent-meta.json     # 구조화 메타데이터
 |:---|:---|:---|:---|
 | `canonical` (디폴트) | 변호사 / 패럴리갈 | Markdown | — |
 | `legal_opinion` | 의뢰인 / GC / 사내 법무팀 | Markdown + 자동 DOCX | `scripts/render-legal-opinion-docx.py` |
-| `executive_brief` | 의사결정자 / 임원 | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
-| `comparative_matrix` | Cross-juris 비교 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
-| `enforcement_case_law` | 소송 / enforcement 리스크 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
-| `black_letter_commentary` | 학술 / 주석서 reader | Markdown (+ 옵션 DOCX) | `scripts/render-docx.py` |
+| `executive_brief` | 의사결정자 / 임원 | Markdown (+ 옵션 DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `comparative_matrix` | Cross-juris 비교 reader | Markdown (+ 옵션 DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `enforcement_case_law` | 소송 / enforcement 리스크 reader | Markdown (+ 옵션 DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+| `black_letter_commentary` | 학술 / 주석서 reader | Markdown (+ 옵션 DOCX/HTML) | `scripts/render-docx.py` / `scripts/render-html.py` |
+
+모든 output mode 는 **`--html` 플래그**로 HTML 렌더링도 가능 (v22 추가, vendored `scripts/render-html.py`, marko 기반, self-contained 스타일 문서 — browser/email/intranet circulation 용도). DOCX 와 HTML 은 독립적으로 작동, 조합 가능.
+
+`/answer` 한 번 호출로 4개 출력 형태 (`*.md` / `*-meta.json` / `*.docx` / `*.html`) 모두 생성하는 worked example: [`docs/rendering-examples.md`](docs/rendering-examples.md).
 
 `legal_opinion` 렌더러 (`scripts/render-legal-opinion-docx.py`) 는 한국어 디폴트 표지 페이지 컨벤션 (`수신인: 사내 법무팀 귀중`, 기밀 분류 `CONFIDENTIAL — INTERNAL LEGAL REVIEW`, 날짜 `YYYY년 M월 D일`) 과 영문 디폴트를 모두 ship 합니다. 모든 디폴트는 CLI 플래그로 override 가능. 언어별 formatter profile 은 `knowledge/legal-writing/` 에 위치:
 
@@ -486,9 +490,16 @@ python3 scripts/render-legal-opinion-docx.py \
   --date "$(date +'%Y년 %-m월 %-d일')" \
   --classification "CONFIDENTIAL — INTERNAL LEGAL REVIEW" \
   --author "Data Protection Agent (data-protection-agent)"
+
+# v22 HTML — 브라우저 viewable, self-contained, 외부 의존 없음
+python3 scripts/render-html.py \
+  outputs/data-protection-agent/data-protection-agent-result.md \
+  outputs/data-protection-agent/data-protection-agent-result.html \
+  --title "AI 자동화 결정 — 3법역 검토" \
+  --lang ko
 ```
 
-`requirements.txt` 가 렌더러 의존성 `python-docx>=1.1.0` 핀.
+`requirements.txt` 가 `python-docx>=1.1.0` (DOCX) + `marko>=2.0.0` (HTML) 핀.
 
 ---
 

@@ -153,6 +153,13 @@ Standard answer-generation workflow:
    from `legal-research-agent`; see `knowledge/legal-writing/` for the
    per-language profiles (`ko-legal-opinion-profile.md`,
    `en-formatter-profile.md`, etc.).
+9. **Optional HTML rendering (v22)** - when the user passed `--html`, render
+   the deliverable to a self-contained styled HTML document via
+   `scripts/render-html.py` (marko-based, vendored from `legal-research-agent`,
+   no external CSS/JS dependencies). Independent of `--docx`; the two flags
+   may be combined to emit all four output forms (md + meta.json + docx + html)
+   in a single `OUTPUT_DIR`. See `docs/rendering-examples.md` for a worked
+   example.
 
 `research_mode` (which sub-KB to query) and `output_mode` (how to format the
 deliverable) are orthogonal axes. Research mode is mandatory and locks at
@@ -163,4 +170,4 @@ For ad-hoc retrieval-only use, `scripts/run_data_protection_agent.py` still
 emits a research packet. The packet is not a finished answer; it is input to
 steps 4-5 above.
 
-[Last reviewed: 2026-05-08]
+[Last reviewed: 2026-05-08 (v22)]

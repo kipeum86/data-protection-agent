@@ -2,11 +2,15 @@
 
 `docs/` is for stable, repository-safe operating documentation:
 
-- `agent-protocol.md`
-- `auditors.md`
-- `examples.md`
-- `kb-operations-guide.md`
-- `sub-kb-operations/*.md`
+- `agent-protocol.md` — runtime protocol (v19+ workflow, output contract,
+  output_mode axis added in v21)
+- `auditors.md` — full catalog of 30+ citation auditor checks across the
+  4-layer auditor stack
+- `examples.md` — 7 worked citation-auditor I/O examples
+- `rendering-examples.md` — v21+v22 deliverable rendering walkthrough
+  (md / meta.json / docx / html for one worked question)
+- `kb-operations-guide.md` — build / refresh / verify the unified KB
+- `sub-kb-operations/*.md` — per-sub-KB (CA / KR / EU) operational notes
 
 Planning documents, implementation drafts, hardening plans, session logs, and
 scratch notes belong under `.local/`, which is ignored by git. Use:
